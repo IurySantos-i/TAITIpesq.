@@ -1,0 +1,167 @@
+--aea00b5f--2016-10-18--Peter Woo
+--12779739--2016-10-18--Peter Woo
+3	1	app/assets/javascripts/application/tools/call.js
+
+--cb711e18--2016-10-18--Peter Woo
+13	15	features/support/env.rb
+4	2	spec/lib/call_tool_spec.rb
+
+--a318da3d--2016-10-18--Peter Woo
+2	2	app/assets/javascripts/admin/email_tabulation.js
+1	1	app/controllers/congress_controller.rb
+2	2	app/controllers/tools_controller.rb
+32	0	app/models/congress_member.rb
+16	0	db/migrate/20161018212449_create_congress_members.rb
+14	1	db/schema.rb
+0	81	lib/congress/member.rb
+52	0	lib/tasks/congress.rake
+2	2	spec/controllers/congress_controller_spec.rb
+0	59	spec/lib/congress/member_spec.rb
+38	0	spec/models/congress_member_spec.rb
+
+--59100938--2016-10-18--V Brown
+--229fa5ad--2016-10-18--Peter Woo
+2	0	app/views/tools/_call.html.erb
+
+--fe5a262c--2016-10-18--Peter Woo
+1	1	config/initializers/filter_parameter_logging.rb
+
+--8e0433a0--2016-10-18--Peter Woo
+1	1	app/assets/javascripts/application/tools/email.js.erb
+1	1	app/assets/javascripts/application/tools/tweet.js
+2	2	app/controllers/tools_controller.rb
+
+--1b08f930--2016-10-18--V Brown
+--049ec8c2--2016-10-18--V Brown
+--d7e4c731--2016-10-17--Peter Woo
+1	1	app/controllers/tools_controller.rb
+
+--ece00875--2016-10-17--Peter Woo
+--50229a8d--2016-10-17--Peter Woo
+6	4	app/views/admin/action_pages/_panel_content.html.erb
+
+--b84de9d7--2016-10-17--vivian
+1	1	app/views/action_page/index.json.jbuilder
+
+--18269898--2016-10-17--Peter Woo
+0	3	.gitignore
+
+--85ae1a89--2016-10-17--Peter Woo
+1	1	app/controllers/action_page_controller.rb
+3	1	app/controllers/admin/action_pages_controller.rb
+3	7	app/models/action_page.rb
+2	0	app/models/category.rb
+4	6	app/views/admin/action_pages/_panel_content.html.erb
+9	0	db/migrate/20161017233304_create_categories.rb
+6	0	db/migrate/20161017233352_add_category_id_to_action_pages.rb
+8	2	db/schema.rb
+0	19	lib/category.rb
+2	1	spec/controllers/action_page_controller_spec.rb
+4	0	spec/factories/categories.rb
+
+--1c23b993--2016-10-17--V Brown
+--3c7ad714--2016-10-17--Peter Woo
+3	3	spec/controllers/action_page_controller_spec.rb
+
+--059d537c--2016-10-17--Peter Woo
+1	1	app/controllers/action_page_controller.rb
+
+--b449e08e--2016-10-17--Peter Woo
+2	2	.gitignore
+1	1	app/controllers/admin/action_pages_controller.rb
+3	3	app/models/action_page.rb
+3	3	app/views/admin/action_pages/_panel_content.html.erb
+5	0	db/migrate/20161017180108_rename_action_pages_issue_to_action_pages_category.rb
+2	2	db/schema.rb
+3	3	lib/{issue.rb => category.rb}
+
+--b18fe52e--2016-10-14--Peter Woo
+--9cf379b2--2016-10-13--vivian
+1	1	app/assets/stylesheets/application/_base.css.scss
+1	1	app/views/tools/_email.html.erb
+1	1	app/views/tools/_petition.html.erb
+1	1	app/views/tools/_save_my_info_option.html.erb
+
+--b5824557--2016-10-13--vivian
+4	8	app/assets/stylesheets/action_page.css.scss
+6	3	app/assets/stylesheets/admin/_edit.css.scss
+1	2	app/views/admin/action_pages/_panel_settings.html.erb
+1	1	app/views/admin/action_pages/_panel_victory.html.erb
+
+--697f5ff7--2016-10-13--Peter Woo
+5	3	features/step_definitions/user_steps.rb
+1	1	features/support/call_tool_mock.rb
+16	3	features/support/env.rb
+2	2	features/users/call_action.feature
+
+--f918122c--2016-10-13--Peter Woo
+--9906648d--2016-10-13--vivian
+1	0	app/views/action_page/index.json.jbuilder
+
+--a3461c41--2016-10-13--Peter Woo
+1	1	spec/controllers/congress_controller_spec.rb
+0	1	spec/controllers/tools_controller_spec.rb
+59	0	spec/lib/congress/member_spec.rb
+0	48	spec/lib/congress_spec.rb
+
+--d80e04c2--2016-10-13--Peter Woo
+3	1	lib/call_tool.rb
+
+--2039820a--2016-10-13--Peter Woo
+1	3	app/views/tools/_call.html.erb
+
+--2af9828b--2016-10-13--Peter Woo
+3	3	app/assets/javascripts/application/tools/call.js
+
+--11f13081--2016-10-13--Peter Woo
+1	1	app/assets/javascripts/application/tools/call.js
+
+--77a33d21--2016-10-12--Peter Woo
+0	10	app/controllers/admin/petitions_controller.rb
+0	16	app/controllers/tools_controller.rb
+0	1	config/routes.rb
+
+--5ec0b976--2016-10-12--Peter Woo
+0	1	Gemfile
+0	8	Gemfile.lock
+8	6	app/assets/javascripts/application/tools/email.js.erb
+18	27	app/assets/javascripts/application/tools/tweet.js
+1	9	app/controllers/action_page_controller.rb
+1	1	app/controllers/congress_controller.rb
+2	14	app/controllers/tools_controller.rb
+1	1	config/application.rb
+0	1	config/secrets.yml
+0	1	docker-compose.yml.example
+0	20	lib/congress.rb
+81	0	lib/congress/member.rb
+10	0	lib/smarty_streets.rb
+
+--de53fe8b--2016-10-11--vivian
+1	1	app/controllers/action_page_controller.rb
+10	0	app/views/action_page/index.json.jbuilder
+8	4	spec/controllers/action_page_controller_spec.rb
+
+--9c3c002f--2016-10-11--Peter Woo
+6	4	app/views/admin/action_pages/_panel_content.html.erb
+12	2	lib/issue.rb
+
+--cf5c94d5--2016-10-11--vivian
+3	0	app/controllers/action_page_controller.rb
+14	0	spec/controllers/action_page_controller_spec.rb
+
+--066cb5a1--2016-10-11--Peter Woo
+1	1	app/controllers/admin/action_pages_controller.rb
+7	0	app/models/action_page.rb
+5	0	app/views/admin/action_pages/_panel_content.html.erb
+
+--a66534c9--2016-10-11--Peter Woo
+1	1	lib/issue.rb
+
+--019039f6--2016-10-11--Peter Woo
+3	0	.gitignore
+5	0	db/migrate/20161011172943_add_issue_to_action_pages.rb
+2	1	db/schema.rb
+9	0	lib/issue.rb
+
+--b14ef719--2016-10-04--vivian
+5	1	app/assets/stylesheets/application/_base.css.scss

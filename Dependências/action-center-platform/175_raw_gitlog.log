@@ -1,0 +1,119 @@
+--537f230c--2016-09-29--Peter Woo
+--5e69f2ee--2016-09-29--V Brown
+--1abc60ef--2016-09-29--vivian
+6	2	app/views/admin/petitions/show.html.erb
+
+--ead592cd--2016-09-28--V Brown
+--1487d282--2016-09-27--Peter Woo
+3	3	features/admin/petitions/delete_signatures.feature
+2	2	features/step_definitions/admin/features_steps.rb
+
+--a5453ebe--2016-09-27--Peter Woo
+0	1	app/assets/javascripts/admin.js
+
+--5cda0582--2016-09-27--Peter Woo
+1	2	features/support/env.rb
+
+--ff8ba3ff--2016-09-27--Peter Woo
+17	18	app/views/admin/petitions/show.html.erb
+
+--bb5d259b--2016-09-27--Peter Woo
+1	1	app/assets/stylesheets/admin/_petitions.css.scss
+12	9	app/views/admin/petitions/show.html.erb
+
+--e841f9b1--2016-09-27--Peter Woo
+0	1	app/controllers/admin/action_pages_controller.rb
+0	1	app/controllers/admin/application_controller.rb
+0	2	app/controllers/tools_controller.rb
+0	2	app/models/action_page.rb
+0	1	app/models/source_file.rb
+2	0	config/application.rb
+0	1	lib/tasks/signatures.rake
+0	1	spec/controllers/tools_controller_spec.rb
+0	1	spec/lib/call_tool_spec.rb
+
+--778efe8e--2016-09-27--V Brown
+--b0ccab37--2016-09-27--Peter Woo
+2	1	features/support/env.rb
+
+--99e5bed4--2016-09-26--Peter Woo
+3	0	features/support/call_tool_mock.rb
+
+--4c35f767--2016-09-26--Peter Woo
+2	9	features/step_definitions/user_steps.rb
+18	0	features/support/call_tool_mock.rb
+2	0	features/support/env.rb
+
+--a1259f38--2016-09-26--Peter Woo
+37	0	spec/models/institution_spec.rb
+
+--7734a6eb--2016-09-26--Peter Woo
+1	9	app/controllers/action_page_controller.rb
+4	1	app/controllers/admin/action_pages_controller.rb
+11	0	app/models/institution.rb
+
+--f966358b--2016-09-26--Peter Woo
+6	3	app/assets/javascripts/admin.js
+
+--149fe067--2016-09-26--Peter Woo
+0	9	features/users/call_action.feature
+15	0	features/users/call_action_custom_target.feature
+
+--a4dda6e0--2016-09-26--V Brown
+--139e4857--2016-09-26--Peter Woo
+25	0	features/users/call_action.feature
+
+--c49522bf--2016-09-26--Peter Woo
+49	0	features/step_definitions/user_steps.rb
+2	0	spec/factories/call_campaigns.rb
+
+--85ab15e6--2016-09-26--Peter Woo
+12	37	app/assets/javascripts/application/tools/call.js
+2	4	app/controllers/tools_controller.rb
+13	12	app/views/tools/_call.html.erb
+0	1	config/routes.rb
+
+--b0ee0597--2016-09-23--Peter Woo
+1	1	app/views/admin/petitions/show.html.erb
+
+--0462b98f--2016-09-23--Peter Woo
+2	2	app/controllers/admin/petitions_controller.rb
+1	1	app/views/admin/petitions/show.html.erb
+
+--22c683a6--2016-09-23--Peter Woo
+1	1	app/views/admin/petitions/show.html.erb
+
+--a322be3a--2016-09-23--Peter Woo
+1	4	app/assets/javascripts/admin.js
+6	0	app/assets/javascripts/admin/petitions.js
+
+--22e03803--2016-09-23--Peter Woo
+19	0	features/admin/petitions/delete_signatures.feature
+18	0	features/admin/petitions/search_signatures.feature
+54	0	features/step_definitions/admin/features_steps.rb
+68	0	spec/controllers/admin/petitions_controller_spec.rb
+28	0	spec/models/signature_spec.rb
+
+--05e803ad--2016-09-23--Peter Woo
+4	0	app/assets/javascripts/admin.js
+24	0	app/assets/stylesheets/admin/_petitions.css.scss
+1	0	app/assets/stylesheets/admin/admin.css.scss
+20	3	app/controllers/admin/petitions_controller.rb
+10	0	app/models/signature.rb
+44	15	app/views/admin/petitions/show.html.erb
+1	0	config/routes.rb
+
+--48eff0c0--2016-09-22--Peter Woo
+--1af113b4--2016-09-21--Peter Woo
+1	2	features/admin_action_page/admin_affiliations.feature
+1	0	features/admin_action_page/enable_affiliations.feature
+8	6	features/step_definitions/navigation_steps.rb
+
+--35babeff--2016-09-21--Peter Woo
+11	2	Dockerfile
+1	2	Gemfile
+11	8	Gemfile.lock
+4	21	features/support/env.rb
+
+--d86cd0a3--2016-09-20--mark burdett
+1	1	config/environments/production.rb

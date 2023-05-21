@@ -1,0 +1,20 @@
+import os
+import shutil
+
+# specify the path to the directory containing the Excel files
+excel_path = "C:/Users/Marcos/Documents/Pesquisa TAITI/Dependências"
+
+# loop through all files in the directory
+for filename in os.listdir(excel_path):
+    if filename.endswith(".xlsx") and filename.startswith("tasks_"):
+        # extract the name of the folder
+        folder_name = filename.split(".")[0].split("_")[-1]
+
+        # create the folder if it doesn't exist
+        folder_path = os.path.join(excel_path, folder_name)
+        if not os.path.exists(folder_path):
+            os.mkdir(folder_path)
+
+        # copy the Excel file into the folder
+        file_path = os.path.join(excel_path, filename)
+        shutil.copy(file_path, folder_path)
