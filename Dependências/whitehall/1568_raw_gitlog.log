@@ -1,0 +1,29 @@
+--43927200ad--2016-02-15--Paul Hayes
+--2351d471c4--2016-02-15--Jamie Cobbett
+--d76f4e22e3--2016-02-15--Jamie Cobbett
+2	0	app/models/document.rb
+9	0	db/migrate/20160212160106_make_document_content_id_not_null.rb
+2	2	db/schema.rb
+1	0	test/factories/documents.rb
+
+--bc519cb486--2016-02-11--Paul Hayes
+12	1	app/views/corporate_information_pages/show.html.erb
+0	11	app/views/shared/_govspeak_header_contents.html.erb
+
+--0ee3ab04e8--2016-02-11--Paul Hayes
+0	1	app/assets/stylesheets/frontend/base.scss
+0	37	app/assets/stylesheets/frontend/views/_about_pages.scss
+0	7	app/controllers/about_pages_controller.rb
+0	31	app/views/about_pages/show.html.erb
+4	0	config/routes.rb
+3	6	features/step_definitions/topical_event_steps.rb
+1	2	features/topical_events.feature
+0	12	test/functional/about_pages_controller_test.rb
+
+--64ce34c220--2016-02-11--Tatiana Soukiassian
+--204d0cd284--2016-02-11--Tatiana Soukiassian
+2	0	db/data_migration/20160211164516_republish_topical_event_about_pages_to_publishing_api.rb
+
+--e464468e4a--2016-02-11--Tatiana Soukiassian
+1	1	app/presenters/publishing_api_presenters/topical_event_about_page.rb
+1	1	test/unit/presenters/publishing_api_presenters/topical_event_about_page_test.rb

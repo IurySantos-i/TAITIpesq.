@@ -1,0 +1,47 @@
+--af8299f8--2015-07-30--Alan Thomas
+--be4cb3b6--2015-07-30--ansonK
+1	1	features/step_definitions/petition_steps.rb
+
+--73bd48da--2015-07-30--Alan Thomas
+--6ed84348--2015-07-30--Alan Thomas
+--9da63bcb--2015-07-30--Alan Thomas
+--31793816--2015-07-30--ansonK
+8	1	app/controllers/signatures_controller.rb
+4	0	app/models/signature.rb
+5	0	db/migrate/20150730110838_add_seen_signed_confirmation_page_to_signatures.rb
+4	1	db/structure.sql
+5	0	features/step_definitions/common_steps.rb
+1	1	features/step_definitions/petition_steps.rb
+9	0	features/step_definitions/signature_steps.rb
+6	0	features/suzie_signs_a_petition.feature
+42	16	spec/controllers/signatures_controller_spec.rb
+6	4	spec/factories.rb
+
+--7d12e1be--2015-07-29--Henry Hadlow
+1	1	app/views/local_petitions/index.html.erb
+
+--8d8339e3--2015-07-23--Henry Hadlow
+0	8	app/views/admin/petitions/_petition_details.html.erb
+1	1	app/views/petitions/_rejected_petition_show.html.erb
+3	3	config/locales/rejections.en-GB.yml
+4	4	features/suzie_views_a_petition.feature
+
+--23c7a4ec--2015-07-23--Henry Hadlow
+2	1	app/views/petitions/search/result_items/_petition_result_for_facet_with_response.html.erb
+
+--5e745448--2015-07-23--Henry Hadlow
+3	3	config/locales/petitions.en-GB.yml
+10	10	spec/helpers/date_time_helper_spec.rb
+
+--e0683384--2015-07-23--Henry Hadlow
+8	1	app/views/petitions/search/result_items/_petition_result_for_facet_all.html.erb
+
+--c3d96d14--2015-07-23--Henry Hadlow
+5	1	app/assets/stylesheets/petitions/views/_petition-show.scss
+4	3	app/views/petitions/_open_petition_show.html.erb
+
+--d4a3fb31--2015-07-29--Henry Hadlow
+1	0	app/assets/stylesheets/petitions/_typography.scss
+
+--4bb4ce6d--2015-07-24--Andrew White
+1	0	config/appsignal.yml

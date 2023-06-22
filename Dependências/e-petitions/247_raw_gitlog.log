@@ -1,0 +1,29 @@
+--bda05910--2015-07-03--alanth
+--1ad0b8e2--2015-07-03--Pete Herlihy
+1	1	features/suzie_searches_by_free_text.feature
+
+--6d82dc0d--2015-07-03--Pete Herlihy
+2	2	features/suzie_views_all_petitions.feature
+
+--daf44048--2015-07-03--Pete Herlihy
+2	2	config/locales/petitions.en-GB.yml
+
+--c0bd50bd--2015-07-03--Murray Steele
+--d2c68c65--2015-07-03--Pete Herlihy
+1	1	app/views/petitions/index.html.erb
+
+--87404ae9--2015-07-02--Alexander Bobin
+3	3	app/views/pages/index.html.erb
+
+--b12f69b9--2015-07-01--Alexander Bobin
+17	0	app/assets/stylesheets/petitions/views/_home.scss
+21	19	app/helpers/home_helper.rb
+18	0	app/views/pages/_home_debated_petitions.html.erb
+13	0	app/views/pages/_home_responded_petitions.html.erb
+6	6	app/views/pages/index.html.erb
+44	9	features/step_definitions/actioned_steps.rb
+23	9	features/suzie_sees_actioned_petitions.feature
+
+--a4cb92b2--2015-07-01--Alexander Bobin
+0	4	features/step_definitions/search_steps.rb
+0	8	features/suzie_views_front_page_without_moderated_petitions.feature

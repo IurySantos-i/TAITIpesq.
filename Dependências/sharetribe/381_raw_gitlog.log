@@ -1,0 +1,7 @@
+--913c249f4--2017-11-15--Valdis Pornieks
+--800391ad5--2017-11-15--Valdis Pornieks
+--42ecec67e--2017-11-14--Valdis Pornieks
+9	0	app/view_utils/stripe_helper.rb
+5	0	app/views/admin/communities/settings.haml
+6	0	app/views/admin/payment_preferences/_payment_settings.haml
+1	0	config/locales/en.yml

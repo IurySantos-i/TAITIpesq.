@@ -1,0 +1,206 @@
+--e0ffd7c63--2011-09-27--Gonzalo Rodriguez
+--f9172c873--2011-09-26--Ilya Zhitomirskiy
+1	1	app/helpers/aspect_global_helper.rb
+6	0	app/views/users/getting_started.haml
+4	4	config/locales/diaspora/en.yml
+2	2	config/locales/javascript/javascript.en.yml
+3	0	public/stylesheets/sass/application.sass
+
+--675908a57--2011-09-26--Ilya Zhitomirskiy
+15	1	app/views/users/getting_started.haml
+4	0	config/locales/diaspora/en.yml
+16	4	public/stylesheets/sass/application.sass
+
+--a9263780a--2011-09-26--Maxwell Salzberg
+--1e1fe011e--2011-09-26--bdjnk
+1	0	public/stylesheets/sass/application.sass
+
+--afd1913de--2011-09-26--Ilya Zhitomirskiy
+2	0	app/views/admins/_admin_bar.haml
+2	0	config/application.yml.example
+1	1	config/routes.rb
+
+--b27b5dba1--2011-09-26--danielgrippi
+4	4	db/schema.rb
+
+--ce5c1ef00--2011-09-26--Daniel Grippi
+--df86bc579--2011-09-26--Andreas Schneider
+2	2	db/migrate/0000_create_schema.rb
+2	0	db/migrate/20110907205720_add_indexes_to_serivces.rb
+14	0	db/migrate/20110926120220_fix_indexes_to_serivces.rb
+
+--4bd1f0997--2011-09-25--danielgrippi
+7	1	app/controllers/application_controller.rb
+1	1	app/controllers/users_controller.rb
+1	1	spec/controllers/sessions_controller_spec.rb
+
+--131166841--2011-09-25--danielgrippi
+4	0	app/controllers/application_controller.rb
+7	1	app/controllers/users_controller.rb
+37	0	app/views/users/logged_out.haml
+6	0	config/locales/diaspora/en.yml
+3	1	config/routes.rb
+2	1	features/logs_in_and_out.feature
+-	-	public/images/mobile.jpg
+16	0	public/stylesheets/sass/application.sass
+
+--95ad70932--2011-09-24--Maxwell Salzberg
+1	2	config/routes.rb
+
+--049eb74ab--2011-09-24--Maxwell Salzberg
+11	1	app/controllers/users_controller.rb
+2	0	config/routes.rb
+12	0	spec/controllers/users_controller_spec.rb
+
+--be0053681--2011-09-24--Gonzalo Rodriguez
+1	1	app/helpers/people_helper.rb
+
+--6ffcec088--2011-09-24--Jonne Hass
+3	3	config/locales/devise/devise.de.yml
+3	3	config/locales/devise/devise.el.yml
+3	3	config/locales/devise/devise.fi.yml
+7	7	config/locales/devise/devise.pt-BR.yml
+10	10	config/locales/devise/devise.sv.yml
+25	25	config/locales/devise/devise.tr.yml
+15	6	config/locales/diaspora/ar.yml
+15	6	config/locales/diaspora/bg.yml
+9	0	config/locales/diaspora/br.yml
+9	0	config/locales/diaspora/cs.yml
+9	0	config/locales/diaspora/cy.yml
+9	0	config/locales/diaspora/da.yml
+12	3	config/locales/diaspora/de.yml
+32	23	config/locales/diaspora/el.yml
+9	0	config/locales/diaspora/en_pirate.yml
+9	0	config/locales/diaspora/en_shaw.yml
+9	0	config/locales/diaspora/eo.yml
+9	0	config/locales/diaspora/es-AR.yml
+67	58	config/locales/diaspora/es-CL.yml
+17	8	config/locales/diaspora/es.yml
+9	0	config/locales/diaspora/eu.yml
+67	58	config/locales/diaspora/fi.yml
+52	43	config/locales/diaspora/fr.yml
+9	0	config/locales/diaspora/ga.yml
+9	0	config/locales/diaspora/he.yml
+9	0	config/locales/diaspora/hu.yml
+9	0	config/locales/diaspora/id.yml
+9	0	config/locales/diaspora/is.yml
+15	6	config/locales/diaspora/it.yml
+9	0	config/locales/diaspora/ja.yml
+9	0	config/locales/diaspora/ko.yml
+9	0	config/locales/diaspora/lt.yml
+9	0	config/locales/diaspora/mk.yml
+48	39	config/locales/diaspora/nb.yml
+9	0	config/locales/diaspora/nl.yml
+9	0	config/locales/diaspora/nn.yml
+9	0	config/locales/diaspora/pa.yml
+45	36	config/locales/diaspora/pl.yml
+9	0	config/locales/diaspora/pt-BR.yml
+45	36	config/locales/diaspora/pt-PT.yml
+9	0	config/locales/diaspora/ro.yml
+16	7	config/locales/diaspora/ru.yml
+9	0	config/locales/diaspora/sk.yml
+9	0	config/locales/diaspora/sl.yml
+77	68	config/locales/diaspora/sv.yml
+191	182	config/locales/diaspora/tr.yml
+9	0	config/locales/diaspora/ur-PK.yml
+9	0	config/locales/diaspora/zh-CN.yml
+14	5	config/locales/diaspora/zh-TW.yml
+2	2	config/locales/javascript/javascript.de.yml
+4	4	config/locales/javascript/javascript.nb.yml
+11	11	config/locales/javascript/javascript.sv.yml
+19	19	config/locales/javascript/javascript.tr.yml
+
+--a009c37d6--2011-09-23--Ilya Zhitomirskiy
+2	2	features/accepts_invitation.feature
+1	1	features/signs_up.feature
+7	0	features/step_definitions/custom_web_steps.rb
+2	4	spec/controllers/tag_followings_controller_spec.rb
+
+--720721633--2011-09-23--Ilya Zhitomirskiy
+-	-	public/images/icons/check_yes_ok_lighter.png
+
+--461cb2210--2011-09-23--Ilya Zhitomirskiy
+15	0	app/controllers/application_controller.rb
+0	14	app/controllers/aspects_controller.rb
+1	1	app/controllers/tag_followings_controller.rb
+12	0	app/helpers/getting_started_helper.rb
+2	2	app/views/tags/_followed_tags_listings.haml
+3	7	app/views/users/getting_started.haml
+1	1	config/locales/diaspora/en.yml
+21	0	public/stylesheets/sass/application.sass
+
+--494ab8b13--2011-09-23--Ilya Zhitomirskiy
+17	12	app/views/users/getting_started.haml
+2	0	config/locales/diaspora/en.yml
+
+--faa045138--2011-09-23--Ilya Zhitomirskiy
+4	5	lib/aspect_stream.rb
+30	47	spec/lib/aspect_stream_spec.rb
+
+--ff1cb665e--2011-09-22--Ilya Zhitomirskiy
+5	4	lib/aspect_stream.rb
+47	30	spec/lib/aspect_stream_spec.rb
+
+--2e96f0121--2011-09-22--Raphael Sofaer
+0	2	config/application.yml.example
+2	0	multi-server-spec-Procfile
+3	10	spec/multi_server/comment_spec.rb
+3	10	spec/multi_server/post_spec.rb
+3	10	spec/multi_server/reshare_spec.rb
+3	8	spec/multi_server/server_spec.rb
+15	0	spec/support/server.rb
+
+--f8c05851f--2011-09-21--Ilya Zhitomirskiy
+2	0	app/views/shared/_right_sections.html.haml
+1	0	config/locales/diaspora/en.yml
+
+--4fb62afa2--2011-09-21--Ilya Zhitomirskiy
+2	2	app/helpers/people_helper.rb
+12	12	app/views/users/getting_started.haml
+1	0	config/locales/diaspora/en.yml
+
+--386697f71--2011-09-21--Ilya Zhitomirskiy
+6	4	app/controllers/admins_controller.rb
+
+--c98f2d166--2011-09-21--Ilya Zhitomirskiy
+12	0	app/controllers/admins_controller.rb
+1	0	app/views/admins/_admin_bar.haml
+13	0	app/views/admins/weekly_user_stats.haml
+1	0	config/routes.rb
+
+--346e1f1c8--2011-09-20--Sarah Mei
+2	2	config/locales/diaspora/en.yml
+
+--3e51fca9c--2011-09-20--Ilya Zhitomirskiy
+10	2	lib/csv_generator.rb
+
+--24be48d66--2011-09-20--Gonzalo Rodriguez
+1	1	app/models/profile.rb
+20	0	spec/models/profile_spec.rb
+
+--8187fb9dd--2011-09-20--Maxwell Salzberg
+23	19	app/views/shared/_right_sections.html.haml
+3	3	config/locales/diaspora/en.yml
+
+--4f17dbf36--2011-09-11--Gonzalo Rodriguez
+3	6	public/javascripts/widgets/aspect-navigation.js
+
+--37c67c23c--2011-09-11--Gonzalo Rodriguez
+9	11	public/javascripts/widgets/aspect-navigation.js
+
+--04786bc43--2011-09-08--Gonzalo Rodriguez
+2	2	app/views/aspects/_aspect_listings.haml
+3	0	config/locales/javascript/javascript.en.yml
+6	6	features/posts_from_main_page.feature
+51	22	public/javascripts/widgets/aspect-navigation.js
+7	0	public/stylesheets/sass/application.sass
+
+--6131d5d29--2011-09-08--Gonzalo Rodriguez
+--2057c8fcf--2011-09-05--Dan Hansen & Gonzalo Rodriguez
+0	1	config/assets.yml
+0	173	public/javascripts/aspect-filters.js
+1	0	public/javascripts/pages/aspects-index.js
+4	4	public/javascripts/publisher.js
+122	0	public/javascripts/widgets/aspect-navigation.js
+0	13	spec/javascripts/aspect-filters-spec.js
+0	1	spec/javascripts/support/jasmine.yml

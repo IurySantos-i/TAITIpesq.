@@ -1,0 +1,56 @@
+--d010ed0e--2010-06-14--Dhruv Kapadia
+--1ed69800--2010-06-14--Dhruv Kapadia
+1	1	app/views/home/admin.html.haml
+1	1	app/views/questions/admin.html.haml
+1	0	features/admin/toggle_choice_activation.feature
+22	0	features/admin/toggle_ideaautoactivation.feature
+2	0	features/step_definitions/voting_steps.rb
+3	6	public/javascripts/application.js
+
+--e15e4575--2010-06-14--Chap Ambrose
+--6f92b8c9--2010-06-14--Chap Ambrose
+18	3	app/views/photocracy/earls/show.haml
+3	2	app/views/photocracy/layouts/application.html.haml
+28	1	public/javascripts/photocracy/application.js
+4	0	public/stylesheets/photocracy/application.css
+5	0	public/stylesheets/photocracy/application.scss
+
+--c35aa993--2010-06-14--Chap Ambrose
+-	-	public/images/{ => photocracy}/ui-bg_flat_0_aaaaaa_40x100.png
+-	-	public/images/{ => photocracy}/ui-bg_flat_75_ffffff_40x100.png
+-	-	public/images/{ => photocracy}/ui-bg_glass_55_fbf9ee_1x400.png
+-	-	public/images/{ => photocracy}/ui-bg_glass_65_ffffff_1x400.png
+-	-	public/images/{ => photocracy}/ui-bg_glass_75_dadada_1x400.png
+-	-	public/images/{ => photocracy}/ui-bg_glass_75_e6e6e6_1x400.png
+-	-	public/images/{ => photocracy}/ui-bg_glass_95_fef1ec_1x400.png
+-	-	public/images/{ => photocracy}/ui-bg_highlight-soft_75_cccccc_1x100.png
+-	-	public/images/{ => photocracy}/ui-icons_222222_256x240.png
+-	-	public/images/{ => photocracy}/ui-icons_2e83ff_256x240.png
+-	-	public/images/{ => photocracy}/ui-icons_454545_256x240.png
+-	-	public/images/{ => photocracy}/ui-icons_888888_256x240.png
+-	-	public/images/{ => photocracy}/ui-icons_cd0a0a_256x240.png
+393	0	public/javascripts/photocracy/jquery-ui.min.js
+154	0	public/javascripts/photocracy/jquery.min.js
+486	0	public/stylesheets/photocracy/jquery-ui.css
+
+--327e32ec--2010-06-03--Chap Ambrose
+9	10	public/javascripts/photocracy/application.js
+
+--98cd4635--2010-06-03--Chap Ambrose
+3	3	app/views/photocracy/layouts/application.html.haml
+-	-	public/images/ui-bg_flat_0_aaaaaa_40x100.png
+-	-	public/images/ui-bg_flat_75_ffffff_40x100.png
+-	-	public/images/ui-bg_glass_55_fbf9ee_1x400.png
+-	-	public/images/ui-bg_glass_65_ffffff_1x400.png
+-	-	public/images/ui-bg_glass_75_dadada_1x400.png
+-	-	public/images/ui-bg_glass_75_e6e6e6_1x400.png
+-	-	public/images/ui-bg_glass_95_fef1ec_1x400.png
+-	-	public/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+-	-	public/images/ui-icons_222222_256x240.png
+-	-	public/images/ui-icons_2e83ff_256x240.png
+-	-	public/images/ui-icons_454545_256x240.png
+-	-	public/images/ui-icons_888888_256x240.png
+-	-	public/images/ui-icons_cd0a0a_256x240.png
+
+--a56a3cf1--2010-06-03--Chap Ambrose
+1	1	public/javascripts/photocracy/application.js

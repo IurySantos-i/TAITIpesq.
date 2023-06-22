@@ -1,0 +1,50 @@
+--39defd6f0--2015-05-12--Himal Mandalia
+--b72a8effd--2015-05-12--Himal Mandalia
+--c54e1e933--2015-05-12--Himal Mandalia
+7	3	app/controllers/advocates/claims_controller.rb
+29	0	app/views/advocates/claims/_claims.html.haml
+13	27	app/views/advocates/claims/index.html.haml
+2	2	features/step_definitions/advocate_claims_list_steps.rb
+36	5	spec/controllers/advocates/claims_controller_spec.rb
+
+--4c6605bda--2015-05-08--Todd Tyree
+1	0	Gemfile
+6	0	Gemfile.lock
+7	6	app/controllers/advocates/claims_controller.rb
+23	22	app/models/claim.rb
+71	8	app/models/claims/state_machine.rb
+8	0	db/migrate/20150511103114_amend_claim_add_valid_until.rb
+13	0	db/migrate/20150511152610_create_versions.rb
+14	1	db/schema.rb
+4	2	features/advocate_claims.feature
+15	1	features/step_definitions/advocate_claims_steps.rb
+1	0	spec/controllers/advocates/claims_controller_spec.rb
+2	0	spec/factories/claims.rb
+16	0	spec/models/claims/state_machine_scopes_spec.rb
+74	78	spec/models/claims/state_machine_spec.rb
+92	0	spec/models/claims/totals_spec.rb
+
+--30f61a16c--2015-05-12--Stephen Strudwick
+--505a4593e--2015-05-12--Stephen Strudwick
+2	1	docker/rails/run.sh
+
+--e65236bf6--2015-05-11--Mark Ford
+--8ca6e898f--2015-05-11--Himal Mandalia
+4	0	app/views/advocates/claims/index.html.haml
+
+--144bbed1b--2015-05-11--Himal Mandalia
+5	1	app/controllers/advocates/claims_controller.rb
+1	0	app/models/chamber.rb
+2	1	app/views/advocates/claims/index.html.haml
+15	0	features/advocate_claims_list.feature
+1	1	features/{advocate_claims.feature => advocate_new_claim.feature}
+54	0	features/step_definitions/advocate_claims_list_steps.rb
+0	0	features/step_definitions/{advocate_claims_steps.rb => advocate_new_claim_steps.rb}
+17	3	spec/controllers/advocates/claims_controller_spec.rb
+1	0	spec/models/chamber_spec.rb
+
+--8231e03a2--2015-05-11--jsugarman
+0	22	app/assets/javascripts/advocates/claims/new.js
+26	0	app/assets/javascripts/advocates/claims/new_claim.js
+10	6	app/assets/javascripts/application.js
+1	1	app/views/advocates/claims/_dynamic_offence_fields.html.haml

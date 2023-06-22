@@ -1,0 +1,84 @@
+--bea4861d--2013-07-15--Chris Mear
+--17f7f7a2--2013-07-15--Chris Mear
+5	0	features/support/env.rb
+5	0	spec/spec_helper.rb
+
+--331ee3ac--2013-07-15--Chris Mear
+1	0	features/support/env.rb
+1	0	spec/spec_helper.rb
+
+--343e42de--2013-07-12--Chris Mear
+1	1	Gemfile
+1	1	Gemfile.lock
+
+--6c94911f--2013-07-12--Chris Mear
+1	1	Gemfile.lock
+
+--48f3d0ac--2013-07-11--Chris Mear
+4	1	app/models/coop.rb
+
+--6c15722f--2013-07-10--Chris Mear
+93	0	app/assets/stylesheets/coop_rules_pdf.css
+0	16	app/assets/stylesheets/pdf.css
+18	3	app/controllers/application_controller.rb
+14	2	app/controllers/constitutions_controller.rb
+3	0	app/views/constitutions/coop/show.pdf.haml
+
+--8b03719d--2013-07-10--Chris Mear
+8	8	app/views/registration_forms/edit.html.haml
+
+--1dbcb579--2013-07-10--Chris Mear
+4	4	app/views/registration_forms/edit.html.haml
+
+--0fc0e347--2013-07-10--Chris Mear
+1	0	app/views/registration_forms/edit.html.haml
+
+--22219654--2013-07-10--Chris Mear
+2	2	app/views/registration_forms/edit.html.haml
+
+--51f7f935--2013-07-10--Chris Mear
+1	1	app/controllers/registration_forms_controller.rb
+1	1	app/views/registration_forms/edit.html.haml
+6	6	spec/controllers/registration_forms_controller_spec.rb
+3	2	spec/views/registration_forms/edit.html.haml_spec.rb
+
+--983b8614--2013-07-10--Chris Mear
+7	5	db/seeds.rb
+
+--0169d75a--2013-07-10--Chris Mear
+3	0	app/controllers/registration_forms_controller.rb
+17	2	app/models/coop.rb
+1	1	app/models/member.rb
+7	0	app/views/registration_forms/edit.html.haml
+14	0	features/coop/founding/editing_registration_form.feature
+8	0	features/step_definitions/coop_member_steps.rb
+20	0	features/step_definitions/coop_registration_steps.rb
+4	0	features/support/paths.rb
+34	2	spec/controllers/registration_forms_controller_spec.rb
+67	0	spec/models/coop_spec.rb
+35	2	spec/views/registration_forms/edit.html.haml_spec.rb
+
+--58804223--2013-07-10--Chris Mear
+2	15	app/controllers/registration_forms_controller.rb
+3	15	app/models/coop.rb
+0	7	app/views/registration_forms/edit.html.haml
+0	1	features/step_definitions/coop_registration_steps.rb
+0	1	spec/controllers/registration_forms_controller_spec.rb
+
+--3562930e--2013-07-10--Chris Mear
+1	1	app/views/registration_forms/edit.html.haml
+
+--6ecc5954--2013-07-10--Chris Mear
+3	3	app/controllers/registration_forms_controller.rb
+
+--5815d33b--2013-07-10--Chris Mear
+-	-	data/pdf_form_filler/fca/mutuals-new-ip-form.pdf
+129	0	data/pdf_form_filler/fca/mutuals-new-ip-form.yml
+72	0	data/pdf_form_filler/fca/mutuals-new-ip-form_data.yml
+
+--ca6e038b--2013-07-10--Chris Mear
+1	1	Gemfile
+2	2	Gemfile.lock
+
+--e8830448--2013-07-10--Chris Mear
+1	1	app/views/registration_forms/edit.html.haml

@@ -1,0 +1,21 @@
+--754f0d7e--2010-07-20--tubergen
+--9745862c--2010-07-20--tubergen
+5	2	app/views/widget/earls/_vote_box_js.html.erb
+2	0	features/step_definitions/voting_steps.rb
+3	1	features/support/paths.rb
+2	2	features/widget/different_view_paths.feature
+3	1	features/widget/voting/widget_add_idea.feature
+40	0	features/widget/voting/widget_cantdecide.feature
+61	0	features/widget/voting/widget_flag_as_inappropriate.feature
+
+--86273ce9--2010-07-20--Chap Ambrose
+1	1	app/controllers/earls_controller.rb
+1	0	app/controllers/questions_controller.rb
+1	1	app/views/idea_mailer/flag_notification.erb
+1	1	app/views/photocracy/questions/add_photos.html.haml
+
+--5f281682--2010-07-19--tubergen
+9	13	app/views/widget/earls/_vote_box_js.html.erb
+2	0	features/support/paths.rb
+20	0	features/widget/different_view_paths.feature
+28	0	features/widget/voting/widget_add_idea.feature

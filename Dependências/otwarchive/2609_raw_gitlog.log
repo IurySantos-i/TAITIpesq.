@@ -1,0 +1,44 @@
+--8c02c4393--2011-05-28--pixel
+--e6a418775--2011-05-28--Cesy
+0	7	app/views/challenge_signups/_show_requests.html.erb
+3	3	features/challenge_promptmeme.feature
+1	0	features/step_definitions/challenge_steps.rb
+0	4	features/step_definitions/email_custom_steps.rb
+
+--0f7de633d--2011-05-28--pixel
+--3126d8025--2011-05-28--Cesy
+0	1	features/step_definitions/email_custom_steps.rb
+
+--e14d1f3ba--2011-05-23--Cesy
+6	6	app/views/challenge_signups/_show_requests.html.erb
+
+--16ad79811--2011-05-22--Cesy
+5	4	app/views/challenge_signups/_promptmeme_signup_form.html.erb
+8	1	app/views/challenge_signups/_show_requests.html.erb
+12	4	app/views/challenge_signups/_signup_controls.html.erb
+8	10	app/views/prompts/_prompt_form.html.erb
+4	3	features/challenge_promptmeme.feature
+
+--8552381f3--2011-05-22--Cesy
+4	4	app/mailers/user_mailer.rb
+
+--90db23df2--2011-05-22--Cesy
+2	2	app/controllers/challenge_signups_controller.rb
+77	0	app/mailers/user_mailer.rb
+8	0	app/models/challenge_signup_observer.rb
+4	4	app/views/challenge_signups/_signup_controls.html.erb
+20	0	features/challenge_promptmeme.feature
+18	7	features/step_definitions/challenge_steps.rb
+9	0	features/step_definitions/email_custom_steps.rb
+1	1	features/work_delete.feature
+
+--36f0e3cb2--2011-05-21--Cesy
+0	18	features/challenge_promptmeme.feature
+1	1	features/step_definitions/work_steps.rb
+
+--4faa41f69--2011-05-20--Cesy
+16	0	features/challenge_promptmeme.feature
+1	1	features/step_definitions/work_steps.rb
+
+--68c5405d4--2011-05-28--Cesy
+1	1	app/views/challenge_assignments/_user_index.html.erb

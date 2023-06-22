@@ -1,0 +1,48 @@
+--ffb4b888--2011-08-19--Chris Mear
+--cb1a972f--2011-08-19--Chris Mear
+9	0	CHANGELOG.txt
+1	1	lib/one_click_orgs/version.rb
+
+--868c278f--2011-08-17--Chris Mear
+1	1	app/views/proposals/show.html.haml
+4	0	spec/support/stubs.rb
+43	0	spec/views/proposals/show.html.haml_spec.rb
+
+--a75cb306--2011-08-17--Chris Mear
+13	0	config/initializers/haml_filters.rb
+16	0	spec/views/proposals/_description.html.haml_spec.rb
+
+--7cc5b743--2011-08-16--Chris Mear
+4	1	app/mailers/oco_mailer.rb
+16	0	lib/one_click_orgs/mail_helper.rb
+16	0	spec/mailers/oco_mailer_spec.rb
+
+--537a98e8--2011-08-18--Chris Mear
+5	2	app/models/member.rb
+19	0	features/notifications/show_failed_proposal.feature
+
+--d5c09b9a--2011-08-17--Chris Mear
+1	1	app/views/proposals/show.html.haml
+4	0	spec/support/stubs.rb
+43	0	spec/views/proposals/show.html.haml_spec.rb
+
+--909af766--2011-08-17--Chris Mear
+13	0	config/initializers/haml_filters.rb
+16	0	spec/views/proposals/_description.html.haml_spec.rb
+
+--ccbad530--2011-08-16--Chris Mear
+4	1	app/mailers/oco_mailer.rb
+16	0	lib/one_click_orgs/mail_helper.rb
+16	0	spec/mailers/oco_mailer_spec.rb
+
+--f03b78b6--2011-08-18--Chris Mear
+5	2	app/models/member.rb
+19	0	features/notifications/show_failed_proposal.feature
+
+--5b88fb41--2011-08-18--Chris Mear
+1	1	app/models/add_member_proposal.rb
+7	0	app/models/member.rb
+14	0	spec/models/member_spec.rb
+
+--ff6053ef--2011-08-18--Chris Mear
+1	2	db/migrate/20110806145549_add_role.rb

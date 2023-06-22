@@ -1,0 +1,785 @@
+--f08dd90ef8--2014-09-01--GrouchPotato
+--6e3195f16b--2014-09-01--Will Tomlins
+21	7	app/models/frontend/statistics_announcements_filter.rb
+
+--1bc8f9cb1e--2014-08-29--Richard Boulton
+--ea4a9b95e4--2014-08-29--Jordan Hatch
+--cd8cc4dd22--2014-08-29--Richard Boulton
+1	1	test/javascripts/unit/admin/views/statistics_announcements/_form_test.js
+
+--ac4632bd9c--2014-08-29--Daniel Roseman
+--de033e8a9c--2014-08-29--Richard Boulton
+--dbe59a7cc0--2014-08-29--Jordan Hatch
+4	0	app/models/specialist_sector.rb
+
+--00ce05e4ce--2014-08-29--Daniel Roseman
+0	3	app/views/admin/organisations/_form.html.erb
+2	3	app/views/admin/organisations/new.html.erb
+
+--5a69f5f12d--2014-08-28--Richard Boulton
+8	0	app/controllers/application_controller.rb
+10	0	app/models/organisation.rb
+41	0	test/functional/application_controller_search_parameters_test.rb
+
+--576b236e7c--2014-08-28--Richard Boulton
+1	1	Gemfile
+3	3	Gemfile.lock
+
+--ec83c2ea3e--2014-08-29--Alex Tomlins
+--6ca8bb7fb4--2014-08-29--Paul Hayes
+11	7	app/assets/javascripts/admin/views/statistics_announcement_dates/_form.js
+
+--7ede873917--2014-08-29--Daniel Roseman
+1	0	features/organisations.feature
+5	0	features/step_definitions/session_steps.rb
+5	0	test/factories/users.rb
+25	1	test/functional/admin/organisations_controller_test.rb
+21	0	test/unit/whitehall/authority/gds_admin_test.rb
+
+--ee4e0211d4--2014-08-29--Daniel Roseman
+5	0	app/controllers/admin/organisations_controller.rb
+3	2	app/views/admin/organisations/index.html.erb
+2	0	lib/whitehall/authority/rules/organisation_rules.rb
+
+--566cd00c38--2014-08-28--Daniel Roseman
+5	0	app/models/user.rb
+
+--3c21e60c16--2014-08-28--Tom Russell
+--15eecff9d2--2014-08-28--Tom Russell
+7	0	app/assets/stylesheets/frontend/views/_html-publications.scss
+
+--c125df819c--2014-08-14--Dominic Baggott
+8	0	app/assets/stylesheets/frontend/helpers/_govspeak.scss
+
+--331342c74e--2014-08-13--Tom Russell
+30	0	db/migrate/20140820093930_update_attachment_legislative_list_syntax.rb
+1	1	db/schema.rb
+
+--da6468701b--2014-08-14--Dominic Baggott
+6	1	Gemfile
+
+--40c3b62312--2014-08-28--Elliot Crosby-McCullough
+--7897279e88--2014-08-28--Jake Benilov
+--bbfaac5ed5--2014-08-28--bishboria
+--b054fdcc4e--2014-08-27--Elliot Crosby-McCullough
+41	0	lib/data_hygiene/specialist_sector_cleanup.rb
+37	0	lib/tasks/data_hygiene.rake
+4	0	test/factories/specialist_sector.rb
+55	0	test/unit/data_hygiene/specialist_sector_cleanup_test.rb
+
+--3139b593e5--2014-08-27--Vinay Patel
+1	1	Gemfile
+2	2	Gemfile.lock
+
+--f9ef4dce83--2014-08-27--bishboria
+--6fa94bbccc--2014-08-27--Stuart Gale
+2	1	app/helpers/person_helper.rb
+1	1	app/views/admin/role_appointments/_form.html.erb
+
+--d246cbbb1b--2014-08-27--Daniel Roseman
+--218fb852b6--2014-08-27--Jake Benilov
+0	1	app/assets/stylesheets/frontend/views/_html-publications.scss
+0	4	app/assets/stylesheets/frontend/views/_layouts.scss
+
+--d7b123f6e1--2014-08-26--Bradley Wright
+20	0	LICENCE
+
+--ca87f1ffcc--2014-08-26--Daniel Roseman
+--2c05d40eed--2014-08-26--bishboria
+--45722359d6--2014-08-26--Tekin Suleyman
+--9a299b129c--2014-08-26--Tekin Suleyman
+1	1	app/models/statistics_announcement.rb
+7	0	test/unit/statistics_announcement_test.rb
+
+--ded5c304b6--2014-08-26--Stuart Gale
+3	3	app/assets/stylesheets/frontend/views/_detailed_guides.scss
+
+--32a2612fb2--2014-08-26--Tekin Suleyman
+--d7973193cf--2014-08-26--Tekin Suleyman
+1	1	app/models/statistics_announcement.rb
+
+--ba511cf9e0--2014-08-19--Will Tomlins
+15	1	app/models/frontend/statistics_announcements_filter.rb
+12	3	features/step_definitions/statistics_announcement_steps.rb
+2	1	features/viewing-statistics-announcements.feature
+3	0	lib/development_mode_stubs/fake_rummager_api_for_statistics_announcements.rb
+8	0	test/unit/development_mode_stubs/fake_rummager_api_for_statistics_announcements_test.rb
+23	4	test/unit/models/frontend/statistics_announcement_filter_test.rb
+
+--6e31ad4a05--2014-08-19--Daniel Roseman
+1	1	app/assets/javascripts/admin/views/editions/_form.js
+2	1	app/controllers/admin/consultations_controller.rb
+2	1	app/controllers/admin/corporate_information_pages_controller.rb
+8	4	app/controllers/admin/editions_controller.rb
+2	1	app/controllers/admin/policies_controller.rb
+1	1	app/controllers/admin/publications_controller.rb
+2	1	app/controllers/admin/supporting_pages_controller.rb
+2	1	app/controllers/admin/worldwide_priorities_controller.rb
+15	10	app/models/edition.rb
+4	4	app/views/admin/editions/_first_published_at.html.erb
+2	2	features/step_definitions/detailed_guide_steps.rb
+8	8	features/support/document_helper.rb
+1	1	features/support/fatalities_helper.rb
+1	1	test/factories/editions.rb
+1	1	test/functional/admin/document_collections_controller_test.rb
+4	4	test/functional/admin/publications_controller_test.rb
+2	2	test/functional/admin/world_location_news_articles_controller_test.rb
+7	7	test/javascripts/unit/admin/views/editions/_form_test.js
+21	11	test/unit/edition_test.rb
+
+--ab6ff6cc7c--2014-08-22--bishboria
+--d3c51ed880--2014-08-22--Stuart Gale
+30	0	app/helpers/person_helper.rb
+5	4	app/models/person.rb
+1	1	app/views/admin/role_appointments/_form.html.erb
+
+--f705fe4961--2014-08-22--Daniel Roseman
+--815ddc6e57--2014-08-22--Daniel Roseman
+--57c80b9810--2014-08-22--Paul Hayes
+--9ae4a92738--2014-08-22--Paul Hayes
+1	7	app/views/admin/editions/_govspeak_help.html.erb
+
+--414e1ed2fc--2014-08-22--Vinay Patel
+10	0	db/data_migration/20140822081728_slug_change_for_vat_notice_7002.rb
+
+--69a4bd193c--2014-08-21--Tekin Suleyman
+12	0	db/data_migration/20140821165929_change_unpublishing_type_on_publication.rb
+
+--1b7483cdac--2014-08-21--Tekin Suleyman
+22	0	db/data_migration/20140821164643_destroy_and_redirect_duplicate_stats_announcements.rb
+
+--dbab08f650--2014-08-21--Stuart Gale
+1	1	app/controllers/admin/contact_translations_controller.rb
+1	1	app/controllers/admin/edition_translations_controller.rb
+1	1	app/controllers/admin/organisation_translations_controller.rb
+1	1	app/controllers/admin/person_translations_controller.rb
+1	1	app/controllers/admin/role_translations_controller.rb
+1	1	app/controllers/admin/world_location_translations_controller.rb
+1	1	app/controllers/admin/worldwide_office_translations_controller.rb
+1	1	app/controllers/admin/worldwide_organisations_translations_controller.rb
+1	1	app/views/detailed_guides/show.html.erb
+1	0	config/locales/ar.yml
+1	0	config/locales/az.yml
+1	0	config/locales/be.yml
+1	0	config/locales/bg.yml
+1	0	config/locales/bn.yml
+1	0	config/locales/cs.yml
+1	0	config/locales/cy.yml
+1	0	config/locales/de.yml
+1	0	config/locales/dr.yml
+1	0	config/locales/el.yml
+1	0	config/locales/en.yml
+2	1	config/locales/es-419.yml
+1	0	config/locales/es.yml
+1	0	config/locales/fa.yml
+1	0	config/locales/fr.yml
+1	0	config/locales/he.yml
+1	0	config/locales/hi.yml
+1	0	config/locales/hu.yml
+1	0	config/locales/hy.yml
+1	0	config/locales/id.yml
+1	0	config/locales/it.yml
+1	0	config/locales/ja.yml
+1	0	config/locales/ka.yml
+1	0	config/locales/ko.yml
+1	0	config/locales/lt.yml
+1	0	config/locales/lv.yml
+1	0	config/locales/ms.yml
+1	0	config/locales/pl.yml
+1	0	config/locales/ps.yml
+1	0	config/locales/pt.yml
+1	0	config/locales/ro.yml
+1	0	config/locales/ru.yml
+1	0	config/locales/si.yml
+1	0	config/locales/sk.yml
+1	0	config/locales/so.yml
+1	0	config/locales/sq.yml
+1	0	config/locales/sr.yml
+1	0	config/locales/sw.yml
+1	0	config/locales/ta.yml
+1	0	config/locales/th.yml
+1	0	config/locales/tk.yml
+1	0	config/locales/tr.yml
+1	0	config/locales/uk.yml
+1	0	config/locales/ur.yml
+1	0	config/locales/uz.yml
+1	0	config/locales/vi.yml
+1	0	config/locales/zh-hk.yml
+1	0	config/locales/zh-tw.yml
+1	0	config/locales/zh.yml
+
+--e32a289743--2014-08-15--Daniel Roseman
+16	11	app/assets/javascripts/admin/views/editions/_form.js
+5	2	app/assets/stylesheets/admin/forms.scss
+5	1	app/models/edition.rb
+6	6	app/views/admin/editions/_first_published_at.html.erb
+1	1	test/functional/admin/publications_controller_test.rb
+72	0	test/javascripts/unit/admin/views/editions/_form_test.js
+1	1	test/unit/edition_test.rb
+
+--0ba06ec612--2014-08-14--Daniel Roseman
+1	0	app/controllers/admin/publications_controller.rb
+1	1	app/models/edition.rb
+1	1	app/views/admin/editions/_first_published_at.html.erb
+2	2	features/step_definitions/detailed_guide_steps.rb
+0	1	features/step_definitions/world_location_news_article_steps.rb
+17	7	features/support/document_helper.rb
+1	1	features/support/fatalities_helper.rb
+10	0	test/functional/admin/publications_controller_test.rb
+
+--783cde9c70--2014-08-13--Daniel Roseman
+28	0	test/unit/edition_test.rb
+
+--044467c103--2014-08-13--Daniel Roseman
+3	0	app/controllers/admin/consultations_controller.rb
+3	0	app/controllers/admin/corporate_information_pages_controller.rb
+3	0	app/controllers/admin/policies_controller.rb
+3	0	app/controllers/admin/supporting_pages_controller.rb
+3	0	app/controllers/admin/worldwide_priorities_controller.rb
+0	0	app/views/admin/consultations/_first_published_at.html.erb
+0	2	app/views/admin/detailed_guides/_form.html.erb
+0	2	app/views/admin/document_collections/_form.html.erb
+2	0	app/views/admin/editions/_standard_fields.html.erb
+0	2	app/views/admin/fatality_notices/_form.html.erb
+0	2	app/views/admin/news_articles/_form.html.erb
+0	0	app/views/admin/policies/_first_published_at.html.erb
+0	2	app/views/admin/publications/_form.html.erb
+0	2	app/views/admin/speeches/_form.html.erb
+0	2	app/views/admin/statistical_data_sets/_form.html.erb
+0	0	app/views/admin/supporting_pages/_first_published_at.html.erb
+0	2	app/views/admin/supporting_pages/_form.html.erb
+0	2	app/views/admin/world_location_news_articles/_form.html.erb
+0	0	app/views/admin/worldwide_priorities/_first_published_at.html.erb
+
+--6b3f803bce--2014-08-12--Daniel Roseman
+24	0	app/assets/javascripts/admin/views/editions/_form.js
+19	0	app/assets/stylesheets/admin/forms.scss
+6	1	app/controllers/admin/editions_controller.rb
+21	0	app/models/edition.rb
+31	9	app/views/admin/editions/_first_published_at.html.erb
+1	0	test/factories/editions.rb
+2	1	test/functional/admin/document_collections_controller_test.rb
+4	2	test/functional/admin/world_location_news_articles_controller_test.rb
+2	2	test/support/admin_edition_controller_test_helpers.rb
+
+--57f679e8c4--2014-08-20--Stuart Gale
+7	0	app/models/person.rb
+1	1	app/views/admin/role_appointments/_form.html.erb
+
+--0ec1c02be3--2014-08-20--Stuart Gale
+10	10	config/locales/cy.yml
+
+--061830f3bf--2014-08-20--Paul Hayes
+--11487c04c0--2014-08-20--Paul Hayes
+9	2	app/views/admin/editions/_govspeak_help.html.erb
+
+--2765f63730--2014-08-20--Paul Hayes
+1	1	app/views/admin/editions/_words_to_avoid_guidance.html.erb
+
+--4a679f6b73--2014-08-20--Paul Hayes
+2	2	app/views/admin/editions/_govspeak_help.html.erb
+
+--64f6f319d7--2014-08-20--Paul Hayes
+6	2	app/views/admin/editions/_govspeak_help.html.erb
+
+--86631c7162--2014-08-20--Paul Hayes
+11	11	app/views/admin/editions/_govspeak_help.html.erb
+
+--12c270fddd--2014-08-20--Paul Hayes
+2	1	app/views/admin/classification_featurings/index.html.erb
+2	1	app/views/admin/feature_lists/_feature_list.html.erb
+
+--35c70c046d--2014-08-20--Paul Hayes
+1	1	app/views/admin/dashboard/index.html.erb
+
+--5e7275ae05--2014-08-20--Paul Hayes
+5	0	app/assets/stylesheets/admin/views/editions/_filter_options.scss
+
+--b1db9afff5--2014-08-20--Paul Hayes
+0	1	app/assets/stylesheets/admin/views/editions/_filter_options.scss
+
+--0fa4e16dad--2014-08-19--Paul Hayes
+73	72	app/views/admin/editions/_search_results.html.erb
+31	25	app/views/admin/feature_lists/_featurable_editions.html.erb
+
+--1b4794a971--2014-08-19--Paul Hayes
+4	2	app/views/admin/feature_lists/_search_results.html.erb
+
+--00b9525088--2014-08-19--Paul Hayes
+1	1	app/views/admin/editions/_search_results.html.erb
+2	2	app/views/admin/feature_lists/_featurable_editions.html.erb
+
+--b26e55a7ce--2014-08-19--Paul Hayes
+0	7	app/assets/stylesheets/admin/layout.scss
+2	2	app/views/admin/feature_lists/_feature_list.html.erb
+
+--db1184af87--2014-08-19--Paul Hayes
+7	5	app/models/admin/edition_filter.rb
+2	1	test/functional/admin/editions_controller_test.rb
+15	14	test/unit/admin/edition_filter_test.rb
+
+--c00f9fbaab--2014-08-19--Paul Hayes
+4	4	app/views/admin/editions/_search_results.html.erb
+
+--e224d9bd82--2014-08-19--Paul Hayes
+1	1	app/views/admin/editions/_filter_options.html.erb
+
+--fb22f1df3e--2014-08-19--Paul Hayes
+2	2	app/views/admin/editions/_filter_options.html.erb
+
+--e5ebc6b4f4--2014-08-19--Paul Hayes
+1	1	app/views/admin/editions/_filter_options.html.erb
+
+--ece5e826ca--2014-08-20--Paul Hayes
+--6526d3a1d0--2014-08-20--Paul Hayes
+--c0d34042f9--2014-08-19--Paul Hayes
+1	0	app/assets/stylesheets/admin/helpers/_document_list.scss
+
+--fa5c343934--2014-08-19--GrouchPotato
+--f2a4f29610--2014-08-19--Paul Hayes
+7	6	app/assets/javascripts/admin/views/statistics_announcement_dates/_form.js
+14	0	app/assets/stylesheets/admin/govuk_admin_template/emulate/_forms.scss
+4	9	test/javascripts/unit/admin/views/statistics_announcements/_form_test.js
+
+--bda0f68e71--2014-08-18--Stuart Gale
+178	17	config/locales/ar.yml
+6	5	config/locales/az.yml
+95	14	config/locales/be.yml
+11	10	config/locales/bg.yml
+11	10	config/locales/bn.yml
+53	12	config/locales/cs.yml
+174	13	config/locales/cy.yml
+11	10	config/locales/de.yml
+11	10	config/locales/dr.yml
+11	10	config/locales/el.yml
+12	11	config/locales/es-419.yml
+11	10	config/locales/es.yml
+6	5	config/locales/fa.yml
+11	10	config/locales/fr.yml
+95	14	config/locales/he.yml
+11	10	config/locales/hi.yml
+6	5	config/locales/hu.yml
+11	10	config/locales/hy.yml
+6	5	config/locales/id.yml
+11	10	config/locales/it.yml
+6	5	config/locales/ja.yml
+6	5	config/locales/ka.yml
+6	5	config/locales/ko.yml
+53	12	config/locales/lt.yml
+11	10	config/locales/lv.yml
+6	5	config/locales/ms.yml
+95	14	config/locales/pl.yml
+11	10	config/locales/ps.yml
+11	10	config/locales/pt.yml
+53	12	config/locales/ro.yml
+95	14	config/locales/ru.yml
+11	10	config/locales/si.yml
+59	18	config/locales/sk.yml
+11	10	config/locales/so.yml
+11	10	config/locales/sq.yml
+95	14	config/locales/sr.yml
+11	10	config/locales/sw.yml
+11	10	config/locales/ta.yml
+6	5	config/locales/th.yml
+11	10	config/locales/tk.yml
+6	5	config/locales/tr.yml
+95	14	config/locales/uk.yml
+11	10	config/locales/ur.yml
+11	10	config/locales/uz.yml
+6	5	config/locales/vi.yml
+6	5	config/locales/zh-hk.yml
+6	5	config/locales/zh-tw.yml
+6	5	config/locales/zh.yml
+
+--faaa584e6e--2014-08-18--Elliot Crosby-McCullough
+--9386a4672a--2014-08-18--Tekin Suleyman
+--db543658d3--2014-08-18--Stuart Gale
+1	1	app/{controllers/admin => }/concerns/translation_controller_concern.rb
+1	1	app/controllers/admin/contact_translations_controller.rb
+1	1	app/controllers/admin/edition_translations_controller.rb
+1	1	app/controllers/admin/organisation_translations_controller.rb
+1	1	app/controllers/admin/person_translations_controller.rb
+1	1	app/controllers/admin/role_translations_controller.rb
+1	1	app/controllers/admin/world_location_translations_controller.rb
+1	1	app/controllers/admin/worldwide_office_translations_controller.rb
+1	1	app/controllers/admin/worldwide_organisations_translations_controller.rb
+1	0	config/application.rb
+
+--96d0af2480--2014-08-18--Tekin Suleyman
+--621cfa5caf--2014-08-18--Will Tomlins
+5	1	app/helpers/organisation_helper.rb
+4	0	app/models/organisation.rb
+7	0	test/unit/helpers/organisation_helper_test.rb
+9	0	test/unit/models/organisation_test.rb
+
+--09182e6024--2014-08-12--Elliot Crosby-McCullough
+1	1	app/views/admin/organisations/_form.html.erb
+2	1	lib/whitehall/authority/enforcer.rb
+12	0	lib/whitehall/authority/rules/organisation_rules.rb
+16	0	test/functional/admin/organisations_controller_test.rb
+11	1	test/unit/whitehall/authority/department_editor_test.rb
+11	1	test/unit/whitehall/authority/gds_editor_test.rb
+11	1	test/unit/whitehall/authority/managing_editor_test.rb
+
+--fb26606fa9--2014-08-18--Will Tomlins
+2	0	app/helpers/organisation_helper.rb
+6	6	test/unit/helpers/organisation_helper_test.rb
+
+--6042114cb5--2014-08-18--Tekin Suleyman
+1	1	app/views/admin/organisations/show.html.erb
+
+--c403d1b749--2014-08-15--Stuart Gale
+0	1	app/controllers/admin/edition_translations_controller.rb
+
+--7c6cd41ab9--2014-08-15--Paul Hayes
+2	2	app/views/admin/style_guide/index.html.erb
+
+--738f888e3f--2014-08-15--Paul Hayes
+2	2	app/assets/stylesheets/admin/govuk_admin_template/emulate/_forms.scss
+
+--5b93893375--2014-08-15--Paul Hayes
+0	18	app/assets/stylesheets/admin/global/_boostrap-overrides.scss
+2	2	app/views/layouts/admin.html.erb
+
+--34d4292945--2014-08-15--Paul Hayes
+6	0	app/assets/stylesheets/admin/govspeak_help.scss
+
+--84fdeead04--2014-08-15--Paul Hayes
+2	15	app/assets/stylesheets/admin/govspeak_help.scss
+20	20	app/views/admin/editions/_govspeak_help.html.erb
+2	2	features/step_definitions/attachment_steps.rb
+1	1	features/support/policy_group_helper.rb
+
+--db052e399d--2014-08-15--Stuart Gale
+1	1	app/views/admin/organisations/show.html.erb
+
+--983a43222f--2014-08-15--Stuart Gale
+1	1	config/cucumber.yml
+
+--a3d35f8a2d--2014-08-14--Paul Hayes
+4	0	app/assets/stylesheets/admin.scss
+
+--07fc955d51--2014-08-15--Stuart Gale
+1	1	app/controllers/admin/concerns/translation_controller_concern.rb
+1	1	app/controllers/admin/contact_translations_controller.rb
+1	1	app/controllers/admin/edition_translations_controller.rb
+1	1	app/controllers/admin/organisation_translations_controller.rb
+1	1	app/controllers/admin/person_translations_controller.rb
+1	1	app/controllers/admin/role_translations_controller.rb
+1	1	app/controllers/admin/world_location_translations_controller.rb
+1	1	app/controllers/admin/worldwide_office_translations_controller.rb
+1	1	app/controllers/admin/worldwide_organisations_translations_controller.rb
+
+--3ab440ccf5--2014-08-14--Stuart Gale
+2	1	app/controllers/admin/concerns/translation_controller_concern.rb
+1	3	app/controllers/admin/contact_translations_controller.rb
+1	3	app/controllers/admin/edition_translations_controller.rb
+1	3	app/controllers/admin/organisation_translations_controller.rb
+1	3	app/controllers/admin/person_translations_controller.rb
+1	3	app/controllers/admin/role_translations_controller.rb
+1	3	app/controllers/admin/world_location_translations_controller.rb
+1	3	app/controllers/admin/worldwide_office_translations_controller.rb
+1	3	app/controllers/admin/worldwide_organisations_translations_controller.rb
+
+--be36e545ee--2014-08-14--Stuart Gale
+1	0	app/controllers/admin/concerns/translation_controller_concern.rb
+1	2	app/controllers/admin/contact_translations_controller.rb
+3	8	app/controllers/admin/edition_translations_controller.rb
+1	2	app/controllers/admin/organisation_translations_controller.rb
+1	2	app/controllers/admin/person_translations_controller.rb
+1	2	app/controllers/admin/role_translations_controller.rb
+1	2	app/controllers/admin/world_location_translations_controller.rb
+1	2	app/controllers/admin/worldwide_office_translations_controller.rb
+1	2	app/controllers/admin/worldwide_organisations_translations_controller.rb
+
+--a100902b41--2014-08-14--Stuart Gale
+2	2	app/controllers/admin/concerns/translation_controller_concern.rb
+5	9	app/controllers/admin/contact_translations_controller.rb
+10	11	app/controllers/admin/edition_translations_controller.rb
+5	9	app/controllers/admin/organisation_translations_controller.rb
+5	9	app/controllers/admin/person_translations_controller.rb
+5	9	app/controllers/admin/role_translations_controller.rb
+5	9	app/controllers/admin/world_location_translations_controller.rb
+5	9	app/controllers/admin/worldwide_office_translations_controller.rb
+5	9	app/controllers/admin/worldwide_organisations_translations_controller.rb
+
+--6039cf1293--2014-08-14--Stuart Gale
+1	1	app/controllers/admin/edition_translations_controller.rb
+
+--7d8826bcd1--2014-08-14--Stuart Gale
+1	1	app/controllers/admin/concerns/{translations_controller_concerns.rb => translation_controller_concern.rb}
+1	1	app/controllers/admin/contact_translations_controller.rb
+1	1	app/controllers/admin/edition_translations_controller.rb
+1	1	app/controllers/admin/organisation_translations_controller.rb
+1	1	app/controllers/admin/person_translations_controller.rb
+1	1	app/controllers/admin/role_translations_controller.rb
+1	1	app/controllers/admin/world_location_translations_controller.rb
+1	1	app/controllers/admin/worldwide_office_translations_controller.rb
+1	1	app/controllers/admin/worldwide_organisations_translations_controller.rb
+
+--dd2cdb2d25--2014-08-14--Stuart Gale
+1	1	app/controllers/admin/concerns/translations_controller_concerns.rb
+1	1	app/controllers/admin/contact_translations_controller.rb
+1	1	app/controllers/admin/edition_translations_controller.rb
+1	1	app/controllers/admin/organisation_translations_controller.rb
+1	1	app/controllers/admin/person_translations_controller.rb
+1	1	app/controllers/admin/role_translations_controller.rb
+1	1	app/controllers/admin/world_location_translations_controller.rb
+1	1	app/controllers/admin/worldwide_office_translations_controller.rb
+1	1	app/controllers/admin/worldwide_organisations_translations_controller.rb
+
+--990cd32659--2014-08-14--Stuart Gale
+2	8	app/controllers/admin/concerns/translations_controller_concerns.rb
+3	3	app/controllers/admin/contact_translations_controller.rb
+2	2	app/controllers/admin/edition_translations_controller.rb
+2	2	app/controllers/admin/organisation_translations_controller.rb
+2	2	app/controllers/admin/person_translations_controller.rb
+2	2	app/controllers/admin/role_translations_controller.rb
+2	2	app/controllers/admin/world_location_translations_controller.rb
+3	3	app/controllers/admin/worldwide_office_translations_controller.rb
+2	2	app/controllers/admin/worldwide_organisations_translations_controller.rb
+
+--a440a79734--2014-08-14--Stuart Gale
+4	0	app/controllers/admin/concerns/translations_controller_concerns.rb
+1	5	app/controllers/admin/contact_translations_controller.rb
+4	8	app/controllers/admin/edition_translations_controller.rb
+1	2	app/controllers/admin/organisation_translations_controller.rb
+1	2	app/controllers/admin/person_translations_controller.rb
+1	2	app/controllers/admin/role_translations_controller.rb
+1	2	app/controllers/admin/world_location_translations_controller.rb
+1	5	app/controllers/admin/worldwide_office_translations_controller.rb
+1	2	app/controllers/admin/worldwide_organisations_translations_controller.rb
+
+--17da53692e--2014-08-13--Stuart Gale
+3	0	app/controllers/admin/concerns/translations_controller_concerns.rb
+0	3	app/controllers/admin/organisation_translations_controller.rb
+0	3	app/controllers/admin/person_translations_controller.rb
+0	3	app/controllers/admin/role_translations_controller.rb
+0	3	app/controllers/admin/world_location_translations_controller.rb
+0	3	app/controllers/admin/worldwide_organisations_translations_controller.rb
+
+--4a7af65d56--2014-08-13--Stuart Gale
+0	24	app/controllers/admin/concerns/translations_controller_concerns.rb
+
+--163e782ded--2014-08-13--Stuart Gale
+8	0	app/controllers/admin/concerns/translations_controller_concerns.rb
+2	2	app/controllers/admin/contact_translations_controller.rb
+2	2	app/controllers/admin/edition_translations_controller.rb
+2	2	app/controllers/admin/organisation_translations_controller.rb
+2	2	app/controllers/admin/person_translations_controller.rb
+2	2	app/controllers/admin/role_translations_controller.rb
+2	2	app/controllers/admin/world_location_translations_controller.rb
+2	2	app/controllers/admin/worldwide_office_translations_controller.rb
+2	2	app/controllers/admin/worldwide_organisations_translations_controller.rb
+
+--598cbca8ad--2014-08-13--Stuart Gale
+13	0	app/controllers/admin/concerns/translations_controller_concerns.rb
+8	6	app/controllers/admin/contact_translations_controller.rb
+8	6	app/controllers/admin/edition_translations_controller.rb
+8	6	app/controllers/admin/organisation_translations_controller.rb
+8	6	app/controllers/admin/person_translations_controller.rb
+8	6	app/controllers/admin/role_translations_controller.rb
+8	6	app/controllers/admin/world_location_translations_controller.rb
+8	6	app/controllers/admin/worldwide_office_translations_controller.rb
+8	6	app/controllers/admin/worldwide_organisations_translations_controller.rb
+
+--58136fb415--2014-08-13--Stuart Gale
+4	0	app/controllers/admin/concerns/translations_controller_concerns.rb
+0	4	app/controllers/admin/contact_translations_controller.rb
+0	4	app/controllers/admin/edition_translations_controller.rb
+0	4	app/controllers/admin/organisation_translations_controller.rb
+0	4	app/controllers/admin/person_translations_controller.rb
+0	4	app/controllers/admin/role_translations_controller.rb
+0	4	app/controllers/admin/world_location_translations_controller.rb
+0	4	app/controllers/admin/worldwide_office_translations_controller.rb
+0	4	app/controllers/admin/worldwide_organisations_translations_controller.rb
+
+--8a2573c9b9--2014-08-13--Stuart Gale
+16	0	app/controllers/admin/concerns/translations_controller_concerns.rb
+8	9	app/controllers/admin/contact_translations_controller.rb
+9	10	app/controllers/admin/edition_translations_controller.rb
+8	9	app/controllers/admin/organisation_translations_controller.rb
+8	9	app/controllers/admin/person_translations_controller.rb
+8	9	app/controllers/admin/role_translations_controller.rb
+8	9	app/controllers/admin/world_location_translations_controller.rb
+8	9	app/controllers/admin/worldwide_office_translations_controller.rb
+8	9	app/controllers/admin/worldwide_organisations_translations_controller.rb
+
+--5081a8a5e6--2014-08-13--Stuart Gale
+3	0	app/controllers/admin/concerns/translations_controller_concerns.rb
+0	3	app/controllers/admin/contact_translations_controller.rb
+0	3	app/controllers/admin/edition_translations_controller.rb
+0	3	app/controllers/admin/organisation_translations_controller.rb
+0	3	app/controllers/admin/person_translations_controller.rb
+0	3	app/controllers/admin/role_translations_controller.rb
+0	3	app/controllers/admin/world_location_translations_controller.rb
+0	3	app/controllers/admin/worldwide_office_translations_controller.rb
+0	3	app/controllers/admin/worldwide_organisations_translations_controller.rb
+
+--2df775d94b--2014-08-13--Stuart Gale
+11	0	app/controllers/admin/concerns/translations_controller_concerns.rb
+7	4	app/controllers/admin/contact_translations_controller.rb
+6	4	app/controllers/admin/edition_translations_controller.rb
+6	4	app/controllers/admin/organisation_translations_controller.rb
+6	4	app/controllers/admin/person_translations_controller.rb
+6	4	app/controllers/admin/role_translations_controller.rb
+6	4	app/controllers/admin/world_location_translations_controller.rb
+7	4	app/controllers/admin/worldwide_office_translations_controller.rb
+6	4	app/controllers/admin/worldwide_organisations_translations_controller.rb
+
+--fe22040fc8--2014-08-12--Stuart Gale
+6	0	config/locales/ar.yml
+6	0	config/locales/az.yml
+6	0	config/locales/be.yml
+6	0	config/locales/bg.yml
+6	0	config/locales/bn.yml
+6	0	config/locales/cs.yml
+6	0	config/locales/de.yml
+6	0	config/locales/dr.yml
+6	0	config/locales/el.yml
+6	0	config/locales/es-419.yml
+6	0	config/locales/es.yml
+6	0	config/locales/fa.yml
+6	0	config/locales/fr.yml
+6	0	config/locales/he.yml
+6	0	config/locales/hi.yml
+6	0	config/locales/hu.yml
+6	0	config/locales/hy.yml
+6	0	config/locales/id.yml
+6	0	config/locales/it.yml
+6	0	config/locales/ja.yml
+6	0	config/locales/ka.yml
+6	0	config/locales/ko.yml
+6	0	config/locales/lt.yml
+6	0	config/locales/lv.yml
+6	0	config/locales/ms.yml
+6	0	config/locales/pl.yml
+6	0	config/locales/ps.yml
+6	0	config/locales/pt.yml
+6	0	config/locales/ro.yml
+6	0	config/locales/ru.yml
+6	0	config/locales/si.yml
+6	0	config/locales/sk.yml
+6	0	config/locales/so.yml
+6	0	config/locales/sq.yml
+6	0	config/locales/sr.yml
+6	0	config/locales/sw.yml
+6	0	config/locales/ta.yml
+6	0	config/locales/th.yml
+6	0	config/locales/tk.yml
+6	0	config/locales/tr.yml
+6	0	config/locales/uk.yml
+6	0	config/locales/ur.yml
+6	0	config/locales/uz.yml
+6	0	config/locales/vi.yml
+6	0	config/locales/zh-hk.yml
+6	0	config/locales/zh-tw.yml
+6	0	config/locales/zh.yml
+
+--35877e5bbc--2014-08-12--Stuart Gale
+1	1	app/views/detailed_guides/_document_contextual.html.erb
+5	5	app/views/detailed_guides/show.html.erb
+10	4	config/locales/cy.yml
+6	0	config/locales/en.yml
+
+--84600ed750--2014-08-12--Stuart Gale
+1	3	app/helpers/public_document_routes_helper.rb
+
+--00fefaebdb--2014-08-12--Tekin Suleyman
+1	1	config/routes.rb
+
+--ccdc954782--2014-08-11--Stuart Gale
+0	3	app/models/detailed_guide.rb
+
+--9c9aee7808--2014-08-08--Stuart Gale
+4	0	app/assets/stylesheets/frontend/views/_detailed_guides.scss
+
+--9a0fe6ac5a--2014-08-08--Stuart Gale
+13	173	config/locales/ar.yml
+1	1	config/locales/az.yml
+10	90	config/locales/be.yml
+6	6	config/locales/bg.yml
+6	6	config/locales/bn.yml
+8	48	config/locales/cs.yml
+13	173	config/locales/cy.yml
+6	6	config/locales/de.yml
+6	6	config/locales/dr.yml
+6	6	config/locales/el.yml
+6	6	config/locales/es-419.yml
+6	6	config/locales/es.yml
+1	1	config/locales/fa.yml
+6	6	config/locales/fr.yml
+10	90	config/locales/he.yml
+6	6	config/locales/hi.yml
+1	1	config/locales/hu.yml
+6	6	config/locales/hy.yml
+1	1	config/locales/id.yml
+6	6	config/locales/it.yml
+1	1	config/locales/ja.yml
+1	1	config/locales/ka.yml
+1	1	config/locales/ko.yml
+8	48	config/locales/lt.yml
+6	6	config/locales/lv.yml
+1	1	config/locales/ms.yml
+10	90	config/locales/pl.yml
+6	6	config/locales/ps.yml
+6	6	config/locales/pt.yml
+8	48	config/locales/ro.yml
+10	90	config/locales/ru.yml
+6	6	config/locales/si.yml
+14	54	config/locales/sk.yml
+6	6	config/locales/so.yml
+6	6	config/locales/sq.yml
+10	90	config/locales/sr.yml
+6	6	config/locales/sw.yml
+6	6	config/locales/ta.yml
+1	1	config/locales/th.yml
+6	6	config/locales/tk.yml
+1	1	config/locales/tr.yml
+10	90	config/locales/uk.yml
+6	6	config/locales/ur.yml
+6	6	config/locales/uz.yml
+1	1	config/locales/vi.yml
+1	1	config/locales/zh-hk.yml
+1	1	config/locales/zh-tw.yml
+1	1	config/locales/zh.yml
+
+--18f37ff4ed--2014-08-08--Stuart Gale
+1	1	app/views/detailed_guides/_document_contextual.html.erb
+1	0	config/locales/en.yml
+
+--edd62f2121--2014-08-07--Stuart Gale
+7	0	app/models/detailed_guide.rb
+
+--640f5a2157--2014-08-14--Tekin Suleyman
+1	1	app/controllers/admin/organisations_controller.rb
+7	2	app/models/organisation.rb
+3	0	app/views/admin/organisations/_form.html.erb
+2	1	app/views/admin/organisations/show.html.erb
+1	1	app/views/organisations/_corporate_information.html.erb
+5	0	db/migrate/20140814151150_add_jobs_url_to_organisations.rb
+2	1	db/schema.rb
+12	0	test/unit/models/organisation_test.rb
+
+--8a0631bcf9--2014-08-14--Paul Hayes
+1	0	Gemfile
+3	0	Gemfile.lock
+0	1824	app/assets/javascripts/bootstrap.js
+0	6	app/assets/javascripts/bootstrap.min.js
+1	1	app/assets/stylesheets/admin.scss
+0	808	app/assets/stylesheets/vendor/bootstrap-responsive.css
+0	4960	app/assets/stylesheets/vendor/bootstrap.css
+
+--184b1cfc33--2014-08-13--Paul Hayes
+1	21	app/views/admin/statistics_announcement_date_changes/new.html.erb
+1	23	app/views/admin/statistics_announcements/_form.html.erb
+22	0	app/views/admin/statistics_announcements/_release_date.html.erb
+
+--9a0623dd87--2014-08-13--Paul Hayes
+22	4	app/assets/javascripts/admin/views/statistics_announcement_dates/_form.js
+3	2	app/views/admin/statistics_announcement_date_changes/new.html.erb
+3	2	app/views/admin/statistics_announcements/_form.html.erb
+30	5	test/javascripts/unit/admin/views/statistics_announcements/_form_test.js
+
+--940a5a4ce2--2014-08-13--Paul Hayes
+0	1	app/views/admin/statistics_announcements/_form.html.erb

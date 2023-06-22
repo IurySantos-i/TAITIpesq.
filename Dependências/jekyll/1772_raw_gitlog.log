@@ -1,0 +1,118 @@
+--23ad7fa4b--2013-10-23--Matt Rogers
+--58ae8bc0c--2013-10-17--Matt Rogers
+1	0	History.markdown
+
+--0e784596a--2013-10-17--Matt Rogers
+--3cd230d66--2013-10-17--Matt Rogers
+1	0	History.markdown
+
+--f8f58d2f6--2013-10-17--Matt Rogers
+--6e77788a0--2013-10-17--Matt Rogers
+1	0	History.markdown
+
+--1fd549c01--2013-10-17--Matt Rogers
+--c2aa26280--2013-10-17--maul.esel
+5	1	lib/jekyll/site.rb
+
+--b0ae2c69c--2013-10-17--Matt Rogers
+1	0	History.markdown
+
+--1682dc829--2013-10-17--Matt Rogers
+--f0aac3049--2013-10-17--maul.esel
+2	6	lib/jekyll/site.rb
+
+--7232948b6--2013-10-17--maul.esel
+3	3	lib/jekyll/site.rb
+
+--5cf6f2c2d--2013-10-17--maul.esel
+13	15	bin/jekyll
+
+--0f30aca76--2013-10-16--Paul Annesley
+1	1	README.markdown
+
+--61e6a834c--2013-10-16--Matt Rogers
+1	0	History.markdown
+
+--6cdb7ec83--2013-10-16--Matt Rogers
+--c017174da--2013-10-16--David Paschich
+1	1	site/docs/usage.md
+
+--6f7935857--2013-10-11--Parker Moore
+2	1	History.markdown
+
+--0ffd4ff60--2013-10-11--Parker Moore
+--65df20ac1--2013-10-10--albertogg
+4	4	site/docs/migrations.md
+
+--976cddf47--2013-10-10--Matt Rogers
+2	0	History.markdown
+
+--441b6d68c--2013-10-10--Matt Rogers
+1	0	History.markdown
+
+--0761769dd--2013-10-10--Matt Rogers
+--110aeee9a--2013-10-10--Matt Rogers
+1	0	History.markdown
+
+--e3f6d860a--2013-10-10--Matt Rogers
+--ac6f09752--2013-10-10--albertogg
+1	1	site/docs/migrations.md
+
+--222aad55e--2013-10-10--albertogg
+1	1	site/docs/migrations.md
+
+--c38f295f6--2013-10-10--albertogg
+3	3	site/docs/migrations.md
+
+--c169ad26c--2013-10-10--albertogg
+9	0	site/docs/migrations.md
+
+--e141dfa03--2013-10-08--Juan Ignacio Donoso
+11	0	features/create_sites.feature
+6	1	features/step_definitions/jekyll_steps.rb
+
+--87ef39aeb--2013-10-08--Juan Ignacio Donoso
+1	1	lib/jekyll/site.rb
+
+--01f41a7cf--2013-10-08--Juan Ignacio Donoso
+1	0	test/source/_layouts/post/simple.html
+1	1	test/test_site.rb
+
+--9b0a7b343--2013-10-06--Ben Balter
+3	0	test/test_tags.rb
+
+--844cc615e--2013-10-06--Ben Balter
+2	2	lib/jekyll/tags/highlight.rb
+
+--848a11b3a--2013-10-05--Parker Moore
+1	0	History.markdown
+
+--75efbadbc--2013-10-05--Parker Moore
+--9ff245dbd--2013-10-05--Brice
+8	8	lib/jekyll/cleaner.rb
+
+--d5f137bc8--2013-10-05--Ben Balter
+1	1	lib/jekyll/tags/highlight.rb
+
+--694599645--2013-10-04--Parker Moore
+1	1	Gemfile
+8	0	features/site_configuration.feature
+1	0	jekyll.gemspec
+
+--310688297--2013-10-04--Parker Moore
+1	1	lib/jekyll/configuration.rb
+1	1	lib/jekyll/site.rb
+3	3	site/docs/upgrading.md
+
+--bf1d9a79c--2013-10-04--Parker Moore
+1	0	lib/jekyll/configuration.rb
+5	2	lib/jekyll/site.rb
+
+--ed58ba150--2013-09-12--maul.esel
+29	1	test/test_kramdown.rb
+
+--76d56c235--2013-09-12--maul.esel
+3	4	test/test_kramdown.rb
+
+--29d0841e9--2013-09-12--maul.esel
+1	1	lib/jekyll/converters/markdown/kramdown_parser.rb

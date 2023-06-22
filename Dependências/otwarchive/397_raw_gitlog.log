@@ -1,0 +1,47 @@
+--30ee120e1--2015-11-02--sarken
+--ab69a65b7--2015-11-02--astolat shalott
+19	1	app/controllers/comments_controller.rb
+5	1	app/helpers/comments_helper.rb
+78	58	app/models/comment_observer.rb
+1	1	app/views/comment_mailer/_comment_notification_footer.erb
+55	0	app/views/comments/_comment_actions.html.erb
+1	1	app/views/comments/_comment_thread.html.erb
+1	5	app/views/comments/_commentable.html.erb
+1	49	app/views/comments/_single_comment.html.erb
+5	0	app/views/inbox/_approve_button.html.erb
+5	2	app/views/inbox/show.html.erb
+93	20	features/comments_and_kudos/comment_moderation.feature
+17	7	features/step_definitions/comment_steps.rb
+6	1	features/step_definitions/email_steps.rb
+1	1	lib/plugins/acts_as_commentable/commentable_entity.rb
+
+--099683c9e--2015-11-02--Elz
+--eb8611be9--2015-11-01--zz9pzza
+2	1	config/deploy.rb
+0	3	config/deploy/i18n.rb
+0	1	config/deploy/production.rb
+0	1	config/deploy/staging.rb
+6	1	lib/tasks/skin_tasks.rake
+
+--6efae6290--2015-10-31--sarken
+--4e843dbf3--2015-10-31--sarken
+--4005a8b95--2015-10-31--sarken
+--1d12b218a--2015-10-28--sarken
+--aedd3cb8f--2015-10-28--sarken
+2	1	features/other_a/reading.feature
+
+--647c73150--2015-10-26--ChulaBruggeling
+1	1	app/views/pseuds/_pseuds_form.html.erb
+
+--2d8146c8e--2015-10-17--ChulaBruggeling
+4	4	app/views/home/diversity_statement.html.erb
+
+--eb1453e66--2015-10-17--ChulaBruggeling
+1	1	app/views/pseuds/_pseuds_form.html.erb
+
+--b0af2ee8f--2015-10-16--ChulaBruggeling
+0	2	public/help/fandom-help.html
+
+--1d4ba2e47--2015-10-16--ChulaBruggeling
+1	0	public/help/fandom-help.html
+2	0	public/help/tagging-help.html

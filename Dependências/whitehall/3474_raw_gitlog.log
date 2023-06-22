@@ -1,0 +1,83 @@
+--f8e542dc1c--2013-03-27--Chris Parsons
+--72ffe85009--2013-03-27--Murray Steele
+7	0	config/locales/ar.yml
+3	0	config/locales/az.yml
+5	0	config/locales/be.yml
+3	0	config/locales/bg.yml
+3	0	config/locales/bn.yml
+4	0	config/locales/cs.yml
+7	0	config/locales/cy.yml
+3	0	config/locales/de.yml
+3	0	config/locales/dr.yml
+3	0	config/locales/el.yml
+3	0	config/locales/es-419.yml
+3	0	config/locales/es.yml
+3	0	config/locales/fa.yml
+3	0	config/locales/fr.yml
+5	0	config/locales/he.yml
+3	0	config/locales/hi.yml
+3	0	config/locales/hu.yml
+3	0	config/locales/hy.yml
+3	0	config/locales/id.yml
+3	0	config/locales/it.yml
+3	0	config/locales/ja.yml
+3	0	config/locales/ka.yml
+3	0	config/locales/ko.yml
+4	0	config/locales/lt.yml
+3	0	config/locales/lv.yml
+3	0	config/locales/ms.yml
+5	0	config/locales/pl.yml
+3	0	config/locales/ps.yml
+3	0	config/locales/pt.yml
+4	0	config/locales/ro.yml
+5	0	config/locales/ru.yml
+3	0	config/locales/si.yml
+4	0	config/locales/sk.yml
+3	0	config/locales/so.yml
+3	0	config/locales/sq.yml
+5	0	config/locales/sr.yml
+3	0	config/locales/sw.yml
+3	0	config/locales/ta.yml
+3	0	config/locales/th.yml
+3	0	config/locales/tk.yml
+3	0	config/locales/tr.yml
+5	0	config/locales/uk.yml
+3	0	config/locales/ur.yml
+3	0	config/locales/uz.yml
+3	0	config/locales/vi.yml
+3	0	config/locales/zh.yml
+
+--96f5c201d6--2013-03-27--Murray Steele
+2	1	app/models/organisation_type.rb
+1	1	app/views/admin/organisations/_form.html.erb
+
+--9e0b7c9e00--2013-03-27--Murray Steele
+3	6	app/assets/stylesheets/frontend/views/_organisations.scss
+4	1	app/controllers/organisations_controller.rb
+18	0	app/views/organisations/index.html.erb
+15	1	test/functional/organisations_controller_test.rb
+
+--d473c51c71--2013-03-27--Murray Steele
+9	0	app/models/organisation_type.rb
+3	0	config/locales/en.yml
+1	0	db/data_migration/20130326153939_add_executive_office_org_type.rb
+4	0	test/factories/organisation_types.rb
+1	0	test/unit/organisation_type_test.rb
+
+--e0fbbf98d9--2013-03-26--David Heath
+1	1	app/controllers/admin/feature_lists_controller.rb
+
+--32fe6230d3--2013-03-26--Bradley Wright
+2	2	config/locales/cy.yml
+
+--5b11065ddd--2013-03-26--David Heath
+2	2	app/views/admin/feature_lists/_featurable_editions.html.erb
+1	0	features/administering-world-locations.feature
+8	0	features/step_definitions/world_location_steps.rb
+
+--198b7f830c--2013-03-26--David Heath
+3	2	app/controllers/admin/feature_lists_controller.rb
+3	1	app/models/feature.rb
+10	3	app/models/feature_list.rb
+15	4	test/unit/feature_list_test.rb
+13	0	test/unit/feature_test.rb

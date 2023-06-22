@@ -1,0 +1,23 @@
+--048983bff--2013-02-05--Antti Virolainen
+--b459e5992--2013-02-05--Antti Virolainen
+1	2	.gitignore
+2	0	Gemfile
+7	0	Gemfile.lock
+2	1	config/environments/test.rb
+33	37	features/communities/user_creates_a_new_community.feature
+177	34	features/step_definitions/email_steps.rb
+1	1	features/step_definitions/web_steps.rb
+1	0	features/support/env.rb
+1	1	features/support/pickle.rb
+
+--95a3db3b1--2013-02-05--Kusti
+1	0	app/assets/stylesheets/application.scss
+
+--9ced0889e--2013-02-05--Antti Virolainen
+4	4	app/controllers/people_controller.rb
+5	4	app/models/person.rb
+
+--392694887--2013-02-05--Antti Virolainen
+5	1	app/controllers/homepage_controller.rb
+1	1	app/views/homepage/index.haml
+1	0	lib/tasks/sharetribe.rake

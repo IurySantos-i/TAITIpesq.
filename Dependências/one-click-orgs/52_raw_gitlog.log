@@ -1,0 +1,401 @@
+--fa7cb3bb--2013-10-01--Chris Mear
+--a4fb7739--2013-10-01--Chris Mear
+--528be1f3--2013-09-30--Chris Mear
+5	0	CHANGELOG.txt
+1	1	lib/one_click_orgs/version.rb
+
+--4355bbff--2013-06-17--Chris Mear
+1	0	HACKING.md
+
+--c6cfd367--2013-06-04--Chris Mear
+1	1	Gemfile
+2	2	Gemfile.lock
+
+--a3582644--2013-09-21--Chris Mear
+1	1	Gemfile.lock
+
+--b5c56914--2013-09-21--Chris Mear
+5	3	Gemfile.lock
+
+--6a4297e0--2013-09-21--Chris Mear
+1	1	Gemfile
+2	2	Gemfile.lock
+
+--9912ba2a--2013-09-21--Chris Mear
+1	2	Gemfile.lock
+
+--99ed1580--2013-09-21--Chris Mear
+1	1	Gemfile
+3	3	Gemfile.lock
+7	8	features/support/env.rb
+7	7	lib/tasks/cucumber.rake
+
+--3a096804--2013-09-21--Chris Mear
+1	1	Gemfile.lock
+
+--0494e8ff--2013-09-21--Chris Mear
+1	1	Gemfile
+3	3	Gemfile.lock
+
+--72029409--2013-09-21--Chris Mear
+1	1	Gemfile.lock
+
+--8e29f231--2013-09-21--Chris Mear
+1	1	Gemfile.lock
+
+--c243a8d1--2013-09-21--Chris Mear
+3	3	Gemfile.lock
+
+--f90aefe2--2013-09-21--Chris Mear
+1	1	Gemfile.lock
+
+--c0ae140c--2013-09-21--Chris Mear
+1	1	Gemfile.lock
+
+--a8e5ab1b--2013-09-21--Chris Mear
+1	1	Gemfile.lock
+
+--a7f42cfa--2013-09-21--Chris Mear
+5	5	Gemfile.lock
+
+--a1661163--2013-08-19--Chris Mear
+3	3	data/rticles/ips/ips.yml
+
+--c91b0d2d--2013-08-19--Chris Mear
+3	3	app/models/registration_form.rb
+3	3	data/rticles/ips/ips.yml
+
+--4360daea--2013-08-19--Chris Mear
+1	1	data/rticles/ips/ips.yml
+
+--d484cd67--2013-08-19--Chris Mear
+5	5	Gemfile.lock
+25	8	app/models/registration_form.rb
+102	102	data/rticles/ips/ips.yml
+
+--a2bc073b--2013-08-19--Chris Mear
+3	1	app/models/constitution.rb
+1	1	data/rticles/ips/ips.yml
+
+--e16dd64a--2013-08-19--Chris Mear
+1	1	data/rticles/ips/ips.yml
+
+--6e15784f--2013-08-19--Chris Mear
+2	1	app/models/constitution.rb
+7	0	spec/models/constitution_spec.rb
+
+--7390e376--2013-08-18--Chris Mear
+0	2	data/rticles/ips/ips.yml
+1	1	features/step_definitions/rules_steps.rb
+
+--8f6cecc9--2013-08-18--Chris Mear
+1	1	app/models/constitution.rb
+5	1	db/seeds.rb
+
+--3cf31fda--2013-08-14--Chris Mear
+3	0	app/assets/stylesheets/pdf.css
+2	0	app/assets/stylesheets/pdf.css.sass
+
+--de6f582e--2013-08-14--Chris Mear
+9	9	app/assets/stylesheets/pdf.css.sass
+
+--eac79836--2013-08-14--Chris Mear
+0	0	app/assets/stylesheets/{money_laundering.sass => money_laundering.css.sass}
+1	1	config/environments/production.rb
+
+--ea268692--2013-08-14--Chris Mear
+1	1	features/coop/administering/viewing_draft_coops.feature
+
+--e4c33866--2013-08-13--Chris Mear
+1	1	app/views/admin/coops/index.html.haml
+25	1	app/views/admin/coops/show.html.haml
+0	1	features/coop/administering/viewing_active_coops.feature
+16	1	features/step_definitions/coop_review_steps.rb
+3	0	features/support/paths.rb
+19	1	spec/views/admin/coops/show.html.haml_spec.rb
+
+--ea771391--2013-08-13--Chris Mear
+0	1	features/coop/administering/viewing_active_coops.feature
+13	0	features/step_definitions/coop_review_steps.rb
+
+--a1fecd5c--2013-08-13--Chris Mear
+1	1	app/views/admin/coops/index.html.haml
+10	7	app/views/admin/coops/show.html.haml
+0	1	features/coop/administering/viewing_draft_coops.feature
+9	0	features/step_definitions/coop_review_steps.rb
+3	0	features/support/paths.rb
+
+--ebfe8a5f--2013-08-13--Chris Mear
+0	1	features/coop/administering/viewing_draft_coops.feature
+14	0	features/step_definitions/coop_review_steps.rb
+
+--2f96224d--2013-08-13--Chris Mear
+21	0	features/coop/administering/viewing_active_coops.feature
+
+--aabd4fe7--2013-08-13--Chris Mear
+22	0	features/coop/administering/viewing_draft_coops.feature
+
+--29fdc2da--2013-08-13--Chris Mear
+1	0	app/models/constitution.rb
+
+--6a36590a--2013-08-13--Chris Mear
+3	0	app/controllers/admin/constitutions_controller.rb
+4	4	app/views/admin/constitutions/show.pdf.haml
+
+--98080f3a--2013-08-13--Chris Mear
+20	0	app/assets/stylesheets/money_laundering.sass
+1	1	app/controllers/admin/documents_controller.rb
+2	0	app/views/documents/money_laundering.html.haml
+6	0	app/views/layouts/basic.html.haml
+
+--6f9a79f6--2013-08-13--Chris Mear
+--b7439754--2013-08-13--Chris Mear
+8	1	app/controllers/admin/documents_controller.rb
+1	0	app/views/admin/coops/show.html.haml
+0	1	features/coop/administering/editing_submitted_coops.feature
+4	0	features/step_definitions/coop_registration_steps.rb
+5	0	spec/views/admin/coops/show.html.haml_spec.rb
+
+--273ebcbb--2013-08-13--Chris Mear
+1	0	Gemfile
+1	0	Gemfile.lock
+13	0	app/controllers/admin/registration_forms_controller.rb
+2	3	app/views/admin/coops/show.html.haml
+7	0	app/views/admin/registration_forms/edit.html.haml
+106	0	app/views/registration_forms/_form.html.haml
+1	106	app/views/registration_forms/edit.html.haml
+0	1	features/coop/administering/editing_submitted_coops.feature
+4	0	features/step_definitions/coop_registration_steps.rb
+7	0	features/step_definitions/pdf_steps.rb
+59	0	spec/controllers/admin/registration_forms_controller_spec.rb
+5	0	spec/views/admin/coops/show.html.haml_spec.rb
+19	0	spec/views/admin/registration_forms/edit.html.haml_spec.rb
+
+--15911759--2013-08-13--Chris Mear
+30	4	app/controllers/admin/constitutions_controller.rb
+76	0	app/views/admin/constitutions/edit.html.haml
+5	0	app/views/admin/constitutions/show.html.haml
+2	0	app/views/admin/coops/show.html.haml
+0	1	features/coop/administering/editing_submitted_coops.feature
+16	7	spec/controllers/admin/constitutions_controller_spec.rb
+5	0	spec/views/admin/coops/show.html.haml_spec.rb
+
+--70c7afca--2013-08-13--Chris Mear
+1	2	app/controllers/registration_forms_controller.rb
+5	0	app/models/coop.rb
+2	2	spec/controllers/registration_forms_controller_spec.rb
+
+--e6c19212--2013-08-12--Chris Mear
+-	-	data/pdf_form_filler/cuk_letter_of_engagement/letter_of_engagement.pdf
+
+--8b41b4eb--2013-08-12--Chris Mear
+--616bd1ea--2013-08-12--Chris Mear
+35	0	features/coop/administering/editing_submitted_coops.feature
+
+--4c77aa8b--2013-08-12--Chris Mear
+4	0	app/views/documents/index.html.haml
+1	1	app/views/shared/coop/_container_start.html.haml
+4	0	spec/views/documents/index.html.haml_spec.rb
+
+--3d4c0000--2013-08-12--Chris Mear
+24	0	app/controllers/admin/documents_controller.rb
+3	0	app/views/admin/coops/show.html.haml
+2	0	config/routes.rb
+0	1	features/coop/administering/viewing_submitted_coops.feature
+37	0	spec/controllers/admin/documents_controller_spec.rb
+9	0	spec/support/controller_spec_helper.rb
+5	0	spec/views/admin/coops/show.html.haml_spec.rb
+
+--7d50fbdb--2013-08-12--Chris Mear
+2	1	app/controllers/registration_forms_controller.rb
+
+--7a3cc903--2013-08-12--Chris Mear
+6	0	features/coop/administering/viewing_submitted_coops.feature
+
+--03e98617--2013-08-12--Chris Mear
+0	0	features/coop/{founding => administering}/approving_coop_registration.feature
+0	0	features/coop/{founding => administering}/viewing_submitted_coops.feature
+
+--f91944be--2013-08-12--Chris Mear
+17	2	app/models/coop.rb
+19	0	features/step_definitions/coop_registration_steps.rb
+23	0	spec/models/coop_spec.rb
+
+--8fb7959a--2013-08-12--Chris Mear
+1	0	app/views/shared/coop/_main_menu.html.haml
+
+--590f55ac--2013-08-12--Chris Mear
+3	3	app/views/one_click/coop/checklist.html.haml
+1	1	app/views/shared/coop/_main_menu.html.haml
+
+--21973057--2013-08-12--Chris Mear
+1	2	features/coop/founding/editing_registration_form.feature
+10	2	features/step_definitions/coop_registration_steps.rb
+
+--df0a4d1e--2013-08-12--Chris Mear
+23	0	app/assets/stylesheets/money_laundering.css
+3	2	app/controllers/application_controller.rb
+5	1	app/controllers/documents_controller.rb
+4	0	app/models/coop.rb
+87	0	app/views/documents/money_laundering.html.haml
+
+--9e181e2d--2013-08-11--Chris Mear
+1	1	app/controllers/application_controller.rb
+4	0	app/controllers/documents_controller.rb
+2	0	app/views/documents/index.html.haml
+0	0	app/views/documents/money_laundering.html.haml
+12	0	features/coop/founding/viewing_money_laundering_form.feature
+25	0	features/step_definitions/coop_registration_steps.rb
+11	0	spec/controllers/documents_controller_spec.rb
+5	0	spec/views/documents/index.html.haml_spec.rb
+
+--6c62f081--2013-08-11--Chris Mear
+15	1	app/models/coop.rb
+4	0	app/views/registration_forms/edit.html.haml
+6	0	features/coop/founding/editing_money_laundering_form.feature
+4	0	features/step_definitions/coop_registration_steps.rb
+7	0	spec/models/coop_spec.rb
+7	0	spec/views/registration_forms/edit.html.haml_spec.rb
+
+--18f9a3da--2013-08-11--Chris Mear
+22	2	app/models/coop.rb
+41	0	app/views/registration_forms/edit.html.haml
+6	0	features/coop/founding/editing_money_laundering_form.feature
+28	0	features/step_definitions/coop_registration_steps.rb
+32	0	spec/models/coop_spec.rb
+25	0	spec/views/registration_forms/edit.html.haml_spec.rb
+
+--e85945a2--2013-08-11--Chris Mear
+7	2	app/models/coop.rb
+10	0	app/views/registration_forms/edit.html.haml
+6	0	features/coop/founding/editing_money_laundering_form.feature
+12	0	features/step_definitions/coop_registration_steps.rb
+16	0	spec/models/coop_spec.rb
+11	0	spec/views/registration_forms/edit.html.haml_spec.rb
+
+--9a04b95b--2013-08-11--Chris Mear
+1	4	app/controllers/registration_forms_controller.rb
+28	1	app/models/coop.rb
+27	3	app/views/registration_forms/edit.html.haml
+15	0	features/coop/founding/editing_money_laundering_form.feature
+17	1	features/step_definitions/coop_registration_steps.rb
+4	0	features/step_definitions/director_steps.rb
+2	0	features/support/paths.rb
+11	8	spec/controllers/registration_forms_controller_spec.rb
+24	0	spec/models/coop_spec.rb
+16	1	spec/views/registration_forms/edit.html.haml_spec.rb
+
+--99f4e699--2013-08-11--Chris Mear
+11	0	app/controllers/documents_controller.rb
+5	0	app/views/documents/index.html.haml
+2	0	config/routes.rb
+-	-	data/pdf_form_filler/cuk_letter_of_engagement/letter_of_engagement.pdf
+11	0	features/coop/founding/viewing_letter_of_engagement.feature
+1	1	features/step_definitions/coop_member_steps.rb
+2	0	features/support/paths.rb
+39	0	spec/controllers/documents_controller_spec.rb
+10	0	spec/views/documents/index.html.haml_spec.rb
+
+--723eac5a--2013-08-11--Chris Mear
+3	3	app/models/coop.rb
+
+--8b1a3a37--2013-08-11--Chris Mear
+1	1	Gemfile
+3	3	Gemfile.lock
+
+--5094d556--2013-08-09--Chris Mear
+1	1	spec/controllers/admin/constitutions_controller_spec.rb
+
+--de75fce8--2013-08-08--Chris Mear
+1	1	Gemfile
+2	2	Gemfile.lock
+2	2	config/database.yml.sample
+
+--738264f6--2013-08-08--Chris Mear
+16	0	CHANGELOG.txt
+1	1	lib/one_click_orgs/version.rb
+
+--af5ff161--2013-08-08--Chris Mear
+1	1	Gemfile
+2	2	Gemfile.lock
+
+--5a3ea2fd--2013-08-08--Chris Mear
+1	1	Gemfile
+2	2	Gemfile.lock
+
+--7e10e4fe--2013-08-05--Chris Mear
+1	1	spec/controllers/admin/constitutions_controller_spec.rb
+3	3	spec/controllers/annual_general_meetings_controller_spec.rb
+5	5	spec/controllers/ballots_controller_spec.rb
+6	6	spec/controllers/board_meetings_controller_spec.rb
+2	2	spec/controllers/board_resolutions_controller_spec.rb
+7	7	spec/controllers/boards_controller_spec.rb
+2	2	spec/controllers/change_meeting_notice_period_resolutions_controller_spec.rb
+2	2	spec/controllers/change_quorum_resolutions_controller_spec.rb
+1	1	spec/controllers/constitutions_controller_spec.rb
+2	2	spec/controllers/coops_controller_spec.rb
+2	2	spec/controllers/directors_controller_spec.rb
+6	6	spec/controllers/directorships_controller_spec.rb
+8	8	spec/controllers/general_meetings_controller_spec.rb
+3	3	spec/controllers/meetings_controller_spec.rb
+5	5	spec/controllers/members_controller_spec.rb
+1	1	spec/controllers/minutes_controller_spec.rb
+4	4	spec/controllers/officerships_controller_spec.rb
+5	5	spec/controllers/one_click_controller_spec.rb
+5	5	spec/controllers/proposals_controller_spec.rb
+1	1	spec/controllers/registration_forms_controller_spec.rb
+6	6	spec/controllers/resolution_proposals_controller_spec.rb
+1	1	spec/controllers/resolutions_controller_spec.rb
+3	3	spec/controllers/share_transactions_controller_spec.rb
+6	6	spec/controllers/shares_controller_spec.rb
+2	2	spec/models/constitution_proposal_bundle_spec.rb
+3	3	spec/models/coop_spec.rb
+1	1	spec/models/directorship_spec.rb
+2	2	spec/models/election_spec.rb
+2	2	spec/models/general_meeting_spec.rb
+1	1	spec/models/proposal_spec.rb
+1	1	spec/models/resolution_proposal_spec.rb
+2	2	spec/models/share_transaction_spec.rb
+4	4	spec/support/controller_spec_helper.rb
+1	1	spec/views/change_meeting_notice_period_resolutions/new.html.haml_spec.rb
+1	1	spec/views/change_quorum_resolutions/new.html.haml_spec.rb
+1	1	spec/views/meetings/coop/index.html.haml_spec.rb
+
+--902d3b6f--2013-08-05--Chris Mear
+1	1	features/step_definitions/coop_registration_steps.rb
+
+--5ad11073--2013-08-05--Chris Mear
+1	1	Gemfile
+2	2	Gemfile.lock
+-	-	app/assets/images/jquery-ui/cooperatives_uk/ui-bg_flat_0_aaaaaa_40x100.png
+-	-	app/assets/images/jquery-ui/cooperatives_uk/ui-bg_flat_65_ffffff_40x100.png
+-	-	app/assets/images/jquery-ui/cooperatives_uk/ui-bg_flat_75_313131_40x100.png
+-	-	app/assets/images/jquery-ui/cooperatives_uk/ui-bg_flat_75_dadada_40x100.png
+-	-	app/assets/images/jquery-ui/cooperatives_uk/ui-bg_flat_75_e6e6e6_40x100.png
+-	-	app/assets/images/jquery-ui/cooperatives_uk/ui-bg_flat_75_ffffff_40x100.png
+-	-	app/assets/images/jquery-ui/cooperatives_uk/ui-bg_glass_55_fbf9ee_1x400.png
+-	-	app/assets/images/jquery-ui/cooperatives_uk/ui-bg_inset-soft_95_fef1ec_1x100.png
+-	-	app/assets/images/jquery-ui/cooperatives_uk/ui-icons_222222_256x240.png
+-	-	app/assets/images/jquery-ui/cooperatives_uk/ui-icons_2e83ff_256x240.png
+-	-	app/assets/images/jquery-ui/cooperatives_uk/ui-icons_454545_256x240.png
+-	-	app/assets/images/jquery-ui/cooperatives_uk/ui-icons_888888_256x240.png
+-	-	app/assets/images/jquery-ui/cooperatives_uk/ui-icons_cd0a0a_256x240.png
+-	-	app/assets/images/jquery-ui/cooperatives_uk/ui-icons_ffffff_256x240.png
+-	-	app/assets/images/jquery-ui/oco-theme/ui-bg_flat_0_aaaaaa_40x100.png
+-	-	app/assets/images/jquery-ui/oco-theme/ui-bg_flat_65_ffffff_40x100.png
+-	-	app/assets/images/jquery-ui/oco-theme/ui-bg_flat_75_a2005a_40x100.png
+-	-	app/assets/images/jquery-ui/oco-theme/ui-bg_flat_75_dadada_40x100.png
+-	-	app/assets/images/jquery-ui/oco-theme/ui-bg_flat_75_e6e6e6_40x100.png
+-	-	app/assets/images/jquery-ui/oco-theme/ui-bg_flat_75_ffffff_40x100.png
+-	-	app/assets/images/jquery-ui/oco-theme/ui-bg_glass_55_fbf9ee_1x400.png
+-	-	app/assets/images/jquery-ui/oco-theme/ui-bg_inset-soft_95_fef1ec_1x100.png
+-	-	app/assets/images/jquery-ui/oco-theme/ui-icons_222222_256x240.png
+-	-	app/assets/images/jquery-ui/oco-theme/ui-icons_2e83ff_256x240.png
+-	-	app/assets/images/jquery-ui/oco-theme/ui-icons_454545_256x240.png
+-	-	app/assets/images/jquery-ui/oco-theme/ui-icons_888888_256x240.png
+-	-	app/assets/images/jquery-ui/oco-theme/ui-icons_cd0a0a_256x240.png
+-	-	app/assets/images/jquery-ui/oco-theme/ui-icons_ffffff_256x240.png
+24	20	app/assets/stylesheets/jquery-ui/cooperatives_uk/{jquery-ui-1.9.0.custom.css.erb => jquery-ui-1.9.2.custom.css.erb}
+219	320	app/assets/stylesheets/jquery-ui/oco-theme/{jquery-ui-1.8.23.custom.css.erb => jquery-ui-1.9.2.custom.css.erb}
+1	1	app/assets/stylesheets/themes/cooperatives_uk.css.sass
+1	1	app/assets/stylesheets/themes/one_click_orgs.css.sass

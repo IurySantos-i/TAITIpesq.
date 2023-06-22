@@ -1,0 +1,237 @@
+--3f1f6eb03--2014-09-10--zz9pzza
+--166a4624b--2014-09-09--Elz
+--a9a8e54f1--2014-09-09--elz
+1	0	app/models/work_search.rb
+
+--979891cf9--2014-09-07--Elz
+--590d18741--2014-09-07--elz
+4	1	lib/collectible.rb
+
+--3a282649c--2014-09-07--Elz
+--83aeb6a52--2014-09-07--elz
+2	0	features/step_definitions/bookmark_steps.rb
+
+--bba940b2e--2014-09-06--Elz
+--923e0c1ab--2014-09-06--elz
+2	0	features/step_definitions/series_steps.rb
+
+--aa0b81894--2014-09-06--Elz
+--9b91a332a--2014-09-06--elz
+1	1	app/models/work_search.rb
+
+--9edee5557--2014-09-06--elz
+4	4	app/helpers/users_helper.rb
+23	0	app/models/bookmark_search.rb
+44	0	app/models/work_search.rb
+4	0	lib/elasticsearch_simple_client.rb
+
+--0f3fb0fbe--2014-09-06--elz
+1	1	app/controllers/bookmarks_controller.rb
+4	1	app/controllers/works_controller.rb
+
+--b8040c103--2014-09-06--elz
+3	3	config/resque_schedule.yml
+
+--f66345a03--2014-09-05--Elz
+--bed4c4eb6--2014-09-05--elz
+2	1	lib/works_owner.rb
+
+--a7aabf383--2014-09-05--elz
+2	1	lib/works_owner.rb
+
+--3fcbdef55--2014-09-05--Elz
+--0202d8035--2014-09-05--elz
+1	0	app/models/creatorship.rb
+1	0	app/models/work.rb
+
+--001717de8--2014-09-04--Elz
+--db849ab18--2014-09-04--elz
+1	1	app/models/pseud.rb
+5	1	app/models/work.rb
+
+--842ae9f51--2014-09-04--Elz
+--550b93b8c--2014-09-04--elz
+1	1	app/models/pseud.rb
+
+--0aa01010e--2014-09-03--Elz
+--27dcc0bc9--2014-09-03--elz
+2	2	app/models/indexing/index_subqueue.rb
+1	1	app/models/stat_counter.rb
+
+--245dbf8e7--2014-09-03--Elz
+2	1	app/models/indexing/index_queue.rb
+
+--9285f3b72--2014-09-03--Elz
+1	1	app/models/indexing/scheduled_reindex_job.rb
+
+--a152b3326--2014-09-03--Elz
+--c96a4696f--2014-09-03--elz
+7	0	spec/models/index_queue_spec.rb
+
+--95a5e0da2--2014-09-03--Elz
+--a1b0a7662--2014-09-03--elz
+1	1	app/models/collection_item.rb
+1	1	app/models/creatorship.rb
+1	1	app/models/filter_tagging.rb
+0	85	app/models/indexing/async_indexer.rb
+49	17	app/models/indexing/cache_master.rb
+74	0	app/models/indexing/index_queue.rb
+141	0	app/models/indexing/index_subqueue.rb
+0	11	app/models/indexing/reindex_job.rb
+13	14	app/models/indexing/scheduled_reindex_job.rb
+0	25	app/models/indexing/stats_indexer.rb
+4	4	app/models/redis_search_index_queue.rb
+1	0	app/models/work.rb
+1	1	lib/searchable.rb
+31	0	spec/models/cache_master_spec.rb
+36	0	spec/models/index_queue_spec.rb
+20	0	spec/models/index_subqueue_spec.rb
+
+--114360be8--2014-09-03--Elz
+--778f3956d--2014-09-03--james_
+7	0	config/deploy.rb
+3	3	config/deploy/production.rb
+1	1	config/deploy/staging.rb
+
+--ad56fa6f9--2014-09-02--Elz
+--cfda5a458--2014-09-02--elz
+2	2	app/models/indexing/reindex_job.rb
+
+--812be47ba--2014-09-03--Cristina
+--70dfd6589--2014-09-02--elz
+1	1	app/models/indexing/async_indexer.rb
+
+--621bde227--2014-09-02--elz
+4	4	app/models/indexing/async_indexer.rb
+8	24	app/models/indexing/reindex_job.rb
+6	4	app/models/indexing/stats_indexer.rb
+1	1	app/models/stat_counter.rb
+
+--39c869029--2014-09-01--Elz
+--0cf2c8c8e--2014-09-01--elz
+5	2	lib/searchable.rb
+10	4	lib/works_owner.rb
+
+--03456119c--2014-09-01--Elz
+--e12b4eec1--2014-09-01--elz
+1	0	app/models/indexing/stats_indexer.rb
+
+--45b4ded7a--2014-09-01--zz9pzza
+--6c1c64164--2014-09-01--elz
+1	1	app/models/work.rb
+
+--aa637b014--2014-09-01--zz9pzza
+--35cba4347--2014-09-01--elz
+1	1	spec/lib/works_owner_spec.rb
+
+--3a9196737--2014-09-01--elz
+31	4	app/models/{ => indexing}/async_indexer.rb
+0	0	app/models/{ => indexing}/cache_master.rb
+27	0	app/models/indexing/reindex_job.rb
+21	0	app/models/indexing/scheduled_reindex_job.rb
+4	0	app/models/{ => indexing}/stats_indexer.rb
+1	0	config/application.rb
+
+--b72be89a9--2014-09-01--elz
+1	0	Gemfile
+7	0	Gemfile.lock
+1	0	config.ru
+20	0	config/resque_schedule.yml
+32	2	lib/tasks/resque.rake
+
+--991656d1e--2014-09-01--elz
+2	1	lib/searchable.rb
+
+--1d39b4114--2014-09-01--elz
+18	4	app/models/async_indexer.rb
+28	0	app/models/cache_master.rb
+1	2	app/models/collection_item.rb
+1	3	app/models/creatorship.rb
+3	2	app/models/filter_tagging.rb
+37	34	app/models/redis_search_index_queue.rb
+24	0	app/models/work.rb
+7	0	lib/searchable.rb
+0	1	lib/work_stats.rb
+7	0	lib/works_owner.rb
+
+--be6ce46bd--2014-08-31--sarken
+2	2	app/models/admin_banner.rb
+
+--6826fd2b6--2014-08-29--elz
+1	1	app/models/async_indexer.rb
+6	0	app/models/stat_counter.rb
+1	21	app/models/stats_indexer.rb
+
+--7f3eeb976--2014-08-29--elz
+1	0	Gemfile
+5	0	Gemfile.lock
+44	0	app/models/async_indexer.rb
+38	0	app/models/stats_indexer.rb
+12	0	lib/elasticsearch_simple_client.rb
+
+--d39cb7cd1--2014-08-29--elz
+2	1	app/models/bookmark.rb
+2	1	app/models/pseud.rb
+2	1	app/models/tag.rb
+2	1	app/models/work.rb
+13	0	lib/searchable.rb
+
+--0a7978ac3--2014-08-29--zz9pzza
+--7f19e13ea--2014-08-28--elz
+1	1	app/controllers/works_controller.rb
+
+--937381138--2014-08-28--ariana-paris
+--cc0554bb9--2014-08-27--sarken
+15	15	features/other/pseud_delete.feature
+
+--585f40d46--2014-08-27--sarken
+0	1	features/other/skin.feature
+0	4	features/step_definitions/banner_steps.rb
+
+--92c4fa6d8--2014-08-27--sarken
+1	1	public/stylesheets/site/2.0/22-system-messages.css
+
+--47de07e05--2014-08-27--sarken
+1	2	features/other/admin_tasks.feature
+41	24	features/other/banner_general.feature
+1	1	features/other/pseud_delete.feature
+1	0	features/other/skin.feature
+4	0	features/step_definitions/banner_steps.rb
+
+--ba6fee600--2014-08-27--sarken
+1	0	app/models/admin_banner.rb
+
+--f99907f62--2014-08-27--sarken
+15	14	features/other/pseud_delete.feature
+
+--a2afbe486--2014-08-27--sarken
+1	0	app/controllers/admin/banners_controller.rb
+
+--22dbdfdd0--2014-08-27--james_
+2	3	app/views/errors/404.html.erb
+
+--6b6bb0998--2014-08-27--sarken
+3	1	app/models/admin_banner.rb
+5	2	features/other/banner_general.feature
+11	11	features/step_definitions/banner_steps.rb
+
+--4827d4c82--2014-08-27--sarken
+110	0	features/step_definitions/banner_steps.rb
+
+--77055256c--2014-08-27--sarken
+1	1	features/other/banner_general.feature
+
+--f38cc7777--2014-08-27--sarken
+13	3	app/controllers/admin/banners_controller.rb
+47	71	features/other/banner_general.feature
+6	0	features/step_definitions/preferences_steps.rb
+
+--e92c66dd5--2014-08-27--sarken
+0	67	features/step_definitions/banner_steps.rb
+
+--c446fc1a1--2014-08-27--sarken
+1	1	app/views/admin/banners/show.html.erb
+
+--53372b331--2014-08-25--james_
+10	0	app/controllers/application_controller.rb
+2	1	app/views/errors/404.html.erb

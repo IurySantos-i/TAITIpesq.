@@ -1,0 +1,267 @@
+--0ea269626e--2014-02-24--Bradley Wright
+--ac7a75a712--2014-02-24--Tekin Suleyman
+--94a665c971--2014-02-24--Tekin Suleyman
+1	24	app/models/speech.rb
+0	1	features/importing-new-editions.feature
+1	1	lib/whitehall/uploader/speech_row.rb
+1	3	test/functional/announcements_controller_test.rb
+1	3	test/functional/organisations_controller_test.rb
+1	3	test/functional/speeches_controller_test.rb
+2	4	test/unit/models/organisation_test.rb
+3	102	test/unit/speech_test.rb
+
+--0113c3b53b--2014-02-24--Tekin Suleyman
+2	10	test/functional/admin/email_curation_queue_items_controller_test.rb
+
+--6f760de083--2014-02-21--GrouchPotato
+--0091db003a--2014-02-21--Vinay Patel
+2	0	app/controllers/world_locations_controller.rb
+1	1	app/controllers/worldwide_organisations_controller.rb
+4	0	app/models/world_location.rb
+6	0	test/factories/sponsorship.rb
+6	0	test/factories/world_locations.rb
+6	0	test/factories/worldwide_organisations.rb
+10	1	test/functional/world_locations_controller_test.rb
+5	3	test/functional/worldwide_organisations_controller_test.rb
+9	0	test/unit/world_location_test.rb
+
+--9f459d61b3--2014-02-20--Vinay Patel
+0	46	test/functional/documents_controller_test.rb
+26	0	test/functional/documents_controller_worldwide_slimmer_headers_exclusion_test.rb
+28	0	test/functional/documents_controller_worldwide_slimmer_headers_inclusion_test.rb
+
+--1c7c849c2c--2014-02-19--Vinay Patel
+3	0	db/data_migration/20140219175406_populate_analytics_identifier_for_worldwide_organisations.rb
+3	0	db/data_migration/20140219175418_populate_analytics_identifier_for_world_locations.rb
+0	10	db/migrate/20140217121956_add_analytics_identifier_to_worldwide_organisations.rb
+0	10	db/migrate/20140217122025_add_analytics_identifier_to_world_locations.rb
+
+--5ed1e1d020--2014-02-19--Vinay Patel
+4	1	app/controllers/documents_controller.rb
+24	1	test/functional/documents_controller_test.rb
+
+--05400f8119--2014-02-19--Vinay Patel
+3	7	app/models/world_location.rb
+3	6	app/models/worldwide_organisation.rb
+1	1	db/migrate/20140217121956_add_analytics_identifier_to_worldwide_organisations.rb
+1	1	db/migrate/20140217122025_add_analytics_identifier_to_world_locations.rb
+15	0	lib/analytics_identifier_populator.rb
+21	0	test/unit/analytics_identifier_populator_test.rb
+
+--c61bf060ad--2014-02-19--Vinay Patel
+1	0	app/controllers/worldwide_organisations_controller.rb
+10	1	test/functional/worldwide_organisations_controller_test.rb
+
+--ae286c1404--2014-02-19--Vinay Patel
+2	0	app/controllers/documents_controller.rb
+23	0	test/functional/documents_controller_test.rb
+
+--858d4d789c--2014-02-18--Vinay Patel
+4	0	app/controllers/application_controller.rb
+1	0	app/controllers/world_locations_controller.rb
+1	0	app/controllers/worldwide_organisations_controller.rb
+8	0	test/functional/world_locations_controller_test.rb
+8	0	test/functional/worldwide_organisations_controller_test.rb
+
+--a305c5e738--2014-02-18--Vinay Patel
+1	1	Gemfile
+2	2	Gemfile.lock
+
+--00357d5ab6--2014-02-17--Vinay Patel
+5	0	app/models/world_location.rb
+6	1	app/models/worldwide_organisation.rb
+5	0	test/unit/world_location_test.rb
+5	12	test/unit/worldwide_organisation_test.rb
+
+--a8a560c21c--2014-02-17--Vinay Patel
+2	0	app/models/world_location.rb
+1	0	app/models/worldwide_organisation.rb
+15	0	db/migrate/20140217121956_add_analytics_identifier_to_worldwide_organisations.rb
+15	0	db/migrate/20140217122025_add_analytics_identifier_to_world_locations.rb
+3	1	db/schema.rb
+
+--3b5fac8af2--2014-02-21--russell thorn
+2	2	app/assets/stylesheets/frontend/helpers/_pagination.scss
+2	2	app/views/documents/_filter_table.mustache
+1	1	app/views/kaminari/_next_page.html.erb
+1	1	app/views/kaminari/_prev_page.html.erb
+
+--ea8ad607ad--2014-02-21--Dominic Baggott
+--664cc21d42--2014-02-21--russell thorn
+1	1	test/functional/supporting_pages_controller_test.rb
+
+--48b55048ea--2014-02-21--Richard Boulton
+--2293320932--2014-02-21--Will Tomlins
+2	2	app/views/organisations/index.html.erb
+
+--b295500e2e--2014-02-20--russell thorn
+3	1	app/assets/stylesheets/frontend/views/_historic-appointments.scss
+1	1	app/views/historic_appointments/_role_appointment.html.erb
+
+--b6837b62c3--2014-02-20--David Thompson
+1	2	lib/whitehall/document_filter/result.rb
+
+--83d255673f--2014-02-20--russell thorn
+1	2	app/assets/stylesheets/frontend/helpers/_dash-list.scss
+6	0	app/assets/stylesheets/frontend/views/_take-part-pages.scss
+
+--7a4e4b58d2--2014-02-20--Dominic Baggott
+--d8e43331c4--2014-02-19--Tommy Palmer
+70	0	db/data_migration/20140218160951_tag_ukvi_content_with_specialist_sectors.rb
+79	0	db/data_migration/20140218160951_ukvi_guidance_mapped_to_specialist_topics.csv
+
+--64ce51b488--2014-02-20--russell thorn
+7	1	app/assets/stylesheets/frontend/helpers/_dash-list.scss
+
+--5f14ffc5ab--2014-02-20--russell thorn
+1	1	app/assets/stylesheets/frontend/views/_html-publications.scss
+
+--befbf84458--2014-02-20--russell thorn
+4	0	app/assets/stylesheets/frontend/views/_html-publications.scss
+
+--fc7c056939--2014-02-20--russell thorn
+10	0	app/assets/stylesheets/frontend/helpers/_lead-image.scss
+4	1	app/assets/stylesheets/frontend/views/_new-document-page.scss
+
+--5fa55e0968--2014-02-20--russell thorn
+1	1	app/assets/stylesheets/frontend/helpers/_document-share-links.scss
+
+--fb7b587628--2014-02-20--russell thorn
+7	0	app/assets/stylesheets/frontend/helpers/_attachment.scss
+1	1	app/assets/stylesheets/frontend/helpers/_headings.scss
+
+--6cf1d60d5e--2014-02-18--russell thorn
+4	0	app/assets/stylesheets/frontend/views/_publications.scss
+1	1	app/views/publications/show.html.erb
+
+--18ef49a6e4--2014-02-18--russell thorn
+6	2	app/assets/stylesheets/frontend/views/_policies.scss
+2	2	app/views/supporting_pages/_document_contextual.html.erb
+
+--10eecfda37--2014-02-18--russell thorn
+17	6	app/assets/stylesheets/frontend/views/_policies.scss
+
+--b66db447f3--2014-02-18--russell thorn
+8	3	app/assets/stylesheets/frontend/views/_policies.scss
+
+--3b2a6067ee--2014-02-18--russell thorn
+1	1	app/views/kaminari/_next_page.html.erb
+1	1	app/views/kaminari/_prev_page.html.erb
+
+--c8e60b233e--2014-02-17--russell thorn
+7	0	app/assets/stylesheets/frontend/helpers/_activity-nav.scss
+
+--60c5ad2ee8--2014-02-17--russell thorn
+12	0	app/assets/stylesheets/frontend/views/_policies.scss
+
+--4c16c66690--2014-02-14--russell thorn
+10	0	app/assets/stylesheets/frontend/views/_world_locations.scss
+
+--2504656031--2014-02-14--russell thorn
+5	0	app/assets/stylesheets/frontend/views/_world_locations.scss
+1	1	app/views/organisations/show.html.erb
+1	1	app/views/world_locations/show.html.erb
+
+--7f1900079f--2014-02-14--russell thorn
+10	0	app/assets/stylesheets/frontend/views/_world_locations.scss
+
+--94186de057--2014-02-13--russell thorn
+7	0	app/assets/stylesheets/frontend/views/_topic.scss
+
+--b1448fcea4--2014-02-13--russell thorn
+1	1	app/assets/stylesheets/frontend/helpers/_govspeak.scss
+
+--371c2497d6--2014-02-13--russell thorn
+2	2	app/assets/stylesheets/frontend/views/_organisations.scss
+
+--50d9f676f6--2014-02-13--russell thorn
+41	6	app/assets/stylesheets/frontend/views/_organisations.scss
+
+--cf351aa825--2014-02-12--russell thorn
+4	1	app/assets/stylesheets/frontend/views/_organisations.scss
+
+--6833ed182a--2014-02-12--russell thorn
+1	1	app/assets/stylesheets/frontend/helpers/_documents-grid.scss
+
+--c71e2cdde3--2014-02-12--russell thorn
+3	0	app/assets/stylesheets/frontend/views/_organisations.scss
+
+--b960d51c6c--2014-02-12--russell thorn
+0	1	app/assets/stylesheets/frontend/helpers/_headings.scss
+
+--4b64cb5853--2014-02-11--russell thorn
+5	5	app/assets/stylesheets/frontend/views/_layouts.scss
+
+--94f81b96f8--2014-02-11--russell thorn
+10	17	app/assets/stylesheets/frontend/helpers/_pagination.scss
+2	2	app/views/documents/_filter_table.mustache
+
+--30dde507b8--2014-02-10--russell thorn
+1	1	app/assets/stylesheets/frontend/views/_documents-index.scss
+
+--c97e5aea1e--2014-02-10--russell thorn
+1	1	app/assets/stylesheets/frontend/views/_documents-index.scss
+
+--fca2ed7e65--2014-02-10--russell thorn
+11	6	app/assets/stylesheets/frontend/views/_get-involved.scss
+
+--78a06c84a3--2014-02-10--russell thorn
+1	1	app/assets/stylesheets/frontend/views/_get-involved.scss
+
+--c35a553f46--2014-02-10--russell thorn
+1	1	app/assets/stylesheets/frontend/views/_get-involved.scss
+
+--26a6e7a2f5--2014-02-10--russell thorn
+4	0	app/assets/stylesheets/frontend/views/_get-involved.scss
+2	2	app/views/take_part_pages/_take_part_page.html.erb
+
+--54a18a1fc4--2014-02-10--russell thorn
+2	0	app/assets/stylesheets/frontend/helpers/_headings.scss
+24	8	app/assets/stylesheets/frontend/views/_history.scss
+
+--38c932c5fc--2014-02-05--russell thorn
+19	0	app/assets/stylesheets/frontend/views/_how-gov-works.scss
+0	8	app/views/home/how_government_works.html.erb
+
+--11b02b35cb--2014-02-05--russell thorn
+18	1	app/assets/stylesheets/frontend/views/_how-gov-works.scss
+
+--493aa7e456--2014-01-31--russell thorn
+2	1	app/assets/stylesheets/frontend/views/_how-gov-works.scss
+
+--fe8a600767--2014-01-31--russell thorn
+7	7	app/assets/stylesheets/frontend/views/_world_locations.scss
+
+--e7d823fabe--2014-01-30--russell thorn
+2	2	app/assets/stylesheets/frontend/views/_organisations.scss
+
+--22877cfe43--2014-01-30--russell thorn
+10	2	app/assets/stylesheets/frontend/views/_organisations.scss
+
+--5883feb9be--2014-01-29--russell thorn
+4	1	app/assets/stylesheets/frontend/views/_organisations.scss
+
+--692c35d9c7--2014-01-29--russell thorn
+13	2	app/assets/stylesheets/frontend/views/_organisations.scss
+
+--5885e80682--2014-02-20--Elliot Crosby-McCullough
+--57a5dc5ebe--2014-02-20--David Heath
+--e0e68be752--2014-02-20--Dominic Baggott
+4	1	app/views/admin/editions/_specialist_sector_fields.html.erb
+
+--977b520c3c--2014-02-20--Bradley Wright
+0	1	Gemfile
+0	6	Gemfile.lock
+
+--67569518ce--2014-02-20--Bradley Wright
+0	1	Gemfile
+0	3	Gemfile.lock
+0	1	lib/tasks/scheduled_publishing.rake
+
+--5a87758e34--2014-02-20--Bradley Wright
+--c533914316--2014-02-20--Dominic Baggott
+1	1	Gemfile
+2	2	Gemfile.lock
+
+--650b010c92--2014-02-20--Dominic Baggott
+0	2	app/models/registerable_edition.rb

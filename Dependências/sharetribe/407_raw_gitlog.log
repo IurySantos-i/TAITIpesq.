@@ -1,0 +1,44 @@
+--bd0ccfe00--2017-10-23--Thomas Malbaux
+--b454cf82d--2017-10-23--Thomas Malbaux
+--577b5f061--2017-10-23--Thomas Malbaux
+77	73	config/locales/es-ES.yml
+1	1	config/locales/fr.yml
+
+--03755a3e5--2017-10-23--Thomas Malbaux
+--c6e63eeba--2017-10-23--Thomas Malbaux
+--f9b08952e--2017-10-20--Thomas Malbaux
+--2b9657036--2017-10-20--Thomas Malbaux
+--fef2dc458--2017-10-20--Thomas Malbaux
+1	1	README.md
+
+--8b1e663b6--2017-10-20--Thomas Malbaux
+3	3	config/locales/onboarding/es-ES.yml
+
+--738f1a59d--2017-09-18--Nikolai
+31	12	app/controllers/people_controller.rb
+1	1	app/models/person.rb
+1	0	config/locales/en.yml
+
+--99b0cf2d7--2017-10-19--Aivils Štoss
+4	0	app/assets/stylesheets/partials/_paypal_account_connected.scss
+35	10	app/controllers/admin/payment_preferences_controller.rb
+1	1	app/views/admin/payment_preferences/_general_prefs_form.haml
+47	16	app/views/admin/payment_preferences/_payment_settings.haml
+1	1	app/views/admin/payment_preferences/_prefs_form.haml
+1	1	app/views/admin/payment_preferences/_stripe_form.haml
+9	0	config/locales/en.yml
+10	2	config/routes.rb
+34	0	features/admin/payment_preferences/admin_enable_disable_payment.feature
+48	0	features/step_definitions/community_steps.rb
+4	2	features/support/paths.rb
+17	12	spec/factories.rb
+
+--5086d662e--2017-10-20--Aivils Štoss
+5	2	app/services/marketplace_service/available_currencies.rb
+34	0	spec/services/marketplace_service/available_currencies_spec.rb
+
+--f34dfbc0e--2017-10-20--Valdis Pornieks
+2	2	app/assets/javascripts/stripe_form.js
+
+--653b2c9b0--2017-09-18--Nikolai
+1	1	app/controllers/listing_images_controller.rb

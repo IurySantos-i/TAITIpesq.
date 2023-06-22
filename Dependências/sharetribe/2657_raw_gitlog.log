@@ -1,0 +1,70 @@
+--01116c33e--2013-03-29--Kusti
+--40f3dae51--2013-03-29--Kusti
+1	1	app/controllers/comments_controller.rb
+1	1	app/jobs/accept_reminder_job.rb
+5	4	app/jobs/comment_created_job.rb
+9	15	app/mailers/person_mailer.rb
+3	3	app/models/comment.rb
+3	3	app/models/listing.rb
+6	10	app/views/person_mailer/new_comment_to_followed_listing_notification.html.haml
+0	10	app/views/person_mailer/new_comment_to_followed_listing_notification.text.haml
+6	11	app/views/person_mailer/new_comment_to_own_listing_notification.html.haml
+0	10	app/views/person_mailer/new_comment_to_own_listing_notification.text.haml
+8	12	app/views/person_mailer/new_update_to_followed_listing_notification.html.haml
+0	3	app/views/person_mailer/new_update_to_followed_listing_notification.text.haml
+2	2	config/locales/en.yml
+2	2	config/locales/fi.yml
+13	22	features/conversations/user_gives_feedback_from_transaction.feature
+1	1	features/conversations/user_rejects_a_transaction.feature
+2	3	features/conversations/user_replies_to_a_conversation.feature
+1	1	features/conversations/user_requests_an_item_in_item_offer.feature
+3	3	features/conversations/user_skips_feedback.feature
+3	12	features/homepage/user_views_homepage.feature
+11	15	features/listings/user_comments_a_listing.feature
+19	1	features/listings/user_creates_a_new_listing.feature
+12	14	features/listings/user_edits_his_own_listing.feature
+1	1	features/step_definitions/badge_steps.rb
+1	79	spec/models/listing_spec.rb
+
+--dab4f46c8--2013-03-29--Antti Virolainen
+23	2	app/assets/javascripts/kassi.js
+23	3	app/controllers/organizations_controller.rb
+1	1	app/controllers/payments_controller.rb
+43	12	app/models/organization.rb
+1	1	app/views/community_memberships/new.haml
+1	1	app/views/listings/form/_title.haml
+25	10	app/views/organizations/_form.haml
+11	0	config/config.example.yml
+5	1	config/locales/organizations/en.yml
+14	2	config/locales/organizations/fi.yml
+29	2	features/organizations/user_joins_an_organization.feature
+9	0	features/step_definitions/organization_steps.rb
+
+--f870167e6--2013-03-29--Antti Virolainen
+10	8	app/models/location.rb
+13	1	spec/models/location_spec.rb
+
+--8181721fb--2013-03-29--Antti Virolainen
+17	0	db/migrate/20130329080756_update_conversation_statuses.rb
+10	0	db/migrate/20130329081612_clear_old_delayed_jobs.rb
+1	1	db/schema.rb
+
+--d52bd92d3--2013-03-28--Antti Virolainen
+1	1	app/controllers/comments_controller.rb
+31	0	app/controllers/payments_controller.rb
+18	4	app/helpers/categories_helper.rb
+5	1	app/jobs/conversation_accepted_job.rb
+6	0	app/models/community.rb
+31	2	app/models/conversation.rb
+5	0	app/models/listing.rb
+8	0	app/models/organization.rb
+17	0	app/models/payment.rb
+8	1	app/views/conversations/accept.haml
+13	5	app/views/payments/new.haml
+2	0	config/locales/en.yml
+2	0	config/locales/fi.yml
+7	1	config/routes.rb
+15	0	db/migrate/20130328124654_create_payments.rb
+10	0	db/migrate/20130328155825_add_payment_to_community_categories.rb
+14	1	db/schema.rb
+5	0	spec/models/payment_spec.rb

@@ -1,0 +1,233 @@
+--473e49c30b--2013-02-13--David Heath
+--fce1214b83--2013-02-13--James Adam
+3	3	app/views/documents/_change_notes.html.erb
+11	11	app/views/documents/_header.html.erb
+1	1	app/views/international_priorities/show.html.erb
+1	1	app/views/organisations/_organisations_logo_list.html.erb
+60	0	config/locales/en.yml
+5	0	config/locales/es.yml
+42	0	config/locales/fr.yml
+10	0	test/functional/international_priorities_controller_test.rb
+2	2	test/functional/policies_controller_test.rb
+2	2	test/functional/topics_controller_test.rb
+8	0	test/unit/i18n_key_test.rb
+
+--f87dc840b4--2013-02-13--Tom Ward
+2	1	app/helpers/translation_helper.rb
+17	0	test/unit/helpers/translation_helper_test.rb
+
+--ad0ba9d2b4--2013-02-13--Edd Sowden
+--671460c152--2013-02-13--Chris Roos
+6	0	app/controllers/documents_controller.rb
+10	0	test/functional/documents_controller_test.rb
+
+--935d90c34e--2013-02-13--Tom Ward
+2	2	app/views/admin/world_location_translations/index.html.erb
+4	0	lib/locale.rb
+2	0	test/functional/admin/world_location_translations_controller_test.rb
+4	0	test/unit/locale_test.rb
+
+--e851db2828--2013-02-13--Tom Ward
+3	3	app/views/admin/world_location_translations/_fields.html.erb
+1	1	app/views/admin/world_location_translations/edit.html.erb
+1	1	app/views/admin/world_location_translations/new.html.erb
+
+--37174eaf5e--2013-02-13--Tom Ward
+1	1	config/application.rb
+6	0	config/locales/de.yml
+6	0	config/locales/it.yml
+6	0	config/locales/ja.yml
+6	0	config/locales/pt.yml
+6	0	config/locales/ru.yml
+6	0	config/locales/tr.yml
+
+--5a7a1d2337--2013-02-13--russell thorn
+2	2	app/views/admin/editions/_govspeak_help.html.erb
+
+--98b28c0cda--2013-02-13--russell thorn
+1	1	app/assets/stylesheets/frontend/views/_world_locations.scss
+1	1	app/views/world_locations/show.html.erb
+1	1	app/views/worldwide_offices/_worldwide_office.html.erb
+1	1	config/locales/en.yml
+
+--546ce959de--2013-02-13--James Adam
+1	1	app/views/world_locations/show.html.erb
+1	0	config/locales/en.yml
+1	0	config/locales/fr.yml
+
+--c495130974--2013-02-13--James Adam
+0	7	config/locales/en.yml
+1	8	config/locales/fr.yml
+
+--749f259374--2013-02-13--Edd Sowden
+23	0	app/assets/stylesheets/frontend/views/_worldwide_offices.scss
+2	1	app/views/people/_person.html.erb
+25	26	app/views/worldwide_offices/show.html.erb
+
+--3d7b9a3ba4--2013-02-12--Tekin Suleyman
+9	0	test/unit/worldwide_office_appointment_test.rb
+
+--b5df193f72--2013-02-12--Tekin Suleyman
+1	1	test/unit/role_test.rb
+
+--55433370a1--2013-02-12--Tekin Suleyman
+0	0	test/factories/{worldwide_office_appointments_test.rb => worldwide_office_appointments.rb}
+
+--fce63a964b--2013-02-12--Tekin Suleyman
+0	1	test/functional/admin/worldwide_office_appointments_controller_test.rb
+1	1	test/functional/worldwide_office_appointment_presenter_test.rb
+
+--b9b269b50f--2013-02-12--Tekin Suleyman
+0	18	features/step_definitions/role_steps.rb
+18	0	features/step_definitions/worldwide_office_steps.rb
+
+--a9c324540a--2013-02-12--Tekin Suleyman
+0	1	features/administering-worldwide-offices.feature
+
+--5edae4d1b5--2013-02-12--Tekin Suleyman
+1	1	config/routes.rb
+
+--4041d440b0--2013-02-12--Tekin Suleyman
+0	22	app/views/admin/worldwide_offices/people.html.erb
+
+--f508c64920--2013-02-12--Tekin Suleyman
+0	2	app/models/person.rb
+
+--1dcf2cf13f--2013-02-12--Tekin Suleyman
+2	2	app/controllers/admin/worldwide_office_appointments_controller.rb
+
+--2323a42ff4--2013-02-12--Tekin Suleyman
+1	1	app/controllers/admin/people_controller.rb
+
+--c47c063b4b--2013-02-12--Tekin Suleyman
+1	1	app/models/person.rb
+1	1	app/models/worldwide_office_appointment.rb
+1	1	app/views/admin/worldwide_office_appointments/_worldwide_office_appointment.html.erb
+7	0	test/unit/person_test.rb
+
+--445d404be7--2013-02-12--Tekin Suleyman
+2	16	app/controllers/admin/people_controller.rb
+0	6	app/views/admin/people/_form.html.erb
+0	21	test/functional/admin/people_controller_test.rb
+
+--c1b2ab76ad--2013-02-12--Tekin Suleyman
+43	0	app/controllers/admin/worldwide_office_appointments_controller.rb
+5	1	app/controllers/admin/worldwide_offices_controller.rb
+1	1	app/helpers/admin/worldwide_offices_helper.rb
+19	0	app/views/admin/worldwide_office_appointments/_form.html.erb
+6	0	app/views/admin/worldwide_office_appointments/_worldwide_office_appointment.html.erb
+4	0	app/views/admin/worldwide_office_appointments/edit.html.erb
+4	0	app/views/admin/worldwide_office_appointments/new.html.erb
+21	0	app/views/admin/worldwide_offices/appointments.html.erb
+2	1	config/routes.rb
+4	3	features/administering-worldwide-offices.feature
+0	12	features/step_definitions/person_steps.rb
+10	0	features/step_definitions/worldwide_office_appointment_steps.rb
+59	0	test/functional/admin/worldwide_office_appointments_controller_test.rb
+10	0	test/functional/admin/worldwide_offices_controller_test.rb
+
+--fcd8ec2796--2013-02-12--Tekin Suleyman
+3	3	test/unit/worldwide_office_test.rb
+
+--86c1bcbc59--2013-02-12--Tekin Suleyman
+1	1	app/models/worldwide_office.rb
+7	1	test/unit/worldwide_office_test.rb
+
+--fdc47dd7e6--2013-02-12--Tekin Suleyman
+1	1	app/models/worldwide_office_appointment.rb
+
+--cd9a60db3e--2013-02-12--Tekin Suleyman
+3	3	app/controllers/worldwide_offices_controller.rb
+0	12	app/models/worldwide_office_appointment.rb
+13	0	app/presenters/worldwide_office_appointment_presenter.rb
+3	3	app/views/worldwide_offices/show.html.erb
+8	0	test/factories/worldwide_office_appointments_test.rb
+22	0	test/functional/worldwide_office_appointment_presenter_test.rb
+
+--7b9a98d21a--2013-02-11--Tekin Suleyman
+1	1	features/step_definitions/worldwide_office_steps.rb
+
+--948cdabe48--2013-02-11--Tekin Suleyman
+16	2	app/controllers/admin/people_controller.rb
+1	1	app/controllers/admin/worldwide_offices_controller.rb
+7	0	app/controllers/worldwide_offices_controller.rb
+1	0	app/helpers/admin/worldwide_offices_helper.rb
+5	0	app/models/person.rb
+1	0	app/models/worldwide_office.rb
+18	0	app/models/worldwide_office_appointment.rb
+6	0	app/views/admin/people/_form.html.erb
+22	0	app/views/admin/worldwide_offices/people.html.erb
+13	5	app/views/worldwide_offices/show.html.erb
+1	0	config/routes.rb
+14	0	db/migrate/20130211153510_create_worldwide_office_appointments.rb
+12	5	db/schema.rb
+22	0	test/functional/admin/people_controller_test.rb
+4	0	test/unit/worldwide_office_appointment_test.rb
+
+--01a49dc5be--2013-02-11--Tekin Suleyman
+7	0	features/administering-worldwide-offices.feature
+12	0	features/step_definitions/person_steps.rb
+10	4	features/step_definitions/worldwide_office_steps.rb
+
+--e6e99d1b93--2013-02-11--Tekin Suleyman
+4	4	features/administering-roles.feature
+9	9	features/step_definitions/role_steps.rb
+
+--b67b1cc050--2013-02-11--Tekin Suleyman
+1	1	features/{worldwide-offices.feature => administering-worldwide-offices.feature}
+
+--fbf334878a--2013-02-11--Tekin Suleyman
+1	1	app/models/worldwide_office.rb
+7	1	test/unit/worldwide_office_test.rb
+
+--d9af2b2858--2013-02-11--Tekin Suleyman
+13	1	app/controllers/worldwide_offices_controller.rb
+16	7	app/views/worldwide_offices/show.html.erb
+10	1	features/administering-roles.feature
+18	0	features/step_definitions/role_steps.rb
+
+--02dd8bce16--2013-02-11--Tekin Suleyman
+1	0	app/controllers/worldwide_offices_controller.rb
+14	0	app/models/worldwide_office.rb
+15	0	app/views/worldwide_offices/show.html.erb
+5	0	test/factories/ambassador_roles.rb
+5	0	test/factories/deputy_head_of_mission_roles.rb
+5	0	test/factories/governor_roles.rb
+5	0	test/factories/high_commissioner_roles.rb
+17	1	test/factories/role_appointments.rb
+43	0	test/unit/worldwide_office_test.rb
+
+--6fc852b03b--2013-02-11--Tekin Suleyman
+2	0	app/views/admin/roles/_form.html.erb
+
+--2ae78c7d51--2013-02-11--Tekin Suleyman
+2	1	features/step_definitions/role_steps.rb
+
+--2e6a5eb991--2013-02-11--Tekin Suleyman
+2	0	app/models/ambassador_role.rb
+2	0	app/models/deputy_head_of_mission_role.rb
+2	0	app/models/governor_role.rb
+2	0	app/models/high_commissioner_role.rb
+6	0	app/presenters/role_type_presenter.rb
+22	0	test/functional/role_type_presenter_test.rb
+
+--b821141bb2--2013-02-08--Tekin Suleyman
+4	1	app/models/role.rb
+6	0	app/models/worldwide_office_role.rb
+12	0	db/migrate/20130208161225_create_worldwide_office_roles.rb
+14	0	db/schema.rb
+6	0	test/factories/worldwide_office_roles.rb
+9	3	test/unit/role_test.rb
+13	0	test/unit/worldwide_office_role_test.rb
+
+--c7b5467eca--2013-02-08--Tekin Suleyman
+7	0	features/administering-roles.feature
+20	0	features/step_definitions/role_steps.rb
+4	0	features/step_definitions/worldwide_office_steps.rb
+5	0	features/support/paths.rb
+
+--d39a98be1d--2013-02-13--russell thorn
+7	0	app/assets/stylesheets/frontend/views/_world_locations.scss
+4	4	app/views/contacts/_contact.html.erb
+1	1	app/views/world_locations/show.html.erb
+1	1	app/views/worldwide_offices/_worldwide_office.html.erb

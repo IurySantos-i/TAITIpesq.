@@ -1,0 +1,179 @@
+--d7553b30c3--2013-02-04--Bradley Wright
+--bac14ad225--2013-02-04--russell thorn
+13	2	app/views/admin/document_series/new.html.erb
+
+--6112d4a045--2013-02-04--Murray Steele
+6	6	test/unit/world_location_test.rb
+
+--459c112454--2013-02-04--Edd Sowden
+1	1	features/administering-world-locations.feature
+
+--46e663d2be--2013-02-04--Edd Sowden
+0	30	app/views/shared/_hero_rotator.html.erb
+
+--22a7f575fb--2013-02-04--Edd Sowden
+1	0	app/assets/stylesheets/frontend/base.scss
+59	0	app/assets/stylesheets/frontend/helpers/_featured_news.scss
+0	67	app/assets/stylesheets/frontend/views/_organisations.scss
+0	41	app/assets/stylesheets/frontend/views/_topical-events.scss
+25	0	app/assets/stylesheets/frontend/views/_world_locations.scss
+1	1	app/views/organisations/show.html.erb
+3	8	app/views/world_locations/show.html.erb
+
+--6f85ad4ca8--2013-02-04--Murray Steele
+7	2	app/views/shared/_featured_news.html.erb
+
+--7440127ce8--2013-02-04--russell thorn
+8	1	app/views/organisations/index.html.erb
+
+--34897b495e--2013-02-04--russell thorn
+3	3	app/views/documents/_recently_changed_documents.html.erb
+3	1	test/functional/policies_controller_test.rb
+
+--338ba5b5d0--2013-02-01--russell thorn
+7	1	app/views/organisations/show.html.erb
+
+--f855e7b8f3--2013-02-01--Edd Sowden
+1	1	app/helpers/document_filter_helper.rb
+7	0	test/unit/helpers/document_filter_helper_test.rb
+
+--579f15107c--2013-02-01--russell thorn
+7	0	app/views/documents/_recently_changed_documents.html.erb
+
+--bc9410128b--2013-02-01--Murray Steele
+38	0	db/data_migration/20130201124727_add_more_countries.csv
+12	0	db/data_migration/20130201124727_add_more_countries.rb
+
+--2489f107bc--2013-02-01--Edd Sowden
+0	31	app/helpers/application_helper.rb
+
+--e34447c17a--2013-02-01--Edd Sowden
+2	0	app/assets/stylesheets/frontend/base.scss
+60	0	app/assets/stylesheets/frontend/helpers/_documents-grid.scss
+59	0	app/assets/stylesheets/frontend/helpers/_recently_updated.scss
+2	103	app/assets/stylesheets/frontend/views/_organisations.scss
+3	31	app/assets/stylesheets/frontend/views/_topic.scss
+0	41	app/assets/stylesheets/frontend/views/_topical-events.scss
+26	262	app/assets/stylesheets/frontend/views/_world_locations.scss
+3	2	app/views/organisations/show.html.erb
+3	1	app/views/shared/_recently_updated.html.erb
+1	1	app/views/topics/show.html.erb
+20	13	app/views/world_locations/show.html.erb
+
+--a2c4ab8272--2013-02-01--Murray Steele
+2	2	app/models/import.rb
+
+--b634ddc418--2013-02-01--Murray Steele
+5	0	app/helpers/admin/import_helper.rb
+17	1	app/models/force_publication_attempt.rb
+1	1	app/views/admin/imports/force_publish_log.html.erb
+11	7	app/views/admin/imports/index.html.erb
+1	1	features/step_definitions/force_publishing_imports_steps.rb
+
+--fbae36c943--2013-02-01--Murray Steele
+3	0	app/controllers/admin/editions_controller.rb
+6	1	app/views/admin/editions/_topical_event_fields.html.erb
+1	0	test/functional/admin/news_articles_controller_test.rb
+1	0	test/functional/admin/speeches_controller_test.rb
+74	0	test/support/admin_edition_controller_test_helpers.rb
+
+--dece062085--2013-01-31--Bradley Wright
+--53115a98a3--2013-01-31--Murray Steele
+26	19	features/administering-world-locations.feature
+26	9	features/step_definitions/world_location_steps.rb
+
+--cced75ef3d--2013-01-31--Murray Steele
+1	1	app/controllers/world_locations_controller.rb
+19	6	app/views/world_locations/show.html.erb
+9	9	test/functional/world_locations_controller_test.rb
+
+--c6fb639051--2013-01-31--Murray Steele
+40	3	app/controllers/admin/edition_world_locations_controller.rb
+9	5	app/models/world_location.rb
+26	0	app/views/admin/edition_world_locations/edit.html.erb
+51	0	app/views/admin/edition_world_locations/index.html.erb
+6	2	app/views/admin/world_locations/index.html.erb
+3	2	config/routes.rb
+157	14	test/functional/admin/edition_world_locations_controller_test.rb
+
+--3928062f0c--2013-01-31--Murray Steele
+1	37	app/views/admin/world_locations/edit.html.erb
+0	47	test/functional/admin/world_locations_controller_test.rb
+
+--6ce329d51c--2013-01-31--Murray Steele
+3	1	app/models/edition/world_locations.rb
+33	0	test/unit/edition/world_locations_test.rb
+
+--06ce20cf90--2013-01-31--Murray Steele
+8	1	app/models/edition_world_location.rb
+19	0	app/models/edition_world_location_image_data.rb
+6	6	app/models/world_location.rb
+24	0	db/migrate/20130131111958_provide_edition_world_locations_with_feature_ordering_and_images.rb
+13	2	db/schema.rb
+5	0	test/factories/edition_world_location_image_data.rb
+6	0	test/factories/edition_world_locations.rb
+19	0	test/unit/edition_world_location_image_data_test.rb
+51	0	test/unit/edition_world_location_test.rb
+17	17	test/unit/world_location_test.rb
+
+--a2efec6dd6--2013-01-31--Murray Steele
+5	6	app/views/organisations/show.html.erb
+2	1	app/views/shared/_featured_news.html.erb
+4	6	app/views/topical_events/show.html.erb
+
+--18031756e7--2013-01-31--russell thorn
+5	0	app/assets/stylesheets/frontend/helpers/_govspeak.scss
+
+--a54da26676--2013-01-31--russell thorn
+1	1	app/views/documents/_attachment.html.erb
+
+--8fb144575f--2013-01-31--Matthew Ford
+--7f1f078307--2013-01-31--Matthew Ford
+6	5	lib/whitehall/document_filter/elastic_search.rb
+
+--1e07e43d64--2013-01-31--russell thorn
+2	3	app/views/organisations/show.html.erb
+
+--8d607fb6e4--2013-01-30--Matthew Ford
+1	0	Gemfile
+3	0	Gemfile.lock
+2	0	config/application.rb
+12	2	lib/whitehall/document_filter/elastic_search.rb
+
+--c264e4c266--2013-01-31--David Heath
+3	1	app/views/documents/_filter_form.html.erb
+
+--ac0fd242b3--2013-01-31--Edd Sowden
+6	0	app/assets/stylesheets/admin/organisation.scss
+1	0	app/controllers/admin/organisations_controller.rb
+19	0	app/views/admin/organisations/_organisation_row.html.erb
+11	14	app/views/admin/organisations/index.html.erb
+
+--e52aa993ad--2013-01-30--Murray Steele
+249	2	app/assets/stylesheets/frontend/views/_world_locations.scss
+7	6	app/controllers/world_locations_controller.rb
+58	46	app/views/world_locations/show.html.erb
+92	3	test/functional/world_locations_controller_test.rb
+
+--c5e8e8f7e1--2013-01-30--Murray Steele
+2	0	app/helpers/filter_routes_helper.rb
+9	2	test/unit/helpers/filter_routes_helper_test.rb
+
+--3a3995d2b9--2013-01-30--Murray Steele
+4	6	app/models/organisation.rb
+4	1	app/models/publication.rb
+4	0	app/models/publication_type.rb
+
+--d9acf1455d--2013-01-28--Murray Steele
+1	3	app/controllers/admin/editions_controller/attachments.rb
+6	0	app/models/attachable.rb
+16	0	test/unit/attachable_test.rb
+
+--6f9063294d--2013-01-28--Murray Steele
+1	0	app/controllers/admin/editions_controller.rb
+6	1	app/controllers/admin/editions_controller/attachments.rb
+22	11	app/models/bulk_upload.rb
+12	1	features/bulk-upload-of-attachments.feature
+37	0	features/step_definitions/bulk_upload_attachments_steps.rb
+4	0	features/support/document_helper.rb
+30	0	test/unit/bulk_upload_test.rb

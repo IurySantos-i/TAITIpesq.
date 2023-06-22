@@ -1,0 +1,146 @@
+--38e276c38--2015-11-18--jsugarman
+--a98963b93--2015-11-18--jsugarman
+18	3	app/controllers/super_admins/chambers_controller.rb
+3	3	app/views/super_admins/chambers/_chambers.html.haml
+4	4	app/views/super_admins/chambers/_form.html.haml
+1	1	app/views/super_admins/chambers/edit.html.haml
+2	2	app/views/super_admins/chambers/index.html.haml
+1	1	app/views/super_admins/chambers/new.html.haml
+3	3	app/views/super_admins/chambers/show.html.haml
+21	0	config/locales/en.yml
+1	1	db/seeds/super_admins.rb
+7	0	features/sign_in.feature
+2	0	features/step_definitions/shared/sign_in_steps.rb
+19	0	features/step_definitions/sign_in_steps.rb
+1	1	features/support/stub_zendesk_requests.rb
+43	0	spec/controllers/super_admins/chambers_controller_spec.rb
+7	1	spec/models/ability_spec.rb
+4	3	spec/services/zendesk_sender_spec.rb
+
+--a3c07f45d--2015-11-18--Joel Sugarman
+--f5231791a--2015-11-18--Edward Andress
+--4292dadc9--2015-11-18--Himal Mandalia
+4	0	app/models/claim.rb
+1	0	app/models/claims/state_machine.rb
+10	8	app/views/shared/_claim_header.html.haml
+31	0	features/archive_claim.feature
+24	0	features/step_definitions/archive_claim_steps.rb
+16	0	spec/models/claim_spec.rb
+
+--e88e04fff--2015-11-18--Rachel Matheson
+2	2	lib/assets/data/fee_types.csv
+
+--26c351ef8--2015-11-18--jsugarman
+2	2	app/controllers/advocates/admin/advocates_controller.rb
+0	1	app/controllers/bug_report_controller.rb
+4	3	app/controllers/super_admins/admin/super_admins_controller.rb
+1	1	app/controllers/super_admins/application_controller.rb
+1	1	app/controllers/super_admins/chambers_controller.rb
+8	4	app/models/ability.rb
+0	1	app/models/case_worker.rb
+1	0	app/models/super_admin.rb
+1	1	app/views/advocates/admin/advocates/change_password.html.haml
+2	2	app/views/super_admins/admin/super_admins/change_password.html.haml
+1	1	config/routes.rb
+1	1	spec/controllers/application_controller_spec.rb
+96	4	spec/controllers/super_admins/admin/super_admins_controller_spec.rb
+10	7	spec/controllers/super_admins/chambers_controller_spec.rb
+1	2	spec/factories/{super_admin.rb => super_admins.rb}
+29	0	spec/models/ability_spec.rb
+24	0	spec/models/super_admin_spec.rb
+
+--32bd20cf4--2015-11-18--Alistair Laing
+--2f65849e9--2015-11-18--Himal Mandalia
+--b26fb621f--2015-11-17--jsugarman
+3	0	app/controllers/super_admins/admin/application_controller.rb
+13	6	app/controllers/super_admins/admin/super_admins_controller.rb
+5	5	app/views/super_admins/admin/super_admins/_form.html.haml
+4	4	app/views/super_admins/admin/super_admins/change_password.html.haml
+6	6	app/views/super_admins/admin/super_admins/show.html.haml
+31	0	config/locales/en.yml
+21	0	spec/controllers/super_admins/admin/super_admins_controller_spec.rb
+
+--e486faccb--2015-11-17--jsugarman
+1	0	db/seeds.rb
+13	0	db/seeds/super_admins.rb
+
+--0c3c05182--2015-11-17--Edward Andress
+21	14	spec/models/claims/financial_summary_spec.rb
+
+--e63416d04--2015-11-17--Edward Andress
+--aae457a59--2015-11-17--Himal Mandalia
+13	14	app/views/advocates/certifications/new.html.haml
+
+--6f0c4b2c8--2015-11-16--Tyom Semonov
+3	0	ux/README.md
+153	0	ux/user-journey-advocates.gv
+-	-	ux/user-journey-advocates.pdf
+95	0	ux/user-journey-caseworkers.gv
+-	-	ux/user-journey-caseworkers.pdf
+
+--b75659e2d--2015-11-17--Edward Andress
+1	1	app/models/claims/financial_summary.rb
+
+--ac2f1528c--2015-11-17--Himal Mandalia
+--bcb5b95aa--2015-11-17--Edward Andress
+2	1	spec/models/json_document_importer_spec.rb
+
+--083b50464--2015-11-17--Edward Andress
+27	27	spec/models/json_document_importer_spec.rb
+
+--361aad080--2015-11-17--Edward Andress
+0	0	spec/examples/{cms_exported_claim.json => exported_claim.json}
+0	0	spec/examples/{invalid_cms_exported_claim.json => exported_claim_with_errors.json}
+0	0	spec/examples/{cms_export_with_nulls.json => exported_claim_with_nulls.json}
+0	0	spec/examples/{json_schema_fail.json => exported_claim_with_schema_error.json}
+0	0	spec/examples/{multiple_cms_exported_claims.json => exported_claims.json}
+0	0	spec/examples/{multiple_cms_export_with_errors.json => exported_claims_with_errors.json}
+0	0	spec/examples/{multiple_cms_export_with_errors_2.json => exported_claims_with_errors_2.json}
+68	51	spec/models/json_document_importer_spec.rb
+
+--b08bf96d1--2015-11-17--Edward Andress
+--e1159c811--2015-11-17--Himal Mandalia
+1	1	config/initializers/devise.rb
+
+--26a2abd78--2015-11-17--Himal Mandalia
+--51ec98d46--2015-11-16--Edward Andress
+5	14	app/interfaces/api/v1/api_helper.rb
+20	28	app/models/json_document_importer.rb
+7	5	app/models/json_template.rb
+
+--2f4e08f68--2015-11-16--jsugarman
+21	0	app/assets/stylesheets/super_admins/chambers-table.scss
+4	1	app/controllers/application_controller.rb
+43	0	app/controllers/super_admins/admin/super_admins_controller.rb
+12	0	app/controllers/super_admins/application_controller.rb
+34	0	app/controllers/super_admins/chambers_controller.rb
+2	0	app/helpers/super_admin/chambers_helper.rb
+4	1	app/models/ability.rb
+1	1	app/views/advocates/admin/advocates/_form.html.haml
+4	1	app/views/layouts/_primary_navigation.html.haml
+20	0	app/views/super_admins/admin/super_admins/_form.html.haml
+24	0	app/views/super_admins/admin/super_admins/change_password.html.haml
+4	0	app/views/super_admins/admin/super_admins/edit.html.haml
+14	0	app/views/super_admins/admin/super_admins/show.html.haml
+21	0	app/views/super_admins/chambers/_chambers.html.haml
+27	0	app/views/super_admins/chambers/_form.html.haml
+5	0	app/views/super_admins/chambers/edit.html.haml
+10	0	app/views/super_admins/chambers/index.html.haml
+5	0	app/views/super_admins/chambers/new.html.haml
+16	0	app/views/super_admins/chambers/show.html.haml
+17	0	config/routes.rb
+10	0	spec/controllers/application_controller_spec.rb
+65	0	spec/controllers/super_admins/chambers_controller_spec.rb
+9	0	spec/factories/super_admin.rb
+
+--9ee04e299--2015-11-16--Edward Andress
+--1197eb01b--2015-11-16--Tyom Semonov
+4	0	app/assets/stylesheets/claims-importer.scss
+2	2	app/views/advocates/json_document_importers/create.js.erb
+
+--94b717c5e--2015-11-15--jsugarman
+3	3	app/models/advocate.rb
+16	0	app/models/super_admin.rb
+4	0	config/routes.rb
+7	0	db/migrate/20151115214327_create_super_admins.rb
+6	1	db/schema.rb

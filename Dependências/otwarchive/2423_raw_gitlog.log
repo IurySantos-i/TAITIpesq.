@@ -1,0 +1,293 @@
+--2e3e8e566--2011-11-02--shalott
+--83102d3f8--2011-11-02--shalott
+1	2	app/controllers/admin_posts_controller.rb
+1	1	app/controllers/collections_controller.rb
+1	3	app/controllers/passwords_controller.rb
+8	5	app/controllers/skins_controller.rb
+12	25	app/helpers/application_helper.rb
+6	6	app/helpers/bookmarks_helper.rb
+4	11	app/helpers/skins_helper.rb
+1	1	app/helpers/tag_sets_helper.rb
+3	7	app/helpers/tags_helper.rb
+9	8	app/helpers/users_helper.rb
+2	2	app/models/challenge_assignment.rb
+2	2	app/models/challenge_claim.rb
+1	1	app/models/pseud.rb
+0	3	app/models/skin.rb
+4	2	app/views/admin/admin_invitations/index.html.erb
+1	2	app/views/admin/admin_users/index.html.erb
+1	1	app/views/admin_posts/show.html.erb
+3	3	app/views/bookmarks/_bookmark_blurb.html.erb
+1	1	app/views/bookmarks/_bookmark_blurb_short.html.erb
+1	2	app/views/bookmarks/_bookmark_form.html.erb
+1	1	app/views/bookmarks/_bookmarks.html.erb
+3	3	app/views/bookmarks/fetch_recent.js.erb
+1	3	app/views/challenge/gift_exchange/_gift_exchange_form.html.erb
+2	2	app/views/challenge/shared/_challenge_form_instructions.html.erb
+1	1	app/views/chapters/_chapter.html.erb
+40	23	app/views/chapters/_chapter_form.html.erb
+2	2	app/views/chapters/manage.html.erb
+4	4	app/views/collection_profile/show.html.erb
+1	1	app/views/collections/_collection_blurb.html.erb
+0	2	app/views/collections/_sidebar.html.erb
+1	1	app/views/collections/index.html.erb
+1	1	app/views/comments/_commentable.html.erb
+8	8	app/views/external_works/compare.html.erb
+1	3	app/views/feedbacks/new.html.erb
+14	20	app/views/invite_requests/index.html.erb
+3	2	app/views/layouts/_header.html.erb
+1	1	app/views/owned_tag_sets/_tag_set_blurb.html.erb
+0	1	app/views/passwords/new.html.erb
+13	1	app/views/skins/_skin_top_navigation.html.erb
+2	2	app/views/skins/index.html.erb
+2	2	app/views/static/fandoms/show.html.erb
+2	2	app/views/static/restricted_works/index.html.erb
+3	3	app/views/tags/wrangle.html.erb
+5	5	app/views/user_sessions/_passwd_small.html.erb
+10	6	app/views/works/_standard_form.html.erb
+1	0	app/views/works/_work_header_navigation.html.erb
+1	1	app/views/works/import.html.erb
+2	2	app/views/works/show.html.erb
+1	1	config/initializers/gem-plugin_config/live_validation_config.rb
+1	1	config/initializers/gem-plugin_config/sanitizer_config.rb
+6	7	features/skin.feature
+2	1	public/help/icon-alt-text.html
+7	2	public/help/skins-approval.html
+-	-	public/images/skins/iconsets/default/icon_transparent.gif
+16	0	public/images/skins/textures/tiles/aaaaa-readme.txt
+-	-	public/images/skins/textures/tiles/black-denim.jpg
+-	-	public/images/skins/textures/tiles/black-illo-breeze.gif
+-	-	public/images/skins/textures/tiles/black-metal-grid.jpg
+-	-	public/images/skins/textures/{tile_noise.jpg => tiles/black-noise.jpg}
+-	-	public/images/skins/textures/tiles/black-stripe.gif
+-	-	public/images/skins/textures/tiles/black-wallpaper-charcoal.gif
+-	-	public/images/skins/textures/tiles/blue-denim-1.jpg
+-	-	public/images/skins/textures/tiles/blue-denim.jpg
+-	-	public/images/skins/textures/tiles/blue-geometric.jpg
+-	-	public/images/skins/textures/tiles/blue-heartflowers.jpg
+-	-	public/images/skins/textures/tiles/blue-illo-ravens.gif
+-	-	public/images/skins/textures/tiles/blue-illo-waves.gif
+-	-	public/images/skins/textures/tiles/blue-lotus.gif
+-	-	public/images/skins/textures/tiles/blue-metal-grid.jpg
+-	-	public/images/skins/textures/tiles/brown-canvas.jpg
+-	-	public/images/skins/textures/tiles/brown-corkboard.jpg
+-	-	public/images/skins/textures/tiles/brown-fine-cardboard.jpg
+-	-	public/images/skins/textures/tiles/brown-grunge.jpg
+-	-	public/images/skins/textures/tiles/brown-handmade-paper.jpg
+-	-	public/images/skins/textures/tiles/brown-hessian.jpg
+-	-	public/images/skins/textures/tiles/brown-illo-octo-redux.gif
+-	-	public/images/skins/textures/tiles/brown-linen.jpg
+-	-	public/images/skins/textures/tiles/brown-manila-card.jpg
+-	-	public/images/skins/textures/tiles/brown-metal-grid.jpg
+-	-	public/images/skins/textures/tiles/brown-planks-nails.jpg
+-	-	public/images/skins/textures/tiles/brown-twill.jpg
+-	-	public/images/skins/textures/tiles/brown-winchester-walls.gif
+-	-	public/images/skins/textures/tiles/green-leather.jpg
+-	-	public/images/skins/textures/tiles/grey-argyle.jpg
+-	-	public/images/skins/textures/tiles/grey-bookswirl.jpg
+-	-	public/images/skins/textures/tiles/grey-canvas.jpg
+-	-	public/images/skins/textures/tiles/grey-corrogated.jpg
+-	-	public/images/skins/textures/tiles/grey-illo-bones.gif
+-	-	public/images/skins/textures/tiles/multi-illo-autumn-butterflies.gif
+-	-	public/images/skins/textures/tiles/pink-illo-panda-madness.gif
+-	-	public/images/skins/textures/{tile_ao3.png => tiles/red-ao3.png}
+-	-	public/images/skins/textures/tiles/red-golden-dragons.gif
+-	-	public/images/skins/textures/tiles/red-illo-45-caliber.gif
+-	-	public/images/skins/textures/tiles/red-illo-dead-revolutionaries.gif
+-	-	public/images/skins/textures/tiles/red-illo-hold-fast.gif
+-	-	public/images/skins/textures/tiles/red-illo-indian-summer.gif
+-	-	public/images/skins/textures/tiles/red-illo-overlyRosie.gif
+-	-	public/images/skins/textures/tiles/red-illo-rafters.gif
+-	-	public/images/skins/textures/tiles/red-illo-vintage-scarlet.gif
+-	-	public/images/skins/textures/tiles/transp-notebook-spiral-1.png
+-	-	public/images/skins/textures/tiles/transp-notebook-spiral-2.png
+-	-	public/images/skins/textures/tiles/white-cartridge-paper.jpg
+-	-	public/images/skins/textures/tiles/white-graph-paper.jpg
+-	-	public/images/skins/textures/{tile_paper.jpg => tiles/white-handmade-paper.jpg}
+-	-	public/images/skins/textures/tiles/white-lined-paper.jpg
+-	-	public/images/skins/textures/tiles/yellow-thick-card.jpg
+-	-	public/images/skins/textures/tiles/yellow-watercolour-paper.jpg
+15	15	public/javascripts/application.js
+4	1	public/javascripts/jquery.qtip.js
+2	2	public/stylesheets/site/2.0/03-region-header.css
+2	4	public/stylesheets/site/2.0/04-region-dashboard.css
+3	2	public/stylesheets/site/2.0/06-region-footer.css
+2	2	public/stylesheets/site/2.0/07-interactions.css
+1	1	public/stylesheets/site/2.0/10-types-groups.css
+13	11	public/stylesheets/site/2.0/13-group-blurb.css
+1	1	public/stylesheets/site/2.0/29-role-ie5.css
+1	1	public/stylesheets/site/2.0/30-role-ie6.css
+3	5	public/stylesheets/site/2.0/31-role-ie7.css
+
+--d8a3ff16f--2011-11-02--shalott
+1	2	app/controllers/admin_posts_controller.rb
+1	1	app/controllers/collections_controller.rb
+1	3	app/controllers/passwords_controller.rb
+8	5	app/controllers/skins_controller.rb
+12	25	app/helpers/application_helper.rb
+6	6	app/helpers/bookmarks_helper.rb
+4	11	app/helpers/skins_helper.rb
+1	1	app/helpers/tag_sets_helper.rb
+3	7	app/helpers/tags_helper.rb
+9	8	app/helpers/users_helper.rb
+2	2	app/models/challenge_assignment.rb
+2	2	app/models/challenge_claim.rb
+1	1	app/models/pseud.rb
+0	3	app/models/skin.rb
+4	2	app/views/admin/admin_invitations/index.html.erb
+1	2	app/views/admin/admin_users/index.html.erb
+1	1	app/views/admin_posts/show.html.erb
+3	3	app/views/bookmarks/_bookmark_blurb.html.erb
+1	1	app/views/bookmarks/_bookmark_blurb_short.html.erb
+1	2	app/views/bookmarks/_bookmark_form.html.erb
+1	1	app/views/bookmarks/_bookmarks.html.erb
+3	3	app/views/bookmarks/fetch_recent.js.erb
+1	3	app/views/challenge/gift_exchange/_gift_exchange_form.html.erb
+2	2	app/views/challenge/shared/_challenge_form_instructions.html.erb
+1	1	app/views/chapters/_chapter.html.erb
+40	23	app/views/chapters/_chapter_form.html.erb
+2	2	app/views/chapters/manage.html.erb
+4	4	app/views/collection_profile/show.html.erb
+1	1	app/views/collections/_collection_blurb.html.erb
+0	2	app/views/collections/_sidebar.html.erb
+1	1	app/views/collections/index.html.erb
+1	1	app/views/comments/_commentable.html.erb
+8	8	app/views/external_works/compare.html.erb
+1	3	app/views/feedbacks/new.html.erb
+14	20	app/views/invite_requests/index.html.erb
+3	2	app/views/layouts/_header.html.erb
+1	1	app/views/owned_tag_sets/_tag_set_blurb.html.erb
+0	1	app/views/passwords/new.html.erb
+13	1	app/views/skins/_skin_top_navigation.html.erb
+2	2	app/views/skins/index.html.erb
+2	2	app/views/static/fandoms/show.html.erb
+2	2	app/views/static/restricted_works/index.html.erb
+3	3	app/views/tags/wrangle.html.erb
+5	5	app/views/user_sessions/_passwd_small.html.erb
+10	6	app/views/works/_standard_form.html.erb
+1	0	app/views/works/_work_header_navigation.html.erb
+1	1	app/views/works/import.html.erb
+2	2	app/views/works/show.html.erb
+1	1	config/initializers/gem-plugin_config/live_validation_config.rb
+1	1	config/initializers/gem-plugin_config/sanitizer_config.rb
+6	7	features/skin.feature
+2	1	public/help/icon-alt-text.html
+7	2	public/help/skins-approval.html
+-	-	public/images/skins/iconsets/default/icon_transparent.gif
+16	0	public/images/skins/textures/tiles/aaaaa-readme.txt
+-	-	public/images/skins/textures/tiles/black-denim.jpg
+-	-	public/images/skins/textures/tiles/black-illo-breeze.gif
+-	-	public/images/skins/textures/tiles/black-metal-grid.jpg
+-	-	public/images/skins/textures/{tile_noise.jpg => tiles/black-noise.jpg}
+-	-	public/images/skins/textures/tiles/black-stripe.gif
+-	-	public/images/skins/textures/tiles/black-wallpaper-charcoal.gif
+-	-	public/images/skins/textures/tiles/blue-denim-1.jpg
+-	-	public/images/skins/textures/tiles/blue-denim.jpg
+-	-	public/images/skins/textures/tiles/blue-geometric.jpg
+-	-	public/images/skins/textures/tiles/blue-heartflowers.jpg
+-	-	public/images/skins/textures/tiles/blue-illo-ravens.gif
+-	-	public/images/skins/textures/tiles/blue-illo-waves.gif
+-	-	public/images/skins/textures/tiles/blue-lotus.gif
+-	-	public/images/skins/textures/tiles/blue-metal-grid.jpg
+-	-	public/images/skins/textures/tiles/brown-canvas.jpg
+-	-	public/images/skins/textures/tiles/brown-corkboard.jpg
+-	-	public/images/skins/textures/tiles/brown-fine-cardboard.jpg
+-	-	public/images/skins/textures/tiles/brown-grunge.jpg
+-	-	public/images/skins/textures/tiles/brown-handmade-paper.jpg
+-	-	public/images/skins/textures/tiles/brown-hessian.jpg
+-	-	public/images/skins/textures/tiles/brown-illo-octo-redux.gif
+-	-	public/images/skins/textures/tiles/brown-linen.jpg
+-	-	public/images/skins/textures/tiles/brown-manila-card.jpg
+-	-	public/images/skins/textures/tiles/brown-metal-grid.jpg
+-	-	public/images/skins/textures/tiles/brown-planks-nails.jpg
+-	-	public/images/skins/textures/tiles/brown-twill.jpg
+-	-	public/images/skins/textures/tiles/brown-winchester-walls.gif
+-	-	public/images/skins/textures/tiles/green-leather.jpg
+-	-	public/images/skins/textures/tiles/grey-argyle.jpg
+-	-	public/images/skins/textures/tiles/grey-bookswirl.jpg
+-	-	public/images/skins/textures/tiles/grey-canvas.jpg
+-	-	public/images/skins/textures/tiles/grey-corrogated.jpg
+-	-	public/images/skins/textures/tiles/grey-illo-bones.gif
+-	-	public/images/skins/textures/tiles/multi-illo-autumn-butterflies.gif
+-	-	public/images/skins/textures/tiles/pink-illo-panda-madness.gif
+-	-	public/images/skins/textures/{tile_ao3.png => tiles/red-ao3.png}
+-	-	public/images/skins/textures/tiles/red-golden-dragons.gif
+-	-	public/images/skins/textures/tiles/red-illo-45-caliber.gif
+-	-	public/images/skins/textures/tiles/red-illo-dead-revolutionaries.gif
+-	-	public/images/skins/textures/tiles/red-illo-hold-fast.gif
+-	-	public/images/skins/textures/tiles/red-illo-indian-summer.gif
+-	-	public/images/skins/textures/tiles/red-illo-overlyRosie.gif
+-	-	public/images/skins/textures/tiles/red-illo-rafters.gif
+-	-	public/images/skins/textures/tiles/red-illo-vintage-scarlet.gif
+-	-	public/images/skins/textures/tiles/transp-notebook-spiral-1.png
+-	-	public/images/skins/textures/tiles/transp-notebook-spiral-2.png
+-	-	public/images/skins/textures/tiles/white-cartridge-paper.jpg
+-	-	public/images/skins/textures/tiles/white-graph-paper.jpg
+-	-	public/images/skins/textures/{tile_paper.jpg => tiles/white-handmade-paper.jpg}
+-	-	public/images/skins/textures/tiles/white-lined-paper.jpg
+-	-	public/images/skins/textures/tiles/yellow-thick-card.jpg
+-	-	public/images/skins/textures/tiles/yellow-watercolour-paper.jpg
+15	15	public/javascripts/application.js
+4	1	public/javascripts/jquery.qtip.js
+2	2	public/stylesheets/site/2.0/03-region-header.css
+2	4	public/stylesheets/site/2.0/04-region-dashboard.css
+3	2	public/stylesheets/site/2.0/06-region-footer.css
+2	2	public/stylesheets/site/2.0/07-interactions.css
+1	1	public/stylesheets/site/2.0/10-types-groups.css
+13	11	public/stylesheets/site/2.0/13-group-blurb.css
+1	1	public/stylesheets/site/2.0/29-role-ie5.css
+1	1	public/stylesheets/site/2.0/30-role-ie6.css
+3	5	public/stylesheets/site/2.0/31-role-ie7.css
+
+--140227ca6--2011-11-01--shalott
+--5709ec023--2011-11-01--shalott
+--fabd2e226--2011-11-01--shalott
+--34770db20--2011-11-01--Cesy
+2	1	app/views/collections/_form.html.erb
+
+--2bd115f7f--2011-11-01--Cesy
+2	2	app/views/home/site_map.html.erb
+
+--3a2ab9cdf--2011-10-31--Enigel
+--8145be286--2011-10-30--Sidra
+1	0	.gitignore
+16	10	script/seed_dump.rb
+4	1	script/seed_restore.rb
+
+--cf531fcb5--2011-10-29--Sidra
+--e94cf5fa0--2011-10-28--Cesy
+3	1	app/views/challenge/prompt_meme/_challenge_sidebar.html.erb
+1	11	features/challenge_promptmeme.feature
+
+--acb83c5b8--2011-10-28--Cesy
+1	1	app/views/collections/_collection_blurb.html.erb
+
+--bd9381633--2011-09-28--Cesy
+1	1	features/challenge_promptmeme.feature
+
+--65e196b26--2011-09-25--Cesy
+1	1	app/views/collections/_collection_blurb.html.erb
+
+--af60ed986--2011-09-18--Cesy
+1	1	app/models/prompt.rb
+10	0	features/challenge_promptmeme.feature
+
+--f45c6da0f--2011-09-03--Cesy
+4	2	app/sweepers/challenge_signup_sweeper.rb
+3	0	app/views/challenge/prompt_meme/_challenge_meta.html.erb
+3	3	app/views/collections/_collection_blurb.html.erb
+1	1	app/views/collections/show.html.erb
+10	1	features/challenge_promptmeme.feature
+
+--7cfb61aaa--2011-09-03--Cesy
+1	1	app/models/prompt.rb
+4	0	app/views/collections/_collection_blurb.html.erb
+4	2	app/views/collections/show.html.erb
+9	1	features/challenge_promptmeme.feature
+
+--29754f481--2011-07-14--Cesy
+2	0	app/models/prompt.rb
+10	1	app/views/collections/show.html.erb
+
+--66b1f96d8--2011-10-28--Rebecca
+84	0	spec/models/chapter_spec.rb

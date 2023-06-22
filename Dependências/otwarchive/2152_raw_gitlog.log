@@ -1,0 +1,52 @@
+--2d578a0d9--2012-04-20--Elz
+--5aaa66f0e--2012-04-20--shalott
+--1b351cab2--2012-04-20--elz
+1	1	app/controllers/profile_controller.rb
+1	1	app/models/subscription.rb
+
+--1aae2e6c8--2012-04-19--elz
+1	1	app/controllers/chapters_controller.rb
+1	1	app/controllers/pseuds_controller.rb
+5	0	app/controllers/series_controller.rb
+1	1	app/controllers/users_controller.rb
+1	1	app/controllers/works_controller.rb
+1	11	app/mailers/user_mailer.rb
+16	2	app/models/subscription.rb
+5	0	app/views/series/show.html.erb
+13	0	app/views/subscriptions/_form.html.erb
+4	0	app/views/subscriptions/index.html.erb
+2	10	app/views/users/_header_navigation.html.erb
+5	13	app/views/works/_work_header_navigation.html.erb
+
+--59bcba470--2012-04-16--Cristina
+--fd28c61fe--2012-04-16--Cristina
+8	7	app/models/story_parser.rb
+4	2	features/support/vcr.rb
+29	10	features/work_import_da.feature
+
+--3016ce0d0--2012-04-15--Cristina
+--e5bc8cbcc--2012-04-15--Elz
+--276011364--2012-04-15--Elz
+--2544aa9bd--2012-04-15--elz
+1	1	app/controllers/tags_controller.rb
+2	1	app/models/tag.rb
+5	2	app/views/tags/wrangle.html.erb
+
+--bc7118f2d--2012-04-15--Cristina
+2	2	features/ToS_links.feature
+
+--67cdc5c9a--2012-04-15--elz
+1	1	app/models/fandom.rb
+9	2	app/models/tag.rb
+6	0	app/views/tags/edit.html.erb
+9	0	db/migrate/20120415134615_add_unwrangleable_to_tags.rb
+
+--1c5436e5b--2012-04-15--elz
+1	1	app/models/serial_work.rb
+5	2	app/models/series.rb
+4	0	features/support/factories.rb
+31	0	spec/models/series_spec.rb
+
+--81c54aaf1--2012-04-14--mumble
+1	2	app/views/collections/_collection_blurb.html.erb
+2	2	app/views/collections/_header.html.erb

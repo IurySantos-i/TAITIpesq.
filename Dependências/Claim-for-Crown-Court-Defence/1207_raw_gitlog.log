@@ -1,0 +1,31 @@
+--e8a8c0f37--2015-11-23--Edward Andress
+--6203e530f--2015-11-23--Rachel Matheson
+2	2	features/claim_evidence_checklist.feature
+
+--d8d6df41f--2015-11-23--Rachel Matheson
+2	2	features/claim_evidence_checklist.feature
+
+--f0686e162--2015-11-23--Rachel Matheson
+1	1	features/step_definitions/advocate_new_claim_steps.rb
+
+--25fed89bf--2015-11-23--Rachel Matheson
+1	1	spec/validators/claim_date_validator_spec.rb
+
+--c176fe0b9--2015-11-23--Rachel Matheson
+5	5	features/cracked_trial.feature
+
+--836eea83f--2015-11-23--Rachel Matheson
+2	2	app/views/case_workers/claims/_list_controls.html.haml
+
+--5c61b27ef--2015-11-23--Rachel Matheson
+2	2	app/models/doc_type.rb
+
+--dd60ec483--2015-11-23--Himal Mandalia
+--8941d0653--2015-11-20--jsugarman
+1	1	app/views/super_admins/advocates/_form.html.haml
+1	1	config/locales/en.yml
+0	24	config/routes.rb
+
+--d33ab8592--2015-11-20--jsugarman
+1	1	app/assets/stylesheets/advocates-table.scss
+1	1	app/assets/stylesheets/chambers-table.scss

@@ -1,0 +1,288 @@
+--fe0c87fcf7--2013-02-19--David Heath
+--973a01a947--2013-02-19--David Heath
+15	9	app/assets/stylesheets/frontend/views/_ministerial-roles.scss
+6	0	app/views/ministerial_roles/index.html.erb
+2	2	lib/whitehall/whip_organisation.rb
+
+--8e4f4c0977--2013-02-19--Matthew Ford
+1	1	app/controllers/groups_controller.rb
+
+--0ef34d6700--2013-02-19--David Heath
+30	17	app/controllers/ministerial_roles_controller.rb
+4	0	app/models/role.rb
+27	12	app/views/ministerial_roles/index.html.erb
+23	0	features/step_definitions/minister_steps.rb
+2	2	features/support/role_appointments_helper.rb
+15	0	features/viewing-minister-pages.feature
+6	5	test/functional/ministerial_roles_controller_test.rb
+
+--fe20b712be--2013-02-19--Bradley Wright
+1	1	app/views/admin/organisations/tabs/_navigation.html.erb
+2	2	features/step_definitions/organisation_steps.rb
+
+--4a25fbd41c--2013-02-19--Edd Sowden
+1	1	config/locales/fr.yml
+1	1	features/step_definitions/organisation_steps.rb
+
+--f8a7070d2d--2013-02-19--Matthew Ford
+6	6	app/assets/javascripts/application/document_filter.js
+2	2	app/views/documents/_filter_results.html.erb
+5	6	app/views/documents/_filter_selections.mustache
+
+--ea8c274d8e--2013-02-19--David Heath
+--c7ba6e4a7d--2013-02-19--Matthew Ford
+--bb36287bd9--2013-02-19--Matthew Ford
+7	13	app/controllers/ministerial_roles_controller.rb
+3	3	test/functional/ministerial_roles_controller_test.rb
+
+--2adf061448--2013-02-19--Bradley Wright
+--97a16952ba--2013-02-19--Matthew Ford
+0	8	app/models/ministerial_role.rb
+
+--3819b070fc--2013-02-19--Matthew Ford
+0	1	db/schema.rb
+
+--d5bbe45e15--2013-02-19--Matthew Ford
+2	2	app/views/documents/_filter_form.html.erb
+1	0	db/schema.rb
+3	3	lib/whitehall/document_filter/filterer.rb
+2	2	test/functional/announcements_controller_test.rb
+6	6	test/unit/whitehall/document_filter/mysql_test.rb
+
+--40f90a9c62--2013-02-19--Edd Sowden
+--1b4ea57472--2013-02-19--Bradley Wright
+7	0	app/assets/javascripts/admin/on_ready.js
+9	1	app/controllers/admin/organisations_controller.rb
+32	0	app/views/admin/organisations/_organisation_editions.html.erb
+20	0	app/views/admin/organisations/documents.html.erb
+1	12	app/views/admin/organisations/show.html.erb
+14	34	app/views/admin/organisations/tabs/_documents.html.erb
+14	0	app/views/admin/organisations/tabs/_navigation.html.erb
+3	0	config/routes.rb
+21	8	test/functional/admin/organisations_controller_test.rb
+
+--dd65cbbbab--2013-02-19--Edd Sowden
+1	1	app/models/edition/publishing.rb
+8	0	test/functional/documents_controller_test.rb
+
+--c967cdd480--2013-02-19--Chris Roos
+5	6	db/migrate/20130218162129_remove_title_and_summary_and_body_from_editions.rb
+37	0	db/migrate/20130219135606_conditionally_add_title_and_summary_and_body_fields_to_editions.rb
+12	9	db/schema.rb
+
+--77e3ddc3ab--2013-02-19--russell thorn
+15	3	app/assets/stylesheets/frontend/views/_how-gov-works.scss
+
+--83ec0fc17d--2013-02-19--Edd Sowden
+1	1	app/views/documents/unpublished.html.erb
+
+--548f186815--2013-02-19--Chris Roos
+--8ffb6806c8--2013-02-19--Edd Sowden
+44	16	app/assets/stylesheets/frontend/views/_world_locations.scss
+9	1	app/views/world_locations/show.html.erb
+1	0	config/locales/ar.yml
+1	0	config/locales/az.yml
+1	0	config/locales/be.yml
+1	0	config/locales/bg.yml
+1	0	config/locales/bn.yml
+1	0	config/locales/cs.yml
+1	0	config/locales/de.yml
+1	0	config/locales/dr.yml
+1	0	config/locales/el.yml
+1	0	config/locales/en.yml
+1	0	config/locales/es.yml
+1	0	config/locales/fa.yml
+1	0	config/locales/fr.yml
+1	0	config/locales/he.yml
+1	0	config/locales/hi.yml
+1	0	config/locales/hu.yml
+1	0	config/locales/hy.yml
+1	0	config/locales/id.yml
+1	0	config/locales/it.yml
+1	0	config/locales/ja.yml
+1	0	config/locales/ka.yml
+1	0	config/locales/ko.yml
+1	0	config/locales/lt.yml
+1	0	config/locales/lv.yml
+1	0	config/locales/ms.yml
+1	0	config/locales/pl.yml
+1	0	config/locales/ps.yml
+1	0	config/locales/pt.yml
+1	0	config/locales/ro.yml
+1	0	config/locales/ru.yml
+1	0	config/locales/si.yml
+1	0	config/locales/sk.yml
+1	0	config/locales/so.yml
+1	0	config/locales/sq.yml
+1	0	config/locales/sr.yml
+1	0	config/locales/sw.yml
+1	0	config/locales/ta.yml
+1	0	config/locales/th.yml
+1	0	config/locales/tk.yml
+1	0	config/locales/ur.yml
+1	0	config/locales/uz.yml
+1	0	config/locales/vi.yml
+1	0	config/locales/zh.yml
+11	0	test/functional/world_locations_controller_test.rb
+
+--11e97c8a88--2013-02-19--Edd Sowden
+18	0	app/controllers/admin/world_locations_controller.rb
+0	0	app/models/{world_location_mainstream_links.rb => world_location_mainstream_link.rb}
+2	7	app/views/admin/organisations/_form.html.erb
+7	0	app/views/admin/shared/_mainstream_link_fields.html.erb
+2	0	app/views/admin/world_locations/edit.html.erb
+6	0	test/factories/world_location_mainstream_links.rb
+40	0	test/functional/admin/world_locations_controller_test.rb
+
+--4eef5c1f2a--2013-02-19--Edd Sowden
+7	0	app/models/world_location.rb
+4	0	app/models/world_location_mainstream_links.rb
+12	0	db/migrate/20130218164250_create_world_location_mainstream_links.rb
+5	0	db/schema.rb
+31	0	test/unit/world_location_test.rb
+
+--78c548d6c7--2013-02-18--Edd Sowden
+6	6	app/controllers/admin/organisations_controller.rb
+4	0	app/models/mainstream_link.rb
+6	2	app/models/organisation.rb
+1	2	app/models/organisation_mainstream_link.rb
+1	1	app/views/admin/organisations/_form.html.erb
+2	2	app/views/admin/organisations/tabs/_details.html.erb
+2	2	app/views/organisations/_header.html.erb
+28	0	db/migrate/20130218134857_move_organisation_mainstrem_links_to_mainstream_links.rb
+9	5	db/schema.rb
+6	0	test/factories/mainstream_link.rb
+2	2	test/factories/organisation_mainstream_links.rb
+7	7	test/functional/admin/organisations_controller_test.rb
+2	2	test/functional/organisations_controller_test.rb
+4	4	test/unit/{organisation_mainstream_link_test.rb => mainstream_link_test.rb}
+3	3	test/unit/organisation_test.rb
+
+--dbe9848ddd--2013-02-19--Matthew Ford
+3	5	app/controllers/ministerial_roles_controller.rb
+
+--3a182296f9--2013-02-19--Matthew Ford
+4	0	features/step_definitions/worldwide_priority_steps.rb
+
+--4e250ac758--2013-02-19--Matthew Ford
+0	10	features/step_definitions/worldwide_priority_steps.rb
+
+--6d8da03052--2013-02-19--Matthew Ford
+1	1	lib/whitehall.rb
+
+--6599463bbb--2013-02-19--Matthew Ford
+1	1	config/routes.rb
+
+--77009fa0ff--2013-02-18--Matthew Ford
+2	2	config/locales/fr.yml
+1	1	test/functional/worldwide_priorities_controller_test.rb
+
+--7b2d0e52c2--2013-02-18--Matthew Ford
+1	1	config/routes.rb
+
+--524d360e38--2013-02-18--Matthew Ford
+2	2	config/locales/es.yml
+2	2	config/locales/fr.yml
+
+--14d2114c1b--2013-02-18--Matthew Ford
+1	1	app/assets/stylesheets/frontend/views/_world_locations.scss
+2	2	app/controllers/admin/{international_priorities_controller.rb => worldwide_priorities_controller.rb}
+0	14	app/controllers/international_priorities_controller.rb
+1	1	app/controllers/world_locations_controller.rb
+14	0	app/controllers/worldwide_priorities_controller.rb
+1	1	app/helpers/admin/edition_routes_helper.rb
+1	1	app/helpers/application_helper.rb
+3	3	app/models/{international_priority.rb => worldwide_priority.rb}
+2	2	app/presenters/edition_collection_presenter.rb
+0	6	app/presenters/international_priority_presenter.rb
+6	0	app/presenters/worldwide_priority_presenter.rb
+2	2	app/views/admin/editions/index.html.erb
+0	0	app/views/admin/{international_priorities => worldwide_priorities}/_form.html.erb
+0	31	app/views/international_priorities/index.html.erb
+3	3	app/views/world_locations/show.html.erb
+31	0	app/views/worldwide_priorities/index.html.erb
+1	1	app/views/{international_priorities => worldwide_priorities}/show.html.erb
+1	1	config/locales/ar.yml
+1	1	config/locales/az.yml
+1	1	config/locales/be.yml
+1	1	config/locales/bg.yml
+1	1	config/locales/bn.yml
+1	1	config/locales/cs.yml
+1	1	config/locales/de.yml
+1	1	config/locales/dr.yml
+1	1	config/locales/el.yml
+3	3	config/locales/en.yml
+1	1	config/locales/es.yml
+1	1	config/locales/fa.yml
+1	1	config/locales/fr.yml
+1	1	config/locales/he.yml
+1	1	config/locales/hi.yml
+1	1	config/locales/hu.yml
+1	1	config/locales/hy.yml
+1	1	config/locales/id.yml
+1	1	config/locales/it.yml
+1	1	config/locales/ja.yml
+1	1	config/locales/ka.yml
+1	1	config/locales/ko.yml
+1	1	config/locales/lt.yml
+1	1	config/locales/lv.yml
+1	1	config/locales/ms.yml
+1	1	config/locales/pl.yml
+1	1	config/locales/ps.yml
+1	1	config/locales/pt.yml
+1	1	config/locales/ro.yml
+1	1	config/locales/ru.yml
+1	1	config/locales/si.yml
+1	1	config/locales/sk.yml
+1	1	config/locales/so.yml
+1	1	config/locales/sq.yml
+1	1	config/locales/sr.yml
+1	1	config/locales/sw.yml
+1	1	config/locales/ta.yml
+1	1	config/locales/th.yml
+1	1	config/locales/tk.yml
+1	1	config/locales/tr.yml
+1	1	config/locales/uk.yml
+1	1	config/locales/ur.yml
+1	1	config/locales/uz.yml
+1	1	config/locales/vi.yml
+1	1	config/locales/zh.yml
+2	2	config/routes.rb
+11	0	db/migrate/20130218124251_rename_international_priority_to_worldwide_priority.rb
+0	13	features/editing-draft-international-priorities.feature
+13	0	features/editing-draft-worldwide-priorities.feature
+0	8	features/publishing-international-priorities.feature
+8	0	features/publishing-worldwide-priorities.feature
+3	3	features/step_definitions/document_steps.rb
+0	59	features/step_definitions/international_priority_steps.rb
+64	0	features/step_definitions/worldwide_priority_steps.rb
+1	1	features/support/document_helper.rb
+0	13	features/viewing-published-international-priorities.feature
+13	0	features/viewing-published-worldwide-priorities.feature
+2	2	features/viewing-world-locations.feature
+2	2	lib/whitehall.rb
+0	17	test/factories/international_priorities.rb
+17	0	test/factories/worldwide_priorities.rb
+36	36	test/functional/admin/{international_priorities_controller_test.rb => worldwide_priorities_controller_test.rb}
+6	6	test/functional/world_locations_controller_test.rb
+9	9	test/functional/{international_priorities_controller_test.rb => worldwide_priorities_controller_test.rb}
+2	2	test/integration/search_index_test.rb
+3	3	test/unit/edition/worldwide_offices_test.rb
+1	1	test/unit/factories_test.rb
+2	2	test/unit/helpers/application_helper_test.rb
+1	1	test/unit/i18n_key_test.rb
+0	15	test/unit/international_priority_test.rb
+3	3	test/unit/presenters/edition_collection_presenter_test.rb
+15	0	test/unit/worldwide_priority_test.rb
+
+--0e12e0e0a7--2013-02-19--Matthew Ford
+20	1	app/controllers/ministerial_roles_controller.rb
+8	0	app/models/ministerial_role.rb
+11	2	app/models/organisation.rb
+3	0	app/views/admin/roles/_form.html.erb
+11	5	app/views/ministerial_roles/index.html.erb
+5	0	db/migrate/20130218154500_add_whip_orgs_to_ministerial_role.rb
+1	0	db/schema.rb
+9	0	lib/active_record_like_interface.rb
+23	0	lib/whitehall/whip_organisation.rb
+26	2	test/functional/ministerial_roles_controller_test.rb

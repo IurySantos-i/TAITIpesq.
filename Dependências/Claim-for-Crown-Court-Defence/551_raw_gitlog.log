@@ -1,0 +1,19 @@
+--257e498ab--2016-06-03--Stephen Richards
+--d81204895--2016-06-02--Jesus Laiz
+0	2	.rubocop_todo.yml
+33	35	app/services/claim_reporter.rb
+0	18	spec/services/claim_reporter_spec.rb
+
+--1fbc692dd--2016-06-02--Stephen Richards
+0	6	app/controllers/application_controller.rb
+5	0	app/controllers/errors_controller.rb
+1	1	config/routes.rb
+
+--f294a2637--2016-06-02--Stephen Richards
+1	1	features/claims/litigator/interim_trial_claim_draft_submit.feature
+1	1	features/claims/litigator/litigator_contempt_claim_draft_submit.feature
+1	1	features/claims/litigator/transfer_claim_draft_submit.feature
+19	11	features/step_definitions/advocate_claim_steps.rb
+0	1	features/step_definitions/common_steps.rb
+3	1	features/step_definitions/litigator_claim_steps.rb
+11	0	features/support/wait_for_ajax.rb

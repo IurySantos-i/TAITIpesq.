@@ -1,0 +1,11 @@
+--343737a8--2015-09-22--Alan Thomas
+--18253945--2015-09-21--Henry Hadlow
+1	1	app/models/rejection.rb
+21	15	config/locales/rejections.en-GB.yml
+3	3	features/admin/moderator_responds_to_petition.feature
+2	2	features/step_definitions/moderation_steps.rb
+2	1	spec/helpers/rejection_helper_spec.rb
+
+--0a3e5d81--2015-09-21--Alan Thomas
+--38404640--2015-09-21--Henry Hadlow
+1	1	app/views/pages/_home_responded_petitions.html.erb

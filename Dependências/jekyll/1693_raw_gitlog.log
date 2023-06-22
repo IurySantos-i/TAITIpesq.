@@ -1,0 +1,48 @@
+--fa8618879--2013-12-22--Aidan Feldman
+--2bfafb3b3--2013-12-22--Aidan Feldman
+5	1	lib/jekyll/convertible.rb
+3	1	lib/jekyll/page.rb
+1	0	lib/jekyll/post.rb
+11	0	test/source/_posts/2013-12-20-properties.text
+8	0	test/source/properties.html
+1	1	test/test_filters.rb
+1	1	test/test_generated_site.rb
+23	0	test/test_page.rb
+28	0	test/test_post.rb
+1	1	test/test_site.rb
+
+--354b4b9c5--2013-12-19--Parker Moore
+1	0	History.markdown
+
+--8c2da1309--2013-12-19--Parker Moore
+--c2b750448--2013-12-19--Aidan Feldman
+9	0	lib/jekyll/convertible.rb
+
+--c79f17068--2013-12-19--Eric Dobson
+1	1	site/docs/datafiles.md
+
+--8cb1dc47d--2013-12-19--Parker Moore
+1	0	History.markdown
+
+--94e96d325--2013-12-19--Parker Moore
+--45ee9f814--2013-12-19--Aidan Feldman
+1	3	test/test_site.rb
+
+--8c1706b66--2013-12-19--Aidan Feldman
+0	2	features/embed_filters.feature
+
+--35712dcad--2013-12-19--Aidan Feldman
+15	0	features/embed_filters.feature
+
+--396aa16f9--2013-12-19--Aidan Feldman
+16	15	features/step_definitions/jekyll_steps.rb
+
+--5b2480c8b--2013-12-19--Aidan Feldman
+23	19	features/step_definitions/jekyll_steps.rb
+
+--a6e1c4005--2013-12-19--Aidan Feldman
+1	0	test/test_site.rb
+
+--3c1d45f45--2013-12-19--Aidan Feldman
+2	0	lib/jekyll/site.rb
+8	0	test/test_site.rb

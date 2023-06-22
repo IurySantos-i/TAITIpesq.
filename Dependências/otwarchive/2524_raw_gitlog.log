@@ -1,0 +1,71 @@
+--a3c2d0726--2011-07-14--Nancy McLaughlin
+--554b1b6fb--2011-07-14--Cesy
+--e04aefa52--2011-07-14--elz
+2	2	app/sweepers/tag_sweeper.rb
+
+--fee0d4e80--2011-07-14--elz
+1	1	public/javascripts/jquery.tokeninput.js
+
+--6dae1fe0d--2011-07-12--Cesy
+3	2	features/challenge_giftexchange.feature
+21	17	features/challenge_promptmeme.feature
+
+--71be340e7--2011-07-12--Cesy
+0	6	app/views/user_mailer/prompter_notification.html.erb
+
+--b00766dd5--2011-07-12--Cesy
+--7b1d871b0--2011-07-12--Cesy
+2	2	app/views/challenge/prompt_meme/_challenge_navigation_maintainer.html.erb
+10	0	features/challenge_promptmeme.feature
+
+--2c5f0fcc8--2011-07-11--elz
+1	1	features/profile_edit.feature
+
+--cd7b27f18--2011-07-11--elz
+0	1	app/controllers/passwords_controller.rb
+1	1	app/controllers/user_sessions_controller.rb
+0	1	app/controllers/users_controller.rb
+2	2	app/mailers/user_mailer.rb
+3	1	app/models/user.rb
+
+--5a07bec68--2011-07-11--Cesy
+9	9	app/views/challenge/prompt_meme/_challenge_requests.html.erb
+
+--da4f300cd--2011-07-11--Sidra
+2	1	lib/tasks/after_tasks.rake
+
+--ec6888254--2011-07-09--elz
+--ae15eebd8--2011-07-09--elz
+--68a1fe80c--2011-07-09--shalott
+4	8	app/models/story_parser.rb
+
+--7c959dd47--2011-07-09--Cesy
+2	2	app/controllers/chapters_controller.rb
+
+--369e50ed3--2011-07-08--Cesy
+1	1	app/controllers/challenge_signups_controller.rb
+5	5	app/views/challenge_signups/_signup_controls.html.erb
+2	2	app/views/prompts/_prompt_controls.html.erb
+11	0	features/challenge_promptmeme.feature
+7	0	features/step_definitions/challenge_steps.rb
+
+--5b8d18015--2011-07-07--Cesy
+--1bb6bbfd5--2011-07-06--shalott
+10	3	app/models/story_parser.rb
+8447	7	features/cassette_library/cucumber_tags/work_import_nul_character.yml
+
+--1489b6953--2011-07-06--elz
+--30ce56e1b--2011-07-02--Cesy
+62	6	features/challenge_promptmeme.feature
+33	1	features/step_definitions/challenge_steps.rb
+5	0	features/step_definitions/generic_steps.rb
+
+--d8aeabfb9--2011-07-01--shalott
+2	2	app/helpers/application_helper.rb
+123	11	app/models/story_parser.rb
+1	1	app/views/works/_work_header.html.erb
+1	1	app/views/works/new_import.html.erb
+
+--2dc8fd730--2011-06-26--Cesy
+2	0	app/sweepers/challenge_signup_sweeper.rb
+4	4	app/views/challenge/prompt_meme/_challenge_requests.html.erb

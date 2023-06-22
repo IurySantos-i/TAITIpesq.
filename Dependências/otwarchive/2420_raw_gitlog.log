@@ -1,0 +1,16 @@
+--151cd790e--2011-11-02--shalott
+--d61229e30--2011-11-02--Cesy
+1	8	app/views/challenge_claims/_unposted_claim_blurb.html.erb
+
+--0c7fde331--2011-11-01--shalott
+--509931fea--2011-11-01--Cesy
+11	15	features/challenge_promptmeme.feature
+
+--5bde5e6cc--2011-11-01--Cesy
+17	7	features/challenge_promptmeme.feature
+13	3	features/step_definitions/challenge_steps.rb
+10	0	features/step_definitions/generic_steps.rb
+
+--efe280543--2011-11-01--Cesy
+7	0	app/views/challenge_claims/_unposted_claim_blurb.html.erb
+1	1	features/step_definitions/challenge_steps.rb

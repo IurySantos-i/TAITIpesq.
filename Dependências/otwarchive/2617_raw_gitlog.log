@@ -1,0 +1,47 @@
+--90974119c--2011-05-27--pixel
+--4cb1f1776--2011-05-27--pixel
+--07e7ea37b--2011-05-27--pixel
+--96b17a0fa--2011-05-27--pixel
+--3f13997c9--2011-05-27--pixel
+--26a428d50--2011-05-26--Cesy
+0	2	app/controllers/works_controller.rb
+0	4	app/models/work.rb
+
+--97c1467a0--2011-05-26--Cesy
+19	0	features/challenge_giftexchange.feature
+30	0	features/step_definitions/challenge_steps.rb
+5	0	features/step_definitions/collection_steps.rb
+
+--f0d6433d9--2011-05-24--Cesy
+2	2	app/views/works/_standard_form.html.erb
+
+--e9bd09a84--2011-05-24--Cesy
+2	0	app/controllers/works_controller.rb
+4	0	app/models/work.rb
+2	2	app/views/works/_standard_form.html.erb
+8	1	features/challenge_promptmeme.feature
+
+--610664796--2011-05-20--Cesy
+6	3	app/helpers/application_helper.rb
+1	1	app/views/prompts/_prompt_form.html.erb
+3	3	app/views/works/_standard_form.html.erb
+11	0	features/challenge_promptmeme.feature
+
+--571d412b5--2011-05-17--Cesy
+2	0	app/views/challenge/prompt_meme/_challenge_requests.html.erb
+2	0	app/views/challenge/prompt_meme/_challenge_signups.html.erb
+1	0	public/stylesheets/archive_core.css
+
+--a6453e576--2011-05-17--Cesy
+1	1	app/controllers/collections_controller.rb
+4	1	app/models/collection.rb
+9	0	features/challenge_giftexchange.feature
+10	0	features/challenge_promptmeme.feature
+10	5	features/step_definitions/challenge_steps.rb
+
+--f9e478987--2011-05-17--Enigel
+4	0	app/helpers/application_helper.rb
+26	23	app/views/admin_posts/index.html.erb
+12	11	app/views/admin_posts/show.html.erb
+-	-	public/images/feed-icon-14x14.png
+-	-	public/images/feed-icon-28x28.png

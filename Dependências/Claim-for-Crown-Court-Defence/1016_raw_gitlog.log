@@ -1,0 +1,41 @@
+--9f79bf67f--2016-02-10--Himal Mandalia
+--f31f3f194--2016-02-10--jsugarman
+1	1	app/views/devise/mailer/reset_password_instructions.html.haml
+8	1	spec/mailers/previews/adp_mailer_preview.rb
+
+--e79de03d9--2016-02-10--jsugarman
+3	3	features/step_definitions/new_user_steps.rb
+
+--7897303aa--2016-02-10--jsugarman
+104	0	config/i18n-tasks.yml
+
+--926629f7c--2016-02-10--jsugarman
+1	0	Gemfile
+10	0	Gemfile.lock
+-	-	app/assets/images/govuk_logotype_email.png
+-	-	app/assets/images/moj_logotype_email.png
+31	0	app/assets/stylesheets/email.css
+1	2	app/views/devise/mailer/reset_password_instructions.html.haml
+20	0	app/views/layouts/email.html.haml
+4	0	config/application.rb
+1	1	config/initializers/assets.rb
+0	17	spec/mailers/previews/devise_mailer_preview.rb
+
+--9cceddba4--2016-02-10--Himal Mandalia
+--b7b8ecc25--2016-02-10--jsugarman
+0	10	features/super_admin_change_password.feature
+
+--76f8ce9bf--2016-02-10--jsugarman
+1	1	app/models/provider.rb
+10	0	features/super_admin_change_password.feature
+9	0	spec/models/provider_spec.rb
+
+--7ee75a479--2016-02-09--jsugarman
+17	0	app/mailers/adp_mailer.rb
+2	1	app/views/devise/mailer/reset_password_instructions.html.haml
+1	1	config/initializers/devise.rb
+2	0	config/locales/devise.en.yml
+3	4	features/new_user.feature
+3	6	features/step_definitions/new_user_steps.rb
+17	0	spec/mailers/previews/adp_mailer_preview.rb
+3	3	spec/mailers/previews/devise_mailer_preview.rb

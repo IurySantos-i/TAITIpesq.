@@ -1,0 +1,64 @@
+--dfc37a7e6--2016-06-02--sarken
+--c34f82e3c--2016-05-31--astolat shalott
+5	1	Gemfile.lock
+
+--edbb4933b--2016-05-31--astolat shalott
+1	1	Gemfile
+10	3	lib/collectible.rb
+6	3	spec/lib/collectible_spec.rb
+
+--acc0b08f9--2016-05-28--zz9pzza
+--bb54629c2--2016-05-28--zz9pzza
+4	7	app/controllers/admin/banners_controller.rb
+0	5	app/views/admin/banners/_banner_form.html.erb
+8	38	features/other_a/banner_general.feature
+7	34	features/step_definitions/banner_steps.rb
+
+--d0943fcf9--2016-05-28--zz9pzza
+--a0c94e312--2016-05-28--zz9pzza
+--6924aadaf--2016-05-28--zz9pzza
+--8317c894f--2016-05-28--zz9pzza
+--4e39c5a2a--2016-05-27--astolat shalott
+24	24	lib/collectible.rb
+
+--bfbbec190--2016-05-27--astolat shalott
+1	1	app/controllers/collection_items_controller.rb
+24	1	features/collections/collection_invite.feature
+12	4	lib/collectible.rb
+
+--002282a9e--2016-05-01--Jack Kingsman
+1	1	app/views/home/_dmca.html.erb
+
+--da9598868--2016-05-01--Jack Kingsman
+1	1	app/views/home/_dmca.html.erb
+
+--51b007946--2016-04-11--sarken
+9	9	features/other_a/banner_general.feature
+6	2	features/step_definitions/banner_steps.rb
+
+--bf67e2d4c--2016-04-11--sarken
+9	6	features/other_a/banner_general.feature
+14	1	features/step_definitions/banner_steps.rb
+
+--c4a6a4983--2016-04-11--sarken
+4	4	app/controllers/admin/banners_controller.rb
+
+--0b673f23b--2016-04-11--sarken
+8	0	features/other_a/banner_general.feature
+4	4	features/step_definitions/banner_steps.rb
+
+--ec76b799c--2016-04-11--sarken
+1	1	app/controllers/admin/banners_controller.rb
+2	2	features/step_definitions/banner_steps.rb
+
+--2a057df8c--2016-04-11--sarken
+4	1	app/controllers/admin/banners_controller.rb
+5	0	app/views/admin/banners/_banner_form.html.erb
+19	0	features/other_a/banner_general.feature
+10	0	features/step_definitions/banner_steps.rb
+
+--cb7dd3865--2016-03-24--sarken
+1	1	public/stylesheets/site/2.0/09-roles-states.css
+
+--88012c008--2016-02-27--zz9pzza
+1	1	app/helpers/application_helper.rb

@@ -1,0 +1,83 @@
+--729b428ea--2011-04-09--pixel
+--403163821--2011-04-09--pixel
+--93340cacb--2011-04-07--Cesy
+2	3	app/models/prompt.rb
+
+--48797dd8a--2011-04-07--Cesy
+2	19	features/challenge_promptmeme.feature
+3	2	features/challenge_promptmeme_posting_fills.feature
+3	11	features/challenge_promptmeme_springkink.feature
+3	7	features/challenge_promptmeme_unlimited.feature
+41	0	features/step_definitions/collection_steps.rb
+
+--7ba3a58f1--2011-04-07--Enigel
+20	0	app/mailers/admin_mailer.rb
+35	10	app/models/comment_observer.rb
+49	0	features/admin_tasks.feature
+8	1	features/step_definitions/admin_steps.rb
+2	0	features/support/paths.rb
+
+--9ebb90cc3--2011-04-07--pixel
+--b82676153--2011-04-07--pixel
+--c3f53fdc3--2011-04-07--Enigel
+1	1	app/helpers/tags_helper.rb
+2	2	app/models/common_tagging.rb
+1	1	app/models/fandom.rb
+1	1	app/models/freeform.rb
+1	1	app/models/relationship.rb
+9	1	app/models/tag.rb
+
+--110110499--2011-04-05--Cesy
+12	11	features/collection_anonymity.feature
+
+--bbaf6356f--2011-04-04--pixel
+--edcea9d7b--2011-04-04--pixel
+--b7f42b764--2011-04-04--pixel
+--ff23f91a4--2011-04-04--pixel
+--1f65bc440--2011-04-04--pixel
+--f455d7bbd--2011-04-04--pixel
+--8642abd9d--2011-04-04--Enigel
+24	0	config/initializers/monkeypatches/accept_header.rb
+10	0	features/accept_header.feature
+14	0	features/step_definitions/request_header_steps.rb
+
+--9c9db6edc--2011-04-04--Enigel
+1	1	features/step_definitions/comment_steps.rb
+
+--c7811e0fc--2011-04-01--Cesy
+1	1	app/views/works/_search_form.html.erb
+
+--6d2395378--2011-04-01--Cesy
+3	2	app/models/prompt.rb
+1	0	features/challenge_promptmeme.feature
+
+--7f8202125--2011-04-01--Cesy
+2	3	app/views/skins/_wizard_form.html.erb
+1	1	public/help/skins-wizard-margin.html
+
+--b165df0c6--2011-04-01--elz
+--be9ae8196--2011-04-01--elz
+--80a08fea0--2011-04-01--elz
+--9a1b86808--2011-03-31--Enigel
+1	1	app/controllers/bookmarks_controller.rb
+
+--aa420d0a7--2011-03-30--Enigel
+1	1	app/controllers/comments_controller.rb
+2	2	app/views/comments/new.html.erb
+30	0	features/add_comment.feature
+11	0	features/step_definitions/comment_steps.rb
+1	1	features/tag_comment.feature
+
+--1f8047074--2011-03-25--Cesy
+1	1	features/challenge_promptmeme.feature
+1	1	features/challenge_promptmeme_posting_fills.feature
+1	1	features/challenge_promptmeme_springkink.feature
+1	1	features/challenge_promptmeme_unlimited.feature
+
+--2ccba8d64--2011-03-24--Cesy
+1	1	app/models/collection.rb
+
+--cec16677c--2011-03-24--Cesy
+3	3	app/views/collection_items/_item_form.html.erb
+11	12	app/views/collection_items/index.html.erb
+13	11	features/collection_anonymity.feature

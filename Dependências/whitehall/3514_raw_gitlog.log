@@ -1,0 +1,181 @@
+--6d2dbd642f--2013-03-22--Chris Parsons
+--d244d9e82c--2013-03-21--Murray Steele
+0	1	features/document-series.feature
+1	1	features/step_definitions/session_steps.rb
+
+--ac4a32cdb6--2013-03-21--Matthew Ford
+1	0	app/views/admin/editions/index.html.erb
+5	0	test/functional/admin/editions_controller_test.rb
+
+--15c28d6a47--2013-03-21--Chris Parsons + Murray Steele
+3	1	app/controllers/admin/editions_controller.rb
+11	0	features/editing-draft-statistical-data-sets.feature
+2	2	features/step_definitions/session_steps.rb
+5	0	features/step_definitions/statistical_data_set_steps.rb
+5	1	features/support/document_helper.rb
+
+--b2740770ce--2013-03-21--Edd Sowden
+2	2	lib/whitehall/document_filter/filterer.rb
+
+--2ac06e4cd5--2013-03-21--Edd Sowden
+--799234e54c--2013-03-21--Bradley Wright
+--1f6c19c4bd--2013-03-20--Matthew Ford
+1	0	config/locales/ar.yml
+1	0	config/locales/az.yml
+1	0	config/locales/be.yml
+1	0	config/locales/bg.yml
+1	0	config/locales/bn.yml
+1	0	config/locales/cs.yml
+2	1	config/locales/cy.yml
+1	0	config/locales/de.yml
+1	0	config/locales/dr.yml
+1	0	config/locales/el.yml
+1	1	config/locales/en.yml
+1	0	config/locales/es-419.yml
+1	0	config/locales/es.yml
+1	0	config/locales/fa.yml
+1	0	config/locales/fr.yml
+1	0	config/locales/he.yml
+1	0	config/locales/hi.yml
+1	0	config/locales/hu.yml
+1	0	config/locales/hy.yml
+1	0	config/locales/id.yml
+1	0	config/locales/it.yml
+1	0	config/locales/ja.yml
+1	0	config/locales/ka.yml
+1	0	config/locales/ko.yml
+1	0	config/locales/lt.yml
+1	0	config/locales/lv.yml
+1	0	config/locales/ms.yml
+1	0	config/locales/pl.yml
+1	0	config/locales/ps.yml
+1	0	config/locales/pt.yml
+1	0	config/locales/ro.yml
+1	0	config/locales/ru.yml
+1	0	config/locales/si.yml
+1	0	config/locales/sk.yml
+1	0	config/locales/so.yml
+1	0	config/locales/sq.yml
+1	0	config/locales/sr.yml
+1	0	config/locales/sw.yml
+1	0	config/locales/ta.yml
+1	0	config/locales/th.yml
+1	0	config/locales/tk.yml
+1	0	config/locales/tr.yml
+1	0	config/locales/uk.yml
+1	0	config/locales/ur.yml
+1	0	config/locales/uz.yml
+1	0	config/locales/vi.yml
+1	0	config/locales/zh.yml
+2	2	test/unit/board_member_role_test.rb
+3	3	test/unit/special_representative_role_test.rb
+
+--2582a838af--2013-03-20--Matthew Ford
+13	10	app/assets/stylesheets/frontend/views/_organisations.scss
+2	0	app/controllers/admin/organisations_controller.rb
+6	0	app/controllers/organisations_controller.rb
+3	2	app/helpers/organisation_helper.rb
+0	15	app/models/board_member_role.rb
+2	0	app/models/chief_professional_officer_role.rb
+0	15	app/models/chief_scientific_advisor_role.rb
+0	15	app/models/military_role.rb
+0	16	app/models/ministerial_role.rb
+4	0	app/models/organisation.rb
+1	0	app/models/role.rb
+0	23	app/models/special_representative_role.rb
+0	15	app/models/traffic_commissioner_role.rb
+3	0	app/presenters/role_type_presenter.rb
+9	0	app/views/admin/organisations/_form.html.erb
+18	0	app/views/organisations/show.html.erb
+1	0	config/locales/en.yml
+5	0	db/migrate/20130320174658_change_roles_to_default_to_false.rb
+2	2	db/schema.rb
+13	0	features/step_definitions/organisation_steps.rb
+5	0	features/viewing-organisations.feature
+8	0	test/factories/chief_professional_officers.rb
+20	0	test/functional/admin/organisations_controller_test.rb
+15	1	test/functional/admin/roles_controller_test.rb
+12	0	test/functional/organisations_controller_test.rb
+2	4	test/unit/board_member_role_test.rb
+4	6	test/unit/chief_scientific_advisor_test.rb
+4	6	test/unit/military_role_test.rb
+2	4	test/unit/ministerial_role_test.rb
+6	0	test/unit/organisation_test.rb
+8	0	test/unit/presenters/role_type_presenter_test.rb
+3	6	test/unit/special_representative_role_test.rb
+4	6	test/unit/traffic_commissioner_role_test.rb
+
+--c6117997b3--2013-03-21--Murray Steele
+2	2	test/unit/pdf_info_test.rb
+
+--0fb155d400--2013-03-21--russell thorn
+1	1	app/models/consultation.rb
+
+--9870ab42a8--2013-03-21--Murray Steele
+2	2	app/helpers/country_helper.rb
+1	1	app/views/documents/_filter_form.html.erb
+2	2	lib/whitehall.rb
+
+--0a38179a55--2013-03-21--Murray Steele
+12	6	app/helpers/country_helper.rb
+2	2	app/views/documents/_header.html.erb
+
+--29d29805d6--2013-03-21--russell thorn
+1	0	app/controllers/home_controller.rb
+
+--4bbf0d5607--2013-03-18--russell thorn
+-	-	app/assets/images/get-involved/community-organisers.jpg
+-	-	app/assets/images/get-involved/preserve-a-local-building.jpg
+-	-	app/assets/images/get-involved/set-up-a-new-school.jpg
+-	-	app/assets/images/get-involved/start-a-public-service-mutual.jpg
+-	-	app/assets/images/get-involved/start-a-social-enterprise.jpg
+-	-	app/assets/images/get-involved/write-your-neighbourhood-plan.jpg
+
+--bddfa95a74--2013-03-15--russell thorn
+0	6	app/assets/stylesheets/frontend/helpers/_featured_news.scss
+20	9	app/assets/stylesheets/frontend/views/_get-involved.scss
+190	196	app/views/home/get_involved.html.erb
+
+--3caddfc170--2013-03-15--David Heath
+5	1	app/controllers/home_controller.rb
+8	0	app/models/consultation.rb
+14	0	app/presenters/publicationesque_presenter.rb
+40	64	app/views/home/get_involved.html.erb
+34	0	test/functional/home_controller_test.rb
+10	0	test/unit/consultation_test.rb
+
+--5ef0863948--2013-03-13--russell thorn
+-	-	app/assets/images/get-involved/community-organisers.jpg
+-	-	app/assets/images/get-involved/preserve-a-local-building.jpg
+-	-	app/assets/images/get-involved/set-up-a-new-school.jpg
+-	-	app/assets/images/get-involved/start-a-public-service-mutual.jpg
+-	-	app/assets/images/get-involved/start-a-social-enterprise.jpg
+-	-	app/assets/images/get-involved/write-your-neighbourhood-plan.jpg
+11	0	app/assets/stylesheets/frontend/helpers/_featured_news.scss
+27	81	app/assets/stylesheets/frontend/views/_get-involved.scss
+74	72	app/views/home/get_involved.html.erb
+
+--409eb1ee67--2013-03-13--russell thorn
+31	90	app/views/home/get_involved.html.erb
+
+--1ddbde4107--2013-03-13--russell thorn
+8	8	app/views/home/get_involved.html.erb
+
+--96eb5ac998--2013-03-08--russell thorn
+63	19	app/assets/stylesheets/frontend/views/_get-involved.scss
+25	28	app/views/home/get_involved.html.erb
+
+--b37145e2fa--2013-03-07--russell thorn
+1	23	app/assets/stylesheets/frontend/views/_get-involved.scss
+2	14	app/views/home/get_involved.html.erb
+
+--8d89bbcfbb--2013-02-28--russell thorn
+9	9	app/assets/stylesheets/frontend/views/_get-involved.scss
+18	39	app/views/home/get_involved.html.erb
+
+--58c80adc2b--2013-02-27--russell thorn
+1	0	app/assets/stylesheets/frontend/base.scss
+290	0	app/assets/stylesheets/frontend/views/_get-involved.scss
+2	0	app/controllers/home_controller.rb
+364	0	app/views/home/get_involved.html.erb
+1	0	config/routes.rb

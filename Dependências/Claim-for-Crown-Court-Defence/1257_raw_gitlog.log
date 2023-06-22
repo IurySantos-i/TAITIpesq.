@@ -1,0 +1,175 @@
+--f1d209989--2015-11-03--Himal Mandalia
+--226bf5a48--2015-11-03--Edward Andress
+4	11	app/controllers/advocates/admin/advocates_controller.rb
+4	11	app/controllers/case_workers/admin/case_workers_controller.rb
+36	0	app/controllers/concerns/password_helpers.rb
+1	1	app/models/json_schema.rb
+1	1	app/views/devise/mailer/reset_password_instructions.html.erb
+3	3	config/locales/devise.en.yml
+1	1	features/step_definitions/new_user_steps.rb
+
+--2c1184bd6--2015-11-03--Himal Mandalia
+--66df1c873--2015-11-02--jsugarman
+2	2	config/locales/error_messages.en.yml
+2	2	features/unhappy_paths.feature
+4	3	spec/api/v1/claims/fee_spec.rb
+3	2	spec/api/v1/claims/shared_examples_for_fees.rb
+10	6	spec/presenters/data/error_messages.en.yml
+5	5	spec/presenters/error_message_translator_spec.rb
+1	1	spec/presenters/error_presenter_spec.rb
+3	3	spec/validators/claim_textfield_validator_spec.rb
+4	4	spec/validators/expense_validator_spec.rb
+1	1	spec/validators/fee_validator_spec.rb
+1	1	spec/validators/representation_order_date_validator_spec.rb
+
+--c032ad0cd--2015-11-02--jsugarman
+4	4	app/presenters/error_message_translator.rb
+0	3	app/validators/expense_validator.rb
+11	12	app/validators/fee_validator.rb
+42	14	config/locales/error_messages.en.yml
+
+--9b1f8d6be--2015-11-02--jsugarman
+20	22	config/locales/error_messages.en.yml
+
+--bafac22d2--2015-11-02--jsugarman
+7	4	app/validators/expense_validator.rb
+2	2	app/views/advocates/claims/_expense_fields.html.haml
+29	6	config/locales/error_messages.en.yml
+
+--8a4c77dac--2015-11-02--jsugarman
+18	14	app/presenters/error_message_translator.rb
+0	1	app/presenters/error_presenter.rb
+4	5	app/validators/claim_textfield_validator.rb
+0	5	app/validators/fee_validator.rb
+1	1	app/validators/representation_order_validator.rb
+20	6	config/locales/error_messages.en.yml
+
+--6be4ad220--2015-11-02--Edward Andress
+--eb9f32adc--2015-11-02--Edward Andress
+3	3	config/locales/devise.en.yml
+1	0	features/step_definitions/new_user_steps.rb
+
+--9c7d3a7b0--2015-11-02--Himal Mandalia
+--7e94bdbd1--2015-11-02--Edward Andress
+2	2	spec/controllers/case_workers/admin/case_workers_controller_spec.rb
+
+--034e9f4e6--2015-11-02--Edward Andress
+7	1	app/controllers/case_workers/admin/case_workers_controller.rb
+0	6	app/views/case_workers/admin/case_workers/_form.html.haml
+0	2	app/views/devise/mailer/reset_password_instructions.html.erb
+5	0	config/environments/test.rb
+13	4	features/new_user.feature
+28	12	features/step_definitions/new_user_steps.rb
+
+--1f3f8876c--2015-11-02--jsugarman
+5	5	app/presenters/error_detail.rb
+0	1	app/presenters/error_detail_collection.rb
+0	5	app/presenters/error_presenter.rb
+180	187	config/locales/error_messages.en.yml
+0	2	spec/presenters/data/error_messages.en.yml
+25	26	spec/presenters/error_detail_collection_spec.rb
+35	0	spec/presenters/error_detail_spec.rb
+11	12	spec/presenters/error_presenter_spec.rb
+
+--2593b836b--2015-11-02--Himal Mandalia
+1	1	lib/rails_host.rb
+
+--b0013b2cd--2015-10-30--Edward Andress
+8	1	app/controllers/advocates/admin/advocates_controller.rb
+5	5	app/views/advocates/admin/advocates/_form.html.haml
+14	5	app/views/devise/mailer/reset_password_instructions.html.erb
+8	0	features/new_user.feature
+20	0	features/step_definitions/new_user_steps.rb
+
+--b1aacfb5c--2015-10-30--Stephen Richards
+11	2	app/presenters/error_detail.rb
+2	1	app/presenters/error_detail_collection.rb
+16	1	app/presenters/error_presenter.rb
+19	0	config/locales/error_messages.en.yml
+6	0	spec/presenters/data/error_messages.en.yml
+6	0	spec/presenters/error_message_translator_spec.rb
+16	0	spec/presenters/error_presenter_spec.rb
+
+--7dd9d2ab6--2015-10-30--Alistair Laing
+--1a743e671--2015-10-30--Himal Mandalia
+--07d6cf83b--2015-10-30--Stephen Richards
+14	12	lib/tasks/api.rake
+
+--f055a2f27--2015-10-30--Himal Mandalia
+--1147c3ccc--2015-10-30--Edward Andress
+3	5	app/views/shared/_message.html.haml
+
+--25b41dcc3--2015-10-30--Stephen Richards
+--1387dbfbf--2015-10-30--Stephen Richards
+1	1	features/unhappy_paths.feature
+
+--85eaaee3c--2015-10-21--Stephen Richards
+1	0	app/assets/stylesheets/form.scss
+18	0	app/controllers/advocates/claims_controller.rb
+7	0	app/form_builders/adp_form_builder.rb
+19	1	app/helpers/advocates/claims_helper.rb
+1	0	app/helpers/application_helper.rb
+3	8	app/models/claim.rb
+0	2	app/models/defendant.rb
+24	0	app/presenters/error_detail.rb
+54	0	app/presenters/error_detail_collection.rb
+105	0	app/presenters/error_message_translator.rb
+56	0	app/presenters/error_presenter.rb
+69	0	app/validators/base_sub_model_validator.rb
+37	22	app/validators/claim_date_validator.rb
+19	27	app/validators/claim_sub_model_validator.rb
+16	12	app/validators/claim_textfield_validator.rb
+3	17	app/validators/defendant_sub_model_validator.rb
+7	7	app/validators/defendant_validator.rb
+1	1	app/validators/expense_validator.rb
+46	22	app/validators/fee_validator.rb
+8	8	app/validators/representation_order_validator.rb
+8	0	app/validators/validation_initializer.rb
+4	2	app/views/advocates/claims/_basic_fee_fields.html.haml
+8	4	app/views/advocates/claims/_cracked_trial_fields.html.haml
+9	6	app/views/advocates/claims/_defendant_fields.html.haml
+9	0	app/views/advocates/claims/_error_summary.html.haml
+6	3	app/views/advocates/claims/_expense_fields.html.haml
+6	3	app/views/advocates/claims/_fixed_fee_fields.html.haml
+31	33	app/views/advocates/claims/_form.html.haml
+7	3	app/views/advocates/claims/_misc_fee_fields.html.haml
+9	6	app/views/advocates/claims/_representation_order_fields.html.haml
+7	31	config/locales/en.yml
+296	0	config/locales/error_messages.en.yml
+1	1	features/cracked_trial.feature
+3	1	features/step_definitions/advocate_new_claim_steps.rb
+18	2	features/step_definitions/cracked_trial_steps.rb
+1	0	features/step_definitions/unhappy_paths_steps.rb
+10	10	features/unhappy_paths.feature
+22	16	spec/api/v1/claims/claim_spec.rb
+28	18	spec/api/v1/claims/defendant_spec.rb
+14	10	spec/api/v1/claims/expense_spec.rb
+12	8	spec/api/v1/claims/representation_order_spec.rb
+1	1	spec/controllers/advocates/claims_controller_spec.rb
+1	0	spec/factories/claims.rb
+21	4	spec/form_builders/adp_form_builder_spec.rb
+8	8	spec/models/defendant_spec.rb
+4	4	spec/models/representation_order_spec.rb
+27	0	spec/presenters/data/error_messages.en.yml
+87	0	spec/presenters/error_detail_collection_spec.rb
+194	0	spec/presenters/error_message_translator_spec.rb
+132	0	spec/presenters/error_presenter_spec.rb
+38	40	spec/validators/claim_date_validator_spec.rb
+56	0	spec/validators/claim_submodel_validation_spec.rb
+14	12	spec/validators/claim_textfield_validator_spec.rb
+3	3	spec/validators/defendant_date_validator_spec.rb
+1	1	spec/validators/expense_validator_spec.rb
+16	18	spec/validators/fee_validator_spec.rb
+4	4	spec/validators/representation_order_date_validator_spec.rb
+
+--c32097477--2015-10-30--Edward Andress
+2	2	app/presenters/state_change_presenter.rb
+
+--b3fad6ce2--2015-10-29--Edward Andress
+2	2	app/presenters/state_change_presenter.rb
+1	1	features/step_definitions/claim_history_steps.rb
+
+--2427127f1--2015-10-29--Edward Andress
+13	9	app/presenters/state_change_presenter.rb
+3	1	app/views/shared/_message.html.haml
+4	1	spec/presenters/state_change_presenter_spec.rb

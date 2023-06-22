@@ -1,0 +1,288 @@
+--7227ad4eb--2014-12-22--Parker Moore
+--c3e47437a--2014-12-20--Parker Moore
+1	0	History.markdown
+
+--76301722e--2014-12-20--Parker Moore
+--d05df326b--2014-12-19--Jason Bellamy
+1	0	site/_docs/plugins.md
+
+--dc12bd302--2014-12-18--Parker Moore
+1	0	History.markdown
+
+--878c689f7--2014-12-18--Parker Moore
+--68a7ebf2e--2014-12-17--Parker Moore
+27	0	site/_posts/2014-12-17-alfredxing-welcome-to-jekyll-core.md
+
+--63ed33546--2014-12-17--Parker Moore
+1	0	History.markdown
+
+--fe14434f8--2014-12-17--Parker Moore
+--a069ad77c--2014-12-14--Benjamin Esham
+1	0	site/_docs/plugins.md
+
+--5343fc3b5--2014-12-09--Parker Moore
+1	0	History.markdown
+
+--2dad0d330--2014-12-09--Parker Moore
+--f78916852--2014-12-09--Joel Glovier
+1	1	site/README.md
+
+--7656b9d29--2014-12-09--Parker Moore
+1	0	History.markdown
+
+--176dc3cef--2014-12-09--Parker Moore
+--360412364--2014-12-09--Parker Moore
+1	0	History.markdown
+
+--49115dbda--2014-12-09--Parker Moore
+--383a0d0aa--2014-12-09--Aidan Feldman
+13	10	lib/jekyll/filters.rb
+
+--b735170ce--2014-12-09--Mehdi Sadeghi
+1	0	site/_docs/plugins.md
+
+--12651c19e--2014-12-08--Joel Glovier
+5	1	site/README.md
+
+--1694f8609--2014-12-08--Joel Glovier
+0	1	site/README
+11	0	site/README.md
+
+--e80469b7b--2014-12-08--Joel Glovier
+6	0	site/_docs/troubleshooting.md
+
+--032139bd2--2014-12-07--Parker Moore
+2	1	test/test_post.rb
+
+--6deed4c66--2014-12-07--Parker Moore
+2	0	History.markdown
+
+--253bcc2fa--2014-12-07--Parker Moore
+--43a28aed9--2014-12-05--Alfred Xing
+2	2	lib/jekyll/convertible.rb
+
+--5d9662f80--2014-12-05--Alfred Xing
+3	1	lib/jekyll/convertible.rb
+
+--52f0b3655--2014-12-04--Alfred Xing
+2	0	lib/jekyll/commands/build.rb
+
+--f8af94431--2014-12-02--Matt Rogers
+4	1	test/helper.rb
+
+--89bdd47eb--2014-12-02--Parker Moore
+1	0	History.markdown
+
+--2c85f4ef2--2014-12-02--Parker Moore
+--c8fc567c8--2014-12-02--Laust Rud Jacobsen
+1	1	lib/site_template/_includes/head.html
+
+--460dd81fe--2014-12-01--Parker Moore
+1	0	History.markdown
+
+--7c8c41f0d--2014-12-01--Parker Moore
+--3b57879e7--2014-12-01--Robert Herbig
+1	2	site/_docs/windows.md
+
+--19527b47a--2014-11-30--Parker Moore
+1	0	History.markdown
+
+--8298733e6--2014-11-30--Parker Moore
+--64b010268--2014-11-29--Tanguy Krotoff
+1	1	lib/site_template/_includes/head.html
+
+--bfab00a65--2014-11-28--Parker Moore
+1	0	History.markdown
+
+--fea79dcba--2014-11-28--Parker Moore
+--b4bc3b0aa--2014-11-28--Parker Moore
+1	0	History.markdown
+
+--ac7f59283--2014-11-28--Parker Moore
+--4ccf9ea68--2014-11-28--Parker Moore
+1	0	History.markdown
+
+--7de9433fb--2014-11-28--Parker Moore
+--9c8acdd3e--2014-11-28--Parker Moore
+1	0	History.markdown
+
+--e9904fd44--2014-11-28--Parker Moore
+--ba9a30957--2014-11-27--Damien Nozay
+14	0	site/_docs/configuration.md
+
+--d0e12d69b--2014-11-28--Alfred Xing
+1	1	lib/jekyll/cleaner.rb
+1	0	lib/jekyll/configuration.rb
+2	2	lib/jekyll/metadata.rb
+8	1	lib/jekyll/site.rb
+
+--75cf2d73f--2014-11-28--Fabien Schurter
+1	1	site/_docs/deployment-methods.md
+
+--974fab6c9--2014-11-28--Fabien Schurter
+1	1	site/_docs/templates.md
+
+--2a37f459d--2014-11-27--Luke Korth
+1	0	site/_docs/plugins.md
+
+--5a554572e--2014-11-27--Damien Nozay
+11	0	site/_docs/configuration.md
+
+--a701e59c0--2014-11-27--Alfred Xing
+104	2	test/test_metadata.rb
+
+--b6d81c58d--2014-11-27--Alfred Xing
+1	2	lib/jekyll/convertible.rb
+1	2	lib/jekyll/document.rb
+
+--4776b27ff--2014-11-27--Aidan Feldman
+10	13	lib/jekyll/filters.rb
+
+--87d08ec82--2014-11-27--Aidan Feldman
+14	5	lib/jekyll/filters.rb
+
+--229303bbc--2014-11-27--Aidan Feldman
+61	5	test/test_filters.rb
+
+--8603738a8--2014-11-27--Parker Moore
+1	0	History.markdown
+
+--932cd3b57--2014-11-27--Parker Moore
+--02f281eef--2014-11-26--Alfred Xing
+60	0	features/incremental_rebuild.feature
+4	0	features/step_definitions/jekyll_steps.rb
+2	2	lib/jekyll/metadata.rb
+38	0	test/test_metadata.rb
+
+--8a257aca6--2014-11-26--Alfred Xing
+1	2	lib/jekyll/command.rb
+12	7	lib/jekyll/metadata.rb
+1	1	lib/jekyll/site.rb
+
+--588f21f5c--2014-11-26--Parker Moore
+5	0	Rakefile
+
+--0662d31bf--2014-11-26--Aidan Feldman
+1	1	lib/jekyll/filters.rb
+3	3	test/test_filters.rb
+
+--a6f8b6c7d--2014-11-25--Matt Rogers
+2	0	History.markdown
+
+--e51f94a03--2014-11-25--Matt Rogers
+--1aa5c7a82--2014-11-25--Parker Moore
+2	0	History.markdown
+
+--37af23b5d--2014-11-25--Parker Moore
+--df87a51ad--2014-11-25--Matt Rogers
+2	1	site/_docs/configuration.md
+
+--2a138e4ca--2014-09-22--Ruslan Korolev
+9	0	site/_docs/configuration.md
+
+--e546eb3e9--2014-11-24--Brandon Bradley
+1	1	lib/jekyll/converters/markdown.rb
+
+--d250efccb--2014-11-24--Brandon Bradley
+0	0	test/source/_posts/2014-11-24-Rmd-extension.Rmd
+1	1	test/test_generated_site.rb
+7	0	test/test_post.rb
+
+--dc3011460--2014-11-23--Alfred Xing
+1	0	lib/jekyll.rb
+10	2	lib/jekyll/convertible.rb
+8	0	lib/jekyll/document.rb
+1	1	lib/jekyll/layout.rb
+22	20	lib/jekyll/metadata.rb
+2	2	lib/jekyll/renderer.rb
+5	14	lib/jekyll/site.rb
+2	0	lib/jekyll/static_file.rb
+1	1	lib/jekyll/tags/include.rb
+3	3	test/test_document.rb
+
+--2a5cf11ee--2014-11-23--Alfred Xing
+1	0	lib/jekyll/command.rb
+8	2	lib/jekyll/metadata.rb
+1	1	lib/jekyll/site.rb
+
+--e23a74aad--2014-11-23--Parker Moore
+--5b77d02e3--2014-11-23--Parker Moore
+--c2b24e82e--2014-11-23--Parker Moore
+9	8	lib/jekyll/tags/highlight.rb
+
+--10030ae8c--2014-11-23--Parker Moore
+1	1	lib/jekyll/plugin_manager.rb
+
+--75c5c1629--2014-11-23--Alfred Xing
+5	2	lib/jekyll/metadata.rb
+
+--ef53e677a--2014-11-23--Parker Moore
+4	5	lib/jekyll/plugin_manager.rb
+18	1	test/test_plugin_manager.rb
+
+--03d9396b8--2014-11-23--Parker Moore
+4	2	test/test_new_command.rb
+
+--4acf343fe--2014-11-23--Alfred Xing
+42	0	lib/jekyll/commands/clean.rb
+
+--665178d21--2014-11-23--Parker Moore
+--b1bba1945--2014-11-16--Parker Moore
+10	2	History.markdown
+1	1	lib/jekyll/version.rb
+31	0	site/_docs/history.md
+18	0	site/_posts/2014-11-12-jekyll-2-5-2-released.markdown
+1	1	site/latest_version.txt
+
+--8ed6c7b07--2014-11-22--Parker Moore
+1	0	History.markdown
+
+--9a94829bc--2014-11-22--Parker Moore
+--d17b80bf2--2014-11-22--Parker Moore
+1	1	lib/jekyll/plugin_manager.rb
+
+--ac03af322--2014-11-21--Alfred Xing
+1	1	lib/jekyll/cleaner.rb
+1	1	lib/jekyll/command.rb
+1	1	lib/jekyll/configuration.rb
+12	3	lib/jekyll/metadata.rb
+4	4	lib/jekyll/site.rb
+1	1	test/test_document.rb
+4	4	test/test_site.rb
+
+--fe6bfc6f1--2014-11-21--Alfred Xing
+2	1	lib/jekyll/cleaner.rb
+12	3	lib/jekyll/metadata.rb
+1	1	lib/jekyll/renderer.rb
+2	3	lib/jekyll/site.rb
+6	4	lib/jekyll/tags/include.rb
+1	0	test/helper.rb
+2	1	test/test_document.rb
+11	4	test/test_site.rb
+
+--d43836297--2014-11-16--Alfred Xing
+12	8	lib/jekyll/site.rb
+
+--842470b0c--2014-11-16--Alfred Xing
+1	0	.gitignore
+1	1	lib/jekyll/configuration.rb
+2	2	lib/jekyll/metadata.rb
+0	1	site/.gitignore
+
+--11917645f--2014-11-15--Alfred Xing
+1	0	lib/jekyll.rb
+8	1	lib/jekyll/cleaner.rb
+1	0	lib/jekyll/command.rb
+6	0	lib/jekyll/convertible.rb
+4	0	lib/jekyll/layout.rb
+87	0	lib/jekyll/metadata.rb
+6	0	lib/jekyll/renderer.rb
+17	4	lib/jekyll/site.rb
+8	1	lib/jekyll/tags/include.rb
+1	0	site/.gitignore
+
+--60202782e--2014-11-16--Parker Moore
+1	1	lib/jekyll/plugin_manager.rb
+
+--32b14d640--2014-11-16--Parker Moore
+2	1	lib/jekyll/plugin_manager.rb

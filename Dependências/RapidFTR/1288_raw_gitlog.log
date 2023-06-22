@@ -1,0 +1,107 @@
+--4f7366e1--2010-04-13--Pete Hodgson
+--4b3cde56--2010-04-05--Tom Elkin
+1	0	app/models/field.rb
+33	2	app/models/templates.rb
+5	0	app/views/children/_check_box.html.erb
+16	0	features/add_caregiver_details_to_a_child_record.feature
+42	8	spec/views/child/form_section.html.erb_spec.rb
+
+--0ac13f16--2010-04-07--Pete Hodgson
+3	5	public/APITest/spec/unit/spec.js
+
+--32d2b78e--2010-04-07--Pete Hodgson
+16	10	app/controllers/sessions_controller.rb
+
+--5dd822c0--2010-04-06--jennifersmith
+1	1	app/views/form_section/index.html.erb
+
+--c8bf81d1--2010-04-06--jennifersmith
+1	1	app/views/form_section/index.html.erb
+1	1	config/routes.rb
+
+--d01e2c67--2010-04-06--jennifersmith
+3	0	app/views/fields/text_field.html.erb
+5	5	features/add_custom_field_to_form_section.feature
+3	0	features/support/paths.rb
+
+--8af99361--2010-04-06--jennifersmith
+0	1	app/controllers/fields_controller.rb
+0	5	app/models/form_section_repository.rb
+4	4	app/views/fields/new.html.erb
+0	9	app/views/fields/new2.html.erb
+7	0	config/routes.rb
+4	5	features/add_custom_field_to_form_section.feature
+2	1	features/step_definitions/more_web_steps.rb
+0	29	spec/models/form_section_repository_spec.rb
+
+--e48cf673--2010-04-05--jennifersmith
+1	1	app/models/form_section_definition.rb
+1	0	app/views/layouts/application.html.erb
+0	2	db/seeds.rb
+2	2	spec/controllers/form_section_controller_spec.rb
+
+--c3631ff1--2010-04-05--jennifersmith
+82	0	spec/views/formsections/index.html.erb_spec.rb
+
+--522b5240--2010-04-05--jennifersmith
+2	1	app/controllers/form_section_controller.rb
+5	0	app/models/form_section_definition.rb
+21	4	app/views/form_section/index.html.erb
+0	1	app/views/layouts/application.html.erb
+1	1	config/routes.rb
+10	0	db/seeds.rb
+37	8	features/create_and_view_form_sections.feature
+54	7	features/step_definitions/basic_steps.rb
+1	1	features/support/paths.rb
+11	3	spec/controllers/form_section_controller_spec.rb
+21	0	spec/support/hpricot_search.rb
+
+--619caec8--2010-04-05--jennifersmith
+1	0	features/add_custom_field_to_form_section.feature
+
+--68f4c7dd--2010-03-27--jennifersmith
+4	3	app/controllers/children_controller.rb
+10	0	app/controllers/fields_controller.rb
+9	0	app/controllers/form_section_controller.rb
+2	0	app/helpers/fields_helper.rb
+2	0	app/helpers/form_section_helper.rb
+1	1	app/models/child.rb
+2	2	app/models/field.rb
+7	0	app/models/field_definition.rb
+6	0	app/models/form_section_definition.rb
+5	0	app/models/form_section_repository.rb
+3	0	app/views/fields/index.html.erb
+14	0	app/views/fields/new.html.erb
+9	0	app/views/fields/new2.html.erb
+4	0	app/views/fields/select_drop_down.html.erb
+5	0	app/views/fields/text_field.html.erb
+9	0	app/views/form_section/index.html.erb
+5	0	config/routes.rb
+14	0	features/add_custom_field_to_form_section.feature
+14	0	features/create_and_view_form_sections.feature
+7	1	features/step_definitions/basic_steps.rb
+12	1	features/step_definitions/more_web_steps.rb
+9	9	features/step_definitions/web_steps.rb
+4	0	features/support/paths.rb
+1	0	features/support/reset_couchdb.rb
+12	0	spec/controllers/form_section_controller_spec.rb
+29	0	spec/models/form_section_repository_spec.rb
+8	0	test/functional/fields_controller_test.rb
+4	0	test/unit/helpers/fields_helper_test.rb
+
+--c58a785d--2010-04-06--Pete Hodgson
+2	2	spec/controllers/children_controller_spec.rb
+
+--d637b209--2010-04-06--Pete Hodgson
+4	4	app/models/child.rb
+4	0	features/step_definitions/basic_steps.rb
+3	2	features/upload_a_childs_photo.feature
+
+--64682b63--2010-03-18--Pete Hodgson
+1	1	app/views/users/_edittable_user.html.erb
+6	0	features/edit_user_details.feature
+5	0	features/step_definitions/more_web_steps.rb
+4	1	features/support/paths.rb
+
+--870b3b32--2010-03-18--Srinivas Murthy
+53	0	features/edit_user_details.feature

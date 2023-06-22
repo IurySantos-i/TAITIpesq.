@@ -1,0 +1,17 @@
+--e8f4cf18--2015-06-19--David Basalla
+--6bc1b0ca--2015-06-19--Murray Steele
+5	0	db/migrate/20150619090833_rename_parliament_response_at_to_government_response_at.rb
+2	0	db/structure.sql
+
+--06c191a3--2015-06-18--Alexander Bobin
+0	1	app/assets/javascripts/application.js
+0	18	app/assets/javascripts/core.js
+
+--814b9861--2015-06-18--Alexander Bobin
+2	0	app/models/petition.rb
+3	0	app/views/search/petitions/_petition_result_for_facet_with_debate_outcome.html.erb
+2	0	config/locales/petitions.en-GB.yml
+4	4	features/step_definitions/debate_outcome_steps.rb
+2	2	features/suzie_views_a_petition.feature
+13	0	features/suzie_views_all_petitions.feature
+17	0	spec/models/petition_spec.rb

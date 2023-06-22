@@ -1,0 +1,278 @@
+--560da5ce9--2012-04-27--Jonne Haß
+--1dae3d9f4--2012-04-27--Kaushik Thirthappa
+98	98	config/locales/diaspora/en_pirate.yml
+
+--9cb803831--2012-04-27--Jonne Haß
+12	5	lib/webfinger.rb
+1	1	lib/webfinger_profile.rb
+16	0	spec/lib/webfinger_spec.rb
+
+--0f15c3e0b--2012-04-26--Maxwell Salzberg
+1	3	app/assets/stylesheets/new_styles/_composer.scss
+1	0	app/assets/stylesheets/new_styles/_profile.scss
+0	1	app/assets/templates/picture-form.jst.hbs
+
+--730911413--2012-04-26--Maxwell Salzberg
+1	0	app/assets/javascripts/app/pages/framer.js
+1	1	app/assets/templates/composer-controls.jst.hbs
+1	1	app/assets/templates/framer-controls.jst.hbs
+
+--fb4ad7237--2012-04-26--Maxwell Salzberg
+1	0	app/assets/javascripts/app/forms/post_form.js
+1	4	app/assets/stylesheets/new_styles/_base.scss
+29	1	app/assets/stylesheets/new_styles/_composer.scss
+6	5	app/assets/templates/picture-form.jst.hbs
+13	11	app/assets/templates/post-form.jst.hbs
+1	1	app/assets/templates/profile.jst.hbs
+
+--c3ef94487--2012-04-26--Maxwell Salzberg
+1	2	app/assets/stylesheets/new_styles/_base.scss
+
+--c413a494d--2012-04-26--danielgrippi
+-	-	app/assets/images/buttons/bday.png
+-	-	app/assets/images/buttons/bday@2x.png
+-	-	app/assets/images/buttons/edit@2x.png
+-	-	app/assets/images/buttons/editgear.png
+-	-	app/assets/images/buttons/pub.png
+-	-	app/assets/images/buttons/pub@2x.png
+-	-	app/assets/images/buttons/service-icons/fb.png
+-	-	app/assets/images/buttons/service-icons/fb@2x.png
+-	-	app/assets/images/buttons/service-icons/tumblr.png
+-	-	app/assets/images/buttons/service-icons/tumblr@2x.png
+-	-	app/assets/images/buttons/service-icons/twitter.png
+-	-	app/assets/images/buttons/service-icons/twitter@2x.png
+8	0	app/assets/stylesheets/new_styles/_profile.scss
+6	3	app/assets/stylesheets/new_styles/_typography.scss
+4	6	app/assets/templates/profile-info.jst.hbs
+4	4	app/assets/templates/profile.jst.hbs
+2	2	public/404.html
+
+--e55b305bc--2012-04-26--danielgrippi
+-	-	app/assets/images/buttons/star_faved.png
+-	-	app/assets/images/buttons/star_not_faved.png
+64	15	public/404.html
+
+--c9d0879d3--2012-04-26--danielgrippi
+7	5	app/assets/javascripts/app/views/small_frame.js
+2	0	app/assets/stylesheets/new_styles/_profile.scss
+1	1	app/assets/templates/profile.jst.hbs
+0	1	app/assets/templates/small-frame.jst.hbs
+2	1	spec/javascripts/app/pages/profile_spec.js
+1	1	spec/javascripts/app/views/small_frame_view_spec.js
+
+--387e18890--2012-04-26--Maxwell Salzberg
+1	1	app/assets/templates/profile.jst.hbs
+
+--a58260503--2012-04-26--Maxwell Salzberg
+1	1	lib/template_picker.rb
+
+--193644b5c--2012-04-26--danielgrippi
+0	47	app/views/home/_show.html.haml
+
+--f08a539c2--2012-04-26--danielgrippi
+18	2	app/assets/stylesheets/new_styles/_profile.scss
+3	1	app/assets/templates/profile-info.jst.hbs
+
+--c6da8e74a--2012-04-26--Maxwell Salzberg
+1	0	app/assets/stylesheets/new_styles/_profile.scss
+
+--851282cbe--2012-04-26--Maxwell Salzberg
+11	2	app/assets/templates/post-viewer.jst.hbs
+
+--6f951ac67--2012-04-26--Maxwell Salzberg
+47	0	app/views/home/_show.html.haml
+
+--2873cedd3--2012-04-26--danielgrippi
+2	3	app/assets/templates/profile-info.jst.hbs
+
+--2b3bc5a0f--2012-04-26--Maxwell Salzberg
+1	1	app/controllers/profiles_controller.rb
+5	0	app/models/profile.rb
+1	1	spec/controllers/profiles_controller_spec.rb
+24	0	spec/models/profile_spec.rb
+
+--0b3926d81--2012-04-26--danielgrippi
+-	-	app/assets/images/buttons/add_post.jpg
+-	-	app/assets/images/buttons/edit_canvas.png
+-	-	app/assets/images/buttons/editgear.png
+-	-	app/assets/images/buttons/pub.png
+-	-	app/assets/images/mobile.jpg
+-	-	app/assets/images/modern_browsers.png
+-	-	app/assets/images/reply.png
+5	3	app/assets/stylesheets/new_styles/_profile.scss
+2	2	app/assets/templates/profile.jst.hbs
+
+--6d866fa49--2012-04-26--danielgrippi
+0	48	app/views/home/_show.html.haml
+
+--2357d9b0f--2012-04-27--Jonne Haß
+6	7	lib/webfinger_profile.rb
+11	9	spec/fixtures/finger_xrd
+6	0	spec/lib/webfinger_profile_spec.rb
+
+--152101484--2012-04-26--danielgrippi
+-	-	app/assets/images/buttons/service-icons/fb.png
+-	-	app/assets/images/buttons/service-icons/tumblr.png
+-	-	app/assets/images/buttons/service-icons/twitter.png
+-	-	app/assets/images/pattern.jpg
+-	-	app/assets/images/pattern.png
+0	1	app/assets/stylesheets/new_styles/_base.scss
+1	1	app/assets/stylesheets/new_styles/_canvas.scss
+2	2	app/assets/stylesheets/new_styles/_profile.scss
+
+--fe87b38bf--2012-04-26--Maxwell Salzberg
+1	1	app/controllers/profiles_controller.rb
+
+--6d2cd31e7--2012-04-26--Maxwell Salzberg
+9	2	app/assets/javascripts/app/pages/framer.js
+4	3	app/assets/stylesheets/new_styles/_base.scss
+1	1	app/assets/templates/composer-controls.jst.hbs
+4	2	app/assets/templates/framer-controls.jst.hbs
+
+--d3b874b02--2012-04-26--danielgrippi
+-	-	app/assets/images/buttons/bday.png
+-	-	app/assets/images/buttons/service-icons/fb.png
+-	-	app/assets/images/buttons/service-icons/tumblr.png
+-	-	app/assets/images/buttons/service-icons/twitter.png
+0	2	app/assets/javascripts/app/views/small_frame.js
+0	2	app/assets/javascripts/mobile.js
+45	0	app/assets/stylesheets/new_styles/_profile.scss
+33	0	app/assets/templates/profile-info.jst.hbs
+3	3	app/assets/templates/profile.jst.hbs
+4	1	app/controllers/profiles_controller.rb
+
+--2c9d84607--2012-04-26--danielgrippi
+48	0	app/views/home/_show.html.haml
+
+--9bdc3c720--2012-04-26--danielgrippi
+1	1	Gemfile
+
+--b387f8916--2012-04-26--Maxwell Salzberg
+2	0	app/assets/javascripts/app/pages/framer.js
+7	0	app/assets/stylesheets/new_styles/_base.scss
+5	3	app/assets/templates/composer-controls.jst.hbs
+1	1	app/assets/templates/profile.jst.hbs
+
+--164b1d716--2012-04-25--danielgrippi
+1	1	app/assets/templates/profile.jst.hbs
+
+--828cc919d--2012-04-25--danielgrippi
+7	2	app/assets/javascripts/app/pages/framer.js
+6	2	app/assets/templates/profile.jst.hbs
+
+--43518a944--2012-04-26--danielgrippi
+-	-	app/assets/images/fonts/Roboto-Bold.ttf
+29	3	app/assets/stylesheets/new_styles/_profile.scss
+5	0	app/assets/stylesheets/new_styles/_typography.scss
+12	3	app/assets/templates/profile.jst.hbs
+
+--8cea8715e--2012-04-26--Jonne Haß
+20	19	config/locales/devise/devise.es-MX.yml
+3	3	config/locales/devise/devise.es.yml
+29	0	config/locales/devise/devise.hi.yml
+26	26	config/locales/diaspora/es.yml
+8	0	config/locales/diaspora/fr.yml
+3	3	config/locales/javascript/javascript.es.yml
+
+--adebdcbd2--2012-04-25--Maxwell Salzberg
+1	2	app/assets/stylesheets/new_styles/_new_mixins.scss
+
+--e9217931c--2012-04-25--Maxwell Salzberg
+4	3	app/assets/javascripts/app/pages/post-viewer.js
+
+--87464b84d--2012-04-25--Maxwell Salzberg
+1	1	app/assets/stylesheets/new_styles/_base.scss
+
+--fc61df49c--2012-04-25--Maxwell Salzberg
+1	1	Gemfile
+
+--5eb224719--2012-04-25--Maxwell Salzberg
+1	1	lib/template_picker.rb
+
+--3bce0be47--2012-04-25--Maxwell Salzberg
+1	1	app/assets/stylesheets/new_styles/_canvas.scss
+
+--6933eeb67--2012-04-25--danielgrippi
+3	0	app/assets/javascripts/app/views/small_frame.js
+9	0	app/assets/stylesheets/new_styles/_canvas.scss
+6	0	app/assets/templates/small-frame.jst.hbs
+
+--7c9aaa0a6--2012-04-25--Maxwell Salzberg
+2	0	app/assets/stylesheets/application.css.sass
+
+--04abaf352--2012-04-25--danielgrippi
+4	0	app/assets/stylesheets/new_styles/_profile.scss
+
+--512347cad--2012-04-25--Dennis Collinson
+4	3	features/edits_profile.feature
+
+--c3c3d57d6--2012-04-25--Dennis Collinson
+4	4	spec/javascripts/app/pages/profile_spec.js
+
+--4e14dd2d0--2012-04-25--danielgrippi
+5	0	app/assets/stylesheets/new_styles/_base.scss
+20	11	app/assets/stylesheets/new_styles/_canvas.scss
+1	1	app/assets/stylesheets/new_styles/_typography.scss
+1	1	app/assets/templates/mood.jst.hbs
+
+--76ad02f2a--2012-04-25--Dennis Collinson
+1	0	app/assets/javascripts/app/forms/picture_form.js
+0	1	app/assets/stylesheets/default.css
+0	33	app/assets/stylesheets/loader.css.scss
+40	8	app/assets/stylesheets/new_styles/_spinner.scss
+
+--eb2eaa8ea--2012-04-25--Jonne Haß
+1	1	config/locales/devise/devise.ar.yml
+19	20	config/locales/devise/devise.es-MX.yml
+6	6	config/locales/devise/devise.es.yml
+11	11	config/locales/devise/devise.sv.yml
+13	8	config/locales/diaspora/ar.yml
+0	1	config/locales/diaspora/bg.yml
+0	1	config/locales/diaspora/cs.yml
+0	1	config/locales/diaspora/da.yml
+6	3	config/locales/diaspora/de.yml
+0	1	config/locales/diaspora/de_formal.yml
+0	1	config/locales/diaspora/el.yml
+0	1	config/locales/diaspora/en_1337.yml
+0	1	config/locales/diaspora/en_shaw.yml
+0	1	config/locales/diaspora/eo.yml
+0	1	config/locales/diaspora/es-AR.yml
+0	1	config/locales/diaspora/es-CL.yml
+2	2	config/locales/diaspora/es-MX.yml
+75	67	config/locales/diaspora/es.yml
+0	1	config/locales/diaspora/eu.yml
+0	1	config/locales/diaspora/fi.yml
+2	2	config/locales/diaspora/fr.yml
+0	1	config/locales/diaspora/he.yml
+14	14	config/locales/diaspora/hu.yml
+0	1	config/locales/diaspora/is.yml
+2	2	config/locales/diaspora/it.yml
+0	1	config/locales/diaspora/ja.yml
+0	1	config/locales/diaspora/ko.yml
+0	1	config/locales/diaspora/lt.yml
+0	1	config/locales/diaspora/mk.yml
+0	1	config/locales/diaspora/ml.yml
+0	1	config/locales/diaspora/ms.yml
+0	1	config/locales/diaspora/nb.yml
+0	1	config/locales/diaspora/nl.yml
+0	1	config/locales/diaspora/nn.yml
+2	2	config/locales/diaspora/pl.yml
+0	1	config/locales/diaspora/pt-BR.yml
+8	2	config/locales/diaspora/pt-PT.yml
+0	1	config/locales/diaspora/ro.yml
+2	2	config/locales/diaspora/ru.yml
+0	2	config/locales/diaspora/sk.yml
+0	1	config/locales/diaspora/sl.yml
+14	56	config/locales/diaspora/sv.yml
+0	1	config/locales/diaspora/tr.yml
+0	1	config/locales/diaspora/uk.yml
+6	18	config/locales/diaspora/vi.yml
+0	1	config/locales/diaspora/zh-CN.yml
+0	1	config/locales/diaspora/zh-TW.yml
+23	22	config/locales/javascript/javascript.ar.yml
+10	10	config/locales/javascript/javascript.es.yml
+2	2	config/locales/javascript/javascript.vi.yml
+
+--d22a98cd9--2012-04-25--Maxwell Salzberg
+12	0	config/initializers/monkey_patch_to_xs.rb
+1	1	spec/controllers/users_controller_spec.rb

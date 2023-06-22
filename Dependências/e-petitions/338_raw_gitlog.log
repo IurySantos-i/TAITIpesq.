@@ -1,0 +1,87 @@
+--f46b04c1--2015-06-19--Murray Steele
+--5ab951c3--2015-06-19--Murray Steele
+--f3183ea8--2015-06-19--Pete Herlihy
+1	1	features/step_definitions/petition_steps.rb
+
+--faf98ec4--2015-06-17--Paula Stepinska
+15	8	app/controllers/admin/petition_details_controller.rb
+101	1	spec/controllers/admin/petition_details_controller_spec.rb
+
+--9e1e9ca8--2015-06-18--Pete Herlihy
+1	1	app/views/admin/petitions/show.html.erb
+1	1	features/admin/providing_debate_outcome_information.feature
+
+--b892d6b9--2015-06-18--Pete Herlihy
+4	4	app/models/petition.rb
+1	1	app/views/admin/petitions/show.html.erb
+1	1	app/views/search/petitions/_petition_result_for_facet_with_response.html.erb
+1	1	db/structure.sql
+2	2	features/admin/petition_requires_response.feature
+2	2	features/admin/takedown.feature
+3	3	features/step_definitions/petition_steps.rb
+3	3	features/suzie_views_all_petitions.feature
+6	6	spec/models/petition_spec.rb
+
+--3bad3c0b--2015-06-18--Andrew White
+2	0	lib/tasks/deploy.rake
+
+--9b6f1ef7--2015-06-18--Andrew White
+4	0	config/initializers/newrelic.rb
+
+--08ddf5a8--2015-06-18--Murray Steele
+2	2	db/structure.sql
+
+--6d2626bc--2015-06-18--Murray Steele
+--6f8d7655--2015-06-17--Otto Laitila
+4	0	app/assets/stylesheets/petitions/views/_shared.scss
+5	0	app/views/petitions/_debate_threshold.html.erb
+6	0	features/step_definitions/petition_steps.rb
+6	1	features/suzie_views_a_petition.feature
+
+--d07d4ef6--2015-06-16--Otto Laitila
+3	1	app/views/admin/petitions/edit_response.html.erb
+17	0	app/views/admin/petitions/edit_scheduled_debate_date.html.erb
+4	1	app/views/admin/petitions/show.html.erb
+11	0	features/admin/moderator_updates_petition_scheduled_debate_date.feature
+
+--19d290a2--2015-06-15--Otto Laitila
+24	2	app/controllers/admin/petitions_controller.rb
+0	0	app/views/admin/petitions/edit_scheduled_debate_date.html.erb
+2	0	config/routes.rb
+85	0	spec/controllers/admin/petitions_controller_spec.rb
+
+--f88afa66--2015-06-15--Otto Laitila
+5	0	db/migrate/20150615145953_add_scheduled_debate_date_to_petitions.rb
+4	1	db/structure.sql
+
+--285908a3--2015-06-18--Andrew White
+69	1	lib/package_builder.rb
+
+--35322f63--2015-06-18--Andrew White
+0	4	lib/package_builder.rb
+
+--7875f2be--2015-06-18--Andrew White
+3	0	config/newrelic.yml
+
+--f6b3fc1c--2015-06-18--alanth
+--e07481b7--2015-06-18--David Basalla
+1	1	app/mailers/admin_mailer.rb
+1	1	app/views/layouts/admin.html.erb
+1	1	spec/lib/email_reminder_spec.rb
+
+--88641d4b--2015-06-17--Paula Stepinska
+0	4	app/models/petition.rb
+
+--96f5f6a1--2015-06-16--Paula Stepinska
+20	0	app/controllers/admin/petition_details_controller.rb
+4	0	app/models/petition.rb
+29	0	app/views/admin/petition_details/show.html.erb
+5	1	app/views/admin/petitions/edit.html.erb
+1	0	config/routes.rb
+4	0	features/step_definitions/moderation_steps.rb
+85	0	spec/controllers/admin/petition_details_controller_spec.rb
+14	0	spec/models/petition_spec.rb
+
+--a19cf225--2015-06-16--Paula Stepinska
+39	1	features/admin/moderator_responds_to_petition.feature
+9	0	features/step_definitions/moderation_steps.rb

@@ -1,0 +1,24 @@
+--cb2c972ce--2012-05-07--danielgrippi
+--1c135b61f--2012-05-07--Dennis Collinson
+8	0	app/assets/javascripts/app/models/profile.js
+13	15	app/assets/javascripts/app/pages/profile.js
+17	3	app/assets/javascripts/app/views/canvas_view.js
+5	0	app/assets/stylesheets/new_styles/_canvas.scss
+0	173	app/assets/templates/canvas.jst.hbs
+3	1	app/controllers/people_controller.rb
+1	14	app/controllers/profiles_controller.rb
+34	0	app/presenters/person_presenter.rb
+1	1	spec/controllers/posts_controller_spec.rb
+69	49	spec/javascripts/app/pages/profile_spec.js
+
+--fcd67ebc7--2012-05-07--Maxwell Salzberg
+2	2	features/invitations.feature
+0	1	features/step_definitions/user_steps.rb
+
+--7d0f79c29--2012-05-07--Maxwell Salzberg
+2	2	spec/controllers/home_controller_spec.rb
+
+--34819b412--2012-05-07--danielgrippi
+1	1	app/assets/javascripts/app/pages/framer.js
+10	2	app/views/aspects/_aspect_stream.haml
+1	1	app/views/layouts/main_stream.html.haml

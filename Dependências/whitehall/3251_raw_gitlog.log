@@ -1,0 +1,43 @@
+--89b85a9899--2013-05-28--Matthew Ford
+--1ec29b32d4--2013-05-28--Matthew Ford
+--9ad08f555a--2013-05-28--Murray Steele
+3	3	app/views/admin/organisations/_form.html.erb
+7	0	app/views/admin/organisations/show.html.erb
+5	3	features/administering-organisations.feature
+16	4	features/step_definitions/mainstream_categories_on_orgs_steps.rb
+
+--36228588df--2013-05-24--Murray Steele
+1	1	app/views/admin/editions/_fact_check_responses.html.erb
+
+--f893db4cc8--2013-05-24--Murray Steele
+1	1	app/models/admin/edition_filter.rb
+0	5	app/models/edition.rb
+3	0	app/models/edition/audit_trail.rb
+1	1	test/unit/edition_test.rb
+
+--3b405a340e--2013-05-24--Murray Steele
+9	3	app/controllers/admin/document_series_controller.rb
+1	0	app/views/admin/document_series/show.html.erb
+14	9	test/functional/admin/document_series_controller_test.rb
+
+--3e1dd42b82--2013-05-24--Murray Steele
+0	2	app/controllers/home_controller.rb
+0	14	app/views/home/home.html.erb
+0	31	test/functional/home_controller_test.rb
+
+--ad7947c16a--2013-05-24--Murray Steele
+2	2	app/helpers/localised_url_path_helper.rb
+17	0	test/unit/helpers/localised_url_path_helper_test.rb
+
+--c0f0058a02--2013-05-24--Murray Steele
+5	5	app/helpers/application_helper.rb
+1	0	app/models/role_appointment.rb
+1	1	app/views/admin/editions/_worldwide_organisation_fields.html.erb
+1	1	features/step_definitions/document_steps.rb
+2	2	features/step_definitions/minister_steps.rb
+4	0	features/support/role_appointments_helper.rb
+
+--8cef6fbecb--2013-05-24--Murray Steele
+1	1	app/helpers/application_helper.rb
+1	1	app/views/admin/editions/_inbound_links.html.erb
+1	1	app/views/admin/editions/_outbound_links.html.erb

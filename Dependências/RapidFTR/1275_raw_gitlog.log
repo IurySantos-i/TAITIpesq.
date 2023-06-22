@@ -1,0 +1,59 @@
+--ff36d93d--2010-08-07--Tom Elkin
+--044c9b35--2010-07-25--jennifersmith
+1	1	app/views/children/edit.html.erb
+1	1	app/views/children/new.html.erb
+1	1	features/add_caregiver_details_to_a_child_record.feature
+1	1	features/add_family_details_to_a_child_record.feature
+1	1	features/assign_unique_id_to_child.feature
+3	3	features/create_child_record.feature
+3	3	features/edit_child_record.feature
+5	5	features/upload_a_childs_photo.feature
+3	3	features/view_child_record_log.feature
+
+--ed2a9383--2010-07-25--jennifersmith
+1	1	app/views/children/edit.html.erb
+1	1	app/views/children/new.html.erb
+
+--3aac9215--2010-07-25--jennifersmith
+12	1	app/views/histories/show.html.erb
+12	0	features/support/paths.rb
+11	0	features/view_child_record_log.feature
+12	4	spec/views/histories/show.html.erb_spec.rb
+
+--4cbde1a1--2010-07-25--jennifersmith
+1	1	app/views/users/index.html.erb
+
+--523cc3ee--2010-07-24--jennifersmith
+2	0	app/views/form_section/index.html.erb
+6	0	features/create_and_view_form_sections.feature
+
+--1b3f970e--2010-07-24--jennifersmith
+5	0	app/controllers/home_controller.rb
+1	1	app/controllers/sessions_controller.rb
+3	0	app/views/home/index.html.erb
+1	1	config/routes.rb
+12	3	features/home_page_link.feature
+2	12	features/user_login.feature
+
+--0f48ea5a--2010-07-19--jennifersmith
+2	0	features/step_definitions/basic_steps.rb
+
+--9d472c04--2010-07-08--jennifersmith
+1	1	app/helpers/fields_helper.rb
+4	4	app/views/fields/_suggested_field.html.erb
+1	4	app/views/fields/new.html.erb
+43	1	spec/views/Fields/_suggested_field.html.erb_spec.rb
+0	60	spec/views/Fields/new.html.erb_spec.rb
+
+--faec29a9--2010-07-04--jennifersmith
+9	0	app/helpers/fields_helper.rb
+6	16	app/views/fields/_suggested_field.html.erb
+1	0	spec/views/Fields/_suggested_field.html.erb_spec.rb
+11	1	spec/views/Fields/new.html.erb_spec.rb
+
+--ec5f18b2--2010-06-21--jennifersmith
+35	0	app/views/fields/_suggested_field.html.erb
+1	25	app/views/fields/new.html.erb
+16	6	features/add_suggested_field_to_form_sections.feature
+4	3	features/step_definitions/basic_steps.rb
+8	0	features/step_definitions/more_web_steps.rb

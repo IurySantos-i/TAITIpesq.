@@ -1,0 +1,9 @@
+--9e1a539e2--2014-03-01--Sampo Toiva
+--812a11846--2014-03-01--Mikko Koski
+17	4	app/views/admin/communities/manage_members.haml
+12	4	features/admin/manage_members/admin_lists_members.feature
+13	4	features/step_definitions/admin_manage_members_steps.rb
+4	5	features/step_definitions/user_steps.rb
+
+--92c116024--2014-03-01--Mikko Koski
+4	5	features/step_definitions/user_steps.rb

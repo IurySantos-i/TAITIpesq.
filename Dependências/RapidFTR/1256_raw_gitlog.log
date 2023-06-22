@@ -1,0 +1,15 @@
+--847456bf--2010-09-20--Tom Elkin
+--8aaa15b9--2010-09-16--Ketan Padegaonkar
+2	2	app/controllers/children_controller.rb
+2	2	spec/controllers/children_controller_spec.rb
+
+--6250aeed--2010-09-08--Pete Hodgson
+5	0	app/models/child.rb
+9	2	features/edit_child_record.feature
+0	7	features/upload_a_childs_photo.feature
+12	5	spec/models/child_spec.rb
+
+--b476dfea--2010-09-08--Patrick Turley
+1	1	app/views/children/index.html.erb
+1	1	app/views/form_section/index.html.erb
+2	2	app/views/users/index.html.erb

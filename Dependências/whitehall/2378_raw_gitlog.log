@@ -1,0 +1,54 @@
+--e707b65d70--2014-04-09--Dominic Baggott
+--0afaaaa800--2014-04-09--Elliot Crosby-McCullough
+2	0	app/assets/stylesheets/frontend/base.scss
+23	0	app/assets/stylesheets/frontend/helpers/_featured-links.scss
+5	0	app/assets/stylesheets/frontend/helpers/_featured-services-and-guidance.scss
+0	24	app/assets/stylesheets/frontend/helpers/_headings.scss
+2	1	app/controllers/admin/organisations_controller.rb
+20	0	app/models/featured_link.rb
+9	0	app/models/featured_services_and_guidance.rb
+10	0	app/models/has_featured_links.rb
+0	8	app/models/has_top_tasks.rb
+3	1	app/models/organisation.rb
+1	10	app/models/top_task.rb
+2	1	app/models/topic.rb
+2	1	app/models/world_location.rb
+2	2	app/views/admin/classifications/show.html.erb
+5	1	app/views/admin/organisations/_form.html.erb
+13	0	app/views/admin/organisations/show.html.erb
+24	0	app/views/admin/shared/_featured_link_fields.html.erb
+0	20	app/views/admin/shared/_top_tasks_fields.html.erb
+1	1	app/views/admin/topics/_custom_form_fields.html
+1	1	app/views/admin/world_locations/edit.html.erb
+1	1	app/views/organisations/_header.html.erb
+18	0	app/views/organisations/show.html.erb
+5	0	app/views/shared/_featured_links.html.erb
+0	5	app/views/shared/_top_tasks.html.erb
+1	1	app/views/topics/show.html.erb
+1	1	app/views/world_locations/show.html.erb
+15	0	db/migrate/20140409111430_add_featured_services_and_guidance.rb
+10	1	db/schema.rb
+6	0	features/organisations.feature
+18	0	features/step_definitions/organisation_steps.rb
+6	0	test/factories/feature_services_and_guidance.rb
+25	0	test/unit/featured_services_and_guidance_test.rb
+
+--0d94d5ee5a--2014-04-09--Bradley Wright
+--bbb5c6c628--2014-04-09--Elliot Crosby-McCullough
+2	2	app/views/admin/organisations/show.html.erb
+
+--b1110cb136--2014-04-09--Elliot Crosby-McCullough
+1	1	app/models/organisation.rb
+1	1	app/models/world_location.rb
+
+--c1546bad03--2014-04-09--Tekin Suleyman
+--fea31881c2--2014-04-09--Edd Sowden
+--94821c4875--2014-04-08--Will Tomlins
+1	0	app/assets/stylesheets/frontend/base.scss
+201	201	app/assets/stylesheets/shared/helpers/_magna-charta.scss
+
+--5f0131cca1--2014-04-08--Stuart Gale
+1	0	db/data_migration/20140408_set_policy_state_to_deleted.rb
+
+--307a11d34c--2014-04-08--Will Tomlins
+7	5	app/assets/javascripts/application/modules/remote_search_filter.js

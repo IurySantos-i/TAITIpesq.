@@ -1,0 +1,40 @@
+--c3852f8a81--2015-07-28--Raghuram
+--aecb7306bd--2015-07-28--Raghuram
+1	1	app/views/employers/broker_agency/_index.html.erb
+
+--3f9d6c0abd--2015-07-28--Raghuram
+30	8	features/brokers/create_broker_agency_profiles.feature
+132	10	features/step_definitions/brokers_steps.rb
+
+--34dabf4b82--2015-07-28--Raghuram
+2	0	Gemfile
+1	1	config/environments/test.rb
+206	0	features/step_definitions/email_steps.rb
+1	0	features/support/env.rb
+
+--acd8bc14bd--2015-07-28--Trey Evans
+--66c551d3f7--2015-07-28--Trey Evans
+16	0	app/views/events/employers/_broker_agency_account.xml.haml
+9	4	app/views/events/employers/updated.xml.haml
+9	0	app/views/events/shared/_person_name.xml.haml
+
+--a71e23b4c2--2015-07-28--Kevin Wei
+1	0	lib/object_builders/qhp_builder.rb
+
+--2b323dc9fb--2015-07-28--Trey Evans
+--313f396d0c--2015-07-28--Trey Evans
+11	0	app/helpers/events_helper.rb
+9	0	app/views/events/employers/_plan_year.xml.haml
+13	0	app/views/events/employers/updated.xml.haml
+4	0	app/views/events/shared/_versioned_resource.xml.haml
+31	0	spec/views/events/employers/updated.xml.haml_spec.rb
+
+--926920c344--2015-07-27--jfinucane
+1	1	app/controllers/consumer/employee_roles_controller.rb
+2	4	app/models/census_employee.rb
+5	0	app/models/factories/enrollment_factory.rb
+2	0	spec/controllers/consumers/employee_roles_controller_spec.rb
+2	1	spec/models/census_employee_spec.rb
+
+--13dabec52f--2015-07-28--jfinucane
+5	1	app/mailers/user_mailer.rb

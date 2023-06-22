@@ -1,0 +1,53 @@
+--fa608461--2011-01-31--tashian
+--56aa328c--2011-01-28--Erik Ostrom
+1	1	app/controllers/states_controller.rb
+8	0	features/search.feature
+25	0	spec/controllers/states_controller_spec.rb
+
+--5fc07567--2011-01-28--Erik Ostrom
+21	0	features/search.feature
+9	0	features/step_definitions/app_steps.rb
+13	0	features/step_definitions/subdomain_steps.rb
+11	11	features/support/env.rb
+3	0	features/support/paths.rb
+3	4	spec/fixtures/bills.yml
+
+--c5166b04--2011-01-28--tashian
+19	13	lib/open_gov/mentions.rb
+
+--ec6b3d59--2011-01-28--tashian
+3	0	app/models/bill.rb
+4	0	app/models/page.rb
+1	1	lib/trackable.rb
+
+--a86bc06b--2011-01-28--tashian
+1	8	app/controllers/bills_controller.rb
+1	9	app/controllers/people_controller.rb
+10	4	app/models/page.rb
+22	0	lib/trackable.rb
+
+--b8dfa872--2011-01-28--tashian
+1	1	app/controllers/people_controller.rb
+
+--77180dfc--2011-01-28--tashian
+1	0	app/models/page_view.rb
+
+--3fb9c95f--2011-01-28--tashian
+1	1	app/controllers/bills_controller.rb
+1	1	app/models/chambers/chamber.rb
+4	1	app/models/chambers/lower_chamber.rb
+4	1	app/models/chambers/upper_chamber.rb
+3	1	app/models/legislature.rb
+5	3	app/models/page.rb
+1	0	app/models/page_view.rb
+0	2	app/models/state.rb
+3	2	lib/gov_track_importer.rb
+3	2	lib/tracking_app.rb
+
+--c639b90d--2011-01-28--Erik Ostrom
+1	0	.gitignore
+5	0	config/sphinx.yml
+26	0	features/support/thinking_sphinx.rb
+
+--ae2e13bd--2011-01-28--tashian
+7	7	config/schedule.rb

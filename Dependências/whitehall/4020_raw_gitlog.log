@@ -1,0 +1,105 @@
+--dbaead00bf--2012-09-25--Bradley Wright
+--984a73e151--2012-09-26--Bradley Wright
+1	1	app/controllers/detailed_guides_controller.rb
+
+--9443ed72ec--2012-09-25--James Adam
+1	1	lib/whitehall/document_filter.rb
+3	2	test/unit/document_filter_test.rb
+
+--3bbbbb4f24--2012-09-25--James Adam
+9	0	db/migrate/20120925210027_rename_document_type_from_specialist_guide_to_detailed_guide.rb
+1	1	db/schema.rb
+
+--d307ef8600--2012-09-25--James Adam
+1	1	app/assets/stylesheets/frontend/views/_detailed_guides.scss
+
+--e3362119e7--2012-09-25--James Adam
+1	1	app/assets/javascripts/application/on_ready.js
+2	2	app/assets/stylesheets/frontend/base.scss
+15	15	app/assets/stylesheets/frontend/layouts/{specialist.scss => detailed-guidance.scss}
+2	2	app/assets/stylesheets/frontend/print.scss
+1	1	app/assets/stylesheets/frontend/styleguide/_colours.scss
+5	5	app/assets/stylesheets/frontend/views/{_specialist_guides.scss => _detailed_guides.scss}
+1	3	app/assets/stylesheets/frontend/views/{_specialist_guides_print.scss => _detailed_guides_print.scss}
+1	1	app/assets/stylesheets/frontend/views/_topic.scss
+2	2	app/controllers/admin/{specialist_guides_controller.rb => detailed_guides_controller.rb}
+1	1	app/controllers/admin/topics_controller.rb
+26	0	app/controllers/api/detailed_guides_controller.rb
+0	26	app/controllers/api/specialist_guides_controller.rb
+12	12	app/controllers/{specialist_guides_controller.rb => detailed_guides_controller.rb}
+2	2	app/controllers/mainstream_categories_controller.rb
+1	1	app/controllers/topics_controller.rb
+1	1	app/helpers/admin/edition_routes_helper.rb
+1	1	app/helpers/application_helper.rb
+1	2	app/helpers/{specialist_guides_helper.rb => detailed_guides_helper.rb}
+2	2	app/helpers/filter_routes_helper.rb
+10	10	app/models/{specialist_guide.rb => detailed_guide.rb}
+7	7	app/models/mainstream_category.rb
+4	4	app/models/organisation.rb
+4	4	app/models/topic.rb
+1	1	app/models/topic_membership.rb
+6	6	app/presenters/api/{specialist_guide_presenter.rb => detailed_guide_presenter.rb}
+2	2	app/presenters/{specialist_guide_filter_json_presenter.rb => detailed_guide_filter_json_presenter.rb}
+0	0	app/views/admin/{specialist_guides => detailed_guides}/_edition.html.erb
+1	1	app/views/admin/{specialist_guides => detailed_guides}/_form.html.erb
+5	5	app/views/admin/editions/_outbound_links.html.erb
+2	2	app/views/admin/editions/index.html.erb
+0	0	app/views/{specialist_guides => detailed_guides}/_document_content.html.erb
+1	1	app/views/{specialist_guides => detailed_guides}/_document_contextual.html.erb
+7	0	app/views/detailed_guides/_list.html.erb
+0	0	app/views/{specialist_guides => detailed_guides}/_title.html.erb
+12	12	app/views/{specialist_guides => detailed_guides}/index.html.erb
+4	4	app/views/{specialist_guides => detailed_guides}/search.html.erb
+7	7	app/views/{specialist_guides => detailed_guides}/show.html.erb
+1	1	app/views/layouts/{specialist.html.erb => detailed-guidance.html.erb}
+9	9	app/views/mainstream_categories/show.html.erb
+0	7	app/views/specialist_guides/_list.html.erb
+10	10	app/views/topics/show.html.erb
+3	3	config/routes.rb
+1	0	db/migrate/20120719081325_make_attachments_inline.rb
+2	0	db/migrate/20120830130521_fix_badly_imported_specialist_guides.rb
+9	0	db/migrate/20120925191355_rename_specialist_guide_to_detailed_guide.rb
+1	1	db/schema.rb
+9	0	features/detailed-guide-pagination.feature
+31	0	features/editing-draft-detailed-guides.feature
+0	31	features/editing-draft-specialist-guides.feature
+16	0	features/publishing-detailed-guides.feature
+0	16	features/publishing-specialist-guides.feature
+0	9	features/specialist-guide-pagination.feature
+6	7	features/step_definitions/{specialist_guide_pagination_steps.rb => detailed_guide_pagination_steps.rb}
+101	0	features/step_definitions/detailed_guide_steps.rb
+4	4	features/step_definitions/document_steps.rb
+0	102	features/step_definitions/specialist_guide_steps.rb
+6	6	features/step_definitions/topic_steps.rb
+1	1	features/support/document_helper.rb
+6	0	features/viewing-published-detailed-guides.feature
+0	6	features/viewing-published-specialist-guides.feature
+3	3	features/viewing-topics.feature
+5	5	lib/tasks/guidance.rake
+2	2	lib/whitehall/document_filter.rb
+14	0	test/factories/detailed_guides.rb
+0	14	test/factories/specialist_guides.rb
+103	0	test/functional/admin/detailed_guides_controller_test.rb
+3	3	test/functional/admin/{specialist_guides_controller_test => detailed_guides_controller_test}/national_applicability_test.rb
+2	2	test/functional/admin/editions_controller_test.rb
+3	3	test/functional/admin/preview_controller_test.rb
+0	102	test/functional/admin/specialist_guides_controller_test.rb
+20	20	test/functional/api/{specialist_guide_presenter_test.rb => detailed_guide_presenter_test.rb}
+61	0	test/functional/api/detailed_guides_controller_test.rb
+0	61	test/functional/api/specialist_guides_controller_test.rb
+20	0	test/functional/detailed_guides_controller_proposition_test.rb
+51	51	test/functional/{specialist_guides_controller_test.rb => detailed_guides_controller_test.rb}
+5	5	test/functional/document_filter_json_presenter_test.rb
+7	7	test/functional/mainstream_categories_controller_test.rb
+0	20	test/functional/specialist_guides_controller_proposition_test.rb
+16	16	test/functional/topics_controller_test.rb
+1	1	test/integration/page_title_test.rb
+103	0	test/unit/detailed_guide_test.rb
+3	3	test/unit/edition/mainstream_categories_test.rb
+3	3	test/unit/edition/organisations_test.rb
+1	1	test/unit/helpers/filter_routes_helper.rb
+5	5	test/unit/helpers/govspeak_helper_test.rb
+16	16	test/unit/mainstream_category_test.rb
+6	6	test/unit/organisation_test.rb
+0	103	test/unit/specialist_guide_test.rb
+18	18	test/unit/topic_test.rb

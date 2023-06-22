@@ -1,0 +1,90 @@
+--d4c31488cd--2013-03-13--Matthew Ford
+--e9b50853d6--2013-03-13--Tekin Suleyman
+1	0	app/models/announcement.rb
+1	0	app/models/case_study.rb
+1	0	app/models/publicationesque.rb
+13	0	app/views/admin/editions/_document_preview.html.erb
+3	0	app/views/admin/editions/_worldwide_priority.html.erb
+1	3	app/views/admin/news_articles/_form.html.erb
+1	0	app/views/admin/publications/_form.html.erb
+1	0	app/views/admin/speeches/_form.html.erb
+1	3	app/views/admin/world_location_news_articles/_form.html.erb
+7	1	features/editing-draft-consultations.feature
+6	0	features/editing-draft-publications.feature
+6	0	features/editing-draft-speeches.feature
+7	1	features/publishing-news-articles.feature
+8	0	features/step_definitions/consultation_steps.rb
+6	0	features/step_definitions/document_steps.rb
+7	0	features/step_definitions/news_article_steps.rb
+7	0	features/step_definitions/publication_steps.rb
+8	0	features/step_definitions/speech_steps.rb
+5	0	features/support/document_helper.rb
+4	0	test/unit/case_study_test.rb
+3	0	test/unit/consultation_test.rb
+4	0	test/unit/news_article_test.rb
+4	0	test/unit/speech_test.rb
+5	1	test/unit/statistical_data_set_test.rb
+
+--4a10d2bd3d--2013-03-13--Tekin Suleyman
+1	1	features/editing-draft-publications.feature
+1	1	features/editing-draft-speeches.feature
+1	1	features/publishing-news-articles.feature
+1	1	features/step_definitions/news_article_steps.rb
+1	1	features/step_definitions/publication_steps.rb
+1	1	features/step_definitions/speech_steps.rb
+
+--c5e9257d51--2013-03-13--Matthew Ford
+0	1	app/models/edition/worldwide_priorities.rb
+
+--be847b570b--2013-03-13--Matthew Ford
+1	1	test/support/admin_edition_controller_test_helpers.rb
+
+--d703e6f5fc--2013-03-13--Edd Sowden
+1	1	app/assets/stylesheets/frontend/views/_biographical-page.scss
+
+--15da258e4c--2013-03-13--Edd Sowden
+2	3	app/assets/stylesheets/frontend/styleguide/_colours.scss
+
+--c0650f75c6--2013-03-13--russell thorn
+1	1	app/assets/stylesheets/admin/alerts.scss
+
+--ea9ce8c069--2013-03-13--Bradley Wright
+--6dfa684dee--2013-03-13--Chris Parsons
+1	5	app/controllers/html_versions_controller.rb
+1	1	app/presenters/attachments_presenter.rb
+4	3	config/routes.rb
+0	0	features/{html-publications.feature => html-versions-of-publications.feature}
+6	21	test/functional/html_versions_controller_test.rb
+1	1	test/unit/presenters/attachments_presenter_test.rb
+
+--c41b7ba2a7--2013-03-08--Matthew Ford
+0	1	app/models/world_location_news_article.rb
+1	0	app/views/admin/consultations/_form.html.erb
+1	3	app/views/admin/news_articles/_form.html.erb
+1	0	app/views/admin/publications/_form.html.erb
+1	0	app/views/admin/speeches/_form.html.erb
+
+--cf2bd78f7d--2013-03-08--Matthew Ford
+1	0	app/models/announcement.rb
+4	0	app/models/fatality_notice.rb
+1	0	app/models/publicationesque.rb
+
+--d78322c40f--2013-03-07--Matthew Ford
+1	0	app/assets/stylesheets/frontend/base.scss
+31	0	app/assets/stylesheets/frontend/views/_priority.scss
+4	0	app/models/worldwide_priority.rb
+1	1	app/views/admin/worldwide_priorities/_list.html.erb
+1	1	app/views/{policies => case_studies}/_case_studies.html.erb
+1	1	app/views/policies/show.html.erb
+38	2	app/views/worldwide_priorities/show.html.erb
+
+--3864e18924--2013-03-06--Matthew Ford
+4	0	app/views/admin/worldwide_priorities/_worldwide_priority.html.erb
+1	0	test/functional/admin/case_studies_controller_test.rb
+34	0	test/support/admin_edition_controller_test_helpers.rb
+
+--3f810015d9--2013-03-08--Matthew Ford
+1	0	app/models/case_study.rb
+1	0	app/views/admin/case_studies/_form.html.erb
+11	0	app/views/admin/editions/_outbound_links.html.erb
+3	0	app/views/admin/worldwide_priorities/_list.html.erb

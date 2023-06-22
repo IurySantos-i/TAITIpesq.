@@ -1,0 +1,21 @@
+--5a768efd--2015-10-21--Alan Thomas
+--572c7f87--2015-10-21--Alan Thomas
+--046113e0--2015-10-20--Andrew White
+4	4	app/models/staged/base/creator_signature.rb
+3	3	app/models/staged/base/signature.rb
+24	0	app/models/staged/validations/email.rb
+1151	0	config/disposable_domains.yml
+3	0	config/initializers/disposable_domains.rb
+2	1	config/locales/activerecord.en-GB.yml
+7	0	features/suzie_signs_a_petition.feature
+6	0	spec/models/signature_spec.rb
+
+--a84d3d22--2015-10-20--Andrew White
+5	1	app/assets/stylesheets/petitions/_buttons.scss
+2	0	app/assets/stylesheets/petitions/admin/views/_shared.scss
+10	0	app/controllers/admin/signatures_controller.rb
+14	2	app/views/admin/signatures/_signature.html.erb
+3	1	config/routes.rb
+8	0	features/admin/search_for_signatures_by_email.feature
+19	0	features/step_definitions/admin_search_steps.rb
+35	0	spec/controllers/admin/signatures_controller_spec.rb

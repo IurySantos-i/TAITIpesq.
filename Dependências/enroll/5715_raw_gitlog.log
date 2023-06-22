@@ -1,0 +1,225 @@
+--0cada16ced--2015-06-26--Sean Carley
+--277d0ef6dd--2015-06-26--Sean Carley
+9	9	app/controllers/consumer/employee_roles_controller.rb
+0	1	app/controllers/employers/census_employees_controller.rb
+0	4	app/models/benefit_group.rb
+0	4	app/models/benefit_group_assignment.rb
+15	13	app/models/census_employee.rb
+1	1	app/models/employee_role.rb
+1	1	app/models/employer_profile.rb
+13	34	app/models/forms/employee_candidate.rb
+1	2	app/models/plan_year.rb
+12	15	features/employers/create_employer.feature
+14	2	features/integration/employee_sign_up.feature
+32	21	features/step_definitions/employers_steps.rb
+100	27	features/step_definitions/integration_steps.rb
+9	5	spec/controllers/consumers/employee_roles_controller_spec.rb
+0	7	spec/models/benefit_group_assignment_spec.rb
+0	28	spec/models/benefit_group_spec.rb
+116	95	spec/models/census_employee_spec.rb
+36	5	spec/models/employer_profile_spec.rb
+58	14	spec/models/factories/enrollment_factory_spec.rb
+14	4	spec/models/forms/employee_candidate_spec.rb
+25	16	spec/models/plan_year_spec.rb
+
+--cbdad67489--2015-06-26--Brian Russel Davis
+10	0	app/assets/javascripts/qle.js
+1	1	app/views/consumer_profiles/_qles.html.erb
+
+--541313030b--2015-06-26--Brian Russel Davis
+2	2	app/views/employers/census_employees/_address_fields.html.erb
+5	7	app/views/employers/census_employees/_form.html.erb
+1	1	app/views/employers/employer_profiles/_form.html.erb
+2	2	app/views/employers/plan_years/_form.html.erb
+1	2	app/views/office_locations/_form.html.haml
+1	1	app/views/shared/_add_dependents.html.erb
+1	5	app/views/shared/_office_locations.html.erb
+
+--20540b5d66--2015-06-26--Brian Russel Davis
+1	2	app/assets/javascripts/application.js
+
+--bd948340cd--2015-06-26--Brian Russel Davis
+3	4	features/step_definitions/integration_steps.rb
+
+--625ad5f7c9--2015-06-26--Brian Russel Davis
+2	2	app/views/employers/employer_profiles/_form.html.erb
+4	2	app/views/office_locations/_form.html.haml
+6	2	app/views/shared/_office_locations.html.erb
+
+--998932d734--2015-06-26--Brian Russel Davis
+2	1	app/assets/javascripts/application.js
+1	2	app/views/consumer_profiles/_employers_and_plans.html.erb
+1	1	app/views/insured/plan_shoppings/thankyou.html.erb
+5	1	app/views/shared/_signup_progress.html.haml
+
+--c37b1e4d66--2015-06-25--vinner
+--f1b4aef035--2015-06-25--vinner
+7	2	spec/controllers/broker_agencies/inboxes_controller_spec.rb
+7	2	spec/controllers/employers/inboxes_controller_spec.rb
+7	2	spec/controllers/insured/inboxes_controller_spec.rb
+
+--47b1366745--2015-06-25--vinner
+18	0	spec/controllers/broker_agencies/inboxes_controller_spec.rb
+19	0	spec/controllers/employers/inboxes_controller_spec.rb
+18	0	spec/controllers/insured/inboxes_controller_spec.rb
+
+--11bfb7f33d--2015-06-24--jfinucane
+30	0	app/controllers/broker_agencies/inboxes_controller.rb
+1	1	app/controllers/inboxes_controller.rb
+7	0	app/views/broker_agencies/inboxes/msg_to_portal.js
+7	0	app/views/broker_agencies/profiles/show.html.erb
+3	1	config/routes.rb
+
+--e7ff27a0ae--2015-06-25--vinner
+0	4	app/models/message.rb
+
+--23f5d14ea4--2015-06-25--vinner
+1	2	app/controllers/employers/inboxes_controller.rb
+
+--0edd302c4a--2015-06-25--vinner
+--ed19bf806f--2015-06-25--vinner
+43	0	spec/controllers/broker_agencies/inboxes_controller_spec.rb
+32	5	spec/controllers/employers/inboxes_controller_spec.rb
+43	0	spec/controllers/insured/inboxes_controller_spec.rb
+
+--e0c11926c3--2015-06-25--vinner
+1	1	app/models/broker_agency_profile.rb
+1	13	app/models/employer_profile.rb
+11	1	app/models/organization.rb
+1	1	app/views/broker_agencies/profiles/_form.html.erb
+1	1	app/views/broker_roles/_new_broker_agency_form.html.erb
+1	1	app/views/employers/employer_profiles/_form.html.erb
+1	1	app/views/exchanges/hbx_profiles/_form.html.erb
+14	1	spec/models/broker_agency_profile_spec.rb
+2	2	spec/models/employer_profile_spec.rb
+
+--0166911b23--2015-06-25--Raghuram
+1	1	app/views/user_mailer/invitation_email.html.erb
+
+--9b055e2bfb--2015-06-25--Trey Evans
+--cdfb3d0c30--2015-06-25--Trey Evans
+3	3	app/models/invitation.rb
+
+--debf3c20b7--2015-06-25--Raghuram
+1	1	app/mailers/user_mailer.rb
+1	1	app/models/invitation.rb
+0	1	app/views/user_mailer/invitation_email.html.erb
+
+--7fea25259d--2015-06-25--Raghuram
+--d66861c705--2015-06-25--Raghuram
+4	1	app/controllers/exchanges/broker_applicants_controller.rb
+0	6	app/mailers/user_mailer.rb
+6	0	app/models/broker_role.rb
+13	0	app/models/invitation.rb
+
+--41f6023173--2015-06-25--Trey Evans
+1	4	app/mailers/user_mailer.rb
+
+--06317d4d42--2015-06-25--Trey Evans
+--1a3fb21d3b--2015-06-25--Trey Evans
+1	0	features/step_definitions/employers_steps.rb
+
+--6bc45c8207--2015-06-25--Raghuram
+--fce02379ef--2015-06-25--Raghuram
+--529dcb9555--2015-06-25--Sagar Arlekar
+3	3	app/models/time_keeper.rb
+
+--51fbcd6d06--2015-06-25--Trey Evans
+1	1	app/models/forms/employer_candidate.rb
+5	0	app/models/plan_year.rb
+
+--9f71434461--2015-06-25--Trey Evans
+--b4bc3e7793--2015-06-25--Trey Evans
+1	1	spec/models/forms/employer_candidate_spec.rb
+
+--d27bb4a0b5--2015-06-25--Sagar Arlekar
+--6674cb597b--2015-06-25--Sagar Arlekar
+0	7	app/models/forms/employee_candidate.rb
+0	6	app/models/forms/employee_dependent.rb
+
+--d6fba7d71e--2015-06-25--Trey Evans
+10	0	app/mailers/user_mailer.rb
+4	0	app/models/census_employee.rb
+3	0	app/models/census_member.rb
+16	0	app/models/invitation.rb
+4	0	app/models/plan_year.rb
+9	0	app/views/user_mailer/invitation_email.html.erb
+
+--27c2e56e23--2015-06-25--Raghuram
+47	0	app/controllers/exchanges/broker_applicants_controller.rb
+0	35	app/controllers/exchanges/hbx_profiles_controller.rb
+2	2	app/views/exchanges/{hbx_profiles/_broker_index.html.erb => broker_applicants/_index.html.erb}
+1	0	app/views/exchanges/broker_applicants/index.js.erb
+0	1	app/views/exchanges/hbx_profiles/broker_index.js.erb
+1	1	app/views/exchanges/hbx_profiles/shared/_primary_nav.html.erb
+9	3	config/routes.rb
+
+--57b1c37b38--2015-06-25--Trey Evans
+--de7e8e9ba3--2015-06-25--Trey Evans
+1	1	spec/models/forms/employee_candidate_spec.rb
+
+--eb9288ca6a--2015-06-25--Sagar Arlekar
+--c420e15fae--2015-06-25--Sagar Arlekar
+7	0	app/models/forms/employee_candidate.rb
+6	0	app/models/forms/employee_dependent.rb
+
+--0668811409--2015-06-25--Sagar Arlekar
+2	1	app/controllers/exchanges/hbx_profiles_controller.rb
+3	3	app/models/time_keeper.rb
+7	4	app/views/exchanges/hbx_profiles/_configuration_index.html.erb
+1	1	spec/controllers/exchanges/hbx_profiles_controller_spec.rb
+
+--efd991cc7d--2015-06-25--Trey Evans
+1	1	app/models/forms/employee_candidate.rb
+
+--fe8084580e--2015-06-25--Raghuram
+--af58c9c7c2--2015-06-25--Raghuram
+3	3	app/controllers/broker_roles_controller.rb
+5	3	app/views/broker_roles/_broker_signup.html.erb
+3	3	app/views/broker_roles/new.html.erb
+
+--207d7d8975--2015-06-25--Trey Evans
+11	3	app/controllers/invitations_controller.rb
+38	0	spec/controllers/invitations_controller_spec.rb
+
+--f43844fb3e--2015-06-25--Raghuram
+1	1	app/views/shared/_organization_staff_search.html.erb
+
+--a8eb434805--2015-06-25--Raghuram
+6	0	app/views/broker_roles/_broker_signup.html.erb
+1	4	app/views/broker_roles/new.js.erb
+5	0	app/views/shared/_organization_staff_search.html.erb
+
+--98f1acd48b--2015-06-25--Raghuram
+7	14	app/assets/javascripts/broker_role.js
+2	2	app/controllers/broker_roles_controller.rb
+1	3	app/views/broker_roles/_broker_signup.html.erb
+1	1	app/views/broker_roles/_person_info_fields.html.erb
+3	18	app/views/broker_roles/new.html.erb
+5	5	app/views/broker_roles/new.js.erb
+1	6	app/views/shared/_organization_staff_search.html.erb
+
+--0ba419f50b--2015-06-24--Sean Carley
+10	6	app/controllers/employers/plan_years_controller.rb
+7	0	app/models/census_employee.rb
+2	10	app/models/employee_role.rb
+32	5	app/models/plan_year.rb
+18	4	spec/controllers/employers/plan_years_controller_spec.rb
+0	7	spec/models/census_employee_spec.rb
+70	0	spec/models/employee_role_integration_spec.rb
+31	0	spec/models/plan_year_spec.rb
+
+--782e232c44--2015-06-25--Trey Evans
+12	0	app/controllers/invitations_controller.rb
+44	6	app/models/invitation.rb
+12	4	spec/models/invitation_spec.rb
+
+--a9cd2fd4a8--2015-06-25--Raghuram
+16	15	app/assets/javascripts/broker_role.js
+1	2	app/views/broker_roles/_broker_signup.html.erb
+4	2	app/views/broker_roles/new.js.erb
+
+--cbd98bb56e--2015-06-25--vinner
+43	0	spec/controllers/broker_agencies/inboxes_controller_spec.rb
+32	5	spec/controllers/employers/inboxes_controller_spec.rb
+43	0	spec/controllers/insured/inboxes_controller_spec.rb

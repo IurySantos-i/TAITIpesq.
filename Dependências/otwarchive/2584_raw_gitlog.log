@@ -1,0 +1,23 @@
+--6f737a5ef--2011-06-08--pixel
+--bda4637e5--2011-06-08--Cesy
+2	2	app/views/challenge_signups/_signup_controls.html.erb
+13	0	features/challenge_promptmeme.feature
+6	0	features/step_definitions/challenge_steps.rb
+
+--e03af84ef--2011-06-08--Cesy
+1	1	features/challenge_promptmeme.feature
+4	39	features/challenge_promptmeme_unlimited.feature
+10	2	features/step_definitions/challenge_steps.rb
+
+--13d323e44--2011-06-08--Cesy
+9	72	features/challenge_promptmeme_unlimited.feature
+11	2	features/step_definitions/challenge_steps.rb
+
+--8a286b32c--2011-06-08--pixel
+--03ad1a155--2011-06-08--Cesy
+4	0	app/controllers/challenge_requests_controller.rb
+
+--dfa30e96d--2011-06-07--Sidra
+--46958d28c--2011-05-07--elz
+--9b1c68592--2011-04-02--Sidra
+6	6	lib/tasks/after_tasks.rake

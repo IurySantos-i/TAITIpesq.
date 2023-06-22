@@ -1,0 +1,156 @@
+--fe481820d--2014-04-28--Mikko Koski
+--1edad8a47--2014-04-28--Mikko Koski
+--fdc12151d--2014-04-28--Mikko Koski
+5	2	Gemfile
+4	3	Gemfile.lock
+
+--90ad59a6f--2014-04-25--Jerome IDYLLE
+2	2	app/views/listings/form/custom_field_partials/_date_field.haml
+1	1	features/step_definitions/admin_custom_field_steps.rb
+
+--36d8603a1--2014-04-25--Mikko Koski
+3	1	Gemfile
+10	4	Gemfile.lock
+
+--85dcf91c0--2014-04-25--Mikko Koski
+--372cc2a24--2014-04-25--Mikko Koski
+2	8	Gemfile
+12	19	Gemfile.lock
+
+--42099eaa0--2014-04-25--Mikko Koski
+1	1	app/assets/javascripts/image_uploader.js
+
+--18d08d758--2014-04-25--Mikko Koski
+--c876b7b9f--2014-04-25--Antti Virolainen
+--b186e914c--2014-04-25--Antti Virolainen
+1	1	app/models/payment_gateways/checkout.rb
+1	1	app/models/payment_gateways/mangopay.rb
+0	64	lib/tasks/kassi.rake
+0	8	spec/mailers/person_mailer_spec.rb
+
+--3d26c7e95--2014-04-25--Mikko Koski
+0	4	app/models/transaction_types/give.rb
+0	4	app/models/transaction_types/inquiry.rb
+0	4	app/models/transaction_types/lend.rb
+0	4	app/models/transaction_types/offer.rb
+0	4	app/models/transaction_types/rent.rb
+0	4	app/models/transaction_types/request.rb
+0	4	app/models/transaction_types/sell.rb
+0	4	app/models/transaction_types/share_for_free.rb
+0	4	app/models/transaction_types/swap.rb
+
+--c78eaa8d1--2014-04-25--Mikko Koski
+--24a86a40e--2014-04-25--Mikko Koski
+--a9ff88c9c--2014-04-25--Mikko Koski
+2	1	app/assets/javascripts/image_uploader.js
+15	1	app/assets/javascripts/utils.js
+14	0	public/test/tests/utils.js
+
+--9fcbf46a3--2014-04-24--sealocal
+6	2	README.md
+
+--e8044667f--2014-04-24--Jerome IDYLLE
+0	1	Gemfile
+0	8	Gemfile.lock
+9	1	app/controllers/listings_controller.rb
+0	6	app/models/custom_field_values/date_field_value.rb
+1	1	app/views/listings/form/custom_field_partials/_date_field.haml
+
+--339001db7--2014-04-24--Antti Virolainen
+5	3	config/locales/ab.yml
+5	3	config/locales/ca.yml
+5	3	config/locales/cs.yml
+5	3	config/locales/da-DK.yml
+5	3	config/locales/de-bl.yml
+5	3	config/locales/de-rc.yml
+7	5	config/locales/de.yml
+5	3	config/locales/el.yml
+5	3	config/locales/en-at.yml
+5	3	config/locales/en-bd.yml
+5	3	config/locales/en-bf.yml
+5	3	config/locales/en-bl.yml
+5	3	config/locales/en-cf.yml
+5	3	config/locales/en-qr.yml
+5	3	config/locales/en-rc.yml
+5	3	config/locales/en-sb.yml
+5	3	config/locales/en-ul.yml
+5	3	config/locales/en-un.yml
+5	3	config/locales/en-vg.yml
+3	3	config/locales/en.yml
+5	3	config/locales/es-ES.yml
+5	3	config/locales/es-rc.yml
+7	5	config/locales/es.yml
+3	3	config/locales/fi.yml
+5	3	config/locales/fr-at.yml
+5	3	config/locales/fr-bd.yml
+5	3	config/locales/fr-rc.yml
+5	3	config/locales/fr.yml
+5	3	config/locales/hr.yml
+5	3	config/locales/hu.yml
+5	3	config/locales/it.yml
+5	3	config/locales/lv.yml
+5	3	config/locales/nl.yml
+5	3	config/locales/pt-BR.yml
+5	3	config/locales/ro.yml
+5	3	config/locales/ru.yml
+5	3	config/locales/sv.yml
+5	3	config/locales/sw.yml
+5	3	config/locales/vi.yml
+5	3	config/locales/zh.yml
+
+--82313eb6e--2014-04-22--Jerome IDYLLE
+2	2	app/views/listings/form/custom_field_partials/_date_field.haml
+54	54	features/listings/user_creates_a_new_listing.feature
+
+--1d2bf5354--2014-04-22--Jerome IDYLLE
+2	1	.gitignore
+2	1	Gemfile
+8	0	Gemfile.lock
+6	0	app/controllers/listings_controller.rb
+2	1	app/helpers/custom_fields_helper.rb
+1	1	app/models/custom_field.rb
+13	0	app/models/custom_field_values/date_field_value.rb
+5	0	app/models/custom_fields/date_field.rb
+3	0	app/views/listings/custom_field_partials/_date_field.haml
+2	0	app/views/listings/form/custom_field_partials/_date_field.haml
+1	0	config/locales/el.yml
+1	0	config/locales/en-at.yml
+1	0	config/locales/en-bd.yml
+1	0	config/locales/en-bf.yml
+1	0	config/locales/en-bl.yml
+1	0	config/locales/en-cf.yml
+1	0	config/locales/en-qr.yml
+1	0	config/locales/en-rc.yml
+1	0	config/locales/en-sb.yml
+1	0	config/locales/en-ul.yml
+1	0	config/locales/en-un.yml
+1	0	config/locales/en-vg.yml
+2	1	config/locales/en.yml
+1	0	config/locales/es-ES.yml
+1	0	config/locales/es-rc.yml
+1	0	config/locales/es.yml
+1	0	config/locales/fi.yml
+1	0	config/locales/fr-at.yml
+1	0	config/locales/fr-bd.yml
+1	0	config/locales/fr-rc.yml
+1	0	config/locales/fr.yml
+1	0	config/locales/hr.yml
+1	0	config/locales/hu.yml
+1	0	config/locales/it.yml
+1	0	config/locales/lv.yml
+1	0	config/locales/nl.yml
+1	0	config/locales/pt-BR.yml
+1	0	config/locales/ro.yml
+1	0	config/locales/ru.yml
+1	0	config/locales/sv.yml
+1	0	config/locales/sw.yml
+1	0	config/locales/vi.yml
+1	0	config/locales/zh.yml
+5	0	db/migrate/20140417235732_add_date_value_to_custom_field_values.rb
+40	58	db/structure.sql
+6	1	features/admin/custom_fields/admin_adds_custom_field.feature
+66	53	features/listings/user_creates_a_new_listing.feature
+35	0	features/step_definitions/admin_custom_field_steps.rb
+4	0	features/step_definitions/debug_steps.rb
+3	0	spec/factories.rb
+22	0	spec/models/date_field_value_spec.rb

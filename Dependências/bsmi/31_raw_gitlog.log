@@ -1,0 +1,91 @@
+--4de8f77--2012-12-05--Andrew Mains
+--d843782--2012-12-05--Andrew Mains
+14	6	app/assets/javascripts/mentor_teacher/schedules.js
+3	3	app/models/timeslot.rb
+2	1	app/views/mentor_teacher/schedules/_week_calendar.html.haml
+
+--3a32a99--2012-12-05--Andrew Mains
+7	4	app/assets/javascripts/mentor_teacher/schedules.js
+2	1	app/controllers/mentor_teacher/schedules_controller.rb
+3	2	app/models/timeslot.rb
+
+--f59c38e--2012-12-04--Andrew Mains
+5	0	app/assets/stylesheets/mentor_teacher/schedules.css.scss
+3	2	app/controllers/mentor_teacher/schedules_controller.rb
+5	5	app/helpers/mentor_teacher/schedules_helper.rb
+11	10	app/views/mentor_teacher/schedules/_week_calendar.html.haml
+1	1	app/views/mentor_teacher/schedules/edit_or_new.html.haml
+1	2	app/views/mentor_teacher/schedules/show.html.haml
+1	1	spec/controllers/mentor_teacher/schedules_controller_spec.rb
+
+--358bde3--2012-12-04--Andrew Mains
+16	10	app/helpers/mentor_teacher/schedules_helper.rb
+2	1	app/models/timeslot.rb
+24	10	features/mentor_teacher_schedule.feature
+33	12	features/step_definitions/bsmi_steps.rb
+
+--ab91dd7--2012-12-04--Alex Tom
+2	4	app/controllers/select_timeslots_controller.rb
+3	0	app/models/student.rb
+39	3	features/student_rank_time_slots.feature
+
+--e159026--2012-12-04--Alex Tom
+--4cd98d0--2012-12-04--Alex Tom
+3	3	app/views/application/_advisor_view.html.haml
+5	5	app/views/application/_student_view.html.haml
+7	9	app/views/semesters/_form.html.haml
+
+--5a6703d--2012-12-04--Alex Tom
+12	11	app/controllers/students_controller.rb
+
+--6f2016c--2012-12-04--Alex Tom
+1	1	features/step_definitions/bsmi_steps.rb
+3	3	features/view_placements.feature
+
+--791bf61--2012-12-04--Andrew Mains
+3	1	spec/factories/timeslot.rb
+
+--1d7a7f0--2012-12-04--Andrew Mains
+3	0	app/controllers/mentor_teacher/schedules_controller.rb
+9	0	spec/controllers/mentor_teacher/schedules_controller_spec.rb
+
+--299b007--2012-12-04--Andrew Mains
+6	0	app/models/mentor_teacher.rb
+6	3	spec/factories/cal_courses.rb
+22	0	spec/models/mentor_teacher_spec.rb
+
+--a6c2e8c--2012-12-04--Andrew Mains
+3	1	app/controllers/mentor_teacher/schedules_controller.rb
+6	4	spec/controllers/mentor_teacher/schedules_controller_spec.rb
+
+--e6907b5--2012-12-04--Alex Tom
+4	0	spec/controllers/mentor_teacher/schedules_controller_spec.rb
+
+--2683053--2012-12-04--Alex Tom
+1	1	app/controllers/mentor_teacher/schedules_controller.rb
+
+--0297c63--2012-12-04--Alex Tom
+3	3	app/controllers/cal_courses_controller.rb
+
+--9aeb8c1--2012-12-04--Andrew Mains
+6	0	app/models/mentor_teacher.rb
+6	3	spec/factories/cal_courses.rb
+22	0	spec/models/mentor_teacher_spec.rb
+
+--4678eaa--2012-12-04--Andrew Mains
+3	1	app/controllers/mentor_teacher/schedules_controller.rb
+6	4	spec/controllers/mentor_teacher/schedules_controller_spec.rb
+
+--5560e49--2012-12-04--Andrew Mains
+--6dafa78--2012-12-04--Alex Tom
+4	0	spec/controllers/mentor_teacher/schedules_controller_spec.rb
+
+--209218b--2012-12-04--Andrew Mains
+--d37e0b0--2012-12-04--Andrew Mains
+1	0	app/models/timeslot.rb
+
+--d01391a--2012-12-04--Alex Tom
+1	1	app/controllers/mentor_teacher/schedules_controller.rb
+
+--57394d4--2012-12-04--Alex Tom
+3	3	app/controllers/cal_courses_controller.rb

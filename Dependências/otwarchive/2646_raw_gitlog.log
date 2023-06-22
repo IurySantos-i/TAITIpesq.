@@ -1,0 +1,20 @@
+--d46627036--2011-04-24--pixel
+--6b21806d7--2011-04-22--shalott
+1	2	app/helpers/tags_helper.rb
+71	89	features/challenge_giftexchange.feature
+14	4	features/challenge_promptmeme.feature
+29	1	features/step_definitions/challenge_steps.rb
+6	1	features/step_definitions/collection_steps.rb
+5	1	features/support/email.rb
+6	0	features/support/paths.rb
+
+--1e4b34af2--2011-04-12--shalott
+6	21	app/helpers/tags_helper.rb
+2	2	app/views/challenge/gift_exchange/_challenge_requests.html.erb
+2	2	app/views/challenge/gift_exchange/_challenge_requests_signups_summary.html.erb
+2	2	app/views/challenge/gift_exchange/_challenge_signups.html.erb
+2	2	app/views/challenge_signups/_show_prompt.html.erb
+
+--faaa64b7d--2011-04-23--pixel
+--47bd45610--2011-04-22--shalott
+1	0	public/stylesheets/site-chrome.css

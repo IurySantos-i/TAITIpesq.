@@ -1,0 +1,75 @@
+--10e97761--2010-12-13--Zubair Khan
+--3e85f351--2010-12-13--Zubair Khan
+0	3	Gemfile.lock
+
+--5f4eb62c--2010-12-12--Jen Smith
+35	36	jmeter/RapidFTR.jmx
+
+--0c5df79a--2010-12-12--Jen Smith
+297	834	jmeter/RapidFTR.jmx
+
+--0a0d9b88--2010-12-12--Jen Smith
+1	1	app/views/layouts/application.html.erb
+
+--b4d758d8--2010-12-12--Jen Smith
+1588	0	jmeter/RapidFTR.jmx
+
+--2498319b--2010-12-12--Jen Smith
+2	0	app/views/admin/index.html.erb
+1	1	app/views/contact_information/show.html.erb
+1	0	features/support/reset_couchdb.rb
+
+--c61363d5--2010-12-11--Jen Smith
+3	0	app/controllers/contact_information_controller.rb
+7	0	app/helpers/contact_information_helper.rb
+5	5	app/views/contact_information/edit.html.erb
+9	0	app/views/contact_information/show.html.erb
+2	0	app/views/layouts/application.html.erb
+20	1	features/editing_contact_info.feature
+0	9	features/pending_requirements/assign_unique_id_to_a_child.feature
+3	0	features/support/paths.rb
+
+--a38f9f52--2010-12-11--Jen Smith
+11	0	app/controllers/contact_information_controller.rb
+3	0	app/models/contact_information.rb
+9	1	app/views/contact_information/edit.html.erb
+8	5	features/editing_contact_info.feature
+0	1	spec/controllers/contact_information_controller_spec.rb
+
+--18bd5372--2010-12-11--Jen Smith
+6	1	features/editing_contact_info.feature
+
+--c183c5e8--2010-12-11--Jen Smith
+1	0	app/controllers/contact_information_controller.rb
+4	0	features/editing_contact_info.feature
+2	0	features/support/paths.rb
+
+--5fa7af5a--2010-12-11--Jen Smith
+0	3	Gemfile.lock
+3	0	app/models/contact_information.rb
+13	1	app/views/contact_information/edit.html.erb
+
+--2c0bfebd--2010-12-11--Jen Smith
+8	0	app/controllers/contact_information_controller.rb
+7	0	app/models/contact_information.rb
+1	1	app/views/admin/index.html.erb
+14	0	app/views/contact_information/edit.html.erb
+2	0	db/seeds.rb
+5	5	features/editing_contact_info.feature
+6	1	features/step_definitions/database_steps.rb
+16	0	spec/controllers/contact_information_controller_spec.rb
+
+--6cd1ad97--2010-12-11--Jen Smith
+3	0	app/models/contact_information.rb
+3	0	app/views/admin/index.html.erb
+2	0	config/routes.rb
+40	0	features/editing_contact_info.feature
+4	0	features/step_definitions/database_steps.rb
+
+--c18d4cfa--2010-12-07--Jen Smith
+5	4	public/stylesheets/core.css
+
+--45523610--2010-12-01--Jen Smith
+5	1	app/views/users/index.html.erb
+7	0	features/step_definitions/more_web_steps.rb
+4	2	features/user_disable.feature

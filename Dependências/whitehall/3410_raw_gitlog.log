@@ -1,0 +1,401 @@
+--4b1bfb44b2--2013-04-17--Tekin Suleyman
+--1260624f6a--2013-04-16--Bradley Wright
+--743201b185--2013-04-16--Tekin Suleyman
+3	4	app/assets/javascripts/admin/on_ready.js
+6	3	app/assets/javascripts/admin/{update_speech_headers.js => update_speech_headers.js.erb}
+1	1	app/helpers/admin/editions_helper.rb
+1	1	app/helpers/translation_helper.rb
+0	4	app/views/admin/speeches/_speech_type_fields.html.erb
+
+--9f78d09abe--2013-04-16--Bradley Wright
+1	4	app/views/email_signups/show.html.erb
+
+--dd68e3e8bb--2013-04-16--Bradley Wright
+1	1	app/models/email_signup.rb
+
+--180f134439--2013-04-16--Tekin Suleyman
+11	0	app/helpers/admin/editions_helper.rb
+1	6	app/views/admin/speeches/_speech_type_fields.html.erb
+
+--5fdd432c7e--2013-04-16--Edd Sowden
+2	2	Gemfile.lock
+1	0	test/functional/publications_controller_test.rb
+2	4	test/unit/helpers/document_filter_helper_test.rb
+
+--87e8cb8db0--2013-04-16--Tekin Suleyman
+--880fd023d5--2013-04-16--Matthew Ford
+6	0	features/policy-advisory-groups.feature
+14	0	features/step_definitions/policy_advisory_group_steps.rb
+
+--ec4054d2fe--2013-04-16--Chris Parsons
+1	1	app/models/speech_type.rb
+3	1	app/views/admin/speeches/_speech_type_fields.html.erb
+1	1	features/step_definitions/speech_steps.rb
+
+--1d668ac8c6--2013-04-16--Tekin Suleyman
+--08aa21b077--2013-04-16--Tekin Suleyman
+--8ad59a3530--2013-04-16--Chris Parsons
+1	1	config/locales/cs.yml
+
+--23b244c332--2013-04-16--Edd Sowden
+3	3	app/helpers/document_filter_helper.rb
+8	0	app/models/organisation.rb
+4	0	app/models/organisation_type.rb
+
+--5b9e403362--2013-04-16--Bradley Wright
+--54a793fc66--2013-04-16--Bradley Wright
+--decddfabf4--2013-04-16--Edd Sowden
+3	3	app/views/documents/_filter_form.html.erb
+
+--622e951f48--2013-04-16--russell thorn
+3	5	app/assets/stylesheets/frontend/views/_get-involved.scss
+
+--7df0cffc31--2013-04-16--Bradley Wright
+1	1	Gemfile
+8	14	Gemfile.lock
+
+--3dc238341c--2013-04-16--Tekin Suleyman
+1	1	app/models/promotional_feature_item.rb
+
+--e14e95156f--2013-04-16--russell thorn
+10	0	app/assets/stylesheets/frontend/helpers/_govspeak.scss
+
+--dba06d77c6--2013-04-16--russell thorn
+1	2	app/views/histories/index.html.erb
+1	2	app/views/histories/king_charles_street.html.erb
+1	1	app/views/past_foreign_secretaries/index.html.erb
+
+--8707ea481a--2013-04-15--Murray Steele
+15	6	app/controllers/email_signups_controller.rb
+8	0	app/models/email_signup/invalid_slug_error.rb
+12	2	app/models/email_signup/title_extractor.rb
+18	0	test/functional/email_signup_controller_test.rb
+26	0	test/unit/email_signup/title_extractor_test.rb
+
+--4a24d1287f--2013-04-15--Bradley Wright
+3	0	app/models/email_signup/feed_url_extractor.rb
+5	1	app/models/email_signup/title_extractor.rb
+5	1	test/unit/email_signup/feed_url_extractor_test.rb
+5	0	test/unit/email_signup/title_extractor_test.rb
+
+--bf307a95bc--2013-04-15--Mark Hurrell
+3	0	app/assets/stylesheets/frontend/helpers/_filter.scss
+7	0	app/assets/stylesheets/frontend/views/_announcements.scss
+7	0	app/assets/stylesheets/frontend/views/_policies.scss
+6	0	app/assets/stylesheets/frontend/views/_publications.scss
+
+--fa10ec7672--2013-04-15--Edd Sowden
+1	1	app/assets/stylesheets/frontend/helpers/_govspeak.scss
+12	2	app/assets/stylesheets/frontend/views/_corporate-information-pages-worldwide-organisation.scss
+
+--850a188eac--2013-04-15--Bradley Wright
+1	0	app/models/email_signup/gov_uk_delivery_redirect_url_extractor.rb
+2	0	test/unit/email_signup/gov_uk_delivery_redirect_url_extractor_test.rb
+
+--719be2aa28--2013-04-15--Mark Hurrell
+1	1	app/assets/stylesheets/frontend/helpers/_document_list.scss
+21	9	app/assets/stylesheets/frontend/helpers/_filter.scss
+7	0	app/assets/stylesheets/frontend/views/_announcements.scss
+7	0	app/assets/stylesheets/frontend/views/_policies.scss
+6	0	app/assets/stylesheets/frontend/views/_publications.scss
+4	4	app/views/documents/_filter_form.html.erb
+1	1	config/locales/en.yml
+
+--0210237868--2013-04-15--Edd Sowden
+6	2	app/helpers/document_filter_helper.rb
+3	1	test/unit/helpers/document_filter_helper_test.rb
+
+--e0893a79db--2013-04-15--Edd Sowden
+1	1	app/models/organisation.rb
+4	5	test/unit/organisation_test.rb
+
+--763bfc3ac1--2013-04-15--Bradley Wright
+1	1	Gemfile
+1	1	Gemfile.lock
+
+--60f05d6678--2013-04-15--Bradley Wright
+1	1	Gemfile
+14	8	Gemfile.lock
+1	1	app/models/email_signup/gov_uk_delivery_redirect_url_extractor.rb
+0	6	config/initializers/gov_uk_delivery.rb
+2	2	test/unit/email_signup/gov_uk_delivery_redirect_url_extractor_test.rb
+
+--e40d512936--2013-04-15--russell thorn
+12	0	app/assets/stylesheets/frontend/views/_get-involved.scss
+10	3	app/assets/stylesheets/frontend/views/_history-people.scss
+
+--47100fce7b--2013-04-15--Bradley Wright
+--94a977929f--2013-04-15--russell thorn
+20	34	app/views/histories/king_charles_street.html.erb
+
+--95462be3ca--2013-04-15--Edd Sowden
+1	1	app/assets/stylesheets/frontend/base.scss
+68	0	app/assets/stylesheets/frontend/views/_corporate-information-pages-worldwide-organisation.scss
+0	45	app/assets/stylesheets/frontend/views/_corporate-information-pages.scss
+1	1	app/views/contacts/_contact.html.erb
+1	1	app/views/worldwide_offices/show.html.erb
+
+--32e381fcda--2013-04-15--Murray Steele
+2	0	app/helpers/govspeak_helper.rb
+
+--79cfeeeeda--2013-04-15--Chris Parsons
+1	8	lib/whitehall/exporters/document_mappings.rb
+11	2	test/unit/whitehall/exporters/document_mappings_test.rb
+
+--6461659677--2013-04-15--Bradley Wright
+--84b81132c2--2013-04-15--Bradley Wright
+--bd6de38518--2013-04-15--Chris Parsons
+20	0	db/data_migration/20130415123549_add_new_mainstream_categories_for_dwp.rb
+
+--a786adb177--2013-04-15--Chris Parsons
+1	1	features/step_definitions/speech_steps.rb
+
+--9e5e60a19e--2013-04-15--Chris Parsons
+11	0	config/locales/ar.yml
+7	0	config/locales/az.yml
+9	0	config/locales/be.yml
+9	2	config/locales/bg.yml
+7	0	config/locales/bn.yml
+8	1	config/locales/cs.yml
+11	0	config/locales/cy.yml
+7	0	config/locales/de.yml
+7	0	config/locales/dr.yml
+7	0	config/locales/el.yml
+7	0	config/locales/es-419.yml
+7	0	config/locales/es.yml
+7	0	config/locales/fa.yml
+7	0	config/locales/fr.yml
+9	0	config/locales/he.yml
+7	0	config/locales/hi.yml
+7	0	config/locales/hu.yml
+7	0	config/locales/hy.yml
+7	0	config/locales/id.yml
+7	0	config/locales/it.yml
+8	1	config/locales/ja.yml
+7	0	config/locales/ka.yml
+7	0	config/locales/ko.yml
+8	0	config/locales/lt.yml
+7	0	config/locales/lv.yml
+7	0	config/locales/ms.yml
+9	0	config/locales/pl.yml
+7	0	config/locales/ps.yml
+7	0	config/locales/pt.yml
+8	0	config/locales/ro.yml
+9	0	config/locales/ru.yml
+7	0	config/locales/si.yml
+8	0	config/locales/sk.yml
+7	0	config/locales/so.yml
+7	0	config/locales/sq.yml
+9	0	config/locales/sr.yml
+7	0	config/locales/sw.yml
+7	0	config/locales/ta.yml
+7	0	config/locales/th.yml
+7	0	config/locales/tk.yml
+7	0	config/locales/tr.yml
+9	0	config/locales/uk.yml
+7	0	config/locales/ur.yml
+7	0	config/locales/uz.yml
+7	0	config/locales/vi.yml
+7	0	config/locales/zh.yml
+
+--88c412a290--2013-04-15--Edd Sowden
+0	2	app/assets/stylesheets/frontend/helpers/_contextual-info.scss
+1	0	app/assets/stylesheets/frontend/helpers/_organisations.scss
+
+--6c5e1b21ca--2013-04-15--Murray Steele
+3	0	app/models/corporate_information_page_type.rb
+2	1	test/unit/corporate_information_page_test.rb
+
+--fb4e67114b--2013-04-15--Murray Steele
+8	0	app/helpers/admin/editions_helper.rb
+6	0	app/views/admin/editions/_navigation.html.erb
+25	0	test/unit/helpers/admin/editions_helper_test.rb
+
+--f15440ab65--2013-04-15--Murray Steele
+12	1	app/helpers/govspeak_helper.rb
+25	0	test/unit/helpers/govspeak_helper_test.rb
+
+--6183a90c5a--2013-04-15--Murray Steele
+1	1	app/views/worldwide_offices/show.html.erb
+
+--e3b753ea70--2013-04-15--Murray Steele
+1	0	app/views/admin/contacts/_contact.html.erb
+3	0	app/views/admin/editions/_govspeak_help.html.erb
+
+--d95f79004d--2013-04-12--Murray Steele
+11	0	app/helpers/govspeak_helper.rb
+16	0	test/unit/helpers/govspeak_helper_test.rb
+
+--2a4e972a72--2013-04-10--Murray Steele
+1	1	app/models/email_signup.rb
+
+--5906ca1cea--2013-04-10--Murray Steele
+1	0	test/integration/navigation_selection_test.rb
+
+--6107d6581a--2013-04-09--Murray Steele
+0	3	app/views/email_signups/show.html.erb
+
+--223def507e--2013-04-09--Murray Steele
+51	2	app/controllers/email_signups_controller.rb
+60	0	test/functional/email_signup_controller_test.rb
+
+--6f20d9c196--2013-04-09--Murray Steele
+21	0	app/models/email_signup/gov_uk_delivery_redirect_url_extractor.rb
+6	0	config/initializers/gov_uk_delivery.rb
+40	0	test/unit/email_signup/gov_uk_delivery_redirect_url_extractor_test.rb
+
+--9f13a427f9--2013-04-09--Murray Steele
+0	160	app/models/email_signup.rb
+58	0	app/models/email_signup/alert.rb
+44	0	app/models/email_signup/feed_url_extractor.rb
+54	0	app/models/email_signup/title_extractor.rb
+107	0	test/unit/email_signup/alert_test.rb
+64	0	test/unit/email_signup/feed_url_extractor_test.rb
+57	0	test/unit/email_signup/title_extractor_test.rb
+0	224	test/unit/email_signup_test.rb
+
+--22a0f8a6b0--2013-04-09--Murray Steele
+55	0	app/models/email_signup.rb
+56	0	test/unit/email_signup_test.rb
+
+--6c6fd07e77--2013-04-09--Murray Steele
+60	0	app/models/email_signup.rb
+81	0	test/unit/email_signup_test.rb
+
+--57f22e8b9b--2013-04-09--Murray Steele
+21	36	app/models/edition/gov_uk_delivery.rb
+213	14	test/unit/edition/gov_uk_delivery_test.rb
+
+--5521ad04f8--2013-04-15--russell thorn
+3	0	app/assets/stylesheets/frontend/views/_history-buildings.scss
+13	5	app/views/histories/lancaster_house.html.erb
+
+--e4bcbe408f--2013-04-08--Murray Steele
+2	1	app/assets/javascripts/application/email-signup.js
+5	2	app/assets/javascripts/{admin => common}/duplicate_fields.js
+
+--f162357567--2013-04-08--Murray Steele
+7	5	app/views/email_signups/show.html.erb
+
+--7dc6577155--2013-04-08--Murray Steele
+1	1	app/controllers/email_signups_controller.rb
+1	1	app/models/email_signup.rb
+
+--8d3556c48d--2013-04-08--Murray Steele
+1	0	app/controllers/email_signups_controller.rb
+3	3	app/helpers/email_signup_helper.rb
+28	2	app/models/email_signup.rb
+2	2	app/views/email_signups/show.html.erb
+50	2	test/unit/email_signup_test.rb
+
+--515ed0657b--2013-04-08--Murray Steele
+3	4	app/controllers/email_signups_controller.rb
+20	1	app/models/email_signup.rb
+59	3	test/unit/email_signup_test.rb
+
+--440fe188bb--2013-04-08--Murray Steele
+1	1	app/controllers/email_signups_controller.rb
+17	0	app/models/email_signup.rb
+17	0	test/unit/email_signup_test.rb
+
+--47fc945cab--2013-04-08--Murray Steele
+2	1	app/controllers/email_signups_controller.rb
+0	9	app/helpers/document_filter_helper.rb
+25	0	app/helpers/email_signup_helper.rb
+50	0	app/models/email_signup.rb
+24	33	app/views/email_signups/show.html.erb
+115	0	test/unit/email_signup_test.rb
+
+--7fbc609a33--2013-04-05--Murray Steele
+2	3	app/controllers/email_signups_controller.rb
+
+--3ea7b41775--2013-04-05--Murray Steele
+1	0	app/controllers/email_signups_controller.rb
+10	0	app/models/email_signup.rb
+4	4	app/views/email_signups/show.html.erb
+
+--2df955b594--2013-04-05--Murray Steele
+13	0	app/controllers/email_signups_controller.rb
+0	8	app/controllers/home_controller.rb
+0	0	app/views/{home/email_signup.html.erb => email_signups/show.html.erb}
+1	1	config/routes.rb
+
+--58634a06e0--2013-03-28--Edd Sowden
+25	0	app/assets/javascripts/application/email-signup.js
+1	0	app/assets/javascripts/application/on_ready.js
+1	0	app/assets/stylesheets/frontend/base.scss
+1	1	app/assets/stylesheets/frontend/styleguide/_button.scss
+105	0	app/assets/stylesheets/frontend/views/_email-signup.scss
+8	0	app/controllers/home_controller.rb
+9	0	app/helpers/document_filter_helper.rb
+60	0	app/views/home/email_signup.html.erb
+1	0	config/routes.rb
+
+--0892a07461--2013-04-15--Edd Sowden
+1	1	Gemfile
+2	2	Gemfile.lock
+3	0	app/assets/stylesheets/frontend/styleguide/_colours.scss
+
+--96d818c26e--2013-04-15--russell thorn
+1	1	app/views/histories/10_downing_street.html.erb
+1	1	app/views/histories/11_downing_street.html.erb
+1	1	app/views/histories/1_horse_guards.html.erb
+3	3	app/views/histories/index.html.erb
+1	1	app/views/past_foreign_secretaries/austen_chamberlain.html.erb
+1	1	app/views/past_foreign_secretaries/charles_fox.html.erb
+1	1	app/views/past_foreign_secretaries/edward_grey.html.erb
+1	1	app/views/past_foreign_secretaries/edward_wood.html.erb
+1	1	app/views/past_foreign_secretaries/george_curzon.html.erb
+1	1	app/views/past_foreign_secretaries/george_gordon.html.erb
+1	1	app/views/past_foreign_secretaries/george_gower.html.erb
+1	1	app/views/past_foreign_secretaries/henry_petty_fitzmaurice.html.erb
+1	1	app/views/past_foreign_secretaries/index.html.erb
+1	1	app/views/past_foreign_secretaries/robert_cecil.html.erb
+1	1	app/views/past_foreign_secretaries/william_grenville.html.erb
+
+--efaaff2d44--2013-04-15--Chris Parsons
+8	0	app/assets/javascripts/admin/on_ready.js
+24	0	app/assets/javascripts/admin/update_speech_headers.js
+6	2	app/helpers/translation_helper.rb
+27	5	app/models/speech_type.rb
+1	1	app/views/admin/speeches/_delivered_by_fields.html.erb
+7	0	app/views/admin/speeches/_speech_type_fields.html.erb
+1	1	app/views/speeches/_document_extra_metadata.html.erb
+7	0	config/locales/en.yml
+24	11	features/editing-draft-speeches.feature
+1	1	features/step_definitions/import_steps.rb
+20	5	features/step_definitions/speech_steps.rb
+1	1	features/support/document_helper.rb
+9	2	test/unit/helpers/translation_helper_test.rb
+
+--ec736b409b--2013-04-15--Chris Parsons
+11	11	features/viewing-published-speeches.feature
+
+--964a314005--2013-04-12--Chris Parsons
+2	0	app/models/speech_type.rb
+5	1	features/editing-draft-speeches.feature
+11	0	features/step_definitions/speech_steps.rb
+
+--6b52a209e8--2013-04-12--Chris Parsons
+1	5	app/models/speech.rb
+
+--0755fa7337--2013-04-12--Matthew Ford
+2	0	app/views/admin/policy_advisory_groups/index.html.erb
+
+--4320ecf7f7--2013-04-12--Matthew Ford
+13	2	app/controllers/admin/policy_advisory_groups_controller.rb
+4	0	app/views/admin/policy_advisory_groups/index.html.erb
+2	1	lib/whitehall/authority/enforcer.rb
+7	0	lib/whitehall/authority/rules/policy_advisory_group_rules.rb
+
+--70eedfe117--2013-04-12--Matthew Ford
+37	0	app/assets/javascripts/admin/edition_publishing.js
+5	2	app/assets/stylesheets/admin/forms.scss
+2	0	app/views/admin/editions/_speed_tagging.html.erb
+4	1	app/views/admin/editions/_standard_fields.html.erb
+
+--ca28979661--2013-04-12--Matthew Ford
+1	0	Gemfile
+2	0	Gemfile.lock
+2	3	app/models/slugging.rb
+16	0	test/unit/whitehall/slugging_test.rb

@@ -1,0 +1,372 @@
+--d1c4af5584--2014-10-31--Edd Sowden
+--d5bd58cf43--2014-10-30--Edd Sowden
+1	1	app/models/organisation.rb
+1	1	app/views/admin/organisations/_form.html.erb
+2	3	app/views/organisations/_featured_items.html.erb
+1	2	app/views/organisations/show.html.erb
+4	4	test/unit/models/organisation_test.rb
+
+--6eb372b0d9--2014-10-30--Tekin Suleyman
+--59c66d7c08--2014-10-30--Tekin Suleyman
+--39999398d7--2014-10-30--Tekin Suleyman
+--ab79d873e8--2014-10-30--Tekin Suleyman
+15	116	features/step_definitions/filtering_steps.rb
+14	6	features/support/filtering_documents_helper.rb
+
+--624383dec7--2014-10-30--Tekin Suleyman
+--c65bc86209--2014-10-30--Tekin Suleyman
+--7bca487ee1--2014-10-30--Tekin Suleyman
+0	29	features/step_definitions/filtering_steps.rb
+32	0	features/support/filtering_documents_helper.rb
+
+--6bf4ed7952--2014-10-30--Tekin Suleyman
+4	2	features/support/javascript.rb
+
+--f82fb139cf--2014-10-30--Tekin Suleyman
+--e96a0055b0--2014-10-30--Daniel Roseman
+--b433c1032f--2014-10-30--Tekin Suleyman
+1	1	Gemfile
+8	8	Gemfile.lock
+
+--c3920b3c43--2014-10-30--Alex Tomlins
+2	2	features/support/javascript.rb
+
+--c26f4cbb05--2014-10-28--Tekin Suleyman
+1	1	app/models/admin/edition_filter.rb
+1	9	app/models/admin/statistics_announcement_filter.rb
+15	0	lib/patches/string.rb
+
+--bf470514a5--2014-10-29--Tekin Suleyman
+--795dc38f1d--2014-10-29--Tekin Suleyman
+10	4	app/models/admin/statistics_announcement_filter.rb
+2	2	app/views/admin/statistics_announcements/index.html.erb
+1	1	features/step_definitions/admin_statistics_announcements_steps.rb
+21	9	test/unit/admin/statistics_announcement_filter_test.rb
+
+--2d4faa8150--2014-10-28--Paul Hayes
+1	1	app/views/admin/statistics_announcements/index.html.erb
+
+--1160dc2a9a--2014-10-28--Paul Hayes
+3	3	app/views/admin/statistics_announcements/index.html.erb
+1	2	features/step_definitions/admin_statistics_announcements_steps.rb
+
+--6b326a565e--2014-10-29--Edd Sowden
+5	5	test/unit/featured_link_test.rb
+
+--cb5f8d1838--2014-10-28--Edd Sowden
+38	0	test/unit/models/organisation_test.rb
+
+--06b28625eb--2014-10-28--Edd Sowden
+5	0	test/unit/featured_link_test.rb
+
+--6948e83e66--2014-10-28--Edd Sowden
+2	7	app/views/admin/shared/_featured_link_fields.html.erb
+
+--4409151ebc--2014-10-28--Edd Sowden
+3	3	app/models/organisation.rb
+
+--36e857b8c8--2014-10-27--Edd Sowden
+6	0	db/pending_migration_cleanups/20141027105104_drop_featured_services_and_guidance_and_top_tasks.rb
+
+--15821c8444--2014-10-24--Edd Sowden
+14	12	app/views/admin/organisations/_form.html.erb
+4	3	features/organisations.feature
+10	10	features/step_definitions/organisation_steps.rb
+4	4	features/step_definitions/topic_steps.rb
+3	3	features/topics.feature
+2	2	lib/whitehall/authority/rules/organisation_rules.rb
+4	4	test/functional/admin/organisations_controller_test.rb
+8	8	test/functional/admin/world_locations_controller_test.rb
+3	3	test/functional/organisations_controller_test.rb
+3	3	test/functional/world_locations_controller_test.rb
+3	3	test/unit/whitehall/authority/department_editor_test.rb
+3	3	test/unit/whitehall/authority/gds_editor_test.rb
+3	3	test/unit/whitehall/authority/managing_editor_test.rb
+
+--6659d475a7--2014-10-23--Edd Sowden
+5	5	test/functional/admin/organisations_controller_test.rb
+2	2	test/functional/organisations_controller_test.rb
+2	2	test/functional/world_locations_controller_test.rb
+9	9	test/unit/models/organisation_test.rb
+9	9	test/unit/topic_test.rb
+9	9	test/unit/world_location_test.rb
+
+--cedf72f875--2014-10-23--Edd Sowden
+-	-	app/assets/images/admin/homepage-priority.png
+1	0	app/assets/stylesheets/admin/base.scss
+25	0	app/assets/stylesheets/admin/views/_organisation.scss
+1	0	app/controllers/admin/organisations_controller.rb
+14	5	app/views/admin/organisations/_form.html.erb
+1	0	features/step_definitions/organisation_steps.rb
+
+--0e34078572--2014-10-27--Edd Sowden
+10	4	app/views/admin/shared/_featured_link_fields.html.erb
+
+--9e492227fa--2014-10-27--Edd Sowden
+5	1	app/models/organisation.rb
+1	1	app/views/organisations/_header.html.erb
+2	2	app/views/organisations/show.html.erb
+
+--62b961776f--2014-10-27--Edd Sowden
+4	2	app/models/featured_link.rb
+8	0	app/models/organisation.rb
+
+--fd7476edf5--2014-10-21--Edd Sowden
+0	1	app/controllers/admin/organisations_controller.rb
+0	1	app/controllers/organisations_controller.rb
+3	3	app/views/admin/classifications/show.html.erb
+1	14	app/views/admin/organisations/show.html.erb
+3	3	app/views/organisations/_featured_items.html.erb
+3	4	app/views/organisations/show.html.erb
+1	1	app/views/topics/show.html.erb
+
+--a530dee266--2014-10-20--Edd Sowden
+9	0	app/models/organisation.rb
+17	0	db/migrate/20141020104406_add_homepage_type_to_organisation.rb
+2	1	db/schema.rb
+
+--d1586ee74c--2014-10-20--Edd Sowden
+1	1	app/controllers/admin/classifications_controller.rb
+1	1	app/controllers/admin/organisations_controller.rb
+1	1	app/controllers/admin/world_locations_controller.rb
+3	3	app/views/admin/classifications/show.html.erb
+2	2	app/views/admin/organisations/_form.html.erb
+1	1	app/views/admin/organisations/show.html.erb
+4	6	app/views/admin/shared/_featured_link_fields.html.erb
+1	1	app/views/admin/topics/_custom_form_fields.html
+1	1	app/views/admin/world_locations/edit.html.erb
+3	3	app/views/organisations/_header.html.erb
+1	1	app/views/organisations/show-promotional.html.erb
+1	1	app/views/organisations/show.html.erb
+1	1	app/views/shared/_featured_links.html.erb
+1	1	app/views/topics/show.html.erb
+1	1	app/views/world_locations/show.html.erb
+3	3	test/functional/admin/organisations_controller_test.rb
+3	3	test/functional/admin/world_locations_controller_test.rb
+5	5	test/unit/models/organisation_test.rb
+5	5	test/unit/topic_test.rb
+5	5	test/unit/world_location_test.rb
+
+--b26697a047--2014-10-20--Edd Sowden
+6	14	app/models/featured_link.rb
+0	9	app/models/featured_services_and_guidance.rb
+0	10	app/models/has_featured_links.rb
+2	3	app/models/organisation.rb
+0	3	app/models/top_task.rb
+2	2	app/models/topic.rb
+2	2	app/models/world_location.rb
+3	2	db/migrate/20141020094819_create_featured_links.rb
+10	1	db/schema.rb
+1	1	test/factories/{feature_services_and_guidance.rb => featured_link.rb}
+0	6	test/factories/top_tasks.rb
+18	0	test/unit/featured_link_test.rb
+0	25	test/unit/featured_services_and_guidance_test.rb
+0	25	test/unit/top_task_test.rb
+
+--6d57a7158c--2014-10-20--Edd Sowden
+32	0	db/migrate/20141020094819_create_featured_links.rb
+
+--f751f8fef0--2014-10-28--Paul Hayes
+5	0	app/assets/stylesheets/admin/govuk_admin_template/_base.scss
+1	1	app/views/admin/statistics_announcements/index.html.erb
+
+--1cca9bb1c4--2014-10-28--Paul Hayes
+11	0	app/assets/stylesheets/admin/views/editions/_filter_options.scss
+6	4	app/views/admin/statistics_announcements/index.html.erb
+
+--c5d26253ad--2014-10-28--Paul Hayes
+16	0	app/assets/stylesheets/admin/helpers/_statistics_announcements.scss
+3	3	app/views/admin/statistics_announcements/index.html.erb
+
+--05c838e6de--2014-10-28--Paul Hayes
+4	0	app/assets/stylesheets/admin/govuk_admin_template/_tables.scss
+1	1	app/views/admin/statistics_announcements/index.html.erb
+
+--8a13f18db4--2014-10-28--Tekin Suleyman
+0	4	app/workers/publishing_api_register_artefact_worker.rb
+0	4	app/workers/publishing_api_register_organisation_worker.rb
+
+--c540fddc62--2014-10-28--Tekin Suleyman
+18	8	app/models/admin/statistics_announcement_filter.rb
+28	0	test/unit/admin/statistics_announcement_filter_test.rb
+
+--5668efc89a--2014-10-27--Tekin Suleyman
+2	2	app/controllers/admin/statistics_announcements_controller.rb
+4	4	app/models/admin/statistics_announcement_filter.rb
+2	2	app/views/admin/statistics_announcements/index.html.erb
+1	1	features/admin-statistics-announcements.feature
+6	6	test/unit/admin/statistics_announcement_filter_test.rb
+
+--3847e30f63--2014-10-27--Tekin Suleyman
+9	1	app/controllers/admin/statistics_announcements_controller.rb
+1	1	app/views/admin/statistics_announcements/index.html.erb
+
+--618e647792--2014-10-27--Tekin Suleyman
+0	8	app/helpers/admin/statistics_announcements_helper.rb
+19	15	app/views/admin/statistics_announcements/index.html.erb
+1	1	app/views/admin/statistics_announcements/show.html.erb
+2	2	features/step_definitions/admin_statistics_announcements_steps.rb
+
+--b7af7a2e11--2014-10-27--Tekin Suleyman
+32	1	app/models/admin/statistics_announcement_filter.rb
+2	0	app/views/admin/statistics_announcements/index.html.erb
+48	0	test/unit/admin/statistics_announcement_filter_test.rb
+
+--834d9745de--2014-10-27--Tekin Suleyman
+11	1	test/factories/statistics_announcements.rb
+1	3	test/unit/admin/statistics_announcement_filter_test.rb
+
+--854ee87974--2014-10-27--Tekin Suleyman
+9	1	app/controllers/admin/statistics_announcements_controller.rb
+31	1	app/models/admin/statistics_announcement_filter.rb
+2	2	app/views/admin/statistics_announcements/index.html.erb
+40	14	test/unit/admin/statistics_announcement_filter_test.rb
+
+--8af52ded6c--2014-10-23--Tekin Suleyman
+2	2	app/views/admin/statistics_announcements/index.html.erb
+
+--7954ec8bdd--2014-10-23--Tekin Suleyman
+10	1	app/controllers/admin/statistics_announcements_controller.rb
+3	0	app/models/admin/statistics_announcement_filter.rb
+10	1	app/views/admin/statistics_announcements/index.html.erb
+7	0	features/admin-statistics-announcements.feature
+36	0	features/step_definitions/admin_statistics_announcements_steps.rb
+10	0	test/unit/admin/statistics_announcement_filter_test.rb
+
+--d29caf5610--2014-10-23--Tekin Suleyman
+1	1	app/controllers/admin/statistics_announcements_controller.rb
+1	1	app/views/admin/statistics_announcements/index.html.erb
+9	4	test/functional/admin/statistics_announcements_controller_test.rb
+
+--560d7cf0ff--2014-10-23--Tekin Suleyman
+1	1	app/controllers/admin/statistics_announcements_controller.rb
+5	0	app/models/admin/statistics_announcement_filter.rb
+6	0	app/views/admin/statistics_announcements/index.html.erb
+5	0	features/admin-statistics-announcements.feature
+14	2	features/step_definitions/admin_statistics_announcements_steps.rb
+20	3	test/unit/admin/statistics_announcement_filter_test.rb
+
+--28d63ba801--2014-10-23--Tekin Suleyman
+1	1	app/models/admin/statistics_announcement_filter.rb
+
+--5c9abdf113--2014-10-23--Tekin Suleyman
+3	3	app/views/admin/statistics_announcements/index.html.erb
+
+--dca344b7b8--2014-10-23--Tekin Suleyman
+1	1	app/controllers/admin/statistics_announcements_controller.rb
+10	0	app/views/admin/statistics_announcements/index.html.erb
+5	0	features/admin-statistics-announcements.feature
+26	0	features/step_definitions/admin_statistics_announcements_steps.rb
+
+--d7c6299f51--2014-10-23--Tekin Suleyman
+15	2	app/models/admin/statistics_announcement_filter.rb
+30	4	test/unit/admin/statistics_announcement_filter_test.rb
+
+--797ba159ec--2014-10-23--Tekin Suleyman
+2	1	app/models/admin/statistics_announcement_filter.rb
+11	0	test/unit/admin/statistics_announcement_filter_test.rb
+
+--bf522fc975--2014-10-20--Daniel Roseman
+1	2	app/models/consultation.rb
+
+--3faa2f7b68--2014-10-17--Daniel Roseman
+4	0	app/models/attachment.rb
+5	0	app/models/external_attachment.rb
+4	0	app/models/file_attachment.rb
+4	0	app/models/html_attachment.rb
+2	2	app/views/admin/attachments/edit.html.erb
+2	2	app/views/admin/attachments/new.html.erb
+
+--2c8bdf7856--2014-10-16--Daniel Roseman
+16	0	app/assets/javascripts/admin/edition_publishing.js
+1	1	app/controllers/admin/editions_controller.rb
+2	5	app/models/consultation.rb
+17	6	app/views/admin/consultations/_form.html.erb
+3	0	app/views/consultations/_document_summary.html.erb
+2	3	db/data_migration/20141001102709_convert_external_urls_to_attachments.rb
+3	3	features/edition-attachments.feature
+5	0	features/step_definitions/publication_steps.rb
+5	4	test/functional/admin/attachments_controller_test.rb
+13	0	test/support/model_helpers.rb
+1	1	test/unit/consultation_test.rb
+
+--f22e4940df--2014-10-13--Daniel Roseman
+2	2	app/controllers/admin/attachments_controller.rb
+13	0	app/models/attachable.rb
+8	0	test/unit/attachable_test.rb
+
+--21ac3c3a3e--2014-10-13--Daniel Roseman
+4	0	test/factories/publications.rb
+9	0	test/functional/publications_controller_test.rb
+
+--e468696c90--2014-10-13--Daniel Roseman
+1	1	app/models/publication.rb
+2	4	test/unit/publication_test.rb
+
+--349f22581d--2014-10-13--Daniel Roseman
+0	3	app/views/consultations/_document_summary.html.erb
+1	1	app/views/publications/show.html.erb
+1	1	app/views/statistics/show.html.erb
+
+--54c9dbace3--2014-10-10--Daniel Roseman
+11	0	db/data_migration/20141001102709_convert_external_urls_to_attachments.rb
+
+--0808bc81f8--2014-10-08--Daniel Roseman
+1	1	app/controllers/admin/attachments_controller.rb
+6	3	features/edition-attachments.feature
+0	3	features/publications.feature
+6	2	features/step_definitions/attachment_steps.rb
+6	15	features/step_definitions/publication_steps.rb
+1	0	features/step_definitions/topical_event_steps.rb
+15	0	features/support/attachment_helper.rb
+0	2	features/support/document_helper.rb
+12	0	test/support/model_helpers.rb
+1	1	test/unit/consultation_test.rb
+1	1	test/unit/publication_test.rb
+
+--84801d1373--2014-10-08--Daniel Roseman
+12	4	app/controllers/admin/attachments_controller.rb
+4	0	app/models/attachable.rb
+8	0	app/models/attachment.rb
+3	3	app/models/file_attachment.rb
+5	0	test/factories/attachments.rb
+39	6	test/functional/admin/attachments_controller_test.rb
+
+--22e15901e9--2014-10-06--Daniel Roseman
+13	2	app/controllers/admin/attachments_controller.rb
+1	1	app/helpers/application_helper.rb
+4	0	app/models/attachable.rb
+4	0	app/models/consultation.rb
+5	1	app/models/external_attachment.rb
+4	0	app/models/file_attachment.rb
+4	0	app/models/html_attachment.rb
+4	0	app/models/publication.rb
+1	1	app/views/admin/attachments/_attachments.html.erb
+3	1	app/views/admin/attachments/_form.html.erb
+6	1	app/views/admin/attachments/index.html.erb
+4	4	test/functional/admin/attachments_controller_test.rb
+0	13	test/support/model_helpers.rb
+
+--d135d7964f--2014-10-06--Daniel Roseman
+0	16	app/assets/javascripts/admin/edition_publishing.js
+1	1	app/controllers/admin/editions_controller.rb
+0	1	app/models/consultation.rb
+0	8	app/models/edition/can_be_external.rb
+0	1	app/models/publication.rb
+6	11	app/views/admin/consultations/_form.html.erb
+0	7	app/views/admin/editions/_external_fields.html.erb
+2	5	app/views/admin/publications/_form.html.erb
+
+--b14a1d2c5a--2014-10-06--Daniel Roseman
+3	2	app/views/documents/_attachment.html.erb
+0	9	app/views/documents/_attachment_full_width.html.erb
+
+--414283ff35--2014-10-06--Daniel Roseman
+2	0	app/helpers/document_helper.rb
+4	0	app/models/attachment.rb
+9	1	app/models/external_attachment.rb
+
+--b850ff7aef--2014-10-01--Daniel Roseman
+42	0	app/models/external_attachment.rb
+5	0	db/migrate/20141001093612_add_external_url_to_attachments.rb
+1	0	db/schema.rb

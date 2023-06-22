@@ -1,0 +1,95 @@
+--fa8f3d6339--2014-01-13--Dominic Baggott
+--4b5349eff6--2014-01-13--Dominic Baggott
+--9d1a58aa6a--2014-01-13--Dominic Baggott
+--9eafd987e0--2014-01-13--layam
+--c3b7fe95c9--2014-01-13--layam
+--1266677dbb--2014-01-10--russell thorn
+2	1	app/views/organisations/index.html.erb
+
+--f3e3a4f042--2014-01-13--russell thorn
+6	0	app/helpers/admin/dashboard_helper.rb
+3	6	app/views/admin/dashboard/index.html.erb
+
+--6166bc0ca0--2014-01-13--Dominic Baggott
+--252e5a220d--2014-01-13--Dominic Baggott
+--291125018b--2014-01-13--Dominic Baggott
+--2d426425f5--2014-01-10--David Heath
+6	0	features/organisations.feature
+50	0	features/step_definitions/organisation_steps.rb
+
+--4f00eedc72--2014-01-10--David Heath
+1	1	features/support/javascript.rb
+
+--13f6eaa13d--2014-01-10--russell thorn
+7	1	app/views/admin/dashboard/index.html.erb
+
+--d89fa97b3b--2014-01-10--David Heath
+7	7	test/javascripts/unit/admin/views/editions/{index_test.js => filter_options_test.js}
+
+--6c74d59642--2014-01-10--David Heath
+4	1	features/step_definitions/world_location_steps.rb
+
+--7632c5c0f2--2014-01-10--David Heath
+9	9	app/assets/javascripts/admin/views/editions/{index.js => _filter_options.js}
+1	1	app/views/admin/editions/_filter_options.html.erb
+
+--df9694ea51--2014-01-10--David Heath
+1	0	app/assets/stylesheets/admin/base.scss
+0	46	app/assets/stylesheets/admin/views/_editions-index.scss
+45	0	app/assets/stylesheets/admin/views/editions/_filter_options.scss
+6	0	app/controllers/admin/organisations_controller.rb
+6	0	app/controllers/admin/world_locations_controller.rb
+2	1	app/views/admin/editions/_filter_options.html.erb
+0	2	app/views/admin/editions/index.html.erb
+2	5	app/views/admin/feature_lists/_feature_list.html.erb
+3	0	app/views/admin/feature_lists/_search_results.html.erb
+1	1	features/support/edition_filtering_helper.rb
+5	5	test/javascripts/unit/admin/views/editions/index_test.js
+
+--dcfda4c461--2014-01-10--David Heath
+10	3	app/controllers/admin/world_locations_controller.rb
+
+--14b4bc0f52--2014-01-10--David Heath
+2	1	app/views/admin/editions/_filter_options.html.erb
+1	1	app/views/admin/editions/index.html.erb
+1	1	app/views/admin/feature_lists/_feature_list.html.erb
+
+--8b022694bb--2014-01-10--David Heath
+0	7	app/controllers/admin/editions_controller.rb
+11	7	app/helpers/admin/editions_helper.rb
+1	6	app/views/admin/editions/_filter_options.html.erb
+0	10	test/functional/admin/editions_controller_test.rb
+
+--940f316512--2014-01-10--David Heath
+18	9	app/models/admin/edition_filter.rb
+
+--32fad09946--2014-01-10--russell thorn
+24	18	app/assets/stylesheets/frontend/views/_world_locations.scss
+
+--13fd302491--2014-01-09--David Heath
+10	15	CONTRIBUTING.md
+2	0	README.md
+147	0	docs/css.md
+3	154	STYLEGUIDE.md => docs/javascript.md
+75	0	docs/testing.md
+
+--d6268efaed--2014-01-09--russell thorn
+2	2	app/views/layouts/detailed-guidance.html.erb
+2	2	app/views/layouts/frontend.html.erb
+2	2	app/views/layouts/html_attachments.html.erb
+
+--2e173654f0--2014-01-09--Will Tomlins
+1	1	app/controllers/consultations_controller.rb
+1	1	test/functional/consultations_controller_test.rb
+
+--c7787c9439--2014-01-09--russell thorn
+1	1	app/views/classifications/index.html.erb
+1	1	app/views/documents/_share_links.html.erb
+1	1	app/views/layouts/detailed-guidance.html.erb
+1	1	app/views/layouts/frontend.html.erb
+1	1	app/views/layouts/html_attachments.html.erb
+1	1	app/views/organisations/index.html.erb
+1	1	app/views/world_locations/index.html.erb
+
+--3e2fba739f--2014-01-08--Dominic Baggott
+1	1	config/schedule.rb

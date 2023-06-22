@@ -1,0 +1,292 @@
+--8ebbd6ee7--2015-06-08--Himal Mandalia
+--593236bcb--2015-06-08--Stephen Richards
+--749a8c801--2015-06-08--Himal Mandalia
+--a3c173d0e--2015-06-08--Himal Mandalia
+--ef6728e00--2015-06-08--Joel Sugarman
+--c350fdad0--2015-06-08--Himal Mandalia
+9	0	app/helpers/case_workers/claims_helper.rb
+2	2	app/views/case_workers/claims/_nav_tabs.html.haml
+7	7	app/views/case_workers/claims/index.html.haml
+2	2	features/step_definitions/caseworker_claims_list_steps.rb
+
+--49f930be7--2015-06-08--Mark Ford
+1	0	app/assets/stylesheets/claim-accordion.scss
+1	0	app/assets/stylesheets/imports.scss
+
+--6499f91e8--2015-06-08--jsugarman
+6	4	app/views/advocates/claims/_claims.html.haml
+
+--b60ccc5b0--2015-06-08--Mark Ford
+2	1	app/assets/javascripts/application.js
+2	2	app/assets/stylesheets/communication-tool.scss
+4	2	app/assets/stylesheets/layout.scss
+1	1	app/views/layouts/_user.html.haml
+2	2	app/views/layouts/advocate.html.haml
+2	2	app/views/layouts/application.html.haml
+2	2	app/views/layouts/case_worker.html.haml
+
+--520d70f84--2015-06-08--Himal Mandalia
+2	2	app/assets/javascripts/advocates/claims/fee_calculator.js
+
+--97d13ff17--2015-06-08--Himal Mandalia
+2	2	app/assets/javascripts/advocates/claims/fee_calculator.js
+
+--d4d69c6c8--2015-06-08--Himal Mandalia
+--1c4737a67--2015-06-08--Stephen Richards
+--be65621d6--2015-06-04--Stephen Richards
+5	2	app/controllers/advocates/claims_controller.rb
+31	6	app/models/claim.rb
+40	0	app/models/fee.rb
+26	0	app/models/fee_category.rb
+6	0	app/models/fee_type.rb
+16	0	app/views/advocates/claims/_basic_fees.html.haml
+1	1	app/views/advocates/claims/_fee_fields.html.haml
+10	2	app/views/advocates/claims/_form.html.haml
+1	1	app/views/shared/_summary.html.haml
+41	0	basic_fees_params
+1	0	features/advocate_new_claim.feature
+7	0	features/step_definitions/advocate_claims_list_steps.rb
+7	6	features/step_definitions/advocate_new_claim_steps.rb
+113	0	spec/controllers/advocates/claims_controller_spec.rb
+16	0	spec/factories/fee_categories.rb
+15	0	spec/factories/fee_types.rb
+18	0	spec/factories/fees.rb
+47	1	spec/models/claim_spec.rb
+29	0	spec/models/fee_category_spec.rb
+78	0	spec/models/fee_spec.rb
+14	0	spec/models/fee_type_spec.rb
+
+--2b4a692f6--2015-06-08--Himal Mandalia
+0	2	app/controllers/advocates/claims_controller.rb
+5	1	app/models/expense.rb
+5	1	app/models/fee.rb
+2	4	features/step_definitions/advocate_new_claim_steps.rb
+18	18	spec/models/claim_spec.rb
+6	6	spec/models/claims/totals_spec.rb
+23	2	spec/models/expense_spec.rb
+23	2	spec/models/fee_spec.rb
+
+--a6da81cf5--2015-06-08--jsugarman
+1	0	app/models/claims/state_machine.rb
+11	2	spec/models/claims/state_machine_spec.rb
+
+--25395f60c--2015-06-08--Himal Mandalia
+18	0	app/assets/javascripts/advocates/claims/fee_calculator.js
+3	1	app/assets/javascripts/application.js
+4	4	app/views/advocates/claims/_expense_fields.html.haml
+3	3	app/views/advocates/claims/_fee_fields.html.haml
+2	2	app/views/advocates/claims/_form.html.haml
+
+--58a1f4d85--2015-06-08--jsugarman
+6	4	app/views/advocates/claims/_claims.html.haml
+13	0	features/advocate_claims_list.feature
+15	1	features/step_definitions/advocate_claims_list_steps.rb
+
+--767208421--2015-06-08--Mark Ford
+--27e0bf130--2015-06-08--Himal Mandalia
+--eb506f1f4--2015-06-08--Stephen Richards
+--9b03c87f8--2015-06-08--Himal Mandalia
+--a6033a7d0--2015-06-08--Himal Mandalia
+1	1	app/views/case_workers/claims/_claim.html.haml
+
+--7559ca118--2015-06-06--Himal Mandalia
+30	0	spec/models/user_message_status_spec.rb
+
+--1402293bc--2015-06-06--Himal Mandalia
+5	0	app/controllers/user_message_statuses_controller.rb
+37	0	spec/controllers/user_message_statuses_controller_spec.rb
+
+--a705714b5--2015-06-05--Himal Mandalia
+1	1	app/controllers/messages_controller.rb
+
+--cfc1789bc--2015-06-05--Himal Mandalia
+1	1	spec/controllers/messages_controller_spec.rb
+
+--2817651ab--2015-06-05--jsugarman
+4	6	app/views/case_workers/claims/_claim_status.html.haml
+1	1	features/advocate_claims_list.feature
+23	0	features/claim_status.feature
+1	1	features/step_definitions/advocate_claims_list_steps.rb
+28	0	features/step_definitions/claim_status_steps.rb
+0	3	spec/models/claims/state_machine_spec.rb
+
+--9d9c241e2--2015-06-05--Himal Mandalia
+1	1	app/controllers/messages_controller.rb
+1	1	app/models/message.rb
+
+--64f21bb0d--2015-06-05--Himal Mandalia
+1	1	app/views/case_workers/claims/_claim.html.haml
+20	0	app/views/user_message_statuses/index.html.haml
+
+--af6e11a4f--2015-06-05--Himal Mandalia
+2	2	features/claim_messages.feature
+1	1	features/step_definitions/claim_messages_steps.rb
+
+--60de75ee3--2015-06-05--Himal Mandalia
+6	0	app/controllers/application_controller.rb
+18	0	app/controllers/user_message_statuses_controller.rb
+4	2	app/models/message.rb
+9	0	app/models/user_message_status.rb
+5	0	app/views/layouts/_user.html.haml
+17	0	app/views/shared/_message.html.haml
+1	12	app/views/shared/_messages.html.haml
+3	0	app/views/user_message_statuses/update.js.erb
+1	0	config/routes.rb
+1	1	spec/models/message_spec.rb
+
+--8c8ae20c1--2015-06-05--Mark Ford
+2	0	app/views/layouts/advocate.html.haml
+2	0	app/views/layouts/application.html.haml
+2	0	app/views/layouts/case_worker.html.haml
+
+--5292087ea--2015-06-05--Mark Ford
+2	1	Gemfile
+39	34	Gemfile.lock
+3	2	app/views/layouts/advocate.html.haml
+3	2	app/views/layouts/application.html.haml
+3	2	app/views/layouts/case_worker.html.haml
+1	1	db/schema.rb
+
+--93feda4ca--2015-06-05--Himal Mandalia
+2	2	app/views/layouts/advocate.html.haml
+2	2	app/views/layouts/application.html.haml
+2	2	app/views/layouts/case_worker.html.haml
+1	11	db/schema.rb
+
+--b4dbeca65--2015-06-05--Himal Mandalia
+12	0	app/models/case_worker_claim.rb
+25	1	app/models/message.rb
+1	0	app/models/user.rb
+6	0	app/models/user_message_status.rb
+12	0	db/migrate/20150604143054_create_user_message_statuses.rb
+13	1	db/schema.rb
+11	0	spec/factories/user_message_statuses.rb
+29	0	spec/models/message_spec.rb
+9	0	spec/models/user_message_status_spec.rb
+1	0	spec/models/user_spec.rb
+
+--2a9415154--2015-06-05--Stephen Richards
+1	1	app/controllers/case_workers/claims_controller.rb
+6	0	app/models/claim.rb
+0	1	app/models/claims/state_machine.rb
+13	0	spec/models/claim_spec.rb
+
+--0ff6f1565--2015-06-04--Mark Ford
+9	7	app/views/advocates/claims/_claim_status.html.haml
+
+--cdadc9a96--2015-06-04--Stephen Richards
+13	11	app/views/advocates/claims/_claim_status.html.haml
+
+--08788989c--2015-06-04--Edward Andress
+--a4b727a8f--2015-06-04--jsugarman
+8	19	features/caseworker_claims_list.feature
+
+--8c7dbacb1--2015-06-04--Mark Ford
+18	0	app/assets/javascripts/amountassessed.js
+6	5	app/views/case_workers/claims/_claim_status.html.haml
+
+--97752d29a--2015-06-04--Mark Ford
+10	2	app/assets/stylesheets/claim-accordion.scss
+25	22	app/views/case_workers/claims/_claim_status.html.haml
+
+--ed1b9a8c4--2015-06-04--Himal Mandalia
+--58fb44f0a--2015-06-03--jsugarman
+1	0	app/assets/stylesheets/imports.scss
+12	0	app/assets/stylesheets/search-options.scss
+2	1	app/controllers/case_workers/claims_controller.rb
+7	0	app/views/case_workers/claims/_search_options.html.haml
+3	6	app/views/case_workers/claims/index.html.haml
+9	7	features/advocate_claims_list.feature
+31	2	features/caseworker_claims_list.feature
+0	1	features/step_definitions/advocate_claims_list_steps.rb
+27	5	features/step_definitions/caseworker_claims_list_steps.rb
+17	5	spec/controllers/case_workers/claims_controller_spec.rb
+
+--02b48ea8c--2015-06-04--Mark Ford
+2	2	app/views/layouts/advocate.html.haml
+2	2	app/views/layouts/application.html.haml
+2	2	app/views/layouts/case_worker.html.haml
+
+--817686946--2015-06-04--Mark Ford
+71	30	app/views/case_workers/claims/_advonote.html.haml
+
+--43808ec01--2015-06-04--Edward Andress
+--3f27970fb--2015-06-04--Himal Mandalia
+2	2	features/step_definitions/claim_allocation_steps.rb
+
+--d8cae3ec9--2015-06-04--Mark Ford
+18	12	app/assets/stylesheets/claims-list.scss
+12	15	app/views/case_workers/admin/case_workers/_claim.html.haml
+16	5	app/views/case_workers/admin/case_workers/allocate.html.haml
+
+--3f058a364--2015-06-04--Stephen Richards
+--06c95fce1--2015-06-04--Mark Ford
+--810364801--2015-06-04--Mark Ford
+17	90	app/views/case_workers/admin/case_workers/_claim.html.haml
+
+--f5e43effa--2015-06-03--Stephen Richards
+9	7	app/controllers/case_workers/claims_controller.rb
+42	2	app/models/claim.rb
+12	10	app/views/case_workers/claims/_claim_status.html.haml
+0	5	db/migrate/20150601163137_add_payment_status_to_claim.rb
+0	1	db/schema.rb
+11	6	spec/factories/claims.rb
+89	1	spec/models/claim_spec.rb
+3	2	spec/models/claims/financial_summary_spec.rb
+65	13	spec/models/claims/state_machine_spec.rb
+
+--688b6ceaa--2015-06-03--Himal Mandalia
+1	7	app/controllers/advocates/claims_controller.rb
+8	0	app/models/date_attended.rb
+1	1	app/views/advocates/claims/_fee_fields.html.haml
+4	0	app/views/shared/_summary.html.haml
+18	0	spec/models/date_attended_spec.rb
+
+--43c65663d--2015-06-02--Himal Mandalia
+55	5	app/controllers/advocates/claims_controller.rb
+17	0	app/models/date_attended.rb
+3	0	app/models/fee.rb
+8	0	app/views/advocates/claims/_date_attended_fields.html.haml
+5	0	app/views/advocates/claims/_fee_fields.html.haml
+7	6	config/initializers/inflections.rb
+10	0	db/migrate/20150602131128_create_dates_attended.rb
+5	0	db/migrate/20150602150201_add_date_to_to_dates_attended.rb
+11	1	db/schema.rb
+18	0	spec/factories/dates_attended.rb
+18	0	spec/models/date_attended_spec.rb
+4	0	spec/models/fee_spec.rb
+
+--af2026a81--2015-06-02--Stephen Richards
+9	0	db/migrate/20150602101638_add_default_value_to_amount_assessed.rb
+2	2	db/schema.rb
+
+--7f6889d4a--2015-06-02--Himal Mandalia
+90	0	app/views/case_workers/admin/case_workers/_claim.html.haml
+1	1	app/views/case_workers/admin/case_workers/allocate.html.haml
+
+--d71b0f9f4--2015-06-02--Stephen Richards
+30	11	app/views/advocates/claims/_claim_status.html.haml
+1	1	app/views/case_workers/claims/_claim_status.html.haml
+
+--ce098d060--2015-06-02--Stephen Richards
+14	0	app/controllers/case_workers/claims_controller.rb
+1	0	app/models/claim.rb
+30	19	app/views/case_workers/claims/_claim_status.html.haml
+1	1	config/routes.rb
+5	0	db/migrate/20150601163137_add_payment_status_to_claim.rb
+2	1	db/schema.rb
+2	0	spec/models/claim_spec.rb
+
+--df2c9bf92--2015-06-01--Mark Ford
+1	1	app/assets/stylesheets/communication-tool.scss
+
+--12ef473b9--2015-05-29--Mark Ford
+4	37	app/assets/stylesheets/claim-accordion.scss
+59	0	app/assets/stylesheets/communication-tool.scss
+1	0	app/assets/stylesheets/imports.scss
+25	0	app/assets/stylesheets/layout.scss
+50	33	app/views/advocates/claims/_advonote.html.haml
+5	5	app/views/case_workers/claims/_advonote.html.haml
+6	1	app/views/layouts/advocate.html.haml
+6	2	app/views/layouts/application.html.haml
+6	1	app/views/layouts/case_worker.html.haml

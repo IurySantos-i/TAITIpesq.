@@ -1,0 +1,40 @@
+--420c2090--2015-05-14--David Basalla
+--7aeae45b--2015-05-14--David Basalla
+--24c133dc--2015-05-14--David Basalla
+1	1	app/controllers/petitions_controller.rb
+1	1	app/controllers/signatures_controller.rb
+1	1	app/controllers/sponsors_controller.rb
+0	2	app/models/signature.rb
+1	1	app/models/staged/base/creator_signature.rb
+0	2	app/models/staged/validations/signer_details.rb
+0	2	app/views/petitions/create/_your_details_hidden.html.erb
+0	12	app/views/signatures/_form.html.erb
+0	8	app/views/signatures/new.html.erb
+0	2	features/charlie_creates_a_petition.feature
+0	2	features/step_definitions/signature_steps.rb
+0	4	features/step_definitions/sponsor_steps.rb
+1	13	spec/controllers/petitions_controller_spec.rb
+1	1	spec/controllers/signatures_controller_spec.rb
+0	2	spec/controllers/sponsors_controller_spec.rb
+0	2	spec/factories.rb
+0	2	spec/models/signature_spec.rb
+0	1	spec/models/staged_petition_creator_spec.rb
+
+--7c42a968--2015-05-14--Murray Steele
+1	2	app/controllers/petitions_controller.rb
+1	1	app/models/staged/base/petition.rb
+0	1	app/views/petitions/create/_petition_details_hidden.html.erb
+0	11	app/views/petitions/create/_petition_details_ui.html.erb
+0	1	app/views/petitions/create/_submit_ui.html.erb
+1	8	features/charlie_creates_a_petition.feature
+0	4	public/stylesheets/application.css
+2	3	spec/controllers/petitions_controller_spec.rb
+0	1	spec/models/staged_petition_creator_spec.rb
+
+--38fd6e6e--2015-05-14--Murray Steele
+6	2	app/models/petition.rb
+0	1	app/models/staged/validations/petition_details.rb
+5	0	db/migrate/20150514140022_allow_null_departments_on_petitions.rb
+2	2	db/schema.rb
+0	1	spec/factories.rb
+3	4	spec/models/petition_spec.rb

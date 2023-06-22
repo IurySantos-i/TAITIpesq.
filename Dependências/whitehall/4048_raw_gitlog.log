@@ -1,0 +1,62 @@
+--67127c4d1b--2012-09-04--Bradley Wright
+--0ed49c33b9--2012-09-04--James Adam
+0	16	app/controllers/admin/topics_controller.rb
+0	5	app/helpers/admin/topics_helper.rb
+1	9	app/views/admin/topics/index.html.erb
+1	6	config/routes.rb
+9	0	db/migrate/20120904144149_remove_topic_featuring.rb
+2	3	db/schema.rb
+1	4	test/factories/topics.rb
+0	54	test/functional/admin/topics_controller_test.rb
+0	10	test/unit/topic_test.rb
+
+--35854c64ac--2012-09-04--Bradley Wright
+0	9	test/functional/edition_preview_test.rb
+
+--e1e2030547--2012-09-03--James Adam
+1	1	Gemfile
+3	3	Gemfile.lock
+1	1	app/controllers/documents_controller.rb
+8	2	features/support/gds_sso_helper.rb
+8	0	test/functional/publications_controller_test.rb
+
+--52281e7a00--2012-08-31--Bradley Wright
+6	2	app/controllers/documents_controller.rb
+8	0	app/helpers/public_document_routes_helper.rb
+1	1	app/models/edition/identifiable.rb
+5	0	app/views/admin/editions/_navigation.html.erb
+12	1	features/preview-unpublished-editions.feature
+6	0	features/step_definitions/policy_steps.rb
+0	6	features/step_definitions/publication_steps.rb
+11	0	features/step_definitions/session_steps.rb
+1	0	test/functional/admin/case_studies_controller_test.rb
+1	0	test/functional/admin/consultations_controller_test.rb
+0	10	test/functional/admin/fact_check_requests_controller_test.rb
+1	0	test/functional/admin/international_priorities_controller_test.rb
+1	0	test/functional/admin/news_articles_controller_test.rb
+1	0	test/functional/admin/policies_controller_test.rb
+1	0	test/functional/admin/publications_controller_test.rb
+1	0	test/functional/admin/specialist_guides_controller_test.rb
+2	1	test/functional/admin/speeches_controller_test.rb
+8	0	test/support/admin_edition_controller_test_helpers.rb
+4	0	test/support/css_selectors.rb
+
+--51f623f04e--2012-08-31--Bradley Wright
+4	3	features/preview-unpublished-editions.feature
+
+--a2cbac35ba--2012-08-30--Bradley Wright
+14	2	app/controllers/documents_controller.rb
+8	0	app/helpers/public_document_routes_helper.rb
+1	1	app/views/documents/_change_notes.html.erb
+7	0	features/preview-unpublished-editions.feature
+9	0	features/step_definitions/document_steps.rb
+15	0	features/step_definitions/publication_steps.rb
+9	0	test/functional/edition_preview_test.rb
+7	0	test/functional/publications_controller_test.rb
+
+--4a1057a2df--2012-08-30--Bradley Wright
+4	0	app/models/edition/identifiable.rb
+17	0	test/unit/edition/identifiable_test.rb
+
+--6152086a85--2012-08-30--Bradley Wright
+4	0	test/test_helper.rb

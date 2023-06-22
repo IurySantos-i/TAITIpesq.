@@ -1,0 +1,111 @@
+--d9afe26a--2010-03-10--Peter Gillard-Moss
+--e1caa888--2010-03-10--Babitha
+0	2	app/controllers/application_controller.rb
+1	1	features/add_family_details_to_a_child_record.feature
+1	7	features/assign_unique_id_to_child.feature
+7	4	features/create_child_record.feature
+6	6	features/edit_child_record.feature
+11	2	features/step_definitions/basic_steps.rb
+33	29	features/upload_a_childs_photo.feature
+
+--58330d52--2010-03-10--Babitha
+9	8	app/controllers/application_controller.rb
+3	0	app/controllers/children_controller.rb
+9	2	app/controllers/sessions_controller.rb
+3	0	app/models/login.rb
+1	8	app/models/session.rb
+17	0	features/assign_unique_id_to_child.feature
+9	8	features/pending_requirements/assign_unique_id_to_a_child.feature
+14	2	features/step_definitions/basic_steps.rb
+
+--ef5ce712--2010-03-08--Babitha
+2	2	app/controllers/sessions_controller.rb
+5	5	app/models/login.rb
+
+--2f83fd5d--2010-03-08--Babitha
+9	2	app/controllers/application_controller.rb
+1	1	app/controllers/sessions_controller.rb
+20	1	app/models/child.rb
+19	0	app/models/session.rb
+0	7	app/models/user.rb
+1	1	app/views/children/index.html.erb
+3	1	app/views/sessions/show.html.erb
+47	23	features/user_login.feature
+2	0	spec/models/child_spec.rb
+
+--1e1053d8--2010-03-04--Srinivas Murthy
+2	2	features/edit_child_record.feature
+
+--ab269b0b--2010-03-03--=
+2	1	app/controllers/children_controller.rb
+6	2	app/models/child.rb
+12	0	features/step_definitions/basic_steps.rb
+7	7	features/support/paths.rb
+6	0	features/upload_a_childs_photo.feature
+30	15	spec/models/child_spec.rb
+30	3	spec/spec_helper.rb
+
+--0c3c49e5--2010-03-01--Srinivas Murthy
+1	2	features/add_family_details_to_a_child_record.feature
+1	0	features/edit_child_record.feature
+
+--b37fa957--2010-03-01--Srinivas Murthy
+1	1	features/add_family_details_to_a_child_record.feature
+57	0	features/edit_child_record.feature
+
+--0de8d5d9--2010-03-01--cgeorge
+9	3	app/models/child.rb
+1	1	app/models/templates.rb
+38	6	spec/models/child_spec.rb
+
+--745182cb--2010-02-28--cgeorge
+2	2	app/models/child.rb
+
+--cce3c54a--2010-02-28--cgeorge
+1	1	app/models/child.rb
+2	2	spec/models/child_spec.rb
+
+--8a30f9ef--2010-02-27--cgeorge
+3	2	app/models/child.rb
+15	4	spec/models/child_spec.rb
+
+--69726731--2010-02-27--cgeorge
+2	4	app/controllers/children_controller.rb
+3	1	app/models/child.rb
+21	5	spec/models/child_spec.rb
+
+--11cb2e21--2010-02-27--cgeorge
+2	0	app/models/child.rb
+19	8	spec/models/child_spec.rb
+
+--33eb4de1--2010-02-27--cgeorge
+1	0	app/models/child.rb
+4	4	spec/models/child_spec.rb
+
+--1802b8bb--2010-02-27--cgeorge
+1	2	app/controllers/children_controller.rb
+5	0	app/models/child.rb
+15	0	spec/models/child_spec.rb
+
+--95126d70--2010-02-27--cgeorge
+7	8	app/models/child.rb
+
+--64a16465--2010-02-26--cgeorge
+5	5	spec/models/child_spec.rb
+
+--c7edd94a--2010-02-26--cgeorge
+6	4	app/models/child.rb
+70	60	spec/models/child_spec.rb
+
+--649879d5--2010-02-26--cgeorge
+14	11	app/models/child.rb
+15	35	spec/models/child_spec.rb
+
+--46cd5565--2010-03-10--cgeorge
+6	2	app/models/child.rb
+1	1	app/views/histories/show.html.erb
+0	24	features/pending_requirements/view_child_record_log.feature
+4	0	features/step_definitions/basic_steps.rb
+2	0	features/support/env.rb
+27	0	features/view_child_record_log.feature
+3	6	spec/controllers/histories_controller_spec.rb

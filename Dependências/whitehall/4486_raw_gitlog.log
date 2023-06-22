@@ -1,0 +1,39 @@
+--a78e956158--2012-05-28--Jenkins
+--4c7ea662c6--2012-05-28--James Adam
+1	0	app/controllers/admin/edition_workflow_controller.rb
+1	1	app/controllers/admin/editorial_remarks_controller.rb
+7	5	app/views/admin/editions/_editorial_remarks.html.erb
+2	2	app/views/admin/editorial_remarks/new.html.erb
+6	0	features/editorial-remarks.feature
+22	0	features/step_definitions/editorial_remarks.rb
+3	2	features/step_definitions/policy_steps.rb
+6	6	test/functional/admin/editorial_remarks_controller_test.rb
+1	1	test/support/admin_document_controller_test_helpers.rb
+
+--5fa5889a35--2012-05-28--Jenkins
+--8251455f9f--2012-05-28--Jenkins
+--8070b200f6--2012-05-28--Jenkins
+--95982dbd93--2012-05-28--Jenkins
+--87578068f3--2012-05-28--Jenkins
+--581e5c417a--2012-05-28--Jenkins
+--067322226a--2012-05-28--Jenkins
+--750ffc7bcc--2012-05-28--Jenkins
+--05e5a91193--2012-05-28--Jenkins
+--47a70514f6--2012-05-28--Jenkins
+--e4e7a5b64e--2012-05-28--Jenkins
+--c8d85ef46a--2012-05-28--Jenkins
+--155e0b7174--2012-05-28--Jenkins
+--0e146a9d8b--2012-05-28--Jenkins
+--398f37ef9f--2012-05-25--Jenkins
+--6c8f6899fb--2012-05-25--Jenkins
+--23981cb6df--2012-05-25--Jenkins
+--905d26fe21--2012-05-25--Jenkins
+--f518f8c082--2012-05-25--Jenkins
+--104ff6b233--2012-05-25--Jenkins
+--834635d385--2012-05-25--Jenkins
+--c1308c3004--2012-05-25--Jenkins
+--c3c67115f7--2012-05-24--Tom Ward
+23	0	20120524151543_ensure_documents_can_only_belong_to_a_single_organisation.rb
+8	1	app/models/speech.rb
+2	2	test/functional/organisations_controller_test.rb
+10	0	test/unit/speech_test.rb

@@ -1,0 +1,59 @@
+--357a0afe--2011-07-05--chrisgeorge
+--6b2518d4--2011-06-28--chrisgeorge
+--1e23834b--2011-06-27--Jen Smith
+1	4	app/views/children/_check_boxes.html.erb
+4	4	spec/views/child/_check_boxes.html.erb_spec.rb
+
+--3ce9a43d--2011-06-26--Jen Smith
+9	7	app/views/children/_check_boxes.html.erb
+1	2	public/stylesheets/core.css
+
+--a9256074--2011-06-24--Jen Smith
+3	7	app/models/field.rb
+0	8	app/views/children/_check_box.html.erb
+1	1	app/views/children/_check_boxes.html.erb
+0	1	app/views/fields/choose.html.erb
+0	1	features/add_custom_field_to_form_section.feature
+3	3	spec/models/child_spec.rb
+2	2	spec/models/field_spec.rb
+0	19	spec/models/form_section_spec.rb
+0	30	spec/views/child/_check_box.erb_spec.rb
+32	0	spec/views/child/_check_boxes.html.erb_spec.rb
+10	16	spec/views/child/form_section.html.erb_spec.rb
+
+--e9cf2d01--2011-06-22--Jen Smith
+1	0	app/views/fields/choose.html.erb
+8	14	features/add_custom_field_to_form_section.feature
+0	7	features/step_definitions/more_web_steps.rb
+
+--0ddc1c1a--2011-06-22--Jen Smith
+2	2	app/controllers/histories_controller.rb
+6	0	app/helpers/children_helper.rb
+5	3	app/helpers/histories_helper.rb
+1	0	app/models/child.rb
+16	1	app/models/field.rb
+1	1	app/models/field_option.rb
+13	0	app/views/children/_check_boxes.html.erb
+16	0	app/views/children/_field_display_audio.html.erb
+5	0	app/views/children/_field_display_basic.html.erb
+1	0	app/views/children/_field_display_photo.html.erb
+1	18	app/views/children/_show_form_section.html.erb
+1	1	app/views/fields/choose.html.erb
+133	6	features/add_custom_field_to_form_section.feature
+0	99	features/create_custom_fields.feature
+29	0	features/step_definitions/more_web_steps.rb
+13	0	spec/helpers/children_helper_spec.rb
+10	18	spec/helpers/histories_helper_spec.rb
+0	1	spec/models/child_spec.rb
+
+--d2d9ee39--2011-06-20--Jen Smith
+3	0	app/models/field.rb
+
+--cc4c5763--2011-06-27--Minno
+1	0	app/views/children/show.html.erb
+6	0	features/step_definitions/basic_steps.rb
+54	0	features/upload_a_childs_audio.feature
+
+--ec8bf7e3--2011-06-23--Fernando Kakimoto
+1	0	.gitignore
+1	1	public/javascripts/vtip-min.js

@@ -1,0 +1,33 @@
+--594316ae1--2016-01-30--zz9pzza
+--c5f7d319f--2016-01-30--zz9pzza
+--2cc89e9bb--2016-01-30--zz9pzza
+25	36	app/models/skin.rb
+0	3	app/models/work_skin.rb
+14	18	app/views/layouts/_footer.html.erb
+1	2	config/environments/development.rb
+1	2	config/environments/test.rb
+1	20	features/other_b/skin.feature
+0	30	features/step_definitions/skin_steps.rb
+0	42	lib/skin_cache_helper.rb
+
+--70954c03d--2016-01-30--zz9pzza
+--2dae983d1--2016-01-30--zz9pzza
+2	3	lib/skin_cache_helper.rb
+
+--56e4ad786--2016-01-30--zz9pzza
+-	-	public/apple-touch-icon-114x114-precomposed.png
+-	-	public/apple-touch-icon-120x120-precomposed.png
+-	-	public/apple-touch-icon-120x120.png
+-	-	public/apple-touch-icon-144x144-precomposed.png
+-	-	public/apple-touch-icon-144x144.png
+-	-	public/apple-touch-icon-152x152-precomposed.png
+-	-	public/apple-touch-icon-152x152.png
+-	-	public/apple-touch-icon-167x167-precomposed.png
+-	-	public/apple-touch-icon-180x180-precomposed.png
+-	-	public/apple-touch-icon-180x180.png
+-	-	public/apple-touch-icon-57x57-precomposed.png
+-	-	public/apple-touch-icon-72x72-precomposed.png
+-	-	public/apple-touch-icon-76x76-precomposed.png
+-	-	public/apple-touch-icon-76x76.png
+-	-	public/apple-touch-icon-precomposed.png
+-	-	public/apple-touch-icon.png

@@ -1,0 +1,458 @@
+--9798703--2012-11-04--Andrew Mains
+--25624ef--2012-11-04--Andrew Mains
+7	0	db/migrate/20121105051803_add_course_to_timeslot.rb
+49	16	db/schema.rb
+1	1	features/mentor_teacher_schedule.feature
+3	4	features/step_definitions/mentor_teacher_steps.rb
+2	0	features/support/paths.rb
+
+--2592efc--2012-11-04--seejur83
+--5be80bc--2012-11-04--Andrew Mains
+15	6	app/helpers/mentor_teacher/schedules_helper.rb
+4	3	features/mentor_teacher_schedule.feature
+24	22	features/step_definitions/mentor_teacher_steps.rb
+17	0	features/step_definitions/registration_login_steps.rb
+1	1	spec/factories/user.rb
+
+--ad2ae61--2012-11-04--Andrew Mains
+1	0	Gemfile
+6	2	Gemfile.lock
+
+--908e78f--2012-11-04--Andrew Mains
+5	3	.watchr
+
+--4bf079a--2012-11-04--seejur83
+--60c7cc3--2012-11-04--saasbook
+--91376aa--2012-11-04--orionzhao
+4	2	db/seeds.rb
+
+--aa2505c--2012-11-04--saasbook
+--efc10c0--2012-11-04--orionzhao
+--5fd3d3a--2012-11-04--saasbook
+2	1	app/controllers/users_controller.rb
+17	0	spec/controllers/application_controller_spec.rb
+15	78	spec/controllers/invites_controller_spec.rb
+219	13	spec/controllers/users_controller_spec.rb
+1	1	spec/helpers/invites_helper_spec.rb
+1	13	spec/mailers/invitation_mailer_spec.rb
+12	1	spec/models/invite_spec.rb
+1	2	spec/requests/invites_spec.rb
+0	12	spec/views/invites/show.html.haml_spec.rb
+12	4	spec/views/users/edit.html.erb_spec.rb
+12	4	spec/views/users/new.html.erb_spec.rb
+
+--32f152c--2012-11-04--orionzhao
+--9d0db02--2012-11-04--orionzhao
+2	2	app/controllers/students_controller.rb
+1	1	app/views/advisors/index.html.haml
+2	2	app/views/mentor_teachers/index.html.haml
+1	1	app/views/students/index.html.haml
+6	0	features/student_advisors_can_review_schedule.feature
+0	7	spec/controllers/advisors_controller_spec.rb
+0	8	spec/controllers/mentor_teachers_controller_spec.rb
+3	0	spec/requests/advisors_spec.rb
+3	0	spec/requests/mentor_teachers_spec.rb
+2	1	spec/views/advisors/index.html.haml_spec.rb
+2	0	spec/views/advisors/show.html.haml_spec.rb
+0	4	spec/views/mentor_teachers/index.html.haml_spec.rb
+0	5	spec/views/students/index.html.haml_spec.rb
+
+--650ca02--2012-11-04--Andrew Mains
+0	8	app/views/mentor_teacher/schedules/_day_schedule.html.haml
+0	14	app/views/mentor_teacher/schedules/_timeslot_form.html.haml
+
+--56f238a--2012-11-04--orionzhao
+4	4	app/views/mentor_teachers/index.html.haml
+1	1	app/views/students/index.html.haml
+84	0	features/step_definitions/advisor_roster_steps.rb
+45	36	features/student_advisors_can_review_schedule.feature
+
+--5874762--2012-11-04--Alex Tom
+2	12	db/schema.rb
+
+--17549e8--2012-11-04--Alex Tom
+--c15c93a--2012-11-04--Alex Tom
+10	1	db/seeds.rb
+
+--6599db9--2012-11-04--orionzhao
+1	1	app/controllers/students_controller.rb
+1	1	app/views/students/index.html.haml
+
+--326003b--2012-11-04--seejur83
+--fbc6a32--2012-11-04--seejur83
+4	0	app/controllers/cal_courses_controller.rb
+1	0	app/models/cal_course.rb
+5	0	coverage_2/.last_run.json
+2070	0	coverage_2/.resultset.json
+1110	0	coverage_2/assets/0.7.1/application.css
+626	0	coverage_2/assets/0.7.1/application.js
+-	-	coverage_2/assets/0.7.1/fancybox/blank.gif
+-	-	coverage_2/assets/0.7.1/fancybox/fancy_close.png
+-	-	coverage_2/assets/0.7.1/fancybox/fancy_loading.png
+-	-	coverage_2/assets/0.7.1/fancybox/fancy_nav_left.png
+-	-	coverage_2/assets/0.7.1/fancybox/fancy_nav_right.png
+-	-	coverage_2/assets/0.7.1/fancybox/fancy_shadow_e.png
+-	-	coverage_2/assets/0.7.1/fancybox/fancy_shadow_n.png
+-	-	coverage_2/assets/0.7.1/fancybox/fancy_shadow_ne.png
+-	-	coverage_2/assets/0.7.1/fancybox/fancy_shadow_nw.png
+-	-	coverage_2/assets/0.7.1/fancybox/fancy_shadow_s.png
+-	-	coverage_2/assets/0.7.1/fancybox/fancy_shadow_se.png
+-	-	coverage_2/assets/0.7.1/fancybox/fancy_shadow_sw.png
+-	-	coverage_2/assets/0.7.1/fancybox/fancy_shadow_w.png
+-	-	coverage_2/assets/0.7.1/fancybox/fancy_title_left.png
+-	-	coverage_2/assets/0.7.1/fancybox/fancy_title_main.png
+-	-	coverage_2/assets/0.7.1/fancybox/fancy_title_over.png
+-	-	coverage_2/assets/0.7.1/fancybox/fancy_title_right.png
+-	-	coverage_2/assets/0.7.1/fancybox/fancybox-x.png
+-	-	coverage_2/assets/0.7.1/fancybox/fancybox-y.png
+-	-	coverage_2/assets/0.7.1/fancybox/fancybox.png
+-	-	coverage_2/assets/0.7.1/favicon_green.png
+-	-	coverage_2/assets/0.7.1/favicon_red.png
+-	-	coverage_2/assets/0.7.1/favicon_yellow.png
+-	-	coverage_2/assets/0.7.1/loading.gif
+-	-	coverage_2/assets/0.7.1/magnify.png
+-	-	coverage_2/assets/0.7.1/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png
+-	-	coverage_2/assets/0.7.1/smoothness/images/ui-bg_flat_75_ffffff_40x100.png
+-	-	coverage_2/assets/0.7.1/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png
+-	-	coverage_2/assets/0.7.1/smoothness/images/ui-bg_glass_65_ffffff_1x400.png
+-	-	coverage_2/assets/0.7.1/smoothness/images/ui-bg_glass_75_dadada_1x400.png
+-	-	coverage_2/assets/0.7.1/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png
+-	-	coverage_2/assets/0.7.1/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png
+-	-	coverage_2/assets/0.7.1/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+-	-	coverage_2/assets/0.7.1/smoothness/images/ui-icons_222222_256x240.png
+-	-	coverage_2/assets/0.7.1/smoothness/images/ui-icons_2e83ff_256x240.png
+-	-	coverage_2/assets/0.7.1/smoothness/images/ui-icons_454545_256x240.png
+-	-	coverage_2/assets/0.7.1/smoothness/images/ui-icons_888888_256x240.png
+-	-	coverage_2/assets/0.7.1/smoothness/images/ui-icons_cd0a0a_256x240.png
+7430	0	coverage_2/index.html
+8	28	spec/controllers/cal_course_controller_spec.rb
+2	1	spec/factories/cal_courses.rb
+1	0	spec/factories/courses.rb
+
+--d255c42--2012-11-04--Alex Tom
+1	1	app/views/students/placements.haml
+12	2	db/schema.rb
+1	1	features/step_definitions/calendar_steps.rb
+9	6	features/step_definitions/field_placement_steps.rb
+5	5	features/student_view_placement.feature
+
+--8deb752--2012-11-04--orionzhao
+--21b50f6--2012-11-04--orionzhao
+0	1	features/step_definitions/web_steps.rb
+17	35	features/student_advisors_can_review_schedule.feature
+
+--ee6b318--2012-11-04--orionzhao
+1	0	features/step_definitions/web_steps.rb
+10	7	features/student_advisors_can_review_schedule.feature
+
+--62ece17--2012-11-04--seejur83
+2	2	app/models/timeslot.rb
+18	18	features/link_cal_courses_to_courses.feature
+8	8	spec/controllers/cal_course_controller_spec.rb
+
+--8386227--2012-11-04--seejur83
+--fbfed87--2012-11-04--orionzhao
+8	4	app/controllers/advisors_controller.rb
+5	3	app/controllers/mentor_teachers_controller.rb
+4	2	app/controllers/students_controller.rb
+4	2	app/views/advisors/index.html.haml
+6	7	app/views/students/index.html.haml
+5	7	db/schema.rb
+
+--aec7f57--2012-11-04--orionzhao
+--9596b77--2012-11-04--orionzhao
+1	89	db/seeds.rb
+13	9	features/student_advisors_can_review_schedule.feature
+
+--93e9ec4--2012-11-04--saasbook
+0	45	app/views/users/_adv_form.html.erb
+
+--2bab2f3--2012-11-04--saasbook
+1	1	app/controllers/application_controller.rb
+6	68	app/controllers/invites_controller.rb
+44	19	app/controllers/users_controller.rb
+2	2	app/models/invite.rb
+1	0	app/models/student.rb
+8	2	app/views/invites/_form.html.haml
+7	2	app/views/invites/index.html.haml
+0	6	app/views/invites/show.html.haml
+2	2	app/views/students/index.html.haml
+45	0	app/views/users/_adv_form.html.erb
+5	2	app/views/users/_form.html.erb
+0	1	app/views/users/adv_edit.html.erb
+6	0	app/views/users/adv_new.html.erb
+3	0	config/environments/test.rb
+2	0	config/routes.rb
+7	0	db/migrate/20121104034246_modify_invites_columns.rb
+5	0	db/migrate/20121104052507_add_owner_type_to_invites.rb
+4	3	db/schema.rb
+1	0	db/seeds.rb
+104	0	features/adv_registration.feature
+88	0	features/adv_registration_invitation.feature
+75	32	features/registration_login.feature
+18	4	features/step_definitions/registration_login_steps.rb
+0	5	spec/controllers/studentroster_controller_spec.rb
+
+--15271ca--2012-11-04--orionzhao
+--f03319f--2012-11-04--orionzhao
+5	0	features/step_definitions/advisor_roster_steps.rb
+35	16	features/student_advisors_can_review_schedule.feature
+
+--8cc9c7a--2012-11-04--orionzhao
+--3db5172--2012-11-04--orionzhao
+34	0	features/student_advisors_can_review_schedule.feature
+3	0	spec/controllers/students_controller_spec.rb
+
+--c4d3481--2012-11-04--orionzhao
+--ea17183--2012-11-04--orionzhao
+0	1	app/controllers/advisors_controller.rb
+3	1	app/controllers/mentor_teachers_controller.rb
+3	1	app/controllers/students_controller.rb
+2	2	spec/controllers/advisors_controller_spec.rb
+24	0	spec/controllers/students_controller_spec.rb
+
+--d9c1fc9--2012-11-03--seejur83
+26	34	app/controllers/cal_courses_controller.rb
+1	2	app/controllers/users_controller.rb
+25	2	app/models/cal_course.rb
+3	0	app/models/course.rb
+2	2	app/models/mentor_teacher.rb
+20	1	app/models/timeslot.rb
+6	4	app/views/cal_courses/_form.html.erb
+1	1	app/views/cal_courses/edit.html.haml
+1	1	app/views/cal_courses/index.html.haml
+1	1	app/views/cal_courses/show.html.haml
+5	0	db/migrate/20121104044256_add_cal_course_to_course.rb
+4	3	db/schema.rb
+1	1	db/seeds.rb
+106	15	features/link_cal_courses_to_courses.feature
+20	0	features/step_definitions/cal_course_steps.rb
+25	1	features/step_definitions/calendar_steps.rb
+41	0	features/step_definitions/registration_login_steps.rb
+0	1	features/step_definitions/web_steps.rb
+8	0	features/support/paths.rb
+164	0	spec/controllers/cal_course_controller_spec.rb
+20	0	spec/views/cal_courses/edit.html.haml_spec.rb
+23	0	spec/views/cal_courses/index.html.haml_spec.rb
+20	0	spec/views/cal_courses/new.html.haml_spec.rb
+33	0	spec/views/cal_courses/show.html.haml_spec.rb
+
+--0782908--2012-11-03--orionzhao
+164	0	spec/controllers/mentor_teachers_controller_spec.rb
+15	0	spec/helpers/mentor_teachers_helper_spec.rb
+11	0	spec/requests/mentor_teachers_spec.rb
+35	0	spec/routing/mentor_teachers_routing_spec.rb
+15	0	spec/views/mentor_teachers/edit.html.haml_spec.rb
+15	0	spec/views/mentor_teachers/index.html.haml_spec.rb
+15	0	spec/views/mentor_teachers/new.html.haml_spec.rb
+12	0	spec/views/mentor_teachers/show.html.haml_spec.rb
+
+--f51cf5c--2012-11-03--orionzhao
+98	0	app/controllers/mentor_teachers_controller.rb
+2	0	app/helpers/mentor_teachers_helper.rb
+10	0	app/views/mentor_teachers/_form.html.haml
+7	0	app/views/mentor_teachers/edit.html.haml
+25	0	app/views/mentor_teachers/index.html.haml
+5	0	app/views/mentor_teachers/new.html.haml
+6	0	app/views/mentor_teachers/show.html.haml
+
+--68e90ee--2012-11-03--orionzhao
+0	3	app/assets/javascripts/studentroster.js.coffee
+0	3	app/assets/stylesheets/studentroster.css.scss
+0	2	app/helpers/studentroster_helper.rb
+1	1	app/views/advisors/index.html.haml
+3	3	app/views/students/index.html.haml
+1	1	config/routes.rb
+5	3	db/schema.rb
+0	5	spec/controllers/studentroster_controller_spec.rb
+0	15	spec/helpers/studentroster_helper_spec.rb
+
+--6b35926--2012-11-03--orionzhao
+--5e96eba--2012-11-03--orionzhao
+10	7	app/controllers/students_controller.rb
+
+--d12bcad--2012-11-03--orionzhao
+--a063b23--2012-11-03--orionzhao
+--3681b6f--2012-11-03--orionzhao
+4	1	app/controllers/advisors_controller.rb
+13	0	app/controllers/students_controller.rb
+1	1	app/models/advisor.rb
+1	4	app/models/student.rb
+16	7	app/views/advisors/index.html.haml
+15	17	app/views/students/index.html.haml
+0	11	features/step_definitions_copied from typo/category_steps.rb
+0	68	features/step_definitions_copied from typo/merge_article_steps.rb
+0	15	features/step_definitions_copied from typo/model_steps.rb
+0	278	features/step_definitions_copied from typo/web_steps.rb
+
+--47ed08b--2012-11-03--saasbook
+--7fdb66b--2012-11-03--saasbook
+4	4	app/controllers/users_controller.rb
+20	4	app/views/users/_form.html.erb
+12	0	db/migrate/20121104012223_modify_users_columns.rb
+18	14	db/schema.rb
+12	5	db/seeds.rb
+0	11	features/step_definitions_copied from typo/category_steps.rb
+0	68	features/step_definitions_copied from typo/merge_article_steps.rb
+0	15	features/step_definitions_copied from typo/model_steps.rb
+0	278	features/step_definitions_copied from typo/web_steps.rb
+
+--f7725f2--2012-11-03--saasbook
+8	1	app/controllers/users_controller.rb
+25	1	db/seeds.rb
+
+--22264f3--2012-11-03--SangyoonPark
+19	0	app/controllers/users_controller.rb
+9	0	app/views/users/adv_edit.html.erb
+3	0	config/routes.rb
+
+--85f0418--2012-11-03--orionzhao
+6	1	db/schema.rb
+
+--16c6032--2012-11-03--SangyoonPark
+--862c704--2012-11-03--orionzhao
+--b44569d--2012-11-02--orionzhao
+--68db19a--2012-11-02--orionzhao
+2	2	app/views/advisors/index.html.haml
+2	2	app/views/advisors/show.html.haml
+
+--e7f7cc8--2012-11-01--seejur83
+--f153baa--2012-11-01--seejur83
+22	7	app/controllers/cal_courses_controller.rb
+1	1	app/controllers/users_controller.rb
+1	0	app/models/mentor_teacher.rb
+1	1	app/models/preference.rb
+5	4	app/models/timeslot.rb
+11	10	app/views/cal_courses/_form.html.erb
+6	4	app/views/cal_courses/index.html.haml
+21	4	app/views/cal_courses/show.html.haml
+3	2	db/schema.rb
+51	23	db/seeds.rb
+17	0	features/link_cal_courses_to_courses.feature
+
+--3a4000b--2012-10-31--seejur83
+--f8a39b8--2012-10-31--seejur83
+3	1	app/models/course.rb
+6	1	app/models/mentor_teacher.rb
+6	2	app/models/timeslot.rb
+2	0	config/routes.rb
+10	1	db/schema.rb
+
+--4bef247--2012-10-29--orionzhao
+3	1	app/controllers/advisors_controller.rb
+1	4	app/models/advisor.rb
+5	1	app/models/mentor_teacher.rb
+4	1	app/models/student.rb
+6	3	app/views/advisors/show.html.haml
+
+--ddca0f2--2012-10-28--SangyoonPark
+1	1	app/controllers/application_controller.rb
+2	2	app/controllers/users_controller.rb
+1	1	app/models/user.rb
+0	3	app/views/invitation_mailer/invite.text.haml
+6	0	app/views/invites/_form.html.haml
+1	1	app/views/invites/index.html.haml
+1	0	app/views/users/_form.html.erb
+4	0	config/environments/development.rb
+3	0	config/environments/production.rb
+3	2	config/routes.rb
+7	8	db/schema.rb
+
+--725a9ad--2012-10-28--SangyoonPark
+--5f057ef--2012-10-28--saasbook
+3	0	app/assets/javascripts/invites.js.coffee
+3	0	app/assets/stylesheets/invites.css.scss
+37	0	app/assets/stylesheets/scaffolds.css.scss
+9	0	app/controllers/application_controller.rb
+93	0	app/controllers/invites_controller.rb
+28	6	app/controllers/users_controller.rb
+2	0	app/helpers/invites_helper.rb
+15	0	app/mailers/invitation_mailer.rb
+29	0	app/models/invite.rb
+0	1	app/models/user.rb
+1	0	app/views/invitation_mailer/invite.html.erb
+3	0	app/views/invitation_mailer/invite.text.haml
+10	0	app/views/invites/_form.html.haml
+7	0	app/views/invites/edit.html.haml
+20	0	app/views/invites/index.html.haml
+5	0	app/views/invites/new.html.haml
+6	0	app/views/invites/show.html.haml
+8	0	config/routes.rb
+13	0	db/migrate/20121028231754_create_invites.rb
+12	1	db/schema.rb
+164	0	spec/controllers/invites_controller_spec.rb
+6	0	spec/factories/invites.rb
+3	0	spec/fixtures/invitation_mailer/invite
+15	0	spec/helpers/invites_helper_spec.rb
+18	0	spec/mailers/invitation_mailer_spec.rb
+5	0	spec/models/invite_spec.rb
+11	0	spec/requests/invites_spec.rb
+35	0	spec/routing/invites_routing_spec.rb
+15	0	spec/views/invites/edit.html.haml_spec.rb
+15	0	spec/views/invites/index.html.haml_spec.rb
+15	0	spec/views/invites/new.html.haml_spec.rb
+12	0	spec/views/invites/show.html.haml_spec.rb
+
+--3e1a4ef--2012-10-28--orionzhao
+0	0	app/assets/javascripts/{advisor.js.coffee => advisors.js.coffee}
+3	0	app/assets/javascripts/studentroster.js.coffee
+3	0	app/assets/javascripts/students.js.coffee
+1	1	app/assets/stylesheets/{advisor.css.scss => advisors.css.scss}
+69	0	app/assets/stylesheets/scaffolds.css.scss
+3	0	app/assets/stylesheets/studentroster.css.scss
+3	0	app/assets/stylesheets/students.css.scss
+0	5	app/controllers/advisor_controller.rb
+83	0	app/controllers/advisors_controller.rb
+5	0	app/controllers/students_controller.rb
+0	2	app/helpers/advisor_helper.rb
+2	0	app/helpers/advisors_helper.rb
+2	0	app/helpers/studentroster_helper.rb
+4	0	app/models/advisor.rb
+10	0	app/views/advisors/_form.html.haml
+7	0	app/views/advisors/edit.html.haml
+17	0	app/views/advisors/index.html.haml
+5	0	app/views/advisors/new.html.haml
+3	0	app/views/advisors/show.html.haml
+24	14	app/views/students/index.html.haml
+1	1	config/environments/production.rb
+2	10	config/routes.rb
+0	0	db/migrate/{20121027030614_create_advisors.rb => 20121029010457_create_advisors.rb}
+11	0	features/step_definitions_copied from typo/category_steps.rb
+68	0	features/step_definitions_copied from typo/merge_article_steps.rb
+15	0	features/step_definitions_copied from typo/model_steps.rb
+278	0	features/step_definitions_copied from typo/web_steps.rb
+0	5	spec/controllers/advisor_controller_spec.rb
+164	0	spec/controllers/advisors_controller_spec.rb
+5	0	spec/controllers/studentroster_controller_spec.rb
+5	0	spec/controllers/students_controller_spec.rb
+3	3	spec/helpers/{advisor_helper_spec.rb => advisors_helper_spec.rb}
+15	0	spec/helpers/studentroster_helper_spec.rb
+11	0	spec/requests/advisors_spec.rb
+35	0	spec/routing/advisors_routing_spec.rb
+15	0	spec/views/advisors/edit.html.haml_spec.rb
+15	0	spec/views/advisors/index.html.haml_spec.rb
+15	0	spec/views/advisors/new.html.haml_spec.rb
+12	0	spec/views/advisors/show.html.haml_spec.rb
+
+--95b6ed8--2012-10-27--orionzhao
+3	0	app/controllers/advisor_controller.rb
+1	1	config/environments/production.rb
+13	6	config/routes.rb
+
+--dca2655--2012-10-26--orionzhao
+7	0	config/routes.rb
+
+--0403473--2012-10-26--orionzhao
+3	0	app/assets/javascripts/advisor.js.coffee
+3	0	app/assets/stylesheets/advisor.css.scss
+2	0	app/controllers/advisor_controller.rb
+2	0	app/helpers/advisor_helper.rb
+3	0	app/models/advisor.rb
+8	0	db/migrate/20121027030614_create_advisors.rb
+5	0	spec/controllers/advisor_controller_spec.rb
+6	0	spec/factories/advisors.rb
+15	0	spec/helpers/advisor_helper_spec.rb
+5	0	spec/models/advisor_spec.rb
+
+--c94bb6c--2012-10-26--orionzhao
+8	2	db/schema.rb

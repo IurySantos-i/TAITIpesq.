@@ -1,0 +1,39 @@
+--784d72beaf--2017-02-22--Tijmen Brommet
+--dc00e14cda--2017-02-22--Graham Pengelly
+--d656c2d1fe--2017-02-22--Graham Pengelly
+1	1	app/controllers/consultations_controller.rb
+22	11	test/functional/consultations_controller_test.rb
+
+--ab68597dbe--2017-02-22--Graham Pengelly
+1	0	app/assets/stylesheets/frontend/base.scss
+1	1	app/assets/stylesheets/frontend/helpers/_browse.scss
+134	0	app/assets/stylesheets/frontend/views/_consultations.scss
+12	0	app/controllers/consultations_controller.rb
+8	0	app/helpers/cache_control_helper.rb
+13	0	app/helpers/consultations_helper.rb
+9	0	app/views/consultations/_document_summary.html.erb
+172	0	app/views/consultations/show.html.erb
+9	2	features/consultations.feature
+33	7	features/step_definitions/consultation_steps.rb
+1	0	features/topical_events.feature
+105	0	test/functional/consultations_controller_test.rb
+1	0	test/integration/document_locale_param_canonicalisation_test.rb
+18	0	test/unit/helpers/cache_control_helper_test.rb
+34	0	test/unit/helpers/consultations_helper_test.rb
+
+--bac2797ef1--2017-02-20--Mat Moore
+13	4	app/assets/javascripts/admin/modules/breadcrumb_preview.js
+
+--bd6b216587--2017-02-20--Mat Moore
+24	17	app/assets/javascripts/admin/modules/breadcrumb_preview.js
+
+--36b903b097--2017-02-20--David Silva
+34	37	app/views/admin/edition_tags/edit.html.erb
+
+--e1fb6518cc--2017-02-10--David Silva
+67	0	app/assets/javascripts/admin/modules/breadcrumb_preview.js
+2	1	app/helpers/admin/edition_tags_helper.rb
+9	0	app/views/admin/edition_tags/_breadcrumb_list.mustache
+4	1	app/views/admin/edition_tags/edit.html.erb
+18	0	lib/taxonomy.rb
+23	0	test/javascripts/unit/admin/modules/breadcrumb_preview_test.js

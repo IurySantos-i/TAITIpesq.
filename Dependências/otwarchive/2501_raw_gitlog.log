@@ -1,0 +1,73 @@
+--66d278c2f--2011-08-07--Enigel
+--ff64590ad--2011-08-07--Cesy
+--7f59b3aa2--2011-08-07--Cesy
+1	4	app/views/prompts/_prompt_controls.html.erb
+22	4	features/challenge_promptmeme.feature
+9	2	features/step_definitions/challenge_steps.rb
+
+--99277224b--2011-08-05--Cesy
+1	1	features/step_definitions/challenge_steps.rb
+
+--786e29180--2011-08-05--Cesy
+1	1	app/views/challenge_signups/_promptmeme_signup_form.html.erb
+1	1	app/views/challenge_signups/_signup_form.html.erb
+
+--66441256c--2011-07-27--Cesy
+2	2	app/controllers/challenge_signups_controller.rb
+2	2	app/controllers/prompts_controller.rb
+
+--133043979--2011-07-23--Cesy
+0	16	app/views/user_mailer/prompt_subscriber_notification.html.erb
+
+--86a8bc154--2011-07-23--Cesy
+4	3	app/controllers/prompts_controller.rb
+2	2	app/models/collection.rb
+1	1	app/views/challenge_requests/index.html.erb
+1	1	app/views/challenge_signups/_promptmeme_signup_form.html.erb
+27	9	app/views/challenge_signups/_signup_form.html.erb
+3	3	app/views/collections/_form.html.erb
+1	1	app/views/layouts/_header.html.erb
+0	85	app/views/prompts/_giftexchange_prompt_form.html.erb
+30	6	app/views/prompts/_promptmeme_prompt_form.html.erb
+2	5	app/views/prompts/new.html.erb
+16	0	app/views/user_mailer/prompt_subscriber_notification.html.erb
+
+--fe30a03aa--2011-07-23--Cesy
+5	7	app/controllers/challenge_signups_controller.rb
+4	7	app/controllers/prompts_controller.rb
+3	3	app/views/challenge/prompt_meme/_challenge_requests.html.erb
+13	8	app/views/challenge_signups/_promptmeme_signup_form.html.erb
+2	2	app/views/challenge_signups/_signup_controls.html.erb
+9	2	app/views/challenge_signups/_signup_form.html.erb
+3	3	app/views/prompts/_prompt_controls.html.erb
+3	3	app/views/prompts/_promptmeme_prompt_form.html.erb
+1	1	app/views/user_sessions/_greeting.html.erb
+
+--49dfec29e--2011-07-23--Cesy
+5	5	app/controllers/challenge_signups_controller.rb
+3	3	app/views/challenge_signups/new.html.erb
+2	2	app/views/layouts/_header.html.erb
+6	6	app/views/user_sessions/_greeting.html.erb
+
+--38234f748--2011-07-14--Cesy
+5	4	app/views/challenge/prompt_meme/_challenge_sidebar.html.erb
+
+--2a6b63010--2011-07-14--Cesy
+2	0	app/views/challenge/prompt_meme/_challenge_requests.html.erb
+
+--a31e5e443--2011-07-14--Cesy
+2	0	app/views/invite_requests/index.html.erb
+2	3	features/invite_queue.feature
+
+--22a48ba67--2011-07-14--Cesy
+35	1	features/invite_queue.feature
+
+--e10a0faa1--2011-07-14--Cesy
+1	1	config/routes.rb
+
+--9cbfaa36a--2011-07-14--Cesy
+23	19	features/invite_queue.feature
+18	0	features/step_definitions/invite_steps.rb
+
+--003e14672--2011-07-20--CristinaRO
+7	4	Gemfile.lock

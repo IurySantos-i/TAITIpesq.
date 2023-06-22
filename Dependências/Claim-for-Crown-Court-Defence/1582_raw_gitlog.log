@@ -1,0 +1,26 @@
+--9570e1697--2015-09-02--Stephen Richards
+--be5120dfc--2015-09-02--Stephen Richards
+--be3ea5f0f--2015-09-02--Himal Mandalia
+0	7	app/views/shared/_claim_status.html.haml
+32	1	features/cassettes/Advocate_new_claim/Add_fees_with_dates_attended_then_remove_fee/_2_basic_.yml
+11	27	features/claim_status.feature
+1	11	features/step_definitions/claim_status_steps.rb
+
+--bc3cb35d1--2015-09-02--Himal Mandalia
+1	1	app/interfaces/api/v1/advocates/representation_order.rb
+1	1	config/settings.yml
+1	1	lib/api_test_client.rb
+1	1	spec/api/v1/claims/dropdown_data_spec.rb
+2	2	spec/api/v1/claims/representation_order_spec.rb
+3	3	spec/models/representation_order_spec.rb
+3	3	spec/presenters/claim_presenter_spec.rb
+
+--934c5ab0b--2015-09-02--Stephen Richards
+--ee4ee2a03--2015-09-02--Himal Mandalia
+1	1	app/interfaces/api/v1/advocates/representation_order.rb
+1	1	config/settings.yml
+1	1	lib/api_test_client.rb
+2	2	spec/api/v1/claims/dropdown_data_spec.rb
+2	2	spec/api/v1/claims/representation_order_spec.rb
+3	3	spec/models/representation_order_spec.rb
+3	3	spec/presenters/claim_presenter_spec.rb

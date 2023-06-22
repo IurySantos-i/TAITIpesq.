@@ -1,0 +1,24 @@
+--e3532ea64--2016-10-01--zz9pzza
+--dbfd50332--2016-09-30--sarken
+--a281a035b--2016-09-30--sarken
+--0f586c477--2016-09-29--sarken
+1	1	app/views/layouts/mailer.html.erb
+1	1	app/views/layouts/mailer.text.erb
+
+--40bce3aa5--2016-09-29--sarken
+1	0	features/other_b/support.feature
+7	0	features/step_definitions/email_custom_steps.rb
+
+--09fb67af3--2016-09-29--tickinginstant
+4	0	features/other_b/skin.feature
+
+--c5e76701b--2016-09-29--zz9pzza
+--5ea47230e--2016-09-29--zz9pzza
+22	26	config/deploy.rb
+
+--3959dd8cc--2016-09-27--tickinginstant
+43	4	features/gift_exchanges/potential_matches.feature
+
+--84fb56db5--2016-09-27--tickinginstant
+43	10	features/gift_exchanges/potential_matches.feature
+23	0	features/step_definitions/potential_match_steps.rb

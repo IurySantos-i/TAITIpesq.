@@ -1,0 +1,61 @@
+--8c53bdf2f2--2014-11-21--Richard Boulton
+--19acc63672--2014-11-21--Elliot Crosby-McCullough
+1	1	app/models/edition.rb
+9	3	app/models/edition/specialist_sectors.rb
+18	8	app/models/specialist_sector.rb
+3	2	features/specialist-sectors.feature
+1	1	test/unit/edition/searchable_test.rb
+18	0	test/unit/edition/specialist_sectors_test.rb
+45	20	test/unit/specialist_sector_test.rb
+
+--ab7c0a701e--2014-11-21--Alice Bartlett
+--6b428974ee--2014-11-20--Alice Bartlett
+3	3	features/step_definitions/email_signup_steps.rb
+
+--cc764ab409--2014-11-20--Alice Bartlett
+32	9	app/assets/stylesheets/frontend/views/_email-signup-information.scss
+13	19	app/views/email_signup_information/show.html.erb
+
+--79c7b234a2--2014-11-20--Alice Bartlett
+5	8	app/models/email_signup_pages_finder.rb
+
+--285ef587f9--2014-11-20--Daniel Roseman
+--5fa47e0b7f--2014-11-20--Tekin Suleyman
+2	2	lib/govuk_content_schemas/case_study.json
+
+--755ddeceaa--2014-11-20--Tekin Suleyman
+1	1	lib/govuk_content_schemas/case_study.json
+
+--e8f474a766--2014-11-20--Tekin Suleyman
+2	0	test/unit/presenters/publishing_api_presenters/case_study_test.rb
+
+--9bcea45c41--2014-11-19--Daniel Roseman
+6	0	db/data_migration/20141119171625_push_case_studies_again.rb
+
+--c8d6f4e9a5--2014-11-19--Daniel Roseman
+16	4	lib/govuk_content_schemas/case_study.json
+2	0	test/unit/presenters/publishing_api_presenters/case_study_test.rb
+
+--58968c8381--2014-11-18--Daniel Roseman
+8	1	app/presenters/publishing_api_presenters/case_study.rb
+18	1	test/unit/presenters/publishing_api_presenters/case_study_test.rb
+
+--26a4d36d3b--2014-11-20--Tekin Suleyman
+--c62ba749ee--2014-11-20--Tekin Suleyman
+4	1	lib/govuk_content_schemas/case_study.json
+4	0	test/unit/presenters/publishing_api_presenters/case_study_test.rb
+
+--0a3177d75e--2014-11-20--Alice Bartlett
+5	1	app/presenters/email_signup_information_presenter.rb
+
+--55271aaf0e--2014-11-20--Tekin Suleyman
+1	1	lib/govuk_content_schemas/case_study.json
+
+--b28ff1f510--2014-11-19--Daniel Roseman
+1	0	Gemfile
+2	0	Gemfile.lock
+30	0	lib/govuk_content_schema.rb
+144	0	lib/govuk_content_schemas/case_study.json
+16	0	lib/govuk_content_schemas/test.json
+61	0	test/unit/govuk_content_schema_test.rb
+13	1	test/unit/presenters/publishing_api_presenters/case_study_test.rb

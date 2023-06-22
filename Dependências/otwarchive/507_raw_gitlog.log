@@ -1,0 +1,231 @@
+--b0c594272--2015-05-11--ariana-paris
+--d119af750--2015-05-11--sarken
+--21a62a989--2015-05-10--Florez Brownlee
+1	1	app/views/share/_share.html.erb
+
+--8e6c0c8ea--2015-05-09--james_
+0	13	db/migrate/20100929044155_add_persistence_token_to_users_and_admins.rb
+0	86	db/migrate/20101015053927_add_sanitizer_version_fields.rb
+0	9	db/migrate/20101016131743_add_inherited_to_filter_taggings.rb
+0	9	db/migrate/20101022002353_add_tag_wrangling_freeze.rb
+0	11	db/migrate/20101022160603_add_restrict_to_fandom_to_tag_set.rb
+0	35	db/migrate/20101024232837_add_any_to_prompts.rb
+0	21	db/migrate/20101025022733_add_unique_to_prompt_restriction.rb
+0	13	db/migrate/20101103185307_tagging_indexes.rb
+0	15	db/migrate/20101107005107_add_restrict_to_fandom_to_prompt_restriction.rb
+0	9	db/migrate/20101107212421_add_guest_download_freeze.rb
+0	9	db/migrate/20101108003021_add_assignment_notification_to_collection_profile.rb
+0	15	db/migrate/20101109204730_create_missing_work_indexes.rb
+0	11	db/migrate/20101128051309_add_approved_and_ip_address_to_feedbacks.rb
+0	15	db/migrate/20101130074147_create_kudos.rb
+0	9	db/migrate/20101204042756_add_type_to_skin.rb
+0	9	db/migrate/20101204061318_rename_disable_ugs.rb
+0	9	db/migrate/20101204062558_add_work_skin_id_to_works.rb
+0	9	db/migrate/20101205015909_add_ip_address_to_kudos.rb
+0	11	db/migrate/20101216165336_add_translation_and_language_to_admin_posts.rb
+0	17	db/migrate/20101219191929_add_kudo_indexes.rb
+0	9	db/migrate/20101231171104_add_kudos_emails_off_to_preferences.rb
+0	9	db/migrate/20101231174606_add_disable_share_links_to_preferences.rb
+0	9	db/migrate/20110130093600_add_prompt_meme_to_collection_preference.rb
+0	30	db/migrate/20110130093601_create_prompt_memes.rb
+0	9	db/migrate/20110130093602_add_anon_prompts.rb
+0	22	db/migrate/20110130093604_create_challenge_claims.rb
+0	19	db/migrate/20110212162042_add_admin_post_tags.rb
+0	9	db/migrate/20110214171104_add_requests_summary_to_challenges.rb
+0	9	db/migrate/20110222093602_add_anon_prompt_memes.rb
+0	9	db/migrate/20110223031701_stop_restricted_being_null.rb
+0	9	db/migrate/20110304042756_add_paragraph_margin_to_skin.rb
+0	15	db/migrate/20110312174241_create_subscriptions.rb
+0	9	db/migrate/20110401185831_add_banner_unseen_to_preferences.rb
+0	9	db/migrate/20110401201033_add_banner_to_admin_settings.rb
+0	26	db/migrate/20110513145847_create_owned_tag_sets.rb
+0	11	db/migrate/20110515182045_add_featured_to_owned_tag_sets.rb
+0	9	db/migrate/20110526203419_add_header_color_to_skins.rb
+0	9	db/migrate/20110601200556_add_accent_to_skins.rb
+0	11	db/migrate/20110619091214_update_prompt_meme_defaults.rb
+0	13	db/migrate/20110619091342_update_challenge_defaults.rb
+0	9	db/migrate/20110621015359_add_language_to_external_works.rb
+0	15	db/migrate/20110710033732_create_owned_set_taggings.rb
+0	15	db/migrate/20110712003637_add_nomination_limits_to_owned_tag_set.rb
+0	14	db/migrate/20110712140002_create_tag_set_nominations.rb
+0	11	db/migrate/20110713013317_add_tag_set_restriction_to_prompt_restrictions.rb
+0	22	db/migrate/20110801134913_create_tag_nominations.rb
+0	9	db/migrate/20110810012317_add_usable_to_owned_tag_sets.rb
+0	11	db/migrate/20110810150044_add_last_viewed_to_reading.rb
+0	11	db/migrate/20110812012725_add_canonical_to_tag_nominations.rb
+0	9	db/migrate/20110823015903_add_synonym_to_tag_nominations.rb
+0	13	db/migrate/20110827153658_remove_fields_from_tag_nominations.rb
+0	13	db/migrate/20110827185228_change_banner_text_type.rb
+0	9	db/migrate/20110828172403_add_banner_text_sanitiser.rb
+0	9	db/migrate/20110829125505_add_failed_login_count_to_users.rb
+0	15	db/migrate/20110905184626_create_skin_parents.rb
+0	15	db/migrate/20110908191743_create_tag_set_associations.rb
+0	23	db/migrate/20111006032145_add_features_to_skins.rb
+0	9	db/migrate/20111007235357_add_unusable_to_skins.rb
+0	11	db/migrate/20111013010307_add_title_options_to_prompt_restrictions.rb
+0	11	db/migrate/20111027173425_add_featured_and_in_chooser_to_skins.rb
+0	9	db/migrate/20111122225340_add_comment_to_pseuds.rb
+0	9	db/migrate/20111122225341_add_icontext_to_collections.rb
+0	11	db/migrate/20111123011929_add_login_unique_index_to_users.rb
+0	9	db/migrate/20111206225341_add_iconcomment_to_collections.rb
+0	11	db/migrate/20120131225520_filter_tagging_primary_key.rb
+0	18	db/migrate/20120206034312_create_work_links.rb
+0	9	db/migrate/20120226024139_add_stats_updated_at_to_admin_settings.rb
+0	9	db/migrate/20120415134615_add_unwrangleable_to_tags.rb
+0	32	db/migrate/20120501210459_add_unique_index_filter_id_to_filter_count.rb
+0	11	db/migrate/20120809161528_add_collection_info_to_works.rb
+0	15	db/migrate/20120809164434_change_hit_counters_to_stat_counters.rb
+0	16	db/migrate/20120825165632_create_searches.rb
+0	9	db/migrate/20120901113344_add_filter_control_to_admin_settings.rb
+0	11	db/migrate/20120913222728_remove_openid_from_users.rb
+0	9	db/migrate/20120921094037_add_email_notifications_to_collection_preferences.rb
+0	12	db/migrate/20121023221449_remove_old_translation_systems.rb
+0	9	db/migrate/20121102002223_add_request_invite_enabled_field.rb
+0	10	db/migrate/20121129192353_add_sortable_name_to_tags.rb
+0	9	db/migrate/20121205215503_add_account_creation_options.rb
+0	9	db/migrate/20121220012746_add_anon_commenting_preference.rb
+0	18	db/migrate/20130113003307_create_admin_activities.rb
+0	11	db/migrate/20130327164311_anonymous_commenting_default_state_change.rb
+0	18	db/migrate/20130707160714_remove_duplicate_indexes.rb
+0	15	db/migrate/20130707160814_revert_filter_taggings_primary_key.rb
+0	13	db/migrate/20140208200234_create_api_keys.rb
+0	19	db/migrate/20140326130206_add_potential_match_indexes.rb
+0	47	db/migrate/20140327111111_doc_faq_rework.rb
+0	20	db/migrate/20140406043239_create_admin_banners.rb
+0	9	db/migrate/20140808220904_create_favorite_tags.rb
+0	9	db/migrate/20140922024405_add_slug_to_faqs.rb
+0	6	db/migrate/20140922025054_add_indices_to_faqs.rb
+0	17	db/migrate/20140924023950_create_wrangling_guidelines.rb
+0	11	db/migrate/20150106211421_add_ip_address_to_works.rb
+0	13	db/migrate/20150111203000_add_akismet_score_to_works.rb
+0	11	db/migrate/20150217034225_change_favorite_tags_index.rb
+1	1	db/schema.rb
+
+--826804a6b--2015-05-08--james_
+1	1	db/schema.rb
+
+--4f9b11801--2015-05-08--james_
+1	2	.travis.yml
+
+--a38edb4ec--2015-05-08--james_
+1	0	.travis.yml
+
+--f72f9792e--2015-05-08--james_
+1	0	.travis.yml
+
+--cbc201ee3--2015-05-08--james_
+18	12	db/schema.rb
+510	161	db/structure.sql
+
+--d5394d955--2015-05-08--sarken
+--013339eb3--2015-05-07--sarken
+4	2	features/other_a/reading.feature
+
+--ddb3d70be--2015-05-07--sarken
+18	25	features/other_a/reading.feature
+
+--c8246deaa--2015-05-07--sarken
+1	1	features/other_a/reading.feature
+
+--d45b418ad--2015-05-07--james_
+12	18	db/schema.rb
+161	510	db/structure.sql
+
+--9e4509ced--2015-05-07--james_
+--e5754af9e--2015-05-07--james_
+2	2	.travis.yml
+
+--f6cecc304--2015-05-06--james_
+1	1	public/help/locale-preferences.html
+
+--ccfd46664--2015-05-03--james_
+--066f36d1d--2015-04-30--james_
+1	1	app/controllers/archive_faqs_controller.rb
+2	2	app/views/preferences/index.html.erb
+1	1	db/migrate/20141004123421_add_locale_to_preferences.rb
+
+--81d76a7b0--2015-04-30--james_
+0	99	features/other_a/admin_tasks.feature
+
+--07080f2a0--2015-04-30--james_
+1	1	public/help/locale-preferences.html
+
+--4056207a1--2015-04-30--james_
+1	1	app/views/preferences/index.html.erb
+
+--9c26565f2--2015-04-30--james_
+1	1	app/views/preferences/index.html.erb
+
+--2c6788f0b--2015-04-30--james_
+2	2	app/views/locales/_locale_form.html.erb
+
+--6e8c6dbe5--2015-04-30--james_
+1	1	app/views/locales/_locale_form.html.erb
+
+--3e6d0f089--2015-04-26--james_
+1	1	app/controllers/archive_faqs_controller.rb
+
+--c21c43b85--2015-04-26--james_
+--d04cac4c8--2015-01-11--james_
+1	1	app/controllers/archive_faqs_controller.rb
+1	1	app/controllers/preferences_controller.rb
+
+--6ffc1354d--2015-01-11--james_
+--d1453a380--2014-11-21--james_
+8	12	app/views/preferences/index.html.erb
+
+--f7ebf1346--2014-11-21--james_
+0	1	app/views/preferences/index.html.erb
+
+--26bbffd3f--2014-11-21--james_
+--9277259e8--2014-11-21--james_
+--b68ac08ce--2014-11-21--james_
+15	16	app/views/preferences/index.html.erb
+
+--fb6424945--2014-11-18--james_
+--ad9281193--2014-11-18--james_
+--753b43f18--2014-11-18--james_
+1	1	app/controllers/archive_faqs_controller.rb
+19	25	app/views/preferences/index.html.erb
+0	2	public/help/locale-preferences.html
+
+--1c09f7e97--2014-11-17--sarken
+32	0	app/views/locales/_locale_form.html.erb
+4	0	app/views/locales/_navigation.html.erb
+3	16	app/views/locales/edit.html.erb
+32	26	app/views/locales/index.html.erb
+3	21	app/views/locales/new.html.erb
+11	11	features/other_a/admin_tasks.feature
+
+--29347a253--2014-11-16--sarken
+--fdecc601b--2014-11-06--james_
+--8be49cf4e--2014-10-05--james_
+3	3	features/other/admin_tasks.feature
+
+--4367bd513--2014-10-05--james_
+1	1	app/views/preferences/index.html.erb
+
+--34fe64dd1--2014-10-04--james_
+1	2	app/controllers/archive_faqs_controller.rb
+
+--da94fdfec--2014-10-04--james_
+6	1	app/controllers/archive_faqs_controller.rb
+
+--89d803782--2014-10-04--james_
+1	0	app/controllers/preferences_controller.rb
+4	2	app/views/locales/index.html.erb
+13	1	app/views/preferences/index.html.erb
+5	0	db/migrate/20141004123421_add_locale_to_preferences.rb
+10	0	public/help/locale-preferences.html
+
+--756b9c77d--2014-10-03--james_
+1	1	app/models/locale.rb
+
+--c6668ccdf--2014-10-03--james_
+1	3	app/models/locale.rb
+4	0	app/views/locales/edit.html.erb
+3	1	app/views/locales/index.html.erb
+7	0	app/views/locales/new.html.erb
+5	0	db/migrate/20141003204623_add_interface_enabled_to_locale.rb
+5	0	db/migrate/20141003205439_add_email_enabled_to_locale.rb
+3	0	features/other/admin_tasks.feature

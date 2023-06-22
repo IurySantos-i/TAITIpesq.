@@ -1,0 +1,76 @@
+--5d3561160--2015-09-30--jsugarman
+--8b7522cc4--2015-09-30--Himal Mandalia
+--b11be703a--2015-09-30--jsugarman
+8347	8677	db/data.yml
+
+--c8a1f8ef4--2015-09-30--jsugarman
+10842	11899	db/data.yml
+
+--5b6ed24dd--2015-09-30--jsugarman
+1	2	lib/demo_data/document_generator.rb
+
+--07b60995d--2015-09-30--Joel Sugarman
+--641860531--2015-09-30--Himal Mandalia
+11	0	app/controllers/geckoboard_api/application_controller.rb
+5	0	app/controllers/geckoboard_api/widgets_controller.rb
+28	0	app/services/claim_reporter.rb
+16	0	app/views/geckoboard_api/widgets/claims.jbuilder
+4	0	config/routes.rb
+
+--60ffb84a9--2015-09-30--jsugarman
+10634	11622	db/data.yml
+1	2	lib/demo_data/document_generator.rb
+
+--8b5fc57e2--2015-09-30--jsugarman
+1	1	app/models/claim.rb
+1	1	features/step_definitions/claim_history_steps.rb
+1	1	features/step_definitions/claim_status_steps.rb
+1	1	spec/models/claim_spec.rb
+1	1	spec/models/message_spec.rb
+
+--d62c076a1--2015-09-30--jsugarman
+2	1	app/models/claim.rb
+2	0	app/models/user.rb
+5	0	db/migrate/20150930123017_rename_paid_at.rb
+2	2	db/schema.rb
+1	1	spec/factories/claims.rb
+2	0	spec/factories/users.rb
+1	1	spec/models/claim_spec.rb
+2	0	spec/models/user_spec.rb
+
+--58036b593--2015-09-30--jsugarman
+2	2	app/models/claim.rb
+4	4	app/models/claims/state_machine.rb
+2	2	features/step_definitions/advocate_claims_list_steps.rb
+6	6	lib/demo_data/claim_state_advancer.rb
+4	4	spec/factories/claims.rb
+7	7	spec/models/claim_spec.rb
+8	8	spec/models/claims/state_machine_spec.rb
+6	6	spec/validators/claim_textfield_validator_spec.rb
+
+--f2c71598b--2015-09-30--jsugarman
+1	1	app/assets/javascripts/amountassessed.js
+1	1	app/assets/stylesheets/statuses.scss
+8	8	app/models/claim.rb
+16	16	app/models/claims/state_machine.rb
+2	2	app/presenters/claim_presenter.rb
+1	1	app/validators/claim_textfield_validator.rb
+2	2	app/views/shared/_claim.html.haml
+2	2	config/locales/en.yml
+6	6	features/advocate_claims_list.feature
+4	4	features/caseworker_claims_list.feature
+2	2	features/claim_history.feature
+8	8	features/claim_redetermination.feature
+5	5	features/claim_status.feature
+4	4	features/step_definitions/advocate_claims_list_steps.rb
+4	4	features/step_definitions/claim_history_steps.rb
+1	1	features/step_definitions/claim_status_steps.rb
+7	7	lib/demo_data/claim_state_advancer.rb
+4	4	spec/controllers/advocates/claims_controller_spec.rb
+2	2	spec/factories/claims.rb
+35	35	spec/models/claim_spec.rb
+21	21	spec/models/claims/financial_summary_spec.rb
+13	13	spec/models/claims/state_machine_spec.rb
+3	3	spec/models/message_spec.rb
+6	6	spec/presenters/claim_presenter_spec.rb
+5	5	spec/validators/claim_textfield_validator_spec.rb

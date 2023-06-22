@@ -1,0 +1,45 @@
+--f4c5a5bdc--2015-09-18--Alistair Laing
+--ca7c80673--2015-09-18--Alistair Laing
+4	4	features/claim_messages.feature
+11	5	features/step_definitions/claim_messages_steps.rb
+
+--690f4ca65--2015-09-18--Alistair Laing
+1	1	config/locales/en.yml
+
+--73838beb8--2015-09-18--Alistair Laing
+20	0	app/assets/images/icons/upload-file-ico.svg
+0	1	app/assets/stylesheets/advocates/application.css.scss
+0	5	app/assets/stylesheets/claim-accordion.scss
+2	0	app/assets/stylesheets/claim-detail.scss
+1	8	app/assets/stylesheets/communication-tool.scss
+1	4	app/assets/stylesheets/form.scss
+104	0	app/assets/stylesheets/message.scss
+
+--8584a70a6--2015-09-18--Alistair Laing
+0	1	app/views/advocates/claims/show.html.haml
+3	3	app/views/case_workers/claims/show.html.haml
+39	21	app/views/shared/_message.html.haml
+31	27	app/views/shared/_messages.html.haml
+
+--2cc4c4c13--2015-09-18--Alistair Laing
+85	0	app/assets/javascripts/adp.messages.js
+2	1	app/assets/javascripts/application.js
+11	9	app/views/messages/create.js.erb
+
+--fbe35506a--2015-09-18--Alistair Laing
+1	1	app/controllers/advocates/claims_controller.rb
+2	2	app/controllers/case_workers/claims_controller.rb
+2	0	app/models/message.rb
+
+--d825341f8--2015-09-18--Edward Andress
+--4784dca6a--2015-09-18--Himal Mandalia
+9	1	app/views/devise/passwords/new.html.haml
+2	0	config/environments/development.rb
+2	0	config/environments/production.rb
+1	1	config/initializers/devise.rb
+
+--4f833e553--2015-09-18--Himal Mandalia
+--6ee31fdab--2015-09-14--Benedetto Lo Giudice
+11	11	.travis.yml
+1	1	db/seeds/seed_helper.rb
+13	3	runtests.sh

@@ -1,0 +1,70 @@
+--a1f1613dd--2012-10-15--elz
+--d0074db3d--2012-10-15--elz
+1	1	app/views/works/index.html.erb
+
+--7002b0d6c--2012-10-15--elz
+2	2	app/views/bookmarks/_bookmark_user_module.html.erb
+
+--87b96ac73--2012-10-15--elz
+3	1	app/controllers/bookmarks_controller.rb
+1	0	app/controllers/works_controller.rb
+
+--87fe702c4--2012-10-14--elz
+1	1	config/config.yml
+
+--f5f405c3d--2012-10-14--elz
+4	2	public/stylesheets/sandbox.css
+
+--d9944e36c--2012-10-14--elz
+7	5	app/models/tag.rb
+
+--f1875e2c4--2012-10-14--elz
+1	1	app/controllers/tags_controller.rb
+1	1	app/models/fandom.rb
+3	2	app/models/tag.rb
+1	1	lib/tasks/yuletide_nominations.rake
+
+--4b8f2c037--2012-10-14--elz
+8	3	app/models/bookmark_search.rb
+8	1	app/models/work_search.rb
+
+--f04143699--2012-10-14--elz
+2	0	app/models/pseud.rb
+
+--aa7863edf--2012-10-13--elz
+1	1	app/models/external_work.rb
+5	0	app/models/series.rb
+8	0	lib/tasks/after_tasks.rake
+
+--0fd7886b3--2012-10-12--elz
+1	1	app/models/bookmark_search.rb
+1	1	app/models/work_search.rb
+
+--7a4aca10b--2012-10-12--elz
+3	3	app/models/bookmark_search.rb
+
+--b03ae3ffc--2012-10-12--elz
+2	1	app/views/layouts/_header.html.erb
+14	1	public/stylesheets/sandbox.css
+
+--b8537a8fc--2012-10-12--elz
+4	0	app/views/bookmarks/index.html.erb
+4	0	app/views/works/index.html.erb
+
+--4c5b1d3a6--2012-10-12--elz
+4	3	app/views/works/_search_form.html.erb
+
+--29e81903e--2012-10-12--elz
+0	8	app/controllers/search_controller.rb
+1	6	app/views/bookmarks/search.html.erb
+1	6	app/views/people/search.html.erb
+2	7	app/views/{search/index.html.erb => shared/_search_nav.html.erb}
+1	6	app/views/tags/search.html.erb
+2	0	app/views/works/search.html.erb
+1	4	config/routes.rb
+
+--501797e9f--2012-10-12--elz
+15	15	features/work_search.feature
+
+--1a0ceb570--2012-10-11--elz
+41	74	features/work_search.feature

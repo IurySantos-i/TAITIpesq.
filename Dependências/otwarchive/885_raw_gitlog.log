@@ -1,0 +1,419 @@
+--cd5e25aef--2014-08-12--Scott D. Sullivan
+--aa271bc13--2014-08-12--Scott D. Sullivan
+--1eb7e6f81--2014-08-09--Scott D. Sullivan
+--c0ad3ff34--2014-08-09--elz
+14	15	app/controllers/application_controller.rb
+2	1	app/controllers/archive_faqs_controller.rb
+
+--ab7e74f39--2014-08-07--zz9pzza
+--9e0aae327--2014-08-07--Scott D. Sullivan
+1	1	app/views/admin/settings/index.html.erb
+4	4	features/other/admin_tasks.feature
+0	14	features/step_definitions/admin_steps.rb
+
+--6f009db73--2014-07-16--Scott D. Sullivan
+--6f90a992d--2014-07-16--Enigel
+3	3	features/other/admin_tasks.feature
+
+--7188696d5--2014-07-16--Enigel
+2	2	features/other/abuse_report.feature
+
+--dbe0c06a1--2014-07-15--Scott D. Sullivan
+--64132a0f2--2014-07-13--Enigel
+7	3	app/views/collection_items/index.html.erb
+202	202	features/other/admin_tasks.feature
+2	1	features/other/languages.feature
+5	7	features/step_definitions/generic_steps.rb
+
+--cb7143302--2014-07-12--Scott D. Sullivan
+6	3	lib/html_cleaner.rb
+
+--1e28e3354--2014-07-12--Scott D. Sullivan
+--24ec5a784--2014-07-07--Scott D. Sullivan
+--00885aeff--2014-07-03--Scott D. Sullivan
+--f2390cbd7--2014-06-29--Scott D. Sullivan
+--252e0a6eb--2014-06-14--Scott D. Sullivan
+--b6dec0d82--2014-05-25--Scott D. Sullivan
+3	0	Gemfile
+15	8	Gemfile.lock
+5	0	config/application.rb
+1	0	config/cucumber.yml
+34	0	spec/spec_helper.rb
+
+--e7930d397--2014-05-14--Scott D. Sullivan
+0	1	app/controllers/application_controller.rb
+3	1	app/models/archive_faq.rb
+1	0	app/models/language.rb
+27	23	features/other/admin_tasks.feature
+4	8	features/step_definitions/admin_steps.rb
+4	0	features/step_definitions/web_steps.rb
+
+--e188b4ee5--2014-05-13--Scott D. Sullivan
+--0f6bca6bf--2014-05-11--Scott D. Sullivan
+--385cc20fd--2014-05-11--Scott D. Sullivan
+--84ef26f6e--2014-05-11--Scott D. Sullivan
+0	1	app/controllers/application_controller.rb
+1	1	app/models/archive_faq.rb
+
+--04ca762f9--2014-05-10--Ariana
+7	2	public/javascripts/application.js
+
+--91473affb--2014-05-10--Ariana
+1	1	app/views/archive_faqs/_question_answer_fields.html.erb
+
+--a81a955c9--2014-05-05--Scott D. Sullivan
+--72c67f48e--2014-05-06--Scott D. Sullivan
+1	1	app/models/archive_faq.rb
+
+--ebf5cd449--2014-05-05--Ariana
+1	1	app/models/archive_faq.rb
+
+--3d6e397df--2014-05-02--Scott D. Sullivan
+4	0	app/controllers/application_controller.rb
+0	7	app/controllers/archive_faqs_controller.rb
+
+--11c77a3bb--2014-05-01--Scott D. Sullivan
+--b9bde76b9--2014-04-25--Scott D. Sullivan
+--98cbb4a03--2014-04-25--Scott D. Sullivan
+--346f74c4a--2014-04-21--Scott D. Sullivan
+13	1	app/controllers/application_controller.rb
+1	0	app/views/archive_faqs/edit.html.erb
+
+--81d04ba5b--2014-04-19--Scott D. Sullivan
+--410cf0ea4--2014-04-19--sarken
+11	0	app/views/archive_faqs/confirm_delete.html.erb
+
+--43bc06c56--2014-04-19--Scott D. Sullivan
+0	14	app/views/archive_faqs/_archive_faq_form.html.erb
+
+--2f3c0b323--2014-04-19--Scott D. Sullivan
+--9267ed19a--2014-04-19--Scott D. Sullivan
+15	15	app/controllers/archive_faqs_controller.rb
+3	3	app/models/archive_faq.rb
+2	1	app/models/question.rb
+0	26	app/views/archive_faqs/_archive_faq_form.html.erb
+13	3	db/migrate/20140327111111_doc_faq_rework.rb
+
+--b62c298b2--2014-04-19--sarken
+1	2	app/views/archive_faqs/_faq_index.html.erb
+4	2	app/views/archive_faqs/show.html.erb
+4	0	public/stylesheets/site/2.0/16-zone-system.css
+
+--29e6ffb44--2014-04-19--sarken
+6	5	app/views/archive_faqs/_question_answer_fields.html.erb
+
+--98fb24af7--2014-04-19--sarken
+5	6	app/controllers/archive_faqs_controller.rb
+7	7	app/views/archive_faqs/_archive_faq_form.html.erb
+
+--70a195f6e--2014-04-19--sarken
+6	7	app/views/archive_faqs/_faq_index.html.erb
+
+--17247558f--2014-04-19--sarken
+5	0	app/controllers/archive_faqs_controller.rb
+1	2	app/views/archive_faqs/_admin_index.html.erb
+1	1	app/views/archive_faqs/_question_answer_fields.html.erb
+3	0	config/routes.rb
+
+--209e767df--2014-04-19--sarken
+1	2	app/views/archive_faqs/_faq_index.html.erb
+
+--199a46264--2014-04-19--sarken
+6	3	app/views/archive_faqs/_archive_faq_form.html.erb
+24	11	app/views/archive_faqs/_question_answer_fields.html.erb
+
+--9ad894505--2014-04-18--sarken
+1	0	app/views/archive_faqs/_admin_index.html.erb
+5	4	app/views/archive_faqs/_archive_faq_form.html.erb
+2	0	app/views/archive_faqs/_faq_index.html.erb
+8	1	app/views/archive_faqs/_question_answer_fields.html.erb
+
+--dde08f040--2014-04-18--sarken
+80	0	app/views/archive_faqs/_faq_index.html.erb
+2	57	app/views/archive_faqs/index.html.erb
+19	0	public/stylesheets/site/2.0/16-zone-system.css
+
+--22bf23392--2014-04-18--sarken
+1	1	app/helpers/application_helper.rb
+20	12	app/views/archive_faqs/show.html.erb
+5	3	public/stylesheets/site/2.0/16-zone-system.css
+
+--af0240098--2014-04-18--Scott D. Sullivan
+3	0	Gemfile
+4	0	Gemfile.lock
+2	0	app/models/question.rb
+10	8	db/migrate/20140327111111_doc_faq_rework.rb
+
+--bceefd1a8--2014-04-18--sarken
+6	3	app/views/archive_faqs/index.html.erb
+
+--71e0cdf7f--2014-04-18--sarken
+1	1	app/views/archive_faqs/_admin_index.html.erb
+
+--676c43b10--2014-04-18--sarken
+23	2	app/controllers/archive_faqs_controller.rb
+8	8	app/views/archive_faqs/_archive_faq_form.html.erb
+7	2	app/views/archive_faqs/_question_answer_fields.html.erb
+
+--25ced0e47--2014-04-17--sarken
+5	4	app/views/archive_faqs/_archive_faq_form.html.erb
+33	23	app/views/archive_faqs/_question_answer_fields.html.erb
+
+--24be0bd11--2014-04-13--sarken
+24	28	app/views/archive_faqs/show.html.erb
+2	2	public/stylesheets/site/2.0/16-zone-system.css
+
+--8aeaf8e5a--2014-04-13--sarken
+--67a5d3a61--2014-04-13--sarken
+4	3	app/views/archive_faqs/_admin_index.html.erb
+65	40	app/views/archive_faqs/_archive_faq_form.html.erb
+12	26	app/views/archive_faqs/_question_answer_fields.html.erb
+11	10	app/views/archive_faqs/edit.html.erb
+11	9	app/views/archive_faqs/new.html.erb
+
+--c84adc18a--2014-04-13--sarken
+4	4	app/views/archive_faqs/_filters.html.erb
+
+--8eb9e77f7--2014-04-13--sarken
+--394a04200--2014-04-13--Scott D. Sullivan
+17	0	app/views/archive_faqs/show.html.erb
+
+--4710bd1c0--2014-04-08--Scott D. Sullivan
+1	1	app/models/archive_faq.rb
+
+--fb99657ac--2014-03-27--Scott D. Sullivan
+0	0	db/migrate/{20140327111111_docs_faq_rework.rb => 20140327111111_doc_faq_rework.rb}
+
+--fafe04618--2014-03-27--Scott D. Sullivan
+5	4	app/controllers/archive_faqs_controller.rb
+20	18	app/views/archive_faqs/index.html.erb
+0	0	db/migrate/{Doc_faq_rework.rb => 20140327111111_docs_faq_rework.rb}
+
+--1dc0cad99--2014-03-26--Scott D. Sullivan
+4	2	app/controllers/archive_faqs_controller.rb
+2	1	app/models/archive_faq.rb
+3	3	app/models/question.rb
+
+--56ec3a854--2013-11-28--Scott D. Sullivan
+0	0	db/migrate/{20120730213945_doc_faq_rework.rb => Doc_faq_rework.rb}
+
+--5a30bdee0--2013-09-30--Scott D. Sullivan
+1	1	features/step_definitions/admin_steps.rb
+9	1	features/support/factories.rb
+
+--e3a877c47--2013-09-30--Scott D. Sullivan
+1	1	app/controllers/archive_faqs_controller.rb
+1	1	app/views/admin_mailer/edited_faq.html.erb
+52	1	features/other/admin_tasks.feature
+2	0	features/step_definitions/admin_steps.rb
+
+--614ca5930--2013-09-30--Scott D. Sullivan
+1	1	app/models/archive_faq.rb
+10	0	app/views/admin_mailer/edited_faq.text.erb
+
+--683a31188--2013-09-30--Scott D. Sullivan
+0	4	app/controllers/archive_faqs_controller.rb
+2	2	app/mailers/admin_mailer.rb
+17	0	app/models/archive_faq.rb
+1	17	app/views/admin_mailer/edited_faq.html.erb
+1	1	app/views/archive_faqs/_admin_index.html.erb
+1	1	app/views/archive_faqs/_archive_faq_form.html.erb
+0	2	app/views/archive_faqs/_question_answer_fields.html.erb
+1	1	app/views/archive_faqs/edit.html.erb
+1	1	app/views/archive_faqs/new.html.erb
+
+--7ead54e8d--2013-09-15--Scott D. Sullivan
+7	0	app/controllers/archive_faqs_controller.rb
+20	0	app/mailers/admin_mailer.rb
+6	0	app/models/archive_faq.rb
+20	0	app/views/admin_mailer/created_faq.html.erb
+16	0	app/views/admin_mailer/created_faq.text.erb
+30	0	app/views/admin_mailer/edited_faq.html.erb
+0	0	app/views/admin_mailer/edited_faq.text.erb
+6	0	app/views/archive_faqs/_archive_faq_form.html.erb
+1	1	app/views/archive_faqs/edit.html.erb
+1	1	app/views/archive_faqs/new.html.erb
+
+--80f396d34--2013-09-08--Scott D. Sullivan
+6	0	app/controllers/archive_faqs_controller.rb
+1	1	app/views/archive_faqs/_admin_index.html.erb
+
+--051998dd5--2013-09-08--Scott D. Sullivan
+8	0	app/controllers/archive_faqs_controller.rb
+2	0	app/models/archive_faq.rb
+1	0	app/views/archive_faqs/_admin_index.html.erb
+20	0	app/views/archive_faqs/_archive_faq_form.html.erb
+6	0	app/views/archive_faqs/_filters.html.erb
+8	0	app/views/archive_faqs/index.html.erb
+7	0	db/migrate/20120730213945_doc_faq_rework.rb
+
+--c2bf2f93c--2013-09-02--Scott D. Sullivan
+2	2	db/migrate/20120730213945_doc_faq_rework.rb
+
+--5efd50e5e--2013-09-01--Scott D. Sullivan
+20	15	app/views/archive_faqs/index.html.erb
+
+--3a230bbc9--2013-09-01--Scott D. Sullivan
+1	1	app/views/archive_faqs/_archive_faq_form.html.erb
+9	1	app/views/archive_faqs/_question_answer_fields.html.erb
+
+--f14159be7--2012-12-04--Scott D. Sullivan
+0	9	app/models/archive_faq.rb
+19	24	app/views/archive_faqs/_archive_faq_form.html.erb
+3	9	app/views/archive_faqs/_question_answer_fields.html.erb
+20	20	app/views/archive_faqs/index.html.erb
+
+--e0fc6a5b1--2012-12-02--Scott D. Sullivan
+6	2	db/migrate/20120730213945_doc_faq_rework.rb
+
+--31e74aed6--2012-12-02--Scott D. Sullivan
+0	22	app/controllers/archive_faqs_controller.rb
+
+--30ed9df69--2012-12-02--Scott D. Sullivan
+0	24	app/controllers/questions_controller.rb
+0	33	app/views/archive_faqs/_archive_faq_question_order.html.erb
+0	20	app/views/archive_faqs/_archive_faq_questions_order.html.erb
+0	11	app/views/archive_faqs/manage_questions.html.erb
+
+--3e33e2e17--2012-12-02--Scott D. Sullivan
+22	0	app/controllers/archive_faqs_controller.rb
+0	1	app/controllers/questions_controller.rb
+4	0	app/models/question.rb
+3	0	app/views/archive_faqs/_archive_faq_form.html.erb
+33	0	app/views/archive_faqs/_archive_faq_question_order.html.erb
+20	0	app/views/archive_faqs/_archive_faq_questions_order.html.erb
+1	6	app/views/archive_faqs/_question_answer_fields.html.erb
+1	0	app/views/archive_faqs/edit.html.erb
+34	24	app/views/archive_faqs/index.html.erb
+11	0	app/views/archive_faqs/manage_questions.html.erb
+2	3	app/views/archive_faqs/show.html.erb
+4	3	db/migrate/20120730213945_doc_faq_rework.rb
+
+--03678aba5--2012-12-02--Scott D. Sullivan
+0	22	app/controllers/archive_faqs_controller.rb
+25	0	app/controllers/questions_controller.rb
+0	4	app/models/question.rb
+2	2	app/views/archive_faqs/_archive_faq_form.html.erb
+0	20	app/views/archive_faqs/_archive_faq_questions_order.html.erb
+0	1	app/views/archive_faqs/edit.html.erb
+24	34	app/views/archive_faqs/index.html.erb
+0	11	app/views/archive_faqs/manage_questions.html.erb
+3	2	app/views/archive_faqs/show.html.erb
+3	4	db/migrate/20120730213945_doc_faq_rework.rb
+
+--cb84367e2--2012-08-23--Scott D. Sullivan
+1	2	app/views/archive_faqs/show.html.erb
+
+--fe43e5efe--2012-08-22--Scott D. Sullivan
+1	1	app/views/archive_faqs/show.html.erb
+
+--feede624d--2012-08-22--Scott D. Sullivan
+1	3	app/views/archive_faqs/edit.html.erb
+33	23	app/views/archive_faqs/index.html.erb
+
+--1387681a4--2012-08-04--Scott D. Sullivan
+22	0	app/controllers/archive_faqs_controller.rb
+3	1	app/models/question.rb
+1	1	app/views/archive_faqs/_archive_faq_form.html.erb
+20	0	app/views/archive_faqs/_archive_faq_questions_order.html.erb
+3	0	app/views/archive_faqs/edit.html.erb
+11	0	app/views/archive_faqs/manage_questions.html.erb
+
+--8c1716408--2012-08-01--Scott D. Sullivan
+2	2	app/views/archive_faqs/index.html.erb
+2	2	app/views/archive_faqs/show.html.erb
+
+--2de279a5f--2012-07-31--Scott D. Sullivan
+0	12	app/views/archive_faqs/_question_answer_fields.html.erb
+2	0	db/migrate/20120730213945_doc_faq_rework.rb
+
+--0d114b00c--2012-07-31--Scott D. Sullivan
+2	2	app/views/archive_faqs/_archive_faq_form.html.erb
+
+--4fc91951b--2012-07-31--Scott D. Sullivan
+4	0	app/models/question.rb
+2	3	db/migrate/20120730213945_doc_faq_rework.rb
+
+--6567592ec--2012-07-31--Scott D. Sullivan
+0	2	app/models/question.rb
+3	2	db/migrate/20120730213945_doc_faq_rework.rb
+
+--8a860800f--2012-07-31--Scott D. Sullivan
+0	4	app/models/question.rb
+2	3	db/migrate/20120730213945_doc_faq_rework.rb
+
+--1ce400d0a--2012-07-31--Scott D. Sullivan
+3	0	app/models/question.rb
+0	3	app/views/archive_faqs/_archive_faq_form.html.erb
+10	0	app/views/archive_faqs/_question_answer_fields.html.erb
+0	1	db/migrate/20120730213945_doc_faq_rework.rb
+
+--be6dbcceb--2012-07-30--Scott D. Sullivan
+0	1	app/models/question.rb
+8	1	app/views/archive_faqs/_question_answer_fields.html.erb
+
+--a4b865863--2012-07-30--Scott D. Sullivan
+2	0	app/views/archive_faqs/_archive_faq_form.html.erb
+2	2	app/views/archive_faqs/index.html.erb
+2	2	app/views/archive_faqs/show.html.erb
+
+--1ec7f6906--2012-07-30--Scott D. Sullivan
+4	4	db/migrate/20120730213945_doc_faq_rework.rb
+
+--2b5d26b62--2012-08-01--Scott D. Sullivan
+2	2	app/views/archive_faqs/index.html.erb
+2	2	app/views/archive_faqs/show.html.erb
+
+--9760834dd--2012-07-31--Scott D. Sullivan
+3	1	app/views/archive_faqs/_question_answer_fields.html.erb
+2	0	db/migrate/20120730213945_doc_faq_rework.rb
+
+--763114f7f--2012-07-31--Scott D. Sullivan
+2	2	app/views/archive_faqs/_archive_faq_form.html.erb
+
+--d689d84b8--2012-07-31--Scott D. Sullivan
+4	0	app/models/question.rb
+2	3	db/migrate/20120730213945_doc_faq_rework.rb
+
+--209ba3fd6--2012-07-31--Scott D. Sullivan
+0	25	app/controllers/questions_controller.rb
+0	6	app/models/question.rb
+0	33	app/views/archive_faqs/_archive_faq_question_order.html.erb
+3	2	db/migrate/20120730213945_doc_faq_rework.rb
+
+--eaafe057a--2012-07-31--Scott D. Sullivan
+25	0	app/controllers/questions_controller.rb
+6	0	app/models/question.rb
+33	0	app/views/archive_faqs/_archive_faq_question_order.html.erb
+2	3	db/migrate/20120730213945_doc_faq_rework.rb
+
+--b7d063abf--2012-07-31--Scott D. Sullivan
+10	0	app/models/question.rb
+3	1	app/views/archive_faqs/_question_answer_fields.html.erb
+0	1	app/views/archive_faqs/index.html.erb
+0	2	db/migrate/20120730213945_doc_faq_rework.rb
+
+--f415c2cca--2012-07-30--Scott D. Sullivan
+5	0	app/models/question.rb
+36	0	app/views/archive_faqs/_question_answer_fields.html.erb
+11	0	test/fixtures/questions.yml
+8	0	test/unit/question_test.rb
+
+--3c67f4352--2012-07-30--Scott D. Sullivan
+6	6	app/controllers/archive_faqs_controller.rb
+11	6	app/models/archive_faq.rb
+20	32	app/views/archive_faqs/_archive_faq_form.html.erb
+28	19	app/views/archive_faqs/index.html.erb
+13	6	app/views/archive_faqs/show.html.erb
+
+--2748d7be6--2012-07-30--Scott D. Sullivan
+1	2	db/migrate/20120730213945_doc_faq_rework.rb
+
+--26149d809--2012-07-30--Scott D. Sullivan
+1	1	config/config.yml
+
+--6dcfdd1bf--2012-07-30--Scott D. Sullivan
+26	0	db/migrate/20120730213945_doc_faq_rework.rb
+
+--827e8dab8--2013-09-02--sarken
+1	0	app/controllers/archive_faqs_controller.rb

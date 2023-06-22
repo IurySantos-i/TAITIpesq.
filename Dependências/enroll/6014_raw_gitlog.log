@@ -1,0 +1,59 @@
+--d41e922603--2015-06-10--Sean Carley
+--508a391d23--2015-06-09--Ken Lu
+10	10	app/assets/javascripts/jq_datepicker.js
+6	5	features/step_definitions/employers_steps.rb
+
+--f8f802a0b3--2015-06-09--Ken Lu
+11	7	app/assets/javascripts/application.js
+1	0	app/assets/javascripts/jq_datepicker.js
+0	10	app/assets/javascripts/plan_shopping.js.erb
+0	1	app/views/employers/plan_years/recommend_dates.js.erb
+1	1	app/views/shared/_plan_year_fields.html.erb
+
+--8c3e721adf--2015-06-09--jfinucane
+3	0	app/assets/javascripts/set_tab_content.js
+35	4	app/controllers/exchanges/hbx_profiles_controller.rb
+31	0	app/views/broker_agencies/profiles/_index.html.erb
+1	31	app/views/broker_agencies/profiles/index.html.erb
+36	0	app/views/employers/employer_profiles/_index.html.erb
+1	36	app/views/employers/employer_profiles/index.html.erb
+27	0	app/views/exchanges/hbx_profiles/_broker_index.html.erb
+3	0	app/views/exchanges/hbx_profiles/_configuration_index.html.erb
+3	0	app/views/exchanges/hbx_profiles/_issuer_index.html.erb
+3	0	app/views/exchanges/hbx_profiles/_product_index.html.erb
+1	0	app/views/exchanges/hbx_profiles/broker_agency_index.js.erb
+1	0	app/views/exchanges/hbx_profiles/broker_index.js.erb
+1	0	app/views/exchanges/hbx_profiles/configuration.js.erb
+1	0	app/views/exchanges/hbx_profiles/employer_index.js.erb
+2	0	app/views/exchanges/hbx_profiles/family_index.js.erb
+1	0	app/views/exchanges/hbx_profiles/issuer_index.js.erb
+1	0	app/views/exchanges/hbx_profiles/product_index.js.erb
+1	1	app/views/exchanges/hbx_profiles/shared/_primary_nav.html.erb
+4	16	app/views/exchanges/hbx_profiles/show.html.erb
+25	0	app/views/insured/families/_index.html.erb
+1	25	app/views/insured/families/index.html.erb
+11	0	app/views/shared/_tab_panel.html.erb
+18	0	features/hbx_portal/hbx_portal_tabs.feature
+35	0	features/step_definitions/hbx_portal_steps.rb
+
+--b8a6f5e323--2015-06-09--Sean Carley
+2	2	spec/factories/census_employees.rb
+
+--47e312e411--2015-06-09--Sean Carley
+75	1	app/models/plan_year.rb
+
+--c3e45df472--2015-06-09--Sean Carley
+1	0	app/models/census_employee.rb
+
+--2f6005c7fe--2015-06-09--Sean Carley
+4	2	app/models/census_employee.rb
+
+--c48e7fe45f--2015-06-09--Sean Carley
+--80eb7206d5--2015-06-09--Sean Carley
+18	21	spec/models/employer_profile_spec.rb
+
+--874b99d770--2015-06-09--Sean Carley
+21	45	app/models/employer_profile.rb
+
+--94af3b9398--2015-06-09--Sean Carley
+8	2	app/models/benefit_group.rb

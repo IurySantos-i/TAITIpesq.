@@ -1,0 +1,14 @@
+--a589f0bac--2014-03-05--Mikko Koski
+--427f555a9--2014-03-05--Mikko Koski
+73	8	app/assets/javascripts/kassi.js
+3	1	app/assets/javascripts/locales/en.json
+6	1	app/assets/javascripts/sharetribe_common.js
+14	1	app/controllers/listings_controller.rb
+10	0	app/services/params_service.rb
+3	3	app/views/admin/custom_fields/form/_field_min_max.haml
+0	2	app/views/listings/form/_custom_fields.haml
+1	1	app/views/listings/form/_form_content.haml
+1	1	app/views/listings/form/_javascripts.haml
+2	1	app/views/listings/form/custom_field_partials/_numeric.haml
+
+--195291ab6--2014-03-05--Mikko Koski

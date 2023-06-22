@@ -1,0 +1,289 @@
+--6f8f741ce8--2013-05-29--Murray Steele
+--c04831397b--2013-05-29--Bradley Wright
+--ddb3f17073--2013-05-29--David Heath
+1	1	app/models/topical_event.rb
+
+--4169089aad--2013-05-29--Edd Sowden
+0	1	test/javascripts/unit/autocomplete_test.js
+
+--868a58d83b--2013-05-29--Edd Sowden
+35	0	app/assets/javascripts/admin/create-new.js
+3	0	app/assets/javascripts/admin/on_ready.js
+1	0	app/assets/stylesheets/admin/base.scss
+20	1	app/assets/stylesheets/admin/layout.scss
+13	10	app/helpers/admin/edition_actions_helper.rb
+4	0	app/views/layouts/admin.html.erb
+16	0	test/javascripts/unit/create-new_test.js
+
+--d3b3dd0c77--2013-05-29--Bradley Wright
+--7c7ccdab8f--2013-05-20--Tekin Suleyman
+8	0	db/migrate/20130520154538_drop_legacy_translated_columns.rb
+1	11	db/schema.rb
+
+--81760cb61b--2013-05-24--Edd Sowden
+3	1	app/assets/stylesheets/admin/base.scss
+28	0	app/assets/stylesheets/admin/helpers/_document_list.scss
+9	0	app/controllers/admin/dashboard_controller.rb
+5	0	app/models/organisation.rb
+24	0	app/views/admin/dashboard/_document_table.html.erb
+16	0	app/views/admin/dashboard/index.html.erb
+1	1	config/routes.rb
+17	0	features/admin-dashboard.feature
+13	0	features/step_definitions/admin_dashboard_steps.rb
+9	0	features/step_definitions/document_steps.rb
+4	7	test/integration/routing_test.rb
+
+--a05d58fc4c--2013-05-28--Matthew Ford
+--89b85a9899--2013-05-28--Matthew Ford
+--1ec29b32d4--2013-05-28--Matthew Ford
+--25c0f9f15a--2013-05-28--Murray Steele
+9	0	app/presenters/api/worldwide_organisation_presenter.rb
+20	4	test/unit/presenters/api/worldwide_organisation_presenter_test.rb
+
+--9ad08f555a--2013-05-28--Murray Steele
+3	3	app/views/admin/organisations/_form.html.erb
+7	0	app/views/admin/organisations/show.html.erb
+5	3	features/administering-organisations.feature
+16	4	features/step_definitions/mainstream_categories_on_orgs_steps.rb
+
+--69d13ca220--2013-05-28--Murray Steele
+--36228588df--2013-05-24--Murray Steele
+1	1	app/views/admin/editions/_fact_check_responses.html.erb
+
+--f893db4cc8--2013-05-24--Murray Steele
+1	1	app/models/admin/edition_filter.rb
+0	5	app/models/edition.rb
+3	0	app/models/edition/audit_trail.rb
+1	1	test/unit/edition_test.rb
+
+--8a2087cf45--2013-05-28--Tekin Suleyman
+3	1	app/helpers/document_helper.rb
+1	1	app/views/shared/_available_languages.html.erb
+7	0	test/unit/helpers/document_helper_test.rb
+
+--3b405a340e--2013-05-24--Murray Steele
+9	3	app/controllers/admin/document_series_controller.rb
+1	0	app/views/admin/document_series/show.html.erb
+14	9	test/functional/admin/document_series_controller_test.rb
+
+--3e1dd42b82--2013-05-24--Murray Steele
+0	2	app/controllers/home_controller.rb
+0	14	app/views/home/home.html.erb
+0	31	test/functional/home_controller_test.rb
+
+--ad7947c16a--2013-05-24--Murray Steele
+2	2	app/helpers/localised_url_path_helper.rb
+17	0	test/unit/helpers/localised_url_path_helper_test.rb
+
+--c0f0058a02--2013-05-24--Murray Steele
+5	5	app/helpers/application_helper.rb
+1	0	app/models/role_appointment.rb
+1	1	app/views/admin/editions/_worldwide_organisation_fields.html.erb
+1	1	features/step_definitions/document_steps.rb
+2	2	features/step_definitions/minister_steps.rb
+4	0	features/support/role_appointments_helper.rb
+
+--05343c3ce3--2013-05-28--Tekin Suleyman
+1	1	app/helpers/document_helper.rb
+30	0	test/unit/helpers/document_helper_test.rb
+
+--8cef6fbecb--2013-05-24--Murray Steele
+1	1	app/helpers/application_helper.rb
+1	1	app/views/admin/editions/_inbound_links.html.erb
+1	1	app/views/admin/editions/_outbound_links.html.erb
+
+--dcc512fee7--2013-05-24--Bradley Wright
+--eafe0c8046--2013-05-24--Bradley Wright
+--3f111fbd5a--2013-05-24--Tekin Suleyman
+1	1	jenkins-parallel.sh
+
+--8459e9aa52--2013-05-24--Edd Sowden
+1	1	app/assets/javascripts/admin/autocomplete.js.erb
+
+--5992d8cbd5--2013-05-24--Edd Sowden
+1	1	app/controllers/admin/suggestions_controller.rb
+
+--7715b1a4fb--2013-05-24--Murray Steele
+14	0	features/audit-trail.feature
+50	0	features/step_definitions/audit_trail_steps.rb
+
+--7cfec7f0c1--2013-05-23--Murray Steele
+4	0	app/assets/stylesheets/admin/audit_trail.scss
+18	0	app/helpers/admin/audit_trail_helper.rb
+1	3	app/views/admin/editions/edit.html.erb
+1	3	app/views/admin/editions/show.html.erb
+
+--d32ef1f852--2013-05-23--Murray Steele
+27	0	app/assets/javascripts/admin/audit_trail.js
+8	0	app/assets/javascripts/admin/author_filter.js
+952	0	app/assets/javascripts/admin/chosen.jquery.js
+29	0	app/assets/javascripts/admin/document_list.js
+149	0	app/assets/javascripts/admin/edition_publishing.js
+77	0	app/assets/javascripts/admin/featured_topics_and_policies.js
+44	0	app/assets/javascripts/admin/featuring.js
+39	0	app/assets/javascripts/admin/multiple_file_upload.js
+56	0	app/assets/javascripts/admin/on_ready.js
+97	0	app/assets/javascripts/admin/organisation_contact_form.js
+8	0	app/assets/javascripts/admin/organisation_filter.js
+105	0	app/assets/javascripts/admin/preview.js
+88	0	app/assets/javascripts/admin/promotional_features.js
+81	0	app/assets/javascripts/admin/sortable.js
+7	0	app/assets/javascripts/admin/speed_tagging.js
+33	0	app/assets/javascripts/admin/summary_length_counting.js
+27	0	app/assets/javascripts/admin/update_speech_headers.js.erb
+8	0	app/assets/javascripts/admin/world_location_filter.js
+5	0	app/assets/stylesheets/admin/audit_trail.scss
+8	0	app/controllers/admin/edition_audit_trail_controller.rb
+4	0	app/helpers/admin/audit_trail_helper.rb
+1	1	app/views/kaminari/audit_trail/_next_page.html.erb
+1	1	app/views/kaminari/audit_trail/_prev_page.html.erb
+1	0	config/routes.rb
+1	0	test/integration/page_title_test.rb
+
+--c8b694af10--2013-05-24--Tekin Suleyman
+1	0	test/unit/whitehall/data_migrator_test.rb
+
+--26028015a8--2013-05-24--Bradley Wright
+--48ed09b646--2013-05-24--Bradley Wright
+--0b8da1470e--2013-05-24--Bradley Wright
+--1f289c6f3e--2013-05-24--Tekin Suleyman
+1	0	.gitignore
+1	0	Gemfile
+2	0	Gemfile.lock
+17	2	lib/tasks/test_parallel.rake
+9	0	script/test_queue
+15	0	test/parallel_test_runner.rb
+
+--ca849a92ab--2013-05-24--David Heath
+6	0	app/models/edition/document_series.rb
+11	0	test/unit/edition/document_series_test.rb
+
+--dae22be601--2013-05-24--Edd Sowden
+2	1	app/assets/javascripts/admin/{autocomplete.js => autocomplete.js.erb}
+1	1	app/controllers/admin/suggestions_controller.rb
+
+--65bea630b6--2013-05-23--Murray Steele
+0	8	app/assets/javascripts/admin/author_filter.js
+0	952	app/assets/javascripts/admin/chosen.jquery.js
+0	29	app/assets/javascripts/admin/document_list.js
+0	149	app/assets/javascripts/admin/edition_publishing.js
+0	77	app/assets/javascripts/admin/featured_topics_and_policies.js
+0	44	app/assets/javascripts/admin/featuring.js
+0	39	app/assets/javascripts/admin/multiple_file_upload.js
+0	56	app/assets/javascripts/admin/on_ready.js
+0	97	app/assets/javascripts/admin/organisation_contact_form.js
+0	8	app/assets/javascripts/admin/organisation_filter.js
+0	105	app/assets/javascripts/admin/preview.js
+0	88	app/assets/javascripts/admin/promotional_features.js
+0	81	app/assets/javascripts/admin/sortable.js
+0	7	app/assets/javascripts/admin/speed_tagging.js
+0	33	app/assets/javascripts/admin/summary_length_counting.js
+0	27	app/assets/javascripts/admin/update_speech_headers.js.erb
+0	8	app/assets/javascripts/admin/world_location_filter.js
+8	0	app/controllers/admin/editions_controller.rb
+5	4	app/helpers/admin/sidebar_helper.rb
+8	0	app/views/admin/edition_audit_trail/index.html.erb
+17	4	app/views/admin/editions/edit.html.erb
+10	6	app/views/admin/editions/show.html.erb
+10	0	app/views/kaminari/audit_trail/_next_page.html.erb
+16	0	app/views/kaminari/audit_trail/_paginator.html.erb
+10	0	app/views/kaminari/audit_trail/_prev_page.html.erb
+
+--281616c456--2013-05-23--Murray Steele
+2	1	app/helpers/admin/sidebar_helper.rb
+34	9	app/models/edition/audit_trail.rb
+9	2	app/views/admin/editions/show.html.erb
+13	0	test/unit/edition/audit_trail_test.rb
+
+--735a65db6c--2013-05-23--Tekin Suleyman
+0	5	test/unit/access_and_opening_times_test.rb
+
+--1c88d6c726--2013-05-23--Edd Sowden
+245	0	app/assets/javascripts/admin/autocomplete.js
+30	0	app/assets/stylesheets/admin/forms.scss
+18	0	app/controllers/admin/suggestions_controller.rb
+12	0	app/models/contact.rb
+2	0	config/routes.rb
+25	0	test/functional/admin/suggestions_controller_test.rb
+165	0	test/javascripts/unit/autocomplete_test.js
+
+--916453b095--2013-05-22--Murray Steele
+2	6	app/models/edition/audit_trail.rb
+1	8	app/models/version.rb
+
+--849f2de524--2013-05-17--Murray Steele
+1	0	config/locales/ar.yml
+1	0	config/locales/az.yml
+1	0	config/locales/be.yml
+1	0	config/locales/bg.yml
+1	0	config/locales/bn.yml
+1	0	config/locales/cs.yml
+1	0	config/locales/cy.yml
+1	0	config/locales/de.yml
+1	0	config/locales/dr.yml
+1	0	config/locales/el.yml
+1	0	config/locales/es-419.yml
+1	0	config/locales/es.yml
+1	0	config/locales/fa.yml
+1	0	config/locales/fr.yml
+1	0	config/locales/he.yml
+1	0	config/locales/hi.yml
+1	0	config/locales/hu.yml
+1	0	config/locales/hy.yml
+1	0	config/locales/id.yml
+1	0	config/locales/it.yml
+1	0	config/locales/ja.yml
+1	0	config/locales/ka.yml
+1	0	config/locales/ko.yml
+1	0	config/locales/lt.yml
+1	0	config/locales/lv.yml
+1	0	config/locales/ms.yml
+1	0	config/locales/pl.yml
+1	0	config/locales/ps.yml
+1	0	config/locales/pt.yml
+1	0	config/locales/ro.yml
+1	0	config/locales/ru.yml
+1	0	config/locales/si.yml
+1	0	config/locales/sk.yml
+1	0	config/locales/so.yml
+1	0	config/locales/sq.yml
+1	0	config/locales/sr.yml
+1	0	config/locales/sw.yml
+1	0	config/locales/ta.yml
+1	0	config/locales/th.yml
+1	0	config/locales/tk.yml
+1	0	config/locales/tr.yml
+1	0	config/locales/uk.yml
+1	0	config/locales/ur.yml
+1	0	config/locales/uz.yml
+1	0	config/locales/vi.yml
+1	0	config/locales/zh-hk.yml
+1	0	config/locales/zh-tw.yml
+1	0	config/locales/zh.yml
+
+--84cd2a6af8--2013-05-15--Murray Steele
+7	2	app/assets/stylesheets/frontend/views/_organisations.scss
+1	0	app/controllers/organisations_controller.rb
+12	0	app/views/mainstream_categories/_list_description.html.erb
+11	0	app/views/organisations/show.html.erb
+1	0	config/locales/en.yml
+
+--e7614eb283--2013-05-15--Murray Steele
+23	0	app/controllers/admin/organisations_controller.rb
+1	1	app/models/organisation.rb
+1	1	app/models/organisation_mainstream_category.rb
+12	0	app/views/admin/organisations/_form.html.erb
+33	0	test/functional/admin/organisations_controller_test.rb
+
+--b078553b5b--2013-05-15--Murray Steele
+4	0	app/models/organisation.rb
+7	0	app/models/organisation_mainstream_category.rb
+15	0	db/migrate/20130514152339_add_mainstream_categories_to_organisations.rb
+13	1	db/schema.rb
+7	0	test/factories/organisation_mainstream_categories.rb
+25	0	test/unit/organisation_mainstream_category_test.rb
+17	0	test/unit/organisation_test.rb
+
+--25d40a3e3e--2013-05-14--Murray Steele
+8	0	features/administering-organisations.feature
+41	0	features/step_definitions/mainstream_categories_on_orgs_steps.rb

@@ -1,0 +1,67 @@
+--5b34fe047--2014-04-24--Cristina
+--468ecc4b4--2014-04-24--Cristina
+--c09b638c0--2014-04-24--sarken
+4	0	public/stylesheets/site/2.0/12-group-meta.css
+
+--d6a77664a--2014-04-24--sarken
+0	1	features/other/subscriptions.feature
+
+--6b5887eeb--2014-04-24--sarken
+--4593e8370--2014-04-23--sarken
+--d60c2e03d--2014-04-24--Scott D. Sullivan
+1	1	features/works/work_languages.feature
+
+--03cc68ac0--2014-04-24--sarken
+2	2	features/works/work_search.feature
+
+--ec75a0317--2014-04-24--Scott D. Sullivan
+0	5	app/helpers/works_helper.rb
+9	0	app/views/works/_meta.html.erb
+5	4	app/views/works/_work_module.html.erb
+
+--112cf4dfd--2014-04-24--sarken
+6	0	features/fixtures/chapters.yml
+4	0	features/fixtures/creatorships.yml
+3	0	features/fixtures/stat_counters.yml
+15	0	features/fixtures/taggings.yml
+12	1	features/fixtures/works.yml
+20	7	features/other/subscriptions.feature
+
+--f20c26b08--2014-04-24--sarken
+1	1	app/views/subscriptions/index.html.erb
+
+--1c5717079--2014-04-24--sarken
+1	1	app/views/collection_items/_collection_item_form.html.erb
+
+--3a7d7ef21--2014-04-21--Ariana
+--8560e929d--2014-04-21--Ariana
+3	3	app/models/work.rb
+
+--5f1d4d1bc--2014-04-19--Ariana
+3	3	.travis.yml
+
+--5472f689d--2014-04-18--Ariana
+128	0	features/comments_and_kudos/add_comment.feature
+37	0	features/comments_and_kudos/comments_adminposts.feature
+50	0	features/comments_and_kudos/comments_delete.feature
+13	0	features/comments_and_kudos/comments_pagination.feature
+120	0	features/comments_and_kudos/comments_redirect.feature
+
+--0f37bdac3--2014-04-18--Ariana
+4	3	.travis.yml
+
+--0c2ea615e--2014-04-18--Ariana
+1	0	features/collections/collection_anonymity.feature
+0	128	features/other/add_comment.feature
+0	37	features/other/comments_adminposts.feature
+0	50	features/other/comments_delete.feature
+0	13	features/other/comments_pagination.feature
+0	120	features/other/comments_redirect.feature
+
+--56d9c19ec--2014-04-18--Ariana
+3	3	app/models/work.rb
+0	0	features/{other => comments_and_kudos}/kudos.feature
+
+--f722ba460--2014-04-18--Ariana
+1	0	features/other/series.feature
+1	0	features/other/subscriptions_fandoms.feature

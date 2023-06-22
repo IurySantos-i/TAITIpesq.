@@ -1,0 +1,25 @@
+--ccbd2c39a--2009-04-25--Nick Quaranto
+--13245354b--2009-04-25--Tom Preston-Werner
+5	1	README.textile
+
+--080108b0f--2009-04-25--Nick Quaranto
+3	3	features/permalinks.feature
+1	1	features/support/env.rb
+1	1	lib/jekyll/post.rb
+
+--9da140fcb--2009-04-25--Nick Quaranto
+3	3	features/permalinks.feature
+1	1	features/support/env.rb
+19	24	lib/jekyll/post.rb
+42	5	test/test_post.rb
+
+--288d5045d--2009-04-25--Nick Quaranto
+23	2	lib/jekyll/post.rb
+44	15	test/test_post.rb
+
+--73fa7dcad--2009-04-24--Nick Quaranto
+25	0	test/test_post.rb
+
+--f3fd105b4--2009-04-24--Nick Quaranto
+54	0	features/permalinks.feature
+0	20	features/site_configuration.feature

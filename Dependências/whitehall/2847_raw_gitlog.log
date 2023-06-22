@@ -1,0 +1,346 @@
+--207183f154--2013-10-10--Tekin Suleyman
+--f82796ca19--2013-10-10--Will Tomlins
+1	1	app/views/organisations/_header.html.erb
+1	1	app/views/topics/show.html.erb
+1	1	app/views/world_locations/show.html.erb
+
+--f95e5db81f--2013-10-10--Will Tomlins
+0	4	app/models/organisation_top_task.rb
+0	4	app/models/world_location_top_task.rb
+48	0	db/migrate/20131010130144_kill_the_legacy_top_topics_join_tables.rb
+1	22	db/schema.rb
+
+--ec947b61ec--2013-10-10--russell thorn
+3	1	app/assets/stylesheets/admin/forms.scss
+
+--62355a22f9--2013-10-10--russell thorn
+5	0	app/assets/stylesheets/admin/forms.scss
+1	1	app/views/admin/speeches/_speech_type_fields.html.erb
+
+--d57fce3bcf--2013-10-09--layam
+--44d889ac8d--2013-10-09--Will Tomlins
+1	1	test/functional/organisations_controller_test.rb
+
+--20e2bcfd8e--2013-10-09--Will Tomlins
+2	2	db/migrate/20131008145633_rename_mainstream_links_to_top_tasks_part_1.rb
+2	2	db/pending_migration_cleanups/20131008152621_rename_mainstream_links_to_top_tasks_part_2.rb
+
+--c1011c3993--2013-10-09--Elliot Crosby-McCullough
+6	9	app/assets/javascripts/admin/format_advice.js
+0	4	app/assets/stylesheets/admin/forms.scss
+2	1	app/helpers/admin/editions_helper.rb
+2	4	app/views/admin/editions/_format_advice.html.erb
+12	10	app/views/admin/editions/_publication_type_fields.html.erb
+11	9	app/views/admin/news_articles/_news_article_type_fields.html.erb
+10	8	app/views/admin/speeches/_speech_type_fields.html.erb
+9	1	config/locales/en.yml
+
+--bd78752822--2013-10-09--Will Tomlins
+0	1	app/assets/stylesheets/frontend/base.scss
+0	50	app/assets/stylesheets/frontend/helpers/_heading-aside.scss
+41	5	app/assets/stylesheets/frontend/helpers/_headings.scss
+1	1	app/views/organisations/_header.html.erb
+1	1	app/views/topics/show.html.erb
+3	7	app/views/world_locations/show.html.erb
+
+--bf2f25c1c6--2013-10-09--Will Tomlins
+8	0	app/models/has_top_tasks.rb
+2	3	app/models/organisation.rb
+1	3	app/models/topic.rb
+2	2	app/models/world_location.rb
+
+--4e1fa5627c--2013-10-09--Will Tomlins
+0	2	app/controllers/admin/organisations_controller.rb
+0	4	app/controllers/admin/world_locations_controller.rb
+0	13	test/functional/admin/organisations_controller_test.rb
+0	9	test/functional/admin/world_locations_controller_test.rb
+
+--c9f3ba237b--2013-10-09--Will Tomlins
+1	0	app/assets/stylesheets/frontend/base.scss
+50	0	app/assets/stylesheets/frontend/helpers/_heading-aside.scss
+0	54	app/assets/stylesheets/frontend/views/_organisations.scss
+3	0	app/models/topic.rb
+9	1	app/views/admin/shared/_top_tasks_fields.html.erb
+1	0	app/views/admin/topics/_custom_form_fields.html
+3	7	app/views/organisations/_header.html.erb
+5	0	app/views/shared/_top_tasks.html.erb
+4	0	app/views/topics/show.html.erb
+13	0	db/migrate/20131009103118_add_topic_top_tasks.rb
+8	1	db/schema.rb
+2	2	features/organisations.feature
+3	3	features/step_definitions/organisation_steps.rb
+19	0	features/step_definitions/topic_steps.rb
+4	0	features/support/paths.rb
+5	0	features/topics.feature
+50	29	test/functional/admin/topics_controller_test.rb
+45	0	test/unit/topic_test.rb
+
+--29fddcdddf--2013-10-09--Elliot Crosby-McCullough
+7	7	config/locales/en.yml
+
+--ec6938e86e--2013-10-09--Dominic Baggott
+--1fabba2715--2013-10-04--Elliot Crosby-McCullough
+4	0	app/assets/stylesheets/admin/forms.scss
+
+--00a9b3e64f--2013-10-04--Elliot Crosby-McCullough
+9	1	app/assets/javascripts/admin/format_advice.js
+
+--3911876c9b--2013-10-04--Elliot Crosby-McCullough
+1	1	app/views/admin/editions/_format_advice.html.erb
+1	1	app/views/admin/editions/_show_metadata.html.erb
+
+--915fe0dce6--2013-10-04--Elliot Crosby-McCullough
+2	2	app/assets/javascripts/application/show-hide.js
+1	1	app/views/admin/editions/new.html.erb
+1	1	app/views/admin/speeches/_delivered_by_fields.html.erb
+1	1	test/unit/speech_type_test.rb
+
+--3be9bb0065--2013-10-04--Elliot Crosby-McCullough
+3	7	features/support/document_helper.rb
+
+--928deedde6--2013-10-04--Elliot Crosby-McCullough
+1	1	app/views/admin/speeches/_delivered_by_fields.html.erb
+
+--542446e931--2013-10-04--Elliot Crosby-McCullough
+1	1	app/helpers/admin/editions_helper.rb
+8	5	app/helpers/application_helper.rb
+19	11	app/models/speech_type.rb
+1	1	app/views/admin/speeches/_speech_type_fields.html.erb
+1	1	features/support/document_helper.rb
+1	1	test/unit/speech_type_test.rb
+
+--1885a126d5--2013-10-04--Elliot Crosby-McCullough
+5	0	app/views/admin/editions/_show_metadata.html.erb
+
+--95466ecff3--2013-10-04--Elliot Crosby-McCullough
+15	0	app/assets/javascripts/admin/format_advice.js
+2	0	app/assets/javascripts/admin/on_ready.js
+1	1	app/assets/javascripts/admin/update_speech_headers.js.erb
+19	7	app/helpers/admin/editions_helper.rb
+4	0	app/models/news_article_type.rb
+4	0	app/models/publication_type.rb
+12	8	app/models/speech_type.rb
+1	1	app/views/admin/editions/_format_advice.html.erb
+3	2	app/views/admin/editions/_publication_type_fields.html.erb
+2	0	app/views/admin/editions/_standard_fields.html.erb
+0	0	app/views/admin/editions/_subtype_fields.html.erb
+0	3	app/views/admin/news_articles/_additional_significant_fields.html.erb
+8	1	app/views/admin/news_articles/_news_article_type_fields.html.erb
+1	0	app/views/admin/news_articles/_subtype_fields.html.erb
+0	3	app/views/admin/publications/_additional_significant_fields.html.erb
+1	0	app/views/admin/publications/_subtype_fields.html.erb
+0	1	app/views/admin/speeches/_additional_significant_fields.html.erb
+8	2	app/views/admin/speeches/_speech_type_fields.html.erb
+1	0	app/views/admin/speeches/_subtype_fields.html.erb
+60	0	config/locales/ar.yml
+60	0	config/locales/az.yml
+60	0	config/locales/be.yml
+60	0	config/locales/bg.yml
+60	0	config/locales/bn.yml
+60	0	config/locales/cs.yml
+60	0	config/locales/cy.yml
+60	0	config/locales/de.yml
+60	0	config/locales/dr.yml
+60	0	config/locales/el.yml
+77	3	config/locales/en.yml
+60	0	config/locales/es-419.yml
+60	0	config/locales/es.yml
+60	0	config/locales/fa.yml
+60	0	config/locales/fr.yml
+60	0	config/locales/he.yml
+60	0	config/locales/hi.yml
+60	0	config/locales/hu.yml
+60	0	config/locales/hy.yml
+60	0	config/locales/id.yml
+60	0	config/locales/it.yml
+60	0	config/locales/ja.yml
+60	0	config/locales/ka.yml
+60	0	config/locales/ko.yml
+60	0	config/locales/lt.yml
+60	0	config/locales/lv.yml
+60	0	config/locales/ms.yml
+60	0	config/locales/pl.yml
+60	0	config/locales/ps.yml
+60	0	config/locales/pt.yml
+60	0	config/locales/ro.yml
+60	0	config/locales/ru.yml
+60	0	config/locales/si.yml
+60	0	config/locales/sk.yml
+60	0	config/locales/so.yml
+60	0	config/locales/sq.yml
+60	0	config/locales/sr.yml
+60	0	config/locales/sw.yml
+60	0	config/locales/ta.yml
+60	0	config/locales/th.yml
+60	0	config/locales/tk.yml
+60	0	config/locales/tr.yml
+60	0	config/locales/uk.yml
+60	0	config/locales/ur.yml
+60	0	config/locales/uz.yml
+60	0	config/locales/vi.yml
+60	0	config/locales/zh-hk.yml
+60	0	config/locales/zh-tw.yml
+60	0	config/locales/zh.yml
+2	2	features/importing-new-editions.feature
+1	1	features/step_definitions/import_steps.rb
+1	1	features/step_definitions/speech_steps.rb
+1	1	features/support/document_helper.rb
+
+--0e8ca253ca--2013-10-04--Elliot Crosby-McCullough
+1	1	app/models/edition.rb
+6	0	app/views/admin/editions/_format_advice.html.erb
+1	0	app/views/admin/editions/new.html.erb
+28	0	config/locales/ar.yml
+28	0	config/locales/az.yml
+28	0	config/locales/be.yml
+28	0	config/locales/bg.yml
+28	0	config/locales/bn.yml
+28	0	config/locales/cs.yml
+28	0	config/locales/cy.yml
+28	0	config/locales/de.yml
+28	0	config/locales/dr.yml
+28	0	config/locales/el.yml
+34	0	config/locales/en.yml
+28	0	config/locales/es-419.yml
+28	0	config/locales/es.yml
+28	0	config/locales/fa.yml
+28	0	config/locales/fr.yml
+28	0	config/locales/he.yml
+28	0	config/locales/hi.yml
+28	0	config/locales/hu.yml
+28	0	config/locales/hy.yml
+28	0	config/locales/id.yml
+28	0	config/locales/it.yml
+28	0	config/locales/ja.yml
+28	0	config/locales/ka.yml
+28	0	config/locales/ko.yml
+28	0	config/locales/lt.yml
+28	0	config/locales/lv.yml
+28	0	config/locales/ms.yml
+28	0	config/locales/pl.yml
+28	0	config/locales/ps.yml
+28	0	config/locales/pt.yml
+28	0	config/locales/ro.yml
+28	0	config/locales/ru.yml
+28	0	config/locales/si.yml
+28	0	config/locales/sk.yml
+28	0	config/locales/so.yml
+28	0	config/locales/sq.yml
+28	0	config/locales/sr.yml
+28	0	config/locales/sw.yml
+28	0	config/locales/ta.yml
+28	0	config/locales/th.yml
+28	0	config/locales/tk.yml
+28	0	config/locales/tr.yml
+28	0	config/locales/uk.yml
+28	0	config/locales/ur.yml
+28	0	config/locales/uz.yml
+28	0	config/locales/vi.yml
+28	0	config/locales/zh-hk.yml
+28	0	config/locales/zh-tw.yml
+28	0	config/locales/zh.yml
+
+--a62a47d87a--2013-10-09--layam
+--2d0db6753b--2013-10-09--russell thorn
+1	1	app/assets/stylesheets/admin/document.scss
+
+--5dd372a01a--2013-10-09--Dominic Baggott
+--7ceb577951--2013-10-08--Elliot Crosby-McCullough
+1	0	app/helpers/document_helper.rb
+1	1	app/uploaders/attachment_uploader.rb
+2	0	config/initializers/mime_types.rb
+2	2	test/unit/attachment_uploader_test.rb
+
+--96da13f6a8--2013-10-09--Dominic Baggott
+--1da4f10798--2013-10-08--Will Tomlins
+1	1	app/assets/stylesheets/frontend/helpers/_headings.scss
+4	4	app/assets/stylesheets/frontend/views/_organisations.scss
+2	2	app/assets/stylesheets/frontend/views/_world_locations.scss
+2	2	app/controllers/admin/organisations_controller.rb
+1	1	app/controllers/admin/world_locations_controller.rb
+2	2	app/models/organisation.rb
+0	4	app/models/organisation_mainstream_link.rb
+4	0	app/models/organisation_top_task.rb
+2	2	app/models/{mainstream_link.rb => top_task.rb}
+2	2	app/models/world_location.rb
+0	4	app/models/world_location_mainstream_link.rb
+4	0	app/models/world_location_top_task.rb
+1	1	app/views/admin/organisations/_form.html.erb
+3	3	app/views/admin/organisations/show.html.erb
+0	12	app/views/admin/shared/_mainstream_link_fields.html.erb
+12	0	app/views/admin/shared/_top_tasks_fields.html.erb
+1	1	app/views/admin/world_locations/edit.html.erb
+1	1	app/views/corporate_information_pages/show.html.erb
+4	4	app/views/organisations/_header.html.erb
+1	1	app/views/organisations/about.html.erb
+1	1	app/views/organisations/show.html.erb
+4	4	app/views/world_locations/show.html.erb
+49	0	db/migrate/20131008145633_rename_mainstream_links_to_top_tasks_part_1.rb
+48	0	db/pending_migration_cleanups/20131008152621_rename_mainstream_links_to_top_tasks_part_2.rb
+27	1	db/schema.rb
+3	3	features/organisations.feature
+7	7	features/step_definitions/organisation_steps.rb
+0	6	test/factories/mainstream_links.rb
+6	0	test/factories/top_tasks.rb
+8	8	test/functional/admin/organisations_controller_test.rb
+8	8	test/functional/admin/world_locations_controller_test.rb
+7	7	test/functional/organisations_controller_test.rb
+4	4	test/functional/world_locations_controller_test.rb
+0	25	test/unit/mainstream_link_test.rb
+15	15	test/unit/models/organisation_test.rb
+25	0	test/unit/top_task_test.rb
+15	15	test/unit/world_location_test.rb
+
+--9618f889ac--2013-10-09--Dominic Baggott
+--60b62dff02--2013-10-08--Matthew Ford
+3	3	test/functional/publications_controller_test.rb
+
+--3cd3af6235--2013-10-08--Matthew Ford
+4	4	test/unit/whitehall/document_filter/mysql_test.rb
+
+--3019ec531a--2013-10-08--russell thorn
+4	0	app/assets/stylesheets/admin/document.scss
+2	2	app/helpers/admin/editions_helper.rb
+
+--715360e237--2013-10-08--Matthew Ford
+1	1	app/assets/javascripts/application/document_filter.js
+2	4	lib/whitehall/document_filter/filterer.rb
+3	6	lib/whitehall/document_filter/rummager.rb
+
+--05399392ba--2013-10-08--Matthew Ford
+2	2	app/presenters/document_filter_presenter.rb
+1	0	config/initializers/formats.rb
+4	1	lib/whitehall/document_filter/filterer.rb
+
+--c5c24240b0--2013-10-08--Matthew Ford
+1	1	lib/whitehall/document_filter/rummager.rb
+
+--5c52d4501d--2013-10-08--Matthew Ford
+2	2	lib/whitehall/document_filter/filterer.rb
+
+--02e74c10c0--2013-10-08--Elliot Crosby-McCullough
+1	1	app/views/admin/imports/new_document_list.html.erb
+
+--c866448bb4--2013-10-07--Elliot Crosby-McCullough
+21	0	app/assets/javascripts/admin/large_import_logs.js
+2	0	app/assets/javascripts/admin/on_ready.js
+1	0	app/assets/stylesheets/admin/base.scss
+3	0	app/assets/stylesheets/admin/import.scss
+3	3	app/views/admin/imports/show.html.erb
+
+--9c51f862f1--2013-10-07--Elliot Crosby-McCullough
+5	1	app/controllers/admin/imports_controller.rb
+0	22	app/views/admin/imports/_errors.html.erb
+19	0	app/views/admin/imports/error_list.html.erb
+6	0	app/views/admin/imports/import_log.html.erb
+16	0	app/views/admin/imports/new_document_list.html.erb
+8	15	app/views/admin/imports/show.html.erb
+3	0	config/routes.rb
+2	0	features/step_definitions/import_steps.rb
+4	7	test/functional/admin/imports_controller_test.rb
+
+--37b6f63e25--2013-10-07--Elliot Crosby-McCullough
+2	6	app/views/admin/imports/show.html.erb
+
+--17af27f131--2013-10-07--Will Tomlins
+2	0	db/{pending_migration_cleanups => migrate}/20130912150137_cleanup_organisation_type.rb

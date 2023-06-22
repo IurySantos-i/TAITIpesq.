@@ -1,0 +1,377 @@
+--bf6b0116fd--2014-03-24--Will Tomlins
+--2acc4da9c7--2014-03-24--Will Tomlins
+46	0	app/assets/javascripts/application/modules/remote_search_filter.js
+6	0	app/controllers/statistics_announcements_controller.rb
+34	0	app/views/statistics_announcements/_filter_results.html.erb
+8	36	app/views/statistics_announcements/index.html.erb
+8	0	test/functional/statistics_announcements_controller_test.rb
+112	0	test/javascripts/unit/application/modules/remote_search_filter_test.js
+
+--7e3dabecbc--2014-03-24--Tekin Suleyman
+1	1	test/functional/admin/statistics_announcement_date_changes_controller_test.rb
+
+--edceee11f9--2014-03-24--Tekin Suleyman
+9	0	app/models/statistics_announcement_date.rb
+14	0	test/unit/statistics_announcement_date_test.rb
+
+--d69e08aa41--2014-03-24--Tekin Suleyman
+9	0	app/assets/stylesheets/admin/views/_statistics_announcements.scss
+8	0	app/views/admin/statistics_announcements/show.html.erb
+
+--55d9fd1ab1--2014-03-24--Tekin Suleyman
+4	1	app/views/admin/statistics_announcements/index.html.erb
+
+--f2829ebafe--2014-03-24--Tekin Suleyman
+6	0	app/views/admin/statistics_announcements/show.html.erb
+
+--5faa94f6ff--2014-03-24--Tekin Suleyman
+6	0	app/models/statistics_announcement_date_change.rb
+8	0	test/unit/models/statistics_announcement_date_change_test.rb
+
+--9408ade172--2014-03-24--Tekin Suleyman
+32	0	app/controllers/admin/statistics_announcement_date_changes_controller.rb
+0	31	app/controllers/admin/statistics_announcement_dates_controller.rb
+9	0	app/models/statistics_announcement.rb
+33	0	app/models/statistics_announcement_date_change.rb
+1	1	app/views/admin/{statistics_announcement_dates => statistics_announcement_date_changes}/new.html.erb
+1	1	app/views/admin/statistics_announcements/show.html.erb
+1	1	config/routes.rb
+7	0	test/factories/statistics_announcement_dates.rb
+38	0	test/functional/admin/statistics_announcement_date_changes_controller_test.rb
+0	33	test/functional/admin/statistics_announcement_dates_controller_test.rb
+98	0	test/unit/models/statistics_announcement_date_change_test.rb
+22	0	test/unit/statistics_announcement_test.rb
+
+--561ee5aa9f--2014-03-21--Tekin Suleyman
+31	0	app/controllers/admin/statistics_announcement_dates_controller.rb
+4	2	app/models/statistics_announcement.rb
+26	0	app/views/admin/statistics_announcement_dates/new.html.erb
+31	25	app/views/admin/statistics_announcements/show.html.erb
+3	1	config/routes.rb
+6	0	features/admin-announce-statistical-releases.feature
+15	0	features/step_definitions/admin_announcing_statistics_steps.rb
+33	0	test/functional/admin/statistics_announcement_dates_controller_test.rb
+1	1	test/unit/statistics_announcement_test.rb
+
+--b4be693206--2014-03-21--Tekin Suleyman
+4	4	app/controllers/admin/statistics_announcements_controller.rb
+5	5	app/models/statistics_announcement.rb
+1	1	app/models/statistics_announcement_date.rb
+2	2	app/views/admin/statistics_announcements/_form.html.erb
+1	0	app/views/admin/statistics_announcements/show.html.erb
+1	1	test/factories/statistics_announcements.rb
+1	1	test/functional/admin/statistics_announcements_controller_test.rb
+
+--05213d1de1--2014-03-21--Tekin Suleyman
+1	1	app/models/searchable.rb
+6	2	app/models/statistics_announcement.rb
+6	2	test/unit/statistics_announcement_test.rb
+
+--a8fe897803--2014-03-20--Tekin Suleyman
+1	1	app/controllers/admin/document_searches_controller.rb
+1	1	app/models/admin/edition_filter.rb
+2	2	app/views/admin/statistics_announcements/_document_linker.html.erb
+1	1	test/unit/admin/edition_filter_test.rb
+
+--7d8b1846a0--2014-03-20--Tekin Suleyman
+2	8	app/controllers/admin/editions_controller.rb
+6	2	app/models/admin/edition_filter.rb
+0	7	test/functional/admin/editions_controller_test.rb
+12	0	test/unit/admin/edition_filter_test.rb
+
+--4fa569a36a--2014-03-20--Tekin Suleyman
+10	4	app/controllers/admin/statistics_announcements_controller.rb
+5	1	app/models/statistics_announcement.rb
+0	23	app/views/admin/dashboard/index.html.erb
+1	1	app/views/admin/document_collection_groups/index.html.erb
+1	1	app/views/admin/editions/_alerts.html.erb
+20	16	app/views/admin/statistics_announcements/_form.html.erb
+0	12	app/views/admin/statistics_announcements/edit.html.erb
+40	0	app/views/admin/statistics_announcements/index.html.erb
+32	0	app/views/admin/statistics_announcements/show.html.erb
+3	3	features/admin-announce-statistical-releases.feature
+12	15	features/step_definitions/admin_announcing_statistics_steps.rb
+18	11	test/functional/admin/statistics_announcements_controller_test.rb
+
+--2a62254ba9--2014-03-20--Tekin Suleyman
+1	0	app/assets/javascripts/admin/views/statistical_release_announcements/statistics_announcement_linker.js
+2	2	app/assets/stylesheets/admin/document_finder.scss
+11	13	app/assets/stylesheets/admin/views/_statistics_announcements.scss
+15	14	app/views/admin/document_collection_groups/index.html.erb
+10	5	app/views/admin/statistics_announcements/_document_linker.html.erb
+
+--f16320611f--2014-03-19--Tekin Suleyman
+1	1	app/controllers/admin/publications_controller.rb
+3	2	app/controllers/admin/statistics_announcements_controller.rb
+9	11	app/models/statistics_announcement.rb
+19	0	app/models/statistics_announcement_date.rb
+1	1	app/views/admin/dashboard/index.html.erb
+1	1	app/views/admin/editions/_alerts.html.erb
+11	3	app/views/admin/statistics_announcements/_form.html.erb
+6	2	config/initializers/formats.rb
+0	3	db/migrate/20140303172844_create_statistics_announcements.rb
+15	0	db/migrate/20140319125335_create_statistics_announcement_dates.rb
+15	6	db/schema.rb
+1	1	features/step_definitions/admin_announcing_statistics_steps.rb
+7	0	test/factories/statistics_announcement_dates.rb
+1	1	test/factories/statistics_announcements.rb
+1	1	test/functional/admin/publications_controller_test.rb
+7	1	test/functional/admin/statistics_announcements_controller_test.rb
+35	0	test/unit/statistics_announcement_date_test.rb
+16	12	test/unit/statistics_announcement_test.rb
+
+--565d997be9--2014-03-21--Will Tomlins
+2	2	app/views/statistics_announcements/index.html.erb
+
+--606031b04c--2014-03-21--Will Tomlins
+22	10	app/helpers/filter_helper.rb
+1	1	app/views/statistics_announcements/index.html.erb
+46	4	test/unit/helpers/filter_helper_test.rb
+7	7	test/unit/models/frontend/statistics_announcement_filter_test.rb
+
+--68f50b2a29--2014-03-21--Will Tomlins
+2	2	app/views/statistics_announcements/index.html.erb
+
+--4656d5902a--2014-03-21--Will Tomlins
+19	6	app/controllers/statistics_announcements_controller.rb
+45	0	test/functional/statistics_announcements_controller_test.rb
+
+--ad202942d6--2014-03-20--Will Tomlins
+3	1	app/helpers/application_helper.rb
+
+--daedc24160--2014-03-20--Will Tomlins
+8	1	app/controllers/statistics_announcements_controller.rb
+4	1	app/models/frontend/statistics_announcement.rb
+1	0	app/providers/frontend/statistics_announcement_provider.rb
+11	1	test/functional/statistics_announcements_controller_test.rb
+4	2	test/unit/providers/frontend/statistics_announcement_provider_test.rb
+
+--1eea361f6b--2014-03-20--Will Tomlins
+5	0	app/controllers/statistics_announcements_controller.rb
+1	1	app/helpers/organisation_helper.rb
+4	0	app/helpers/topics_helper.rb
+4	0	app/models/frontend/statistics_announcement.rb
+20	0	app/providers/frontend/statistics_announcement_provider.rb
+1	1	app/views/statistics_announcements/_statistics_announcement.html.erb
+43	0	app/views/statistics_announcements/show.html.erb
+21	0	features/step_definitions/statistics_announcement_steps.rb
+6	0	features/viewing-statistics-announcements.feature
+17	0	test/functional/statistics_announcements_controller_test.rb
+15	2	test/unit/helpers/topics_helper_test.rb
+8	4	test/unit/models/frontend/statistics_announcement_test.rb
+31	4	test/unit/providers/frontend/statistics_announcement_provider_test.rb
+
+--2d559cf989--2014-03-20--Will Tomlins
+12	3	app/views/statistics_announcements/index.html.erb
+6	0	test/functional/statistics_announcements_controller_test.rb
+
+--58d885d66b--2014-03-20--Will Tomlins
+52	0	test/functional/statistics_announcements_controller_test.rb
+4	0	test/support/html_assertions.rb
+
+--ac0842129f--2014-03-20--Will Tomlins
+1	1	config/routes.rb
+
+--7c0120a888--2014-03-20--Will Tomlins
+0	10	app/controllers/statistical_release_announcements_controller.rb
+10	0	app/controllers/statistics_announcements_controller.rb
+4	4	app/helpers/filter_helper.rb
+2	13	app/models/frontend/{statistical_release_announcement.rb => statistics_announcement.rb}
+3	3	app/models/frontend/{statistical_release_announcements_filter.rb => statistics_announcements_filter.rb}
+1	1	app/models/organisation.rb
+1	1	app/models/topic.rb
+5	5	app/providers/frontend/{statistical_release_announcement_provider.rb => statistics_announcement_provider.rb}
+1	1	app/views/publications/index.html.erb
+0	13	app/views/statistical_release_announcements/_statistical_release_announcement.html.erb
+13	0	app/views/statistics_announcements/_statistics_announcement.html.erb
+1	1	app/views/{statistical_release_announcements => statistics_announcements}/_upcoming_calendar_tabs.html.erb
+5	5	app/views/{statistical_release_announcements => statistics_announcements}/index.html.erb
+1	1	config/routes.rb
+18	18	features/step_definitions/{statistical_release_announcement_steps.rb => statistics_announcement_steps.rb}
+0	16	features/viewing-statistical-release-announcements.feature
+16	0	features/viewing-statistics-announcements.feature
+0	17	test/functional/statistical_release_announcements_controller_test.rb
+21	0	test/functional/statistics_announcements_controller_test.rb
+8	8	test/unit/helpers/filter_helper_test.rb
+2	2	test/unit/models/frontend/{statistical_release_announcement_filter_test.rb => statistics_announcement_filter_test.rb}
+2	2	test/unit/models/frontend/{statistical_release_announcement_test.rb => statistics_announcement_test.rb}
+3	3	test/unit/models/organisation_test.rb
+29	29	test/unit/providers/frontend/{statistical_release_announcement_provider_test.rb => statistics_announcement_provider_test.rb}
+3	3	test/unit/topic_test.rb
+
+--f6ad39224a--2014-03-19--Will Tomlins
+80	0	app/helpers/filter_helper.rb
+0	9	app/helpers/statistical_release_announcement_filter_helper.rb
+52	24	app/models/frontend/statistical_release_announcements_filter.rb
+3	20	app/views/statistical_release_announcements/index.html.erb
+5	0	test/support/text_assertions.rb
+73	0	test/unit/helpers/filter_helper_test.rb
+0	31	test/unit/helpers/statistical_release_announcement_filter_helper_test.rb
+35	36	test/unit/models/frontend/statistical_release_announcement_filter_test.rb
+
+--0b5d6ef04a--2014-03-18--Will Tomlins
+1	1	app/controllers/statistical_release_announcements_controller.rb
+9	0	app/helpers/statistical_release_announcement_filter_helper.rb
+1	0	app/models/organisation.rb
+2	0	app/models/topic.rb
+9	1	app/providers/frontend/statistical_release_announcement_provider.rb
+5	1	test/functional/statistical_release_announcements_controller_test.rb
+31	0	test/unit/helpers/statistical_release_announcement_filter_helper_test.rb
+7	0	test/unit/models/organisation_test.rb
+19	2	test/unit/providers/frontend/statistical_release_announcement_provider_test.rb
+7	0	test/unit/topic_test.rb
+
+--1046bae137--2014-03-17--Will Tomlins
+14	4	app/models/frontend/statistical_release_announcements_filter.rb
+12	0	app/views/statistical_release_announcements/index.html.erb
+35	10	features/step_definitions/statistical_release_announcement_steps.rb
+6	0	features/viewing-statistical-release-announcements.feature
+12	1	test/unit/models/frontend/statistical_release_announcement_filter_test.rb
+
+--630aad4de9--2014-03-17--Will Tomlins
+1	1	app/controllers/statistical_release_announcements_controller.rb
+7	3	app/views/statistical_release_announcements/index.html.erb
+3	3	test/functional/statistical_release_announcements_controller_test.rb
+
+--6a1dcb59eb--2014-03-17--Will Tomlins
+1	0	app/assets/stylesheets/frontend/base.scss
+0	5	app/assets/stylesheets/frontend/helpers/_filter-form-block.scss
+70	0	app/assets/stylesheets/frontend/helpers/_filter-results-block.scss
+0	62	app/assets/stylesheets/frontend/views/_documents-index.scss
+1	1	app/views/publications/index.html.erb
+25	1	app/views/statistical_release_announcements/index.html.erb
+
+--9bd603f09c--2014-03-17--Will Tomlins
+1	1	app/models/frontend/statistical_release_announcement.rb
+40	10	app/providers/frontend/statistical_release_announcement_provider.rb
+53	33	test/unit/providers/frontend/statistical_release_announcement_provider_test.rb
+
+--faa627961d--2014-03-14--Will Tomlins
+6	2	app/controllers/statistical_release_announcements_controller.rb
+17	0	app/helpers/pagination_helper.rb
+38	1	app/models/frontend/statistical_release_announcements_filter.rb
+16	10	app/providers/frontend/statistical_release_announcement_provider.rb
+15	1	app/views/statistical_release_announcements/index.html.erb
+23	7	features/step_definitions/statistical_release_announcement_steps.rb
+6	8	features/viewing-statistical-release-announcements.feature
+22	0	lib/collection_page.rb
+0	6	test/functional/statistical_release_announcements_controller_test.rb
+37	0	test/unit/collection_page_test.rb
+26	0	test/unit/helpers/pagination_helper_test.rb
+44	6	test/unit/models/frontend/statistical_release_announcement_filter_test.rb
+56	14	test/unit/providers/frontend/statistical_release_announcement_provider_test.rb
+
+--1d258abef4--2014-03-12--Will Tomlins
+0	7	app/models/frontend/organisation_metadata.rb
+7	2	app/models/frontend/statistical_release_announcement.rb
+0	7	app/models/frontend/topic_metadata.rb
+19	9	app/providers/frontend/statistical_release_announcement_provider.rb
+1	1	app/views/publications/index.html.erb
+22	57	features/step_definitions/statistical_release_announcement_steps.rb
+3	3	features/viewing-statistical-release-announcements.feature
+0	11	test/unit/models/frontend/organisation_metadata_test.rb
+8	2	test/unit/models/frontend/statistical_release_announcement_test.rb
+0	11	test/unit/models/frontend/topic_metadata_test.rb
+20	19	test/unit/providers/frontend/statistical_release_announcement_provider_test.rb
+
+--0c94419908--2014-03-12--Will Tomlins
+2	2	app/models/frontend/statistical_release_announcements_filter.rb
+10	8	test/unit/models/frontend/statistical_release_announcement_filter_test.rb
+
+--b33e8ab9fe--2014-03-10--Will Tomlins
+7	0	app/models/frontend/organisation_metadata.rb
+4	27	app/models/frontend/statistical_release_announcement.rb
+7	0	app/models/frontend/topic_metadata.rb
+40	61	app/providers/frontend/statistical_release_announcement_provider.rb
+3	0	app/views/statistical_release_announcements/_statistical_release_announcement.html.erb
+1	1	config/routes.rb
+33	21	features/step_definitions/statistical_release_announcement_steps.rb
+8	0	lib/inflatable_model.rb
+11	0	test/unit/inflatable_model_test.rb
+11	0	test/unit/models/frontend/organisation_metadata_test.rb
+2	26	test/unit/models/frontend/statistical_release_announcement_test.rb
+11	0	test/unit/models/frontend/topic_metadata_test.rb
+92	4	test/unit/providers/frontend/statistical_release_announcement_provider_test.rb
+
+--bd783076f3--2014-03-07--Will Tomlins
+0	6	app/controllers/release_announcements_controller.rb
+6	0	app/controllers/statistical_release_announcements_controller.rb
+2	2	app/models/frontend/{release_announcement.rb => statistical_release_announcement.rb}
+2	2	app/models/frontend/{release_announcements_filter.rb => statistical_release_announcements_filter.rb}
+7	7	app/providers/frontend/{release_announcement_provider.rb => statistical_release_announcement_provider.rb}
+0	10	app/views/release_announcements/_release_announcement.html.erb
+10	0	app/views/statistical_release_announcements/_statistical_release_announcement.html.erb
+1	1	app/views/{release_announcements => statistical_release_announcements}/_upcoming_calendar_tabs.html.erb
+1	1	app/views/{release_announcements => statistical_release_announcements}/index.html.erb
+1	1	config/routes.rb
+11	11	features/step_definitions/{release_announcement_steps.rb => statistical_release_announcement_steps.rb}
+12	0	features/viewing-statistical-release-announcements.feature
+0	12	features/viewing-upcoming-release-announcements.feature
+0	19	test/functional/release_announcements_controller_test.rb
+19	0	test/functional/statistical_release_announcements_controller_test.rb
+2	2	test/unit/models/frontend/{release_announcement_filter_test.rb => statistical_release_announcement_filter_test.rb}
+6	6	test/unit/models/frontend/{release_announcement_test.rb => statistical_release_announcement_test.rb}
+0	16	test/unit/providers/frontend/release_announcement_provider_test.rb
+16	0	test/unit/providers/frontend/statistical_release_announcement_provider_test.rb
+
+--a8a1bcf38c--2014-03-06--Will Tomlins
+4	0	app/assets/stylesheets/frontend/views/_documents-index.scss
+7	1	app/helpers/application_helper.rb
+2	0	app/views/publications/index.html.erb
+4	0	app/views/release_announcements/_upcoming_calendar_tabs.html.erb
+1	4	app/views/release_announcements/index.html.erb
+10	0	test/unit/helpers/application_helper_test.rb
+
+--fce0ff7826--2014-03-06--Will Tomlins
+2	0	app/assets/stylesheets/frontend/base.scss
+110	0	app/assets/stylesheets/frontend/helpers/_filter-form-block.scss
+5	0	app/assets/stylesheets/frontend/views/release_announcements/index.scss
+1	1	app/providers/frontend/release_announcement_provider.rb
+17	18	app/views/release_announcements/index.html.erb
+
+--c18dabda49--2014-03-06--Will Tomlins
+37	8	app/providers/frontend/release_announcement_provider.rb
+
+--4c0d59b079--2014-03-06--Will Tomlins
+2	1	app/controllers/release_announcements_controller.rb
+33	0	app/models/frontend/release_announcements_filter.rb
+20	8	app/providers/frontend/release_announcement_provider.rb
+27	0	app/views/release_announcements/index.html.erb
+33	3	features/step_definitions/release_announcement_steps.rb
+7	1	features/viewing-upcoming-release-announcements.feature
+24	0	lib/form_object.rb
+14	4	test/functional/release_announcements_controller_test.rb
+18	0	test/unit/form_object_test.rb
+50	0	test/unit/models/frontend/release_announcement_filter_test.rb
+3	3	test/unit/providers/frontend/release_announcement_provider_test.rb
+
+--65797e65ed--2014-03-05--Will Tomlins
+26	1	app/models/frontend/release_announcement.rb
+22	24	app/providers/frontend/release_announcement_provider.rb
+2	2	app/views/release_announcements/_release_announcement.html.erb
+4	4	features/step_definitions/release_announcement_steps.rb
+20	0	test/unit/models/frontend/release_announcement_test.rb
+
+--d796392247--2014-03-04--Will Tomlins
+10	0	app/helpers/application_helper.rb
+18	0	app/models/frontend/release_announcement.rb
+21	2	app/providers/frontend/release_announcement_provider.rb
+10	0	app/views/release_announcements/_release_announcement.html.erb
+13	0	app/views/release_announcements/index.html.erb
+38	0	features/step_definitions/release_announcement_steps.rb
+6	0	features/viewing-upcoming-release-announcements.feature
+24	0	test/unit/helpers/application_helper_test.rb
+12	0	test/unit/models/frontend/release_announcement_test.rb
+
+--a5a4569a9f--2014-03-04--Will Tomlins
+1	0	app/helpers/application_helper.rb
+
+--6e8bb7e0ed--2014-03-03--Will Tomlins
+5	0	app/controllers/release_announcements_controller.rb
+2	0	app/models/frontend/release_announcement.rb
+21	0	app/providers/frontend/release_announcement_provider.rb
+7	0	app/views/release_announcements/index.html.erb
+1	0	config/routes.rb
+9	0	test/functional/release_announcements_controller_test.rb
+4	0	test/unit/models/frontend/release_announcement_test.rb
+16	0	test/unit/providers/frontend/release_announcement_provider_test.rb

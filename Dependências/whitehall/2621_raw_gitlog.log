@@ -1,0 +1,49 @@
+--36f308b8db--2013-12-17--Tekin Suleyman
+--d9f2b0af73--2013-12-17--Tekin Suleyman
+1	1	app/models/attachment.rb
+
+--6fe537678c--2013-12-17--Dominic Baggott
+2	2	app/controllers/admin/corporate_information_pages_controller.rb
+1	1	app/controllers/admin/corporate_information_pages_translations_controller.rb
+3	0	app/controllers/corporate_information_pages_controller.rb
+1	0	app/helpers/translation_helper.rb
+0	4	app/models/corporate_information_page.rb
+5	0	app/presenters/use_slug_as_param.rb
+1	1	app/views/corporate_information_pages/show.html.erb
+2	2	app/views/organisations/_corporate_information.html.erb
+2	0	app/views/worldwide_organisations/_corporate_information.html.erb
+1	1	lib/whitehall/exporters/redirector_document_mappings.rb
+1	1	test/functional/admin/corporate_information_pages_translations_controller_test.rb
+3	3	test/functional/corporate_information_pages_controller_test.rb
+1	1	test/functional/organisations_controller_test.rb
+1	6	test/unit/corporate_information_page_test.rb
+4	4	test/unit/whitehall/exporters/redirector_document_mappings_test.rb
+
+--bfebffae3b--2013-12-17--Tekin Suleyman
+--93a9480473--2013-12-17--Dominic Baggott
+5	0	features/corporate-information-pages.feature
+15	0	features/step_definitions/corporate_information_page_steps.rb
+8	0	features/support/attachment_helper.rb
+26	0	features/support/corporate_information_page_helper.rb
+1	5	features/support/policy_advisory_group_helper.rb
+
+--8697a9d2ad--2013-12-17--Dominic Baggott
+1	1	app/controllers/html_attachments_controller.rb
+8	0	test/functional/html_attachments_controller_test.rb
+
+--53cb854b6a--2013-12-17--Dominic Baggott
+1	1	app/controllers/admin/editions_controller.rb
+
+--9a5467f0b1--2013-12-16--Dominic Baggott
+19	3	app/models/unpublishing.rb
+28	3	test/unit/unpublishing_test.rb
+
+--bebd2922f2--2013-12-17--Dominic Baggott
+1	1	app/models/unpublishing.rb
+3	3	test/unit/unpublishing_test.rb
+
+--2b64b4ecff--2013-12-16--Dominic Baggott
+6	7	test/functional/html_attachments_controller_test.rb
+
+--79f0f4722a--2013-12-16--Dominic Baggott
+8	6	test/functional/html_attachments_controller_test.rb

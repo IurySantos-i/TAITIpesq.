@@ -1,0 +1,21 @@
+--636f5752f--2014-03-28--Mikko Koski
+--84a3f9c69--2014-03-28--Mikko Koski
+--db0f91b17--2014-03-28--Mikko Koski
+2	2	app/assets/javascripts/kassi.js
+12	0	app/controllers/listings_controller.rb
+1	1	app/helpers/listings_helper.rb
+14	0	app/services/util.rb
+2	2	app/views/homepage/_list_item.haml
+1	1	app/views/homepage/_listing_bubble.haml
+1	1	app/views/layouts/_grid_item_listing_image.haml
+1	1	app/views/listings/_profile_listing.haml
+1	1	app/views/listings/form/_price.haml
+1	1	app/views/listings/show.haml
+1	1	features/listings/user_creates_a_new_listing.feature
+17	6	features/listings/user_views_a_single_listing.feature
+5	3	features/step_definitions/listing_steps.rb
+11	0	spec/services/util_spec.rb
+
+--b699ee30e--2014-03-26--Mikko Koski
+10	7	custom_plan.rb
+3	1	spec/support/database_cleanup.rb

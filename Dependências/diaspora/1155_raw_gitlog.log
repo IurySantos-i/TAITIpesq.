@@ -1,0 +1,116 @@
+--d959dd725--2015-04-20--Jonne Haß
+--9b3bf62e6--2015-04-20--Jonne Haß
+--fc8e92b67--2015-04-20--Steffen van Bergerem
+1	1	Gemfile
+2	2	Gemfile.lock
+
+--e996bd7e3--2015-04-20--Jonne Haß
+--6fe06f6d3--2015-04-20--Jonne Haß
+--13a6b1389--2015-04-20--Benjamin Neff
+17	0	app/assets/stylesheets/sidebar.scss
+
+--a06448447--2015-04-20--Jonne Haß
+--7ff253636--2015-04-20--Jonne Haß
+--0211da411--2015-04-20--Benjamin Neff
+1	1	app/assets/stylesheets/new_styles/_interactions.scss
+
+--3a8724bf0--2015-04-19--Jonne Haß
+--fa7a7c5d5--2015-04-19--Jonne Haß
+--85c376e59--2015-04-19--Jonne Haß
+--a75ec75ec--2015-04-14--goobertron
+1	1	Changelog.md
+47	26	app/assets/templates/faq_posts_and_posting_tpl.jst.hbs
+1	1	app/assets/templates/faq_question_tpl.jst.hbs
+7	0	app/assets/templates/faq_sharing_tpl.jst.hbs
+1	1	app/assets/templates/help_tpl.jst.hbs
+86	75	config/locales/diaspora/en.yml
+
+--4be8a0bed--2015-04-19--Benjamin Neff
+6	1	db/migrate/20150106050733_set_mysql_to_unicode_mb4.rb
+
+--f4fd77fa7--2015-04-18--Benjamin Neff
+1	17	db/migrate/20150106050733_set_mysql_to_unicode_mb4.rb
+
+--f11a6b541--2015-04-15--Jonne Haß
+--2613896cf--2015-04-15--Praveen Arimbrathodiyil
+1	0	Changelog.md
+1	1	script/server
+
+--b3575ab56--2015-04-14--Jonne Haß
+--a687a8dc0--2015-04-14--goobertron
+1	0	Changelog.md
+14	14	config/locales/diaspora/en.yml
+
+--096fa2ddb--2015-04-11--Jonne Haß
+--cfc98d9a2--2015-04-11--Dennis Schubert
+--f7d110514--2015-04-11--Dennis Schubert
+--9fc00d081--2015-04-11--Dennis Schubert
+4	0	Changelog.md
+1	1	Gemfile
+2	2	Gemfile.lock
+1	1	config/defaults.yml
+2	2	spec/helpers/notifier_helper_spec.rb
+
+--6636a8911--2015-04-06--Marcelo Briones
+2	1	app/models/comment.rb
+2	1	app/models/like.rb
+8	0	app/models/participation.rb
+4	4	app/models/user.rb
+11	6	app/models/user/social_actions.rb
+29	0	db/migrate/20150404193023_participation_counter.rb
+5	4	db/schema.rb
+20	24	features/{ => desktop}/activity_stream.feature
+0	4	features/step_definitions/stream_steps.rb
+0	6	features/support/publishing_cuke_helpers.rb
+7	0	spec/controllers/status_messages_controller_spec.rb
+23	0	spec/models/comment_spec.rb
+17	0	spec/models/like_spec.rb
+28	0	spec/models/participation_spec.rb
+19	4	spec/models/user/social_actions_spec.rb
+
+--5fb328864--2013-01-27--Asphyxia
+1	0	app/models/comment.rb
+1	0	app/models/like.rb
+108	0	features/activity_stream.feature
+8	0	features/step_definitions/stream_steps.rb
+6	0	features/support/publishing_cuke_helpers.rb
+
+--5481ddb54--2015-04-10--Jonne Haß
+--ec2a209b6--2015-04-10--Jonne Haß
+7	2	app/helpers/services_helper.rb
+
+--0a2369395--2015-04-09--Dennis Schubert
+--895d38de2--2015-04-08--Steffen van Bergerem
+24	0	app/views/services/_add_remove_services.haml
+1	1	app/views/services/index.html.haml
+0	19	app/views/shared/_add_remove_services.haml
+9	6	config/locales/diaspora/en.yml
+
+--75ef9f47d--2015-04-04--Steffen van Bergerem
+1	1	app/assets/javascripts/app/collections/aspects.js
+1	5	app/assets/javascripts/app/models/aspect.js
+7	0	app/assets/javascripts/app/models/aspect_selection.js
+10	6	app/assets/javascripts/app/pages/contacts.js
+63	0	app/assets/javascripts/app/views/aspect_create_view.js
+13	2	app/assets/javascripts/app/views/aspect_membership_view.js
+14	6	app/assets/javascripts/app/views/aspects_list_view.js
+0	15	app/assets/stylesheets/aspects.scss
+40	0	app/assets/templates/aspect_create_modal_tpl.jst.hbs
+4	1	app/assets/templates/aspects-list_tpl.jst.hbs
+4	24	app/controllers/aspects_controller.rb
+6	1	app/views/aspect_memberships/_aspect_membership_dropdown.haml
+0	19	app/views/aspects/create.js.erb
+0	26	app/views/aspects/new.haml
+5	2	app/views/contacts/_aspect_listings.haml
+9	9	app/views/contacts/_sidebar.html.haml
+11	0	config/locales/javascript/javascript.en.yml
+2	2	features/desktop/connects_users.feature
+4	4	features/desktop/manages_aspects.feature
+6	0	features/step_definitions/aspects_steps.rb
+14	30	spec/controllers/aspects_controller_spec.rb
+3	3	spec/javascripts/app/models/{aspect_spec.js => aspect_selection_spec.js}
+190	0	spec/javascripts/app/views/aspect_create_view_spec.js
+1	1	spec/javascripts/app/views/aspect_view_spec.js
+4	0	spec/javascripts/helpers/factory.js
+
+--5cabd6924--2014-10-30--Jonne Haß

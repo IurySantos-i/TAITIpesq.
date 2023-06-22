@@ -1,0 +1,18 @@
+--12d619b1--2014-10-15--andreweskeclarke
+--5678963e--2014-10-15--andreweskeclarke
+2	0	db/migration/0013_add_child_and_enquiry_form.rb
+6	0	db/migration/0014_add_form_id_to_form_sections.rb
+
+--7ea8216e--2014-10-14--ctumwebaze
+--7c8f1cd0--2014-10-14--Charles Tumwebaze
+7	1	app/models/child.rb
+23	0	app/views/children/_potential_matches.html.erb
+5	3	app/views/children/_summary_row.html.erb
+7	4	app/views/enquiries/_summary_row.html.erb
+77	0	features/child_potential_matches.feature
+
+--f1739291--2014-10-13--Tom Clement Oketch
+--33e36ae6--2014-10-13--Charles Tumwebaze
+1	0	app/views/enquiries/_summary_row.html.erb
+16	0	features/enquiry_potential_matches.feature
+1	1	features/step_definitions/basic_steps.rb

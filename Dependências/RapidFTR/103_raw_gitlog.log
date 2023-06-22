@@ -1,0 +1,103 @@
+--e6873037--2014-08-26--Tom Oketch
+--a9759596--2014-08-25--Tom Oketch
+9	0	app/assets/javascripts/rapidftr.js
+1	1	lib/rapid_ftr/children_form_section_setup.rb
+
+--581e4056--2014-08-26--Subhas Dandapani
+--109c4a66--2014-08-25--Erik Michaels-Ober
+1	1	Gemfile
+3	2	Gemfile.lock
+
+--e15958eb--2014-08-25--Erik Michaels-Ober
+1	1	Gemfile.lock
+
+--93b87236--2014-08-25--Erik Michaels-Ober
+1	1	Gemfile.lock
+
+--cf479591--2014-08-19--Erik Michaels-Ober
+3	2	.rubocop.yml
+0	10	.rubocop_todo.yml
+1	1	app/controllers/advanced_search_controller.rb
+1	1	app/helpers/record_helper.rb
+1	1	app/models/forms/search_form.rb
+1	1	app/models/replication.rb
+6	1	lib/couch_settings.rb
+1	1	spec/lib/security/session_secret_spec.rb
+1	1	spec/models/replication_spec.rb
+
+--29b8f388--2014-08-19--Erik Michaels-Ober
+1	1	app/controllers/fields_controller.rb
+8	8	app/models/form_section.rb
+3	3	features/step_definitions/basic_steps.rb
+1	1	spec/controllers/children_controller_spec.rb
+7	7	spec/controllers/fields_controller_spec.rb
+1	1	spec/controllers/users_controller_spec.rb
+1	1	spec/integration/children_spec.rb
+1	1	spec/lib/security/authentication_spec.rb
+5	5	spec/models/child_spec.rb
+6	6	spec/models/couchrest_model_spec.rb
+7	7	spec/models/field_spec.rb
+56	56	spec/models/form_section_spec.rb
+1	1	spec/models/replication_spec.rb
+2	2	spec/models/user_spec.rb
+2	2	spec/routing/formsection_routing_spec.rb
+1	1	spec/views/form_section/edit.html.erb_spec.rb
+
+--9c3503a3--2014-08-19--Erik Michaels-Ober
+2	2	spec/models/device_spec.rb
+5	5	spec/models/field_spec.rb
+3	3	spec/models/form_section_spec.rb
+5	5	spec/models/forms/standard_forms_form_spec.rb
+4	4	spec/models/user_spec.rb
+
+--5a429d4e--2014-08-19--Erik Michaels-Ober
+5	0	.rubocop.yml
+0	5	.rubocop_todo.yml
+1	1	app/controllers/api/device_controller.rb
+1	1	app/controllers/roles_controller.rb
+1	1	app/helpers/children_helper.rb
+1	1	app/helpers/record_helper.rb
+1	1	app/models/child.rb
+2	2	app/models/enquiry.rb
+1	1	app/models/field.rb
+1	1	app/models/form.rb
+0	8	app/models/form_section.rb
+3	3	app/models/role.rb
+1	1	app/models/system_users.rb
+2	2	app/models/user.rb
+1	1	app/views/shared/_field_display_audio.html.erb
+2	2	config/routes.rb
+1	1	db/migration/0009_migrate_export_permissions.rb
+5	5	spec/controllers/api/device_controller_spec.rb
+3	3	spec/models/field_spec.rb
+3	3	spec/models/form_section_spec.rb
+2	2	spec/models/role_spec.rb
+
+--b6d6ad5d--2014-08-19--Erik Michaels-Ober
+0	4	.rubocop_todo.yml
+2	1	app/helpers/advanced_search_helper.rb
+1	1	app/models/login.rb
+4	1	app/models/replication.rb
+
+--bf40c346--2014-08-19--Erik Michaels-Ober
+0	4	.rubocop_todo.yml
+3	2	app/controllers/api/child_media_controller.rb
+3	2	app/controllers/child_media_controller.rb
+1	1	app/models/migration.rb
+89	96	features/support/paths.rb
+6	6	lib/export_generator.rb
+
+--0b1d60cb--2014-08-19--Erik Michaels-Ober
+1	1	Gemfile.lock
+
+--366afa50--2014-08-19--Erik Michaels-Ober
+1	1	Gemfile
+21	21	Gemfile.lock
+
+--fc2f1e82--2014-08-25--Kisitu Augustine
+--70d447c5--2014-07-29--Tunji Sunmonu
+0	19	app/views/admin/index.html.erb
+18	0	app/views/admin/index.html.slim
+0	36	app/views/devices/index.html.erb
+33	0	app/views/devices/index.html.slim
+1	1	spec/views/admin/{index.html.erb_spec.rb => index.html.slim_spec.rb}

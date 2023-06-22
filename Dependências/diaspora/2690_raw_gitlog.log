@@ -1,0 +1,574 @@
+--648a10e6d--2011-05-04--danielgrippi
+--f6e4be35a--2011-05-04--MrZYX
+2	0	public/stylesheets/sass/ui.sass
+
+--1dcb0e486--2011-05-04--MrZYX
+1	1	public/stylesheets/sass/application.sass
+
+--a71c4b3f6--2011-05-04--MrZYX
+1	0	config/locale_settings.yml
+1	0	config/locales/cldr/ja_plurals.rb
+
+--c59ef78a9--2011-05-04--MrZYX
+97	0	config/locales/devise/devise.ja.yml
+1	1	config/locales/diaspora/cs.yml
+617	0	config/locales/diaspora/ja.yml
+1	1	config/locales/javascript/javascript.cs.yml
+33	14	config/locales/javascript/javascript.ja.yml
+18	18	config/locales/javascript/javascript.ko.yml
+
+--77bae90d0--2011-05-04--MrZYX
+4	1	app/helpers/application_helper.rb
+2	2	spec/helpers/application_helper_spec.rb
+
+--abde3244b--2011-05-03--Raphael Sofaer
+3	4	public/javascripts/widgets/infinite-scroll.js
+
+--89ec768d0--2011-05-03--Raphael Sofaer
+1	1	Gemfile
+2	2	Gemfile.lock
+
+--1b9f5f870--2011-05-03--MrZYX
+2	2	config/locales/diaspora/es.yml
+1	3	config/locales/javascript/javascript.bg.yml
+1	3	config/locales/javascript/javascript.br.yml
+1	3	config/locales/javascript/javascript.cs.yml
+1	3	config/locales/javascript/javascript.da.yml
+1	3	config/locales/javascript/javascript.de.yml
+1	3	config/locales/javascript/javascript.el.yml
+1	3	config/locales/javascript/javascript.en_shaw.yml
+1	3	config/locales/javascript/javascript.eo.yml
+2	4	config/locales/javascript/javascript.es.yml
+2	4	config/locales/javascript/javascript.eu.yml
+1	3	config/locales/javascript/javascript.fi.yml
+1	3	config/locales/javascript/javascript.fr.yml
+1	3	config/locales/javascript/javascript.he.yml
+1	3	config/locales/javascript/javascript.hu.yml
+1	3	config/locales/javascript/javascript.id.yml
+1	3	config/locales/javascript/javascript.is.yml
+1	3	config/locales/javascript/javascript.it.yml
+1	3	config/locales/javascript/javascript.ko.yml
+1	3	config/locales/javascript/javascript.ml.yml
+1	3	config/locales/javascript/javascript.nb.yml
+1	3	config/locales/javascript/javascript.nl.yml
+1	3	config/locales/javascript/javascript.pl.yml
+1	3	config/locales/javascript/javascript.pt-BR.yml
+1	3	config/locales/javascript/javascript.pt-PT.yml
+1	3	config/locales/javascript/javascript.ro.yml
+1	3	config/locales/javascript/javascript.ru.yml
+1	3	config/locales/javascript/javascript.sk.yml
+1	3	config/locales/javascript/javascript.sl.yml
+1	3	config/locales/javascript/javascript.sv.yml
+1	3	config/locales/javascript/javascript.tr.yml
+1	3	config/locales/javascript/javascript.zh-CN.yml
+1	3	config/locales/javascript/javascript.zh-TW.yml
+1	1	config/locales/rails-i18n/ja.yml
+20	18	config/locales/rails-i18n/ko.yml
+23	22	config/locales/rails-i18n/sk.yml
+1	0	config/locales/rails-i18n/sv-SE.yml
+
+--c13b5a062--2011-05-03--MrZYX
+1	0	config/locales/cldr/README.md
+1	0	config/locales/cldr/bg_plurals.rb
+1	0	config/locales/cldr/ca_plurals.rb
+1	0	config/locales/cldr/cs_plurals.rb
+1	0	config/locales/cldr/cy_plurals.rb
+1	0	config/locales/cldr/da_plurals.rb
+1	0	config/locales/cldr/de_plurals.rb
+1	0	config/locales/cldr/el_plurals.rb
+1	0	config/locales/cldr/en_plurals.rb
+1	0	config/locales/cldr/es_plurals.rb
+1	0	config/locales/cldr/eu_plurals.rb
+1	0	config/locales/cldr/fi_plurals.rb
+1	0	config/locales/cldr/fr_plurals.rb
+1	0	config/locales/cldr/ga_plurals.rb
+1	0	config/locales/cldr/gl_plurals.rb
+1	0	config/locales/cldr/he_plurals.rb
+1	0	config/locales/cldr/hu_plurals.rb
+1	0	config/locales/cldr/id_plurals.rb
+1	0	config/locales/cldr/is_plurals.rb
+1	0	config/locales/cldr/it_plurals.rb
+1	0	config/locales/cldr/ko_plurals.rb
+1	0	config/locales/cldr/lt_plurals.rb
+1	0	config/locales/cldr/mk_plurals.rb
+1	0	config/locales/cldr/ml_plurals.rb
+1	0	config/locales/cldr/nb_plurals.rb
+1	0	config/locales/cldr/nl_plurals.rb
+1	0	config/locales/cldr/pa_plurals.rb
+1	0	config/locales/cldr/pl_plurals.rb
+1	0	config/locales/cldr/ro_plurals.rb
+1	0	config/locales/cldr/ru_plurals.rb
+1	0	config/locales/cldr/sk_plurals.rb
+1	0	config/locales/cldr/sl_plurals.rb
+1	0	config/locales/cldr/sv_plurals.rb
+1	0	config/locales/cldr/tr_plurals.rb
+0	0	config/locales/rails-i18n/{README => README.md}
+
+--87864bf4f--2011-05-03--Raphael Sofaer
+2	1	app/controllers/conversations_controller.rb
+
+--45c5cd4b9--2011-05-03--Raphael Sofaer
+2	2	spec/controllers/conversations_controller_spec.rb
+
+--f89b6ae5b--2011-05-03--Raphael Sofaer
+1	1	app/views/people/show.html.haml
+
+--c7358c866--2011-05-03--Raphael Sofaer
+4	3	app/controllers/conversations_controller.rb
+1	1	app/views/conversations/new.haml
+
+--77372b2f0--2011-05-03--danielgrippi
+1	1	public/robots.txt
+
+--a92b28b4b--2011-05-03--MrZYX
+22	8	app/helpers/application_helper.rb
+11	1	spec/helpers/application_helper_spec.rb
+
+--c20cd5381--2011-05-02--Maxwell Salzberg
+2	1	app/models/notification.rb
+11	10	spec/models/notification_spec.rb
+
+--c41acbabd--2011-05-02--Maxwell Salzberg
+3	3	config/locales/diaspora/en.yml
+
+--94bc18e46--2011-05-02--Raphael Sofaer
+1	3	config/locales/javascript/javascript.en.yml
+13	12	public/javascripts/web-socket-receiver.js
+
+--cb483bead--2011-05-02--Raphael Sofaer
+1	1	Gemfile
+2	2	Gemfile.lock
+
+--83a3655bf--2011-05-02--Raphael Sofaer
+5	3	public/javascripts/widgets/infinite-scroll.js
+
+--2abb59283--2011-05-02--Raphael Sofaer
+10	1	public/javascripts/widgets/infinite-scroll.js
+
+--bc8b6097b--2011-05-02--Raphael Sofaer
+1	0	features/step_definitions/custom_web_steps.rb
+2	3	public/javascripts/vendor/jquery.infinitescroll.min.js
+
+--75234a511--2011-05-02--MrZYX
+1	1	config/app_config.yml.example
+
+--034033f74--2011-05-01--MrZYX
+9	9	config/locales/devise/devise.ml.yml
+1	1	config/locales/diaspora/cs.yml
+1	1	config/locales/diaspora/fr.yml
+11	11	config/locales/diaspora/ml.yml
+3	3	config/locales/javascript/javascript.cs.yml
+2	2	config/locales/rails-i18n/ar.yml
+20	20	config/locales/rails-i18n/bg.yml
+44	44	config/locales/rails-i18n/bn-IN.yml
+62	62	config/locales/rails-i18n/ca.yml
+1	1	config/locales/rails-i18n/cs.rb
+1	1	config/locales/rails-i18n/cy.yml
+6	6	config/locales/rails-i18n/de-AT.yml
+6	6	config/locales/rails-i18n/de-CH.yml
+7	7	config/locales/rails-i18n/de.yml
+4	4	config/locales/rails-i18n/eo.yml
+2	2	config/locales/rails-i18n/es-PE.yml
+3	3	config/locales/rails-i18n/et.yml
+6	6	config/locales/rails-i18n/fa.yml
+1	1	config/locales/rails-i18n/fi.yml
+13	13	config/locales/rails-i18n/fur.yml
+21	21	config/locales/rails-i18n/gl-ES.yml
+10	10	config/locales/rails-i18n/gsw-CH.yml
+3	3	config/locales/rails-i18n/he.yml
+1	1	config/locales/rails-i18n/hi-IN.yml
+1	1	config/locales/rails-i18n/hi.yml
+2	2	config/locales/rails-i18n/hsb.yml
+2	2	config/locales/rails-i18n/hu.yml
+8	8	config/locales/rails-i18n/id.yml
+1	1	config/locales/rails-i18n/is.yml
+6	6	config/locales/rails-i18n/it.yml
+2	2	config/locales/rails-i18n/ja.yml
+2	2	config/locales/rails-i18n/ko.yml
+15	15	config/locales/rails-i18n/lo.yml
+8	8	config/locales/rails-i18n/lt.yml
+1	1	config/locales/rails-i18n/lv.yml
+12	12	config/locales/rails-i18n/mn.yml
+1	1	config/locales/rails-i18n/nb.yml
+8	8	config/locales/rails-i18n/nl.yml
+2	2	config/locales/rails-i18n/pt-BR.yml
+8	8	config/locales/rails-i18n/pt-PT.yml
+3	3	config/locales/rails-i18n/rm.yml
+8	8	config/locales/rails-i18n/ro.yml
+14	14	config/locales/rails-i18n/ru.yml
+6	6	config/locales/rails-i18n/sk.yml
+11	11	config/locales/rails-i18n/sl.yml
+2	2	config/locales/rails-i18n/th.rb
+5	5	config/locales/rails-i18n/tr.yml
+21	21	config/locales/rails-i18n/uk.yml
+3	3	config/locales/rails-i18n/vi.yml
+
+--567b440f3--2011-04-28--Raphael Sofaer
+1	1	app/views/people/show.mobile.haml
+
+--899963d48--2011-04-28--Raphael Sofaer
+5	5	spec/controllers/tags_controller_spec.rb
+2	2	spec/support/user_methods.rb
+
+--38e44b13a--2011-04-28--Raphael Sofaer
+3	3	app/controllers/people_controller.rb
+1	1	app/controllers/tags_controller.rb
+1	1	app/helpers/aspects_helper.rb
+1	1	app/helpers/people_helper.rb
+1	1	app/helpers/tags_helper.rb
+1	1	app/views/people/show.html.haml
+45	10	features/infinite_scroll.feature
+2	1	features/step_definitions/custom_web_steps.rb
+7	9	features/step_definitions/user_steps.rb
+17	15	public/javascripts/widgets/infinite-scroll.js
+5	5	spec/controllers/tags_controller_spec.rb
+4	0	spec/support/user_methods.rb
+
+--e7e9ef3ad--2011-04-04--Adrián Chaves Fernández (Gallaecio)
+20	20	config/locales/devise/devise.gl.yml
+9	9	config/locales/javascript/javascript.gl.yml
+
+--b23f9b39e--2011-04-30--MrZYX
+1	0	app/views/people/index.html.haml
+
+--ff58d6319--2011-04-30--MrZYX
+1	1	app/controllers/people_controller.rb
+12	12	config/routes.rb
+1	1	spec/controllers/people_controller_spec.rb
+
+--84412863d--2011-04-30--Jonne Hass
+1	1	config/routes.rb
+
+--12557e7e8--2011-04-30--MrZYX
+2	2	config/locales/diaspora/zh-CN.yml
+4	0	config/locales/javascript/javascript.bg.yml
+4	0	config/locales/javascript/javascript.br.yml
+4	0	config/locales/javascript/javascript.cs.yml
+4	0	config/locales/javascript/javascript.da.yml
+4	0	config/locales/javascript/javascript.de.yml
+4	0	config/locales/javascript/javascript.el.yml
+4	0	config/locales/javascript/javascript.en_shaw.yml
+4	0	config/locales/javascript/javascript.eo.yml
+4	0	config/locales/javascript/javascript.es.yml
+4	0	config/locales/javascript/javascript.eu.yml
+4	0	config/locales/javascript/javascript.fi.yml
+4	0	config/locales/javascript/javascript.fr.yml
+4	0	config/locales/javascript/javascript.he.yml
+4	0	config/locales/javascript/javascript.hu.yml
+4	0	config/locales/javascript/javascript.id.yml
+4	0	config/locales/javascript/javascript.is.yml
+4	0	config/locales/javascript/javascript.it.yml
+4	0	config/locales/javascript/javascript.ko.yml
+4	0	config/locales/javascript/javascript.ml.yml
+4	0	config/locales/javascript/javascript.nb.yml
+4	0	config/locales/javascript/javascript.nl.yml
+4	0	config/locales/javascript/javascript.pl.yml
+4	0	config/locales/javascript/javascript.pt-BR.yml
+4	0	config/locales/javascript/javascript.pt-PT.yml
+4	0	config/locales/javascript/javascript.ro.yml
+4	0	config/locales/javascript/javascript.ru.yml
+4	0	config/locales/javascript/javascript.sk.yml
+4	0	config/locales/javascript/javascript.sl.yml
+4	0	config/locales/javascript/javascript.sv.yml
+4	0	config/locales/javascript/javascript.tr.yml
+4	0	config/locales/javascript/javascript.zh-CN.yml
+5	1	config/locales/javascript/javascript.zh-TW.yml
+
+--73680a54e--2011-04-29--Dan Hansen
+2	1	spec/javascripts/widgets/notifications-spec.js
+
+--09ac4c789--2011-04-29--Sarah Mei
+0	1	public/javascripts/stream.js
+0	2	spec/javascripts/stream-spec.js
+
+--84ca9dfed--2011-04-29--Sarah Mei
+1	1	lib/splunk_logging.rb
+
+--ae3deb1f3--2011-04-29--Sarah Mei
+25	25	features/embedder.feature
+
+--e025b14b6--2011-04-29--Sarah Mei
+1	2	features/change_password.feature
+1	1	features/logs_in_and_out.feature
+1	1	features/step_definitions/session_steps.rb
+
+--f7c7ea33b--2011-04-30--MrZYX
+15	14	config/database.yml.example
+
+--009bbb826--2011-04-30--MrZYX
+1	1	lib/diaspora/taggable.rb
+2	2	spec/shared_behaviors/taggable.rb
+
+--6623dbb1f--2011-04-29--MrZYX
+4	2	app/helpers/application_helper.rb
+2	2	public/javascripts/widgets/embedder.js
+21	0	spec/helpers/application_helper_spec.rb
+
+--62696c3e4--2011-04-28--Maxwell Salzberg
+1	1	config/locales/diaspora/en.yml
+
+--2ac277ada--2011-04-28--Maxwell Salzberg
+1	1	config/locales/diaspora/en.yml
+
+--4e88225d1--2011-04-28--MrZYX
+3	3	config/locales/devise/devise.ko.yml
+26	26	config/locales/diaspora/bg.yml
+1	1	config/locales/diaspora/eu.yml
+70	70	config/locales/diaspora/ko.yml
+7	7	config/locales/diaspora/pl.yml
+5	5	config/locales/diaspora/zh-CN.yml
+1	1	config/locales/javascript/javascript.hu.yml
+1	1	config/locales/javascript/javascript.it.yml
+
+--a5f297d7f--2011-04-28--Raphael Sofaer
+2	0	app/controllers/application_controller.rb
+1	0	app/controllers/aspects_controller.rb
+1	0	app/controllers/contacts_controller.rb
+1	0	app/controllers/people_controller.rb
+1	0	app/controllers/photos_controller.rb
+0	2	app/controllers/requests_controller.rb
+1	0	app/controllers/sockets_controller.rb
+2	1	app/controllers/status_messages_controller.rb
+2	1	app/controllers/tags_controller.rb
+1	0	app/controllers/users_controller.rb
+12	8	app/helpers/application_helper.rb
+36	0	app/helpers/aspect_memberships_helper.rb
+5	41	app/helpers/aspects_helper.rb
+1	1	app/helpers/{stream_helper.rb => comments_helper.rb}
+0	5	app/helpers/conversations_helper.rb
+8	0	app/helpers/layout_helper.rb
+0	3	app/helpers/notifications_helper.rb
+4	0	app/helpers/people_helper.rb
+0	16	app/helpers/requests_helper.rb
+9	0	app/helpers/tags_helper.rb
+1	1	app/views/people/show.html.haml
+1	1	spec/helpers/{stream_helper_spec.rb => comments_helper_spec.rb}
+
+--4ed621fc1--2011-04-28--Raphael Sofaer
+1	2	lib/log_overrider.rb
+
+--28a997c2c--2011-04-26--Raphael Sofaer
+6	2	app/helpers/application_helper.rb
+0	3	app/helpers/aspects_helper.rb
+0	9	app/helpers/tags_helper.rb
+
+--b4e36878f--2011-04-26--Raphael Sofaer
+5	1	app/controllers/tags_controller.rb
+1	1	app/helpers/aspects_helper.rb
+9	0	app/helpers/tags_helper.rb
+1	2	app/models/user.rb
+1	1	app/views/tags/show.haml
+10	0	features/infinite_scroll.feature
+
+--106ae983d--2011-04-11--danielgrippi
+--352d1c6ab--2011-04-11--danielgrippi
+1	1	app/models/aspect_membership.rb
+5	0	app/views/people/_profile_sidebar.html.haml
+1	1	app/views/people/show.html.haml
+6	0	features/connects_users.feature
+31	13	features/disconnects_users.feature
+2	1	lib/diaspora/user/connecting.rb
+0	12	spec/integration/receiving_spec.rb
+10	10	spec/models/user/connecting_spec.rb
+
+--1b8257e96--2011-04-11--danielgrippi
+1	1	app/models/retraction.rb
+
+--1c9ca738a--2011-04-08--danielgrippi
+3	24	app/controllers/aspect_memberships_controller.rb
+0	9	app/controllers/aspects_controller.rb
+15	0	app/views/aspect_memberships/create.js.erb
+13	0	app/views/aspect_memberships/destroy.js.erb
+0	7	app/views/aspects/_aspect_badge.haml
+3	0	app/views/aspects/create.js.erb
+1	1	config/assets.yml
+0	1	features/connects_users.feature
+3	40	public/javascripts/contact-list.js
+
+--c128cae4e--2011-04-08--danielgrippi
+15	11	app/controllers/aspect_memberships_controller.rb
+1	1	app/views/contacts/_share_with_list.html.haml
+0	1	features/connects_users.feature
+6	0	lib/postzord/receiver.rb
+53	20	spec/controllers/aspect_memberships_controller_spec.rb
+0	23	spec/controllers/contacts_controller_spec.rb
+3	1	spec/integration/receiving_spec.rb
+
+--aeda5a4e3--2011-04-07--danielgrippi
+1	2	app/controllers/aspect_memberships_controller.rb
+1	30	app/controllers/contacts_controller.rb
+2	2	app/controllers/post_visibilities_controller.rb
+3	7	app/helpers/aspects_helper.rb
+9	0	app/models/contact.rb
+12	4	app/models/request.rb
+0	1	app/models/retraction.rb
+1	0	app/views/contacts/_share_with_list.html.haml
+1	1	app/views/people/_profile_sidebar.html.haml
+14	13	app/views/people/show.html.haml
+1	1	config/routes.rb
+6	0	db/migrate/20110405171412_contact_remove_pending_add_mutual.rb
+32	0	db/migrate/20110406202932_drop_requests_table.rb
+1	1	db/schema.rb
+54	2	features/connects_users.feature
+6	12	lib/diaspora/user/connecting.rb
+1	6	lib/postzord/receiver.rb
+2	13	spec/controllers/contacts_controller_spec.rb
+8	14	spec/controllers/home_controller_spec.rb
+2	5	spec/controllers/post_visibilities_controller_spec.rb
+5	4	spec/integration/receiving_spec.rb
+39	6	spec/models/contact_spec.rb
+1	6	spec/models/notification_spec.rb
+17	2	spec/models/request_spec.rb
+71	103	spec/models/user/connecting_spec.rb
+
+--4f972a23f--2011-04-06--danielgrippi
+0	5	app/controllers/application_controller.rb
+0	3	app/controllers/photos_controller.rb
+0	1	app/controllers/posts_controller.rb
+0	1	app/controllers/publics_controller.rb
+0	1	app/controllers/tags_controller.rb
+0	2	app/controllers/users_controller.rb
+3	3	app/models/contact.rb
+11	0	app/models/notifications/started_sharing.rb
+1	2	app/models/person.rb
+10	14	app/models/request.rb
+0	5	app/views/aspects/index.html.haml
+0	4	app/views/users/getting_started/_step_3.html.haml
+2	2	db/migrate/20110330230206_pm_foreign_keys.rb
+1	18	db/schema.rb
+0	38	features/manages_contact_requests.feature
+1	1	spec/controllers/post_visibilities_controller_spec.rb
+0	4	spec/models/contact_spec.rb
+2	1	spec/models/notification_spec.rb
+29	30	spec/models/request_spec.rb
+3	13	spec/models/user/connecting_spec.rb
+
+--2e5b5e1ef--2011-04-06--danielgrippi
+1	1	app/controllers/aspect_memberships_controller.rb
+1	1	app/controllers/people_controller.rb
+5	4	app/controllers/post_visibilities_controller.rb
+1	3	app/helpers/notifications_helper.rb
+3	17	app/mailers/notifier.rb
+0	14	app/models/jobs/mail_request_acceptance.rb
+2	2	app/models/jobs/{mail_request_received.rb => mail_started_sharing.rb}
+0	8	app/models/notifications/new_request.rb
+8	0	app/models/notifications/started_sharing.rb
+1	5	app/models/request.rb
+1	3	app/models/user_preference.rb
+1	1	app/views/notifications/index.html.haml
+0	12	app/views/notifier/new_request.html.haml
+0	9	app/views/notifier/new_request.text.haml
+1	1	app/views/notifier/{request_accepted.html.haml => started_sharing.html.haml}
+1	1	app/views/notifier/{request_accepted.text.haml => started_sharing.text.haml}
+1	1	app/views/people/show.html.haml
+2	7	app/views/users/edit.html.haml
+5	11	config/locales/diaspora/en.yml
+7	0	db/migrate/20110405171412_contact_remove_pending_add_mutual.rb
+2	20	features/disconnects_users.feature
+1	1	features/manages_contact_requests.feature
+2	2	features/notifications.feature
+2	2	features/step_definitions/user_steps.rb
+1	1	lib/diaspora/user/querying.rb
+12	14	spec/controllers/post_visibilities_controller_spec.rb
+2	19	spec/mailers/notifier_spec.rb
+1	1	spec/models/notification_spec.rb
+2	9	spec/models/request_spec.rb
+0	1	spec/models/user/connecting_spec.rb
+10	6	spec/models/user_spec.rb
+
+--847f4fd26--2011-04-05--danielgrippi
+1	1	app/controllers/users_controller.rb
+7	0	app/models/aspect_membership.rb
+5	1	app/models/post.rb
+1	1	app/views/people/_relationship_action.haml
+1	10	features/accepts_invitation.feature
+19	6	spec/models/aspect_membership_spec.rb
+6	1	spec/models/post_spec.rb
+
+--68375fdb0--2011-04-05--danielgrippi
+2	1	.rspec
+0	1	app/controllers/aspect_memberships_controller.rb
+1	1	app/controllers/people_controller.rb
+1	1	app/models/aspect.rb
+0	10	app/models/aspect_membership.rb
+0	2	app/models/contact.rb
+1	1	app/models/invitation.rb
+0	2	app/models/post_visibility.rb
+1	4	app/models/request.rb
+6	6	app/models/user.rb
+1	1	app/views/aspects/_aspect_listings.haml
+3	5	app/views/people/_aspect_list.haml
+1	1	app/views/people/_profile_sidebar.html.haml
+1	1	app/views/people/show.html.haml
+3	2	app/views/services/_remote_friend.html.haml
+42	0	db/migrate/20110405171412_contact_remove_pending_add_mutual.rb
+6	6	db/schema.rb
+15	83	lib/diaspora/user/connecting.rb
+1	1	lib/diaspora/user/querying.rb
+9	19	spec/controllers/aspect_memberships_controller_spec.rb
+17	17	spec/controllers/aspects_controller_spec.rb
+1	1	spec/controllers/services_controller_spec.rb
+2	6	spec/helper_methods.rb
+4	4	spec/integration/receiving_spec.rb
+7	22	spec/models/aspect_membership_spec.rb
+8	13	spec/models/invitation_spec.rb
+1	1	spec/models/person_spec.rb
+0	22	spec/models/post_visibility_spec.rb
+2	1	spec/models/request_spec.rb
+65	36	spec/models/user/connecting_spec.rb
+2	4	spec/models/user/invite_spec.rb
+3	8	spec/models/user/querying_spec.rb
+8	20	spec/models/user_spec.rb
+5	11	spec/support/user_methods.rb
+
+--07f7eff78--2011-04-05--danielgrippi
+8	10	spec/models/profile_spec.rb
+1	1	spec/models/user/attack_vectors_spec.rb
+
+--cbdbe1b29--2011-04-04--danielgrippi
+0	3	app/models/service_user.rb
+0	6	app/views/services/_remote_friend.html.haml
+13	4	lib/diaspora/user/connecting.rb
+1	1	spec/controllers/aspects_controller_spec.rb
+84	89	spec/integration/receiving_spec.rb
+79	79	spec/lib/postzord/dispatch_spec.rb
+0	117	spec/models/aspect_spec.rb
+6	15	spec/models/contact_spec.rb
+5	21	spec/models/person_spec.rb
+18	17	spec/models/retraction_spec.rb
+0	12	spec/models/service_user_spec.rb
+40	206	spec/models/user/connecting_spec.rb
+1	23	spec/models/user/invite_spec.rb
+30	38	spec/models/user/posting_spec.rb
+20	1	spec/models/user/querying_spec.rb
+93	42	spec/models/user_spec.rb
+3	2	spec/spec_helper.rb
+
+--590e1fd93--2011-04-04--danielgrippi
+0	1	app/controllers/aspects_controller.rb
+8	19	app/controllers/contacts_controller.rb
+0	8	app/controllers/people_controller.rb
+0	59	app/controllers/requests_controller.rb
+4	4	app/models/invitation.rb
+4	1	app/models/request.rb
+1	1	app/models/user.rb
+1	26	app/views/aspects/manage.html.haml
+2	2	app/views/contacts/_share_with_pane.html.haml
+0	9	app/views/people/_relationship_action.haml
+8	17	app/views/people/show.html.haml
+1	2	config/locales/diaspora/en.yml
+0	2	config/routes.rb
+27	24	features/connects_users.feature
+28	15	lib/diaspora/user/connecting.rb
+0	5	lib/diaspora/user/querying.rb
+0	24	public/javascripts/aspect-edit.js
+0	31	spec/controllers/aspects_controller_spec.rb
+40	68	spec/controllers/contacts_controller_spec.rb
+7	4	spec/controllers/invitations_controller_spec.rb
+0	141	spec/controllers/requests_controller_spec.rb
+6	8	spec/helper_methods.rb
+0	13	spec/integration/receiving_spec.rb
+24	47	spec/models/invitation_spec.rb
+2	3	spec/models/request_spec.rb
+101	69	spec/models/user/connecting_spec.rb
+0	15	spec/models/user/querying_spec.rb

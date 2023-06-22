@@ -1,0 +1,89 @@
+--28e6ad252e--2013-03-22--Murray Steele
+--57e4b0d4b3--2013-03-22--Bradley Wright
+--79c4190ac7--2013-03-22--Matthew Ford
+1	1	app/views/home/how_government_works.html.erb
+
+--e7d0ce54d2--2013-03-22--Tekin Suleyman
+1	1	db/data_migration/20130321100108_remove_world_editions_from_rummager.rb
+
+--ff99cb4d18--2013-03-20--Tekin Suleyman
+4	0	db/data_migration/20130320163540_migrate_access_corp_pages_to_new_access_model.rb
+
+--2bcb1ddbf8--2013-03-19--Tekin Suleyman
+31	9	app/controllers/admin/access_and_opening_times_controller.rb
+4	3	app/models/worldwide_office.rb
+5	2	app/views/admin/access_and_opening_times/_form.html.erb
+3	3	app/views/admin/access_and_opening_times/edit.html.erb
+0	15	app/views/admin/access_and_opening_times/new.html.erb
+12	0	app/views/admin/worldwide_offices/_worldwide_office.html.erb
+1	1	app/views/admin/worldwide_offices/edit.html.erb
+1	1	app/views/admin/worldwide_organisations/access_info.html.erb
+1	0	app/views/admin/worldwide_organisations/offices.html.erb
+1	1	app/views/contacts/_contact.html.erb
+3	3	app/views/worldwide_offices/show.html.erb
+5	2	config/routes.rb
+8	4	features/administering-worldwide-organisations.feature
+34	2	features/step_definitions/worldwide_organisation_steps.rb
+100	18	test/functional/admin/access_and_opening_times_controller_test.rb
+13	3	test/unit/worldwide_office_test.rb
+
+--9c346bcbff--2013-03-18--Tekin Suleyman
+13	0	app/controllers/worldwide_offices_controller.rb
+10	0	app/models/worldwide_office.rb
+4	0	app/views/contacts/_contact.html.erb
+33	0	app/views/worldwide_offices/show.html.erb
+1	0	config/routes.rb
+4	0	db/data_migration/20130318152854_generate_slugs_for_worldwide_offices.rb
+6	0	db/migrate/20130318145439_add_slug_to_worldwide_offices.rb
+2	0	db/schema.rb
+22	0	test/functional/worldwide_offices_controller_test.rb
+30	0	test/unit/worldwide_office_test.rb
+
+--107f7bedc4--2013-03-20--Tekin Suleyman
+1	1	app/views/admin/worldwide_offices/_form.html.erb
+3	3	app/views/admin/worldwide_offices/_worldwide_office.html.erb
+1	1	app/views/admin/worldwide_organisations/offices.html.erb
+1	1	config/routes.rb
+
+--067a950360--2013-03-19--Tekin Suleyman
+2	10	app/controllers/worldwide_organisations_controller.rb
+4	0	app/models/worldwide_office.rb
+0	27	app/presenters/contact_presenter.rb
+1	1	app/views/worldwide_organisations/_worldwide_organisation.html.erb
+6	1	test/factories/contacts.rb
+1	1	test/factories/worldwide_offices.rb
+36	0	test/unit/worldwide_office_test.rb
+
+--cf4039e2e6--2013-03-19--Tekin Suleyman
+0	11	app/models/contact.rb
+
+--c083c8814b--2013-03-19--Tekin Suleyman
+13	33	app/views/admin/worldwide_offices/_worldwide_office.html.erb
+18	4	app/views/admin/worldwide_organisations/offices.html.erb
+
+--b99d643124--2013-03-18--Tekin Suleyman
+33	0	app/controllers/admin/access_and_opening_times_controller.rb
+7	0	app/controllers/admin/worldwide_organisations_controller.rb
+1	0	app/helpers/admin/worldwide_organisations_helper.rb
+6	0	app/models/access_and_opening_times.rb
+1	0	app/models/worldwide_organisation.rb
+5	0	app/views/admin/access_and_opening_times/_form.html.erb
+15	0	app/views/admin/access_and_opening_times/edit.html.erb
+15	0	app/views/admin/access_and_opening_times/new.html.erb
+30	0	app/views/admin/worldwide_organisations/access_info.html.erb
+2	0	config/routes.rb
+12	0	db/migrate/20130318113528_create_access_and_opening_times.rb
+10	0	db/schema.rb
+13	1	features/administering-worldwide-organisations.feature
+34	24	features/step_definitions/worldwide_organisation_steps.rb
+33	0	features/support/worldwide_organisations_helper.rb
+5	0	test/factories/access_and_opening_times.rb
+71	0	test/functional/admin/access_and_opening_times_controller_test.rb
+11	0	test/functional/admin/worldwide_organisations_controller_test.rb
+5	0	test/unit/access_and_opening_times_test.rb
+7	0	test/unit/worldwide_organisation_test.rb
+
+--4e4e1eb4a7--2013-03-22--Edd Sowden
+10	0	app/assets/stylesheets/frontend/helpers/_global-nav.scss
+4	0	app/helpers/application_helper.rb
+16	8	app/views/layouts/frontend.html.erb

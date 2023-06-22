@@ -1,0 +1,48 @@
+--41df6f8f3a--2013-07-08--Matthew Ford
+--adb8c9a3d2--2013-07-08--Edd Sowden
+-	-	app/assets/images/uk-aid-logo.png
+22	0	app/assets/stylesheets/frontend/views/_organisations.scss
+9	0	app/views/organisations/show.html.erb
+15	0	features/step_definitions/organisation_steps.rb
+7	0	features/viewing-organisations.feature
+
+--debe12b36f--2013-07-05--Tekin Suleyman
+--b0b3592cd6--2013-07-05--Graham Ashton
+1	4	app/models/take_part_page.rb
+
+--135ee621f4--2013-07-05--Bradley Wright
+--786f85cc00--2013-07-05--Tekin Suleyman
+1	0	app/views/layouts/detailed-guidance.html.erb
+1	0	app/views/layouts/html-publication.html.erb
+
+--6250f5a5bb--2013-07-05--Tekin Suleyman
+13	0	app/assets/stylesheets/frontend/views/_layouts.scss
+
+--0a488d4321--2013-07-03--Tekin Suleyman
+1	1	Gemfile
+2	2	Gemfile.lock
+
+--87a5fc6520--2013-07-03--Tekin Suleyman
+7	2	app/controllers/application_controller.rb
+1	1	app/controllers/detailed_guides_controller.rb
+
+--b6a1de8787--2013-07-02--Tekin Suleyman
+13	0	app/controllers/application_controller.rb
+1	0	app/controllers/case_studies_controller.rb
+1	0	app/controllers/consultations_controller.rb
+1	0	app/controllers/corporate_information_pages_controller.rb
+1	0	app/controllers/document_series_controller.rb
+1	0	app/controllers/fatality_notices_controller.rb
+1	0	app/controllers/groups_controller.rb
+1	0	app/controllers/ministerial_roles_controller.rb
+1	0	app/controllers/news_articles_controller.rb
+2	0	app/controllers/organisations_controller.rb
+1	0	app/controllers/people_controller.rb
+1	0	app/controllers/policies_controller.rb
+1	0	app/controllers/publications_controller.rb
+1	0	app/controllers/speeches_controller.rb
+2	0	app/controllers/topical_events_controller.rb
+1	0	app/controllers/topics_controller.rb
+
+--37938173d2--2013-07-01--Tekin Suleyman
+2	0	app/views/layouts/frontend.html.erb

@@ -1,0 +1,17 @@
+--2ad1b5fbf0--2015-06-04--Ken Lu
+--71e49eba5c--2015-06-04--Ken Lu
+7	6	app/models/benefit_group.rb
+5	7	app/views/shared/_relationship_benefit_fields.html.erb
+2	2	spec/models/benefit_group_spec.rb
+
+--096b783989--2015-06-04--vinner
+54	0	spec/controllers/broker_agencies/profiles_controller_spec.rb
+
+--717f9fe64a--2015-06-04--vinner
+1	1	spec/controllers/employers/employer_profiles_controller_spec.rb
+
+--14422b7640--2015-06-04--vinner
+2	1	app/controllers/broker_agencies/profiles_controller.rb
+2	2	app/views/broker_agencies/profiles/_form.html.erb
+19	0	features/brokers/create_broker_agency_profiles.feature
+80	0	features/step_definitions/brokers_steps.rb

@@ -1,0 +1,10 @@
+--32d7561858--2017-08-07--David Basalla
+--56da35d486--2017-08-04--David Basalla
+17	6	app/models/unpublishing.rb
+5	0	test/unit/unpublishing_test.rb
+
+--dcda55d77f--2017-08-07--Graham Pengelly
+--b7df381cb2--2017-08-04--David Basalla
+1	1	app/views/admin/attachments/_attachments.html.erb
+9	0	features/edition-attachments.feature
+7	31	features/step_definitions/attachment_steps.rb

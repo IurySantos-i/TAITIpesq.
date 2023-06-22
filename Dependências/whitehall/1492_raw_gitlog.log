@@ -1,0 +1,155 @@
+--39f8a6342f--2016-04-25--Mo Baig
+--f1a85a47a6--2016-04-25--Brendan Butler
+--a9dcc6cdc8--2016-04-25--benhyland
+--9eb496c2b1--2016-04-22--Ben Hyland
+25	0	test/unit/helpers/govspeak_helper_test.rb
+
+--39e0bf3dd6--2016-04-22--Ben Hyland
+1	1	Gemfile
+2	2	Gemfile.lock
+
+--595b48cc4d--2016-04-21--Mo Baig
+42	1	test/unit/specialist_tag_finder_test.rb
+
+--149c6a3207--2016-04-21--Mo Baig
+24	23	lib/specialist_tag_finder.rb
+
+--47501d36b9--2016-04-21--Mo Baig
+3	3	app/helpers/specialist_sector_helper.rb
+1	1	app/views/documents/_header.html.erb
+3	3	features/step_definitions/specialist_sector_steps.rb
+11	6	lib/specialist_tag_finder.rb
+1	1	test/integration/detailed_guide_test.rb
+2	2	test/unit/specialist_tag_finder_test.rb
+
+--bf784b05c4--2016-04-21--Mo Baig
+4	6	app/helpers/document_helper.rb
+2	3	features/support/specialist_sector_helper.rb
+10	0	lib/specialist_tag_finder.rb
+1	2	test/test_helper.rb
+
+--820a351f9f--2016-04-21--Mo Baig
+0	7	features/support/specialist_sector_helper.rb
+
+--aa2f7f9ace--2016-04-21--Mo Baig
+24	18	lib/specialist_tag_finder.rb
+
+--a15628e2c3--2016-04-21--Mo Baig
+1	4	features/specialist-sectors.feature
+26	7	features/step_definitions/specialist_sector_steps.rb
+7	15	features/support/specialist_sector_helper.rb
+2	0	lib/specialist_tag_finder.rb
+0	18	test/integration/detailed_guide_test.rb
+
+--99336d15a9--2016-04-20--Mo Baig
+7	0	features/support/specialist_sector_helper.rb
+
+--a9aa2b17cf--2016-04-13--Mo Baig
+0	25	lib/specialist_tag_finder.rb
+0	50	test/unit/specialist_tag_finder_test.rb
+
+--497702b13d--2016-04-11--Mo Baig
+5	2	app/helpers/document_helper.rb
+3	10	app/helpers/specialist_sector_helper.rb
+10	4	app/views/documents/_header.html.erb
+24	0	test/integration/detailed_guide_test.rb
+5	0	test/test_helper.rb
+
+--4747df94f5--2016-04-11--Mo Baig
+1	1	lib/specialist_tag_finder.rb
+
+--0299fc34a0--2016-04-11--Mo Baig
+17	0	lib/specialist_tag_finder.rb
+18	0	test/unit/specialist_tag_finder_test.rb
+
+--ae3c3a8387--2016-04-08--Mo Baig
+4	6	app/presenters/publishing_api_presenters/edition.rb
+8	1	lib/specialist_tag_finder.rb
+1	0	test/factories/editions.rb
+20	0	test/unit/specialist_tag_finder_test.rb
+
+--6c3519eff4--2016-04-08--Mo Baig
+4	4	lib/specialist_tag_finder.rb
+4	4	test/unit/specialist_tag_finder_test.rb
+
+--f6d5aaaf55--2016-04-07--Mo Baig
+4	0	config/initializers/content_store.rb
+1	0	lib/whitehall.rb
+
+--40fe0d0ff8--2016-04-07--Mo Baig
+9	10	lib/whitehall.rb
+
+--f67724af9d--2016-04-20--Murray Steele
+21	0	db/data_migration/20160420084323_remove_appointed_person_for_england_and_wales_organisation.rb
+
+--f05f946e9b--2016-04-19--Mat
+--1d8adddb84--2016-04-19--Mat Moore
+5	0	db/data_migration/20160419091436_remove_inconsistent_editions.rb
+
+--21cd487970--2016-04-18--Isabell Long
+--623308f530--2016-04-18--Tijmen Brommet
+--69420ce0a1--2016-04-18--Tijmen Brommet
+7	0	lib/tasks/rummager.rake
+
+--ce4ae582cd--2016-04-17--Tijmen Brommet
+1	0	app/models/organisation.rb
+1	0	app/models/searchable.rb
+6	1	test/unit/models/organisation_test.rb
+
+--d214a2d716--2016-04-18--Isabell Long
+1	1	app/views/histories/10_downing_street.html.erb
+
+--a113e5d234--2016-04-18--Tijmen Brommet
+--cff39c8ad0--2016-04-18--Tijmen Brommet
+7	1	app/presenters/publishing_api_presenters/edition.rb
+13	0	test/unit/presenters/publishing_api_presenters/edition_test.rb
+
+--b80f7c2f5d--2016-04-18--Paul Hayes
+--4b1d47eff5--2016-03-24--Paul Hayes
+0	1	features/step_definitions/policy_group_steps.rb
+0	5	features/support/policy_group_helper.rb
+
+--17c1451e3c--2016-03-23--Paul Hayes
+0	1	app/assets/stylesheets/frontend/base.scss
+0	51	app/assets/stylesheets/frontend/views/_policy_groups.scss
+3	5	app/controllers/policy_groups_controller.rb
+0	62	app/views/policy_groups/show.html.erb
+1	0	config/routes.rb
+3	3	features/policy-groups.feature
+3	4	features/step_definitions/policy_group_steps.rb
+0	26	test/functional/policy_groups_controller_test.rb
+
+--d5eb8daa6a--2016-04-12--Graham Pengelly
+--1569a7f440--2016-04-12--Graham Pengelly
+--7d82309879--2016-04-12--Graham Pengelly
+1	1	README.md
+
+--e322918637--2016-04-12--Paul Bowsher
+6	6	README.md
+
+--4d649bf9e8--2016-04-12--Graham Pengelly
+35	233	README.md
+6	0	docs/creating_new_users.md
+63	0	docs/detailed_setup_guide.md
+38	0	docs/internationalisation_guide.md
+17	0	docs/local_asset_setup_guide.md
+78	0	docs/search_setup_guide.md
+63	0	docs/testing_guide.md
+24	0	docs/timestamps.md
+
+--54f8844adb--2016-04-12--Matteo Grassotti
+--f077dae136--2016-04-11--matteo.grassotti
+7	2	app/controllers/policy_groups_controller.rb
+8	0	test/functional/policy_groups_controller_test.rb
+
+--699c398115--2016-04-08--Graham Pengelly
+1	1	app/presenters/publishing_api_presenters/html_attachment.rb
+
+--68419290c3--2016-04-08--Graham Pengelly
+5	0	app/presenters/publishing_api_presenters/html_attachment.rb
+6	0	test/unit/presenters/publishing_api_presenters/html_attachment_test.rb
+1	1	test/unit/presenters/publishing_api_presenters_test.rb
+
+--d90368ebb9--2016-04-11--Graham Pengelly
+--6c3dd2bab4--2016-04-11--Graham Pengelly
+0	4	app/presenters/publishing_api_presenters/html_attachment.rb

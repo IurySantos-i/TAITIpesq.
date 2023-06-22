@@ -1,0 +1,16 @@
+--443c4574--2010-06-16--Dhruv Kapadia
+--c02fed0c--2010-06-16--Dhruv Kapadia
+24	0	features/fraud_prevention/prevent_skip_by_reload.feature
+8	0	features/step_definitions/fraud_prevention_steps.rb
+0	10	features/voting/cantdecide.feature
+
+--576664f8--2010-06-16--Chap Ambrose
+51	40	app/controllers/questions_controller.rb
+14	6	app/views/photocracy/earls/show.haml
+3	2	app/views/photocracy/questions/_photo.haml
+42	1	public/javascripts/photocracy/application.js
+
+--9c0c80ee--2010-06-16--Dhruv Kapadia
+2	12	app/views/questions/admin.html.haml
+1	0	config/locales/en.yml
+13	0	features/admin/admin_interface.feature

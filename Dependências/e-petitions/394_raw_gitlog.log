@@ -1,0 +1,50 @@
+--1795ef8d--2015-06-04--mybits
+--3b23e761--2015-06-04--Alexander Bobin
+--046f5e67--2015-06-02--Alexander Bobin
+3	5	app/assets/stylesheets/petitions/_footer.scss
+20	10	app/assets/stylesheets/petitions/_header.scss
+9	0	app/assets/stylesheets/petitions/_helpers.scss
+0	10	app/assets/stylesheets/petitions/_icons.scss
+14	0	app/assets/stylesheets/petitions/views/_home.scss
+0	41	app/assets/stylesheets/petitions/views/_petition-show.scss
+53	0	app/assets/stylesheets/petitions/views/_shared.scss
+2	0	app/assets/stylesheets/site.scss
+6	12	app/views/petitions/_trending_petition.html.erb
+2	11	app/views/petitions/show.html.erb
+10	0	app/views/shared/_about_petitions.html.erb
+1	0	app/views/shared/_header.html.erb
+27	29	app/views/static_pages/home.html.erb
+2	2	features/charlie_creates_a_petition.feature
+1	1	features/step_definitions/petition_steps.rb
+2	2	features/step_definitions/trending_steps.rb
+
+--0fd2edfe--2015-06-01--Alexander Bobin
+1	0	app/assets/stylesheets/application-ie7.css
+1	0	app/assets/stylesheets/application-ie8.css
+5	0	app/assets/stylesheets/site-ie7.scss
+5	0	app/assets/stylesheets/site-ie8.scss
+4	4	app/views/layouts/application.html.erb
+1	1	config/initializers/assets.rb
+0	66	public/stylesheets/ie6.css
+0	11	public/stylesheets/ie7under.css
+0	3	public/stylesheets/ie9.css
+
+--417f1dfa--2015-06-01--Alexander Bobin
+2	0	app/assets/javascripts/application.js
+18	0	app/assets/javascripts/core.js
+2	0	app/assets/javascripts/ie.js
+208	0	app/assets/javascripts/vendor/details.polyfill.js
+11	0	app/assets/javascripts/vendor/html5shiv-printshiv.js
+9	0	app/assets/javascripts/vendor/html5shiv.js
+4	2	app/views/layouts/application.html.erb
+0	2	app/views/static_pages/how_it_works.html.erb
+1	1	config/initializers/assets.rb
+0	56	public/javascripts/accessibility.js
+0	69	public/javascripts/application.js
+0	355	public/javascripts/form_controller.js
+0	83	public/javascripts/lightbox.js
+0	154	spec/javascripts/form_controller_spec.js
+0	5	spec/javascripts/spec_helper.js
+
+--e0d7b829--2015-06-03--Andrew White
+7	1	lib/tasks/import.rake

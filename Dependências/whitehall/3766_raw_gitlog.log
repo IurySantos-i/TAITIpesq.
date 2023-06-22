@@ -1,0 +1,341 @@
+--dece062085--2013-01-31--Bradley Wright
+--18031756e7--2013-01-31--russell thorn
+5	0	app/assets/stylesheets/frontend/helpers/_govspeak.scss
+
+--a54da26676--2013-01-31--russell thorn
+1	1	app/views/documents/_attachment.html.erb
+
+--8fb144575f--2013-01-31--Matthew Ford
+--7f1f078307--2013-01-31--Matthew Ford
+6	5	lib/whitehall/document_filter/elastic_search.rb
+
+--1e07e43d64--2013-01-31--russell thorn
+2	3	app/views/organisations/show.html.erb
+
+--8d607fb6e4--2013-01-30--Matthew Ford
+1	0	Gemfile
+3	0	Gemfile.lock
+2	0	config/application.rb
+12	2	lib/whitehall/document_filter/elastic_search.rb
+
+--c264e4c266--2013-01-31--David Heath
+3	1	app/views/documents/_filter_form.html.erb
+
+--ac0fd242b3--2013-01-31--Edd Sowden
+6	0	app/assets/stylesheets/admin/organisation.scss
+1	0	app/controllers/admin/organisations_controller.rb
+19	0	app/views/admin/organisations/_organisation_row.html.erb
+11	14	app/views/admin/organisations/index.html.erb
+
+--a6e31ad698--2013-01-31--Edd Sowden
+8	0	app/assets/stylesheets/frontend/reset/_reset.scss
+
+--9cba9b7359--2013-01-30--Edd Sowden
+1	0	Gemfile
+6	1	Gemfile.lock
+2	0	app/assets/javascripts/application.js
+96	62	app/assets/javascripts/application/document_filter.js
+0	0	app/assets/javascripts/templates.js
+4	13	app/assets/stylesheets/frontend/helpers/_filter.scss
+2	3	app/controllers/announcements_controller.rb
+38	0	app/helpers/document_filter_helper.rb
+1	1	app/views/announcements/index.html.erb
+11	2	app/views/documents/_filter_results.html.erb
+23	0	app/views/documents/_filter_selections.mustache
+1	1	app/views/policies/index.html.erb
+1	1	app/views/publications/index.html.erb
+1	1	lib/tasks/test_cleanup.rake
+6	0	lib/tasks/test_javascript.rake
+27	13	test/javascripts/unit/document_filter_test.js
+24	0	test/unit/helpers/document_filter_helper_test.rb
+
+--2bcb029d6e--2013-01-30--Bradley Wright
+0	1	Gemfile
+1	6	Gemfile.lock
+0	2	app/assets/javascripts/application.js
+62	96	app/assets/javascripts/application/document_filter.js
+0	0	app/assets/javascripts/templates.js
+13	4	app/assets/stylesheets/frontend/helpers/_filter.scss
+3	2	app/controllers/announcements_controller.rb
+0	38	app/helpers/document_filter_helper.rb
+1	1	app/views/announcements/index.html.erb
+2	11	app/views/documents/_filter_results.html.erb
+0	23	app/views/documents/_filter_selections.mustache
+1	1	app/views/policies/index.html.erb
+1	1	app/views/publications/index.html.erb
+1	1	lib/tasks/test_cleanup.rake
+0	6	lib/tasks/test_javascript.rake
+13	27	test/javascripts/unit/document_filter_test.js
+0	24	test/unit/helpers/document_filter_helper_test.rb
+
+--45c8c2918b--2013-01-30--Bradley Wright
+--1f096e385b--2013-01-30--Edd Sowden
+1	1	Gemfile
+4	3	Gemfile.lock
+1	1	lib/tasks/test_cleanup.rake
+6	0	lib/tasks/test_javascript.rake
+27	13	test/javascripts/unit/document_filter_test.js
+
+--2303c6e1bf--2013-01-29--Edd Sowden
+1	0	Gemfile
+4	0	Gemfile.lock
+
+--86f7556e7e--2013-01-29--Edd Sowden
+67	21	app/assets/javascripts/application/document_filter.js
+4	13	app/assets/stylesheets/frontend/helpers/_filter.scss
+17	7	app/helpers/document_filter_helper.rb
+1	10	app/views/announcements/index.html.erb
+10	1	app/views/documents/_filter_results.html.erb
+12	7	app/views/documents/_filter_selections.mustache
+1	1	app/views/policies/index.html.erb
+1	1	app/views/publications/index.html.erb
+11	1	test/unit/helpers/document_filter_helper_test.rb
+
+--25cf9f2077--2013-01-28--Edd Sowden
+2	0	app/assets/javascripts/application.js
+42	54	app/assets/javascripts/application/document_filter.js
+0	0	app/assets/javascripts/templates.js
+2	3	app/controllers/announcements_controller.rb
+28	0	app/helpers/document_filter_helper.rb
+10	1	app/views/announcements/index.html.erb
+2	2	app/views/documents/_filter_results.html.erb
+18	0	app/views/documents/_filter_selections.mustache
+14	0	test/unit/helpers/document_filter_helper_test.rb
+
+--3ecab41945--2013-01-30--David Heath
+1	0	features/step_definitions/import_steps.rb
+
+--7d68fb4b3c--2013-01-30--Bradley Wright
+1	1	config/tire.rb
+0	4	lib/whitehall.rb
+
+--d4fd743a1d--2013-01-30--Bradley Wright
+--26008070a3--2013-01-30--Bradley Wright
+--a13de4df53--2013-01-30--Bradley Wright
+--18d895d09c--2013-01-30--David Thompson
+1	1	Gemfile
+5	2	Gemfile.lock
+
+--843ef2e206--2013-01-29--David Heath
+3	7	test/unit/edition_test.rb
+
+--a6319c01f1--2013-01-29--David Heath
+1	0	Gemfile
+13	0	Gemfile.lock
+38	2	app/controllers/publications_controller.rb
+1	0	app/views/documents/_filter_form.html.erb
+3	0	config/tire.rb
+4	0	lib/whitehall.rb
+189	0	lib/whitehall/document_filter/elastic_search.rb
+
+--43d49a5daa--2013-01-29--David Heath
+36	0	app/helpers/document_filter_helper.rb
+4	4	app/views/documents/_filter_form.html.erb
+0	25	lib/whitehall/document_filter/mysql.rb
+41	0	test/unit/helpers/document_filter_helper_test.rb
+0	36	test/unit/whitehall/document_filter/mysql_test.rb
+
+--46a556d990--2013-01-29--David Heath
+2	2	app/controllers/announcements_controller.rb
+1	1	app/controllers/policies_controller.rb
+7	4	app/controllers/publications_controller.rb
+0	169	lib/whitehall/document_filter.rb
+171	0	lib/whitehall/document_filter/mysql.rb
+1	1	test/functional/document_filter_json_presenter_test.rb
+1	1	test/functional/publication_filter_json_presenter_test.rb
+3	3	test/support/document_filter_helpers.rb
+2	2	test/unit/announcement_filter_json_presenter_test.rb
+0	397	test/unit/document_filter_test.rb
+399	0	test/unit/whitehall/document_filter/mysql_test.rb
+
+--987a9b6de4--2013-01-29--David Heath
+12	3	app/models/edition.rb
+6	0	app/models/edition/appointment.rb
+6	0	app/models/edition/related_policies.rb
+6	0	app/models/edition/role_appointments.rb
+4	0	app/models/news_article.rb
+4	0	app/models/policy.rb
+4	0	app/models/publication.rb
+14	5	app/models/searchable.rb
+4	0	app/models/speech.rb
+8	0	config/initializers/rummager.rb
+9	0	test/test_helper.rb
+16	0	test/unit/edition/related_policies_test.rb
+79	0	test/unit/edition/searchable_test.rb
+5	0	test/unit/news_article_test.rb
+6	0	test/unit/policy_test.rb
+6	0	test/unit/publication_test.rb
+17	0	test/unit/speech_test.rb
+
+--d221d99950--2013-01-29--David Heath
+1	1	app/models/speech_type.rb
+
+--d0f8c8db8f--2013-01-29--David Heath
+1	1	app/models/ministerial_role_search_index_observer.rb
+1	1	app/models/searchable.rb
+3	3	config/initializers/rummager.rb
+1	1	db/data_migration/20121011121600_revert_detailed_guides_to_draft.rb
+1	1	db/data_migration/20121024102420_set_most_organisations_to_joining.rb
+1	1	db/data_migration/20121119091120_delete_all_the_delete_things.rb
+1	1	db/data_migration/20121119163057_remove_reverted_detailed_guides_from_search.rb
+2	2	db/data_migration/20121213094644_index_fatality_notices.rb
+6	6	lib/tasks/rummager.rake
+7	3	lib/whitehall.rb
+5	5	test/unit/edition_test.rb
+9	9	test/unit/ministerial_role_search_index_observer_test.rb
+3	3	test/unit/ministerial_role_test.rb
+3	3	test/unit/organisation_test.rb
+4	4	test/unit/supporting_page_search_index_observer_test.rb
+4	4	test/unit/topic_test.rb
+
+--be7cfcb321--2013-01-30--Edd Sowden
+1	1	Gemfile
+2	2	Gemfile.lock
+
+--3e8963faa6--2013-01-30--Murray Steele
+11	0	app/models/edition/topical_events.rb
+10	1	app/models/topical_event.rb
+47	0	test/unit/edition/topical_events_test.rb
+12	1	test/unit/edition/topics_test.rb
+14	0	test/unit/organisation_test.rb
+36	0	test/unit/topical_event_test.rb
+
+--6c4a1b44ff--2013-01-30--Bradley Wright
+-	-	app/assets/images/organisation_default_news/scotland-office.jpg
+
+--b0111ce649--2013-01-30--Edd Sowden
+1	1	Gemfile
+2	2	Gemfile.lock
+1	0	app/assets/javascripts/admin.js
+1	0	app/assets/javascripts/application.js
+
+--805e29da42--2013-01-29--Bradley Wright
+5	3	script/dump_all_admin_to_public_documents_and_non_documents.rb
+
+--cdb344d84a--2013-01-29--Bradley Wright
+1	1	Gemfile
+2	2	Gemfile.lock
+
+--d10ad567b3--2013-01-29--Matthew Ford
+1	1	Gemfile
+2	2	Gemfile.lock
+
+--d5a2ca3e91--2013-01-29--Bradley Wright
+--a49e8be2c4--2013-01-29--Murray Steele
+3	3	app/views/admin/imports/force_publish_log.html.erb
+1	1	app/views/admin/imports/show.html.erb
+
+--77783a76a6--2013-01-29--Murray Steele
+34	0	features/force-publishing-an-import.feature
+74	0	features/step_definitions/force_publishing_imports_steps.rb
+20	0	features/support/document_helper.rb
+11	1	features/support/import_helpers.rb
+
+--ae32a45a7b--2013-01-29--Murray Steele
+8	1	app/controllers/admin/imports_controller.rb
+20	5	app/models/import.rb
+44	0	app/views/admin/imports/force_publish_log.html.erb
+7	2	app/views/admin/imports/index.html.erb
+1	0	config/routes.rb
+26	2	test/functional/admin/imports_controller_test.rb
+
+--0930686d84--2013-01-29--Murray Steele
+103	0	app/models/force_publication_attempt.rb
+16	2	app/models/import.rb
+17	0	db/migrate/20130128155925_add_forced_publication_attempts.rb
+15	1	db/schema.rb
+35	29	lib/force_publisher.rb
+164	0	test/unit/force_publication_attempt_test.rb
+85	3	test/unit/import_test.rb
+
+--69e54d123a--2013-01-29--Murray Steele
+10	1	app/controllers/admin/imports_controller.rb
+3	0	app/models/import.rb
+31	0	test/functional/admin/imports_controller_test.rb
+0	1	test/unit/import_test.rb
+
+--9ad60d7904--2013-01-22--Murray Steele
+8	0	app/models/import.rb
+6	0	app/views/admin/imports/index.html.erb
+1	0	config/routes.rb
+23	0	test/unit/import_test.rb
+
+--c66ee7ca5b--2013-01-22--Murray Steele
+6	0	app/models/import.rb
+16	0	test/unit/import_test.rb
+
+--08cf63a419--2013-01-22--Murray Steele
+0	15	features/step_definitions/import_steps.rb
+25	0	features/support/import_helpers.rb
+
+--9cfca80207--2013-01-29--russell thorn
+2	13	test/functional/organisations_controller_test.rb
+
+--1a3ea0902a--2013-01-29--Bradley Wright
+2	2	script/dump_all_admin_to_public_documents_and_non_documents.rb
+
+--6032671d04--2013-01-29--russell thorn
+1	1	app/views/admin/groups/edit.html.erb
+1	1	app/views/admin/groups/new.html.erb
+1	1	app/views/admin/organisations/show.html.erb
+2	2	app/views/admin/organisations/tabs/_groups.html.erb
+
+--51211efc8c--2013-01-28--Bradley Wright
+15	11	lib/force_publisher.rb
+
+--2e4a4ed30e--2013-01-28--russell thorn
+1	1	app/assets/stylesheets/frontend/views/_organisations.scss
+5	4	app/views/organisations/show.html.erb
+
+--5bbeb54759--2013-01-28--russell thorn
+4	4	app/controllers/organisations_controller.rb
+16	20	test/functional/organisations_controller_test.rb
+
+--2e70a6e83f--2013-01-28--Bradley Wright
+--d9acf1455d--2013-01-28--Murray Steele
+1	3	app/controllers/admin/editions_controller/attachments.rb
+6	0	app/models/attachable.rb
+16	0	test/unit/attachable_test.rb
+
+--6f9063294d--2013-01-28--Murray Steele
+1	0	app/controllers/admin/editions_controller.rb
+6	1	app/controllers/admin/editions_controller/attachments.rb
+22	11	app/models/bulk_upload.rb
+12	1	features/bulk-upload-of-attachments.feature
+37	0	features/step_definitions/bulk_upload_attachments_steps.rb
+4	0	features/support/document_helper.rb
+30	0	test/unit/bulk_upload_test.rb
+
+--c4ab08a794--2013-01-28--Edd Sowden
+0	0	app/assets/javascripts/common/{media-player/jquery.loader.js => jquery.enhanceYoutubeVideoLinks.js}
+0	970	app/assets/javascripts/common/media-player/jquery.player.js
+0	4	app/assets/javascripts/common/media-player/swfobject/swfobject.js
+
+--561a7f81aa--2013-01-25--Murray Steele
+1	0	config/routes.rb
+36	0	lib/long_life_redirect.rb
+5	0	test/integration/upload_access_test.rb
+
+--312bdbec0b--2013-01-25--Murray Steele
+29	0	app/controllers/admin/consultations_controller.rb
+22	2	app/helpers/admin/attachable_helper.rb
+9	3	app/models/consultation_participation.rb
+8	9	app/views/admin/consultations/_additional_significant_fields.html.erb
+119	29	test/functional/admin/consultations_controller_test.rb
+15	6	test/unit/consultation_participation_test.rb
+
+--507790ab89--2013-01-25--Murray Steele
+1	0	app/models/consultation_participation.rb
+3	1	app/models/consultation_response_form.rb
+4	1	test/factories/consultation_response_forms.rb
+
+--0c020e8540--2013-01-24--Murray Steele
+14	3	app/models/consultation_response_form.rb
+7	0	app/models/consultation_response_form_data.rb
+59	0	db/migrate/20130124132251_extract_consuptation_response_form_data_from_consultation_response_form.rb
+8	2	db/schema.rb
+5	0	test/factories/consultation_response_form_data.rb
+1	1	test/factories/consultation_response_forms.rb
+10	7	test/unit/consultation_participation_test.rb
+8	0	test/unit/consultation_response_form_data_test.rb
+15	5	test/unit/consultation_response_form_test.rb

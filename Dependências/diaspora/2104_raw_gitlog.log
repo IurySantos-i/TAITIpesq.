@@ -1,0 +1,302 @@
+--843c0d9c1--2012-03-27--Maxwell Salzberg
+--9550082a9--2012-03-27--Dennis Collinson
+0	3	features/notifications.feature
+
+--9d2664328--2012-03-27--Maxwell Salzberg
+1	1	Gemfile
+5	5	Gemfile.lock
+2	2	lib/tasks/before_deploy.rake
+
+--09f40c868--2012-03-27--Dennis Collinson
+1	0	app/controllers/posts_controller.rb
+5	0	app/models/feature_flags.rb
+
+--6288eff59--2012-03-26--Dennis Collinson
+34	21	features/step_definitions/trumpeter_steps.rb
+10	5	features/trumpeter.feature
+15	0	public/javascripts/app/models/post.js
+2	16	public/javascripts/app/pages/framer.js
+1	8	public/javascripts/app/pages/post-viewer.js
+2	0	public/javascripts/app/templates/day.handlebars
+3	0	public/javascripts/app/templates/photo-viewer.handlebars
+3	1	public/javascripts/app/views.js
+7	0	public/javascripts/app/views/photo_viewer.js
+16	0	public/javascripts/app/views/post/day_view.js
+27	4	public/javascripts/app/views/post_view.js
+1	9	public/javascripts/app/views/template_picker_view.js
+4	0	public/stylesheets/sass/new-templates.scss
+1	1	spec/javascripts/app/pages/framer_spec.js
+19	0	spec/javascripts/app/views/photo_viewer_spec.js
+34	0	spec/javascripts/app/views/post/day_view_spec.js
+14	0	spec/javascripts/helpers/factory.js
+
+--663abcb0a--2012-03-23--Dennis Collinson
+1	1	public/javascripts/app/pages/framer.js
+2	2	public/javascripts/app/templates/stream-element.handlebars
+6	118	public/javascripts/app/views/post_view.js
+1	2	public/javascripts/app/views/stream_object_view.js
+102	0	public/javascripts/app/views/stream_post_views.js
+1	1	public/javascripts/app/views/stream_view.js
+2	187	spec/javascripts/app/views/post_view_spec.js
+148	0	spec/javascripts/app/views/stream_post_spec.js
+
+--2bb677b34--2012-03-23--Dennis Collinson
+3	1	public/javascripts/app/pages/framer.js
+4	5	public/javascripts/app/templates/framer.handlebars
+1	3	public/javascripts/app/templates/template-picker.handlebars
+4	8	public/stylesheets/sass/new-templates.scss
+
+--010e091f6--2012-03-22--Dennis Collinson
+1	3	public/javascripts/app/pages/framer.js
+5	4	public/javascripts/app/templates/framer.handlebars
+3	1	public/javascripts/app/templates/template-picker.handlebars
+8	4	public/stylesheets/sass/new-templates.scss
+
+--775eca002--2012-03-22--Dennis Collinson
+1	1	app/models/status_message.rb
+1	1	app/presenters/post_presenter.rb
+5	0	db/migrate/20120322223517_add_template_name_to_posts.rb
+2	1	db/schema.rb
+1	1	public/javascripts/app/pages/framer.js
+5	3	public/javascripts/app/pages/post-viewer.js
+3	3	public/javascripts/app/views/template_picker_view.js
+1	1	spec/controllers/status_messages_controller_spec.rb
+6	6	spec/javascripts/app/views/template_picker_view_spec.js
+
+--11eb1eb7d--2012-03-22--Dennis Collinson
+3	1	config/routes.rb
+0	4	features/step_definitions/aspects_steps.rb
+6	0	features/step_definitions/stream_steps.rb
+5	9	features/step_definitions/trumpeter_steps.rb
+4	4	features/trumpeter.feature
+4	3	public/javascripts/app/pages/framer.js
+2	2	spec/javascripts/app/pages/framer_spec.js
+
+--8c640b179--2012-03-22--Dennis Collinson
+1	0	features/trumpeter.feature
+1	0	public/javascripts/app/forms/post_form.js
+2	1	public/stylesheets/sass/new-templates.scss
+
+--93e64c43a--2012-03-20--Dennis Collinson
+3	3	features/trumpeter.feature
+
+--e0b18f5d6--2012-03-20--Dennis Collinson
+14	5	public/javascripts/app/pages/framer.js
+5	0	public/javascripts/app/templates/template-picker.handlebars
+33	0	public/javascripts/app/views/template_picker_view.js
+8	0	spec/javascripts/app/pages/framer_spec.js
+28	0	spec/javascripts/app/views/template_picker_view_spec.js
+
+--5d5fa084e--2012-03-20--Dennis Collinson
+4	0	features/step_definitions/aspects_steps.rb
+18	3	features/step_definitions/trumpeter_steps.rb
+3	0	features/trumpeter.feature
+4	1	public/javascripts/app/templates/framer.handlebars
+4	1	public/javascripts/app/templates/post-form.handlebars
+0	0	public/javascripts/app/templates/template-picker.handlebars
+
+--09704291e--2012-03-20--danielgrippi
+3	1	public/javascripts/app/pages/framer.js
+12	0	public/stylesheets/sass/new-templates.scss
+
+--358414371--2012-03-20--Dennis Collinson
+8	1	features/step_definitions/trumpeter_steps.rb
+4	3	features/trumpeter.feature
+0	1	public/javascripts/app/forms/post_form.js
+6	1	public/javascripts/app/models/status_message.js
+22	2	public/javascripts/app/pages/framer.js
+2	1	public/javascripts/app/templates/framer.handlebars
+0	7	spec/javascripts/app/forms/post_form_spec.js
+2	1	spec/javascripts/app/pages/framer_spec.js
+10	3	spec/javascripts/helpers/factory.js
+
+--7ec1ef87c--2012-03-19--Dennis Collinson
+25	0	features/step_definitions/trumpeter_steps.rb
+13	4	features/trumpeter.feature
+0	1	public/javascripts/app/forms/picture_form.js
+4	6	public/javascripts/app/models/status_message.js
+12	0	public/javascripts/app/pages/framer.js
+8	4	public/javascripts/app/pages/post-new.js
+13	8	public/javascripts/app/router.js
+1	0	public/javascripts/app/templates/framer.handlebars
+1	0	public/javascripts/app/templates/post-new.handlebars
+1	1	public/javascripts/app/views.js
+3	2	public/javascripts/app/views/publisher_view.js
+1	0	spec/javascripts/app/forms/post_form_spec.js
+18	0	spec/javascripts/app/pages/framer_spec.js
+23	8	spec/javascripts/app/pages/post_new_spec.js
+1	1	spec/javascripts/support/jasmine.yml
+
+--65f20f439--2012-03-20--danielgrippi
+16	13	public/javascripts/app/templates/post-form.handlebars
+3	1	public/javascripts/app/templates/post-new.handlebars
+2	1	public/javascripts/app/templates/services-selector.handlebars
+8	0	public/stylesheets/sass/new-templates.scss
+
+--a14090965--2012-03-16--Dennis Collinson
+1	0	features/step_definitions/trumpeter_steps.rb
+
+--a0e6433f5--2012-03-16--Dennis Collinson
+13	3	features/step_definitions/trumpeter_steps.rb
+10	7	features/trumpeter.feature
+
+--60420f106--2012-03-15--Dennis Collinson
+0	1	features/step_definitions/trumpeter_steps.rb
+13	7	public/javascripts/app/forms/picture_form.js
+1	2	public/javascripts/app/templates/picture-form.handlebars
+6	0	public/stylesheets/sass/new-templates.scss
+16	2	spec/javascripts/app/forms/picture_form_spec.js
+
+--426f0278f--2012-03-15--Dennis Collinson
+15	10	app/controllers/photos_controller.rb
+0	2	app/models/photo.rb
+28	15	features/step_definitions/trumpeter_steps.rb
+13	7	features/trumpeter.feature
+9	23	public/javascripts/app/forms.js
+21	6	public/javascripts/app/forms/picture_form.js
+26	1	public/javascripts/app/forms/post_form.js
+1	0	public/javascripts/app/models/status_message.js
+2	2	public/javascripts/app/templates/picture-form.handlebars
+0	1	public/javascripts/rails.js
+43	0	spec/javascripts/app/forms/picture_form_spec.js
+4	4	spec/javascripts/app/forms/post_form_spec.js
+
+--1ec2b73d5--2012-03-13--Dennis Collinson
+29	29	app/controllers/photos_controller.rb
+2	2	app/controllers/posts_controller.rb
+0	18	app/views/posts/new.html.haml
+20	0	public/javascripts/app/forms/picture_form.js
+4	2	public/javascripts/app/forms/post_form.js
+9	0	public/javascripts/app/templates/picture-form.handlebars
+2	0	public/javascripts/app/templates/post-form.handlebars
+19	1	public/javascripts/view.js
+
+--6dce04d2f--2012-03-13--danielgrippi
+1	0	app/controllers/photos_controller.rb
+9	6	app/views/posts/new.html.haml
+
+--37bf5c5ae--2012-03-12--Dennis Collinson
+1	0	Gemfile
+3	1	Gemfile.lock
+37	26	app/controllers/photos_controller.rb
+2	2	app/controllers/posts_controller.rb
+2	1	app/controllers/status_messages_controller.rb
+1	1	app/views/photos/_new_photo.haml
+15	0	app/views/posts/new.html.haml
+2	0	config/assets.yml
+333	157	public/javascripts/rails.js
+233	0	public/javascripts/vendor/jquery.iframe-transport.js
+69	0	public/javascripts/vendor/jquery.remotipart.js
+
+--7a5841a1e--2012-03-09--Dennis Collinson
+1	5	public/javascripts/app/models/status_message.js
+3	3	public/javascripts/app/templates/aspects-dropdown.handlebars
+34	10	public/javascripts/app/views/aspects_dropdown_view.js
+14	0	public/stylesheets/sass/new-templates.scss
+53	6	spec/javascripts/app/views/aspects_dropdown_view_spec.js
+
+--4c46cc424--2012-03-08--danielgrippi
+1	1	config/assets.yml
+11	0	features/step_definitions/trumpeter_steps.rb
+9	0	features/trumpeter.feature
+19	2	public/javascripts/app/forms/post_form.js
+1	0	public/javascripts/app/models/status_message.js
+8	4	public/javascripts/app/templates/post-form.handlebars
+2	2	public/javascripts/mentions.js
+1	1	spec/javascripts/app/forms/post_form_spec.js
+
+--fd0065598--2012-03-08--danielgrippi
+1	0	app/models/service.rb
+10	1	public/javascripts/app/forms.js
+2	1	public/javascripts/app/forms/post_form.js
+10	1	public/javascripts/app/models/status_message.js
+1	1	public/javascripts/app/pages/post-new.js
+16	0	spec/javascripts/app/forms/post_form_spec.js
+
+--74e9cd6ca--2012-03-08--danielgrippi
+15	0	app/presenters/service_presenter.rb
+9	4	app/presenters/user_presenter.rb
+4	2	public/javascripts/app/forms/post_form.js
+1	0	public/javascripts/app/templates/post-form.handlebars
+6	0	public/javascripts/app/templates/services-selector.handlebars
+2	2	public/javascripts/app/views/aspects_dropdown_view.js
+5	0	public/javascripts/app/views/services_selector_view.js
+23	0	spec/javascripts/app/views/services_selector_view_spec.js
+10	0	spec/presenters/service_presenter_spec.rb
+8	0	spec/presenters/user_presenter_spec.rb
+
+--680e7f663--2012-03-07--Dennis Collinson
+6	8	public/javascripts/app/templates/aspects-dropdown.handlebars
+7	1	public/javascripts/app/views/aspects_dropdown_view.js
+23	0	spec/javascripts/app/views/aspects_dropdown_view_spec.js
+4	0	spec/javascripts/helpers/factory.js
+
+--a3ecd3226--2012-03-07--Dennis Collinson
+1	1	public/javascripts/app/forms/post_form.js
+3	1	public/javascripts/app/templates/aspects-dropdown.handlebars
+12	2	public/javascripts/app/views/aspects_dropdown_view.js
+21	2	spec/javascripts/app/views/aspects_dropdown_view_spec.js
+
+--e77d7608c--2012-03-07--Dennis Collinson
+23	0	features/step_definitions/trumpeter_steps.rb
+8	3	features/trumpeter.feature
+1	1	public/javascripts/app/forms/{post_form_view.js => post_form.js}
+5	2	public/javascripts/app/models/status_message.js
+14	21	public/javascripts/app/templates/aspects-dropdown.handlebars
+2	2	public/javascripts/app/templates/post-form.handlebars
+26	1	public/javascripts/app/views/aspects_dropdown_view.js
+2	0	spec/javascripts/app/forms/post_form_spec.js
+25	0	spec/javascripts/app/views/aspects_dropdown_view_spec.js
+
+--3a47590d0--2012-03-07--Dennis Collinson
+2	0	config/assets.yml
+1	0	public/javascripts/app/app.js
+2	16	public/javascripts/app/{views/post_form_view.js => forms.js}
+16	0	public/javascripts/app/forms/post_form_view.js
+1	1	public/javascripts/app/pages/post-new.js
+4	1	public/javascripts/app/views.js
+3	0	public/javascripts/app/views/aspects_dropdown_view.js
+2	2	spec/javascripts/app/{views => forms}/post_form_spec.js
+2	0	spec/javascripts/support/jasmine.yml
+
+--9fbc4b745--2012-03-06--Dennis Collinson
+1	0	config/assets.yml
+25	0	public/javascripts/app/templates/aspects-dropdown.handlebars
+11	4	public/javascripts/app/templates/post-form.handlebars
+8	0	public/javascripts/app/views/post_form_view.js
+92	0	public/javascripts/vendor/bootstrap/bootstrap-dropdown.js
+
+--cc04f492f--2012-03-06--Dennis Collinson
+15	0	app/presenters/aspect_presenter.rb
+5	0	app/presenters/base_presenter.rb
+5	2	app/presenters/user_presenter.rb
+8	3	features/trumpeter.feature
+13	0	spec/presenters/aspect_presenter_spec.rb
+21	0	spec/presenters/user_presenter_spec.rb
+
+--bf4dabc4f--2012-03-06--Dennis Collinson
+2	2	features/trumpeter.feature
+11	1	public/javascripts/app/models/status_message.js
+7	3	public/javascripts/app/pages/post-new.js
+1	1	public/javascripts/app/templates/post-form.handlebars
+18	5	public/javascripts/app/views/post_form_view.js
+3	7	spec/javascripts/app/app_spec.js
+12	0	spec/javascripts/app/models/status_message_spec.js
+8	0	spec/javascripts/app/pages/post_new_spec.js
+22	2	spec/javascripts/app/views/post_form_spec.js
+
+--ab35f2bf3--2012-03-06--Dennis Collinson
+7	1	app/controllers/posts_controller.rb
+1	0	app/views/layouts/post.html.haml
+0	2	app/views/posts/show.html.haml
+1	1	config/routes.rb
+7	0	features/step_definitions/trumpeter_steps.rb
+12	0	features/trumpeter.feature
+12	0	public/javascripts/app/pages/post-new.js
+6	0	public/javascripts/app/router.js
+4	0	public/javascripts/app/templates/post-form.handlebars
+1	0	public/javascripts/app/templates/post-new.handlebars
+12	0	public/javascripts/app/views/post_form_view.js
+9	0	spec/javascripts/app/pages/post_new_spec.js
+10	0	spec/javascripts/app/views/post_form_spec.js
+1	0	spec/javascripts/support/jasmine.yml

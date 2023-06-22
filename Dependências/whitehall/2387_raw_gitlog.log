@@ -1,0 +1,768 @@
+--3caad3613d--2014-04-07--Jake Benilov
+--89e2c3f8b0--2014-04-07--Elliot Crosby-McCullough
+--50b9076fcc--2014-04-07--Vinay Patel
+5	43	app/assets/javascripts/admin/modules/words_to_avoid_guide.js
+39	38	app/views/admin/editions/_words_to_avoid_guidance.html.erb
+
+--d5a152e763--2014-04-07--Edd Sowden
+1	1	app/models/organisation_type.rb
+
+--3c74e361a3--2014-04-07--Edd Sowden
+1	1	Gemfile
+2	2	Gemfile.lock
+11	10	app/assets/stylesheets/frontend/styleguide/_colours.scss
+5	2	app/assets/stylesheets/frontend/views/_organisations.scss
+5	0	app/models/organisation_brand_colour.rb
+
+--0fdfb0dc75--2014-04-07--vinayvinay
+--7a98c8dcf4--2014-04-07--bishboria
+--40572014dd--2014-04-07--Tekin Suleyman
+1	1	test/unit/whitehall/gov_uk_delivery/notifier_test.rb
+
+--bda7f38527--2014-04-07--Edd Sowden
+7	0	config/locales/ar.yml
+3	0	config/locales/az.yml
+5	0	config/locales/be.yml
+3	0	config/locales/bg.yml
+3	0	config/locales/bn.yml
+4	0	config/locales/cs.yml
+7	0	config/locales/cy.yml
+3	0	config/locales/de.yml
+3	0	config/locales/dr.yml
+3	0	config/locales/el.yml
+3	0	config/locales/en.yml
+3	0	config/locales/es-419.yml
+3	0	config/locales/es.yml
+3	0	config/locales/fa.yml
+3	0	config/locales/fr.yml
+5	0	config/locales/he.yml
+3	0	config/locales/hi.yml
+3	0	config/locales/hu.yml
+3	0	config/locales/hy.yml
+3	0	config/locales/id.yml
+3	0	config/locales/it.yml
+3	0	config/locales/ja.yml
+3	0	config/locales/ka.yml
+3	0	config/locales/ko.yml
+4	0	config/locales/lt.yml
+3	0	config/locales/lv.yml
+3	0	config/locales/ms.yml
+5	0	config/locales/pl.yml
+3	0	config/locales/ps.yml
+3	0	config/locales/pt.yml
+4	0	config/locales/ro.yml
+5	0	config/locales/ru.yml
+3	0	config/locales/si.yml
+4	0	config/locales/sk.yml
+3	0	config/locales/so.yml
+3	0	config/locales/sq.yml
+5	0	config/locales/sr.yml
+3	0	config/locales/sw.yml
+3	0	config/locales/ta.yml
+3	0	config/locales/th.yml
+3	0	config/locales/tk.yml
+3	0	config/locales/tr.yml
+5	0	config/locales/uk.yml
+3	0	config/locales/ur.yml
+3	0	config/locales/uz.yml
+3	0	config/locales/vi.yml
+3	0	config/locales/zh-hk.yml
+3	0	config/locales/zh-tw.yml
+3	0	config/locales/zh.yml
+
+--f6562001ca--2014-04-07--Edd Sowden
+22	7	app/assets/stylesheets/frontend/views/_organisations.scss
+33	15	app/views/organisations/show-promotional.html.erb
+
+--94c2afb783--2014-04-05--Tekin Suleyman
+1	1	app/views/admin/statistics_announcements/show.html.erb
+
+--23a58ce03a--2014-04-05--Tekin Suleyman
+2	5	app/controllers/admin/statistics_announcements_controller.rb
+
+--d848b42c27--2014-04-05--Tekin Suleyman
+1	1	test/unit/services/listeners/announcement_clearer_test.rb
+
+--3214a7d4f7--2014-04-05--Tekin Suleyman
+1	1	app/views/layouts/admin.html.erb
+
+--8611867587--2014-04-04--Tekin Suleyman
+1	1	app/views/admin/statistics_announcements/show.html.erb
+2	2	features/step_definitions/admin_announcing_statistics_steps.rb
+2	2	test/factories/statistics_announcement_dates.rb
+21	0	test/functional/admin/statistics_announcement_date_changes_controller_test.rb
+3	3	test/unit/statistics_announcement_test.rb
+
+--f9a0eabbc2--2014-04-02--Tekin Suleyman
+6	1	lib/whitehall/gov_uk_delivery/notifier.rb
+36	1	test/unit/whitehall/gov_uk_delivery/notifier_test.rb
+
+--b3e89e1294--2014-04-04--Tekin Suleyman
+1	1	app/models/statistics_announcement_date.rb
+1	0	config/initializers/formats.rb
+1	1	test/functional/admin/statistics_announcement_date_changes_controller_test.rb
+2	2	test/unit/statistics_announcement_date_test.rb
+
+--5eb32a93de--2014-04-04--bishboria
+--ea19e3d478--2014-04-04--bishboria
+--2f559f3fa3--2014-04-04--Vinay Patel
+12	6	app/assets/javascripts/admin/modules/words_to_avoid_alerter.js
+
+--7dca565d6f--2014-04-02--Vinay Patel
+1	0	app/assets/javascripts/admin.js
+74	0	app/assets/javascripts/admin/modules/words_to_avoid_alerter.js
+59	0	app/assets/javascripts/admin/modules/words_to_avoid_guide.js
+6	70	app/assets/javascripts/admin/modules/words_to_avoid_highlighter.js
+11	0	app/assets/javascripts/extensions/jquery.distinct.js
+1	4	app/views/admin/editions/_words_to_avoid_guidance.html.erb
+2	2	features/admin-highlight-words-to-avoid.feature
+
+--afc7f01fb8--2014-04-03--Tekin Suleyman
+0	97	app/assets/javascripts/admin/organisation_contact_form.js
+0	16	app/controllers/admin/worldwide_offices_controller.rb
+4	3	app/views/admin/contacts/_form_fields.html.erb
+6	1	test/functional/admin/worldwide_offices_controller_test.rb
+0	116	test/javascripts/unit/organisation_contact_form_test.js
+
+--e0309391c0--2014-04-03--Dominic Baggott
+--8193d03633--2014-04-03--Tekin Suleyman
+4	2	app/controllers/admin/worldwide_offices_controller.rb
+20	0	test/functional/admin/worldwide_offices_controller_test.rb
+
+--cadfe8e430--2014-04-03--Tekin Suleyman
+40	108	test/functional/admin/worldwide_offices_controller_test.rb
+
+--243c06f968--2014-04-03--Daniel Roseman
+1	1	app/views/admin/document_collection_groups/index.html.erb
+
+--0e01c6b0dd--2014-04-03--Tekin Suleyman
+17	16	app/views/admin/document_collection_groups/index.html.erb
+
+--6a98501d58--2014-04-03--Tekin Suleyman
+1	1	app/services/service_listeners/announcement_clearer.rb
+1	2	test/unit/services/listeners/announcement_clearer_test.rb
+5	3	test/unit/statistics_announcement_test.rb
+
+--546ea4e56d--2014-04-03--Tekin Suleyman
+--0a9fb20e61--2014-04-03--Dominic Baggott
+--204da85a12--2014-04-03--Tekin Suleyman
+3	0	db/data_migration/20140403114042_rename_marriage_worldwide_service.rb
+
+--bff24cf249--2014-04-03--Tekin Suleyman
+3	5	lib/address_formatter.rb
+
+--91ac9bb60f--2014-04-03--Dominic Baggott
+--26b40c666c--2014-04-03--Edd Sowden
+2	2	app/controllers/organisations_controller.rb
+0	0	app/views/organisations/{show-executive-office.html.erb => show-promotional.html.erb}
+2	2	test/functional/organisations_controller_test.rb
+
+--d2046abd65--2014-04-03--Tekin Suleyman
+0	7	app/assets/javascripts/admin/views/statistics_announcement_dates/_form.js
+
+--1a79cbf6aa--2014-04-03--Edd Sowden
+3	3	app/controllers/admin/promotional_feature_items_controller.rb
+3	3	app/controllers/admin/promotional_features_controller.rb
+1	1	app/helpers/admin/organisation_helper.rb
+3	0	app/models/organisation_type.rb
+2	2	test/functional/admin/promotional_features_controller_test.rb
+
+--a6b9a6359a--2014-04-02--Edd Sowden
+1	1	config/routes.rb
+
+--820e81f9d9--2014-04-02--Edd Sowden
+1	1	app/helpers/admin/tabbed_nav_helper.rb
+
+--840edbe3b9--2014-04-02--Edd Sowden
+5	0	db/data_migration/20140402115508_update_policy_groups_in_search.rb
+
+--1547a87f02--2014-04-02--Edd Sowden
+1	1	features/step_definitions/policy_group_steps.rb
+
+--3615849774--2014-04-02--Edd Sowden
+2	2	test/functional/supporting_pages_controller_test.rb
+1	1	test/support/css_selectors.rb
+
+--537dc5c635--2014-04-02--Edd Sowden
+0	36	app/controllers/admin/policy_teams_controller.rb
+0	4	app/helpers/admin/url_helper.rb
+2	2	app/views/admin/editions/_policy_group_fields.html.erb
+0	6	app/views/admin/editions/_policy_team_fields.html.erb
+0	1	app/views/admin/policies/_form.html.erb
+1	1	app/views/admin/policy_groups/index.html.erb
+0	11	app/views/admin/policy_teams/_form.html.erb
+0	13	app/views/admin/policy_teams/edit.html.erb
+0	25	app/views/admin/policy_teams/index.html.erb
+0	13	app/views/admin/policy_teams/new.html.erb
+0	1	app/views/layouts/admin.html.erb
+4	4	app/views/policy_groups/index.html.erb
+0	2	config/routes.rb
+4	4	test/functional/admin/policies_controller_test.rb
+0	92	test/functional/admin/policy_teams_controller_test.rb
+
+--21e7e4ed06--2014-04-02--Edd Sowden
+1	1	app/helpers/document_helper.rb
+2	12	config/locales/ar.yml
+2	12	config/locales/az.yml
+2	12	config/locales/be.yml
+2	12	config/locales/bg.yml
+2	12	config/locales/bn.yml
+2	12	config/locales/cs.yml
+2	12	config/locales/cy.yml
+2	12	config/locales/de.yml
+2	12	config/locales/dr.yml
+2	12	config/locales/el.yml
+2	5	config/locales/en.yml
+2	12	config/locales/es-419.yml
+2	12	config/locales/es.yml
+2	12	config/locales/fa.yml
+2	12	config/locales/fr.yml
+2	12	config/locales/he.yml
+2	12	config/locales/hi.yml
+2	12	config/locales/hu.yml
+2	12	config/locales/hy.yml
+2	12	config/locales/id.yml
+2	12	config/locales/it.yml
+2	12	config/locales/ja.yml
+2	12	config/locales/ka.yml
+2	12	config/locales/ko.yml
+2	12	config/locales/lt.yml
+2	12	config/locales/lv.yml
+2	12	config/locales/ms.yml
+2	12	config/locales/pl.yml
+2	12	config/locales/ps.yml
+2	12	config/locales/pt.yml
+2	12	config/locales/ro.yml
+2	12	config/locales/ru.yml
+2	12	config/locales/si.yml
+2	12	config/locales/sk.yml
+2	12	config/locales/so.yml
+2	12	config/locales/sq.yml
+2	12	config/locales/sr.yml
+2	12	config/locales/sw.yml
+2	12	config/locales/ta.yml
+2	12	config/locales/th.yml
+2	12	config/locales/tk.yml
+2	12	config/locales/tr.yml
+2	12	config/locales/uk.yml
+2	12	config/locales/ur.yml
+2	12	config/locales/uz.yml
+2	12	config/locales/vi.yml
+2	12	config/locales/zh-hk.yml
+2	12	config/locales/zh-tw.yml
+2	12	config/locales/zh.yml
+
+--2b06a7d3b8--2014-04-01--Edd Sowden
+1	2	app/controllers/admin/editions_controller.rb
+0	51	app/controllers/admin/policy_advisory_groups_controller.rb
+51	0	app/controllers/admin/policy_groups_controller.rb
+3	3	app/helpers/admin/tabbed_nav_helper.rb
+2	2	app/helpers/admin/url_helper.rb
+0	6	app/views/admin/editions/_policy_advisory_group_fields.html.erb
+6	0	app/views/admin/editions/_policy_group_fields.html.erb
+1	1	app/views/admin/policies/_form.html.erb
+0	24	app/views/admin/policy_advisory_groups/_form.html.erb
+0	15	app/views/admin/policy_advisory_groups/edit.html.erb
+0	31	app/views/admin/policy_advisory_groups/index.html.erb
+0	13	app/views/admin/policy_advisory_groups/new.html.erb
+24	0	app/views/admin/policy_groups/_form.html.erb
+15	0	app/views/admin/policy_groups/edit.html.erb
+31	0	app/views/admin/policy_groups/index.html.erb
+13	0	app/views/admin/policy_groups/new.html.erb
+1	1	app/views/layouts/admin.html.erb
+1	1	config/routes.rb
+0	54	features/policy-advisory-groups.feature
+54	0	features/policy-groups.feature
+0	50	features/step_definitions/policy_advisory_group_steps.rb
+50	0	features/step_definitions/policy_group_steps.rb
+0	21	features/support/policy_advisory_group_helper.rb
+21	0	features/support/policy_group_helper.rb
+1	1	test/functional/admin/attachments_controller_test.rb
+0	71	test/functional/admin/policy_advisory_groups_controller_test.rb
+71	0	test/functional/admin/policy_groups_controller_test.rb
+1	1	test/unit/attachment_visibility_test.rb
+
+--8e65776f3b--2014-04-01--Edd Sowden
+0	10	app/controllers/policy_teams_controller.rb
+1	1	app/helpers/application_helper.rb
+0	7	app/helpers/document_helper.rb
+0	5	app/models/policy.rb
+0	7	app/models/policy_team.rb
+0	31	app/views/policy_teams/index.html.erb
+0	58	app/views/policy_teams/show.html.erb
+0	1	lib/whitehall.rb
+0	11	lib/whitehall/exporters/redirector_document_mappings.rb
+0	6	test/factories/policy_teams.rb
+4	10	test/functional/policies_controller_test.rb
+0	45	test/functional/policy_teams_controller_test.rb
+6	6	test/functional/supporting_pages_controller_test.rb
+2	2	test/support/css_selectors.rb
+0	11	test/unit/helpers/document_helper_test.rb
+2	2	test/unit/policy_group_test.rb
+0	23	test/unit/policy_team_test.rb
+0	3	test/unit/policy_test.rb
+
+--e363c05406--2014-04-01--Edd Sowden
+2	2	app/helpers/application_helper.rb
+1	1	app/views/policy_groups/index.html.erb
+1	1	app/views/policy_groups/show.html.erb
+1	1	test/factories/attachments.rb
+2	2	test/functional/attachments_controller_test.rb
+1	1	test/integration/duplicate_attachment_cleanup_test.rb
+1	1	test/unit/data_hygiene/dup_filename_attachment_fixer_test.rb
+3	3	test/unit/file_attachment_test.rb
+1	1	test/unit/helpers/attachments_helper_test.rb
+5	5	test/unit/helpers/document_helper_test.rb
+3	3	test/unit/policy_test.rb
+
+--7d473bbb8d--2014-04-01--Edd Sowden
+1	1	app/models/attachment_visibility.rb
+0	14	app/models/policy_advisory_group.rb
+1	1	lib/whitehall.rb
+2	2	lib/whitehall/authority/enforcer.rb
+1	1	lib/whitehall/authority/rules/{policy_advisory_group_rules.rb => policy_group_rules.rb}
+5	5	lib/whitehall/exporters/redirector_document_mappings.rb
+
+--980143c22b--2014-04-01--Edd Sowden
+1	1	app/helpers/document_helper.rb
+0	6	test/factories/policy_advisory_groups.rb
+6	0	test/factories/policy_groups.rb
+0	11	test/functional/policy_advisory_groups_controller_test.rb
+11	0	test/functional/policy_groups_controller_test.rb
+0	31	test/unit/policy_advisory_group_test.rb
+31	0	test/unit/policy_group_test.rb
+
+--f79288a0d7--2014-04-01--Edd Sowden
+0	12	app/controllers/policy_advisory_groups_controller.rb
+12	0	app/controllers/policy_groups_controller.rb
+3	3	app/helpers/document_helper.rb
+0	7	app/helpers/policy_advisory_groups_helper.rb
+7	0	app/helpers/policy_groups_helper.rb
+1	1	app/models/policy.rb
+6	4	app/models/policy_group.rb
+2	2	app/views/{policy_advisory_groups => policy_groups}/index.html.erb
+12	12	app/views/{policy_advisory_groups => policy_groups}/show.html.erb
+1	1	config/routes.rb
+5	0	db/migrate/20140401132650_remove_type_from_policy_groups.rb
+1	2	db/schema.rb
+
+--a786aeb110--2014-04-03--Edd Sowden
+4	0	app/models/organisation/organisation_type_concern.rb
+27	14	app/models/organisation_type.rb
+8	0	test/unit/models/organisation/organisation_type_concern_test.rb
+4	3	test/unit/models/organisation_type_test.rb
+
+--03a424a8e2--2014-04-02--Tekin Suleyman
+1	1	app/views/admin/statistics_announcements/_document_linker.html.erb
+
+--7256762783--2014-04-02--Tekin Suleyman
+9	3	app/models/statistics_announcement.rb
+14	6	test/unit/statistics_announcement_test.rb
+
+--580eb4f8af--2014-04-02--Alex Tomlins
+--41d509b9b6--2014-04-02--Tekin Suleyman
+2	1	config/application.rb
+
+--24951b9802--2014-04-02--Edd Sowden
+--5afb94ba66--2014-04-02--Tekin Suleyman
+2	2	test/unit/services/listeners/announcement_clearer_test.rb
+
+--67abd98cb7--2014-04-02--Tekin Suleyman
+4	3	app/controllers/admin/statistics_announcements_controller.rb
+1	1	test/functional/admin/statistics_announcements_controller_test.rb
+
+--6c3b5b04b6--2014-03-31--Tekin Suleyman
+0	2	Gemfile
+0	7	Gemfile.lock
+0	14	app/models/force_publication_attempt.rb
+0	41	app/models/searchable.rb
+21	0	db/migrate/20140331151737_drop_delayed_jobs_table.rb
+1	17	db/schema.rb
+0	5	script/delayed_job
+0	39	test/unit/searchable_test.rb
+
+--34e0f7334b--2014-04-02--Aaron Keogh
+1	1	app/views/histories/10_downing_street.html.erb
+
+--ce82ff9519--2014-04-02--Aaron Keogh
+1	1	app/views/histories/10_downing_street.html.erb
+
+--62a6b44814--2014-04-02--Tekin Suleyman
+1	6	lib/whitehall/gov_uk_delivery/notifier.rb
+
+--f3a9200b76--2014-04-02--Tekin Suleyman
+18	30	test/unit/whitehall/gov_uk_delivery/notifier_test.rb
+
+--5cfe562fbd--2014-04-02--Tekin Suleyman
+0	0	app/assets/javascripts/admin/{ => modules}/document_finder.js
+2	2	app/assets/stylesheets/admin/base.scss
+0	0	app/assets/stylesheets/admin/{document_finder.scss => helpers/_document_finder.scss}
+1	1	app/assets/stylesheets/admin/views/{_statistics_announcements.scss => _statistics_announcements-show.scss}
+1	1	app/views/admin/statistics_announcements/show.html.erb
+
+--36e1e9cb85--2014-04-01--Vinay Patel
+4	4	app/assets/javascripts/admin/modules/words_to_avoid_highlighter.js
+2	2	app/assets/javascripts/admin/preview.js
+1	1	app/views/admin/editions/_words_to_avoid_guidance.html.erb
+
+--f46cd3e04b--2014-04-01--Tekin Suleyman
+3	0	app/views/admin/statistics_announcement_date_changes/new.html.erb
+3	0	app/views/admin/statistics_announcements/_warning.html.erb
+2	0	app/views/admin/statistics_announcements/edit.html.erb
+2	0	app/views/admin/statistics_announcements/index.html.erb
+3	0	app/views/admin/statistics_announcements/new.html.erb
+2	0	app/views/admin/statistics_announcements/show.html.erb
+
+--4d1e44cae5--2014-04-01--Tekin Suleyman
+5	5	app/assets/javascripts/admin/views/statistics_announcement_dates/_form.js
+1	1	app/views/admin/statistics_announcement_date_changes/new.html.erb
+1	0	app/views/admin/statistics_announcements/new.html.erb
+
+--d6932c1d5d--2014-03-28--Tekin Suleyman
+2	2	features/step_definitions/attachment_steps.rb
+1	1	features/step_definitions/document_collection_steps.rb
+1	1	features/step_definitions/most_recent_editions_steps.rb
+1	1	features/step_definitions/unpublishing_published_documents_steps.rb
+1	1	features/step_definitions/world_location_news_article_steps.rb
+
+--7a26096e8e--2014-03-28--Tekin Suleyman
+8	0	features/admin-announce-statistical-releases.feature
+20	0	features/step_definitions/admin_announcing_statistics_steps.rb
+4	0	features/support/assertions.rb
+
+--5b362aad16--2014-03-28--Tekin Suleyman
+1	0	app/controllers/admin/statistics_announcement_date_changes_controller.rb
+3	0	app/controllers/admin/statistics_announcements_controller.rb
+1	0	app/models/statistics_announcement_date.rb
+1	0	app/views/admin/statistics_announcements/show.html.erb
+6	0	db/migrate/20140328141526_add_creator_id_to_statistics_announcement_dates.rb
+3	1	db/schema.rb
+1	1	test/functional/admin/statistics_announcement_date_changes_controller_test.rb
+1	0	test/functional/admin/statistics_announcements_controller_test.rb
+
+--67da296b0b--2014-03-28--Tekin Suleyman
+0	0	app/assets/javascripts/admin/views/{statistical_release_announcements => statistics_announcements}/statistics_announcement_linker.js
+
+--cf7572d0a5--2014-03-28--Tekin Suleyman
+33	0	app/assets/javascripts/admin/views/statistics_announcement_dates/_form.js
+1	0	app/views/admin/statistics_announcement_date_changes/new.html.erb
+
+--57dcd1df0a--2014-03-28--Tekin Suleyman
+7	0	app/models/statistics_announcement_date_change.rb
+16	0	test/unit/models/statistics_announcement_date_change_test.rb
+
+--88ca77885f--2014-03-28--Tekin Suleyman
+16	7	app/assets/javascripts/admin/views/statistical_release_announcements/statistics_announcement_linker.js
+1	1	app/views/admin/statistics_announcements/_document_linker.html.erb
+2	1	app/views/admin/statistics_announcements/_document_status.html.erb
+
+--920a28986a--2014-03-28--Tekin Suleyman
+2	2	app/assets/javascripts/admin/views/statistical_release_announcements/statistics_announcement_linker.js
+
+--b05b1d93ec--2014-03-28--Tekin Suleyman
+0	2	app/views/admin/statistics_announcements/edit.html.erb
+
+--e53caf5040--2014-03-27--Tekin Suleyman
+9	0	app/controllers/admin/base_controller.rb
+1	0	app/controllers/admin/statistics_announcement_date_changes_controller.rb
+1	0	app/controllers/admin/statistics_announcements_controller.rb
+2	0	app/helpers/admin/url_helper.rb
+3	3	features/admin-announce-statistical-releases.feature
+3	1	features/step_definitions/session_steps.rb
+17	1	test/functional/admin/statistics_announcement_date_changes_controller_test.rb
+16	1	test/functional/admin/statistics_announcements_controller_test.rb
+
+--f5b131b721--2014-03-27--Tekin Suleyman
+4	0	app/helpers/admin/url_helper.rb
+1	0	app/views/layouts/admin.html.erb
+
+--96af364466--2014-03-24--Tekin Suleyman
+2	6	app/models/statistics_announcement.rb
+1	1	app/views/admin/statistics_announcements/index.html.erb
+1	1	app/views/admin/statistics_announcements/show.html.erb
+1	1	test/functional/admin/statistics_announcement_date_changes_controller_test.rb
+2	2	test/unit/statistics_announcement_test.rb
+
+--62ca9001d7--2014-03-24--Tekin Suleyman
+18	9	test/unit/models/statistics_announcement_date_change_test.rb
+
+--eeceb3d6f4--2014-03-24--Tekin Suleyman
+17	6	app/models/statistics_announcement.rb
+1	1	test/functional/admin/statistics_announcement_date_changes_controller_test.rb
+37	21	test/unit/statistics_announcement_test.rb
+
+--aac998ff04--2014-03-24--Tekin Suleyman
+12	2	app/models/statistics_announcement.rb
+2	2	app/views/admin/statistics_announcements/show.html.erb
+27	1	test/unit/statistics_announcement_test.rb
+
+--7e3dabecbc--2014-03-24--Tekin Suleyman
+1	1	test/functional/admin/statistics_announcement_date_changes_controller_test.rb
+
+--edceee11f9--2014-03-24--Tekin Suleyman
+9	0	app/models/statistics_announcement_date.rb
+14	0	test/unit/statistics_announcement_date_test.rb
+
+--d69e08aa41--2014-03-24--Tekin Suleyman
+9	0	app/assets/stylesheets/admin/views/_statistics_announcements.scss
+8	0	app/views/admin/statistics_announcements/show.html.erb
+
+--55d9fd1ab1--2014-03-24--Tekin Suleyman
+4	1	app/views/admin/statistics_announcements/index.html.erb
+
+--f2829ebafe--2014-03-24--Tekin Suleyman
+6	0	app/views/admin/statistics_announcements/show.html.erb
+
+--5faa94f6ff--2014-03-24--Tekin Suleyman
+6	0	app/models/statistics_announcement_date_change.rb
+8	0	test/unit/models/statistics_announcement_date_change_test.rb
+
+--9408ade172--2014-03-24--Tekin Suleyman
+32	0	app/controllers/admin/statistics_announcement_date_changes_controller.rb
+0	31	app/controllers/admin/statistics_announcement_dates_controller.rb
+9	0	app/models/statistics_announcement.rb
+33	0	app/models/statistics_announcement_date_change.rb
+1	1	app/views/admin/{statistics_announcement_dates => statistics_announcement_date_changes}/new.html.erb
+1	1	app/views/admin/statistics_announcements/show.html.erb
+1	1	config/routes.rb
+7	0	test/factories/statistics_announcement_dates.rb
+38	0	test/functional/admin/statistics_announcement_date_changes_controller_test.rb
+0	33	test/functional/admin/statistics_announcement_dates_controller_test.rb
+98	0	test/unit/models/statistics_announcement_date_change_test.rb
+22	0	test/unit/statistics_announcement_test.rb
+
+--561ee5aa9f--2014-03-21--Tekin Suleyman
+31	0	app/controllers/admin/statistics_announcement_dates_controller.rb
+4	2	app/models/statistics_announcement.rb
+26	0	app/views/admin/statistics_announcement_dates/new.html.erb
+31	25	app/views/admin/statistics_announcements/show.html.erb
+3	1	config/routes.rb
+6	0	features/admin-announce-statistical-releases.feature
+15	0	features/step_definitions/admin_announcing_statistics_steps.rb
+33	0	test/functional/admin/statistics_announcement_dates_controller_test.rb
+1	1	test/unit/statistics_announcement_test.rb
+
+--b4be693206--2014-03-21--Tekin Suleyman
+4	4	app/controllers/admin/statistics_announcements_controller.rb
+5	5	app/models/statistics_announcement.rb
+1	1	app/models/statistics_announcement_date.rb
+2	2	app/views/admin/statistics_announcements/_form.html.erb
+1	0	app/views/admin/statistics_announcements/show.html.erb
+1	1	test/factories/statistics_announcements.rb
+1	1	test/functional/admin/statistics_announcements_controller_test.rb
+
+--05213d1de1--2014-03-21--Tekin Suleyman
+1	1	app/models/searchable.rb
+6	2	app/models/statistics_announcement.rb
+6	2	test/unit/statistics_announcement_test.rb
+
+--a8fe897803--2014-03-20--Tekin Suleyman
+1	1	app/controllers/admin/document_searches_controller.rb
+1	1	app/models/admin/edition_filter.rb
+2	2	app/views/admin/statistics_announcements/_document_linker.html.erb
+1	1	test/unit/admin/edition_filter_test.rb
+
+--7d8b1846a0--2014-03-20--Tekin Suleyman
+2	8	app/controllers/admin/editions_controller.rb
+6	2	app/models/admin/edition_filter.rb
+0	7	test/functional/admin/editions_controller_test.rb
+12	0	test/unit/admin/edition_filter_test.rb
+
+--4fa569a36a--2014-03-20--Tekin Suleyman
+10	4	app/controllers/admin/statistics_announcements_controller.rb
+5	1	app/models/statistics_announcement.rb
+0	23	app/views/admin/dashboard/index.html.erb
+1	1	app/views/admin/document_collection_groups/index.html.erb
+1	1	app/views/admin/editions/_alerts.html.erb
+20	16	app/views/admin/statistics_announcements/_form.html.erb
+0	12	app/views/admin/statistics_announcements/edit.html.erb
+40	0	app/views/admin/statistics_announcements/index.html.erb
+32	0	app/views/admin/statistics_announcements/show.html.erb
+3	3	features/admin-announce-statistical-releases.feature
+12	15	features/step_definitions/admin_announcing_statistics_steps.rb
+18	11	test/functional/admin/statistics_announcements_controller_test.rb
+
+--2a62254ba9--2014-03-20--Tekin Suleyman
+1	0	app/assets/javascripts/admin/views/statistical_release_announcements/statistics_announcement_linker.js
+2	2	app/assets/stylesheets/admin/document_finder.scss
+11	13	app/assets/stylesheets/admin/views/_statistics_announcements.scss
+15	14	app/views/admin/document_collection_groups/index.html.erb
+10	5	app/views/admin/statistics_announcements/_document_linker.html.erb
+
+--f16320611f--2014-03-19--Tekin Suleyman
+1	1	app/controllers/admin/publications_controller.rb
+3	2	app/controllers/admin/statistics_announcements_controller.rb
+9	11	app/models/statistics_announcement.rb
+19	0	app/models/statistics_announcement_date.rb
+1	1	app/views/admin/dashboard/index.html.erb
+1	1	app/views/admin/editions/_alerts.html.erb
+11	3	app/views/admin/statistics_announcements/_form.html.erb
+6	2	config/initializers/formats.rb
+0	3	db/migrate/20140303172844_create_statistics_announcements.rb
+15	0	db/migrate/20140319125335_create_statistics_announcement_dates.rb
+15	6	db/schema.rb
+1	1	features/step_definitions/admin_announcing_statistics_steps.rb
+7	0	test/factories/statistics_announcement_dates.rb
+1	1	test/factories/statistics_announcements.rb
+1	1	test/functional/admin/publications_controller_test.rb
+7	1	test/functional/admin/statistics_announcements_controller_test.rb
+35	0	test/unit/statistics_announcement_date_test.rb
+16	12	test/unit/statistics_announcement_test.rb
+
+--dfe077caa8--2014-03-19--Tekin Suleyman
+3	3	app/assets/javascripts/admin/views/statistical_release_announcements/{statistical_release_announcement_linker.js => statistics_announcement_linker.js}
+1	1	app/assets/stylesheets/admin/base.scss
+1	1	app/assets/stylesheets/admin/views/{_statistical_release_announcements.scss => _statistics_announcements.scss}
+12	12	app/controllers/admin/publications_controller.rb
+0	55	app/controllers/admin/statistical_release_announcements_controller.rb
+54	0	app/controllers/admin/statistics_announcements_controller.rb
+6	6	app/models/publication.rb
+3	3	app/models/{statistical_release_announcement.rb => statistics_announcement.rb}
+1	1	app/models/user.rb
+4	4	app/services/service_listeners/announcement_clearer.rb
+6	6	app/views/admin/dashboard/index.html.erb
+3	3	app/views/admin/editions/_alerts.html.erb
+1	1	app/views/admin/publications/_form.html.erb
+0	22	app/views/admin/statistical_release_announcements/edit.html.erb
+0	6	app/views/admin/statistical_release_announcements/new.html.erb
+2	2	app/views/admin/{statistical_release_announcements => statistics_announcements}/_document_linker.html.erb
+3	3	app/views/admin/{statistical_release_announcements => statistics_announcements}/_document_status.html.erb
+4	4	app/views/admin/{statistical_release_announcements => statistics_announcements}/_form.html.erb
+22	0	app/views/admin/statistics_announcements/edit.html.erb
+6	0	app/views/admin/statistics_announcements/new.html.erb
+2	2	config/routes.rb
+0	22	db/migrate/20140303172844_create_statistical_release_announcements.rb
+24	0	db/migrate/20140303172844_create_statistics_announcements.rb
+2	2	db/migrate/20140307134209_link_announcements_with_publications.rb
+8	6	db/schema.rb
+5	5	features/admin-announce-statistical-releases.feature
+13	13	features/step_definitions/{admin_announcing_statistical_releases_steps.rb => admin_announcing_statistics_steps.rb}
+1	1	lib/whitehall.rb
+1	1	test/factories/{statistical_release_announcements.rb => statistics_announcements.rb}
+14	14	test/functional/admin/publications_controller_test.rb
+17	17	test/functional/admin/{statistical_release_announcements_controller_test.rb => statistics_announcements_controller_test.rb}
+4	4	test/unit/publication_test.rb
+2	2	test/unit/services/listeners/announcement_clearer_test.rb
+12	12	test/unit/{statistical_release_announcement_test.rb => statistics_announcement_test.rb}
+
+--b13bb5c850--2014-03-12--Tekin Suleyman
+2	2	app/assets/javascripts/admin/document_finder.js
+37	0	app/assets/javascripts/admin/views/statistical_release_announcements/statistical_release_announcement_linker.js
+1	0	app/assets/stylesheets/admin/base.scss
+20	0	app/assets/stylesheets/admin/views/_statistical_release_announcements.scss
+5	3	app/controllers/admin/statistical_release_announcements_controller.rb
+15	0	app/views/admin/statistical_release_announcements/_document_linker.html.erb
+23	0	app/views/admin/statistical_release_announcements/_document_status.html.erb
+1	0	app/views/admin/statistical_release_announcements/_form.html.erb
+4	0	app/views/admin/statistical_release_announcements/edit.html.erb
+9	0	test/functional/admin/statistical_release_announcements_controller_test.rb
+
+--cf4cd5950e--2014-03-12--Tekin Suleyman
+3	2	app/assets/javascripts/admin/document_finder.js
+
+--decd496d47--2014-03-12--Tekin Suleyman
+22	8	app/views/admin/editions/_alerts.html.erb
+
+--7a1a8cfe70--2014-03-12--Tekin Suleyman
+1	1	app/views/admin/statistical_release_announcements/_form.html.erb
+
+--59b6a23912--2014-03-11--Tekin Suleyman
+1	1	app/controllers/admin/document_searches_controller.rb
+18	0	test/functional/admin/document_searches_controller_test.rb
+
+--6b30f3f91d--2014-03-11--Tekin Suleyman
+5	0	app/models/admin/edition_filter.rb
+7	2	app/models/edition.rb
+4	0	app/models/news_article.rb
+4	0	app/models/publication.rb
+4	0	app/models/speech.rb
+14	0	test/unit/admin/edition_filter_test.rb
+
+--738ed888d4--2014-03-11--Tekin Suleyman
+1	96	app/assets/javascripts/admin/document_collection.js
+106	0	app/assets/javascripts/admin/document_finder.js
+1	0	app/assets/stylesheets/admin/base.scss
+53	0	app/assets/stylesheets/admin/document_finder.scss
+5	58	app/assets/stylesheets/admin/views/_document_collection_groups.scss
+1	1	app/views/admin/document_collection_groups/index.html.erb
+
+--5a91e45f5b--2014-03-11--Tekin Suleyman
+4	2	app/views/admin/statistical_release_announcements/_form.html.erb
+
+--8e74279acf--2014-03-11--Tekin Suleyman
+2	2	app/models/statistical_release_announcement.rb
+
+--d92e1053a8--2014-03-10--Tekin Suleyman
+1	1	app/models/publication.rb
+
+--edec5da70f--2014-03-10--Tekin Suleyman
+5	0	app/models/statistical_release_announcement.rb
+
+--f78d936509--2014-03-10--Tekin Suleyman
+7	0	test/unit/statistical_release_announcement_test.rb
+
+--79025782cc--2014-03-10--Tekin Suleyman
+17	0	app/services/service_listeners/announcement_clearer.rb
+1	0	config/initializers/edition_services.rb
+7	0	test/support/delayed_job_test_helpers.rb
+23	0	test/unit/services/listeners/announcement_clearer_test.rb
+
+--2ec95f0826--2014-03-07--Tekin Suleyman
+6	3	app/controllers/admin/editions_controller.rb
+20	0	app/controllers/admin/publications_controller.rb
+10	0	app/models/publication.rb
+8	0	app/models/statistical_release_announcement.rb
+8	1	app/views/admin/dashboard/index.html.erb
+1	0	app/views/admin/publications/_form.html.erb
+6	0	db/migrate/20140307134209_link_announcements_with_publications.rb
+3	1	db/schema.rb
+10	2	features/admin-announce-statistical-releases.feature
+32	1	features/step_definitions/admin_announcing_statistical_releases_steps.rb
+28	1	test/functional/admin/publications_controller_test.rb
+8	0	test/unit/publication_test.rb
+14	0	test/unit/statistical_release_announcement_test.rb
+
+--854fc80790--2014-03-06--Tekin Suleyman
+5	5	app/controllers/admin/statistical_release_announcements_controller.rb
+
+--52980a1356--2014-03-06--Tekin Suleyman
+0	1	lib/whitehall.rb
+
+--24e28c82a9--2014-03-06--Tekin Suleyman
+2	1	app/models/searchable.rb
+22	0	app/models/statistical_release_announcement.rb
+2	0	config/routes.rb
+3	1	lib/whitehall.rb
+7	0	test/support/delayed_job_test_helpers.rb
+8	0	test/unit/statistical_release_announcement_test.rb
+
+--599338c7de--2014-03-06--Tekin Suleyman
+1	1	app/controllers/admin/statistical_release_announcements_controller.rb
+8	0	app/models/statistical_release_announcement.rb
+1	1	app/views/admin/dashboard/index.html.erb
+1	1	app/views/admin/statistical_release_announcements/_form.html.erb
+1	1	db/migrate/20140303172844_create_statistical_release_announcements.rb
+3	3	db/schema.rb
+11	0	test/unit/statistical_release_announcement_test.rb
+
+--dbab829ba1--2014-03-06--Tekin Suleyman
+53	0	app/controllers/admin/statistical_release_announcements_controller.rb
+19	0	app/models/statistical_release_announcement.rb
+1	0	app/models/user.rb
+16	0	app/views/admin/dashboard/index.html.erb
+32	0	app/views/admin/statistical_release_announcements/_form.html.erb
+18	0	app/views/admin/statistical_release_announcements/edit.html.erb
+6	0	app/views/admin/statistical_release_announcements/new.html.erb
+2	0	config/routes.rb
+22	0	db/migrate/20140303172844_create_statistical_release_announcements.rb
+19	0	db/schema.rb
+12	0	test/factories/statistical_release_announcements.rb
+73	0	test/functional/admin/statistical_release_announcements_controller_test.rb
+25	0	test/unit/statistical_release_announcement_test.rb
+
+--65f3e89d85--2014-03-04--Tekin Suleyman
+2	2	lib/whitehall/form_builder.rb
+
+--f0de064250--2014-03-05--Tekin Suleyman
+10	0	features/admin-announce-statistical-releases.feature
+22	0	features/step_definitions/admin_announcing_statistical_releases_steps.rb

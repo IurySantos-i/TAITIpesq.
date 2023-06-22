@@ -1,0 +1,50 @@
+--ce3756078f--2010-08-29--friflaj
+--daf776325b--2010-08-29--friflaj
+0	13	app/controllers/backlogs_controller.rb
+
+--5ce59bb2de--2010-08-29--Mark Maglana
+2	0	features/step_definitions/_given_steps.rb
+4	0	features/step_definitions/_then_steps.rb
+8	0	features/step_definitions/_when_steps.rb
+12	1	features/team_member.feature
+
+--0e33abe127--2010-08-28--Mark Maglana
+1	1	init.rb
+
+--2c1032eda7--2010-08-28--Mark Maglana
+1	1	init.rb
+
+--64ecf75a2e--2010-08-28--Mark Maglana
+1	1	features/product_owner.feature
+1	1	features/scrum_master.feature
+139	0	features/step_definitions/_given_steps.rb
+83	0	features/step_definitions/_then_steps.rb
+57	0	features/step_definitions/_when_steps.rb
+0	100	features/step_definitions/common_steps.rb
+53	0	features/step_definitions/helpers.rb
+0	136	features/step_definitions/product_owner_steps.rb
+0	48	features/step_definitions/scrum_master_steps.rb
+0	90	features/step_definitions/team_member_steps.rb
+
+--51e1363f72--2010-08-28--Mark Maglana
+2	3	app/controllers/backlogs_controller.rb
+17	2	features/step_definitions/team_member_steps.rb
+8	1	features/team_member.feature
+2	0	init.rb
+
+--5194bdb7c7--2010-08-28--Mark Maglana
+1	0	.gitignore
+0	89	graph.dot
+0	2	lang/en.yml
+0	87	lib/tasks/test.rake
+1	1	lib/tasks/update_translations.rake
+0	7	test/fixtures/stories.yml
+0	8	test/functional/backlogs_controller_test.rb
+0	5	test/test_helper.rb
+0	10	test/unit/story_test.rb
+
+--7ae51b44af--2010-08-28--Mark Maglana
+0	3	lib/tasks/rcov.rake
+
+--8de09e1091--2010-08-28--Mark Maglana
+5	0	features/.autotest

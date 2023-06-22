@@ -1,0 +1,14 @@
+--d97bcadd0--2010-09-13--cblunt
+--f688c9df8--2010-09-13--cblunt
+11	0	bin/jekyll
+2	2	features/create_sites.feature
+16	0	features/site_configuration.feature
+8	1	lib/jekyll/site.rb
+28	0	test/test_generated_site.rb
+
+--8ecb70d3e--2010-09-13--cblunt
+11	0	bin/jekyll
+2	2	features/create_sites.feature
+16	0	features/site_configuration.feature
+8	1	lib/jekyll/site.rb
+28	0	test/test_generated_site.rb

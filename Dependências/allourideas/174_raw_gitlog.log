@@ -1,0 +1,172 @@
+--c6c3a48f--2010-06-02--Dhruv Kapadia
+--4dff0eac--2010-06-02--Dhruv Kapadia
+1	1	app/views/choices/show.html.haml
+3	2	config/routes.rb
+7	0	features/admin/flag_as_inappropriate_choice.feature
+3	3	features/results/paginate_all_results.feature
+33	3	features/results/view_individual_idea_page.feature
+1	1	features/results/view_results.feature
+4	0	features/step_definitions/admin_steps.rb
+7	0	features/step_definitions/idea_marketplace_steps.rb
+11	5	features/step_definitions/voting_steps.rb
+7	0	features/support/paths.rb
+1	1	features/voting/cantdecide.feature
+1	1	features/voting/leveling_adjectives.feature
+1	1	features/voting/voting.feature
+1	1	test/factories/question.rb
+
+--056677d7--2010-06-02--Chap Ambrose
+14	20	public/javascripts/photocracy/application.js
+3	3	public/stylesheets/photocracy/application.css
+3	3	public/stylesheets/photocracy/application.scss
+
+--c0030550--2010-06-02--Chap Ambrose
+20	7	app/controllers/prompts_controller.rb
+
+--606ad714--2010-06-02--Chap Ambrose
+4	3	app/views/photocracy/questions/_photo.haml
+
+--36610daa--2010-06-02--Chap Ambrose
+8	8	app/controllers/application_controller.rb
+0	0	app/views/{earls/show.photocracy.haml => photocracy/earls/show.haml}
+0	0	app/views/{layouts/application.photocracy.haml => photocracy/layouts/application.html.haml}
+0	0	app/views/{questions/_photo.photocracy.haml => photocracy/questions/_photo.haml}
+0	0	app/views/{questions/_prompt.photocracy.haml => photocracy/questions/_prompt.haml}
+0	1	config/initializers/mime_types.rb
+
+--f0825ee9--2010-06-02--Chap Ambrose
+23	27	config/environment.rb
+
+--17a06a15--2010-06-02--Chap Ambrose
+0	1	.gitignore
+1	0	config/database.yml
+146	0	db/schema.rb
+
+--82bcd6c4--2010-06-02--Chap Ambrose
+1	0	.gitignore
+
+--e5bde7be--2010-06-02--Chap Ambrose
+0	1	.gitignore
+
+--98949804--2010-06-01--Chap Ambrose
+1	0	.gitignore
+
+--683994ed--2010-06-01--Dhruv Kapadia
+3	1	.gitignore
+5	0	app/controllers/earls_controller.rb
+9	9	app/views/earls/show.photocracy.haml
+44	0	app/views/layouts/application.photocracy.haml
+0	23	config/s3.yml
+-	-	db/seed-images/1.jpg
+-	-	db/seed-images/10.jpg
+-	-	db/seed-images/11.jpg
+-	-	db/seed-images/12.jpg
+-	-	db/seed-images/13.jpg
+-	-	db/seed-images/14.jpg
+-	-	db/seed-images/15.jpg
+-	-	db/seed-images/16.jpg
+-	-	db/seed-images/17.jpg
+-	-	db/seed-images/18.jpg
+-	-	db/seed-images/19.jpg
+-	-	db/seed-images/2.jpg
+-	-	db/seed-images/20.jpg
+-	-	db/seed-images/21.jpg
+-	-	db/seed-images/22.jpg
+-	-	db/seed-images/23.jpg
+-	-	db/seed-images/24.jpg
+-	-	db/seed-images/25.jpg
+-	-	db/seed-images/26.jpg
+-	-	db/seed-images/27.jpg
+-	-	db/seed-images/28.jpg
+-	-	db/seed-images/29.jpg
+-	-	db/seed-images/3.jpg
+-	-	db/seed-images/30.jpg
+-	-	db/seed-images/31.jpg
+-	-	db/seed-images/32.jpg
+-	-	db/seed-images/4.jpg
+-	-	db/seed-images/5.jpg
+-	-	db/seed-images/6.jpg
+-	-	db/seed-images/7.jpg
+-	-	db/seed-images/8.jpg
+-	-	db/seed-images/9.jpg
+22	0	db/seeds.rb
+-	-	public/images/photocracy/00000002
+-	-	public/images/photocracy/alum_logo.png
+-	-	public/images/photocracy/chosen.png
+-	-	public/images/photocracy/click_to_vote.png
+-	-	public/images/photocracy/first_place.png
+-	-	public/images/photocracy/footer_logos.png
+-	-	public/images/photocracy/hd_fade.png
+-	-	public/images/photocracy/indicator.gif
+-	-	public/images/photocracy/orange_tex.png
+-	-	public/images/photocracy/photo_shadow.png
+-	-	public/images/photocracy/secondary-box-border.gif
+-	-	public/images/photocracy/secondary-box-border.psd
+-	-	public/images/photocracy/spinner.gif
+-	-	public/images/photocracy/test1.jpg
+-	-	public/images/photocracy/test1_small.jpg
+-	-	public/images/photocracy/test2.jpg
+-	-	public/images/photocracy/test2_small.jpg
+-	-	public/images/photocracy/test3.jpg
+67	0	public/javascripts/photocracy/application.js
+491	0	public/stylesheets/photocracy/960.css
+36	0	public/stylesheets/photocracy/_mixins.scss
+169	0	public/stylesheets/photocracy/application.css
+203	0	public/stylesheets/photocracy/application.scss
+491	0	public/stylesheets/photocracy/grid.css
+31	0	public/stylesheets/photocracy/ie.css
+31	0	public/stylesheets/photocracy/ie6.css
+53	0	public/stylesheets/photocracy/reset.css
+98	0	public/stylesheets/photocracy/text.css
+
+--c1e11e22--2010-06-01--Dhruv Kapadia
+11	0	app/models/photo.rb
+15	0	db/migrate/20100601222007_add_photos_model.rb
+
+--eeeaf8fa--2010-06-01--Dhruv Kapadia
+9	0	app/controllers/application_controller.rb
+57	0	app/views/earls/show.photocracy.haml
+6	0	app/views/questions/_photo.photocracy.haml
+10	0	app/views/questions/_prompt.photocracy.haml
+2	0	config/environment.rb
+1	0	config/initializers/mime_types.rb
+0	16	vendor/plugins/haml/init.rb
+
+--5ef7bef6--2010-06-02--Dhruv Kapadia
+--e3cc7108--2010-06-01--Dhruv Kapadia
+0	3	app/controllers/earls_controller.rb
+
+--58195d12--2010-06-01--Dhruv Kapadia
+0	24	app/controllers/application_controller.rb
+18	41	app/controllers/questions_controller.rb
+16	31	app/models/question.rb
+4	5	app/views/questions/new.html.haml
+0	1	features/admin/flag_as_inappropriate_choice.feature
+23	21	features/idea_marketplaces/create_question.feature
+3	2	features/step_definitions/idea_marketplace_steps.rb
+4	0	features/support/paths.rb
+
+--6847cb5b--2010-06-01--Dhruv Kapadia
+11	17	app/controllers/choices_controller.rb
+22	0	features/admin/toggle_choice_activation.feature
+6	0	features/step_definitions/admin_steps.rb
+2	2	public/javascripts/application.js
+
+--18ff59d1--2010-06-01--Dhruv Kapadia
+33	0	app/controllers/prompts_controller.rb
+1	63	app/controllers/questions_controller.rb
+3	2	app/views/earls/_vote_box_js.html.erb
+7	3	config/routes.rb
+0	1	features/idea_marketplaces/create_question.feature
+0	1	features/voting/flag_as_inappropriate.feature
+
+--f1b0dab2--2010-06-01--Dhruv Kapadia
+22	25	app/models/question.rb
+
+--f8e9f624--2010-05-31--Dhruv Kapadia
+2	3	app/controllers/choices_controller.rb
+8	6	app/controllers/earls_controller.rb
+18	20	app/controllers/questions_controller.rb
+1	14	app/models/earl.rb
+1	1	features/step_definitions/idea_marketplace_steps.rb
+1	0	features/voting/flag_as_inappropriate.feature

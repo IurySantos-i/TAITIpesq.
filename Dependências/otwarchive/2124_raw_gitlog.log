@@ -1,0 +1,322 @@
+--606a4972d--2012-05-29--Elz
+--64dadadee--2012-05-26--Sidra
+235	235	doc/app/created.rid
+
+--58acf9c61--2012-05-19--Sidra
+2	2	doc/app/ApplicationHelper.html
+1	1	doc/app/ChaptersController.html
+1	1	doc/app/StatsController.html
+116	84	doc/app/Work.html
+21	21	doc/app/WorkObserver.html
+33	33	doc/app/WorksController.html
+235	235	doc/app/created.rid
+1	1	doc/app/js/search_index.js
+484	482	doc/app/table_of_contents.html
+
+--adfec8dd5--2012-05-14--Lalith Vipulananthan
+31	0	features/chapter_edit.feature
+
+--f19c6e15a--2012-05-14--Lalith Vipulananthan
+1	1	app/controllers/chapters_controller.rb
+
+--c83d69779--2012-05-12--Elz
+--1b1679ec9--2012-05-12--Elz
+--33b6a059a--2012-05-12--Elz
+--5cc597968--2012-05-12--Elz
+--93e1865d1--2012-05-12--Elz
+--57f0ee77f--2012-05-12--Elz
+--b06e7bba6--2012-05-12--Elz
+--507e09bd5--2012-05-12--Elz
+--ddb9524e3--2012-05-12--Elz
+--a72ce2646--2012-05-12--Elz
+--ab5e96d17--2012-05-12--Ariana
+1	1	public/help/disable-share-buttons.html
+
+--e64cf8fac--2012-05-12--Cristina
+1	1	app/controllers/stats_controller.rb
+
+--df6fcebba--2012-05-12--Cristina
+--2ee4a0de9--2012-05-12--elz
+2	1	app/controllers/works_controller.rb
+8	1	app/models/work.rb
+21	21	app/models/work_observer.rb
+
+--10f170d1c--2012-05-12--Sidra
+26	12	doc/app/AbuseReport.html
+26	12	doc/app/AbuseReportsController.html
+26	12	doc/app/Admin.html
+26	12	doc/app/Admin/AdminInvitationsController.html
+26	12	doc/app/Admin/AdminUsersController.html
+26	12	doc/app/Admin/SettingsController.html
+26	12	doc/app/Admin/SkinsController.html
+660	0	doc/app/Admin/StatsController.html
+26	12	doc/app/Admin/UserCreationsController.html
+26	12	doc/app/AdminMailer.html
+26	12	doc/app/AdminPost.html
+26	12	doc/app/AdminPostTag.html
+26	12	doc/app/AdminPostTagging.html
+26	12	doc/app/AdminPostsController.html
+26	12	doc/app/AdminSession.html
+26	12	doc/app/AdminSessionsController.html
+96	15	doc/app/AdminSetting.html
+26	12	doc/app/AdminsController.html
+26	12	doc/app/AdvancedSearchHelper.html
+26	12	doc/app/AlphabetHelper.html
+84	38	doc/app/ApplicationController.html
+26	12	doc/app/ApplicationHelper.html
+26	12	doc/app/ArchiveFaq.html
+26	12	doc/app/ArchiveFaqsController.html
+26	12	doc/app/AutocompleteController.html
+26	12	doc/app/Banned.html
+26	12	doc/app/Bookmark.html
+26	12	doc/app/BookmarksController.html
+26	12	doc/app/BookmarksHelper.html
+26	12	doc/app/CacheHelper.html
+26	12	doc/app/CastNomination.html
+26	12	doc/app/Category.html
+26	12	doc/app/Challenge.html
+26	12	doc/app/Challenge/GiftExchangeController.html
+26	12	doc/app/Challenge/PromptMemeController.html
+26	12	doc/app/ChallengeAssignment.html
+26	12	doc/app/ChallengeAssignmentsController.html
+26	12	doc/app/ChallengeClaim.html
+26	12	doc/app/ChallengeClaimsController.html
+26	12	doc/app/ChallengeHelper.html
+26	12	doc/app/ChallengeRequestsController.html
+26	12	doc/app/ChallengeSignup.html
+26	12	doc/app/ChallengeSignupObserver.html
+26	12	doc/app/ChallengeSignupSweeper.html
+26	12	doc/app/ChallengeSignupsController.html
+26	12	doc/app/ChallengeSweeper.html
+26	12	doc/app/ChallengesController.html
+26	12	doc/app/Chapter.html
+26	12	doc/app/ChapterSweeper.html
+26	12	doc/app/ChaptersController.html
+26	12	doc/app/ChaptersHelper.html
+26	12	doc/app/Character.html
+26	12	doc/app/CharacterNomination.html
+26	12	doc/app/Collection.html
+27	13	doc/app/CollectionItem.html
+26	12	doc/app/CollectionItemsController.html
+26	12	doc/app/CollectionObserver.html
+26	12	doc/app/CollectionParticipant.html
+26	12	doc/app/CollectionParticipantsController.html
+26	12	doc/app/CollectionPreference.html
+26	12	doc/app/CollectionProfile.html
+26	12	doc/app/CollectionProfileController.html
+26	12	doc/app/CollectionSweeper.html
+26	12	doc/app/CollectionsController.html
+26	12	doc/app/CollectionsHelper.html
+26	12	doc/app/Comment.html
+26	12	doc/app/CommentMailer.html
+26	12	doc/app/CommentObserver.html
+26	12	doc/app/CommentSweeper.html
+26	12	doc/app/CommentsController.html
+26	12	doc/app/CommentsHelper.html
+26	12	doc/app/CommonTagging.html
+69	30	doc/app/CreationObserver.html
+26	12	doc/app/Creatorship.html
+26	12	doc/app/DateHelper.html
+26	12	doc/app/DevmodeController.html
+27	13	doc/app/DownloadsController.html
+26	12	doc/app/EmailVeracityValidator.html
+26	12	doc/app/ErrorsController.html
+114	29	doc/app/ExternalAuthor.html
+26	12	doc/app/ExternalAuthorName.html
+26	12	doc/app/ExternalAuthorsController.html
+26	12	doc/app/ExternalAuthorsHelper.html
+26	12	doc/app/ExternalCreatorship.html
+26	12	doc/app/ExternalWork.html
+26	12	doc/app/ExternalWorksController.html
+26	12	doc/app/Fandom.html
+26	12	doc/app/FandomNomination.html
+26	12	doc/app/FandomsController.html
+26	12	doc/app/FeedSweeper.html
+26	12	doc/app/Feedback.html
+26	12	doc/app/FeedbacksController.html
+26	12	doc/app/FilterCount.html
+26	12	doc/app/FilterTagging.html
+26	12	doc/app/Freeform.html
+26	12	doc/app/FreeformNomination.html
+26	12	doc/app/Gift.html
+26	12	doc/app/GiftExchange.html
+26	12	doc/app/GiftsController.html
+116	113	doc/app/HitCounter.html
+26	12	doc/app/HomeController.html
+26	12	doc/app/HomeHelper.html
+26	12	doc/app/InboxComment.html
+26	12	doc/app/InboxController.html
+26	12	doc/app/InboxHelper.html
+32	17	doc/app/Invitation.html
+26	12	doc/app/InvitationsController.html
+26	12	doc/app/InvitationsHelper.html
+26	12	doc/app/InviteRequest.html
+26	12	doc/app/InviteRequestsController.html
+26	12	doc/app/KnownIssue.html
+26	12	doc/app/KnownIssuesController.html
+76	12	doc/app/Kudo.html
+79	12	doc/app/KudoMailer.html
+28	14	doc/app/KudoObserver.html
+26	12	doc/app/KudosController.html
+26	12	doc/app/Language.html
+26	12	doc/app/LanguagesController.html
+26	12	doc/app/Locale.html
+26	12	doc/app/LocalesController.html
+26	12	doc/app/LogItem.html
+26	12	doc/app/Media.html
+26	12	doc/app/MediaController.html
+26	12	doc/app/MetaTagging.html
+26	12	doc/app/Object.html
+26	12	doc/app/Offer.html
+639	0	doc/app/Opendoors.html
+843	0	doc/app/Opendoors/ExternalAuthorsController.html
+724	0	doc/app/Opendoors/ToolsController.html
+26	12	doc/app/OrphansController.html
+26	12	doc/app/OrphansHelper.html
+26	12	doc/app/OwnedSetTagging.html
+26	12	doc/app/OwnedTagSet.html
+26	12	doc/app/OwnedTagSetsController.html
+26	12	doc/app/PasswordsController.html
+26	12	doc/app/People.html
+26	12	doc/app/PeopleController.html
+26	12	doc/app/PotentialMatch.html
+26	12	doc/app/PotentialMatchSettings.html
+26	12	doc/app/PotentialMatchesController.html
+26	12	doc/app/PotentialPromptMatch.html
+26	12	doc/app/Preference.html
+26	12	doc/app/PreferencesController.html
+26	12	doc/app/Profile.html
+26	12	doc/app/ProfileController.html
+26	12	doc/app/Prompt.html
+26	12	doc/app/PromptMeme.html
+26	12	doc/app/PromptRestriction.html
+26	12	doc/app/PromptRestrictionsHelper.html
+26	12	doc/app/PromptsController.html
+26	12	doc/app/Pseud.html
+26	12	doc/app/PseudSweeper.html
+26	12	doc/app/PseudsController.html
+26	12	doc/app/PseudsHelper.html
+26	12	doc/app/Rating.html
+26	12	doc/app/Reading.html
+26	12	doc/app/ReadingsController.html
+50	25	doc/app/RedirectController.html
+872	0	doc/app/RedisMailQueue.html
+26	12	doc/app/RelatedWork.html
+26	12	doc/app/RelatedWorksController.html
+26	12	doc/app/Relationship.html
+26	12	doc/app/RelationshipNomination.html
+26	12	doc/app/Request.html
+26	12	doc/app/Role.html
+26	12	doc/app/RolesUser.html
+26	12	doc/app/SearchController.html
+26	12	doc/app/SearchHelper.html
+26	12	doc/app/SerialWork.html
+26	12	doc/app/SerialWorksController.html
+26	12	doc/app/Series.html
+26	12	doc/app/SeriesController.html
+26	12	doc/app/SeriesHelper.html
+26	12	doc/app/SetTagging.html
+26	12	doc/app/Skin.html
+26	12	doc/app/SkinParent.html
+26	12	doc/app/SkinsController.html
+26	12	doc/app/SkinsHelper.html
+26	12	doc/app/Static.html
+26	12	doc/app/Static/BaseController.html
+26	12	doc/app/Static/CollectionsController.html
+26	12	doc/app/Static/FandomsController.html
+26	12	doc/app/Static/MediaController.html
+26	12	doc/app/Static/RestrictedWorksController.html
+26	12	doc/app/Static/WorksController.html
+26	12	doc/app/StaticSweeper.html
+131	28	doc/app/StatsController.html
+26	12	doc/app/StatsHelper.html
+80	59	doc/app/StoryParser.html
+26	12	doc/app/StoryParser/Error.html
+26	12	doc/app/Subscription.html
+26	12	doc/app/SubscriptionsController.html
+26	12	doc/app/Tag.html
+26	12	doc/app/TagNomination.html
+26	12	doc/app/TagNominationsController.html
+26	12	doc/app/TagSet.html
+26	12	doc/app/TagSetAssociation.html
+26	12	doc/app/TagSetAssociationsController.html
+26	12	doc/app/TagSetNomination.html
+26	12	doc/app/TagSetNominationsController.html
+26	12	doc/app/TagSetOwnership.html
+26	12	doc/app/TagSetSweeper.html
+26	12	doc/app/TagSetsHelper.html
+26	12	doc/app/TagSweeper.html
+26	12	doc/app/TagWranglersController.html
+26	12	doc/app/TagWranglingsController.html
+26	12	doc/app/Tagging.html
+26	12	doc/app/TagsController.html
+26	12	doc/app/TagsHelper.html
+26	12	doc/app/TranslationHelper.html
+26	12	doc/app/TranslationNote.html
+26	12	doc/app/TranslationNotesController.html
+26	12	doc/app/TranslationsController.html
+26	12	doc/app/TranslatorsController.html
+26	12	doc/app/UrlActiveValidator.html
+26	12	doc/app/UrlFormatValidator.html
+26	12	doc/app/User.html
+26	12	doc/app/UserInviteRequest.html
+26	12	doc/app/UserInviteRequestsController.html
+26	12	doc/app/UserInviteRequestsHelper.html
+114	47	doc/app/UserMailer.html
+26	12	doc/app/UserSession.html
+26	12	doc/app/UserSessionsController.html
+26	12	doc/app/UsersController.html
+26	12	doc/app/UsersHelper.html
+26	12	doc/app/ValidationHelper.html
+26	12	doc/app/Warning.html
+26	12	doc/app/WeightedRandom.html
+147	410	doc/app/Work.html
+654	0	doc/app/WorkLink.html
+679	0	doc/app/WorkLinksController.html
+26	12	doc/app/WorkObserver.html
+26	12	doc/app/WorkSkin.html
+26	12	doc/app/WorkSweeper.html
+55	42	doc/app/WorksController.html
+27	13	doc/app/WorksHelper.html
+26	12	doc/app/WranglingAssignment.html
+26	12	doc/app/app/mailers/README.html
+26	12	doc/app/app/views/epub/mimetype.html
+235	228	doc/app/created.rid
+26	12	doc/app/index.html
+1	1	doc/app/js/search_index.js
+602	543	doc/app/table_of_contents.html
+
+--496f8c868--2012-05-09--Elz
+--027c9637d--2012-05-09--Cristina
+1	1	app/controllers/redirect_controller.rb
+1	1	app/views/opendoors/tools/index.html.erb
+
+--6efef939f--2012-05-06--sarken
+1	1	app/views/user_sessions/new.html.erb
+
+--fc2917f35--2012-05-06--sarken
+1	1	app/views/stats/index.html.erb
+
+--0b6c33885--2012-05-06--sarken
+1	1	app/views/stats/index.html.erb
+
+--78f35350e--2012-05-04--mumble
+1	1	app/models/abuse_report.rb
+
+--17e2d23a9--2012-05-01--Lalith Vipulananthan
+1	1	app/models/work.rb
+
+--b0007a499--2012-05-01--Lalith Vipulananthan
+6	6	app/views/challenge/shared/_challenge_form_instructions.html.erb
+
+--3a3c6cf4f--2012-04-30--Lalith Vipulananthan
+2	2	app/helpers/application_helper.rb
+
+--83ce80353--2012-04-24--sarken
+5	0	public/stylesheets/site/2.0/07-interactions.css
+
+--b6d3d2286--2012-04-17--mumble
+1	1	app/models/abuse_report.rb
+
+--7ff5dd151--2012-04-16--mumble
+1	1	app/models/abuse_report.rb

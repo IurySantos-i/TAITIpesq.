@@ -1,0 +1,151 @@
+--157e4716--2015-07-01--Alexander Bobin
+--03422ed7--2015-07-01--Murray Steele
+--f51c2c49--2015-07-01--Murray Steele
+--28a02265--2015-07-01--Murray Steele
+1	1	app/views/admin/petitions/_petition_content.html.erb
+
+--ef23a05d--2015-07-01--Murray Steele
+2	1	app/controllers/admin/debate_outcomes_controller.rb
+2	1	app/controllers/admin/government_response_controller.rb
+2	1	app/controllers/admin/notes_controller.rb
+2	1	app/controllers/admin/schedule_debate_controller.rb
+2	1	app/controllers/admin/take_down_controller.rb
+0	14	app/views/admin/debate_outcomes/show.html.erb
+0	14	app/views/admin/government_response/show.html.erb
+0	14	app/views/admin/notes/show.html.erb
+0	14	app/views/admin/schedule_debate/show.html.erb
+0	14	app/views/admin/take_down/show.html.erb
+4	4	spec/controllers/admin/debate_outcomes_controller_spec.rb
+4	4	spec/controllers/admin/government_response_controller_spec.rb
+4	4	spec/controllers/admin/notes_controller_spec.rb
+4	4	spec/controllers/admin/schedule_debate_controller_spec.rb
+4	4	spec/controllers/admin/take_down_controller_spec.rb
+
+--f05444dc--2015-07-01--Murray Steele
+20	4	app/assets/stylesheets/petitions/admin/_meta.scss
+19	17	app/views/admin/petitions/_petition_details.html.erb
+1	1	app/views/admin/petitions/show.html.erb
+
+--543e0876--2015-07-01--Murray Steele
+15	13	app/assets/stylesheets/petitions/admin/_actions.scss
+1	1	app/views/admin/admin/_petition_action_change_rejection_status.html.erb
+1	1	app/views/admin/admin/_petition_action_debate_date.html.erb
+1	1	app/views/admin/admin/_petition_action_debate_outcome.html.erb
+1	1	app/views/admin/admin/_petition_action_government_response.html.erb
+1	1	app/views/admin/admin/_petition_action_moderation.html.erb
+1	1	app/views/admin/admin/_petition_action_notes.html.erb
+1	1	app/views/admin/admin/_petition_action_take_down.html.erb
+1	1	app/views/admin/debate_outcomes/_petition_action_debate_outcome.html.erb
+1	1	app/views/admin/government_response/_petition_action_government_response.html.erb
+1	1	app/views/admin/notes/_petition_action_moderation.html.erb
+1	1	app/views/admin/notes/_petition_action_notes.html.erb
+9	9	app/views/admin/petitions/_petition_actions.html.erb
+1	1	app/views/admin/schedule_debate/_petition_action_debate_date.html.erb
+1	1	app/views/admin/take_down/_petition_action_change_rejection_status.html.erb
+1	1	app/views/admin/take_down/_petition_action_take_down.html.erb
+
+--16c7d228--2015-07-01--Murray Steele
+0	4	app/assets/stylesheets/petitions/_layout.scss
+4	0	app/assets/stylesheets/petitions/admin/_layout.scss
+
+--9b4718c1--2015-07-01--Murray Steele
+33	22	app/views/admin/petition_details/show.html.erb
+
+--be5f46aa--2015-07-01--Murray Steele
+1	1	app/helpers/admin_helper.rb
+1	2	app/views/admin/debate_outcomes/_petition_action_debate_outcome.html.erb
+1	1	app/views/admin/government_response/_petition_action_government_response.html.erb
+0	1	app/views/admin/petitions/_reject.html.erb
+1	3	app/views/admin/schedule_debate/_petition_action_debate_date.html.erb
+3	4	app/views/admin/take_down/_petition_action_change_rejection_status.html.erb
+2	2	app/views/admin/take_down/_petition_action_take_down.html.erb
+
+--9cdf97d5--2015-07-01--Murray Steele
+2	2	spec/controllers/admin/debate_outcomes_controller_spec.rb
+1	1	spec/controllers/admin/petition_details_controller_spec.rb
+
+--2846c1bf--2015-07-01--Murray Steele
+27	0	app/controllers/admin/schedule_debate_controller.rb
+0	27	app/views/admin/petitions/edit_scheduled_debate_date.html.erb
+14	0	app/views/admin/schedule_debate/_petition_action_debate_date.html.erb
+14	0	app/views/admin/schedule_debate/show.html.erb
+1	5	config/routes.rb
+1	1	features/admin/moderator_updates_petition_scheduled_debate_date.feature
+0	85	spec/controllers/admin/petitions_controller_spec.rb
+267	0	spec/controllers/admin/schedule_debate_controller_spec.rb
+27	0	spec/routing/admin/petitions/schedule_debate_spec.rb
+0	8	spec/routing/admin/petitions_spec.rb
+
+--7b41985e--2015-07-01--Murray Steele
+1	0	app/views/admin/admin/_petition_action_change_rejection_status.html.erb
+1	0	app/views/admin/admin/_petition_action_debate_date.html.erb
+1	0	app/views/admin/admin/_petition_action_debate_outcome.html.erb
+1	0	app/views/admin/admin/_petition_action_government_response.html.erb
+2	0	app/views/admin/admin/_petition_action_moderation.html.erb
+1	0	app/views/admin/admin/_petition_action_notes.html.erb
+1	0	app/views/admin/admin/_petition_action_take_down.html.erb
+31	0	app/views/admin/debate_outcomes/_petition_action_debate_outcome.html.erb
+1	32	app/views/admin/debate_outcomes/show.html.erb
+18	0	app/views/admin/government_response/_petition_action_government_response.html.erb
+1	20	app/views/admin/government_response/show.html.erb
+1	0	app/views/admin/notes/_petition_action_moderation.html.erb
+12	0	app/views/admin/notes/_petition_action_notes.html.erb
+1	29	app/views/admin/notes/show.html.erb
+8	9	app/views/admin/petitions/_petition_actions.html.erb
+10	0	app/views/admin/take_down/_petition_action_change_rejection_status.html.erb
+8	0	app/views/admin/take_down/_petition_action_take_down.html.erb
+1	14	app/views/admin/take_down/show.html.erb
+3	3	features/admin/moderator_responds_to_petition.feature
+1	1	features/admin/providing_debate_outcome_information.feature
+1	1	features/step_definitions/moderation_steps.rb
+
+--572b3b9a--2015-06-30--Henry Hadlow
+6	2	app/assets/stylesheets/petitions/admin/_actions.scss
+4	4	app/views/admin/moderation/_form.html.erb
+25	10	app/views/admin/notes/show.html.erb
+24	13	app/views/admin/petitions/_petition_actions.html.erb
+0	13	app/views/admin/petitions/_published_petition_details.html.erb
+3	3	app/views/admin/petitions/_reject.html.erb
+
+--71cf2f65--2015-06-30--Henry Hadlow
+4	0	app/assets/stylesheets/petitions/_layout.scss
+13	0	app/assets/stylesheets/petitions/admin/_actions.scss
+7	0	app/assets/stylesheets/petitions/admin/_meta.scss
+2	0	app/assets/stylesheets/site-admin.scss
+0	4	app/models/petition.rb
+45	34	app/views/admin/debate_outcomes/show.html.erb
+33	20	app/views/admin/government_response/show.html.erb
+23	12	app/views/admin/notes/show.html.erb
+37	0	app/views/admin/petitions/_petition_actions.html.erb
+18	0	app/views/admin/petitions/_petition_content.html.erb
+26	26	app/views/admin/petitions/_petition_details.html.erb
+8	26	app/views/admin/petitions/_published_petition_details.html.erb
+23	12	app/views/admin/petitions/edit_scheduled_debate_date.html.erb
+1	1	app/views/admin/petitions/index.html.erb
+13	40	app/views/admin/petitions/show.html.erb
+24	13	app/views/admin/take_down/show.html.erb
+4	3	app/views/layouts/admin.html.erb
+
+--feebd9f7--2015-06-30--Oskar Pearson
+6	0	db/migrate/20150630105949_restructure_indexes.rb
+9	9	db/structure.sql
+
+--5bc6249f--2015-06-30--Oskar Pearson
+6	0	db/migrate/20150630105949_restructure_indexes.rb
+2	14	db/structure.sql
+
+--1d90cf3d--2015-06-30--Murray Steele
+2	2	app/models/signature.rb
+
+--7f9db8ca--2015-06-30--Murray Steele
+1	0	spec/models/constituency_petition_journal_spec.rb
+19	0	spec/support/exceed_query_limit.rb
+19	0	spec/support/query_counter.rb
+
+--563bf664--2015-06-30--Murray Steele
+3	1	app/models/constituency_petition_journal.rb
+15	0	spec/models/constituency_petition_journal_spec.rb
+
+--97b9839f--2015-06-30--Murray Steele
+9	5	app/models/constituency_petition_journal.rb
+32	17	spec/models/constituency_petition_journal_spec.rb

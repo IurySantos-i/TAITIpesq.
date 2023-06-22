@@ -1,0 +1,95 @@
+--be23f58f54--2016-06-15--Markus Kahl
+--e376b4186f--2016-06-15--Oliver Günther
+2	1	app/controllers/projects_controller.rb
+1	1	config/locales/en.yml
+3	1	spec/controllers/projects_controller_spec.rb
+
+--885031ebbe--2016-06-15--Oliver Günther
+0	4	app/assets/stylesheets/_misc_legacy.sass
+83	83	app/views/types/_form.html.erb
+4	1	app/views/types/edit.html.erb
+
+--ed72fd6e04--2016-06-15--CI
+1	1	Gemfile.lock
+
+--23b1256d8a--2016-06-14--Oliver Günther
+--38659d3d2a--2016-06-14--Alex Dik
+16	3	frontend/app/components/api/api-v3/hal-link/hal-link.service.test.ts
+9	7	frontend/app/components/api/api-v3/hal-link/hal-link.service.ts
+1	0	frontend/app/components/api/restangular.config.ts
+
+--389efd0c3f--2016-06-14--Alex Dik
+3	3	frontend/app/components/api/api-v3/api-v3-cache.config.ts
+4	4	frontend/app/components/api/api-v3/api-v3.config.ts
+7	7	frontend/app/components/api/api-v3/api-v3.service.test.ts
+2	3	frontend/app/components/api/api-v3/api-v3.service.ts
+7	5	frontend/app/components/api/api-v3/hal-link/hal-link.service.test.ts
+2	4	frontend/app/components/api/api-v3/hal-link/hal-link.service.ts
+12	10	frontend/app/components/api/api-v3/hal-resources/collection-resource.service.test.ts
+7	5	frontend/app/components/api/api-v3/hal-resources/error-resource.service.ts
+1	3	frontend/app/components/api/api-v3/hal-resources/hal-resource.service.test.ts
+2	6	frontend/app/components/api/api-v3/hal-resources/hal-resource.service.ts
+5	13	frontend/app/components/api/api-v3/hal-resources/work-package-resource.service.ts
+3	3	frontend/app/components/api/api-v3/hal-transform/hal-transform.service.ts
+2	3	frontend/app/components/api/api-work-packages/api-work-packages.service.ts
+3	3	frontend/app/components/api/restangular.config.ts
+
+--5f34494e94--2016-06-14--ulferts
+--a728c9a8b9--2016-06-14--CI
+1	1	Gemfile.lock
+
+--1d99206232--2016-06-13--ulferts
+0	39	app/assets/javascripts/accessibility.js
+0	12	app/helpers/application_helper.rb
+1	0	config/locales/js-en.yml
+20	0	frontend/app/components/api/api-v3/hal-resources/error-resource.service.ts
+2	2	frontend/app/components/common/notification-box/notification-box.directive.html
+0	10	frontend/app/components/common/notification-box/notification-box.directive.js
+1	2	frontend/app/components/modals/columns-modal/columns-modal.template.html
+1	1	frontend/app/components/routing/wp-details/wp.list.details.html
+1	1	frontend/app/components/routing/wp-show/wp.show.html
+2	0	frontend/app/components/wp-edit/wp-edit-field/wp-edit-field.directive.html
+13	2	frontend/app/components/wp-edit/wp-edit-field/wp-edit-field.directive.ts
+12	12	frontend/app/components/wp-edit/wp-edit-form.directive.ts
+3	5	frontend/app/ui_components/focus-directive.js
+0	1	frontend/app/ui_components/index.js
+
+--ca589364be--2016-06-13--Oliver Günther
+4	1	config/locales/js-en.yml
+9	3	frontend/app/components/wp-table/sort-header/sort-header.directive.js
+4	1	frontend/app/components/wp-table/wp-table.directive.html
+6	1	frontend/app/components/wp-table/wp-table.directive.ts
+
+--828277c44d--2016-06-09--Oliver Günther
+0	53	app/assets/stylesheets/accessibility.css
+65	0	app/assets/stylesheets/accessibility.sass
+0	18	app/assets/stylesheets/open_project_global/_accessibility.sass
+3	0	config/initializers/menus.rb
+4	0	features/step_definitions/web_steps.rb
+4	1	features/users/user_registration.feature
+1	1	lib/redmine/menu_manager/menu_helper.rb
+2	2	lib/redmine/menu_manager/top_menu/help_menu.rb
+8	9	lib/redmine/menu_manager/top_menu/projects_menu.rb
+2	2	lib/redmine/menu_manager/top_menu_helper.rb
+2	2	spec/views/layouts/base.html.erb_spec.rb
+
+--87e9ada197--2016-06-09--Oliver Günther
+2	2	app/assets/stylesheets/open_project_global/_accessibility.sass
+33	24	lib/redmine/menu_manager/menu_helper.rb
+18	14	lib/redmine/menu_manager/top_menu/help_menu.rb
+25	26	lib/redmine/menu_manager/top_menu/projects_menu.rb
+18	21	lib/redmine/menu_manager/top_menu_helper.rb
+
+--e337822715--2016-04-29--Henriette Dinger
+18	0	app/assets/stylesheets/open_project_global/_accessibility.sass
+1	1	app/assets/stylesheets/open_project_global/_all.sass
+4	0	app/controllers/my_controller.rb
+4	0	app/controllers/news_controller.rb
+8	0	app/controllers/projects_controller.rb
+4	0	app/controllers/work_packages_controller.rb
+5	2	config/initializers/menus.rb
+12	3	lib/redmine/menu_manager/menu_helper.rb
+2	1	lib/redmine/menu_manager/menu_item.rb
+1	1	lib/redmine/menu_manager/{help_menu_helper.rb => top_menu/help_menu.rb}
+111	0	lib/redmine/menu_manager/top_menu/projects_menu.rb
+17	70	lib/redmine/menu_manager/top_menu_helper.rb

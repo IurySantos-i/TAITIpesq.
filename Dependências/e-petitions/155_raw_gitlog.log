@@ -1,0 +1,26 @@
+--37220fc3--2015-09-24--Alan Thomas
+--157645ba--2015-09-23--Andrew White
+1	0	app/views/petitions/_closed_petition_show.html.erb
+1	1	app/views/petitions/_open_petition_show.html.erb
+14	0	app/views/petitions/_other_business_details.html.erb
+16	0	features/step_definitions/petition_steps.rb
+10	0	features/suzie_views_a_petition.feature
+
+--6efa8218--2015-09-23--Andrew White
+3	4	app/views/petition_mailer/email_signer.html.erb
+3	4	app/views/petition_mailer/email_signer.text.erb
+
+--d2a32a9a--2015-09-23--Andrew White
+1	1	app/views/admin/admin/_petition_action_email_petitioners.html.erb
+1	1	app/views/admin/petition_emails/_petition_action_email_petitioners.html.erb
+1	1	features/admin/petition_email.feature
+
+--6f83dbc0--2015-09-23--Andrew White
+1	1	app/models/petition/email.rb
+
+--6e456343--2015-09-23--Alan Thomas
+--ead54930--2015-09-23--Andrew White
+5	0	app/helpers/cache_helper.rb
+10	11	app/views/application/_social_meta.html.erb
+1	5	config/fragments.yml
+9	0	spec/helpers/cache_helper_spec.rb

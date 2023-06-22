@@ -1,0 +1,20 @@
+--c894d472--2015-06-23--mybits
+--42dd7089--2015-06-23--mybits
+--235fdd6d--2015-06-22--Otto Laitila
+4	0	app/models/admin_user.rb
+0	17	app/views/admin/shared/_admin_nav.html.erb
+3	0	app/views/admin/shared/_header.html.erb
+7	0	app/views/admin/shared/_header_user_actions.html.erb
+4	5	app/views/layouts/admin.html.erb
+9	9	features/admin/admin_access.feature
+1	1	features/admin/admin_users_crud.feature
+5	5	features/admin/profile.feature
+5	0	features/step_definitions/authentication_steps.rb
+
+--54034c47--2015-06-23--Murray Steele
+--10807967--2015-06-23--Otto Laitila
+1	1	spec/models/signature_spec.rb
+
+--8134f926--2015-06-23--Andrew White
+11	11	app/views/shared/_os.html.erb
+2	2	app/views/shared/_social_meta.html.erb

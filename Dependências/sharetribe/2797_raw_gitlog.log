@@ -1,0 +1,213 @@
+--c8a1f684d--2012-10-04--Antti Virolainen
+--1a285c992--2012-10-04--Antti Virolainen
+7	0	app/controllers/application_controller.rb
+4	0	config/config.example.yml
+33	0	public/errors/maintenance.html
+
+--eb4532c0b--2012-10-03--Antti Virolainen
+1	1	app/controllers/application_controller.rb
+
+--4b44d1288--2012-10-03--Antti Virolainen
+0	1	Gemfile
+0	3	Gemfile.lock
+31	1	app/controllers/application_controller.rb
+7	8	config/application.rb
+
+--129d0c621--2012-10-01--Antti Virolainen
+1	1	app/models/listing.rb
+
+--2c96cc209--2012-09-30--Antti Virolainen
+1	1	config/sphinx.yml
+
+--3e78e18a1--2012-09-30--Antti Virolainen
+7	8	Gemfile.lock
+1	1	app/mailers/person_mailer.rb
+0	6	config/config.example.yml
+1	1	config/sphinx.yml
+
+--141643a75--2012-09-29--Antti Virolainen
+2	1	Gemfile
+1	1	Procfile
+5	0	config/application.rb
+33	0	config/unicorn.rb
+10	10	lib/console scripts/aalto_terms_reminder.rb
+
+--4ade1067c--2012-09-27--Antti Virolainen
+5	1	config/config.example.yml
+8	0	config/database.example.yml
+78	0	config/environments/staging.rb
+
+--67d49f67f--2012-09-27--Antti Virolainen
+2	2	features/homepage/user_views_homepage.feature
+2	2	features/listings/user_comments_a_listing.feature
+
+--ebcbe5cc6--2012-09-27--Antti Virolainen
+1	1	spec/mailers/person_mailer_spec.rb
+
+--db2b044af--2012-09-26--Kusti
+--fe1f8567a--2012-09-26--Kusti
+42	0	lib/console scripts/tribe_starters_email.rb
+
+--3a73f4e40--2012-09-27--Antti Virolainen
+2	2	app/helpers/application_helper.rb
+1	1	app/models/community.rb
+1	1	app/views/communities/_new_tribe_form.haml
+2	2	app/views/dashboard/_header.haml
+1	1	app/views/layouts/private.haml
+30	0	config/application.rb
+0	10	config/config.example.yml
+1	1	config/config_loader.rb
+2	0	config/environment.rb
+0	1	config/initializers/i18n.rb
+2	2	features/common/user_changes_language.feature
+4	4	features/communities/user_sees_available_locales.feature
+1	1	features/dashboard/user_views_dashboard.feature
+1	1	lib/tasks/i18n.rake
+
+--587b2320d--2012-09-26--Kusti
+1	0	Gemfile.lock
+1	0	communities/uutisraivaaja/logo/logo.haml
+9	9	config/locales/en.yml
+0	0	lib/console scripts/tribe_starters_email.rb
+-	-	public/images/community_images/uutisraivaaja_logo.jpg
+
+--70879f956--2012-09-26--Antti Virolainen
+1	1	app/models/listing.rb
+
+--50b5f70ed--2012-09-26--Antti Virolainen
+6	1	app/models/listing.rb
+4	2	app/views/api/listings/index.atom.builder
+
+--52dce2182--2012-09-26--Antti Virolainen
+1	0	Gemfile
+11	0	Gemfile.lock
+1	0	config/sphinx.yml
+
+--a20e20eb5--2012-09-26--Antti Virolainen
+1	1	Gemfile
+3	0	Gemfile.lock
+1	1	app/controllers/people_controller.rb
+2	2	app/controllers/sessions_controller.rb
+3	0	config/application.rb
+9	0	config/config.example.yml
+
+--8113e7aaf--2012-09-26--Antti Virolainen
+2	0	Procfile
+
+--17d646e37--2012-09-26--Antti Virolainen
+1	1	Gemfile
+18	2	app/mailers/person_mailer.rb
+15	10	config/config.example.yml
+4	4	config/environments/development.rb
+10	0	config/environments/production.rb
+0	1	lib/tasks/heroku.rake
+
+--8beab11ef--2012-09-25--Antti Virolainen
+1	1	Gemfile
+20	4	app/models/listing_image.rb
+18	2	app/models/person.rb
+13	0	config/config.example.yml
+3	3	config/database.example.yml
+
+--8451101f2--2012-09-25--Antti Virolainen
+2	1	Gemfile
+17	5	Gemfile.lock
+4	1	app/models/listing_image.rb
+3	1	app/models/person.rb
+
+--cd5851006--2012-09-24--Antti Virolainen
+--1238076d4--2012-09-24--Antti Virolainen
+21	0	communities/default/about/about.vi.haml
+4	0	communities/default/frontpage_sidebar/frontpage_sidebar.vi.haml
+1	1	config/locales/el.yml
+11	11	config/locales/en.yml
+18	18	config/locales/es.yml
+30	0	config/locales/faq/faq.vi.yml
+1	1	config/locales/fi.yml
+16	16	config/locales/fr.yml
+316	316	config/locales/vi.yml
+22	0	public/javascripts/locales/vi.json
+
+--239e4a67f--2012-09-24--Antti Virolainen
+3	3	spec/models/cached_ressi_event_spec.rb
+
+--e6d5feb3e--2012-09-24--Antti Virolainen
+1	0	Gemfile
+3	1	Gemfile.lock
+
+--aebcefa22--2012-09-24--Antti Virolainen
+2	3	lib/tasks/excel.rake
+1	1	lib/tasks/i18n.rake
+
+--348ef6ecf--2012-09-24--Antti Virolainen
+4	6	config/application.rb
+14	0	config/config_loader.rb
+2	5	config/environment.rb
+3	1	lib/tasks/excel.rake
+4	2	lib/tasks/i18n.rake
+
+--d9deb35b7--2012-09-24--Antti Virolainen
+1	0	Procfile
+3	1	config/application.rb
+3	1	config/environment.rb
+0	6	config/initializers/01_load_config.rb
+1	1	lib/tasks/excel.rake
+15	0	lib/tasks/heroku.rake
+1	1	lib/tasks/i18n.rake
+
+--327b57b8e--2012-09-24--Antti Virolainen
+11	23	app/controllers/people_controller.rb
+43	83	app/controllers/sessions_controller.rb
+2	5	app/controllers/terms_controller.rb
+3	33	app/helpers/application_helper.rb
+0	425	app/models/asi_person.rb
+122	169	app/models/person.rb
+0	103	app/models/person_connection.rb
+0	91	app/models/session.rb
+1	1	app/views/layouts/_logged_in.haml
+1	1	app/views/people/new.haml
+1	1	app/views/sessions/_new.haml
+5	50	features/step_definitions/user_steps.rb
+21	21	spec/controllers/api/badges_controller_spec.rb
+81	84	spec/controllers/api/comments_controller_spec.rb
+158	158	spec/controllers/api/conversations_controller_spec.rb
+33	33	spec/controllers/api/devices_controller_spec.rb
+282	284	spec/controllers/api/listings_controller_spec.rb
+28	30	spec/controllers/api/testimonials_controller_spec.rb
+12	12	spec/controllers/api/tokens_controller_spec.rb
+73	117	spec/controllers/people_controller_spec.rb
+6	24	spec/controllers/sessions_controller_spec.rb
+3	5	spec/factories.rb
+0	36	spec/helpers/rest_helper_spec.rb
+63	211	spec/models/person_spec.rb
+0	67	spec/models/session_spec.rb
+13	34	test/helper_modules.rb
+
+--0dea476f0--2012-09-24--Antti Virolainen
+3	0	Gemfile
+7	0	Gemfile.lock
+3	0	config/config.example.yml
+
+--487684e4b--2012-09-21--Antti Virolainen
+2	0	Gemfile
+
+--441a6b467--2012-09-21--Antti Virolainen
+2	1	Gemfile
+3	3	Gemfile.lock
+
+--6741eb5b9--2012-09-21--Antti Virolainen
+1	1	app/mailers/person_mailer.rb
+2	1	vendor/plugins/np_guid/lib/uuidtools.rb
+
+--a98e850b7--2012-09-21--Antti Virolainen
+0	1	Gemfile
+1	12	Gemfile.lock
+2	0	app/controllers/sms_controller.rb
+2	0	app/mailers/person_mailer.rb
+1	0	app/views/homepage/_recent_listing.haml
+2	0	spec/controllers/api/listings_controller_spec.rb
+2	0	spec/helpers/sms_helper_spec.rb
+3	1	spec/models/community_spec.rb
+2	0	spec/models/ressi_event_spec.rb
+
+--6bb6cdf90--2012-09-20--Antti Virolainen

@@ -1,0 +1,82 @@
+--3b86e5dc--2014-08-20--Kisitu Augustine
+--0bbb9f42--2014-08-20--Kisitu Augustine
+1	1	app/controllers/api/enquiries_controller.rb
+1	1	app/helpers/record_helper.rb
+5	0	app/models/enquiry.rb
+5	3	features/api/enquiries/sync_enquiries.feature
+40	12	spec/controllers/api/enquiries_controller_spec.rb
+39	4	spec/models/enquiry_spec.rb
+
+--5ea0682f--2014-08-20--Tom Clement Oketch
+--1900bb56--2014-08-20--Tom Oketch
+6	4	features/add_standard_forms.feature
+1	1	features/step_definitions/add_standard_forms_steps.rb
+303	4	lib/rapid_ftr/enquiries_form_section_setup.rb
+11	7	spec/services/standard_forms_service_spec.rb
+
+--72e0e443--2014-08-20--Kisitu Augustine
+--88402713--2014-08-19--Kisitu Augustine
+1	1	app/helpers/record_helper.rb
+
+--6da0dacd--2014-08-19--Kisitu Augustine
+--bc869777--2014-08-18--Kisitu Augustine
+--0747ae5d--2014-08-14--Kisitu Augustine
+--a3a2b944--2014-08-08--Kisitu Augustine
+11	4	app/services/standard_forms_service.rb
+165	26	spec/services/standard_forms_service_spec.rb
+
+--ad98d423--2014-08-08--Kisitu Augustine
+24	20	app/services/standard_forms_service.rb
+24	3	spec/services/standard_forms_service_spec.rb
+
+--dc7b4d67--2014-08-08--Kisitu Augustine
+4	0	app/models/form.rb
+
+--36246fa2--2014-08-07--Kisitu Augustine
+--d5e6be4c--2014-08-07--andreweskeclarke
+1	27	app/controllers/forms_controller.rb
+16	1	app/models/form.rb
+1	1	app/models/form_section.rb
+3	10	app/models/forms/standard_forms_form.rb
+67	0	app/services/standard_forms_service.rb
+3	4	app/views/standard_forms/index.html.erb
+87	0	spec/services/standard_forms_service_spec.rb
+
+--6720c2c2--2014-08-07--Kisitu Augustine
+--a9e23e78--2014-08-07--Kisitu Augustine
+--b9713159--2014-08-07--andreweskeclarke
+0	1	app/controllers/standard_forms_controller.rb
+19	3	app/models/forms/standard_forms_form.rb
+20	16	app/views/standard_forms/index.html.erb
+
+--aab48349--2014-08-06--andreweskeclarke
+2	0	app/controllers/forms_controller.rb
+2	37	app/controllers/standard_forms_controller.rb
+74	0	app/models/forms/standard_forms_form.rb
+31	40	app/views/standard_forms/index.html.erb
+3	76	spec/controllers/standard_forms_controller_spec.rb
+106	0	spec/models/forms/standard_forms_form_spec.rb
+
+--a4684bed--2014-08-05--andreweskeclarke
+31	2	app/controllers/standard_forms_controller.rb
+2	2	app/views/standard_forms/index.html.erb
+64	4	spec/controllers/standard_forms_controller_spec.rb
+
+--07c246a4--2014-08-05--andreweskeclarke
+2	0	Gemfile
+6	0	Gemfile.lock
+2	0	app/assets/javascripts/application.js
+1	0	app/assets/stylesheets/application.scss
+67	30	app/views/standard_forms/index.html.erb
+
+--21c4249b--2014-08-04--andreweskeclarke
+28	0	app/controllers/forms_controller.rb
+4	0	app/controllers/standard_forms_controller.rb
+6	1	app/models/form.rb
+6	0	app/models/form_section.rb
+29	23	app/views/standard_forms/index.html.erb
+3	2	config/routes.rb
+8	0	db/seeds.rb
+4	8	lib/rapid_ftr/children_form_section_setup.rb
+13	8	lib/rapid_ftr/enquiries_form_section_setup.rb
+98	1	spec/controllers/forms_controller_spec.rb

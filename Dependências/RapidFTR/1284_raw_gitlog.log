@@ -1,0 +1,44 @@
+--b974595e--2010-05-19--Mark Burns
+--831a059e--2010-05-19--Mark Burns
+2	0	.gitignore
+
+--4eb4c1f3--2010-05-15--rapidftr
+7	0	app/controllers/fields_controller.rb
+12	0	app/models/form_section.rb
+6	1	app/views/fields/index.html.erb
+1	0	config/routes.rb
+7	1	features/reorder_fields.feature
+23	8	spec/controllers/fields_controller_spec.rb
+22	0	spec/models/form_section_spec.rb
+9	0	spec/routing/formsection_routing_spec.rb
+
+--bc58fb4e--2010-05-15--rapidftr
+1	1	app/controllers/application_controller.rb
+6	0	app/controllers/fields_controller.rb
+10	0	app/models/form_section.rb
+4	1	app/views/fields/index.html.erb
+1	0	config/routes.rb
+2	2	features/reorder_fields.feature
+8	2	features/step_definitions/form_section_steps.rb
+12	0	spec/controllers/fields_controller_spec.rb
+24	4	spec/models/form_section_spec.rb
+8	0	spec/routing/formsection_routing_spec.rb
+
+--e818c36b--2010-05-15--rapidftr
+1	1	app/controllers/application_controller.rb
+3	1	app/views/fields/index.html.erb
+11	1	features/reorder_fields.feature
+6	0	features/step_definitions/form_section_steps.rb
+
+--fbb0a1f8--2010-05-01--Frank Trindade
+4	1	app/views/fields/index.html.erb
+10	2	features/reorder_fields.feature
+6	0	features/step_definitions/form_section_steps.rb
+
+--ab5e064c--2010-05-01--Frank Trindade
+1	1	spec/support/hpricot_search.rb
+
+--8c2a09ce--2010-05-01--Frank Trindade
+15	0	features/reorder_fields.feature
+8	2	features/step_definitions/basic_steps.rb
+6	0	features/step_definitions/form_section_steps.rb

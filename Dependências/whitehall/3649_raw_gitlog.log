@@ -1,0 +1,273 @@
+--b417516c1e--2013-02-22--David Heath
+--b361410273--2013-02-22--David Heath
+1	1	app/assets/stylesheets/frontend/views/_organisations.scss
+1	1	app/assets/stylesheets/frontend/views/_worldwide_organisations.scss
+30	32	app/views/contacts/_contact.html.erb
+
+--408c60f69d--2013-02-22--russell thorn
+2	2	app/views/layouts/frontend.html.erb
+
+--4e30b81a1c--2013-02-22--David Heath
+1	1	app/views/people/show.html.erb
+0	11	app/views/worldwide_offices/_logo_list.html.erb
+11	0	app/views/worldwide_organisations/_logo_list.html.erb
+3	3	features/step_definitions/person_steps.rb
+1	1	features/step_definitions/role_steps.rb
+2	2	features/viewing-people-pages.feature
+
+--ec33b95780--2013-02-22--Tekin Suleyman
+1	1	app/views/contacts/_contact.html.erb
+2	42	app/views/organisations/show.html.erb
+
+--4a85989e69--2013-02-22--David Heath
+1	1	app/helpers/admin/url_helper.rb
+
+--6d42f39313--2013-02-22--David Heath
+0	7	app/views/contacts/_contact.html.erb
+1	1	features/administering-worldwide-organisations.feature
+1	2	features/step_definitions/worldwide_organisation_steps.rb
+
+--60c49178e1--2013-02-22--Tekin Suleyman
+1	25	app/views/admin/contacts/_form.html.erb
+33	0	app/views/admin/contacts/_form_fields.html.erb
+3	27	app/views/admin/worldwide_offices/_form.html.erb
+
+--f0a458caeb--2013-02-22--Tekin Suleyman
+1	1	app/controllers/admin/worldwide_offices_controller.rb
+
+--ad6b76c473--2013-02-22--Tekin Suleyman
+4	1	app/controllers/admin/worldwide_offices_controller.rb
+
+--6483e06407--2013-02-22--Tekin Suleyman
+0	2	app/controllers/admin/worldwide_offices_controller.rb
+
+--19583ce6af--2013-02-22--Tekin Suleyman
+1	0	db/schema.rb
+
+--4f8b60902c--2013-02-22--Tekin Suleyman
+2	2	db/migrate/20130220120524_add_worldwide_offices.rb
+
+--df3682def1--2013-02-21--Murray Steele
+10	2	app/controllers/worldwide_organisations_controller.rb
+27	0	app/presenters/contact_presenter.rb
+8	0	app/views/contacts/_contact.html.erb
+1	1	app/views/worldwide_organisations/_worldwide_organisation.html.erb
+2	2	app/views/worldwide_organisations/show.html.erb
+1	1	features/administering-worldwide-organisations.feature
+12	4	features/step_definitions/worldwide_organisation_steps.rb
+
+--35beff0963--2013-02-21--Murray Steele
+17	0	app/views/admin/worldwide_offices/_form.html.erb
+7	0	app/views/admin/worldwide_offices/_worldwide_office.html.erb
+2	1	features/administering-worldwide-organisations.feature
+9	1	features/step_definitions/worldwide_organisation_steps.rb
+
+--9c9d2c282b--2013-02-21--Murray Steele
+2	0	app/models/worldwide_office.rb
+8	0	app/models/worldwide_office_worldwide_service.rb
+2	0	app/models/worldwide_service.rb
+9	0	db/migrate/20130221140402_add_worldwide_office_worldwide_services.rb
+8	1	db/schema.rb
+6	0	test/factories/worldwide_office_worldwide_services.rb
+35	2	test/functional/admin/worldwide_offices_controller_test.rb
+9	0	test/unit/worldwide_office_worldwide_service_test.rb
+
+--ba71c00f58--2013-02-21--Murray Steele
+13	0	app/models/worldwide_service.rb
+20	0	app/models/worldwide_service_type.rb
+23	0	db/data_migration/20130221113520_add_initial_worldwide_services.rb
+9	0	db/migrate/20130221095854_add_worldwide_services.rb
+8	1	db/schema.rb
+6	0	test/factories/worldwide_services.rb
+15	0	test/unit/worldwide_service_test.rb
+14	0	test/unit/worldwide_service_type_test.rb
+
+--bada43383a--2013-02-20--Murray Steele
+9	9	features/administering-worldwide-organisations.feature
+14	14	features/step_definitions/worldwide_organisation_steps.rb
+
+--2905364b08--2013-02-20--Murray Steele
+1	5	app/views/admin/contacts/_contact.html.erb
+
+--2ef962b1ce--2013-02-20--Murray Steele
+17	17	test/functional/admin/contacts_controller_test.rb
+
+--79eaf13d82--2013-02-20--Murray Steele
+2	2	app/controllers/worldwide_organisations_controller.rb
+1	1	app/views/worldwide_organisations/_worldwide_organisation.html.erb
+3	3	app/views/worldwide_organisations/show.html.erb
+
+--a288368546--2013-02-20--Murray Steele
+60	0	app/controllers/admin/worldwide_offices_controller.rb
+3	3	app/controllers/admin/worldwide_organisations_controller.rb
+1	1	app/helpers/admin/worldwide_organisations_helper.rb
+2	0	app/models/worldwide_office.rb
+37	0	app/views/admin/worldwide_offices/_form.html.erb
+22	0	app/views/admin/worldwide_offices/_worldwide_office.html.erb
+5	0	app/views/admin/worldwide_offices/edit.html.erb
+5	0	app/views/admin/worldwide_offices/new.html.erb
+2	3	app/views/admin/worldwide_organisations/{contacts.html.erb => offices.html.erb}
+3	2	config/routes.rb
+79	0	test/functional/admin/worldwide_offices_controller_test.rb
+8	8	test/functional/admin/worldwide_organisations_controller_test.rb
+
+--6da05342b0--2013-02-20--Murray Steele
+6	0	app/models/worldwide_office.rb
+9	9	app/models/worldwide_organisation.rb
+55	0	db/migrate/20130220120524_add_worldwide_offices.rb
+10	2	db/schema.rb
+6	0	test/factories/worldwide_offices.rb
+9	0	test/unit/worldwide_office_test.rb
+20	20	test/unit/worldwide_organisation_test.rb
+
+--e725691315--2013-02-20--Murray Steele
+10	10	features/administering-roles.feature
+29	29	features/{administering-worldwide-offices.feature => administering-worldwide-organisations.feature}
+4	4	features/step_definitions/role_steps.rb
+0	264	features/step_definitions/worldwide_office_steps.rb
+264	0	features/step_definitions/worldwide_organisation_steps.rb
+3	3	features/step_definitions/worldwide_priority_steps.rb
+3	3	features/support/paths.rb
+4	4	features/viewing-published-worldwide-priorities.feature
+
+--ccf461e43b--2013-02-19--Murray Steele
+1	1	app/views/documents/_header.html.erb
+1	1	app/views/world_locations/show.html.erb
+1	1	app/views/worldwide_organisations/_worldwide_organisation.html.erb
+5	5	app/views/worldwide_organisations/show.html.erb
+3	3	config/locales/ar.yml
+3	3	config/locales/az.yml
+3	3	config/locales/be.yml
+3	3	config/locales/bg.yml
+3	3	config/locales/bn.yml
+3	3	config/locales/cs.yml
+3	3	config/locales/de.yml
+3	3	config/locales/dr.yml
+3	3	config/locales/el.yml
+5	5	config/locales/en.yml
+3	3	config/locales/es.yml
+3	3	config/locales/fa.yml
+3	3	config/locales/fr.yml
+3	3	config/locales/he.yml
+3	3	config/locales/hi.yml
+3	3	config/locales/hu.yml
+3	3	config/locales/hy.yml
+3	3	config/locales/id.yml
+3	3	config/locales/it.yml
+3	3	config/locales/ja.yml
+3	3	config/locales/ka.yml
+3	3	config/locales/ko.yml
+3	3	config/locales/lt.yml
+3	3	config/locales/lv.yml
+3	3	config/locales/ms.yml
+3	3	config/locales/pl.yml
+3	3	config/locales/ps.yml
+3	3	config/locales/pt.yml
+3	3	config/locales/ro.yml
+3	3	config/locales/ru.yml
+3	3	config/locales/si.yml
+3	3	config/locales/sk.yml
+3	3	config/locales/so.yml
+3	3	config/locales/sq.yml
+3	3	config/locales/sr.yml
+3	3	config/locales/sw.yml
+3	3	config/locales/ta.yml
+3	3	config/locales/th.yml
+3	3	config/locales/tk.yml
+3	3	config/locales/tr.yml
+3	3	config/locales/uk.yml
+3	3	config/locales/ur.yml
+3	3	config/locales/uz.yml
+3	3	config/locales/vi.yml
+3	3	config/locales/zh.yml
+
+--9d40042140--2013-02-19--Murray Steele
+1	1	app/assets/stylesheets/frontend/base.scss
+4	4	app/assets/stylesheets/frontend/views/_world_locations.scss
+2	2	app/assets/stylesheets/frontend/views/{_worldwide_offices.scss => _worldwide_organisations.scss}
+2	2	app/controllers/admin/contacts_controller.rb
+2	2	app/controllers/admin/editions_controller.rb
+2	2	app/controllers/admin/social_media_accounts_controller.rb
+0	46	app/controllers/admin/worldwide_offices_controller.rb
+0	39	app/controllers/admin/worldwide_offices_translations_controller.rb
+46	0	app/controllers/admin/worldwide_organisations_controller.rb
+39	0	app/controllers/admin/worldwide_organisations_translations_controller.rb
+1	1	app/controllers/world_locations_controller.rb
+0	35	app/controllers/worldwide_offices_controller.rb
+35	0	app/controllers/worldwide_organisations_controller.rb
+2	2	app/helpers/admin/contacts_helper.rb
+2	2	app/helpers/admin/social_media_accounts_helper.rb
+2	2	app/helpers/admin/url_helper.rb
+5	5	app/helpers/admin/{worldwide_offices_helper.rb => worldwide_organisations_helper.rb}
+3	3	app/helpers/country_helper.rb
+6	6	app/views/admin/contacts/index.html.erb
+0	7	app/views/admin/editions/_worldwide_office_fields.html.erb
+7	0	app/views/admin/editions/_worldwide_organisation_fields.html.erb
+2	2	app/views/admin/roles/_form.html.erb
+0	22	app/views/admin/worldwide_offices/contacts.html.erb
+0	11	app/views/admin/worldwide_offices/edit.html.erb
+0	33	app/views/admin/worldwide_offices/index.html.erb
+0	12	app/views/admin/worldwide_offices/new.html.erb
+0	22	app/views/admin/worldwide_offices/social_media_accounts.html.erb
+2	2	app/views/admin/{worldwide_offices => worldwide_organisations}/_form.html.erb
+5	5	app/views/admin/{worldwide_offices => worldwide_organisations}/_sidebar.html.erb
+22	0	app/views/admin/worldwide_organisations/contacts.html.erb
+11	0	app/views/admin/worldwide_organisations/edit.html.erb
+33	0	app/views/admin/worldwide_organisations/index.html.erb
+12	0	app/views/admin/worldwide_organisations/new.html.erb
+10	10	app/views/admin/{worldwide_offices => worldwide_organisations}/show.html.erb
+22	0	app/views/admin/worldwide_organisations/social_media_accounts.html.erb
+8	8	app/views/admin/{worldwide_offices_translations => worldwide_organisations_translations}/edit.html.erb
+5	5	app/views/admin/{worldwide_offices_translations => worldwide_organisations_translations}/index.html.erb
+1	1	app/views/admin/worldwide_priorities/_form.html.erb
+3	3	app/views/documents/_header.html.erb
+1	1	app/views/layouts/admin.html.erb
+3	3	app/views/world_locations/show.html.erb
+0	18	app/views/worldwide_offices/_worldwide_office.html.erb
+18	0	app/views/worldwide_organisations/_worldwide_organisation.html.erb
+10	10	app/views/{worldwide_offices => worldwide_organisations}/show.html.erb
+3	3	config/routes.rb
+17	17	test/functional/admin/contacts_controller_test.rb
+8	8	test/functional/admin/social_media_accounts_controller_test.rb
+0	95	test/functional/admin/worldwide_offices_controller_test.rb
+0	123	test/functional/admin/worldwide_offices_translations_controller_test.rb
+95	0	test/functional/admin/worldwide_organisations_controller_test.rb
+123	0	test/functional/admin/worldwide_organisations_translations_controller_test.rb
+2	2	test/functional/admin/worldwide_priorities_controller_test.rb
+0	14	test/functional/worldwide_offices_controller_test.rb
+14	0	test/functional/worldwide_organisations_controller_test.rb
+13	13	test/support/admin_edition_controller_test_helpers.rb
+
+--b394309a9c--2013-02-19--Murray Steele
+1	1	app/models/edition.rb
+0	22	app/models/edition/worldwide_offices.rb
+22	0	app/models/edition/worldwide_organisations.rb
+0	6	app/models/edition_worldwide_office.rb
+6	0	app/models/edition_worldwide_organisation.rb
+1	1	app/models/organisation.rb
+3	3	app/models/role.rb
+1	1	app/models/sponsorship.rb
+2	2	app/models/world_location.rb
+0	6	app/models/worldwide_office_role.rb
+0	4	app/models/worldwide_office_world_location.rb
+5	5	app/models/{worldwide_office.rb => worldwide_organisation.rb}
+6	0	app/models/worldwide_organisation_role.rb
+4	0	app/models/worldwide_organisation_world_location.rb
+1	1	app/models/worldwide_priority.rb
+61	0	db/migrate/20130218170301_rename_worldwide_offices_to_worldwide_organisations.rb
+23	24	db/schema.rb
+0	6	test/factories/edition_worldwide_offices.rb
+6	0	test/factories/edition_worldwide_organisations.rb
+0	6	test/factories/worldwide_office_roles.rb
+6	0	test/factories/worldwide_organisation_roles.rb
+1	1	test/factories/{worldwide_offices.rb => worldwide_organisations.rb}
+0	27	test/unit/edition/worldwide_offices_test.rb
+27	0	test/unit/edition/worldwide_organisations_test.rb
+0	15	test/unit/edition_worldwide_office_test.rb
+15	0	test/unit/edition_worldwide_organisation_test.rb
+4	4	test/unit/organisation_test.rb
+4	4	test/unit/role_test.rb
+0	13	test/unit/worldwide_office_role_test.rb
+0	136	test/unit/worldwide_office_test.rb
+13	0	test/unit/worldwide_organisation_role_test.rb
+136	0	test/unit/worldwide_organisation_test.rb

@@ -1,0 +1,364 @@
+--9842fa2c--2011-09-08--Tom Elkin
+--2823a922--2011-09-07--Tom Elkin
+21	9	app/models/child.rb
+8	1	app/views/histories/_photo_history_change.html.erb
+1	0	app/views/histories/show.html.erb
+21	2	spec/models/child_spec.rb
+
+--1153b07b--2011-08-30--Aravind SV
+1	1	Gemfile
+7	11	Gemfile.lock
+2	2	capybara_features/step_definitions/export_file_steps.rb
+
+--779d3733--2011-09-06--chrisgeorge
+--23ac8a1e--2011-09-06--jennifersmith
+--060c93fd--2011-09-06--chrisgeorge
+--68efc41b--2011-09-06--chrisgeorge
+--349fdd0d--2011-09-06--Jennifer Smith
+3	3	public/javascripts/application.js
+
+--4e84cf0a--2011-08-31--Noppanit Charassinvichai
+6	6	public/javascripts/application.js
+
+--5955c182--2011-09-06--chrisgeorge
+1	13	capybara_features/step_definitions/child_record_toolbar_steps.rb
+
+--3de2cab6--2011-09-06--chrisgeorge
+--aa88a35e--2011-09-06--chrisgeorge
+1	1	capybara_features/hide_child_record_form_fields.feature
+0	48	features/hide_child_record_form_fields.feature
+
+--80b0c58f--2011-09-06--chrisgeorge
+--1aa85c0e--2011-09-06--chrisgeorge
+--de2f4019--2011-09-06--chrisgeorge
+--481199ea--2011-09-05--Minno
+2	2	app/models/child.rb
+19	0	features/edit_child_record.feature
+
+--61b1e656--2011-09-05--Minno
+--ceea4e58--2011-09-02--Cesar Henrique Vortmann
+1	1	app/views/children/_show_child_toolbar.erb
+4	4	features/step_definitions/basic_steps.rb
+
+--38163ada--2011-09-02--Cesar Henrique Vortmann
+10	6	features/step_definitions/basic_steps.rb
+
+--f4441ee9--2011-09-01--Cesar Henrique Vortmann
+106	105	features/add_custom_field_to_form_section.feature
+
+--9e4d4093--2011-09-01--Cesar Henrique Vortmann
+1	0	app/views/fields/choose.html.erb
+6	0	features/add_custom_field_to_form_section.feature
+
+--b0eca9a6--2011-08-30--Timothy Cochran
+2	4	app/models/password_recovery_request.rb
+14	11	spec/models/password_recovery_request_spec.rb
+
+--93bce478--2011-08-30--Timothy Cochran
+1	1	features/hide_child_record_form_fields.feature
+
+--4e94baf7--2011-08-30--Timothy Cochran
+--95685b4d--2011-08-30--marano
+2	2	app/views/home/_notifications.html.erb
+
+--18f83636--2011-08-30--Timothy Cochran
+--b3878325--2011-08-30--marano
+8	1	app/views/home/_notifications.html.erb
+12	0	features/password_recovery_request.feature
+4	0	features/support/paths.rb
+
+--92419d8f--2011-08-30--Jean D'Amore
+1	1	app/views/children/show.html.erb
+2	1	public/stylesheets/core.css
+
+--57b477f4--2011-08-30--Jean D'Amore
+--9149e544--2011-08-30--Jean D'Amore
+6	8	app/views/children/show.html.erb
+29	0	capybara_features/reunited_child_record.feature
+13	0	capybara_features/step_definitions/basic_steps.rb
+11	16	capybara_features/step_definitions/child_record_toolbar_steps.rb
+15	0	capybara_features/support/steps_helper.rb
+-	-	public/images/icon-reunited.jpg
+-	-	public/images/reunited-frame.jpg
+10	10	public/stylesheets/core.css
+
+--84ac6dcc--2011-08-26--Jean D'Amore
+4	0	app/helpers/children_helper.rb
+8	2	app/views/children/show.html.erb
+-	-	public/images/reunited-bkg.jpg
+15	2	public/stylesheets/core.css
+
+--600152f0--2011-08-26--Jean D'Amore
+2	1	app/views/children/_mark_as.html.erb
+8	4	app/views/children/_show_child_toolbar.erb
+4	1	app/views/children/show.html.erb
+29	0	capybara_features/step_definitions/child_record_toolbar_steps.rb
+7	0	capybara_features/step_definitions/children_setup_steps.rb
+24	0	capybara_features/view_child_record_toolbar.feature
+0	8	features/step_definitions/basic_steps.rb
+-	-	public/images/icon-reunited.gif
+2	1	public/stylesheets/core.css
+
+--fd692ba8--2011-08-30--Jean D'Amore
+0	71	features/pdf_export.feature
+
+--e35412bf--2011-08-29--chrisgeorge
+--4647aba6--2011-08-29--Noppanit Charassinvichai
+8	0	app/helpers/application_helper.rb
+7	6	app/views/layouts/application.html.erb
+
+--b5e8e6a4--2011-08-26--Jean D'Amore
+1	2	capybara_features/step_definitions/search_steps.rb
+
+--bb463974--2011-08-26--Jean D'Amore
+47	0	capybara_features/hide_child_record_form_fields.feature
+71	0	capybara_features/pdf_export.feature
+29	0	capybara_features/step_definitions/basic_steps.rb
+4	4	capybara_features/step_definitions/export_file_steps.rb
+
+--0f2fec55--2011-08-26--Jean D'Amore
+--65030d5b--2011-08-26--Jean D'Amore
+4	0	app/helpers/children_helper.rb
+8	2	app/views/children/show.html.erb
+-	-	public/images/reunited-bkg.jpg
+15	2	public/stylesheets/core.css
+
+--e8d1f680--2011-08-26--Jean D'Amore
+2	1	app/views/children/_mark_as.html.erb
+8	4	app/views/children/_show_child_toolbar.erb
+4	1	app/views/children/show.html.erb
+29	0	capybara_features/step_definitions/child_record_toolbar_steps.rb
+7	0	capybara_features/step_definitions/children_setup_steps.rb
+24	0	capybara_features/view_child_record_toolbar.feature
+0	8	features/step_definitions/basic_steps.rb
+-	-	public/images/icon-reunited.gif
+2	1	public/stylesheets/core.css
+
+--c5f51d64--2011-08-26--Jean D'Amore
+1	2	app/views/children/_mark_as.html.erb
+4	8	app/views/children/_show_child_toolbar.erb
+1	4	app/views/children/show.html.erb
+0	29	capybara_features/step_definitions/child_record_toolbar_steps.rb
+0	7	capybara_features/step_definitions/children_setup_steps.rb
+0	24	capybara_features/view_child_record_toolbar.feature
+8	0	features/step_definitions/basic_steps.rb
+-	-	public/images/icon-reunited.gif
+1	2	public/stylesheets/core.css
+
+--9866dcdc--2011-08-26--Jean D'Amore
+0	4	app/helpers/children_helper.rb
+2	8	app/views/children/show.html.erb
+-	-	public/images/reunited-bkg.jpg
+2	15	public/stylesheets/core.css
+
+--42a873fa--2011-08-26--Jean D'Amore
+4	0	app/helpers/children_helper.rb
+8	2	app/views/children/show.html.erb
+-	-	public/images/reunited-bkg.jpg
+15	2	public/stylesheets/core.css
+
+--4db36a76--2011-08-25--Jean D'Amore
+2	1	app/views/children/_mark_as.html.erb
+8	4	app/views/children/_show_child_toolbar.erb
+4	1	app/views/children/show.html.erb
+29	0	capybara_features/step_definitions/child_record_toolbar_steps.rb
+7	0	capybara_features/step_definitions/children_setup_steps.rb
+24	0	capybara_features/view_child_record_toolbar.feature
+0	8	features/step_definitions/basic_steps.rb
+-	-	public/images/icon-reunited.gif
+2	1	public/stylesheets/core.css
+
+--77260aab--2011-08-23--Jennifer Smith
+0	5	features/admin_page_link.feature
+0	35	features/pdf_export.feature
+
+--c3dd3e19--2011-08-09--Jennifer Smith
+1	0	lib/export_generator.rb
+10	4	spec/lib/export_generator_spec.rb
+
+--85269211--2011-08-02--Jennifer Smith
+58	0	capybara_features/csv_export.feature
+14	0	capybara_features/step_definitions/basic_steps.rb
+2	1	capybara_features/step_definitions/children_setup_steps.rb
+6	0	capybara_features/step_definitions/database_steps.rb
+50	0	capybara_features/step_definitions/export_file_steps.rb
+17	1	capybara_features/step_definitions/login_steps.rb
+18	3	capybara_features/step_definitions/search_steps.rb
+0	99	features/csv_export.feature
+
+--aebbab1c--2011-08-02--Jennifer Smith
+1	1	app/controllers/children_controller.rb
+21	3	lib/export_generator.rb
+3	3	spec/controllers/children_controller_spec.rb
+32	19	spec/lib/export_generator_spec.rb
+
+--bd963c20--2011-07-28--Jennifer Smith
+7	19	app/controllers/children_controller.rb
+11	1	lib/export_generator.rb
+26	64	spec/controllers/children_controller_spec.rb
+25	0	spec/lib/export_generator_spec.rb
+
+--95c7df3a--2011-07-27--Jennifer Smith
+5	5	app/controllers/children_controller.rb
+1	1	lib/{pdf_generator.rb => export_generator.rb}
+5	5	spec/controllers/children_controller_spec.rb
+4	4	spec/integration/{pdf_generator_spec.rb => export_generator_spec.rb}
+
+--4a929e57--2011-07-26--Jennifer Smith
+2	3	app/controllers/children_controller.rb
+3	7	lib/pdf_generator.rb
+11	12	spec/controllers/children_controller_spec.rb
+3	1	spec/integration/pdf_generator_spec.rb
+
+--b5a1b791--2011-07-26--Jennifer Smith
+5	4	app/controllers/children_controller.rb
+5	10	lib/pdf_generator.rb
+9	8	spec/controllers/children_controller_spec.rb
+13	6	spec/integration/pdf_generator_spec.rb
+
+--563d6138--2011-08-25--Jean D'Amore
+48	0	features/hide_child_record_form_fields.feature
+1	1	lib/pdf_generator.rb
+
+--3b8b4410--2011-08-22--Minno
+--80e93a05--2011-08-17--deeolutayo
+1	1	app/views/fields/_common.html.erb
+1	1	app/views/form_section/edit.html.erb
+1	1	app/views/form_section/new.html.erb
+6	6	features/add_custom_field_to_form_section.feature
+2	1	features/create_new_form.feature
+3	3	features/edit_custom_fields.feature
+5	5	features/edit_form_section.feature
+
+--1f75bf5b--2011-08-16--chrisgeorge
+--82f1f735--2011-08-16--chrisgeorge
+--46fa7db9--2011-08-16--marano
+6	0	app/controllers/password_recovery_requests_controller.rb
+15	0	app/models/password_recovery_request.rb
+11	0	app/views/home/_notifications.html.erb
+3	0	app/views/home/index.html.erb
+1	0	config/routes.rb
+22	0	features/password_recovery_request.feature
+3	3	features/step_definitions/database_steps.rb
+1	0	features/support/reset_couchdb.rb
+14	5	spec/models/password_recovery_request_spec.rb
+
+--4b49ea16--2011-08-16--chrisgeorge
+--66e0fdbd--2011-08-16--chrisgeorge
+0	4	app/views/children/show.html.erb
+
+--0ad54cd5--2011-08-16--Timothy Cochran
+--e336ac32--2011-08-16--chrisgeorge
+--3e3e6631--2011-08-15--Minno
+9	7	app/views/children/_check_boxes.html.erb
+7	4	app/views/children/_date_field.html.erb
+7	4	app/views/children/_numeric_field.html.erb
+6	4	app/views/children/_photo_upload_box.html.erb
+7	4	app/views/children/_select_box.html.erb
+7	4	app/views/children/_text_field.html.erb
+6	4	app/views/children/_textarea.html.erb
+2	1	public/stylesheets/core.css
+
+--507d2e25--2011-08-14--Noppanit Charassinvichai
+4	0	.gitignore
+7	2	app/models/child.rb
+3	0	app/views/children/_photo_upload_box.html.erb
+18	0	spec/models/child_spec.rb
+20	0	spec/spec_helper.rb
+
+--d8427c21--2011-08-14--Noppanit Charassinvichai
+--275410fc--2011-08-14--Tom Elkin
+2	4	app/models/child.rb
+7	5	app/views/histories/_photo_history_change.html.erb
+1	2	app/views/histories/show.html.erb
+16	6	spec/models/child_spec.rb
+18	7	spec/views/histories/show.html.erb_spec.rb
+
+--30e15504--2011-08-14--Tom Elkin
+64	37	app/models/child.rb
+5	4	app/views/histories/_photo_history_change.html.erb
+2	2	app/views/histories/show.html.erb
+3	11	features/view_child_record_log.feature
+30	56	spec/models/child_spec.rb
+2	2	spec/views/histories/show.html.erb_spec.rb
+
+--628838c8--2011-08-09--Praful
+--792b7307--2011-08-09--marano
+1	1	app/views/password_recovery_requests/new.html.erb
+15	1	features/password_recovery_request.feature
+
+--727bf82e--2011-08-09--marano
+6	0	features/password_recovery_request.feature
+3	0	features/support/paths.rb
+
+--77e1e06f--2011-08-09--Praful
+2	2	app/views/children/_show_child_toolbar.erb
+23	0	features/reunite_child_record.feature
+16	0	features/step_definitions/basic_steps.rb
+
+--b49970ea--2011-08-09--marano
+1	1	config/routes.rb
+
+--5dcbaa84--2011-08-09--marano
+3	7	app/controllers/password_recovery_requests_controller.rb
+2	6	spec/controllers/password_recovery_requests_controller_spec.rb
+
+--96ff2d64--2011-08-09--ygor
+--579ee729--2011-08-09--ygor
+1	0	.gitignore
+20	0	app/controllers/password_recovery_requests_controller.rb
+10	0	app/models/password_recovery_request.rb
+0	0	app/views/password_recovery_requests/create.html.erb
+14	0	app/views/password_recovery_requests/new.html.erb
+2	1	app/views/sessions/new.html.erb
+1	0	config/routes.rb
+18	0	spec/controllers/password_recovery_requests_controller_spec.rb
+10	0	spec/models/password_recovery_request_spec.rb
+4	1	spec/views/sessions/new.html.erb_spec.rb
+
+--eeeefe18--2011-08-08--Vitor Baptista
+1	2	spec/models/child_spec.rb
+
+--6b6cd8c0--2011-08-08--Vitor Baptista
+2	2	app/controllers/publish_form_section_controller.rb
+7	0	app/models/form_section.rb
+15	6	spec/controllers/publish_form_section_controller_spec.rb
+13	0	spec/models/form_section_spec.rb
+
+--b4c53422--2011-08-08--Vitor Baptista
+22	80	spec/views/child/show.html.erb_spec.rb
+
+--f092e60e--2011-08-08--Vitor Baptista
+33	1	spec/views/child/show.html.erb_spec.rb
+
+--81a0c0f2--2011-08-08--Vitor Baptista
+1	1	spec/models/child_spec.rb
+1	1	spec/spec_helper.rb
+
+--7dca6a71--2011-08-02--Praful
+2	2	app/helpers/histories_helper.rb
+1	1	app/models/child.rb
+2	2	app/views/children/_show_child_toolbar.erb
+3	6	app/views/histories/_flag_change.erb
+7	0	app/views/histories/_reunited_change.erb
+13	3	app/views/histories/show.html.erb
+3	3	spec/helpers/histories_helper_spec.rb
+33	1	spec/models/child_spec.rb
+
+--33aaec1b--2011-08-02--Praful
+1	2	app/views/children/_mark_as.html.erb
+1	1	app/views/children/show.html.erb
+
+--5eea6bd7--2011-07-12--Praful
+0	1	app/views/children/show.html.erb
+
+--8128331b--2011-07-12--Praful
+1	1	app/controllers/admin_controller.rb
+1	0	app/models/child.rb
+12	0	app/views/children/_mark_as.html.erb
+43	23	app/views/children/_show_child_toolbar.erb
+10	23	app/views/children/show.html.erb
+4	8	public/stylesheets/core.css
+
+--e73adbaf--2011-07-02--Noppanit Charassinvichai
+7	1	app/models/child.rb

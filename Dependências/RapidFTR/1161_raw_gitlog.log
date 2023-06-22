@@ -1,0 +1,63 @@
+--66db21fe--2011-03-01--Timothy Cochran
+--cec6d0a4--2011-03-01--Timothy Cochran
+2	2	app/controllers/advanced_search_controller.rb
+0	17	app/controllers/children_controller.rb
+0	15	app/models/advanced_search.rb
+0	10	app/models/summary.rb
+1	1	app/views/admin/index.html.erb
+1	5	app/views/advanced_search/index.html.erb
+1	1	app/views/children/_search_results.html.erb
+1	1	app/views/children/_search_sidebar.html.erb
+5	7	app/views/children/_summary_row.html.erb
+0	9	app/views/children/advanced_search.html.erb
+1	4	app/views/children/search.html.erb
+0	28	features/basic_search.feature
+14	12	public/javascripts/advanced_search.js
+0	55	spec/controllers/children_controller_spec.rb
+0	25	spec/models/advanced_search_spec.rb
+0	13	spec/models/summary_spec.rb
+0	8	spec/views/child/search.html.erb_spec.rb
+
+--ae30cbdd--2011-03-01--chrisgeorge
+--94dd9b62--2011-03-01--chrisgeorge
+--5fe81581--2011-03-01--chrisgeorge
+--a99f8457--2011-03-01--chrisgeorge
+2	3	app/controllers/fields_controller.rb
+4	0	app/helpers/fields_helper.rb
+1	1	app/views/fields/_common.html.erb
+7	0	features/edit_custom_fields.feature
+6	2	features/step_definitions/basic_steps.rb
+0	15	spec/controllers/fields_controller_spec.rb
+16	0	spec/helpers/fields_helper_spec.rb
+
+--ea9552f3--2011-03-01--dahlia
+4	2	app/views/children/_summary_row.html.erb
+1	1	app/views/children/show.html.erb
+3	3	spec/views/child/show.html.erb_spec.rb
+
+--79bde21a--2011-02-28--Jason Neylon
+4	3	app/views/children/_search_results.html.erb
+1	1	app/views/children/_summary_row.html.erb
+
+--244fff32--2011-02-28--Jason Neylon
+16	0	app/views/children/_search_results.html.erb
+1	1	app/views/children/_summary_row.html.erb
+2	0	public/stylesheets/core.css
+
+--5d52ff50--2011-02-28--Jason Neylon
+1	1	app/views/fields/_common.html.erb
+
+--7ded8dbf--2011-02-28--Mark
+1	1	public/stylesheets/core.css
+
+--35615b70--2011-02-28--Jason Neylon
+2	1	app/models/field.rb
+7	1	spec/models/field_spec.rb
+
+--f7e7b331--2011-02-07--dahlia
+5	0	app/helpers/children_helper.rb
+10	1	app/views/children/_summary_row.html.erb
+4	4	app/views/children/show.html.erb
+13	0	spec/helpers/children_helper_spec.rb
+11	3	spec/views/child/search.html.erb_spec.rb
+5	3	spec/views/child/show.html.erb_spec.rb

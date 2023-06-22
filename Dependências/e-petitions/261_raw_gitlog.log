@@ -1,0 +1,63 @@
+--5f8cb63c--2015-07-02--Andrew White
+--c66142dd--2015-07-02--Andrew White
+--bb728ae3--2015-07-02--Andrew White
+--7a78b5a1--2015-07-01--Pete Herlihy
+--f05e2044--2015-07-01--Murray Steele
+5	5	app/views/local_petitions/index.html.erb
+7	0	features/freya_searches_for_petitions_by_constituency.feature
+14	7	features/step_definitions/constituency_search_steps.rb
+5	0	features/support/xpath_helpers.rb
+
+--6121d86e--2015-07-01--Henry Hadlow
+2	0	app/assets/stylesheets/_animate.scss
+1	0	app/assets/stylesheets/petitions/_buttons.scss
+1	0	app/assets/stylesheets/petitions/_forms.scss
+1	1	app/assets/stylesheets/petitions/views/_shared.scss
+1	1	app/assets/stylesheets/petitions/views/shared/_petition-item.scss
+1	1	app/views/petitions/check.html.erb
+5	5	app/views/petitions/check_results.html.erb
+1	0	app/views/petitions/create/_replay_petition_ui.html.erb
+1	1	features/charlie_creates_a_petition.feature
+1	1	features/step_definitions/petition_steps.rb
+
+--5e39ef32--2015-07-01--Murray Steele
+25	0	app/views/admin/moderation/_form.html.erb
+1	1	app/views/admin/petitions/_reject.html.erb
+1	0	features/step_definitions/moderation_steps.rb
+
+--8d18669c--2015-07-01--Murray Steele
+--16529047--2015-07-01--Alexander Bobin
+--d14f1e64--2015-07-01--Oskar Pearson
+2	10	app/models/signature.rb
+5	0	db/migrate/20150701111544_add_signature_number.rb
+4	1	db/structure.sql
+
+--dff484ff--2015-07-01--Pete Herlihy
+2	2	app/models/staged/validations/petition_details.rb
+
+--9074325d--2015-07-01--Oskar Pearson
+2	2	lib/tasks/data-generator.rake
+
+--e67ce03e--2015-06-30--Murray Steele
+1	5	app/models/petition.rb
+4	2	features/step_definitions/petition_steps.rb
+1	0	spec/mailers/petition_mailer_spec.rb
+12	5	spec/models/petition_spec.rb
+
+--57b0d54f--2015-06-30--Murray Steele
+2	2	lib/tasks/data-generator.rake
+
+--ff670736--2015-06-30--Murray Steele
+1	1	app/views/admin/petitions/_petition.html.erb
+1	1	app/views/admin/petitions/_petition_details.html.erb
+1	1	app/views/admin/petitions/index.html.erb
+1	1	app/views/petition_mailer/notify_creator_of_closing_date_change.html.erb
+1	1	app/views/petition_mailer/notify_creator_of_closing_date_change.text.erb
+1	1	app/views/petitions/_open_petition_show.html.erb
+1	1	features/step_definitions/petition_steps.rb
+
+--65cd4031--2015-06-30--Murray Steele
+8	0	app/models/petition.rb
+8	0	app/models/site.rb
+31	0	spec/models/petition_spec.rb
+24	1	spec/models/site_spec.rb

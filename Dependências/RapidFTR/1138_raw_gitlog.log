@@ -1,0 +1,171 @@
+--eee54bb8--2011-04-05--Timothy Cochran
+--6bc30eaf--2011-04-05--Timothy Cochran
+5	0	app/controllers/checks_authentication.rb
+6	6	app/controllers/sessions_controller.rb
+4	5	app/models/device.rb
+1	11	app/models/login.rb
+11	2	app/models/session.rb
+24	4	app/models/user.rb
+1	1	app/views/users/_devices.html.erb
+12	2	features/api_authentication.feature
+7	1	features/step_definitions/api_steps.rb
+1	1	features/step_definitions/database_steps.rb
+10	4	features/step_definitions/more_web_steps.rb
+3	3	spec/controllers/checks_authentication_spec.rb
+0	28	spec/models/login_spec.rb
+23	3	spec/models/session_spec.rb
+18	17	spec/models/user_spec.rb
+
+--fccc7c22--2011-04-05--chrisgeorge
+--e8747b9c--2011-04-05--chrisgeorge
+--20f03d2c--2011-04-05--chrisgeorge
+--1b0a301f--2011-04-05--chrisgeorge
+--aa08ebb9--2011-04-05--chrisgeorge
+--72a4d95a--2011-04-05--John D. Hume
+3	15	lib/tasks/ci.rake
+
+--1fd9e846--2011-04-05--Jen Smith
+--963eba04--2011-04-05--Jen Smith
+9	9	spec/views/formsections/edit.html.erb_spec.rb
+
+--38a6bd58--2011-04-05--dahlia
+1	0	app/controllers/advanced_search_controller.rb
+2	1	app/controllers/children_controller.rb
+9	1	app/helpers/application_helper.rb
+0	5	app/views/children/_search_sidebar.html.erb
+6	0	app/views/shared/_sidebar_links.html.erb
+35	0	features/sidebar_links.feature
+
+--c1844a24--2011-04-04--Jen Smith
+--e6718ebe--2011-03-31--Jang-Soo Lee
+2	2	public/stylesheets/core.css
+
+--93d52dd0--2011-03-31--Jang-Soo Lee
+1	0	public/stylesheets/core.css
+
+--da2abc82--2011-03-31--Jang-Soo Lee
+--2cde8193--2011-03-31--Jang-Soo Lee
+0	6	app/views/form_section/#_delete_button.html.erb#
+
+--eaadfbe2--2011-03-31--Jang-Soo Lee
+1	1	app/controllers/fields_controller.rb
+6	0	app/views/form_section/#_delete_button.html.erb#
+2	1	app/views/form_section/_delete_button.html.erb
+2	2	app/views/form_section/_direction_button.html.erb
+6	6	app/views/form_section/edit.html.erb
+6	6	app/views/form_section/index.html.erb
+1	1	features/create_new_form.feature
+3	3	features/disable_and_enable_forms.feature
+8	8	features/disable_enable_form_fields.feature
+1	1	features/edit_custom_fields.feature
+1	1	features/step_definitions/form_section_steps.rb
+2	2	features/view_form_sections.feature
+-	-	public/images/icon-down-arrow.gif
+-	-	public/images/icon-up-arrow.gif
+1	1	public/stylesheets/core.css
+3	2	spec/controllers/fields_controller_spec.rb
+10	5	spec/views/formsections/index.html.erb_spec.rb
+
+--ab5c85b3--2011-03-31--Jang-Soo Lee
+--0c43f338--2011-03-30--Jang-Soo Lee
+--d4f43f88--2011-03-30--Jang-Soo Lee
+1	1	app/views/children/_radio_button.html.erb
+1	1	features/step_definitions/more_web_steps.rb
+
+--049f79ed--2011-03-30--Jang-Soo Lee
+9	1	app/models/form_section.rb
+6	2	app/views/form_section/edit.html.erb
+2	0	features/reorder_fields.feature
+28	1	spec/views/formsections/edit.html.erb_spec.rb
+
+--f9539671--2011-03-30--Jang-Soo Lee
+2	0	features/reorder_fields.feature
+
+--b0cf254a--2011-03-30--Jang-Soo Lee
+9	1	app/models/form_section.rb
+6	2	app/views/form_section/edit.html.erb
+28	1	spec/views/formsections/edit.html.erb_spec.rb
+
+--261765e2--2011-03-30--Jang-Soo Lee
+28	0	spec/views/child/_audio_upload_box.erb_spec.rb
+30	0	spec/views/child/_check_box.erb_spec.rb
+33	0	spec/views/child/_date_field.erb_spec.rb
+1	1	spec/views/child/_form_section_info.html.erb_spec.rb
+33	0	spec/views/child/_numeric_field.erb_spec.rb
+33	0	spec/views/child/_photo_upload_box.erb_spec.rb
+37	0	spec/views/child/_radio_button.erb_spec.rb
+35	0	spec/views/child/_select_box.erb_spec.rb
+32	0	spec/views/child/_text_field.erb_spec.rb
+33	0	spec/views/child/_textarea.erb_spec.rb
+
+--02de76f2--2011-03-30--Jang-Soo Lee
+8	0	app/views/children/_audio_upload_box.html.erb
+6	0	app/views/children/_check_box.html.erb
+8	0	app/views/children/_date_field.html.erb
+9	1	app/views/children/_numeric_field.html.erb
+8	0	app/views/children/_photo_upload_box.html.erb
+10	1	app/views/children/_radio_button.html.erb
+8	0	app/views/children/_select_box.html.erb
+2	2	app/views/children/_text_field.html.erb
+8	0	app/views/children/_textarea.html.erb
+1	0	public/stylesheets/core.css
+
+--2763c389--2011-03-29--Jang-Soo Lee
+8	3	app/views/children/_text_field.html.erb
+
+--9548f78f--2011-03-29--Jang-Soo Lee
+4	1	app/views/children/_text_field.html.erb
+
+--2a230839--2011-03-29--chrisgeorge
+--3ddb7530--2011-03-22--Michael Schubert
+1	1	spec/controllers/children_controller_spec.rb
+3	3	spec/helpers/application_helper_spec.rb
+1	1	spec/views/child/edit.html.erb_spec.rb
+27	31	spec/views/child/form_section.html.erb_spec.rb
+1	1	spec/views/child/new.html.erb_spec.rb
+27	36	spec/views/child/show.html.erb_spec.rb
+1	1	spec/views/formsections/index.html.erb_spec.rb
+25	29	spec/views/histories/show.html.erb_spec.rb
+
+--28f30275--2011-03-15--Michael Schubert
+1	1	Gemfile
+8	8	Gemfile.lock
+
+--5c50180b--2011-03-15--Michael Schubert
+1	1	config/environment.rb
+
+--3ec23c22--2011-03-15--Michael Schubert
+1	1	Gemfile
+20	20	Gemfile.lock
+1	1	config/environment.rb
+7	0	config/initializers/cookie_verification_secret.rb
+1	1	spec/views/child/search.html.erb_spec.rb
+
+--0d4f4fa0--2011-03-29--chrisgeorge
+--3d432bef--2011-03-29--chrisgeorge
+--9375ae76--2011-03-29--dahlia
+--09113b7f--2011-03-22--dahlia
+13	12	spec/views/child/_form_section_info.html.erb_spec.rb
+
+--ae3e69ff--2011-03-22--dahlia
+1	13	app/views/children/_form_section.html.erb
+12	0	app/views/children/_form_section_info.html.erb
+30	0	app/views/children/_show_form_section.html.erb
+1	30	app/views/children/show.html.erb
+5	1	app/views/form_section/new.html.erb
+6	4	public/stylesheets/core.css
+47	0	spec/views/child/_form_section_info.html.erb_spec.rb
+0	33	spec/views/child/form_section.html.erb_spec.rb
+
+--e5d4e1c5--2011-03-20--Jen Smith
+1	1	features/child_record_validations.feature
+0	7	features/create_child_record.feature
+
+--cadde35e--2011-03-19--Jen Smith
+19	0	app/models/child.rb
+15	0	app/models/field.rb
+18	11	spec/models/child_spec.rb
+24	0	spec/models/field_spec.rb
+
+--8613a5e9--2011-03-07--Jen Smith
+8	0	features/child_record_validations.feature

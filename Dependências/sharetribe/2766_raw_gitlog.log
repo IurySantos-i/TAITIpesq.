@@ -1,0 +1,74 @@
+--1b232f397--2012-12-07--Antti Virolainen
+--6ff902a2f--2012-12-07--Antti Virolainen
+7	0	RELEASE_NOTES.md
+1	1	VERSION
+
+--b7f149d56--2012-12-07--Antti Virolainen
+1	1	features/dashboard/user_views_dashboard.feature
+
+--e59136526--2012-12-07--Antti Virolainen
+2	0	app/helpers/application_helper.rb
+
+--da5f94a48--2012-12-07--Antti Virolainen
+0	71	lib/tasks/rspec.rake
+
+--306ecd869--2012-12-07--Antti Virolainen
+7	11	communities/default/about/about.el.haml
+81	79	config/locales/el.yml
+4	2	config/locales/faq/faq.ca.yml
+4	2	config/locales/faq/faq.de.yml
+5	3	config/locales/faq/faq.el.yml
+4	2	config/locales/faq/faq.es-ES.yml
+4	2	config/locales/faq/faq.es.yml
+4	2	config/locales/faq/faq.fr.yml
+4	2	config/locales/faq/faq.it.yml
+32	0	config/locales/faq/faq.lv.yml
+4	2	config/locales/faq/faq.nl.yml
+4	2	config/locales/faq/faq.ro.yml
+4	2	config/locales/faq/faq.ru.yml
+4	2	config/locales/faq/faq.sw.yml
+4	2	config/locales/faq/faq.vi.yml
+4	2	config/locales/faq/faq.zh.yml
+
+--4d6c826bf--2012-12-05--Antti Virolainen
+8	2	app/mailers/person_mailer.rb
+
+--4e2c74715--2012-12-05--Antti Virolainen
+1	1	app/models/statistic.rb
+
+--f33a235c8--2012-12-05--Antti Virolainen
+1	1	app/models/community.rb
+
+--a2b9d9f39--2012-12-05--Antti Virolainen
+--aef8af80d--2012-12-05--Antti Virolainen
+1	0	app/controllers/dashboard_controller.rb
+18	21	app/views/communities/new.haml
+1	1	app/views/dashboard/_header.haml
+24	24	features/communities/user_creates_a_new_community.feature
+
+--6f5274127--2012-12-05--Antti Virolainen
+2	0	README.md
+
+--fca041be0--2012-12-05--Kusti
+10	3	app/assets/stylesheets/style_dashboard.css.scss
+1	1	app/views/dashboard/faq.haml
+7	7	app/views/dashboard/index.haml
+2	2	config/locales/en.yml
+11	9	config/locales/faq/faq.en.yml
+15	13	config/locales/faq/faq.fi.yml
+5	5	config/locales/fi.yml
+
+--bb68baf81--2012-12-05--Antti Virolainen
+-	-	app/assets/images/community_images/catedras_libres-logo.png
+3	0	communities/catedraslibres/frontpage_sidebar/frontpage_sidebar.es.haml
+
+--d22432f56--2012-12-04--Antti Virolainen
+--a63f9d085--2012-12-04--Antti Virolainen
+--39e5d3ec0--2012-12-03--Antti Virolainen
+--90ec2cfde--2012-12-02--Antti Virolainen
+--1b0eb39f5--2012-11-06--Antti Virolainen
+--1fbe80175--2012-11-05--Antti Virolainen
+--dd4bafb6b--2012-11-04--Antti Virolainen
+--76dd05bc7--2012-10-28--Antti Virolainen
+--5423aa594--2012-10-18--Antti Virolainen
+--1c3ffff60--2012-10-15--Antti Virolainen

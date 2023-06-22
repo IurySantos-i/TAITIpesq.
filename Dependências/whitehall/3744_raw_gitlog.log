@@ -1,0 +1,82 @@
+--f12449facc--2013-02-07--Bradley Wright
+--61d00222ea--2013-02-07--David Heath
+--917a0d4751--2013-02-07--David Heath
+0	6	features/administering-world-locations.feature
+
+--a62f3f0a98--2013-02-07--Bradley Wright
+4	0	app/models/consultation.rb
+4	0	app/models/publication.rb
+1	1	app/views/publications/index.html.erb
+1	0	test/functional/admin/consultations_controller_test.rb
+1	0	test/functional/admin/publications_controller_test.rb
+2	0	test/functional/publications_controller_test.rb
+
+--efe6566887--2013-02-07--Bradley Wright
+2	24	test/functional/announcements_controller_test.rb
+27	0	test/support/document_controller_test_helpers.rb
+
+--8e62b73dbf--2013-02-07--Tekin Suleyman
+1	0	app/views/admin/worldwide_offices/_form.html.erb
+7	1	app/views/admin/worldwide_offices/show.html.erb
+10	3	app/views/worldwide_offices/show.html.erb
+5	0	db/migrate/20130207164113_add_services_to_worldwide_offices.rb
+2	1	db/schema.rb
+9	3	features/step_definitions/worldwide_office_steps.rb
+1	1	features/worldwide-offices.feature
+
+--d6e4681284--2013-02-07--David Heath
+2	2	features/worldwide-offices.feature
+
+--3d899ac901--2013-02-07--David Heath
+12	11	app/views/worldwide_offices/show.html.erb
+
+--ecdcec346d--2013-02-07--Tekin Suleyman
+19	0	app/views/admin/contacts/_contact.html.erb
+0	25	app/views/admin/contacts/_contact_list.html.erb
+1	1	app/views/admin/organisations/tabs/_contacts.html.erb
+1	1	app/views/admin/worldwide_offices/contacts.html.erb
+
+--4e455c4465--2013-02-07--Tekin Suleyman
+8	1	app/controllers/admin/worldwide_offices_controller.rb
+4	1	app/controllers/worldwide_offices_controller.rb
+14	0	app/models/worldwide_office.rb
+6	1	app/views/admin/contacts/_contact_list.html.erb
+19	0	app/views/contacts/_contact.html.erb
+2	21	app/views/worldwide_offices/show.html.erb
+1	0	config/routes.rb
+5	0	db/migrate/20130207122345_add_main_contact_id_to_worldwide_offices.rb
+2	1	db/schema.rb
+23	0	features/step_definitions/worldwide_office_steps.rb
+7	1	features/worldwide-offices.feature
+11	0	test/functional/admin/worldwide_offices_controller_test.rb
+33	0	test/unit/worldwide_office_test.rb
+
+--47ca2ea0dc--2013-02-07--Tekin Suleyman
+1	0	app/controllers/world_locations_controller.rb
+2	0	app/models/world_location.rb
+4	0	app/views/admin/worldwide_offices/_form.html.erb
+7	14	app/views/world_locations/show.html.erb
+3	0	app/views/worldwide_offices/_worldwide_office.html.erb
+18	0	features/step_definitions/worldwide_office_steps.rb
+4	7	features/worldwide-offices.feature
+
+--e7241d6a9b--2013-02-05--David Heath
+3	0	app/views/admin/worldwide_offices/_form.html.erb
+3	0	app/views/admin/worldwide_offices/show.html.erb
+14	10	app/views/worldwide_offices/show.html.erb
+6	1	features/step_definitions/worldwide_office_steps.rb
+3	1	features/worldwide-offices.feature
+
+--1ef65bba79--2013-02-05--David Heath
+3	0	app/models/organisation.rb
+4	0	app/models/sponsorship.rb
+2	0	app/models/worldwide_office.rb
+11	0	db/migrate/20130205165929_create_sponsorships.rb
+10	0	db/schema.rb
+15	0	test/unit/organisation_test.rb
+15	0	test/unit/worldwide_office_test.rb
+
+--253907bed5--2013-02-05--David Heath
+1	1	app/views/admin/worldwide_offices/_form.html.erb
+32	16	app/views/admin/worldwide_offices/show.html.erb
+17	0	test/functional/admin/worldwide_offices_controller_test.rb

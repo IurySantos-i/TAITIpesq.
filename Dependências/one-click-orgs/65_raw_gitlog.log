@@ -1,0 +1,88 @@
+--90ba787a--2013-07-09--Chris Mear
+--5fa18d63--2013-07-09--Chris Mear
+11	1	app/assets/stylesheets/themes/cooperatives_uk.css.sass
+6	2	app/controllers/coops_controller.rb
+6	0	app/views/coops/new.html.haml
+135	0	app/views/coops/terms.html.haml
+2	1	app/views/layouts/setup.html.haml
+3	1	app/views/shared/_footer.html.haml
+2	0	config/routes.rb
+1	0	features/coop/founding/creating_a_coop.feature
+4	0	features/step_definitions/coop_steps.rb
+1	1	spec/views/coops/new.html.haml_spec.rb
+
+--e1267a61--2013-07-09--Chris Mear
+26	0	app/mailers/coop_mailer.rb
+18	0	app/observers/coop_mailer_observer.rb
+13	0	app/views/coop_mailer/notify_creation.text.erb
+11	0	app/views/coop_mailer/notify_proposed.text.erb
+12	2	features/coop/founding/approving_coop_registration.feature
+9	0	features/step_definitions/coop_steps.rb
+18	0	features/step_definitions/email_steps.rb
+28	0	spec/mailers/coop_mailer_spec.rb
+27	0	spec/models/coop_spec.rb
+
+--e983f4f0--2013-07-09--Chris Mear
+14	0	app/mailers/coop_mailer.rb
+19	0	app/observers/coop_mailer_observer.rb
+12	0	app/views/coop_mailer/notify_founded.text.erb
+1	0	config/application.rb
+10	0	features/coop/founding/being_notified_of_coop_approval.feature
+14	0	features/step_definitions/coop_member_steps.rb
+10	0	features/step_definitions/coop_steps.rb
+6	0	features/step_definitions/email_steps.rb
+25	0	spec/mailers/coop_mailer_spec.rb
+16	0	spec/models/coop_spec.rb
+
+--a8dde1c4--2013-07-09--Chris Mear
+1	0	app/models/invitation.rb
+3	0	app/views/coops/new.html.haml
+3	0	app/views/invitations/coop/edit.html.haml
+1	0	features/step_definitions/coop_steps.rb
+
+--d4f40cfa--2013-07-09--Chris Mear
+11	11	app/views/constitutions/coop/edit.html.haml
+
+--13cd609d--2013-07-09--Chris Mear
+2	0	features/support/env.rb
+2	0	spec/spec_helper.rb
+
+--341f53d1--2013-07-09--Chris Mear
+--1e532796--2013-07-09--Chris Mear
+2	1	.travis.yml
+
+--c091d7ff--2013-07-08--Chris Mear
+3	1	app/models/constitution.rb
+
+--f32c3a56--2013-07-08--Chris Mear
+25	17	app/models/constitution.rb
+1	0	db/seeds.rb
+1	1	features/support/env.rb
+
+--83e3e190--2013-07-08--Chris Mear
+52	77	data/rticles/ips/ips.yml
+
+--e79ce635--2013-07-08--Chris Mear
+18	1	app/models/constitution.rb
+
+--0cc17abd--2013-07-08--Chris Mear
+1	1	data/rticles/ips/ips.yml
+
+--f7478e0b--2013-07-08--Chris Mear
+77	77	data/rticles/ips/ips.yml
+
+--312ab58e--2013-07-08--Chris Mear
+4	0	app/models/constitution.rb
+1	570	app/views/shared/coop/_constitution.html.haml
+
+--8c501304--2013-07-08--Chris Mear
+484	0	data/rticles/ips/ips.yml
+8	0	db/seeds.rb
+
+--789f87d0--2013-07-08--Chris Mear
+24	0	db/migrate/20130708120458_create_documents_and_paragraphs.rb
+20	1	db/schema.rb
+
+--ab4f88e2--2013-07-08--Chris Mear
+1	0	Gemfile
+21	9	Gemfile.lock

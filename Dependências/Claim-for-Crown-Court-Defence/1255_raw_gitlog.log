@@ -1,0 +1,164 @@
+--8cc105c35--2015-11-04--Himal Mandalia
+--e71f11270--2015-11-04--Alistair Laing
+--321ffbdae--2015-11-04--jsugarman
+5	0	app/validators/base_claim_validator.rb
+
+--d0b09a049--2015-11-04--jsugarman
+0	3	app/models/expense.rb
+0	4	app/models/fee.rb
+5	5	app/presenters/error_message_translator.rb
+0	1	app/validators/base_sub_model_validator.rb
+11	14	app/validators/claim_sub_model_validator.rb
+0	3	app/validators/defendant_sub_model_validator.rb
+0	3	app/validators/expense_sub_model_validator.rb
+1	4	app/validators/fee_sub_model_validator.rb
+0	4	app/validators/fee_validator.rb
+6	7	features/unhappy_paths.feature
+0	6	spec/models/expense_spec.rb
+0	6	spec/presenters/error_presenter_spec.rb
+
+--fa4b4c102--2015-11-04--jsugarman
+6	6	config/locales/error_messages.en.yml
+10	10	features/unhappy_paths.feature
+
+--a179c5913--2015-11-04--jsugarman
+0	6	app/validators/date_attended_validator.rb
+
+--01b878f85--2015-11-04--jsugarman
+0	1	app/controllers/advocates/claims_controller.rb
+0	2	app/presenters/error_presenter.rb
+0	1	app/validators/base_sub_model_validator.rb
+0	12	features/step_definitions/cracked_trial_steps.rb
+4	2	spec/api/v1/claims/date_attended_spec.rb
+2	2	spec/presenters/data/error_messages.en.yml
+7	6	spec/presenters/error_message_translator_spec.rb
+9	10	spec/validators/date_attended_validator_spec.rb
+
+--83146e68f--2015-11-03--jsugarman
+4	0	app/controllers/advocates/claims_controller.rb
+4	1	app/models/expense.rb
+4	1	app/models/fee.rb
+1	1	app/presenters/error_detail_collection.rb
+12	4	app/presenters/error_message_translator.rb
+2	0	app/presenters/error_presenter.rb
+2	3	app/validators/base_sub_model_validator.rb
+12	6	app/validators/date_attended_validator.rb
+3	2	app/validators/defendant_sub_model_validator.rb
+10	0	app/validators/expense_sub_model_validator.rb
+10	0	app/validators/fee_sub_model_validator.rb
+3	2	app/views/advocates/claims/_basic_fee_fields.html.haml
+11	4	app/views/advocates/claims/_date_attended_fields.html.haml
+2	1	app/views/advocates/claims/_expense_fields.html.haml
+2	1	app/views/advocates/claims/_fixed_fee_fields.html.haml
+3	2	app/views/advocates/claims/_misc_fee_fields.html.haml
+1	4	config/initializers/host_env.rb
+62	22	config/locales/error_messages.en.yml
+13	0	features/step_definitions/advocate_new_claim_steps.rb
+11	0	features/unhappy_paths.feature
+0	1	spec/presenters/error_message_translator_spec.rb
+0	1	spec/validators/date_attended_validator_spec.rb
+
+--4743b76ec--2015-11-03--Tyom Semonov
+25	28	app/assets/javascripts/application.js
+
+--e740cf219--2015-11-03--Tyom Semonov
+8	0	.jshintrc
+
+--2e791124b--2015-11-03--Tyom Semonov
+17	6	app/assets/stylesheets/layout.scss
+
+--e7331b50b--2015-11-02--Tyom Semonov
+0	40	app/assets/javascripts/advocates/claims/cracked-trial-fields.js
+0	24	app/assets/javascripts/advocates/claims/table_row_click.js
+0	35	app/assets/javascripts/advocates/claims/trial_fields_display.js
+12	46	app/assets/javascripts/application.js
+1	1	app/assets/javascripts/{allocation_filter_submit.js => modules/AllocationFilterSubmit.js}
+3	3	app/assets/javascripts/{amountassessed.js => modules/AmountAssessed.js}
+0	0	app/assets/javascripts/{custom_file_upload.js => modules/CustomFileUpload.js}
+3	3	app/assets/javascripts/{fileinput.js => modules/FileUpload.js}
+3	3	app/assets/javascripts/{judicialapportionment.js => modules/JudicialApportionment.js}
+31	42	app/assets/javascripts/{adp.messages.js => modules/Messaging.js}
+1	1	app/assets/javascripts/{select_all.js => modules/SelectAll.js}
+6	4	app/assets/javascripts/{advocates/claims/claim_completion.js => modules/advocates/claims/ClaimCompletion.js}
+37	0	app/assets/javascripts/modules/advocates/claims/CrackedTrial.js
+11	10	app/assets/javascripts/{advocates/claims/dropzone.js => modules/advocates/claims/Dropzone.js}
+10	7	app/assets/javascripts/{advocates/claims/fee_calculator.js => modules/advocates/claims/FeeCalculator.js}
+40	44	app/assets/javascripts/{advocates/claims/fee_section_display.js => modules/advocates/claims/FeeSectionDisplay.js}
+5	5	app/assets/javascripts/{advocates/claims/dynamic-offence-list.js => modules/advocates/claims/NewClaim.js}
+3	3	app/assets/javascripts/{advocates/claims/select2.js => modules/advocates/claims/Select2.js}
+17	0	app/assets/javascripts/modules/advocates/claims/TableRowClick.js
+35	0	app/assets/javascripts/modules/advocates/claims/TrialFieldsDisplay.js
+14	11	app/assets/javascripts/{case_worker/claims/determination_calculator.js => modules/case_worker/claims/DeterminationCalculator.js}
+3	3	app/views/messages/create.js.erb
+2	2	app/views/offences/index.js.erb
+
+--245b60add--2015-11-03--Alistair Laing
+--f1d209989--2015-11-03--Himal Mandalia
+--0c60baae4--2015-11-03--Tyom Semonov
+2	2	app/views/advocates/claims/index.html.haml
+
+--d0e4ceb49--2015-11-03--Tyom Semonov
+15	13	app/assets/javascripts/custom_file_upload.js
+1	1	app/assets/stylesheets/claims-importer.scss
+1	1	app/views/advocates/claims/_json_document_importer.haml
+1	1	app/views/advocates/json_document_importers/format_error.js.erb
+
+--0a01d3efb--2015-11-03--Tyom Semonov
+2	2	app/assets/javascripts/custom_file_upload.js
+
+--316f5e112--2015-11-03--Tyom Semonov
+3	1	app/views/advocates/claims/_json_document_importer.haml
+1	1	config/locales/en.yml
+
+--622454494--2015-11-03--Tyom Semonov
+1	1	app/assets/javascripts/custom_file_upload.js
+1	1	app/views/advocates/claims/_financial_summary.html.haml
+1	1	app/views/advocates/claims/_json_document_importer.haml
+1	5	app/views/advocates/claims/index.html.haml
+
+--ddf60b960--2015-11-03--Tyom Semonov
+38	0	app/assets/stylesheets/claims-importer.scss
+0	18	app/assets/stylesheets/form.scss
+1	0	app/assets/stylesheets/imports.scss
+1	1	app/views/advocates/claims/index.html.haml
+
+--226bf5a48--2015-11-03--Edward Andress
+4	11	app/controllers/advocates/admin/advocates_controller.rb
+4	11	app/controllers/case_workers/admin/case_workers_controller.rb
+36	0	app/controllers/concerns/password_helpers.rb
+1	1	app/models/json_schema.rb
+1	1	app/views/devise/mailer/reset_password_instructions.html.erb
+3	3	config/locales/devise.en.yml
+1	1	features/step_definitions/new_user_steps.rb
+
+--a316c20a5--2015-11-02--Tyom Semonov
+1	0	app/assets/javascripts/application.js
+39	0	app/assets/javascripts/custom_file_upload.js
+13	6	app/assets/stylesheets/form.scss
+1	1	app/views/advocates/claims/_json_document_importer.haml
+
+--eb9f32adc--2015-11-02--Edward Andress
+3	3	config/locales/devise.en.yml
+1	0	features/step_definitions/new_user_steps.rb
+
+--7e94bdbd1--2015-11-02--Edward Andress
+2	2	spec/controllers/case_workers/admin/case_workers_controller_spec.rb
+
+--ef7d7a017--2015-11-02--Tyom Semonov
+12	0	app/assets/stylesheets/@mixins.scss
+2	0	app/assets/stylesheets/imports.scss
+
+--034e9f4e6--2015-11-02--Edward Andress
+7	1	app/controllers/case_workers/admin/case_workers_controller.rb
+0	6	app/views/case_workers/admin/case_workers/_form.html.haml
+0	2	app/views/devise/mailer/reset_password_instructions.html.erb
+5	0	config/environments/test.rb
+13	4	features/new_user.feature
+28	12	features/step_definitions/new_user_steps.rb
+
+--b0013b2cd--2015-10-30--Edward Andress
+8	1	app/controllers/advocates/admin/advocates_controller.rb
+5	5	app/views/advocates/admin/advocates/_form.html.haml
+14	5	app/views/devise/mailer/reset_password_instructions.html.erb
+8	0	features/new_user.feature
+20	0	features/step_definitions/new_user_steps.rb

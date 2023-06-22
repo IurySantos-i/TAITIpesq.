@@ -1,0 +1,330 @@
+--70fb42648--2012-04-25--Maxwell Salzberg
+--3ff94b031--2012-04-25--Florian Staudacher
+49	37	script/install.sh
+
+--87ceabc0b--2012-04-25--Steven Hancock
+6	0	config/application.rb
+
+--2cbf383fb--2012-04-24--Dennis Collinson
+2	1	app/controllers/people_controller.rb
+
+--734692147--2012-04-24--Dennis Collinson
+-	-	app/assets/images/buttons/delete.png
+-	-	app/assets/images/buttons/delete_hover.png
+1	0	app/assets/javascripts/app/views/canvas_view.js
+11	3	app/assets/javascripts/app/views/small_frame.js
+1	7	app/assets/javascripts/app/views/stream_object_view.js
+5	0	app/assets/javascripts/app/views/stream_post_views.js
+32	1	app/assets/stylesheets/new_styles/_canvas.scss
+0	29	app/assets/stylesheets/new_styles/_profile.scss
+4	2	app/assets/templates/small-frame.jst.hbs
+21	0	spec/javascripts/app/pages/profile_spec.js
+1	10	spec/javascripts/app/views/small_frame_view_spec.js
+
+--b2ab11944--2012-04-24--danielgrippi
+-	-	app/assets/images/buttons/playbtn.png
+-	-	app/assets/images/video-overlay.png
+9	1	app/assets/stylesheets/_mixins.css.scss
+1	3	app/assets/templates/profile.jst.hbs
+
+--c82e33964--2012-04-24--danielgrippi
+-	-	app/assets/images/buttons/follow_hover.png
+4	5	app/assets/stylesheets/new_styles/_canvas.scss
+4	0	app/assets/templates/profile.jst.hbs
+
+--985319706--2012-04-24--danielgrippi
+5	5	app/assets/javascripts/app/pages/profile.js
+3	0	app/assets/stylesheets/new_styles/_profile.scss
+2	2	spec/javascripts/app/pages/profile_spec.js
+
+--ec096f813--2012-04-24--danielgrippi
+2	2	app/assets/javascripts/app/views/canvas_view.js
+6	5	app/assets/stylesheets/new_styles/_canvas.scss
+49	10	app/assets/stylesheets/new_styles/_isotope_transitions.scss
+2	3	app/assets/stylesheets/new_styles/_profile.scss
+
+--340411f17--2012-04-24--Dennis Collinson
+1	0	.powenv
+5	8	app/controllers/people_controller.rb
+20	1	app/models/feature_flagger.rb
+
+--87fb92280--2012-04-24--danielgrippi
+2	2	app/assets/javascripts/app/views/canvas_view.js
+
+--a1907428e--2012-04-24--danielgrippi
+1	1	app/uploaders/unprocessed_image.rb
+
+--e55073fdd--2012-04-24--Dennis Collinson
+1	0	Gemfile
+33	0	Gemfile.lock
+1144	0	config/initializers/rails_admin.rb
+2	0	config/routes.rb
+
+--570de9836--2012-04-24--danielgrippi
+18	13	app/assets/javascripts/app/views/canvas_view.js
+21	2	app/assets/javascripts/app/views/small_frame.js
+3	1	app/assets/stylesheets/new-templates.css.scss
+0	5	app/assets/stylesheets/new_styles/_canvas.scss
+25	0	app/assets/stylesheets/new_styles/_isotope_transitions.scss
+1	1	app/assets/templates/small-frame.jst.hbs
+18	3	spec/javascripts/app/views/small_frame_view_spec.js
+
+--78bcb1c32--2012-04-24--Dennis Collinson
+0	1	Gemfile
+0	33	Gemfile.lock
+0	1144	config/initializers/rails_admin.rb
+0	2	config/routes.rb
+
+--8149648e5--2012-04-24--Dennis Collinson
+10	9	app/assets/javascripts/app/views/small_frame.js
+12	1	app/assets/stylesheets/_mixins.css.scss
+3	7	app/assets/stylesheets/application.css.sass
+4	1	app/assets/stylesheets/new-templates.css.scss
+4	3	app/assets/stylesheets/new_styles/_base.scss
+8	5	app/assets/stylesheets/new_styles/_canvas.scss
+1	5	app/assets/templates/small-frame.jst.hbs
+16	1	spec/javascripts/app/views/small_frame_view_spec.js
+
+--8cca2f028--2012-04-24--Dennis Collinson
+31	18	app/assets/javascripts/app/views/content_view.js
+3	1	app/assets/javascripts/app/views/stream_post_views.js
+10	0	app/assets/templates/oembed.jst.hbs
+3	14	app/assets/templates/status-message.jst.hbs
+31	0	spec/javascripts/app/views/oembed_view_spec.js
+2	9	spec/javascripts/app/views/stream_post_spec.js
+
+--44f28b822--2012-04-24--danielgrippi
+2	2	app/assets/javascripts/app/views/small_frame.js
+1	1	app/assets/stylesheets/new_styles/_canvas.scss
+1	1	app/assets/templates/small-frame.jst.hbs
+
+--a659b4daf--2012-04-24--danielgrippi
+1	0	app/assets/stylesheets/new_styles/_canvas.scss
+
+--c4ccf71da--2012-04-24--Florian Staudacher
+19	0	features/step_definitions/debug_steps.rb
+
+--390246dde--2012-04-24--Florian Staudacher
+1	0	features/posts_from_main_page.feature
+
+--311afa7dc--2012-04-24--danielgrippi
+1	1	app/assets/javascripts/app/views/small_frame.js
+21	4	app/assets/stylesheets/new_styles/_canvas.scss
+4	0	app/assets/stylesheets/new_styles/_typography.scss
+
+--28f8db51e--2012-04-24--Maxwell Salzberg
+2	1	config/initializers/rails_admin.rb
+
+--66e9423dc--2012-04-24--Maxwell Salzberg
+2	3	config/cool_people.yml
+10	6	lib/tasks/cool_seed.rake
+
+--6ac1c5bc2--2012-04-24--Dennis Collinson
+15	9	app/assets/javascripts/app/views/small_frame.js
+16	27	app/assets/stylesheets/new_styles/_canvas.scss
+
+--0dcb0f644--2012-04-24--Florian Staudacher
+6	6	app/assets/templates/stream-element.jst.hbs
+
+--931dd2621--2012-04-24--danielgrippi
+1	2	app/assets/javascripts/app/views/small_frame.js
+3	0	app/assets/stylesheets/new_styles/_base.scss
+19	4	app/assets/stylesheets/new_styles/_canvas.scss
+1	1	app/assets/stylesheets/new_styles/_typography.scss
+3	3	app/assets/templates/small-frame.jst.hbs
+
+--bff9d2d37--2012-04-24--danielgrippi
+8	4	app/assets/stylesheets/new_styles/_base.scss
+1	1	app/assets/stylesheets/new_styles/_canvas.scss
+1	4	app/assets/stylesheets/new_styles/_new_mixins.scss
+
+--7fb3e8e90--2012-04-24--Maxwell Salzberg
+1	1	config/locales/devise/devise.ar.yml
+20	19	config/locales/devise/devise.es-MX.yml
+46	29	config/locales/devise/devise.es.yml
+11	11	config/locales/devise/devise.sv.yml
+8	13	config/locales/diaspora/ar.yml
+1	0	config/locales/diaspora/bg.yml
+1	0	config/locales/diaspora/cs.yml
+1	0	config/locales/diaspora/da.yml
+3	6	config/locales/diaspora/de.yml
+1	0	config/locales/diaspora/de_formal.yml
+1	0	config/locales/diaspora/el.yml
+1	0	config/locales/diaspora/en_1337.yml
+1	0	config/locales/diaspora/en_shaw.yml
+1	0	config/locales/diaspora/eo.yml
+1	0	config/locales/diaspora/es-AR.yml
+1	0	config/locales/diaspora/es-CL.yml
+2	2	config/locales/diaspora/es-MX.yml
+123	106	config/locales/diaspora/es.yml
+1	0	config/locales/diaspora/eu.yml
+1	0	config/locales/diaspora/fi.yml
+2	2	config/locales/diaspora/fr.yml
+1	0	config/locales/diaspora/he.yml
+14	14	config/locales/diaspora/hu.yml
+1	0	config/locales/diaspora/is.yml
+2	0	config/locales/diaspora/it.yml
+1	0	config/locales/diaspora/ja.yml
+1	0	config/locales/diaspora/ko.yml
+1	0	config/locales/diaspora/lt.yml
+1	0	config/locales/diaspora/mk.yml
+1	0	config/locales/diaspora/ml.yml
+1	0	config/locales/diaspora/ms.yml
+1	0	config/locales/diaspora/nb.yml
+1	0	config/locales/diaspora/nl.yml
+1	0	config/locales/diaspora/nn.yml
+2	2	config/locales/diaspora/pl.yml
+1	0	config/locales/diaspora/pt-BR.yml
+2	8	config/locales/diaspora/pt-PT.yml
+1	0	config/locales/diaspora/ro.yml
+2	0	config/locales/diaspora/ru.yml
+2	0	config/locales/diaspora/sk.yml
+1	0	config/locales/diaspora/sl.yml
+56	14	config/locales/diaspora/sv.yml
+1	0	config/locales/diaspora/tr.yml
+1	0	config/locales/diaspora/uk.yml
+14	6	config/locales/diaspora/vi.yml
+1	0	config/locales/diaspora/zh-CN.yml
+1	0	config/locales/diaspora/zh-TW.yml
+22	23	config/locales/javascript/javascript.ar.yml
+26	22	config/locales/javascript/javascript.es.yml
+2	2	config/locales/javascript/javascript.vi.yml
+
+--a9dd997f2--2012-04-24--Jonne Haß
+1	1	config/locales/devise/devise.ar.yml
+19	20	config/locales/devise/devise.es-MX.yml
+29	46	config/locales/devise/devise.es.yml
+11	11	config/locales/devise/devise.sv.yml
+13	8	config/locales/diaspora/ar.yml
+0	1	config/locales/diaspora/bg.yml
+0	1	config/locales/diaspora/cs.yml
+0	1	config/locales/diaspora/da.yml
+6	3	config/locales/diaspora/de.yml
+0	1	config/locales/diaspora/de_formal.yml
+0	1	config/locales/diaspora/el.yml
+0	1	config/locales/diaspora/en_1337.yml
+0	1	config/locales/diaspora/en_shaw.yml
+0	1	config/locales/diaspora/eo.yml
+0	1	config/locales/diaspora/es-AR.yml
+0	1	config/locales/diaspora/es-CL.yml
+2	2	config/locales/diaspora/es-MX.yml
+106	123	config/locales/diaspora/es.yml
+0	1	config/locales/diaspora/eu.yml
+0	1	config/locales/diaspora/fi.yml
+2	2	config/locales/diaspora/fr.yml
+0	1	config/locales/diaspora/he.yml
+14	14	config/locales/diaspora/hu.yml
+0	1	config/locales/diaspora/is.yml
+0	2	config/locales/diaspora/it.yml
+0	1	config/locales/diaspora/ja.yml
+0	1	config/locales/diaspora/ko.yml
+0	1	config/locales/diaspora/lt.yml
+0	1	config/locales/diaspora/mk.yml
+0	1	config/locales/diaspora/ml.yml
+0	1	config/locales/diaspora/ms.yml
+0	1	config/locales/diaspora/nb.yml
+0	1	config/locales/diaspora/nl.yml
+0	1	config/locales/diaspora/nn.yml
+2	2	config/locales/diaspora/pl.yml
+0	1	config/locales/diaspora/pt-BR.yml
+8	2	config/locales/diaspora/pt-PT.yml
+0	1	config/locales/diaspora/ro.yml
+0	2	config/locales/diaspora/ru.yml
+0	2	config/locales/diaspora/sk.yml
+0	1	config/locales/diaspora/sl.yml
+14	56	config/locales/diaspora/sv.yml
+0	1	config/locales/diaspora/tr.yml
+0	1	config/locales/diaspora/uk.yml
+6	14	config/locales/diaspora/vi.yml
+0	1	config/locales/diaspora/zh-CN.yml
+0	1	config/locales/diaspora/zh-TW.yml
+23	22	config/locales/javascript/javascript.ar.yml
+22	26	config/locales/javascript/javascript.es.yml
+2	2	config/locales/javascript/javascript.vi.yml
+
+--407579137--2012-04-24--Florian Staudacher
+24	0	script/install.sh
+
+--6c5dafa6e--2012-04-24--Maxwell Salzberg
+52	0	config/cool_people.yml
+48	0	lib/tasks/cool_seed.rake
+
+--fe72c59ff--2012-04-24--danielgrippi
+2	2	app/assets/stylesheets/new_styles/_canvas.scss
+
+--91ebff75d--2012-04-24--danielgrippi
+10	2	app/assets/javascripts/app/pages/profile.js
+1	2	app/assets/javascripts/app/views/profile_info_view.js
+8	6	app/assets/templates/profile.jst.hbs
+31	0	spec/javascripts/app/pages/profile_spec.js
+
+--c667dac24--2012-04-23--Maxwell Salzberg
+24	8	app/assets/stylesheets/new_styles/_base.scss
+
+--84bd1fb1f--2012-04-23--danielgrippi
+2	2	app/assets/templates/profile-info.jst.hbs
+4	2	app/controllers/profiles_controller.rb
+1	1	spec/controllers/profiles_controller_spec.rb
+1	0	spec/javascripts/app/views/small_frame_view_spec.js
+
+--dbe3b48ae--2012-04-23--danielgrippi
+1	0	app/assets/javascripts/app/views/small_frame.js
+6	1	app/assets/stylesheets/new_styles/_profile.scss
+22	1	spec/javascripts/app/views/small_frame_view_spec.js
+
+--4be6f196c--2012-04-23--danielgrippi
+4	1	app/assets/stylesheets/new-templates.css.scss
+2	2	app/assets/stylesheets/new_styles/_base.scss
+5	14	app/assets/stylesheets/new_styles/_canvas.scss
+1	1	app/assets/stylesheets/new_styles/_new_mixins.scss
+4	0	app/assets/stylesheets/new_styles/_profile.scss
+9	0	app/assets/stylesheets/new_styles/_typography.scss
+
+--bf110f081--2012-04-23--Maxwell Salzberg
+1	1	app/assets/stylesheets/new_styles/_canvas.scss
+
+--370417041--2012-04-23--danielgrippi
+-	-	app/assets/images/fonts/Roboto-Regular.ttf
+13	1	app/assets/stylesheets/new_styles/_canvas.scss
+
+--6daafbd5a--2012-04-23--Dennis Collinson
+5	9	app/assets/stylesheets/new_styles/_canvas.scss
+
+--4bd1caa7f--2012-04-23--danielgrippi
+25	0	app/assets/stylesheets/new_styles/_canvas.scss
+
+--43ed6dde4--2012-04-23--Dennis Collinson
+5	2	app/assets/stylesheets/new_styles/_canvas.scss
+
+--40c04234b--2012-04-23--Dennis Collinson
+4	0	app/assets/javascripts/app/models/user.js
+1	1	app/assets/javascripts/app/pages/framer.js
+8	0	features/step_definitions/trumpeter_steps.rb
+4	4	features/trumpeter.feature
+
+--044d03c12--2012-04-23--Dennis Collinson
+6	0	app/assets/stylesheets/new_styles/_canvas.scss
+
+--8390756dd--2012-04-23--danielgrippi
+16	6	app/assets/stylesheets/new_styles/_canvas.scss
+12	11	app/assets/templates/small-frame.jst.hbs
+
+--51a6a3c8a--2012-04-23--danielgrippi
+-	-	app/assets/images/buttons/star_faved.png
+-	-	app/assets/images/buttons/star_not_faved.png
+15	1	app/assets/stylesheets/new_styles/_profile.scss
+1	7	app/assets/templates/small-frame.jst.hbs
+
+--d64eb529d--2012-04-23--Dennis Collinson
+6	1	app/assets/javascripts/app/views/small_frame.js
+34	0	app/assets/stylesheets/new_styles/_canvas.scss
+0	2	app/assets/templates/small-frame.jst.hbs
+1	0	app/models/post.rb
+
+--cc329594c--2012-04-24--movilla
+10	13	app/views/admins/user_search.html.haml
+11	0	config/locales/diaspora/en.yml
+
+--88a17474f--2012-04-23--Dennis Collinson
+0	22	app/assets/javascripts/app/views/small_frame.js
+0	4	app/assets/stylesheets/new_styles/_canvas.scss

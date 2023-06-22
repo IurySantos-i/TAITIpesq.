@@ -1,0 +1,50 @@
+--48443d20ca9--2012-08-24--Florian Unglaub
+--6d4ae75f544--2012-08-24--Dmitriy Zaporozhets
+2	2	features/step_definitions/dashboard_steps.rb
+
+--919cd60216d--2012-08-24--Dmitriy Zaporozhets
+--3dd7703b808--2012-08-24--Dmitriy Zaporozhets
+25	0	app/controllers/labels_controller.rb
+3	0	app/views/issues/_head.html.haml
+4	0	app/views/labels/_label.html.haml
+14	0	app/views/labels/index.html.haml
+2	0	config/routes.rb
+13	0	features/projects/issues/labels.feature
+20	1	features/step_definitions/project/project_issues_steps.rb
+
+--14bd9c9228c--2012-08-24--Dmitriy Zaporozhets
+2	2	spec/requests/atom/dashboard_issues_spec.rb
+
+--a502f67c0b3--2012-08-24--Dmitriy Zaporozhets
+1	1	VERSION
+
+--4381084af34--2012-08-24--Dmitriy Zaporozhets
+4	12	features/step_definitions/dashboard_steps.rb
+
+--b962bcd4a7f--2012-08-22--Dmitriy Zaporozhets
+4	2	Gemfile.lock
+
+--c5ae1549a1d--2012-08-17--Florian Unglaub
+4	0	config/gitlab.yml.example
+
+--a64aff2f1c1--2012-08-03--Florian Unglaub
+4	0	Gemfile
+32	0	Gemfile.lock
+10	0	app/assets/stylesheets/auth_methods.scss
+13	13	app/assets/stylesheets/main.scss
+31	1	app/controllers/omniauth_callbacks_controller.rb
+8	3	app/helpers/application_helper.rb
+9	4	app/views/devise/sessions/new.html.erb
+1	1	app/views/layouts/profile.html.haml
+25	13	app/views/profile/password.html.haml
+7	0	app/views/profile/show.html.haml
+17	5	config/gitlab.yml.example
+14	5	config/initializers/1_settings.rb
+6	0	db/migrate/20120803152018_add_provider_and_uid_to_users.rb
+17	15	db/schema.rb
+-	-	vendor/assets/images/authbuttons/github_32.png
+-	-	vendor/assets/images/authbuttons/github_64.png
+-	-	vendor/assets/images/authbuttons/google_32.png
+-	-	vendor/assets/images/authbuttons/google_64.png
+-	-	vendor/assets/images/authbuttons/twitter_32.png
+-	-	vendor/assets/images/authbuttons/twitter_64.png

@@ -1,0 +1,64 @@
+--763faca5--2015-05-12--David Basalla
+--3d242eb0--2015-05-11--David Basalla
+2	1	db/schema.rb
+
+--c095d0b9--2015-05-11--David Basalla
+33	37	db/schema.rb
+
+--f5196c91--2015-05-11--David Basalla
+1	1	spec/controllers/petitions_controller_spec.rb
+
+--f748bd6d--2015-05-11--Murray Steele
+--8f951b76--2015-05-11--David Basalla
+1	1	app/views/petitions/new.html.erb
+10	0	features/charlie_creates_a_petition.feature
+
+--5d59996f--2015-05-11--David Basalla
+1	0	spec/factories.rb
+6	0	spec/models/petition_spec.rb
+
+--c2c12e90--2015-05-11--David Basalla
+2	1	app/controllers/petitions_controller.rb
+4	1	app/models/petition.rb
+24	0	app/views/petitions/new.html.erb
+1	1	db/migrate/20150511123210_add_action_to_petitions.rb
+
+--4bcee531--2015-05-11--David Basalla
+9	0	db/migrate/20150511123210_add_action_to_petitions.rb
+37	33	db/schema.rb
+
+--59db35e6--2015-05-08--Murray Steele
+6	0	features/laura_signs_charlies_petition_as_a_sponsor.feature
+6	0	features/step_definitions/sponsor_steps.rb
+
+--0ee98eb5--2015-05-07--Murray Steele
+18	0	spec/controllers/sponsors_controller_spec.rb
+
+--1db36ae1--2015-05-07--Murray Steele
+23	12	app/controllers/sponsors_controller.rb
+92	59	spec/controllers/sponsors_controller_spec.rb
+
+--5c2aea5e--2015-05-07--Murray Steele
+27	0	app/controllers/sponsors_controller.rb
+16	0	app/views/sponsors/thank_you.html.erb
+3	1	config/routes.rb
+120	0	spec/controllers/sponsors_controller_spec.rb
+
+--a382cca6--2015-05-07--Murray Steele
+20	0	app/controllers/sponsors_controller.rb
+12	10	app/views/signatures/_form.html.erb
+19	0	app/views/sponsors/show.html.erb
+47	0	spec/controllers/sponsors_controller_spec.rb
+
+--e2aa04ab--2015-05-07--Murray Steele
+17	1	app/models/sponsor.rb
+44	1	spec/models/sponsor_spec.rb
+
+--6b7e7494--2015-05-07--Murray Steele
+16	0	features/laura_signs_charlies_petition_as_a_sponsor.feature
+37	0	features/step_definitions/sponsor_steps.rb
+
+--349c0fae--2015-05-07--Murray Steele
+1	1	app/views/sponsor_mailer/new_sponsor_email.html.erb
+1	1	app/views/sponsor_mailer/new_sponsor_email.text.erb
+1	1	config/routes.rb

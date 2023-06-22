@@ -1,0 +1,60 @@
+--f93e65459--2015-10-28--ariana-paris
+--fb5e57ed2--2015-10-28--elz
+1	0	features/other_b/skin.feature
+
+--8ee6b6b85--2015-10-28--elz
+1	3	features/other_a/preferences_edit.feature
+
+--96d034aca--2015-10-28--sarken
+--193cb7931--2015-10-28--sarken
+--e464e40ba--2015-10-28--sarken
+--6c40b3315--2015-10-28--sarken
+1	1	app/controllers/preferences_controller.rb
+1	1	app/controllers/users_controller.rb
+
+--e64542ae7--2015-10-28--zz9pzza
+1	1	config/deploy/production.rb
+
+--da3a52b86--2015-10-28--sarken
+1	5	app/controllers/chapters_controller.rb
+5	53	app/controllers/comments_controller.rb
+1	1	app/helpers/comments_helper.rb
+0	4	app/models/chapter.rb
+4	15	app/models/comment.rb
+4	8	app/views/comments/_comment_thread.html.erb
+1	5	app/views/comments/_commentable.html.erb
+0	5	app/views/comments/_single_comment.html.erb
+0	18	app/views/comments/unreviewed.html.erb
+1	8	app/views/works/_standard_form.html.erb
+0	8	app/views/works/_work_header_navigation.html.erb
+0	4	config/routes.rb
+0	5	db/migrate/20150901024743_add_moderated_commenting_enabled_to_works.rb
+0	5	db/migrate/20150901132832_add_unreviewed_to_comments.rb
+0	103	features/comments_and_kudos/comment_moderation.feature
+1	28	features/step_definitions/comment_steps.rb
+1	1	lib/plugins/acts_as_commentable/commentable_entity.rb
+0	0	public/help/{comments-anonymous.html => anonymous-commenting.html}
+0	2	public/help/comments-moderated.html
+
+--79b4f5953--2015-10-28--sarken
+4	23	app/controllers/comments_controller.rb
+0	33	app/helpers/comments_helper.rb
+0	4	app/views/comment_mailer/_comment_notification_footer.erb
+0	4	app/views/comment_mailer/_comment_notification_footer.text.erb
+11	16	app/views/comments/_comment_form.html.erb
+2	2	app/views/comments/unreviewed.html.erb
+2	2	features/comments_and_kudos/comment_moderation.feature
+
+--81c9888af--2015-10-28--sarken
+0	8	app/controllers/works_controller.rb
+2	3	app/views/works/_standard_form.html.erb
+5	52	app/views/works/edit_multiple.html.erb
+1	1	app/views/works/show_multiple.html.erb
+2	19	features/comments_and_kudos/comment_moderation.feature
+1	6	features/step_definitions/comment_steps.rb
+0	45	features/step_definitions/work_steps.rb
+0	2	features/support/paths.rb
+0	103	features/works/work_edit_multiple.feature
+
+--29f33b06c--2015-10-26--elz
+5	3	app/controllers/home_controller.rb

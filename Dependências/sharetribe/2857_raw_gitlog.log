@@ -1,0 +1,901 @@
+--5304ef444--2012-02-26--Antti Virolainen
+--e01853c7d--2012-02-26--Antti Virolainen
+60	23	spec/controllers/people_controller_spec.rb
+2	7	spec/models/person_spec.rb
+9	0	test/helper_modules.rb
+
+--6a06ddbcc--2012-02-26--Antti Virolainen
+8	6	Gemfile.lock
+1	1	app/helpers/application_helper.rb
+2	0	app/models/person.rb
+14	0	spec/factories.rb
+1	1	spec/helpers/locations_helper_spec.rb
+3	3	spec/models/cached_ressi_event_spec.rb
+10	2	spec/models/person_spec.rb
+2	0	spec/models/ressi_event_spec.rb
+4	0	spec/models/testimonial_spec.rb
+1	2	test/helper_modules.rb
+
+--47de6ca42--2012-02-25--Antti Virolainen
+1	1	app/controllers/sessions_controller.rb
+1	1	config/locales/devise.es-ES.yml
+1	1	config/locales/devise.es.yml
+
+--49a6d4ad7--2012-02-25--Antti Virolainen
+56	0	config/locales/devise.ca.yml
+51	0	config/locales/devise.es-ES.yml
+51	0	config/locales/devise.es.yml
+78	0	config/locales/devise.fr.yml
+60	0	config/locales/devise.it.yml
+39	0	config/locales/devise.nl.yml
+67	0	config/locales/devise.ru.yml
+57	0	config/locales/devise.zh.yml
+
+--3ae22c4d2--2012-02-25--Antti Virolainen
+6	0	app/controllers/people_controller.rb
+0	1	public/javascripts/kassi.js
+
+--e5c44e328--2012-02-25--Antti Virolainen
+3	3	app/views/infos/about.el.haml
+3	3	app/views/infos/about.es.haml
+2	2	app/views/infos/how_to_use.el.haml
+7	7	app/views/infos/how_to_use.es.haml
+1	1	app/views/people/help_texts/_badges_description.el.haml
+4	1	app/views/people/help_texts/_help_invitation_code.el.haml
+125	0	communities/default/terms/terms.it.haml
+125	0	communities/default/terms/terms.ro.haml
+125	0	communities/default/terms/terms.sw.haml
+125	0	communities/default/terms/terms.zh.haml
+402	320	config/locales/ca.yml
+244	135	config/locales/el.yml
+141	61	config/locales/es-ES.yml
+78	74	config/locales/es.yml
+249	85	config/locales/fr.yml
+1064	0	config/locales/it.yml
+276	114	config/locales/nl.yml
+381	167	config/locales/ro.yml
+312	130	config/locales/ru.yml
+273	59	config/locales/sw.yml
+426	262	config/locales/zh.yml
+1	1	public/javascripts/locales/el.json
+18	18	public/javascripts/locales/zh.json
+
+--f5f34bb3b--2012-02-25--Antti Virolainen
+3	0	app/helpers/application_helper.rb
+1	1	app/views/homepage/sign_in.haml
+5	6	app/views/people/new.haml
+2	2	app/views/sessions/new.haml
+2	2	app/views/settings/account.haml
+6	11	config/locales/en.yml
+6	11	config/locales/fi.yml
+
+--43fc94824--2012-02-22--Antti Virolainen
+6	0	communities/metropolia/signup_information/signup_information.en.haml
+6	0	communities/metropolia/signup_information/signup_information.fi.haml
+
+--c8de81ebd--2012-02-21--Antti Virolainen
+4	2	app/views/devise/mailer/{confirmation_instructions.html.haml => confirmation_instructions.haml}
+10	0	app/views/devise/mailer/reset_password_instructions.haml
+0	8	app/views/devise/mailer/reset_password_instructions.html.erb
+20	0	app/views/devise/passwords/edit.haml
+0	16	app/views/devise/passwords/edit.html.erb
+7	8	config/locales/devise.en.yml
+13	4	config/locales/devise.fi.yml
+4	1	config/locales/en.yml
+5	2	config/locales/fi.yml
+17	0	public/javascripts/kassi.js
+
+--988b7db90--2012-02-21--Antti Virolainen
+5	1	app/controllers/confirmations_controller.rb
+-	-	public/images/medium/missing.png
+-	-	public/images/thumb/missing.png
+
+--e9e42ba36--2012-02-20--Antti Virolainen
+5	1	app/controllers/application_controller.rb
+33	0	features/communities/user_views_private_community.feature
+4	0	features/support/paths.rb
+
+--90b977a71--2012-02-20--Antti Virolainen
+2	2	spec/models/cached_ressi_event_spec.rb
+2	0	spec/models/ressi_event_spec.rb
+
+--d4be77585--2012-02-15--Antti Virolainen
+24	0	app/views/infos/about.es.haml
+78	0	app/views/infos/how_to_use.es.haml
+2	0	app/views/listings/help_texts/_help_share_type.es.haml
+5	0	app/views/listings/help_texts/_help_tags.es.haml
+5	0	app/views/listings/help_texts/_help_valid_until.es.haml
+5	0	app/views/people/help_texts/_badges_description.es.haml
+8	0	app/views/people/help_texts/_feedback_description.es.haml
+5	0	app/views/people/help_texts/_help_captcha.es.haml
+8	0	app/views/people/help_texts/_help_invitation_code.es.haml
+19	0	app/views/person_mailer/reply_to_contact_request.es.html.haml
+13	0	app/views/person_mailer/reply_to_contact_request.es.text.haml
+4	0	communities/default/frontpage_sidebar/frontpage_sidebar.es.haml
+68	0	communities/default/register_details/register_details.es.haml
+116	115	communities/default/terms/terms.es.haml
+309	233	config/locales/es.yml
+10	10	public/javascripts/locales/es.json
+
+--a181631e5--2012-02-15--Juho Makkonen
+0	25	features/listings/user_closes_a_listing.feature
+
+--1c5d31f2c--2012-02-15--Juho Makkonen
+0	3	app/views/listings/edit.haml
+
+--8e338ad92--2012-02-15--Juho Makkonen
+2	0	features/news_items/user_views_news_items.feature
+5	5	features/support/paths.rb
+
+--96f8b39d7--2012-02-14--Juho Makkonen
+1	1	app/controllers/news_items_controller.rb
+1	1	app/views/news_items/index.haml
+18	4	features/news_items/user_deletes_news_item.feature
+2	2	features/step_definitions/news_item_steps.rb
+
+--fc9142877--2012-02-13--Juho Makkonen
+47	49	app/controllers/application_controller.rb
+6	1	app/controllers/news_items_controller.rb
+16	0	app/views/homepage/_news_items.haml
+10	21	app/views/homepage/index.haml
+1	1	app/views/news_items/_news_item.haml
+9	0	db/migrate/20120210171827_add_custom_frontpage_sidebar_to_communities.rb
+2	2	db/schema.rb
+39	0	features/news_items/user_creates_news_item.feature
+30	0	features/news_items/user_deletes_news_item.feature
+39	0	features/news_items/user_views_news_items.feature
+17	0	features/step_definitions/news_item_steps.rb
+9	5	features/support/paths.rb
+7	1	spec/factories.rb
+1	1	spec/models/news_item_spec.rb
+1	1	spec/models/poll_answer_spec.rb
+1	1	spec/models/poll_option_spec.rb
+1	1	spec/models/poll_spec.rb
+
+--9d09fd638--2012-02-09--Juho Makkonen
+4	11	app/controllers/admin/news_items_controller.rb
+2	0	app/controllers/admin/polls_controller.rb
+0	11	app/controllers/infos_controller.rb
+40	0	app/controllers/news_items_controller.rb
+2	0	app/views/admin/news_items/index.haml
+2	2	app/views/homepage/index.haml
+0	2	app/views/infos/_additional_news_items.haml
+2	2	app/views/layouts/infos.haml
+2	0	app/views/news_items/_additional_news_items.haml
+4	1	app/views/{infos => news_items}/_news_item.haml
+3	3	app/views/{infos/news.haml => news_items/index.haml}
+7	1	config/locales/en.yml
+7	4	config/locales/fi.yml
+1	0	config/routes.rb
+
+--730b289f5--2012-02-09--Juho Makkonen
+9	2	app/controllers/admin/news_items_controller.rb
+4	1	app/controllers/infos_controller.rb
+26	3	app/stylesheets/style.scss
+2	0	app/views/admin/news_items/_additional_news_items.haml
+12	14	app/views/admin/news_items/index.haml
+1	1	app/views/admin/news_items/new.haml
+13	15	app/views/admin/polls/index.haml
+2	2	app/views/homepage/index.haml
+2	0	app/views/infos/_additional_news_items.haml
+3	1	app/views/infos/_news_item.haml
+19	14	app/views/infos/news.haml
+3	2	app/views/layouts/infos.haml
+1	0	config/locales/en.yml
+4	0	config/locales/fi.yml
+4	2	public/javascripts/kassi.js
+26	4	public/stylesheets/compiled/style.css
+
+--4ae0cfe57--2012-02-06--Juho Makkonen
+5	1	app/controllers/admin/news_items_controller.rb
+4	1	app/controllers/homepage_controller.rb
+4	0	app/controllers/infos_controller.rb
+19	0	app/stylesheets/style.scss
+18	0	app/views/admin/news_items/_new.haml
+1	16	app/views/admin/news_items/new.haml
+10	2	app/views/homepage/index.haml
+10	0	app/views/infos/news.haml
+3	0	config/locales/en.yml
+3	0	config/locales/fi.yml
+9	0	db/migrate/20120206052931_add_all_users_can_add_news_to_communities.rb
+1	1	db/schema.rb
+1	0	public/javascripts/kassi.js
+23	0	public/stylesheets/compiled/style.css
+
+--762f42325--2011-12-23--Juho Makkonen
+1	1	app/mailers/person_mailer.rb
+1	3	app/stylesheets/style.scss
+4	4	app/views/homepage/_news_item.haml
+2	0	config/locales/fi.yml
+6	6	public/javascripts/kassi.js
+1	1	public/stylesheets/compiled/style.css
+
+--8475d3f30--2011-12-19--Juho Makkonen
+9	1	app/stylesheets/style.scss
+22	8	app/views/homepage/_news_item.haml
+7	2	app/views/homepage/index.haml
+3	0	config/locales/en.yml
+3	0	config/locales/fi.yml
+30	17	public/javascripts/kassi.js
+6	0	public/stylesheets/compiled/style.css
+
+--ba2303a8c--2011-12-11--Juho Makkonen
+102	0	app/controllers/admin/polls_controller.rb
+23	0	app/controllers/poll_answers_controller.rb
+5	0	app/models/community.rb
+2	0	app/models/person.rb
+22	0	app/models/poll.rb
+6	0	app/models/poll_answer.rb
+6	0	app/models/poll_option.rb
+113	5	app/stylesheets/style.scss
+9	0	app/views/admin/polls/_edit_poll_links.haml
+6	0	app/views/admin/polls/_new_option.haml
+11	0	app/views/admin/polls/_poll.haml
+4	0	app/views/admin/polls/_poll_answer.haml
+1	0	app/views/admin/polls/_poll_status.haml
+2	0	app/views/admin/polls/add_option.js.erb
+15	0	app/views/admin/polls/index.haml
+18	0	app/views/admin/polls/new.haml
+15	0	app/views/admin/polls/open.js.erb
+2	0	app/views/admin/polls/remove_option.js.erb
+26	0	app/views/admin/polls/show.haml
+28	0	app/views/homepage/_poll_form.haml
+7	0	app/views/homepage/index.haml
+1	1	app/views/layouts/admin.haml
+5	0	app/views/poll_answers/create.js.erb
+43	0	config/locales/en.yml
+39	3	config/locales/fi.yml
+11	0	config/routes.rb
+17	0	db/migrate/20111210165312_create_polls.rb
+15	0	db/migrate/20111210165854_create_poll_options.rb
+16	0	db/migrate/20111210170231_create_poll_answers.rb
+9	0	db/migrate/20111211175403_change_poll_option_percentage_default_to_0.rb
+21	0	public/javascripts/kassi.js
+143	25	public/stylesheets/compiled/style.css
+5	0	spec/models/poll_answer_spec.rb
+5	0	spec/models/poll_option_spec.rb
+5	0	spec/models/poll_spec.rb
+
+--4bf38a2e7--2011-12-05--Juho Makkonen
+2	0	app/views/homepage/index.haml
+19	0	config/locales/en.yml
+1	0	config/locales/fi.yml
+
+--6bb6bf5c9--2011-11-28--Juho Makkonen
+26	5	app/controllers/admin/news_items_controller.rb
+4	0	app/controllers/infos_controller.rb
+1	1	app/helpers/application_helper.rb
+74	22	app/stylesheets/style.scss
+17	4	app/views/admin/news_items/_news_item.haml
+14	4	app/views/admin/news_items/index.haml
+5	2	app/views/admin/news_items/new.haml
+4	4	app/views/homepage/_news_item.haml
+3	3	app/views/homepage/index.haml
+8	0	app/views/infos/_news_item.haml
+5	0	app/views/infos/news.haml
+1	1	app/views/layouts/_logged_in.haml
+2	2	app/views/layouts/admin.haml
+5	3	app/views/layouts/infos.haml
+12	1	config/locales/fi.yml
+1	3	config/routes.rb
+9	0	db/migrate/20111124174508_change_content_from_string_to_text_in_news_items.rb
+16	0	public/javascripts/kassi.js
+83	23	public/stylesheets/compiled/style.css
+
+--d6c01090a--2011-11-24--Juho Makkonen
+2	0	app/controllers/admin/news_items_controller.rb
+52	0	app/stylesheets/style.scss
+4	0	app/views/admin/news_items/_news_item.haml
+13	0	app/views/admin/news_items/new.haml
+1	1	app/views/layouts/admin.haml
+9	0	config/locales/fi.yml
+82	0	public/stylesheets/compiled/style.css
+
+--a71de196f--2011-11-23--Juho Makkonen
+26	0	app/controllers/admin/news_items_controller.rb
+2	0	app/controllers/homepage_controller.rb
+1	0	app/models/community.rb
+9	0	app/models/news_item.rb
+18	0	app/stylesheets/style.scss
+0	0	app/views/admin/news_items/_news_item.haml
+5	0	app/views/admin/news_items/index.haml
+8	0	app/views/homepage/_news_item.haml
+9	1	app/views/homepage/index.haml
+1	1	app/views/layouts/_logged_in.haml
+10	22	app/views/layouts/admin.haml
+4	1	config/locales/fi.yml
+5	0	config/routes.rb
+16	0	db/migrate/20111123071116_create_news_items.rb
+9	0	db/migrate/20111123071850_add_news_enabled_to_communities.rb
+1	0	db/schema.rb
+31	0	public/stylesheets/compiled/style.css
+5	0	spec/models/news_item_spec.rb
+
+--e7afe55eb--2012-02-13--Antti Virolainen
+6	1	app/models/testimonial.rb
+
+--cbf25b666--2012-02-13--Antti Virolainen
+--fd6619a7a--2012-02-13--Juho Makkonen
+1	1	app/controllers/application_controller.rb
+1	0	app/mailers/person_mailer.rb
+26	0	features/invitations/user_joins_invite_only_community.feature
+5	2	features/step_definitions/community_steps.rb
+
+--fdc134b53--2012-02-13--Antti Virolainen
+26	12	app/controllers/sessions_controller.rb
+7	2	app/controllers/terms_controller.rb
+18	7	app/views/sessions/_password_forgotten.haml
+8	3	config/routes.rb
+
+--bd780a4d0--2012-02-12--Antti Virolainen
+1	1	app/controllers/confirmations_controller.rb
+1	1	app/views/devise/mailer/confirmation_instructions.html.haml
+3	2	config/routes.rb
+
+--660bdf367--2012-02-12--Antti Virolainen
+3	3	app/models/person.rb
+
+--d63e7373e--2012-02-12--Antti Virolainen
+5	3	config/routes.rb
+
+--98ae993a6--2012-02-12--Antti Virolainen
+5	0	app/controllers/people_controller.rb
+7	6	app/controllers/settings_controller.rb
+6	7	app/views/settings/profile.haml
+
+--251d84e9a--2012-02-11--Antti Virolainen
+1	1	app/controllers/application_controller.rb
+3	3	app/controllers/people_controller.rb
+6	3	app/controllers/sessions_controller.rb
+20	2	app/helpers/application_helper.rb
+111	100	app/models/asi_person.rb
+1	1	app/models/invitation.rb
+65	38	app/models/person.rb
+3	3	config/routes.rb
+2	2	features/listings/user_creates_a_new_listing.feature
+1	1	features/listings/user_edits_his_own_listing.feature
+6	6	features/step_definitions/user_steps.rb
+4	0	spec/controllers/people_controller_spec.rb
+3	3	spec/controllers/sessions_controller_spec.rb
+2	2	spec/helpers/locations_helper_spec.rb
+1	1	spec/models/invitation_spec.rb
+241	106	spec/models/person_spec.rb
+27	23	spec/spec_helper.rb
+30	17	test/helper_modules.rb
+
+--de80581fd--2012-02-10--Antti Virolainen
+1	1	app/models/invitation.rb
+5	5	app/models/person.rb
+1	1	spec/models/invitation_spec.rb
+
+--25433d290--2012-02-09--Juho Makkonen
+--74352affb--2012-02-09--Juho Makkonen
+5	1	communities/ankkuri/frontpage_sidebar/frontpage_sidebar.en.haml
+5	1	communities/ankkuri/frontpage_sidebar/frontpage_sidebar.fi.haml
+
+--cb7b9d699--2012-02-09--Antti Virolainen
+4	0	config/initializers/i18n.rb
+
+--cd9e1f387--2012-02-09--Antti Virolainen
+--9806a3cd2--2012-02-09--Antti Virolainen
+125	0	communities/default/terms/terms.ca.haml
+125	0	communities/default/terms/terms.es-ES.haml
+984	0	config/locales/ca.yml
+986	0	config/locales/es-ES.yml
+86	98	config/locales/es.yml
+22	0	public/javascripts/locales/ca.json
+22	0	public/javascripts/locales/es-ES.json
+
+--1d69e5b57--2012-02-09--Juho Makkonen
+5	5	communities/pitajanmaki/frontpage_sidebar/frontpage_sidebar.en.haml
+4	4	communities/pitajanmaki/frontpage_sidebar/frontpage_sidebar.fi.haml
+
+--9a6b88d00--2012-02-08--Juho Makkonen
+11	0	communities/htckeilaniemi/frontpage_sidebar/frontpage_sidebar.en.haml
+11	0	communities/htckeilaniemi/frontpage_sidebar/frontpage_sidebar.fi.haml
+
+--be9055425--2012-02-08--Juho Makkonen
+1	1	communities/pitajanmaki/frontpage_sidebar/frontpage_sidebar.en.haml
+1	1	communities/pitajanmaki/frontpage_sidebar/frontpage_sidebar.fi.haml
+1	1	communities/pitajanmaki/teaser_welcome_text/teaser_welcome_text.en.haml
+1	1	communities/pitajanmaki/teaser_welcome_text/teaser_welcome_text.fi.haml
+
+--dd217deb2--2012-02-08--Juho Makkonen
+1	1	communities/pitajanmaki/frontpage_sidebar/frontpage_sidebar.en.haml
+1	1	communities/pitajanmaki/frontpage_sidebar/frontpage_sidebar.fi.haml
+
+--aca5e664e--2012-02-08--Juho Makkonen
+--785d5a86f--2012-02-08--Juho Makkonen
+4	1	app/views/sessions/confirmation_pending.haml
+5	1	communities/pitajanmaki/frontpage_sidebar/frontpage_sidebar.en.haml
+1	1	communities/pitajanmaki/frontpage_sidebar/frontpage_sidebar.fi.haml
+17	12	communities/pitajanmaki/teaser_welcome_text/teaser_welcome_text.en.haml
+17	11	communities/pitajanmaki/teaser_welcome_text/teaser_welcome_text.fi.haml
+1	0	config/locales/en.yml
+1	0	config/locales/fi.yml
+
+--c846f3153--2012-02-08--Antti Virolainen
+1	1	app/mailers/person_mailer.rb
+
+--8fe6f067b--2012-02-08--Juho Makkonen
+2	1	app/views/homepage/_profile_info_empty_notification.haml
+1	1	app/views/homepage/_recent_listing.haml
+6	1	communities/pitajanmaki/frontpage_sidebar/frontpage_sidebar.fi.haml
+1	1	communities/pitajanmaki/teaser_welcome_text/teaser_welcome_text.en.haml
+1	1	communities/pitajanmaki/teaser_welcome_text/teaser_welcome_text.fi.haml
+2	1	config/locales/en.yml
+2	1	config/locales/fi.yml
+44	29	db/schema.rb
+1	0	features/invitations/user_invites_another_user.feature
+2	1	features/step_definitions/community_steps.rb
+
+--ab30d8c2b--2012-02-08--Juho Makkonen
+2	1	app/controllers/people_controller.rb
+1	1	app/views/homepage/index.haml
+3	1	app/views/people/new.haml
+4	4	app/views/person_mailer/invitation_to_kassi.html.haml
+2	4	features/invitations/user_invites_another_user.feature
+35	6	features/invitations/user_joins_invite_only_community.feature
+1	1	features/step_definitions/community_steps.rb
+2	0	features/support/paths.rb
+
+--7d49a63ea--2012-02-08--Antti Virolainen
+1	1	app/views/listings/show.haml
+
+--9cc2c0143--2012-02-08--Antti Virolainen
+2	1	app/views/homepage/_recent_listing_sign_in_page.haml
+
+--ff54374ca--2012-02-08--Antti Virolainen
+1	1	app/helpers/application_helper.rb
+1	1	app/views/layouts/application.haml
+4	4	app/views/listings/show.haml
+
+--796627d59--2012-02-08--Antti Virolainen
+2	1	app/views/listings/_listed_listing.haml
+
+--459973320--2012-02-08--Antti Virolainen
+2	1	app/views/homepage/_recent_listing.haml
+9	0	db/migrate/20120208145336_add_show_date_in_listings_lists_to_communities.rb
+31	44	db/schema.rb
+
+--6e6e424af--2012-02-08--Antti Virolainen
+2	2	app/views/listings/_listings_on_map.haml
+1	1	app/views/listings/form/_javascripts.haml
+1	1	app/views/listings/show.haml
+1	1	app/views/people/show.haml
+1	1	app/views/settings/profile.haml
+
+--92bfcc1c9--2012-02-07--Antti Virolainen
+125	0	communities/default/terms/terms.es.haml
+998	0	config/locales/es.yml
+22	0	public/javascripts/locales/es.json
+
+--c17cdac61--2012-02-04--Juho Makkonen
+4	2	communities/ospn/teaser_welcome_text/teaser_welcome_text.en.haml
+1	1	communities/ospn/teaser_welcome_text_title/teaser_welcome_text_title.en.haml
+-	-	public/images/private_community/promo_images_ospn.png
+
+--170f00677--2012-02-03--Juho Makkonen
+1	3	communities/kallio/frontpage_sidebar/frontpage_sidebar.en.haml
+1	3	communities/kallio/frontpage_sidebar/frontpage_sidebar.fi.haml
+1	1	communities/kallio/teaser_welcome_text/teaser_welcome_text.fi.haml
+
+--161069b72--2012-02-03--Juho Makkonen
+2	2	app/controllers/dashboard_controller.rb
+8	0	communities/ankkuri/frontpage_sidebar/frontpage_sidebar.en.haml
+8	0	communities/ankkuri/frontpage_sidebar/frontpage_sidebar.fi.haml
+12	0	communities/ankkuri/teaser_welcome_text/teaser_welcome_text.en.haml
+11	0	communities/ankkuri/teaser_welcome_text/teaser_welcome_text.fi.haml
+10	0	communities/kallio/frontpage_sidebar/frontpage_sidebar.en.haml
+10	0	communities/kallio/frontpage_sidebar/frontpage_sidebar.fi.haml
+12	0	communities/kallio/teaser_welcome_text/teaser_welcome_text.en.haml
+11	0	communities/kallio/teaser_welcome_text/teaser_welcome_text.fi.haml
+
+--ce4170233--2012-02-01--Juho Makkonen
+--071d6e944--2012-02-01--Juho Makkonen
+1	1	app/controllers/dashboard_controller.rb
+
+--4fc6302ee--2012-01-31--Antti Virolainen
+3	0	config/initializers/i18n.rb
+
+--4249a7b7e--2012-01-31--Juho Makkonen
+1	1	communities/ospn/signup_information/signup_information.en.haml
+4	4	config/locales/en.yml
+1	1	features/common/user_changes_language.feature
+3	3	features/communities/user_sees_available_locales.feature
+2	2	features/conversations/user_accepts_a_request.feature
+6	6	features/conversations/user_checks_inbox.feature
+1	1	features/conversations/user_gives_feedback_from_transaction.feature
+1	1	features/conversations/user_rejects_a_request.feature
+4	4	features/conversations/user_requests_an_item_in_item_offer.feature
+1	1	features/conversations/user_skips_feedback.feature
+10	11	features/homepage/user_views_homepage.feature
+2	2	features/listings/user_browses_listings.feature
+8	5	features/listings/user_creates_a_new_listing.feature
+1	1	features/listings/user_views_a_single_listing.feature
+1	0	features/people/user_views_profile_badges.feature
+9	9	features/ridesharing/user_offers_a_ride.feature
+10	2	features/step_definitions/badge_steps.rb
+-	-	public/images/private_community/promo_images_ospn.png
+
+--9fd4e250f--2012-01-31--Juho Makkonen
+1	1	app/controllers/listings_controller.rb
+6	0	app/stylesheets/style.scss
+22	0	app/stylesheets/style_login_screen.scss
+1	1	app/views/homepage/index.haml
+3	3	app/views/homepage/sign_in.haml
+9	8	app/views/layouts/private.haml
+27	24	app/views/listings/form/_form_content.haml
+1	1	app/views/people/new.haml
+1	0	communities/default/private_community_image_header/private_community_image_header.haml
+1	0	communities/default/teaser_welcome_text_title/teaser_welcome_text_title.haml
+1	0	communities/ospn/private_community_image_header/private_community_image_header.haml
+3	1	communities/ospn/teaser_welcome_text/teaser_welcome_text.en.haml
+1	0	communities/ospn/teaser_welcome_text_title/teaser_welcome_text_title.en.haml
+3	3	communities/pikkuhuopalahti/teaser_welcome_text/teaser_welcome_text.en.haml
+3	3	communities/pikkuhuopalahti/teaser_welcome_text/teaser_welcome_text.fi.haml
+6	4	config/locales/en.yml
+6	4	config/locales/fi.yml
+-	-	public/images/private_community/promo_images_ospn.png
+6	0	public/stylesheets/compiled/style.css
+23	0	public/stylesheets/compiled/style_login_screen.css
+
+--128071392--2012-01-27--Juho Makkonen
+1	1	app/stylesheets/style.scss
+44	44	config/locales/en.yml
+11	11	config/locales/fi.yml
+1	1	public/stylesheets/compiled/style.css
+
+--abe20072c--2012-01-27--Juho Makkonen
+10	13	app/stylesheets/style_login_screen.scss
+2	2	app/views/homepage/sign_in.haml
+1	1	app/views/people/_help_texts.haml
+1	1	app/views/people/new.haml
+1	1	app/views/terms/show.haml
+1	1	config/locales/en.yml
+13	13	public/stylesheets/compiled/style_login_screen.css
+
+--e01111cb0--2012-01-26--Juho Makkonen
+1	1	communities/default/frontpage_sidebar/frontpage_sidebar.en.haml
+1	1	communities/default/frontpage_sidebar/frontpage_sidebar.fi.haml
+
+--aaebc1d7e--2012-01-25--Juho Makkonen
+1	1	app/models/community.rb
+
+--2515fc5d1--2012-01-25--Juho Makkonen
+1	0	Gemfile
+4	0	Gemfile.lock
+1	1	app/controllers/dashboard_controller.rb
+2	1	app/models/community.rb
+11	2	app/stylesheets/style_dashboard.scss
+4	4	app/views/dashboard/okl.haml
+9	3	app/views/people/new.haml
+1	1	communities/default/teaser_welcome_text/teaser_welcome_text.haml
+-	-	communities/okl_associations.xls
+3	0	config/locales/en.yml
+3	0	config/locales/fi.yml
+16	0	lib/tasks/excel.rake
+53	0	public/404.el.html
+53	0	public/500.el.html
+367	711	public/javascripts/jquery.ui.selectmenu.js
+2	2	public/javascripts/kassi_dashboard.js
+13	2	public/stylesheets/compiled/style_dashboard.css
+2	3	public/stylesheets/ui.selectmenu.css
+1	1	spec/models/community_spec.rb
+
+--345903047--2012-01-25--Juho Makkonen
+10	10	app/views/homepage/sign_in.haml
+17	1	app/views/layouts/dashboard.haml
+
+--fcf2207d7--2012-01-25--Juho Makkonen
+2	2	app/views/layouts/application.haml
+1	1	app/views/layouts/private.haml
+1	1	communities/default/fb_graph_description/fb_graph_description.haml
+
+--039a37294--2012-01-24--Antti Virolainen
+1	1	app/models/person.rb
+
+--3925df688--2012-01-24--Juho Makkonen
+3	1	communities/pikkuhuopalahti/frontpage_sidebar/frontpage_sidebar.en.haml
+3	1	communities/pikkuhuopalahti/frontpage_sidebar/frontpage_sidebar.fi.haml
+
+--1d209713d--2012-01-23--Antti Virolainen
+7	1	app/controllers/people_controller.rb
+2	1	app/models/person.rb
+4	1	app/views/people/new.haml
+1	0	config/locales/en.yml
+1	1	config/locales/fi.yml
+
+--68b0f8af0--2012-01-22--Antti Virolainen
+1	1	communities/default/teaser_welcome_text/teaser_welcome_text.haml
+
+--365ea345d--2012-01-22--Juho Makkonen
+1	1	communities/default/fb_graph_description/fb_graph_description.haml
+2	1	communities/default/teaser_welcome_text/teaser_welcome_text.haml
+
+--8aeac8295--2012-01-22--Juho Makkonen
+1	1	app/views/layouts/application.haml
+9	17	app/views/layouts/dashboard.haml
+0	2	app/views/layouts/private.haml
+1	2	communities/default/teaser_welcome_text/teaser_welcome_text.haml
+
+--95a71c66a--2012-01-22--Juho Makkonen
+2	3	app/views/layouts/application.haml
+16	9	app/views/layouts/dashboard.haml
+
+--8af871b51--2012-01-22--Juho Makkonen
+13	5	app/views/layouts/application.haml
+7	1	app/views/layouts/dashboard.haml
+8	1	app/views/layouts/private.haml
+1	9	app/views/listings/show.haml
+
+--a5d17941b--2012-01-21--Juho Makkonen
+3	1	app/stylesheets/style_dashboard.scss
+1	1	app/views/layouts/dashboard.haml
+3	2	app/views/layouts/private.haml
+3	0	public/stylesheets/compiled/style_dashboard.css
+2	0	public/stylesheets/compiled/style_login_screen.css
+
+--ea39ab78a--2012-01-21--Juho Makkonen
+43	1	app/stylesheets/style_dashboard.scss
+16	0	app/views/dashboard/_lower_middle.haml
+3	1	app/views/layouts/application.haml
+2	0	app/views/layouts/dashboard.haml
+2	0	app/views/layouts/private.haml
+5	0	config/locales/en.yml
+5	0	config/locales/fi.yml
+34	1	public/stylesheets/compiled/style_dashboard.css
+
+--91cf3371c--2012-01-21--Juho Makkonen
+1	1	app/views/dashboard/_header.haml
+
+--d5f7c6227--2012-01-21--Juho Makkonen
+1	0	app/controllers/dashboard_controller.rb
+
+--db9c9ec5b--2012-01-21--Juho Makkonen
+1	1	app/controllers/application_controller.rb
+28	0	app/controllers/dashboard_controller.rb
+4	4	app/controllers/homepage_controller.rb
+5	0	app/helpers/dashboard_helper.rb
+45	2	app/stylesheets/style_dashboard.scss
+64	0	app/stylesheets/style_login_screen.scss
+25	0	app/views/dashboard/_footer.haml
+17	0	app/views/dashboard/_header.haml
+13	0	app/views/dashboard/_lower_middle.haml
+4	59	app/views/dashboard/index.haml
+62	0	app/views/dashboard/okl.haml
+39	0	app/views/dashboard/wdc.en.haml
+56	0	app/views/dashboard/wdc.fi.haml
+1	0	app/views/layouts/_no_javascript.haml
+32	0	app/views/layouts/_no_javascript_private.haml
+2	2	app/views/layouts/private.haml
+7	4	app/views/listings/form/_visibility.haml
+4	0	config/routes.rb
+9	0	db/migrate/20120121091558_add_label_to_communities.rb
+2	1	db/schema.rb
+-	-	public/images/dashboard/helsinki200v_logo.png
+-	-	public/images/dashboard/kassi_email_address2.png
+-	-	public/images/dashboard/kassi_homepage_screenshot_fi.png
+-	-	public/images/dashboard/kassi_map_screenshot.png
+-	-	public/images/dashboard/okl_logo.png
+-	-	public/images/dashboard/wdc_logo.png
+1	0	public/javascripts/kassi.js
+12	0	public/javascripts/kassi_dashboard.js
+46	0	public/stylesheets/compiled/style_dashboard.css
+75	0	public/stylesheets/compiled/style_login_screen.css
+
+--c970e8111--2012-01-16--Juho Makkonen
+9	9	app/views/homepage/sign_in.haml
+4	0	communities/hoaskamppi/frontpage_sidebar/frontpage_sidebar.en.haml
+4	0	communities/hoaskamppi/frontpage_sidebar/frontpage_sidebar.fi.haml
+2	0	communities/hoaskamppi/teaser_welcome_text/teaser_welcome_text.en.haml
+
+--ef3e4145a--2012-01-16--Juho Makkonen
+1	1	app/controllers/application_controller.rb
+5	1	app/controllers/sessions_controller.rb
+
+--12ccea8a2--2012-01-16--Juho Makkonen
+8	1	app/controllers/application_controller.rb
+5	2	app/controllers/homepage_controller.rb
+2	0	app/controllers/people_controller.rb
+2	1	app/controllers/terms_controller.rb
+5	69	app/stylesheets/style.scss
+545	0	app/stylesheets/style_login_screen.scss
+2	2	app/views/homepage/_recent_listing_sign_in_page.haml
+36	30	app/views/homepage/sign_in.haml
+1	1	app/views/layouts/_notifications.haml
+48	35	app/views/layouts/private.haml
+53	52	app/views/people/new.haml
+28	12	app/views/terms/show.haml
+7	0	communities/hoaskamppi/teaser_welcome_text/teaser_welcome_text.fi.haml
+7	0	config/locales/en.yml
+7	0	config/locales/fi.yml
+-	-	public/images/private_community/promo_images.png
+111	79	public/javascripts/kassi.js
+5	99	public/stylesheets/compiled/style.css
+537	0	public/stylesheets/compiled/style_login_screen.css
+
+--75dbb35ba--2012-01-14--Antti Virolainen
+1	1	app/controllers/confirmations_controller.rb
+1	1	app/models/person.rb
+1	1	config/initializers/devise.rb
+4	1	config/routes.rb
+
+--e74d95845--2012-01-14--Juho Makkonen
+6	0	app/controllers/application_controller.rb
+17	0	app/controllers/homepage_controller.rb
+10	0	app/controllers/people_controller.rb
+6	1	app/controllers/sessions_controller.rb
+12	0	app/controllers/terms_controller.rb
+74	5	app/stylesheets/style.scss
+1	0	app/views/homepage/_offer_spacer_wide.haml
+3	0	app/views/homepage/_recent_listing_sign_in_page.haml
+1	0	app/views/homepage/_request_spacer_wide.haml
+46	0	app/views/homepage/sign_in.haml
+0	4	app/views/layouts/application.haml
+78	0	app/views/layouts/private.haml
+1	1	communities/pikkuhuopalahti/frontpage_sidebar/frontpage_sidebar.en.haml
+8	0	communities/pitajanmaki/frontpage_sidebar/frontpage_sidebar.en.haml
+8	0	communities/pitajanmaki/frontpage_sidebar/frontpage_sidebar.fi.haml
+12	0	communities/pitajanmaki/teaser_welcome_text/teaser_welcome_text.en.haml
+11	0	communities/pitajanmaki/teaser_welcome_text/teaser_welcome_text.fi.haml
+3	0	config/locales/en.yml
+3	0	config/locales/fi.yml
+5	0	config/routes.rb
+9	0	db/migrate/20120113091548_add_private_to_communities.rb
+2	1	db/schema.rb
+101	0	public/stylesheets/compiled/style.css
+
+--cede6284b--2012-01-13--Antti Virolainen
+11	5	app/controllers/application_controller.rb
+1	1	app/controllers/listings_controller.rb
+1	1	app/controllers/sessions_controller.rb
+
+--15ae08f37--2012-01-13--Juho Makkonen
+8	0	communities/pikkuhuopalahti/frontpage_sidebar/frontpage_sidebar.en.haml
+8	0	communities/pikkuhuopalahti/frontpage_sidebar/frontpage_sidebar.fi.haml
+12	0	communities/pikkuhuopalahti/teaser_welcome_text/teaser_welcome_text.en.haml
+11	0	communities/pikkuhuopalahti/teaser_welcome_text/teaser_welcome_text.fi.haml
+-	-	public/images/community_images/Helsinki200v_logo.png
+-	-	public/images/community_images/WDC2012_logo.png
+
+--2b78defbc--2012-01-12--Antti Virolainen
+4	4	app/controllers/sessions_controller.rb
+55	59	config/routes.rb
+33	0	lib/console scripts/userdata_from_asi.rb
+
+--854c30206--2012-01-12--Juho Makkonen
+43	6	db/schema.rb
+2	2	features/listings/user_creates_a_new_listing.feature
+1	1	features/listings/user_edits_his_own_listing.feature
+2	2	spec/helpers/locations_helper_spec.rb
+
+--d5a5262f8--2012-01-12--Juho Makkonen
+--313d547e3--2012-01-12--Juho Makkonen
+4	0	communities/upatras/frontpage_sidebar/frontpage_sidebar.en.haml
+2	0	communities/upatras/teaser_welcome_text/teaser_welcome_text.en.haml
+
+--ca8a0c4a2--2012-01-10--Antti Virolainen
+0	1	Gemfile
+0	2	Gemfile.lock
+6	6	app/controllers/application_controller.rb
+19	5	app/controllers/people_controller.rb
+77	68	app/controllers/sessions_controller.rb
+3	3	app/models/person.rb
+0	6	app/views/layouts/application.haml
+1	1	app/views/people/new.haml
+2	2	app/views/sessions/new.haml
+5	5	config/routes.rb
+2	2	public/javascripts/kassi.js
+30	0	vendor/plugins/np_guid/init.rb
+54	0	vendor/plugins/np_guid/lib/usesnpguid.rb
+43	0	vendor/plugins/np_guid/lib/uuid22.rb
+572	0	vendor/plugins/np_guid/lib/uuidtools.rb
+
+--65a7c09a1--2012-01-10--Antti Virolainen
+1	1	Gemfile
+2	3	Gemfile.lock
+23	19	config/initializers/devise.rb
+31	7	db/migrate/20110914080549_add_devise_without_confirmable_to_people.rb
+10	1	db/migrate/20110915084232_add_devise_to_people.rb
+20	20	db/schema.rb
+
+--aaed3e250--2012-01-09--Antti Virolainen
+12	6	app/models/person.rb
+2	1	config/config.example.yml
+3	1	config/initializers/devise.rb
+15	0	lib/devise/encryptors/asi.rb
+
+--c18561549--2012-01-09--Antti Virolainen
+4	4	Gemfile.lock
+
+--edc7dbb70--2012-01-09--Antti Virolainen
+1	1	Gemfile
+2	0	Gemfile.lock
+74	51	app/controllers/sessions_controller.rb
+10	8	app/models/person.rb
+3	0	app/views/devise/registrations/new.html.erb
+11	3	app/views/devise/sessions/new.html.erb
+6	0	app/views/layouts/application.haml
+1	1	config/initializers/devise.rb
+5	3	config/routes.rb
+0	30	vendor/plugins/guid/init.rb
+0	46	vendor/plugins/guid/lib/usesguid.rb
+0	43	vendor/plugins/guid/lib/uuid22.rb
+0	572	vendor/plugins/guid/lib/uuidtools.rb
+0	30	vendor/plugins/np_guid/init.rb
+0	54	vendor/plugins/np_guid/lib/usesnpguid.rb
+0	43	vendor/plugins/np_guid/lib/uuid22.rb
+0	572	vendor/plugins/np_guid/lib/uuidtools.rb
+
+--f26e9ac0d--2012-01-09--Antti Virolainen
+8	1	config/routes.rb
+
+--b2e4c27c8--2012-01-07--Juho Makkonen
+1	1	config/locales/en.yml
+4	0	config/locales/fi.yml
+
+--3eb8a9a51--2012-01-05--Antti Virolainen
+2	2	app/models/person.rb
+
+--e2cb0b7f0--2012-01-05--Antti Virolainen
+5	2	app/controllers/people_controller.rb
+2	2	app/models/person.rb
+
+--4101451d7--2012-01-05--Antti Virolainen
+11	0	lib/tasks/kassi.rake
+
+--8e0fc626c--2012-01-05--Antti Virolainen
+2	1	app/controllers/application_controller.rb
+1	1	app/controllers/people_controller.rb
+5	4	app/controllers/settings_controller.rb
+11	3	app/helpers/application_helper.rb
+0	8	app/models/asi_person.rb
+354	405	app/models/person.rb
+1	1	app/views/settings/avatar.haml
+8	7	app/views/settings/profile.haml
+11	0	db/migrate/20120104224115_add_phone_number_and_description_to_people.rb
+16	0	db/migrate/20120105162140_add_attachment_image_to_people.rb
+9	2	db/schema.rb
+24	0	lib/tasks/kassi.rake
+
+--66bd3c2d0--2012-01-03--Antti Virolainen
+1	1	Gemfile
+0	2	Gemfile.lock
+1	3	app/models/person.rb
+4	7	db/migrate/{20110914080549_add_devise_to_people.rb => 20110914080549_add_devise_without_confirmable_to_people.rb}
+5	1	db/migrate/20110915084232_add_devise_to_people.rb
+13	16	db/schema.rb
+30	0	vendor/plugins/guid/init.rb
+46	0	vendor/plugins/guid/lib/usesguid.rb
+43	0	vendor/plugins/guid/lib/uuid22.rb
+572	0	vendor/plugins/guid/lib/uuidtools.rb
+30	0	vendor/plugins/np_guid/init.rb
+54	0	vendor/plugins/np_guid/lib/usesnpguid.rb
+43	0	vendor/plugins/np_guid/lib/uuid22.rb
+572	0	vendor/plugins/np_guid/lib/uuidtools.rb
+
+--b1dc89949--2011-09-15--Antti Virolainen
+0	1	db/schema.rb
+
+--f50df604f--2011-09-15--Antti Virolainen
+1	0	Gemfile
+2	0	Gemfile.lock
+11	0	app/models/asi_person.rb
+18	23	app/models/person.rb
+1	1	app/views/layouts/application.haml
+2	3	config/routes.rb
+11	0	db/migrate/20110914115824_add_profile_attributes_to_people.rb
+2	1	db/schema.rb
+
+--830f39154--2011-09-14--Antti Virolainen
+14	357	app/models/person.rb
+0	3	config/environments/development.rb
+2	0	config/routes.rb
+55	0	db/migrate/20110914080549_add_devise_to_people.rb
+21	2	db/schema.rb
+
+--2dc212304--2011-08-02--Antti Virolainen
+415	0	app/models/asi_person.rb
+420	57	app/models/person.rb
+4	0	config/config.example.yml

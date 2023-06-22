@@ -1,0 +1,97 @@
+--1b31ee21e2--2014-07-21--Bradley Wright
+--25ec181b51--2014-07-21--Bradley Wright
+--194a60a599--2014-07-21--Alex Tomlins
+3	3	lib/tasks/router.rake
+
+--a7cf487565--2014-07-18--Pedro Moreira
+--8e6a2c94b1--2014-07-18--Pedro Moreira
+2	1	app/models/services_and_information_finder.rb
+1	0	test/unit/services_and_information_finder_test.rb
+
+--c0232a833b--2014-07-18--Pedro Moreira
+2	2	app/models/services_and_information_collection.rb
+5	13	app/models/services_and_information_parser.rb
+0	2	app/views/organisations/show.html.erb
+1	1	app/views/services_and_information/_collection_group.html.erb
+1	1	config/routes.rb
+2	7	features/services_and_information.feature
+4	9	features/step_definitions/services_and_information_steps.rb
+4	4	test/unit/services_and_information_collection_test.rb
+2	18	test/unit/services_and_information_parser_test.rb
+
+--8bcac7889b--2014-07-17--Pedro Moreira
+1	1	app/helpers/application_helper.rb
+
+--a8182de05a--2014-07-17--Pedro Moreira
+0	4	app/models/services_and_information_collection.rb
+1	1	app/views/organisations/show.html.erb
+1	1	config/routes.rb
+1	1	features/services_and_information.feature
+5	0	features/step_definitions/organisation_steps.rb
+0	1	lib/whitehall/not_quite_as_fake_search.rb
+
+--d5411d9dd1--2014-07-17--Pedro Moreira
+1	0	app/assets/stylesheets/frontend/base.scss
+15	0	app/assets/stylesheets/frontend/views/_services-and-information.scss
+10	5	app/views/services_and_information/_collection_group.html.erb
+19	1	app/views/services_and_information/show.html.erb
+
+--7bb7b55df0--2014-07-16--Pedro Moreira
+1	1	Gemfile
+2	2	Gemfile.lock
+1	2	features/services_and_information.feature
+6	5	features/step_definitions/services_and_information_steps.rb
+13	0	features/support/services_and_information_helper.rb
+1	6	lib/whitehall/not_quite_as_fake_search.rb
+0	71	test/fixtures/services_and_info_fixture.json
+2	2	test/unit/services_and_information_collection_test.rb
+1	1	test/unit/services_and_information_finder_test.rb
+13	12	test/unit/services_and_information_parser_test.rb
+
+--1dc9dbe38b--2014-07-14--Richard Boulton
+2	2	app/models/services_and_information_collection.rb
+1	1	app/models/services_and_information_finder.rb
+7	7	app/models/services_and_information_parser.rb
+
+--9325dc3fb9--2014-06-27--Pedro Moreira
+37	0	app/models/services_and_information_collection.rb
+25	0	app/models/services_and_information_finder.rb
+36	0	app/models/services_and_information_parser.rb
+1	1	features/step_definitions/services_and_information_steps.rb
+61	24	test/fixtures/services_and_info_fixture.json
+42	0	test/unit/services_and_information_collection_test.rb
+17	0	test/unit/services_and_information_finder_test.rb
+30	0	test/unit/services_and_information_parser_test.rb
+
+--f2a0e5f29b--2014-06-27--Pedro Moreira
+35	0	app/controllers/services_and_information_controller.rb
+2	0	app/views/organisations/show.html.erb
+7	0	app/views/services_and_information/_collection_group.html.erb
+1	0	app/views/services_and_information/show.html.erb
+2	0	config/routes.rb
+14	0	features/services_and_information.feature
+17	0	features/step_definitions/services_and_information_steps.rb
+
+--4b0debf60d--2014-06-27--Pedro Moreira
+3	0	config/initializers/rummager.rb
+1	0	lib/whitehall.rb
+6	0	lib/whitehall/not_quite_as_fake_search.rb
+34	0	test/fixtures/services_and_info_fixture.json
+
+--cc796dc332--2014-07-18--Paul Hayes
+1	1	app/assets/stylesheets/admin-ie6.scss
+1	1	app/assets/stylesheets/admin-ie7.scss
+1	1	app/assets/stylesheets/admin-ie8.scss
+0	1	app/views/layouts/admin.html.erb
+
+--bafd323177--2014-07-18--Paul Hayes
+0	12	app/assets/stylesheets/admin.css
+6	0	app/assets/stylesheets/admin.scss
+
+--665952e32e--2014-07-18--Tekin Suleyman
+--ede6a31363--2014-07-18--Edd Sowden
+0	33	app/assets/stylesheets/frontend/helpers/_headings.scss
+0	33	app/models/organisation.rb
+0	41	app/views/organisations/_alternate_style_top_tasks.html.erb
+6	11	app/views/organisations/_header.html.erb
+1	2	app/views/organisations/show.html.erb

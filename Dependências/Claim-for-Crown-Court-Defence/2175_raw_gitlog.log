@@ -1,0 +1,55 @@
+--4993bdbf3--2015-04-16--Himal Mandalia
+--dd500ccf0--2015-04-16--Himal Mandalia
+11	2	app/controllers/admin/users_controller.rb
+15	0	app/views/admin/users/allocate.html.haml
+3	0	app/views/admin/users/index.html.haml
+2	2	app/views/advocates/claims/_defendant_fields.html.haml
+1	1	app/views/case_workers/claims/index.html.haml
+3	1	config/routes.rb
+12	0	features/claim_allocation.feature
+37	0	features/step_definitions/claim_allocation_steps.rb
+42	0	spec/controllers/admin/users_controller_spec.rb
+
+--d1f180f04--2015-04-16--Edward Andress
+--c2ffbf7b4--2015-04-15--Himal Mandalia
+1	0	features/step_definitions/advocate_claims_steps.rb
+
+--cda14f26d--2015-04-15--Himal Mandalia
+1	1	app/controllers/advocates/claims_controller.rb
+4	0	app/controllers/case_workers/claims_controller.rb
+6	0	app/models/claim.rb
+3	0	app/models/defendant.rb
+2	2	app/views/advocates/claims/_defendant_fields.html.haml
+9	1	app/views/case_workers/claims/index.html.haml
+1	1	db/migrate/20150326145555_create_defendants.rb
+1	1	db/schema.rb
+5	0	features/caseworker_claims_list.feature
+12	0	features/step_definitions/caseworker_claims_list_steps.rb
+1	1	spec/factories/defendants.rb
+28	0	spec/models/claim_spec.rb
+2	0	spec/models/defendant_spec.rb
+
+--4a59585bc--2015-04-15--Himal Mandalia
+5	2	app/views/case_workers/claims/index.html.haml
+
+--0581ffb5d--2015-04-15--Himal Mandalia
+12	1	app/controllers/case_workers/claims_controller.rb
+1	1	app/views/case_workers/claims/index.html.haml
+
+--4ff2a0d60--2015-04-15--Himal Mandalia
+10	7	app/views/case_workers/claims/index.html.haml
+
+--740f5a153--2015-04-15--Himal Mandalia
+4	0	features/caseworker_claims_list.feature
+4	0	features/step_definitions/caseworker_claims_list_steps.rb
+
+--a6768089b--2015-04-15--Himal Mandalia
+5	0	app/views/case_workers/claims/_claim.html.haml
+1	5	app/views/case_workers/claims/index.html.haml
+
+--572d0e473--2015-04-15--Himal Mandalia
+9	1	app/controllers/case_workers/claims_controller.rb
+26	8	app/views/case_workers/claims/index.html.haml
+26	0	features/caseworker_claims_list.feature
+71	0	features/step_definitions/caseworker_claims_list_steps.rb
+1	1	spec/controllers/case_workers/claims_controller_spec.rb

@@ -1,0 +1,235 @@
+--77615e25b--2015-06-15--jsugarman
+--7df6bff7f--2015-06-10--jsugarman
+3	1	app/controllers/advocates/claims_controller.rb
+5	3	app/models/claim.rb
+9	0	app/models/evidence_list_item.rb
+8	0	app/models/evidence_list_item_claim.rb
+15	0	app/views/advocates/claims/_evidence_list_item_fields.html.haml
+5	1	app/views/advocates/claims/_form.html.haml
+1	1	app/views/advocates/claims/show.html.haml
+0	11	app/views/case_workers/claims/_evidence_list.html.haml
+1	1	app/views/case_workers/claims/show.html.haml
+1	0	app/views/layouts/advocate.html.haml
+1	0	app/views/layouts/application.html.haml
+1	0	app/views/layouts/case_worker.html.haml
+16	0	app/views/shared/_evidence_checklist.html.haml
+3	2	app/views/{advocates/claims => shared}/_evidence_list.html.haml
+11	0	db/migrate/20150610141015_create_evidence_list_items.rb
+15	0	db/migrate/20150610154552_create_evidence_list_item_claims.rb
+20	1	db/schema.rb
+1	0	db/seeds.rb
+1	0	db/seeds/document_types.rb
+10	0	db/seeds/evidence_list_items.rb
+19	0	features/claim_evidence_checklist.feature
+12	6	features/step_definitions/advocate_new_claim_steps.rb
+23	0	features/step_definitions/claim_evidence_checklist_steps.rb
+31	8	lib/tasks/claims.rake
+2	1	spec/controllers/advocates/claims_controller_spec.rb
+6	0	spec/factories/evidence_list_item_claims.rb
+10	0	spec/factories/evidence_list_items.rb
+3	0	spec/models/claim_spec.rb
+22	0	spec/models/evidence_list_item_claim_spec.rb
+43	0	spec/models/evidence_list_item_spec.rb
+
+--0e19c38ad--2015-06-15--Himal Mandalia
+0	3	Gemfile.lock
+
+--3c5516892--2015-06-15--Himal Mandalia
+--39a80ba80--2015-06-15--Stephen Richards
+--e4e0404b2--2015-06-12--Mark Ford
+11	7	app/assets/stylesheets/layout.scss
+6	7	app/views/layouts/_user.html.haml
+0	7	app/views/layouts/application.html.haml
+
+--f986f11ba--2015-06-12--Benedetto Lo Giudice
+3	0	Gemfile.lock
+
+--a0e5026c1--2015-06-12--Joel Sugarman
+--9c73169b8--2015-06-12--Himal Mandalia
+1	1	app/controllers/case_workers/admin/case_workers_controller.rb
+6	0	features/claim_allocation.feature
+8	0	features/step_definitions/claim_allocation_steps.rb
+1	1	spec/controllers/case_workers/admin/case_workers_controller_spec.rb
+
+--2f802804a--2015-06-12--Himal Mandalia
+--62806f461--2015-06-12--Himal Mandalia
+--72eddf15e--2015-06-12--Joel Sugarman
+--85d151156--2015-06-12--Himal Mandalia
+3	1	app/controllers/advocates/claims_controller.rb
+
+--9aa8c63c2--2015-06-12--Mark Ford
+4	2	app/assets/stylesheets/form.scss
+
+--054764da5--2015-06-12--Himal Mandalia
+0	3	Gemfile.lock
+4	4	app/controllers/advocates/claims_controller.rb
+26	3	app/controllers/case_workers/claims_controller.rb
+31	28	app/models/claim.rb
+11	0	app/views/advocates/claims/index.html.haml
+2	4	app/views/case_workers/claims/_search_form.html.haml
+12	11	app/views/case_workers/claims/index.html.haml
+2	2	features/step_definitions/advocate_claims_list_steps.rb
+5	3	features/step_definitions/caseworker_claims_list_steps.rb
+9	5	spec/controllers/case_workers/claims_controller_spec.rb
+87	103	spec/models/claim_spec.rb
+
+--a713b96b0--2015-06-12--Stephen Richards
+6	7	app/controllers/advocates/claims_controller.rb
+1	1	app/models/claim.rb
+10	2	app/models/claims/state_machine.rb
+2	2	app/views/advocates/claims/index.html.haml
+1	1	app/views/shared/_claim_status.html.haml
+76	67	spec/controllers/advocates/claims_controller_spec.rb
+17	0	spec/custom_matchers.rb
+0	6	spec/models/claims/state_machine_scopes_spec.rb
+
+--ce2cda6bc--2015-06-12--Stephen Richards
+--f8ce4a3ee--2015-06-12--Mark Ford
+2	0	app/views/advocates/claims/_form.html.haml
+
+--ed85aa362--2015-06-12--Himal Mandalia
+--4f5ad4589--2015-06-12--Himal Mandalia
+--034ce176e--2015-06-12--Himal Mandalia
+--3956c5503--2015-06-11--Stephen Richards
+2	4	app/views/advocates/claims/_representation_order.html.haml
+
+--3edc958c1--2015-06-11--Stephen Richards
+0	3	Gemfile.lock
+30	17	app/controllers/application_controller.rb
+1	1	features/sign_in.feature
+5	0	features/step_definitions/sign_in_steps.rb
+1	1	spec/controllers/application_controller_spec.rb
+
+--9a20cc6a7--2015-06-11--Stephen Richards
+0	3	Gemfile.lock
+5	1	app/assets/javascripts/application.js
+1	1	app/views/advocates/claims/_fee_fields.html.haml
+
+--cc5bc7168--2015-06-11--Mehmet Duran
+0	1	Gemfile
+0	11	Gemfile.lock
+0	3	app/assets/javascripts/advocates/dashboard.js.coffee
+0	3	app/assets/javascripts/case_workers/dashboard.js.coffee
+0	3	app/assets/javascripts/claims.js.coffee
+
+--5f199865d--2015-06-11--Mark Ford
+--ef1973cdf--2015-06-11--Himal Mandalia
+--642c298c4--2015-06-11--Stephen Richards
+--0704c7bdf--2015-06-11--Mark Ford
+1	1	app/assets/javascripts/fileinput.js
+
+--e8c425dad--2015-06-11--Mark Ford
+1	1	app/assets/javascripts/fileinput.js
+
+--74ba2e00d--2015-06-11--Stephen Richards
+4	4	app/views/advocates/claims/_representation_order.html.haml
+10	22	app/views/case_workers/claims/_representation_order.html.haml
+
+--b39e93c0a--2015-06-11--Himal Mandalia
+--fea896556--2015-06-11--Himal Mandalia
+--315d8a168--2015-06-11--Himal Mandalia
+23	3	app/controllers/advocates/claims_controller.rb
+5	0	app/models/claim.rb
+5	0	app/views/advocates/claims/_search_form.html.haml
+0	5	app/views/advocates/claims/_search_options.html.haml
+1	1	app/views/advocates/claims/index.html.haml
+1	17	features/advocate_claims_list.feature
+16	7	features/step_definitions/advocate_claims_list_steps.rb
+22	0	spec/models/claim_spec.rb
+
+--4096e2004--2015-06-11--Mark Ford
+1	0	app/assets/javascripts/fileinput.js
+
+--deb075949--2015-06-11--Stephen Richards
+1	1	app/assets/javascripts/advocates/claims/fee_calculator.js
+9	0	app/helpers/claims_helper.rb
+2	0	app/models/fee.rb
+5	5	app/views/advocates/claims/_basic_fees.html.haml
+32	0	spec/helpers/claims_helper_spec.rb
+12	2	spec/models/fee_spec.rb
+
+--dbf4d1485--2015-06-11--Mark Ford
+4	4	app/assets/javascripts/fileinput.js
+
+--cee587a4c--2015-06-11--Himal Mandalia
+--37f015449--2015-06-11--Mark Ford
+3	0	Gemfile.lock
+11	1	app/assets/javascripts/fileinput.js
+10	10	app/views/advocates/claims/_document_fields.html.haml
+7	9	app/views/advocates/claims/_representation_order_fields.html.haml
+
+--4d6c577c1--2015-06-11--Mark Ford
+--5baad8a7d--2015-06-11--Stephen Richards
+5	5	config/environments/development.rb
+2	2	config/environments/production.rb
+3	2	config/environments/test.rb
+6	0	lib/tasks/db.rake
+
+--b9ece2adf--2015-06-11--Joel Sugarman
+--399222e3a--2015-06-11--Himal Mandalia
+2	1	Gemfile
+7	0	Gemfile.lock
+24	0	config/initializers/squeel.rb
+
+--ccf3fd892--2015-06-11--Himal Mandalia
+--7585b8244--2015-06-11--Himal Mandalia
+--f1c436181--2015-06-10--Stephen Richards
+9	0	app/views/advocates/claims/_document_fields.html.haml
+13	2	app/views/advocates/claims/_representation_order_fields.html.haml
+
+--c22b56744--2015-06-10--Mark Ford
+--ec97cd007--2015-06-10--Stephen Richards
+0	2	app/models/representation_order.rb
+1	2	app/views/advocates/claims/_representation_order_fields.html.haml
+0	9	app/views/documents/_form.html.haml
+0	4	app/views/documents/new.html.haml
+0	0	app/views/documents/show.html.haml
+0	12	features/documents.feature
+0	13	features/step_definitions/document_steps.rb
+0	18	spec/controllers/advocates/claims_controller_spec.rb
+
+--ac142c5ee--2015-06-10--Mark Ford
+1	1	app/assets/javascripts/application.js
+
+--6c960cbc1--2015-06-10--Himal Mandalia
+2	1	app/views/case_workers/claims/_search_form.html.haml
+
+--3a7dafb69--2015-06-10--Stephen Richards
+17	10	spec/controllers/advocates/claims_controller_spec.rb
+-	-	spec/fixtures/files/repo_order_1.pdf
+
+--e5a0b6a54--2015-06-10--Joel Sugarman
+--28e4098ba--2015-06-10--Mark Ford
+7	7	app/assets/javascripts/judicialapportionment.js
+
+--ae7c38b8e--2015-06-10--Himal Mandalia
+1	0	app/controllers/case_workers/claims_controller.rb
+7	2	app/models/claim.rb
+1	0	app/views/case_workers/claims/{_search_options.html.haml => _search_form.html.haml}
+5	3	app/views/case_workers/claims/index.html.haml
+5	0	app/views/shared/_claim.html.haml
+23	1	spec/models/claim_spec.rb
+
+--46a8a57eb--2015-06-10--Stephen Richards
+5	0	spec/controllers/advocates/claims_controller_spec.rb
+
+--45232673b--2015-06-10--Stephen Richards
+0	16	app/controllers/documents_controller.rb
+
+--7a3c8ffd9--2015-06-09--Stephen Richards
+7	7	app/controllers/documents_controller.rb
+34	0	app/controllers/representation_orders_controller.rb
+12	0	app/models/defendant.rb
+4	2	app/models/representation_order.rb
+10	16	app/views/advocates/claims/_representation_order.html.haml
+7	0	config/environments/development.rb
+7	0	config/environments/production.rb
+6	0	config/environments/test.rb
+4	0	config/routes.rb
+19	4	spec/controllers/advocates/claims_controller_spec.rb
+25	1	spec/models/defendant_spec.rb
+
+--422090b52--2015-06-10--Mark Ford
+1	0	app/assets/javascripts/application.js
+7	5	app/assets/javascripts/judicialapportionment.js
+5	0	app/assets/stylesheets/form.scss

@@ -1,0 +1,24 @@
+--3008905dc--2015-10-01--Alistair Laing
+--859421707--2015-10-01--Alistair Laing
+26	1	app/assets/stylesheets/form.scss
+6	0	app/assets/stylesheets/typography.scss
+7	4	app/views/advocates/claims/_expense_fields.html.haml
+5	3	app/views/advocates/claims/_form.html.haml
+7	5	config/locales/en.yml
+
+--301408b2a--2015-10-01--Himal Mandalia
+--c28da0b18--2015-10-01--jsugarman
+7	7	features/claim_status.feature
+
+--9d3840165--2015-10-01--jsugarman
+1	1	app/controllers/case_workers/claims_controller.rb
+2	2	app/validators/claim_textfield_validator.rb
+1	1	app/views/case_workers/claims/show.html.haml
+6	5	features/claim_status.feature
+9	0	features/step_definitions/claim_status_steps.rb
+3	3	spec/validators/claim_textfield_validator_spec.rb
+
+--e782328d0--2015-10-01--jsugarman
+1	1	app/models/claim.rb
+16	1	features/claim_status.feature
+2	2	features/step_definitions/caseworker_claims_list_steps.rb

@@ -1,0 +1,26 @@
+--25fa7e70f--2011-05-17--Antti Virolainen
+--abb31cbd3--2011-05-11--Tomi Salminen
+90	0	features/ridesharing/user_offers_a_ride.feature
+
+--f1e9a03c7--2011-05-05--Tomi Salminen
+6	4	app/controllers/listings_controller.rb
+2	2	app/controllers/people_controller.rb
+2	1	features/listings/user_creates_a_new_listing.feature
+2	1	features/settings/user_updates_profile_information.feature
+1	1	features/step_definitions/general_steps.rb
+1	0	features/step_definitions/listing_steps.rb
+4	0	features/step_definitions/web_steps.rb
+7	3	public/javascripts/kassi.js
+
+--f47b86477--2011-05-05--tlsalmin
+6	0	app/controllers/listings_controller.rb
+6	0	app/controllers/people_controller.rb
+3	1	app/models/person.rb
+
+--4d981765c--2011-05-05--Eetu Jalonen
+9	0	db/migrate/20110505112659_remove_location_ok.rb
+1	2	db/schema.rb
+
+--2c91f57b0--2011-03-11--Antti Virolainen
+1	1	Gemfile
+2	8	Gemfile.lock

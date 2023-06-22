@@ -1,0 +1,86 @@
+--8a7f5d77--2015-08-11--Alan Thomas
+--18bef540--2015-08-10--Alan Thomas
+--f716fce5--2015-08-07--Andrew White
+38	0	app/controllers/admin/petition_emails_controller.rb
+1	0	app/views/admin/admin/_petition_action_email_petitioners.html.erb
+20	0	app/views/admin/petition_emails/_petition_action_email_petitioners.html.erb
+4	0	app/views/admin/petitions/_petition_actions.html.erb
+1	0	config/routes.rb
+23	0	features/admin/petition_email.feature
+52	0	features/step_definitions/petition_email_steps.rb
+3	0	features/support/paths.rb
+249	0	spec/controllers/admin/petition_emails_controller_spec.rb
+
+--a76d28c1--2015-08-07--Andrew White
+14	0	app/jobs/deliver_petition_email_job.rb
+19	0	app/jobs/email_petitioners_job.rb
+14	8	spec/jobs/deliver_debate_outcome_email_job_spec.rb
+14	8	spec/jobs/deliver_debate_scheduled_email_job_spec.rb
+33	0	spec/jobs/deliver_petition_email_job_spec.rb
+14	8	spec/jobs/deliver_threshold_response_email_job_spec.rb
+1	0	spec/jobs/email_debate_outcomes_job_spec.rb
+1	0	spec/jobs/email_debate_scheduled_job_spec.rb
+18	0	spec/jobs/email_petitioners_job_spec.rb
+1	0	spec/jobs/email_threshold_response_job_spec.rb
+2	16	spec/jobs/shared_examples.rb
+
+--0afe2cb0--2015-08-07--Andrew White
+4	0	app/assets/stylesheets/petitions/admin/views/_shared.scss
+
+--d3b3fcca--2015-08-07--Andrew White
+1	1	app/views/admin/government_response/_petition_action_government_response.html.erb
+
+--08166da0--2015-08-07--Andrew White
+9	0	app/mailers/petition_mailer.rb
+13	0	app/views/petition_mailer/email_signer.html.erb
+13	0	app/views/petition_mailer/email_signer.text.erb
+2	0	config/locales/petitions.en-GB.yml
+46	13	spec/mailers/petition_mailer_spec.rb
+10	0	spec/mailers/previews/petition_mailer_preview.rb
+
+--fe8e54fa--2015-08-07--Andrew White
+1	0	app/models/petition.rb
+9	0	app/models/petition/email.rb
+14	0	db/migrate/20150805142254_create_petition_emails.rb
+6	0	db/migrate/20150806140552_add_petition_email_to_email_receipts.rb
+72	2	db/structure.sql
+7	0	spec/factories.rb
+25	0	spec/models/petition/email_spec.rb
+2	0	spec/models/petition_spec.rb
+
+--bbf4dddb--2015-08-07--Andrew White
+23	0	app/models/feedback_signature.rb
+36	0	spec/models/feedback_signature_spec.rb
+
+--988cf7e8--2015-08-07--Andrew White
+5	1	app/models/site.rb
+9	0	db/migrate/20150805142206_change_default_feedback_email.rb
+3	1	db/structure.sql
+5	5	spec/models/site_spec.rb
+
+--7c2b3cc1--2015-08-07--Andrew White
+1	1	app/controllers/admin/debate_outcomes_controller.rb
+1	1	app/controllers/admin/government_response_controller.rb
+1	1	app/controllers/admin/petitions_controller.rb
+1	1	app/controllers/admin/schedule_debate_controller.rb
+49	48	app/jobs/concerns/email_all_petition_signatories.rb
+43	31	app/jobs/concerns/email_delivery.rb
+0	1	app/jobs/deliver_debate_outcome_email_job.rb
+0	1	app/jobs/deliver_debate_scheduled_email_job.rb
+0	1	app/jobs/deliver_threshold_response_email_job.rb
+2	7	app/jobs/email_debate_outcomes_job.rb
+2	7	app/jobs/email_debate_scheduled_job.rb
+2	7	app/jobs/email_threshold_response_job.rb
+1	1	spec/jobs/deliver_debate_outcome_email_job_spec.rb
+1	1	spec/jobs/deliver_debate_scheduled_email_job_spec.rb
+1	1	spec/jobs/deliver_threshold_response_email_job_spec.rb
+134	85	spec/jobs/shared_examples.rb
+
+--b35b0661--2015-08-06--Andrew White
+36	0	spec/helpers/cache_helper_spec.rb
+
+--215af03a--2015-08-06--Andrew White
+5	1	app/helpers/cache_helper.rb
+
+--ab475e71--2015-08-06--Andrew White
+1	0	config/fragments.yml

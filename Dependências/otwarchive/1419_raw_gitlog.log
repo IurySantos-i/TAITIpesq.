@@ -1,0 +1,92 @@
+--c44cadc31--2013-12-20--Cristina
+--77aaeec34--2013-12-20--Cristina
+--8a10eab04--2013-12-20--Cristina
+--8b5f6b52a--2013-12-20--sarken
+1	1	app/views/users/confirmation.html.erb
+
+--e437ddcf1--2013-12-20--sarken
+--ee0e25ea2--2013-12-19--elz
+2	2	config/deploy.rb
+
+--e29eb5b64--2013-12-19--Elz
+--35c83709f--2013-12-19--Elz
+--5adf7994a--2013-12-19--elz
+14	2	config/deploy.rb
+6	1	config/deploy/production.rb
+
+--6a3cf1b40--2013-12-19--Elz
+--dc6df3fc2--2013-12-18--Elz
+--a4847d84b--2013-12-17--Scott D. Sullivan
+5	2	app/views/invite_requests/index.html.erb
+1	1	features/other/invite_queue.feature
+
+--5b90df66f--2013-12-16--Elz
+--ee1e0875a--2013-12-16--Emily Everheart
+31	0	features/step_definitions/user_steps.rb
+25	48	features/users/user_create.feature
+
+--728009624--2013-12-16--sarken
+--34bb49d99--2013-12-16--elz
+16	12	app/models/redis_search_index_queue.rb
+4	4	app/models/tag.rb
+
+--f28bf1576--2013-12-16--Emily Everheart
+28	24	features/step_definitions/user_steps.rb
+
+--43ac24fe2--2013-12-16--Emily Everheart
+24	22	features/users/user_create.feature
+
+--ce2e893ea--2013-12-16--Emily Everheart
+36	15	features/users/user_create.feature
+
+--e5dbe8366--2013-12-16--Emily Everheart
+1	46	features/other/invite_queue.feature
+62	0	features/users/user_create.feature
+
+--b5247e774--2013-12-15--Scott D. Sullivan
+3	3	app/views/invite_requests/index.html.erb
+
+--91e136c8f--2013-12-14--Scott D. Sullivan
+1	1	app/views/invite_requests/index.html.erb
+
+--5ee5876e5--2013-12-14--Scott D. Sullivan
+2	1	app/views/invite_requests/index.html.erb
+1	0	features/other/invite_queue.feature
+
+--ff4f1fe9d--2013-12-14--elz
+22	48	app/models/redis_search_index_queue.rb
+0	10	config/schedule.rb
+0	13	lib/tasks/search_tasks.rake
+
+--9b484b6bd--2013-12-14--elz
+1	0	app/models/work_search.rb
+
+--d359ca398--2013-12-14--sarken
+1	1	public/stylesheets/site/2.0/02-elements.css
+3	4	public/stylesheets/site/2.0/07-interactions.css
+2	0	public/stylesheets/site/2.0/17-zone-home.css
+
+--ea48edee3--2013-12-11--elz
+5	2	app/models/work_search.rb
+
+--10cf8d0d1--2013-12-07--james_
+4	2	config/deploy/production.rb
+
+--0a0e5d6a1--2013-12-01--Enigel
+6	0	features/step_definitions/tag_steps.rb
+24	15	features/tags_and_wrangling/tag_wrangling_unsorted.feature
+
+--4d02863ab--2013-12-01--Enigel
+--763152176--2013-12-01--Enigel
+1	1	app/views/unsorted_tags/index.html.erb
+
+--36951fb74--2013-12-01--Enigel
+--8709b716d--2013-11-24--Cecilia Watt
+9	9	app/views/users/confirmation.html.erb
+
+--e34dde679--2013-11-17--Cecilia Watt
+2	2	app/views/users/confirmation.html.erb
+
+--e0a9d31ec--2013-09-12--Enigel
+1	1	app/controllers/unsorted_tags_controller.rb
+24	22	app/views/unsorted_tags/index.html.erb

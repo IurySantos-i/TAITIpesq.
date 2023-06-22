@@ -1,0 +1,27 @@
+--69235ee38--2014-02-25--Antti Virolainen
+--c61aeef7e--2014-02-25--Antti Virolainen
+--35261838e--2014-02-25--Juho Makkonen
+1	0	features/admin/categories/admin_edits_category.feature
+1	0	features/admin/categories/admin_removes_category.feature
+7	1	features/admin/categories/admin_views_categories.feature
+
+--5af759544--2014-02-25--Mikko Koski
+1	1	app/services/braintree_service.rb
+1	1	spec/controllers/braintree_account_controller_spec.rb
+
+--6d48e106e--2014-02-25--Mikko Koski
+2	1	db/schema.rb
+
+--c79f16944--2014-02-25--Mikko Koski
+1	2	spec/factories.rb
+
+--72caa2bd8--2014-02-24--Mikko Koski
+26	0	db/migrate/20140224151953_copy_account_number_to_hidden_account_number.rb
+
+--c891de983--2014-02-24--Mikko Koski
+1	0	app/controllers/braintree_accounts_controller.rb
+4	2	app/models/braintree_account.rb
+6	1	app/services/braintree_service.rb
+1	1	app/views/braintree_accounts/show.haml
+5	0	db/migrate/20140224150322_add_hidden_account_number_to_braintree_account.rb
+14	0	spec/services/braintree_service_spec.rb

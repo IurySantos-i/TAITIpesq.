@@ -1,0 +1,61 @@
+--66e01e28c--2016-01-08--Himal Mandalia
+--ff5f8d397--2016-01-07--Joel Sugarman
+--6c56e0928--2016-01-07--Edward Andress
+--34e346a0d--2016-01-07--Edward Andress
+0	1	Gemfile
+0	4	Gemfile.lock
+0	29	app/models/feature.rb
+0	1	config/initializers/feature.rb
+9	0	db/migrate/20160107163538_remove_features.rb
+1	8	db/schema.rb
+0	1	features/support/env.rb
+0	2	spec/rails_helper.rb
+
+--509092f09--2016-01-07--jsugarman
+1	5	app/presenters/claim_presenter.rb
+5	2	app/views/shared/_determinations_form.html.haml
+2	2	app/views/shared/_determinations_table.html.haml
+
+--e218ed536--2016-01-07--Edward Andress
+4	0	app/models/claim.rb
+9	9	app/models/claims/state_machine.rb
+0	1	db/schema.rb
+3	3	features/claim_redetermination.feature
+1	1	features/step_definitions/advocate_new_claim_steps.rb
+15	1	features/step_definitions/claim_redetermination_steps.rb
+
+--4994d301b--2016-01-07--Himal Mandalia
+--712fe1730--2016-01-07--jsugarman
+4	1	app/assets/javascripts/modules/advocates/claims/Select2.js
+
+--434fdd780--2016-01-07--jsugarman
+2	0	app/views/advocates/claims/_form.html.haml
+
+--f24bf2c68--2016-01-07--Edward Andress
+--288758119--2016-01-07--Himal Mandalia
+--06602d34f--2016-01-07--Himal Mandalia
+--a49e2fe19--2016-01-07--jsugarman
+0	5	app/assets/stylesheets/claims-table.scss
+1	1	app/views/case_workers/claims/_claims.html.haml
+0	7	features/step_definitions/caseworker_claims_list_steps.rb
+6	1	features/step_definitions/claim_redetermination_steps.rb
+
+--212df78c5--2016-01-07--jsugarman
+0	1	db/schema.rb
+
+--55c4e4d69--2016-01-07--jsugarman
+0	22	db/seeds/full_offences.rb
+0	1	lib/assets/data/full_offences.csv
+0	2	lib/assets/data/offence_to_full_offence_mappings.csv
+0	88	lib/offence_migration.rb
+0	10	lib/tasks/db.rake
+
+--3c86a4fb4--2016-01-07--Alistair Laing
+5	4	app/views/advocates/admin/providers/edit.html.haml
+10	1	features/advocate_admin_edit_provider.feature
+3	4	features/step_definitions/advocate_admin_edit_provider_steps.rb
+
+--bd431306c--2016-01-07--Alistair Laing
+1	0	db/schema.rb
+2	2	lib/demo_data/demo_seeds/advocates.rb
+2	2	lib/demo_data/demo_seeds/providers.rb

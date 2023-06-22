@@ -1,0 +1,176 @@
+--c41f40ef--2010-07-20--Tom Elkin
+--08482f0c--2010-07-19--jorgej
+1	41	README
+
+--6a782724--2010-07-10--rapidftr
+3	3	lib/rapidftr_default_db_setup.rb
+
+--bb85daf0--2010-06-07--Carlos Villela
+198	198	public/stylesheets/core.css
+
+--fdda65b3--2010-06-06--ThoughtWorks Brasil RHoK Team
+15	0	features/basic_search.feature
+14	0	features/manage_forms.feature
+
+--a6042436--2010-06-06--ThoughtWorks Brasil RHoK Team
+2	2	app/views/children/new.html.erb
+3	3	features/add_custom_field_to_form_section.feature
+18	0	features/create_child_new_disabled_form_section.feature
+18	1	features/step_definitions/basic_steps.rb
+6	0	spec/support/hpricot_search.rb
+1	1	spec/views/child/new.html.erb_spec.rb
+
+--281cd6b6--2010-06-06--ThoughtWorks Brasil RHoK Team
+15	5	app/controllers/children_controller.rb
+4	0	app/controllers/histories_controller.rb
+2	0	app/models/child.rb
+8	1	app/models/summary.rb
+13	0	app/views/children/_search_results.html.erb
+2	1	app/views/children/_search_sidebar.html.erb
+7	0	app/views/children/advanced_search.html.erb
+1	10	app/views/children/search.html.erb
+1	1	config/routes.rb
+5	5	spec/controllers/children_controller_spec.rb
+
+--5ec99de6--2010-06-06--ThoughtWorks Brasil RHoK Team
+19	1	app/controllers/application_controller.rb
+19	1	app/models/session.rb
+42	56	features/view_child_record_log.feature
+37	0	spec/models/session_spec.rb
+
+--63762457--2010-06-06--ThoughtWorks Brasil RHoK Team
+20	0	features/back_to_results_child_record.feature
+
+--d73fd345--2010-06-06--ThoughtWorks Brasil RHoK Team
+1	1	app/controllers/form_section_controller.rb
+1	1	app/models/form_section.rb
+1	1	spec/controllers/form_section_controller_spec.rb
+
+--deb08e3b--2010-06-06--ThoughtWorks Brasil RHoK Team
+0	21	app/controllers/application_controller.rb
+0	2	app/controllers/sessions_controller.rb
+
+--3cefabb2--2010-06-06--ThoughtWorks Brasil RHoK Team
+3	3	features/add_custom_field_to_form_section.feature
+7	7	features/create_and_view_form_sections.feature
+3	3	features/reorder_fields.feature
+
+--4876883f--2010-06-06--ThoughtWorks Brasil RHoK Team
+2	2	app/controllers/children_controller.rb
+0	1	app/controllers/histories_controller.rb
+6	7	app/views/children/search.html.erb
+
+--0b9c056c--2010-06-06--ThoughtWorks Brasil RHoK Team
+2	2	app/controllers/children_controller.rb
+1	0	app/controllers/histories_controller.rb
+7	6	app/views/children/search.html.erb
+
+--383bd35b--2010-06-06--ThoughtWorks Brasil RHoK Team
+1	1	app/views/layouts/application.html.erb
+1	1	config/routes.rb
+12	0	features/admin_page_link.feature
+3	0	features/support/paths.rb
+
+--a6b7c0b3--2010-06-06--ThoughtWorks Brasil RHoK Team
+0	7	spec/controllers/form_section_controller_spec.rb
+
+--0fc1de65--2010-06-05--ThoughtWorks Brasil RHoK Team
+8	0	app/controllers/admin_controller.rb
+9	0	app/views/admin/index.html.erb
+1	1	app/views/layouts/application.html.erb
+1	0	config/routes.rb
+1	1	spec/controllers/form_section_controller_spec.rb
+
+--9bc8f1d5--2010-06-05--ThoughtWorks Brasil RHoK Team
+4	0	app/controllers/sessions_controller.rb
+8	1	features/user_login.feature
+
+--592edc66--2010-06-05--ThoughtWorks Brasil RHoK Team
+23	3	app/controllers/application_controller.rb
+3	0	app/controllers/sessions_controller.rb
+2	1	app/models/session.rb
+
+--287d6130--2010-06-05--ThoughtWorks Brasil RHoK Team
+7	6	app/views/layouts/application.html.erb
+-	-	public/favicon.ico
+
+--e915f247--2010-06-05--ThoughtWorks Brasil RHoK Team
+6	1	features/step_definitions/web_steps.rb
+
+--48287ab8--2010-06-05--ThoughtWorks Brasil RHoK Team
+1	1	app/controllers/form_section_controller.rb
+6	1	app/models/form_section.rb
+
+--73ea94b0--2010-06-05--ThoughtWorks Brasil RHoK Team
+15	1	spec/models/child_spec.rb
+
+--998c21cf--2010-06-05--ThoughtWorks Brasil RHoK Team
+1	7	app/controllers/application_controller.rb
+6	0	app/helpers/application_helper.rb
+4	2	app/views/layouts/application.html.erb
+6	1	features/user_login.feature
+2	2	public/stylesheets/core.css
+
+--75879b06--2010-06-05--ThoughtWorks Brasil RHoK Team
+1	1	app/models/child.rb
+6	6	features/view_child_record_log.feature
+9	9	spec/controllers/attachments_controller_spec.rb
+2	2	spec/controllers/children_controller_spec.rb
+23	22	spec/models/child_spec.rb
+
+--ecdb077b--2010-06-05--ThoughtWorks Brasil RHoK Team
+13	1	app/models/child.rb
+
+--abd7358f--2010-06-05--ThoughtWorks Brasil RHoK Team
+1	1	app/controllers/application_controller.rb
+1	1	app/views/layouts/application.html.erb
+1	3	app/views/sessions/new.html.erb
+1	2	app/views/sessions/show.html.erb
+1	1	features/user_login.feature
+
+--8a24bc2a--2010-06-05--ThoughtWorks Brasil RHoK Team
+1	0	app/controllers/children_controller.rb
+1	1	app/views/children/search.html.erb
+15	5	spec/controllers/children_controller_spec.rb
+
+--94e0602c--2010-06-05--ThoughtWorks Brasil RHoK Team
+2	2	lib/rapidftr_default_db_setup.rb
+
+--db7c6aac--2010-06-05--ThoughtWorks Brasil RHoK Team
+1	4	app/controllers/application_controller.rb
+1	5	app/models/login.rb
+2	7	app/models/user.rb
+2	2	features/support/paths.rb
+
+--4a2be9b2--2010-06-05--ThoughtWorks Brasil RHoK Team
+1	1	features/basic_search.feature
+1	1	features/step_definitions/basic_steps.rb
+
+--60db3b65--2010-06-05--ThoughtWorks Brasil RHoK Team
+1	1	app/controllers/children_controller.rb
+
+--e78abc9a--2010-06-05--ThoughtWorks Brasil RHoK Team
+1	1	app/views/children/_summary_row.html.erb
+
+--2985c97d--2010-06-05--ThoughtWorks Brasil RHoK Team
+1	1	app/views/children/show.html.erb
+
+--45258971--2010-06-05--ThoughtWorks Brasil RHoK Team
+6	5	app/models/summary.rb
+
+--34686d14--2010-06-05--ThoughtWorks Brasil RHoK Team
+2	0	.gitignore
+
+--d94aa57b--2010-06-05--ThoughtWorks Brasil RHoK Team
+18	10	app/models/summary.rb
+5	6	features/basic_search.feature
+1	1	features/step_definitions/basic_steps.rb
+
+--5440f162--2010-06-05--ThoughtWorks Brasil RHoK Team
+1	1	README
+
+--6feee4c2--2010-06-05--ThoughtWorks Brasil RHoK Team
+1	1	.gitignore
+1	1	README
+1	0	app/views/layouts/application.html.erb
+17	0	features/home_page_link.feature

@@ -1,0 +1,20 @@
+--0ff4b0ff1--2015-10-16--Himal Mandalia
+--9b5b7a8d5--2015-10-15--Alistair Laing
+2	1	app/assets/stylesheets/advocates/application.css.scss
+2	1	app/assets/stylesheets/application.css.scss
+2	1	app/assets/stylesheets/case_workers/application.css.scss
+14	13	app/assets/stylesheets/message.scss
+0	2	features/step_definitions/claim_history_steps.rb
+
+--eccdb8a78--2015-10-15--Alistair Laing
+--e93378804--2015-10-15--Alistair Laing
+--89c8f3056--2015-10-15--Alistair Laing
+--ddc02000c--2015-10-13--Alistair Laing
+--f7cb96f63--2015-10-13--Alistair Laing
+9	0	app/assets/stylesheets/advocates/application.css.scss
+10	0	app/assets/stylesheets/application.css.scss
+9	0	app/assets/stylesheets/case_workers/application.css.scss
+1	1	app/assets/stylesheets/imports.scss
+52	5	app/assets/stylesheets/message.scss
+23	25	app/views/shared/_message.html.haml
+3	1	app/views/shared/_message_list.html.haml

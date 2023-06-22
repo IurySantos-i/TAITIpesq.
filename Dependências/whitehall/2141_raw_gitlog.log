@@ -1,0 +1,170 @@
+--c3bd9403f9--2014-09-17--Daniel Roseman
+--ef32d68b2b--2014-09-17--Steve Laing
+--d5596190b4--2014-09-17--Elliot Crosby-McCullough
+--e4a154a907--2014-09-17--Richard Boulton
+--e45bef9f98--2014-09-17--Elliot Crosby-McCullough
+4	0	app/models/services_and_information_collection.rb
+7	4	app/views/services_and_information/_collection_group.html.erb
+19	0	test/unit/services_and_information_collection_test.rb
+
+--4eb4ee511f--2014-09-17--Elliot Crosby-McCullough
+1	1	test/functional/organisations_controller_test.rb
+
+--2142771522--2014-09-16--Tekin Suleyman
+--39d7b8d044--2014-09-15--Daniel Roseman
+3	0	app/models/organisation_type.rb
+1	1	features/ministers.feature
+9	20	features/organisations.feature
+3	2	features/step_definitions/mainstream_categories_on_orgs_steps.rb
+13	7	features/step_definitions/organisation_steps.rb
+4	2	features/step_definitions/session_steps.rb
+
+--5b0efe0017--2014-09-16--Elliot Crosby-McCullough
+--133f4e4166--2014-09-16--Richard Boulton
+3	0	app/models/organisation.rb
+
+--1d8d3a666c--2014-09-16--Elliot Crosby-McCullough
+0	12	app/views/classifications/_list_description.html.erb
+0	11	app/views/organisations/show.html.erb
+7	17	test/functional/organisations_controller_test.rb
+
+--04797069d3--2014-09-16--Elliot Crosby-McCullough
+0	1	app/views/layouts/frontend.html.erb
+
+--3713cb0725--2014-09-15--Alex Tomlins
+--7d3b17f9f7--2014-09-15--Alex Tomlins
+0	10	README.md
+1	14	app/models/attachable.rb
+11	0	app/models/attachment.rb
+0	22	app/models/attachment_data.rb
+1	1	app/models/file_attachment.rb
+6	0	app/models/html_attachment.rb
+0	40	lib/tasks/extract_attachment_data.rake
+0	4	lib/whitehall.rb
+15	7	test/unit/attachable_test.rb
+0	8	test/unit/attachment_data_test.rb
+0	1	test/unit/file_attachment_test.rb
+
+--bc059cf6a5--2014-09-15--Daniel Roseman
+7	2	app/controllers/admin/organisations_controller.rb
+5	3	app/views/admin/organisations/show.html.erb
+2	0	lib/whitehall/authority/rules/organisation_rules.rb
+24	3	test/functional/admin/organisations_controller_test.rb
+
+--d1ea103778--2014-09-15--steventux
+1	0	app/assets/stylesheets/frontend/base.scss
+88	0	app/assets/stylesheets/frontend/views/_embassies.scss
+0	42	app/assets/stylesheets/frontend/views/_world_locations.scss
+0	6	app/views/embassies/_embassy.html.erb
+7	0	app/views/embassies/_organisation.html.erb
+23	15	app/views/embassies/index.html.erb
+
+--032d245a17--2014-09-15--steventux
+1	1	app/controllers/embassies_controller.rb
+0	46	app/models/consular_services_location.rb
+38	0	app/models/embassy.rb
+24	21	test/functional/embassies_controller_test.rb
+1	0	test/integration/navigation_selection_test.rb
+10	14	test/unit/models/{consular_services_location_test.rb => embassy_test.rb}
+
+--c53079816f--2014-09-15--Tekin Suleyman
+--84b331054b--2014-09-15--Tekin Suleyman
+8	0	app/helpers/admin/editions_helper.rb
+
+--690a0f121d--2014-09-15--Tekin Suleyman
+1	0	lib/whitehall.rb
+
+--5b5d683e0b--2014-09-15--Tekin Suleyman
+5	2	app/helpers/admin/taggable_content_helper.rb
+
+--2089366618--2014-09-11--Tekin Suleyman
+4	7	app/helpers/application_helper.rb
+1	1	app/views/admin/editions/_speed_tagging.html.erb
+4	14	test/unit/helpers/application_helper_test.rb
+
+--7911e88cb8--2014-09-11--Tekin Suleyman
+0	1	app/controllers/admin/case_studies_controller.rb
+0	1	app/controllers/admin/consultations_controller.rb
+0	2	app/controllers/admin/detailed_guides_controller.rb
+4	5	app/controllers/admin/editions_controller.rb
+0	1	app/controllers/admin/fatality_notices_controller.rb
+0	1	app/controllers/admin/news_articles_controller.rb
+0	1	app/controllers/admin/policies_controller.rb
+0	1	app/controllers/admin/publications_controller.rb
+0	1	app/controllers/admin/speeches_controller.rb
+0	2	app/controllers/admin/supporting_pages_controller.rb
+0	1	app/controllers/admin/world_location_news_articles_controller.rb
+0	1	app/controllers/admin/worldwide_priorities_controller.rb
+
+--45acf3ffa5--2014-09-11--Tekin Suleyman
+6	2	app/controllers/admin/editions_controller.rb
+
+--2e3c2b07a4--2014-09-11--Tekin Suleyman
+4	16	app/controllers/admin/editions_controller.rb
+2	2	app/helpers/admin/editions_helper.rb
+
+--3de96324fb--2014-09-11--Tekin Suleyman
+10	37	app/helpers/admin/editions_helper.rb
+33	2	app/views/admin/editions/_organisation_fields.html.erb
+
+--a12e719ed5--2014-09-11--Tekin Suleyman
+20	4	app/helpers/admin/taggable_content_helper.rb
+12	0	test/unit/helpers/admin/taggable_content_helper_test.rb
+
+--25be5c11a6--2014-09-12--Daniel Roseman
+4	0	app/models/organisation.rb
+8	0	test/unit/models/organisation_test.rb
+
+--17c9d5f7d5--2014-09-12--Richard Boulton
+--6fa0c1f81b--2014-09-12--Richard Boulton
+0	0	test/{unit => integration}/data_hygiene/topic_retagger_test.rb
+
+--76d22afae9--2014-09-12--Richard Boulton
+3	0	lib/data_hygiene/topic_retagger.rb
+19	3	test/unit/data_hygiene/topic_retagger_test.rb
+
+--555a6e9dfe--2014-09-12--Richard Boulton
+1	1	Gemfile
+2	2	Gemfile.lock
+
+--3b69040238--2014-09-10--Tekin Suleyman
+11	0	app/helpers/admin/taggable_content_helper.rb
+6	4	app/views/admin/editions/_topic_fields.html.erb
+9	7	app/views/admin/editions/_topical_event_fields.html.erb
+
+--78df1deb7d--2014-09-09--Tekin Suleyman
+2	2	app/helpers/admin/editions_helper.rb
+1	4	app/views/admin/editions/_inline_attachments_info.html.erb
+1	1	app/views/admin/policies/_form.html.erb
+
+--0029646265--2014-09-09--Tekin Suleyman
+18	1	app/helpers/admin/taggable_content_helper.rb
+12	0	test/unit/helpers/admin/taggable_content_helper_test.rb
+
+--5f231566b3--2014-09-09--Tekin Suleyman
+20	0	app/helpers/admin/taggable_content_helper.rb
+1	1	app/views/admin/editions/_topic_fields.html.erb
+16	0	test/unit/helpers/admin/taggable_content_helper_test.rb
+
+--ce15cf5162--2014-09-09--Tekin Suleyman
+1	0	Gemfile
+2	0	Gemfile.lock
+2	2	config/environments/benchmark.rb
+2	2	config/environments/production.rb
+
+--adad10964d--2014-09-09--Tekin Suleyman
+1	1	test/benchmark_helper.rb
+64	10	test/performance/admin_edition_pages_test.rb
+
+--2dcc1d74c8--2014-09-10--steventux
+18	0	db/data_migration/20140909102120_migrate_worldwide_office_types.rb
+
+--f830acaee3--2014-09-10--steventux
+42	0	app/assets/stylesheets/frontend/views/_world_locations.scss
+7	0	app/controllers/embassies_controller.rb
+46	0	app/models/consular_services_location.rb
+6	0	app/views/embassies/_embassy.html.erb
+35	0	app/views/embassies/index.html.erb
+3	0	config/routes.rb
+35	0	test/functional/embassies_controller_test.rb
+60	0	test/unit/models/consular_services_location_test.rb

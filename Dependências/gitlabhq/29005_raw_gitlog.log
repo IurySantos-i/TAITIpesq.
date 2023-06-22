@@ -1,0 +1,33 @@
+--f7894762413--2012-09-07--Alex Denisov
+--320250cd7be--2012-09-07--Alex Denisov
+0	1	features/projects/issues/issues.feature
+
+--b462b0c6ebf--2012-09-07--Alex Denisov
+1	0	app/controllers/issues_controller.rb
+
+--c818c93aa7f--2012-09-07--Alex Denisov
+8	1	features/projects/issues/issues.feature
+15	4	features/step_definitions/project/project_issues_steps.rb
+
+--26552051b7a--2012-09-07--Alex Denisov
+21	0	app/assets/javascripts/issues.js
+1	0	app/controllers/issues_controller.rb
+1	1	app/views/issues/index.html.haml
+1	0	features/step_definitions/project/project_issues_steps.rb
+
+--b994a65fc31--2012-09-07--Dmitriy Zaporozhets
+1	1	lib/gitlab/backend/gitolite.rb
+6	4	lib/gitlab/backend/gitolite_config.rb
+
+--09263719d53--2012-09-07--Alex Denisov
+10	0	features/projects/issues/issues.feature
+12	0	features/step_definitions/project/project_issues_steps.rb
+
+--79021e674ba--2012-09-07--Dmitriy Zaporozhets
+0	4	app/controllers/application_controller.rb
+0	3	app/views/errors/invalid_ssh_key.html.haml
+15	174	lib/gitlab/backend/gitolite.rb
+168	0	lib/gitlab/backend/gitolite_config.rb
+16	0	spec/lib/gitolite_config_spec.rb
+25	0	spec/lib/gitolite_spec.rb
+17	5	spec/support/gitolite_stub.rb

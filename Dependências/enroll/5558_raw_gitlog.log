@@ -1,0 +1,24 @@
+--8de9c95a22--2015-07-14--Ken Lu
+--73e5a8b79e--2015-07-14--Ken Lu
+5	0	app/assets/stylesheets/custom.css.erb
+10	3	app/controllers/employers/employer_profiles_controller.rb
+16	1	spec/controllers/employers/employer_profiles_controller_spec.rb
+
+--b18261b05d--2015-07-14--jfinucane
+3	3	app/helpers/application_helper.rb
+34	0	spec/views/shared/portal_title_spec.rb
+
+--7e21056b7d--2015-07-14--Raghuram
+4	8	app/controllers/employers/plan_years_controller.rb
+14	16	spec/controllers/employers/plan_years_controller_spec.rb
+
+--487d34a755--2015-07-14--Raghuram
+3	3	spec/controllers/employers/plan_years_controller_spec.rb
+
+--0202330211--2015-07-14--Raghuram
+2	1	features/integration/employee_sign_up.feature
+0	4	features/step_definitions/employers_steps.rb
+6	0	features/step_definitions/integration_steps.rb
+
+--865abd4bee--2015-07-14--Raghuram
+1	1	app/controllers/employers/plan_years_controller.rb

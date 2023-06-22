@@ -1,0 +1,16 @@
+--a0036ddec--2017-03-27--James Glover
+--83634b46a--2017-03-27--James Glover
+--8f68560ad--2017-03-24--James Glover
+0	3	app/models/pac_bio_sequencing_request.rb
+2	1	app/models/pipeline/batch_validation.rb
+3	7	app/models/plate.rb
+1	1	app/models/request.rb
+1	10	lib/tasks/test.rake
+64	0	spec/models/api/messages/pac_bio_run_io_spec.rb
+0	1	spec/rails_helper.rb
+14	2	test/factories.rb
+32	1	test/factories/pipelines_factories.rb
+16	0	test/factories/plate_factories.rb
+0	1	test/factories/request_factories.rb
+34	9	test/factories/request_type_factories.rb
+1	0	test/factories/user_query_factories.rb

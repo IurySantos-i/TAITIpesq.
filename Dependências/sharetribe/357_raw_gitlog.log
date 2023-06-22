@@ -1,0 +1,13 @@
+--a91e79b8f--2018-01-03--Valdis Pornieks
+--3f8086016--2018-01-03--Valdis Pornieks
+--3eb5609bd--2018-01-03--Vesa Vahermaa
+--0b6e0f87f--2018-01-03--Vesa Vahermaa
+6	0	app/views/landing_page/_icon.erb
+
+--b771b9999--2018-01-02--Aivils Štoss
+1	1	app/models/listing.rb
+13	12	features/listings/user_books_listing_per_hour.feature
+1	1	spec/factories.rb
+
+--128306347--2017-12-22--Aivils Štoss
+1	1	app/controllers/people_controller.rb

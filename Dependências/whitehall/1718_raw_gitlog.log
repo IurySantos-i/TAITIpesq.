@@ -1,0 +1,36 @@
+--c2d57b1465--2015-06-25--Edd Sowden
+--fd296a08ff--2015-06-24--Edd Sowden
+13	8	test/functional/organisations_controller_test.rb
+
+--a884b96a97--2015-06-24--Edd Sowden
+6	1	app/assets/stylesheets/frontend/views/_organisations.scss
+1	1	app/controllers/organisations_controller.rb
+19	7	app/views/organisations/show-promotional.html.erb
+10	0	test/functional/organisations_controller_test.rb
+
+--c55f280eb1--2015-06-24--Edd Sowden
+47	0	db/data_migration/20150624075140_populate_featured_policies.rb
+
+--3a5408b3b7--2015-06-23--Edd Sowden
+32	0	app/controllers/admin/featured_policies_controller.rb
+1	10	app/controllers/organisations_controller.rb
+2	1	app/helpers/admin/organisation_helper.rb
+28	0	app/models/featured_policy.rb
+3	0	app/models/organisation.rb
+36	0	app/views/admin/featured_policies/_feature_list.html.erb
+23	0	app/views/admin/featured_policies/_policy_list.html.erb
+18	0	app/views/admin/featured_policies/index.html.erb
+3	0	config/routes.rb
+9	0	db/migrate/20150623085836_create_featured_policies.rb
+7	1	db/schema.rb
+24	0	features/organisations.feature
+28	0	features/step_definitions/organisation_policy_steps.rb
+20	0	features/support/organisation_helper.rb
+6	0	features/support/paths.rb
+5	0	test/factories/featured_policies.rb
+15	0	test/unit/featured_policy_test.rb
+
+--be0a1e9d86--2015-06-24--Elliot Crosby-McCullough
+--5b1ef91f29--2015-06-24--Elliot Crosby-McCullough
+0	6	app/models/edition_policy_group.rb
+0	1	db/migrate/20150615080039_delete_policies_and_supporting_pages.rb

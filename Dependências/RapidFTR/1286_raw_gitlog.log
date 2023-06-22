@@ -1,0 +1,40 @@
+--ad490b4f--2010-04-24--jennifersmith
+--68e298a2--2010-04-24--jennifersmith
+4	0	app/models/suggested_field.rb
+1	1	app/views/fields/new.html.erb
+23	2	db/seeds.rb
+1	1	features/step_definitions/basic_steps.rb
+4	5	spec/views/Fields/new.html.erb_spec.rb
+
+--d2bb3c2b--2010-04-24--Frank Trindade and Jon Spalding
+--c3b95ff8--2010-04-24--jennifersmith
+2	0	app/controllers/fields_controller.rb
+0	1	app/controllers/form_section_controller.rb
+16	4	app/views/fields/new.html.erb
+1	1	features/add_suggested_field_to_form_sections.feature
+3	0	public/stylesheets/core.css
+
+--a8bb115b--2010-04-24--Frank Trindade and Jon Spalding
+2	0	app/models/form_section.rb
+22	1	spec/models/form_section_spec.rb
+
+--ccbabb7e--2010-04-24--Frank Trindade and Jon Spalding
+4	0	app/views/fields/new_text_field.html.erb
+2	0	features/add_custom_field_to_form_section.feature
+
+--bc61ef8c--2010-04-24--jennifersmith
+6	2	app/models/suggested_field.rb
+2	2	db/seeds.rb
+3	3	features/add_suggested_field_to_form_sections.feature
+2	1	features/step_definitions/basic_steps.rb
+1	1	spec/models/suggested_field_spec.rb
+
+--3d8c6ec8--2010-04-24--Frank Trindade and Jon Spalding
+1	0	app/controllers/fields_controller.rb
+10	1	app/views/fields/new_text_field.html.erb
+3	0	public/stylesheets/core.css
+20	0	spec/controllers/fields_controller_spec.rb
+
+--1234c849--2010-04-24--Frank Trindade and Jon Spalding
+2	2	app/views/fields/new_text_field.html.erb
+5	0	features/add_custom_field_to_form_section.feature

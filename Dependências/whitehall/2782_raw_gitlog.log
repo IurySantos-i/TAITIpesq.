@@ -1,0 +1,150 @@
+--83ea1556e4--2013-10-31--David Heath
+--7c8f0d04da--2013-10-31--Tekin Suleyman
+3	36	app/services/edition_publisher.rb
+53	0	app/services/edition_service.rb
+1	38	app/services/edition_unpublisher.rb
+
+--7fe4db0872--2013-10-31--Tekin Suleyman
+0	6	app/models/edition/workflow.rb
+7	1	app/services/edition_publisher.rb
+0	42	lib/data_hygiene/extra_published_editions_repairer.rb
+0	71	test/unit/data_hygiene/extra_published_editions_repairer_test.rb
+
+--340aad5226--2013-10-31--Tekin Suleyman
+0	3	app/models/edition/workflow.rb
+
+--af631f760b--2013-10-31--russell thorn
+1	1	app/helpers/application_helper.rb
+2	5	app/views/admin/editions/_html_version_fields.html.erb
+
+--55ecccf70d--2013-10-31--Tekin Suleyman
+1	5	app/models/edition.rb
+3	13	app/models/edition/workflow.rb
+0	20	app/models/policy_search_index_observer.rb
+12	0	app/models/reindex_related_editions.rb
+0	11	app/models/supporting_page_search_index_observer.rb
+18	3	app/services/service_listeners/search_indexer.rb
+0	2	config/application.rb
+1	0	config/initializers/edition_services.rb
+8	18	features/step_definitions/document_steps.rb
+19	0	features/support/paths.rb
+3	1	features/unpublishing-published-documents.feature
+0	9	test/unit/edition/searchable_test.rb
+0	25	test/unit/edition_test.rb
+0	36	test/unit/policy_search_index_observer_test.rb
+28	0	test/unit/reindex_related_editions_test.rb
+49	8	test/unit/services/listeners/search_indexer_test.rb
+0	37	test/unit/supporting_page_search_index_observer_test.rb
+
+--21631e1fc9--2013-10-31--David Heath
+--26f996827a--2013-10-31--Tekin Suleyman
+8	2	test/test_helper.rb
+1	1	test/unit/data_hygiene/extra_published_editions_repairer_test.rb
+1	0	test/unit/edition/identifiable_test.rb
+1	1	test/unit/import_test.rb
+
+--557f52f587--2013-10-31--russell thorn
+11	0	app/assets/stylesheets/frontend/views/_organisations.scss
+
+--532ceab0b8--2013-10-31--Tekin Suleyman
+1	3	app/controllers/admin/edition_workflow_controller.rb
+1	1	config/initializers/edition_services.rb
+5	0	features/step_definitions/unpublishing_published_documents_steps.rb
+1	0	features/unpublishing-published-documents.feature
+1	2	test/functional/admin/edition_workflow_controller_test.rb
+
+--3fd7384908--2013-10-30--Tekin Suleyman
+6	2	app/controllers/admin/edition_workflow_controller.rb
+1	5	app/models/edition.rb
+0	23	app/models/edition/publishing.rb
+4	2	app/models/edition/workflow.rb
+4	0	app/services/edition_service_coordinator.rb
+63	0	app/services/edition_unpublisher.rb
+11	117	test/unit/edition/publishing_test.rb
+1	1	test/unit/edition/searchable_test.rb
+0	27	test/unit/edition/workflow_test.rb
+2	2	test/unit/edition_test.rb
+1	1	test/unit/policy_search_index_observer_test.rb
+11	0	test/unit/services/edition_service_coordinator_test.rb
+79	0	test/unit/services/edition_unpublisher_test.rb
+1	1	test/unit/supporting_page_search_index_observer_test.rb
+1	1	test/unit/whitehall/exporters/document_mappings_test.rb
+
+--861352ccc5--2013-10-30--Tekin Suleyman
+2	2	app/models/edition.rb
+4	11	app/models/edition/publishing.rb
+2	2	app/views/admin/editions/_history_state.html.erb
+19	0	test/unit/edition/publishing_test.rb
+
+--a6a18dba56--2013-10-30--Tekin Suleyman
+0	9	app/models/edition/publishing.rb
+
+--db1fe13c37--2013-10-30--Tekin Suleyman
+1	1	app/controllers/admin/editions_controller.rb
+4	0	app/models/edition/publishing.rb
+0	2	app/views/admin/editions/confirm_unpublish.html.erb
+3	5	test/functional/admin/edition_workflow_controller_test.rb
+18	0	test/unit/edition/publishing_test.rb
+
+--a7b7ae74e2--2013-10-28--Tekin Suleyman
+1	1	app/models/classification.rb
+1	1	app/models/document.rb
+4	4	app/models/edition.rb
+1	1	app/models/edition/publishing.rb
+1	1	app/models/edition/user_needs.rb
+8	9	app/models/edition/workflow.rb
+1	1	app/models/supporting_page_search_index_observer.rb
+1	1	app/services/edition_publisher.rb
+2	2	app/views/admin/editions/_history_state.html.erb
+9	0	db/migrate/20131024152541_change_archived_state_to_superseded.rb
+1	1	features/step_definitions/audit_trail_steps.rb
+1	1	lib/data_hygiene/extra_published_editions_repairer.rb
+1	1	lib/data_hygiene/orphaned_attachment_finder.rb
+1	1	test/factories/case_studies.rb
+1	1	test/factories/consultations.rb
+1	1	test/factories/detailed_guides.rb
+1	1	test/factories/document_collection.rb
+3	3	test/factories/editions.rb
+1	1	test/factories/fatality_notices.rb
+1	1	test/factories/news_articles.rb
+1	1	test/factories/policies.rb
+1	1	test/factories/publications.rb
+1	1	test/factories/speeches.rb
+1	1	test/factories/statistical_data_sets.rb
+1	1	test/factories/world_location_news_articles.rb
+1	1	test/factories/worldwide_priorities.rb
+4	4	test/functional/admin/generic_editions_controller_tests/deleting_documents_test.rb
+4	4	test/functional/admin/generic_editions_controller_tests/revising_documents_test.rb
+1	1	test/functional/operational_fields_controller_test.rb
+4	4	test/functional/publications_controller_test.rb
+2	2	test/support/admin_edition_controller_test_helpers.rb
+2	2	test/unit/classification_test.rb
+6	6	test/unit/data_hygiene/extra_published_editions_repairer_test.rb
+7	7	test/unit/document_test.rb
+5	5	test/unit/edition/access_control_test.rb
+4	4	test/unit/edition/creating_draft_test.rb
+1	1	test/unit/edition/identifiable_test.rb
+2	2	test/unit/edition/searchable_test.rb
+14	14	test/unit/edition/workflow_test.rb
+3	3	test/unit/edition_publishing_worker_test.rb
+8	8	test/unit/edition_test.rb
+1	1	test/unit/helpers/admin/admin_govspeak_helper_test.rb
+4	4	test/unit/helpers/govspeak_helper_link_rewriting_test.rb
+1	1	test/unit/ministerial_role_test.rb
+2	2	test/unit/news_article_test.rb
+2	2	test/unit/publication_test.rb
+1	1	test/unit/services/edition_force_publisher_test.rb
+3	3	test/unit/services/edition_publisher_test.rb
+1	1	test/unit/supporting_page_search_index_observer_test.rb
+3	3	test/unit/topic_test.rb
+1	1	test/unit/topical_event_test.rb
+
+--009dd63738--2013-10-24--Tekin Suleyman
+5	5	app/controllers/admin/editions_controller.rb
+21	20	app/models/document.rb
+2	0	app/models/edition.rb
+1	0	app/models/edition/related_documents.rb
+5	6	app/models/edition/related_policies.rb
+1	1	app/models/edition/workflow.rb
+5	8	app/models/edition/worldwide_priorities.rb
+0	21	test/unit/news_article_test.rb

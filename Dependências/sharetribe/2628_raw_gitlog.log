@@ -1,0 +1,77 @@
+--6b71ff286--2013-05-21--Antti Virolainen
+--0a0145d1c--2013-05-21--Antti Virolainen
+1	1	app/controllers/communities_controller.rb
+30	16	app/controllers/community_memberships_controller.rb
+6	8	app/controllers/confirmations_controller.rb
+1	1	app/controllers/people_controller.rb
+35	0	app/helpers/email_helper.rb
+18	4	app/mailers/person_mailer.rb
+3	17	app/models/community.rb
+4	0	app/models/community_membership.rb
+3	0	app/models/organization.rb
+15	14	app/models/person.rb
+4	3	app/views/community_memberships/new.haml
+1	1	app/views/sessions/_confirmation_form.haml
+1	1	config/locales/en.yml
+1	1	config/locales/fi.yml
+1	0	config/locales/organizations/en.yml
+1	0	config/locales/organizations/fi.yml
+27	11	features/organizations/user_joins_an_organization.feature
+8	0	spec/fixtures/communities.yml
+
+--894cdf620--2013-05-21--Kusti
+1	1	app/views/payments/new.haml
+0	1	db/schema.rb
+
+--145ad825c--2013-05-21--Kusti
+--49b3cbbaa--2013-05-21--Kusti
+3	1	app/assets/javascripts/kassi.js
+11	7	app/assets/stylesheets/application.scss.erb
+6	2	app/controllers/payments_controller.rb
+8	0	app/helpers/math_helper.rb
+1	0	app/jobs/payment_created_job.rb
+8	0	app/mailers/person_mailer.rb
+1	0	app/models/community.rb
+2	1	app/models/conversation.rb
+28	0	app/models/payment.rb
+12	1	app/models/payment_row.rb
+8	2	app/views/conversations/_conversation.haml
+1	1	app/views/conversations/_message.haml
+6	3	app/views/conversations/accept.haml
+12	0	app/views/payments/_payment_row_static.haml
+41	15	app/views/payments/new.haml
+42	1	app/views/person_mailer/new_payment.html.haml
+49	0	app/views/person_mailer/receipt_to_payer.html.haml
+5	1	config/locales/en.yml
+5	1	config/locales/fi.yml
+5	0	db/migrate/20130521122031_add_community_id_to_payments.rb
+9	0	db/migrate/20130521124342_change_payment_row_sum_currency_to_currency.rb
+5	4	db/schema.rb
+
+--065685154--2013-05-21--Antti Virolainen
+1	0	app/models/organization.rb
+
+--f11e746f0--2013-05-20--Kusti
+26	1	app/assets/javascripts/kassi.js
+142	8	app/assets/stylesheets/application.scss.erb
+50	0	app/assets/stylesheets/ss-pika.scss
+67	0	app/assets/stylesheets/ss-social.scss
+1	0	app/controllers/conversations_controller.rb
+1	0	app/helpers/application_helper.rb
+1	2	app/models/conversation.rb
+4	0	app/models/listing.rb
+11	4	app/models/payment.rb
+9	0	app/models/payment_row.rb
+39	6	app/views/conversations/accept.haml
+4	2	app/views/listings/_displayed_price.haml
+5	0	app/views/listings/form/_price.haml
+14	0	app/views/payments/_payment_row.haml
+4	0	config/locales/en.yml
+4	0	config/locales/fi.yml
+5	0	db/migrate/20130520092054_add_vat_in_use_to_communities.rb
+5	0	db/migrate/20130520092357_add_commission_percentage_to_communities.rb
+11	0	db/migrate/20130520103753_create_payment_rows.rb
+11	0	db/migrate/20130520125924_remove_sum_from_payments.rb
+5	0	db/migrate/20130520140756_add_title_to_payment_rows.rb
+13	3	db/schema.rb
+5	0	spec/models/payment_row_spec.rb

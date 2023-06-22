@@ -1,0 +1,53 @@
+--6b54fd04--2015-08-04--Alan Thomas
+--7904a8eb--2015-08-04--Alan Thomas
+--8da610fa--2015-08-04--Henry Hadlow
+2	1	app/views/petitions/_rejected_petition_show.html.erb
+15	35	config/locales/rejections.en-GB.yml
+4	4	features/admin/moderator_responds_to_petition.feature
+2	2	features/admin/takedown.feature
+3	3	features/step_definitions/moderation_steps.rb
+2	2	spec/helpers/rejection_helper_spec.rb
+
+--1a4a3683--2015-08-04--Henry Hadlow
+1	1	app/views/admin/notes/_petition_action_notes.html.erb
+
+--8e651b44--2015-08-04--Henry Hadlow
+1	1	app/assets/stylesheets/petitions/admin/_meta.scss
+6	0	app/views/admin/petitions/_petition_content.html.erb
+
+--2f7677ad--2015-08-04--Henry Hadlow
+1	1	app/views/petitions/create/_your_details_ui.html.erb
+1	1	app/views/signatures/create/_signer_ui.html.erb
+5	5	features/charlie_creates_a_petition.feature
+1	1	features/step_definitions/signature_steps.rb
+
+--476fb9ff--2015-08-04--Alan Thomas
+--86adab67--2015-08-04--Henry Hadlow
+2	4	app/assets/stylesheets/petitions/_forms.scss
+3	0	app/views/signatures/_form.html.erb
+3	0	config/locales/rejections.en-GB.yml
+
+--dd42973a--2015-07-30--Henry Hadlow
+8	0	app/helpers/home_helper.rb
+2	1	app/views/pages/_home_debated_petitions.html.erb
+2	1	app/views/pages/_home_responded_petitions.html.erb
+1	1	app/views/pages/index.html.erb
+14	8	config/locales/petitions.en-GB.yml
+
+--006eadcd--2015-08-04--Alan Thomas
+--6cc303eb--2015-07-31--Henry Hadlow
+13	3	app/views/petition_mailer/notify_signer_of_threshold_response.html.erb
+9	1	app/views/petition_mailer/notify_signer_of_threshold_response.text.erb
+6	0	spec/mailers/previews/petition_mailer_preview.rb
+
+--d5fefb35--2015-07-29--Henry Hadlow
+72	6	vendor/assets/javascripts/details.polyfill.js
+
+--1313dd1b--2015-07-29--Henry Hadlow
+1	0	app/assets/stylesheets/petitions/views/_petition-show.scss
+3	3	app/assets/stylesheets/petitions/views/_shared.scss
+1	1	app/views/pages/_home_responded_petitions.html.erb
+6	2	app/views/petitions/_response_threshold.html.erb
+
+--c5cf772d--2015-07-29--Henry Hadlow
+3	20	app/assets/stylesheets/site.scss

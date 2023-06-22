@@ -1,0 +1,40 @@
+--4757aaa2--2015-06-23--mybits
+--e4154cd1--2015-06-23--Murray Steele
+--9fe52b53--2015-06-23--Murray Steele
+--4613084e--2015-06-23--Andrew White
+--4eb05aad--2015-06-22--Andrew White
+11	4	.travis.yml
+1	0	Gemfile
+2	0	Gemfile.lock
+62	5	lib/package_builder.rb
+
+--e06fb1d9--2015-06-22--Andrew White
+1	0	config/database.yml
+1	1	config/newrelic.yml
+3	0	config/puma.rb
+
+--d1222020--2015-06-19--Alexander Bobin
+16	0	app/assets/stylesheets/petitions/views/_home.scss
+29	0	app/helpers/home_helper.rb
+1	1	app/helpers/signature_helper.rb
+12	0	app/views/static_pages/home.html.erb
+11	1	config/locales/petitions.en-GB.yml
+23	0	features/step_definitions/actioned_steps.rb
+25	0	features/suzie_sees_actioned_petitions.feature
+2	1	spec/factories.rb
+53	0	spec/helpers/home_helper_spec.rb
+1	1	spec/helpers/signature_helper_spec.rb
+
+--e1c1c5e0--2015-06-22--Murray Steele
+7	2	app/views/petitions/_petition_show.html.erb
+7	2	app/views/petitions/_rejected_petition_show.html.erb
+7	8	app/views/petitions/create/_replay_petition_ui.html.erb
+
+--1bbea92e--2015-06-22--Andrew White
+1	1	app/models/constituency_petition_journal.rb
+0	1	app/models/debate_outcome.rb
+10	0	db/migrate/20150621200307_add_foreign_keys.rb
+50	0	db/structure.sql
+27	23	spec/models/constituency_petition_journal_spec.rb
+7	5	spec/models/debate_outcome_spec.rb
+75	78	spec/models/signature_spec.rb

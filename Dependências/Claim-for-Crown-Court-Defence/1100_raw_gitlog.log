@@ -1,0 +1,127 @@
+--8483c045f--2016-01-14--jsugarman
+--55dc89263--2016-01-14--jsugarman
+52	92	spec/controllers/external_users/claims_controller_spec.rb
+
+--a785a64a1--2016-01-14--jsugarman
+1	1	app/models/claims/sort.rb
+6	1	features/advocate_claims_list_sorting.feature
+6	1	features/caseworker_claims_list_sorting.feature
+
+--258fb3bf6--2016-01-14--jsugarman
+27	0	features/advocate_claims_list_sorting.feature
+12	12	features/caseworker_claims_list_sorting.feature
+18	0	features/step_definitions/advocate_claims_list_sorting_steps.rb
+0	9	features/step_definitions/caseworker_claims_list_sorting_steps.rb
+8	0	features/step_definitions/shared/sorting_steps.rb
+9	7	spec/controllers/external_users/claims_controller_spec.rb
+
+--12721e39f--2016-01-14--Edward Andress
+--6501011d5--2016-01-14--Joel Sugarman
+--bc0317762--2016-01-14--Himal Mandalia
+1	5	app/controllers/case_workers/admin/case_workers_controller.rb
+1	1	app/models/ability.rb
+0	31	app/views/case_workers/admin/case_workers/allocate.html.haml
+0	1	config/routes.rb
+0	24	spec/controllers/case_workers/admin/case_workers_controller_spec.rb
+2	2	spec/models/ability_spec.rb
+
+--81a0efdbe--2016-01-14--Himal Mandalia
+0	2	app/models/concerns/user_roles.rb
+
+--13fd57d0d--2016-01-14--Joel Sugarman
+--066bea7af--2016-01-14--Himal Mandalia
+2	2	app/views/external_users/admin/external_users/show.html.haml
+
+--148e3b3c3--2016-01-14--Himal Mandalia
+5	1	app/models/concerns/user_roles.rb
+4	7	db/migrate/20160112171540_move_role_to_roles.rb
+
+--52f1b90ed--2016-01-14--Himal Mandalia
+18	0	features/new_user.feature
+14	0	features/step_definitions/new_user_steps.rb
+
+--1c9ea9934--2016-01-14--Himal Mandalia
+3	2	app/views/case_workers/admin/case_workers/_form.html.haml
+
+--506e22582--2016-01-14--Himal Mandalia
+3	2	app/views/external_users/admin/external_users/_form.html.haml
+
+--c5d1d5636--2016-01-14--Alistair Laing
+39	0	app/assets/javascripts/modules/AddEditAdvocate.js
+13	12	app/views/external_users/admin/external_users/_form.html.haml
+11	11	app/views/super_admins/external_users/_form.html.haml
+
+--399881cda--2016-01-13--jsugarman
+1	1	app/controllers/case_workers/claims_controller.rb
+44	33	app/controllers/external_users/claims_controller.rb
+5	3	app/models/claims/financial_summary.rb
+39	12	app/models/claims/sort.rb
+1	1	app/views/case_workers/claims/_claims.html.haml
+6	6	app/views/external_users/claims/_claims.html.haml
+1	1	app/views/external_users/claims/authorised.html.haml
+3	3	app/views/external_users/claims/outstanding.html.haml
+1	1	app/views/shared/_search_summary.html.haml
+
+--75b2b430d--2016-01-13--Himal Mandalia
+1	1	app/models/concerns/user_roles.rb
+
+--7bd6a01b6--2016-01-13--Himal Mandalia
+5	5	app/views/external_users/admin/external_users/_form.html.haml
+5	5	app/views/super_admins/external_users/_form.html.haml
+
+--a4de7c99b--2016-01-13--Himal Mandalia
+2	2	app/controllers/external_users/claims_controller.rb
+1	10	app/models/external_user.rb
+5	0	app/models/provider.rb
+71	57	spec/models/external_user_spec.rb
+28	0	spec/models/provider_spec.rb
+
+--236240a98--2016-01-13--Himal Mandalia
+3	4	app/controllers/application_controller.rb
+2	2	app/controllers/case_workers/admin/case_workers_controller.rb
+1	1	app/controllers/external_users/admin/external_users_controller.rb
+13	7	app/controllers/external_users/claims_controller.rb
+1	1	app/controllers/external_users/registrations_controller.rb
+1	1	app/controllers/super_admins/external_users_controller.rb
+1	2	app/models/case_worker.rb
+17	3	app/models/concerns/user_roles.rb
+1	1	app/models/external_user.rb
+0	3	app/models/super_admin.rb
+3	3	app/views/case_workers/admin/case_workers/_form.html.haml
+2	2	app/views/case_workers/admin/case_workers/show.html.haml
+3	3	app/views/external_users/admin/external_users/_form.html.haml
+3	3	app/views/super_admins/external_users/_form.html.haml
+1	1	app/views/super_admins/external_users/show.html.haml
+7	7	config/locales/en.yml
+0	5	db/migrate/20160112165418_rename_external_users_role_to_roles.rb
+0	5	db/migrate/20160112165430_rename_case_workers_role_to_roles.rb
+19	0	db/migrate/20160112171540_move_role_to_roles.rb
+3	5	db/schema.rb
+1	1	db/seeds/case_workers.rb
+1	1	db/seeds/seed_helper.rb
+4	4	features/step_definitions/new_user_steps.rb
+2	2	lib/demo_data/demo_seeds/case_workers.rb
+6	6	lib/demo_data/demo_seeds/external_users.rb
+7	7	spec/controllers/case_workers/admin/case_workers_controller_spec.rb
+8	8	spec/controllers/external_users/admin/external_users_controller_spec.rb
+5	5	spec/controllers/super_admins/external_users_controller_spec.rb
+6	2	spec/factories/case_workers.rb
+7	3	spec/factories/external_users.rb
+32	2	spec/models/case_worker_spec.rb
+34	3	spec/models/external_user_spec.rb
+
+--d938b3164--2016-01-13--jsugarman
+1	1	features/step_definitions/caseworker_claims_list_sorting_steps.rb
+17	0	features/support/xpath_helper.rb
+
+--df036f513--2016-01-12--Himal Mandalia
+1	1	app/models/case_worker.rb
+5	3	app/models/concerns/user_roles.rb
+1	1	app/models/external_user.rb
+5	0	db/migrate/20160112165418_rename_external_users_role_to_roles.rb
+5	0	db/migrate/20160112165430_rename_case_workers_role_to_roles.rb
+5	5	db/schema.rb
+1	1	spec/factories/case_workers.rb
+1	1	spec/factories/external_users.rb
+1	1	spec/models/case_worker_spec.rb
+1	1	spec/models/external_user_spec.rb

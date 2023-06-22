@@ -1,0 +1,24 @@
+--b4ebab0d--2010-09-23--Aravind
+--2e0cacd7--2010-09-20--Aravind
+14	4	app/controllers/fields_controller.rb
+19	5	app/controllers/form_section_controller.rb
+3	4	app/models/field.rb
+2	11	app/models/field_option.rb
+5	1	app/models/form_section.rb
+42	32	app/views/form_section/index.html.erb
+15	10	config/routes.rb
+36	0	features/disable_and_enable_forms.feature
+16	0	features/step_definitions/web_steps.rb
+32	13	public/javascripts/application.js
+69	28	spec/controllers/form_section_controller_spec.rb
+1	1	spec/support/hpricot_search.rb
+21	8	spec/views/formsections/index.html.erb_spec.rb
+
+--5943cd5d--2010-09-21--Tom Elkin
+2	2	features/add_suggested_field_to_form_sections.feature
+
+--b2bc3714--2010-09-20--Tom Elkin
+--847456bf--2010-09-20--Tom Elkin
+--8aaa15b9--2010-09-16--Ketan Padegaonkar
+2	2	app/controllers/children_controller.rb
+2	2	spec/controllers/children_controller_spec.rb

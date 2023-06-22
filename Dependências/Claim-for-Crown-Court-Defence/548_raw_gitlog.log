@@ -1,0 +1,45 @@
+--01c9d5346--2016-06-06--Stephen Richards
+--69c6357a1--2016-06-06--Stephen Richards
+--27278587a--2016-06-06--Jesus Laiz
+0	21	.rubocop_todo.yml
+1	1	Gemfile
+2	2	Gemfile.lock
+1	1	app/models/claim/base_claim.rb
+1	1	app/models/date_attended.rb
+1	1	app/models/defendant.rb
+1	1	app/models/expense.rb
+1	1	app/models/fee/fixed_fee.rb
+1	1	app/models/fee/graduated_fee.rb
+1	1	app/models/fee/interim_fee.rb
+1	1	app/models/fee/warrant_fee.rb
+1	1	app/models/representation_order.rb
+6	6	app/validators/expense_v2_validator.rb
+3	4	app/validators/fee/base_fee_validator.rb
+8	0	app/validators/fee/basic_fee_validator.rb
+1	2	app/validators/fee/fixed_fee_validator.rb
+1	2	app/validators/fee/graduated_fee_validator.rb
+2	3	app/validators/fee/interim_fee_validator.rb
+1	2	app/validators/fee/misc_fee_validator.rb
+2	12	app/validators/fee/transfer_fee_validator.rb
+0	6	app/validators/fee/warrant_fee_validator.rb
+1	2	app/views/external_users/claims/misc_fees/litigators/_misc_fee_fields.html.haml
+43	0	features/claims/litigator/litigator_contempt_claim_with_errors_submit.feature
+11	2	features/step_definitions/advocate_claim_steps.rb
+12	0	features/step_definitions/common_steps.rb
+4	0	features/support/date_helper.rb
+
+--1af03cef0--2016-06-06--Jesus Laiz
+2	2	config/locales/error_messages.en.yml
+
+--d1e24b3fa--2016-06-03--Stephen Richards
+6	6	app/interfaces/api/v1/external_users/expense.rb
+39	18	app/views/pages/api_release_notes.html.haml
+
+--20535c926--2016-06-03--Stephen Richards
+8	3	app/controllers/errors_controller.rb
+1	1	config/routes.rb
+0	0	virtual urls
+
+--8d0251323--2016-06-03--Stephen Richards
+--f82a2d43c--2016-06-03--Jesus Laiz
+1	1	app/views/shared/_search_form.html.haml

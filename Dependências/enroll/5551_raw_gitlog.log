@@ -1,0 +1,23 @@
+--0e74ebad48--2015-07-15--vinner
+--1410c36d17--2015-07-15--vinner
+9	0	app/assets/stylesheets/custom.css.erb
+10	1	app/controllers/insured/plan_shoppings_controller.rb
+36	0	app/views/insured/plan_shoppings/_coverage_information.html.erb
+0	30	app/views/insured/plan_shoppings/_purchase_confirmation.html.erb
+24	0	app/views/insured/plan_shoppings/receipt.html.erb
+1	38	app/views/insured/plan_shoppings/thankyou.html.erb
+49	46	app/views/shared/_signup_progress.html.haml
+1	0	config/routes.rb
+1	1	features/employers/create_employer.feature
+1	2	features/integration/employee_sign_up.feature
+6	3	features/step_definitions/integration_steps.rb
+25	0	spec/controllers/insured/plan_shoppings_controller_spec.rb
+80	0	spec/views/insured/plan_shoppings/receipt.html.erb_spec.rb
+0	6	spec/views/insured/plan_shoppings/thankyou.html.erb_spec.rb
+
+--d942fbc401--2015-07-14--jfinucane
+4	21	app/views/employers/employer_profiles/_index.html.erb
+21	0	app/views/employers/employer_profiles/_index_table.html.erb
+2	0	app/views/employers/employer_profiles/index.js.erb
+1	0	app/views/employers/employer_profiles/index_table.html.erb
+9	0	app/views/shared/_alph_paginate_remote.html.erb

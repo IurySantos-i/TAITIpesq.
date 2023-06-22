@@ -1,0 +1,107 @@
+--26139fc2d--2013-01-02--Jonne Haß
+--11f82c794--2013-01-02--Jonne Haß
+4	0	Changelog.md
+1	1	Gemfile
+31	29	Gemfile.lock
+1	1	config/defaults.yml
+
+--beb32ce91--2013-01-01--Jonne Haß
+5	3	app/assets/javascripts/app/helpers/handlebars-helpers.js
+1	1	app/assets/templates/comment_tpl.jst.hbs
+1	1	app/assets/templates/likes-info_tpl.jst.hbs
+
+--fde28e9be--2012-12-30--Jonne Haß
+2	2	app/assets/templates/reshare_tpl.jst.hbs
+1	1	app/assets/templates/stream-element_tpl.jst.hbs
+
+--5ff657204--2012-12-30--Jonne Haß
+--d3f5f34fa--2012-12-30--Blaž Hrastnik
+2	0	Changelog.md
+2	6	config/application.rb
+
+--679d119d4--2012-12-29--Dennis Schubert
+--0092acd49--2012-12-19--Florian Staudacher
+1	0	Changelog.md
+4	2	app/assets/javascripts/app/app.js
+22	8	app/assets/javascripts/app/helpers/handlebars-helpers.js
+115	0	app/assets/javascripts/app/views/hovercard_view.js
+0	1	app/assets/javascripts/diaspora.js
+0	138	app/assets/javascripts/widgets/hovercard.js
+6	2	app/assets/stylesheets/hovercard.css.scss
+1	1	app/assets/templates/stream-element_tpl.jst.hbs
+29	4	app/controllers/people_controller.rb
+39	0	app/presenters/hovercard_presenter.rb
+4	3	config/routes.rb
+6	0	lib/exceptions.rb
+16	0	spec/controllers/people_controller_spec.rb
+
+--42a01f3a3--2012-12-27--Jonne Haß
+3	0	lib/tasks/screenshots.rake
+
+--c2be99939--2012-12-26--Florian Staudacher
+--597ab2071--2012-12-25--movilla
+1	0	Changelog.md
+4	1	app/controllers/conversations_controller.rb
+1	0	config/locales/diaspora/en.yml
+48	0	spec/controllers/conversations_controller_spec.rb
+
+--dd8660b12--2012-12-24--Florian Staudacher
+--c1b858a87--2012-12-24--movilla
+1	0	Changelog.md
+7	7	app/controllers/posts_controller.rb
+3	4	spec/controllers/posts_controller_spec.rb
+
+--4587a926a--2012-12-22--Florian Staudacher
+--ceace5276--2012-12-20--movilla
+1	0	Changelog.md
+3	0	app/assets/javascripts/app/views/publisher_view.js
+4	0	app/assets/stylesheets/application.css.sass
+5	3	app/views/photos/_new_photo.haml
+1	0	app/views/shared/_publisher.html.haml
+1	0	config/locales/javascript/javascript.en.yml
+
+--760ff9528--2012-12-17--Jonne Haß
+--ff173e233--2012-12-10--Florian Staudacher
+1	0	Changelog.md
+4	2	Gemfile
+2	0	Gemfile.lock
+15	4	config/cucumber.yml
+31	0	features/screenshots.feature
+68	0	features/step_definitions/custom_web_steps.rb
+2	2	features/support/user_cuke_helpers.rb
+44	0	lib/tasks/screenshots.rake
+
+--bf9201c00--2012-12-09--Jonne Haß
+--d8dae23bc--2012-12-09--Yury Bulka
+1	1	config/locales/devise/devise.uk.yml
+4	4	config/locales/diaspora/uk.yml
+
+--ae55f5ab9--2012-12-09--Yury Bulka
+25	25	config/locales/devise/devise.uk.yml
+151	151	config/locales/diaspora/uk.yml
+27	27	config/locales/javascript/javascript.uk.yml
+
+--c2e6f6962--2012-12-08--Jonne Haß
+--763a89382--2012-12-08--movilla
+1	0	Changelog.md
+2	0	app/assets/stylesheets/_mixins.css.scss
+20	0	app/assets/stylesheets/mobile.css.scss
+20	2	app/assets/stylesheets/new_styles/_animations.scss
+6	0	app/views/conversations/index.mobile.haml
+1	1	app/views/registrations/new.mobile.haml
+1	1	app/views/sessions/new.mobile.haml
+
+--eea59b091--2012-11-20--Florian Staudacher
+--42f476268--2012-11-20--Florian Staudacher
+2	1	Changelog.md
+
+--e0d50c852--2012-10-24--Florian Staudacher
+1	1	config/defaults.yml
+
+--77ef5d0e0--2012-10-24--Florian Staudacher
+--baf3cf9ab--2012-10-24--Jonne Haß
+4	0	Changelog.md
+1	1	app/presenters/post_presenter.rb
+10	0	spec/presenters/post_presenter_spec.rb
+
+--b3654cfc9--2012-10-09--Jonne Haß

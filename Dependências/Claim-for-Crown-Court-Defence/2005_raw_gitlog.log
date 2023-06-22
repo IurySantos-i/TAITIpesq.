@@ -1,0 +1,53 @@
+--347d2f421--2015-05-28--Eddie Andress
+--449ba3426--2015-05-27--Himal Mandalia
+1	1	app/assets/stylesheets/claim-accordion.scss
+2	0	app/controllers/advocates/claims_controller.rb
+2	0	app/controllers/case_workers/claims_controller.rb
+26	0	app/controllers/messages_controller.rb
+2	0	app/models/claim.rb
+8	0	app/models/message.rb
+1	0	app/models/user.rb
+0	38	app/views/advocates/claims/_advonote.html.haml
+4	0	app/views/advocates/claims/_claims.html.haml
+2	2	app/views/advocates/claims/show.html.haml
+0	38	app/views/case_workers/claims/_advonote.html.haml
+2	2	app/views/case_workers/claims/show.html.haml
+22	0	app/views/shared/_messages.html.haml
+2	0	config/routes.rb
+15	0	db/migrate/20150527102833_create_messages.rb
+5	0	db/migrate/20150527131251_remove_recipient_id_from_messages.rb
+17	1	db/schema.rb
+30	0	features/claim_messages.feature
+43	0	features/step_definitions/claim_messages_steps.rb
+43	0	spec/controllers/messages_controller_spec.rb
+11	0	spec/factories/messages.rb
+1	0	spec/models/claim_spec.rb
+21	0	spec/models/message_spec.rb
+1	0	spec/models/user_spec.rb
+
+--fc1d098af--2015-05-27--Himal Mandalia
+--4fe88b48e--2015-05-22--Eddie Andress
+1	0	.gitignore
+3	3	app/controllers/documents_controller.rb
+25	34	app/models/document.rb
+2	2	app/views/case_workers/claims/_evidence_list.html.haml
+1	11	db/schema.rb
+-	-	public/system/documents/converted_preview_documents/000/000/001/original/eac1bac370712e4fcb7d8b959ad236bb20150522-86209-1ovo1mr.pdf
+-	-	public/system/documents/converted_preview_documents/000/000/001/original/shorter_lorem.pdf
+-	-	public/system/documents/converted_preview_documents/000/000/002/original/eac1bac370712e4fcb7d8b959ad236bb20150522-86209-jqa3ko.pdf
+-	-	public/system/documents/converted_preview_documents/000/000/003/original/eac1bac370712e4fcb7d8b959ad236bb20150522-86209-l011n8.pdf
+-	-	public/system/documents/converted_preview_documents/000/000/003/original/shorter_lorem.pdf
+-	-	public/system/documents/converted_preview_documents/000/000/004/original/eac1bac370712e4fcb7d8b959ad236bb20150522-86209-15ohvwk.pdf
+-	-	public/system/documents/converted_preview_documents/000/000/007/original/shorter_lorem.pdf
+-	-	public/system/documents/converted_preview_documents/000/000/008/original/eac1bac370712e4fcb7d8b959ad236bb20150522-86209-fa564i.pdf
+-	-	public/system/documents/converted_preview_documents/000/000/009/original/eac1bac370712e4fcb7d8b959ad236bb20150522-86209-53loul.pdf
+2	0	spec/factories/documents.rb
+56	38	spec/models/document_spec.rb
+
+--adde5a681--2015-05-22--Eddie Andress
+--d2cdae51d--2015-05-22--Eddie Andress
+8	1	app/models/document.rb
+11	0	db/migrate/20150522134938_add_attachment_converted_preview_document_to_documents.rb
+5	1	db/schema.rb
+-	-	public/system/documents/converted_preview_documents/000/000/001/original/shorter_lorem.pdf
+10	0	spec/models/document_spec.rb

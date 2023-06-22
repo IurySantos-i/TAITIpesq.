@@ -1,0 +1,72 @@
+--fef96d95e--2013-10-04--Matt Rogers
+--a5cb8c9f6--2013-10-04--Matt Rogers
+2	0	History.markdown
+
+--2bb29216e--2013-10-04--Matt Rogers
+--76ada8c67--2013-10-04--maul.esel
+4	3	lib/jekyll/convertible.rb
+
+--809ab5e35--2013-10-03--maul.esel
+3	5	lib/jekyll/tags/include.rb
+
+--7d56426d5--2013-10-02--Matt Rogers
+1	1	History.markdown
+
+--3a7290679--2013-10-02--Matt Rogers
+--bc71dc84f--2013-10-02--Matt Rogers
+1	0	History.markdown
+
+--b723a58f5--2013-10-02--Matt Rogers
+--92750c3cf--2013-10-02--Matt Rogers
+1	1	lib/jekyll/tags/include.rb
+
+--6d74b4df0--2013-10-02--Matt Rogers
+2	0	History.markdown
+
+--6abe01f60--2013-10-02--Matt Rogers
+--09b547785--2013-10-02--Parker Moore
+1	0	History.markdown
+
+--46dcac63b--2013-10-02--Parker Moore
+--422b75ae3--2013-10-02--Parker Moore
+1	1	jekyll.gemspec
+
+--7a4ea086a--2013-10-01--maul.esel
+3	0	lib/jekyll/convertible.rb
+
+--623fa14b3--2013-10-01--maul.esel
+14	1	lib/jekyll/tags/include.rb
+
+--2a92ad77c--2013-09-17--maul.esel
+13	0	site/docs/templates.md
+
+--4c6ccc800--2013-09-12--maul.esel
+7	3	features/include_tag.feature
+
+--2138dfc0a--2013-09-02--maul.esel
+2	1	features/include_tag.feature
+1	1	lib/jekyll/tags/include.rb
+
+--a93795bcc--2013-09-02--maul.esel
+8	0	lib/jekyll/tags/include.rb
+
+--50e945f25--2013-09-02--maul.esel
+8	0	features/include_tag.feature
+
+--4e2217986--2013-10-01--Xavier Noria
+14	11	site/docs/plugins.md
+
+--3b6b56c22--2013-10-01--Matt Swanson
+2	2	site/docs/{data.md => datafiles.md}
+1	1	site/docs/migrations.md
+1	1	site/docs/variables.md
+
+--eca642bf6--2013-09-05--Matt Swanson
+7	5	site/docs/data.md
+1	1	site/docs/migrations.md
+
+--f864b6901--2013-09-04--Matt Swanson
+1	1	site/_includes/docs_contents.html
+1	1	site/_includes/docs_contents_mobile.html
+61	0	site/docs/data.md
+1	1	site/docs/variables.md

@@ -1,0 +1,73 @@
+--d29cb1cbf--2015-10-20--Himal Mandalia
+--a6ddc4445--2015-10-20--Himal Mandalia
+--f0b8ede39--2015-10-20--Stephen Richards
+--36f2e180e--2015-10-19--Stephen Richards
+2	1	app/controllers/advocates/admin/advocates_controller.rb
+0	1	app/controllers/advocates/claims_controller.rb
+5	2	app/models/advocate.rb
+6	1	app/models/chamber.rb
+6	0	app/models/claim.rb
+4	0	app/models/user.rb
+12	1	app/views/advocates/admin/advocates/_form.html.haml
+0	5	app/views/advocates/claims/_form.html.haml
+1	1	config/locales/devise.en.yml
+4	2	config/locales/en.yml
+15256	15184	db/data.yml
+5	0	db/migrate/20151019151911_add_apply_vat_to_advocates.rb
+2	1	db/schema.rb
+1	1	features/step_definitions/advocate_claims_list_steps.rb
+1	1	features/step_definitions/advocate_new_claim_steps.rb
+1	1	features/step_definitions/claims_financial_summary_steps.rb
+1	1	spec/models/advocate_spec.rb
+2	0	spec/models/claim_spec.rb
+85	90	spec/models/claims/financial_summary_spec.rb
+1	1	spec/presenters/claim_presenter_spec.rb
+0	1	spec/rails_helper.rb
+3	3	spec/validators/claim_textfield_validator_spec.rb
+
+--c5d246454--2015-10-20--Himal Mandalia
+--1bc8af715--2015-10-20--Himal Mandalia
+--9c46680f7--2015-10-20--Edward Andress
+1	1	app/presenters/claim_presenter.rb
+
+--814f1a78f--2015-10-20--Edward Andress
+5	2	app/presenters/claim_presenter.rb
+1	1	app/views/shared/_claim_status.html.haml
+0	1	features/claim_status.feature
+1	1	features/step_definitions/claim_status_steps.rb
+
+--2bb66db2c--2015-10-20--Alistair Laing
+43	42	app/views/grape_swagger_rails/application/index.html.erb
+
+--f1a0dc3e7--2015-10-20--Alistair Laing
+10	13	app/views/shared/_claim_status.html.haml
+4	2	app/views/shared/_determinations_form.html.haml
+4	4	features/claim_status.feature
+1	1	features/step_definitions/claim_history_steps.rb
+2	2	features/step_definitions/claim_redetermination_steps.rb
+4	5	features/step_definitions/claim_status_steps.rb
+
+--ca07dba85--2015-10-20--Alistair Laing
+1	1	app/views/messages/create.js.erb
+
+--6c8d25751--2015-10-20--Joel Sugarman
+--be84e0302--2015-10-20--Alistair Laing
+26	21	app/assets/stylesheets/form.scss
+16	12	app/views/case_workers/claims/_determination_fields.html.haml
+
+--10ca9cff8--2015-10-20--Alistair Laing
+3	2	app/views/advocates/claims/show.html.haml
+4	4	app/views/case_workers/claims/show.html.haml
+31	31	app/views/shared/_messages.html.haml
+
+--4e133b1d6--2015-10-20--Edward Andress
+1	1	app/validators/claim_textfield_validator.rb
+1	1	spec/models/claim_spec.rb
+13	5	spec/validators/claim_date_validator_spec.rb
+2	3	spec/validators/claim_textfield_validator_spec.rb
+
+--56853b0c2--2015-10-19--Edward Andress
+11	8	app/controllers/advocates/claims_controller.rb
+6	17	app/validators/claim_textfield_validator.rb
+8	9	features/advocate_new_claim.feature
+1	0	features/api_new_claim.feature

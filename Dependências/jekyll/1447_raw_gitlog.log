@@ -1,0 +1,66 @@
+--5aefaa1c4--2014-05-20--Parker Moore
+--c7fb38b60--2014-05-20--Parker Moore
+1	0	History.markdown
+
+--7e05b6e0b--2014-05-20--Parker Moore
+--879184fe3--2014-05-20--Alberto Grespan
+1	1	test/test_post.rb
+
+--ebd87bfb7--2014-05-20--Parker Moore
+1	1	CONTRIBUTING.markdown
+
+--beeca433a--2014-05-20--Parker Moore
+1	0	History.markdown
+
+--d3f9427e3--2014-05-20--Parker Moore
+--f695603de--2014-05-20--Parker Moore
+--5bb7c7eb9--2014-05-20--Parker Moore
+1	0	History.markdown
+
+--395d65454--2014-05-20--Parker Moore
+--27381b7f0--2014-05-20--Ivan Tse
+1	1	site/docs/collections.md
+
+--e7c4fa0e5--2014-05-20--Jesse shawl
+1	0	lib/site_template/css/main.css
+
+--7ce849a2b--2014-05-20--Alberto Grespan
+2	2	lib/jekyll/url.rb
+4	2	test/test_post.rb
+
+--a07f69050--2014-05-20--Parker Moore
+1	0	History.markdown
+
+--54fba9af4--2014-05-20--Parker Moore
+--2a1054b1a--2014-05-19--Alberto Grespan
+2	2	test/test_post.rb
+
+--77cef764d--2014-05-19--Alberto Grespan
+2	2	lib/jekyll/url.rb
+
+--2f3390750--2014-05-19--Alberto Grespan
+8	0	test/test_post.rb
+
+--936a00a97--2014-05-19--Philipp Rudloff
+4	4	site/docs/permalinks.md
+
+--658a4d0b4--2014-05-14--Yihang Ho
+4	1	lib/jekyll/configuration.rb
+10	1	test/test_configuration.rb
+
+--5b281a06d--2014-05-18--Parker Moore
+1	0	History.markdown
+
+--45c9b82fb--2014-05-18--Parker Moore
+--755088dbf--2014-05-19--Chezou
+1	1	site/docs/installation.md
+
+--9932eb667--2014-05-17--Alberto Grespan
+2	2	lib/jekyll/url.rb
+
+--921dbe054--2014-05-17--Mathieu Bruyen
+14	0	features/collections.feature
+7	0	lib/jekyll/collection.rb
+1	1	lib/jekyll/document.rb
+48	0	site/docs/collections.md
+22	0	test/test_collections.rb

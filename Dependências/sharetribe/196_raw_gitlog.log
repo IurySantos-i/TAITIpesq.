@@ -1,0 +1,89 @@
+--2cb480627--2018-11-06--Aivils Štoss
+--483bf788e--2018-11-06--Luis-RG
+--17ed1d73b--2018-11-06--Luis-RG
+12	0	app/views/landing_page/_icon.erb
+
+--e7296f575--2018-11-05--Vesa Vahermaa
+--97ac61cde--2018-11-05--Schwerbelastung
+7	4	app/views/landing_page/_icon.erb
+
+--08fddfce8--2018-11-02--Luis-RG
+1	1	app/views/listings/help_texts/_help_valid_until.bg.haml
+44	1	config/locales/ab.yml
+4	0	config/locales/ar.yml
+4	0	config/locales/bg.yml
+4	0	config/locales/bn-BD.yml
+4	0	config/locales/ca.yml
+23	19	config/locales/cs.yml
+4	0	config/locales/da-DK.yml
+4	0	config/locales/de.yml
+44	1	config/locales/el.yml
+4	0	config/locales/en-AU.yml
+4	0	config/locales/en-GB.yml
+4	0	config/locales/en-NZ.yml
+4	0	config/locales/eo.yml
+4	0	config/locales/es-ES.yml
+4	0	config/locales/es.yml
+4	0	config/locales/et.yml
+4	0	config/locales/eu-ES.yml
+4	0	config/locales/fi.yml
+4	0	config/locales/fr-CA.yml
+4	0	config/locales/fr.yml
+4	0	config/locales/he-IL.yml
+4	0	config/locales/hi-IN.yml
+4	0	config/locales/hr.yml
+4	0	config/locales/hu.yml
+4	0	config/locales/hy-AM.yml
+4	0	config/locales/id.yml
+4	0	config/locales/is.yml
+4	0	config/locales/it.yml
+4	0	config/locales/ja.yml
+4	0	config/locales/ka.yml
+4	0	config/locales/km-KH.yml
+4	0	config/locales/ko.yml
+4	0	config/locales/lv.yml
+4	0	config/locales/mn.yml
+44	1	config/locales/ms-MY.yml
+44	1	config/locales/nb.yml
+4	0	config/locales/nl.yml
+4	0	config/locales/pl.yml
+4	0	config/locales/pt-BR.yml
+4	0	config/locales/pt-PT.yml
+4	0	config/locales/ro.yml
+4	0	config/locales/ru.yml
+4	0	config/locales/sk-SK.yml
+4	0	config/locales/sl.yml
+4	0	config/locales/sq-AL.yml
+35	31	config/locales/sr.yml
+4	0	config/locales/sv.yml
+4	0	config/locales/sw.yml
+4	0	config/locales/ta-IN.yml
+4	0	config/locales/th-TH.yml
+4	0	config/locales/ti.yml
+4	0	config/locales/tr-TR.yml
+4	0	config/locales/uk.yml
+4	0	config/locales/vi.yml
+4	0	config/locales/zh-HK.yml
+44	1	config/locales/zh-TW.yml
+44	1	config/locales/zh.yml
+
+--470e36089--2018-11-02--Luis-RG
+--4ddbaf0b8--2018-11-02--Luis-RG
+9	0	app/views/landing_page/_icon.erb
+
+--9c7a6426d--2018-11-02--Aivils Štoss
+--3eddae735--2018-11-01--Aivils Štoss
+13	3	app/assets/javascripts/admin/emails.js
+
+--e8a93c49e--2018-11-01--Boyan Tabakov
+--2c143d2d4--2018-11-01--Boyan Tabakov
+9	0	Dockerfile
+2	0	docker-compose.app.yml
+10	0	script/entrypoint.sh
+
+--688f3f7fa--2018-10-31--Nikolai
+5	7	app/controllers/admin/community_memberships_controller.rb
+8	0	app/models/person.rb
+2	2	app/view_utils/admin_community_memberships_view_utils.rb
+5	2	features/admin/manage_members/admin_lists_members.feature
+7	5	features/step_definitions/user_steps.rb

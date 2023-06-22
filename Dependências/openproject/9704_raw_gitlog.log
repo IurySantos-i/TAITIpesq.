@@ -1,0 +1,42 @@
+--015016a32c--2010-09-03--Mark Maglana
+--5e7c0ab32a--2010-09-03--Mark Maglana
+2	2	app/controllers/rb_updated_items_controller.rb
+0	1	app/views/rb_impediments/_impediment.html.erb
+1	1	app/views/rb_sprints/show.html.erb
+0	3	assets/javascripts/master_backlogs_updater.js
+3	5	assets/javascripts/taskboard_updater.js
+
+--39f62ecb71--2010-09-03--Mark Maglana
+2	0	app/controllers/rb_stories_controller.rb
+17	1	app/controllers/rb_updated_items_controller.rb
+1	0	app/helpers/rb_common_helper.rb
+1	1	app/views/rb_master_backlogs/show.html.erb
+3	1	app/views/rb_server_variables/show.js.erb
+0	1	app/views/rb_stories/_story.html.erb
+11	8	app/views/rb_updated_items/show.html.erb
+5	5	assets/javascripts/board_updater.js
+2	3	assets/javascripts/{backlogs_updater.js => master_backlogs_updater.js}
+13	6	features/scrum_master.feature
+13	0	features/step_definitions/_then_steps.rb
+18	4	features/step_definitions/_when_steps.rb
+11	0	lib/tasks/fix_positions.rake
+
+--75f34a5a72--2010-09-03--friflaj
+1	1	features/scrum_master.feature
+5	0	features/step_definitions/_given_steps.rb
+1	1	features/step_definitions/_when_steps.rb
+6	1	features/step_definitions/helpers.rb
+
+--a5c69e8fb5--2010-09-03--Mark Maglana
+2	1	app/controllers/rb_application_controller.rb
+0	11	app/controllers/rb_changes_controller.rb
+27	0	app/controllers/rb_updated_items_controller.rb
+6	0	app/models/story.rb
+6	0	app/models/task.rb
+9	0	app/views/rb_updated_items/show.html.erb
+1	0	config/routes.rb
+1	0	features/scrum_master.feature
+7	3	features/step_definitions/_then_steps.rb
+4	0	features/step_definitions/_when_steps.rb
+30	2	features/team_member.feature
+4	2	init.rb

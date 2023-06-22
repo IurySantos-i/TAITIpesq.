@@ -1,0 +1,91 @@
+--7bf900c92b--2013-08-22--Bradley Wright
+--1fc6544c63--2013-08-22--Ben Firshman
+1	1	test/functional/admin/generic_editions_controller_tests/deleting_documents_test.rb
+
+--7d5e60c121--2013-08-22--Ben Firshman
+2	2	app/views/admin/editions/show.html.erb
+
+--7843fbf725--2013-08-22--Matthew Ford
+--f915c195fc--2013-08-20--Graham Ashton
+0	39	app/models/edition/related_policies.rb
+1	16	app/models/edition/topics.rb
+0	29	lib/tasks/topics.rake
+0	11	test/unit/edition/topics_test.rb
+
+--7871d22057--2013-08-22--Ben Firshman
+1	1	app/views/admin/editions/_show_metadata.html.erb
+
+--6df4b3cf57--2013-08-21--Tekin Suleyman
+2	2	features/preview-unpublished-editions.feature
+2	2	features/step_definitions/document_steps.rb
+0	5	features/step_definitions/policy_steps.rb
+
+--63983670fa--2013-08-21--Tekin Suleyman
+7	0	app/helpers/document_helper.rb
+2	2	features/step_definitions/document_steps.rb
+12	0	test/unit/helpers/document_helper_test.rb
+
+--e7615ec3dc--2013-08-15--Ben Firshman
+1	0	app/assets/javascripts/admin.js
+5	1	app/assets/javascripts/admin/on_ready.js
+5	1	app/assets/stylesheets/admin/base.scss
+0	3	app/assets/stylesheets/admin/change_notes.scss
+0	30	app/assets/stylesheets/admin/document.scss
+4	0	app/assets/stylesheets/admin/global/_js-hidden.scss
+53	0	app/assets/stylesheets/admin/views/_edition_show.scss
+12	20	app/helpers/admin/edition_actions_helper.rb
+3	5	app/helpers/admin/editions_helper.rb
+1	1	app/helpers/document_helper.rb
+0	4	app/models/edition/identifiable.rb
+26	0	app/views/admin/editions/_alerts.html.erb
+0	219	app/views/admin/editions/_document_preview.html.erb
+1	1	app/views/admin/editions/_fact_check_responses.html.erb
+30	0	app/views/admin/editions/_history_state.html.erb
+0	19	app/views/admin/editions/_inbound_links.html.erb
+0	82	app/views/admin/editions/_navigation.html.erb
+0	179	app/views/admin/editions/_outbound_links.html.erb
+211	0	app/views/admin/editions/_show_metadata.html.erb
+1	1	app/views/admin/editions/forbidden.html.erb
+64	54	app/views/admin/editions/show.html.erb
+2	2	app/views/admin/fact_check_requests/edit.html.erb
+0	32	app/views/admin/speeches/_speech_details.html.erb
+0	13	features/detailed-guides.feature
+0	2	features/non-english-world-location-news.feature
+5	11	features/policies.feature
+0	36	features/publishing-new-document-editions.feature
+2	3	features/speeches.feature
+6	5	features/step_definitions/document_sources_steps.rb
+17	32	features/step_definitions/document_steps.rb
+3	3	features/step_definitions/import_steps.rb
+2	2	features/step_definitions/most_recent_editions_steps.rb
+1	1	features/step_definitions/news_article_steps.rb
+10	5	features/step_definitions/policy_steps.rb
+2	2	features/step_definitions/publication_steps.rb
+6	11	features/step_definitions/speech_steps.rb
+8	9	features/step_definitions/supporting_page_steps.rb
+5	3	features/step_definitions/translated_content_steps.rb
+1	13	features/step_definitions/world_location_news_article_steps.rb
+1	1	features/support/consultation_helper.rb
+10	5	features/support/document_helper.rb
+1	1	features/translated-content.feature
+0	50	test/functional/admin/consultations_controller_test.rb
+0	14	test/functional/admin/detailed_guides_controller_test.rb
+0	9	test/functional/admin/fatality_notices_controller_test.rb
+7	5	test/functional/admin/generic_editions_controller_tests/deleting_documents_test.rb
+0	18	test/functional/admin/generic_editions_controller_tests/govspeak_test.rb
+20	1	test/functional/admin/generic_editions_controller_tests/revising_documents_test.rb
+9	30	test/functional/admin/generic_editions_controller_tests/translation_test.rb
+2	20	test/functional/admin/policies_controller_test.rb
+0	14	test/functional/admin/publications_controller_test.rb
+0	38	test/functional/admin/speeches_controller_test.rb
+0	61	test/support/admin_edition_controller_test_helpers.rb
+0	18	test/support/admin_edition_world_locations_behaviour.rb
+2	2	test/support/css_selectors.rb
+0	24	test/support/tests_for_national_applicability.rb
+0	11	test/unit/edition/identifiable_test.rb
+
+--ade7d19011--2013-08-12--Ben Firshman
+19	6	app/assets/stylesheets/admin/base.scss
+0	16	app/assets/stylesheets/admin/document.scss
+7	0	app/assets/stylesheets/admin/layout.scss
+1	0	app/views/admin/editions/show.html.erb

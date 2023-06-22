@@ -1,0 +1,30 @@
+--fb60f855ca--2017-03-22--Graham Pengelly
+--a6b915e943--2017-03-22--Kevin Dew
+--3ce2e64371--2017-03-09--Matteo Grassotti
+0	9	app/controllers/news_articles_controller.rb
+0	63	features/news-articles.feature
+0	15	features/scheduled-publishing.feature
+1	1	features/step_definitions/document_steps.rb
+0	19	features/step_definitions/news_article_steps.rb
+0	11	features/step_definitions/scheduled_publishing_steps.rb
+0	11	features/step_definitions/world_location_steps.rb
+0	15	features/topical_events.feature
+0	1	features/world-locations.feature
+0	22	test/functional/documents_controller_worldwide_slimmer_headers_exclusion_test.rb
+0	57	test/functional/news_articles_controller_test.rb
+1	2	test/integration/document_locale_param_canonicalisation_test.rb
+
+--d9042dc61d--2017-03-06--Rosa Fox
+0	10	app/controllers/news_articles_controller.rb
+0	8	app/views/news_articles/_document_sidebar.html.erb
+0	42	app/views/news_articles/show.html.erb
+
+--3064f3a475--2017-03-13--Kevin Dew
+23	1	app/controllers/organisations_controller.rb
+47	0	app/presenters/featured_policies_presenter.rb
+67	0	test/unit/presenters/featured_policies_presenter_test.rb
+
+--bf36c4838d--2017-03-13--Kevin Dew
+1	1	app/models/featured_policy.rb
+9	0	app/presenters/publishing_api/organisation_presenter.rb
+1	0	test/unit/presenters/publishing_api/organisation_presenter_test.rb

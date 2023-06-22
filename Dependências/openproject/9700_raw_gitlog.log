@@ -1,0 +1,25 @@
+--e3779d489c--2010-09-06--friflaj
+--95346025bd--2010-09-06--friflaj
+12	2	app/models/story.rb
+
+--53402c57df--2010-09-07--Mark Maglana
+5	0	features/product_owner.feature
+4	0	features/step_definitions/_then_steps.rb
+
+--8b60dda796--2010-09-06--Mark Maglana
+3	3	app/views/rb_server_variables/show.js.erb
+
+--b36845f513--2010-09-06--friflaj
+1	1	app/controllers/rb_application_controller.rb
+1	2	app/controllers/rb_stories_controller.rb
+1	1	app/views/rb_master_backlogs/_backlog.html.erb
+1	1	app/views/rb_master_backlogs/show.html.erb
+2	2	app/views/rb_taskboards/show.html.erb
+1	1	app/views/shared/_header.html.erb
+2	2	app/views/shared/_view_issues_sidebar.html.erb
+3	3	features/step_definitions/_given_steps.rb
+8	8	features/step_definitions/_when_steps.rb
+
+--b849185cc2--2010-09-06--Mark Maglana
+3	12	app/controllers/rb_application_controller.rb
+16	14	config/routes.rb

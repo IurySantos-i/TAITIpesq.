@@ -1,0 +1,105 @@
+--900ff3d00--2011-05-20--pixel
+--aa28038c6--2011-05-20--pixel
+--9af0f5eca--2011-05-20--pixel
+--cb52fbb72--2011-05-20--pixel
+--cb21af861--2011-05-20--Cesy
+4	1	features/challenge_giftexchange.feature
+
+--30b2d48fa--2011-05-19--pixel
+--68ab5c2b3--2011-05-19--Cesy
+1	1	features/challenge_giftexchange.feature
+
+--5407c2cce--2011-05-19--Cesy
+1	1	app/views/layouts/_header.html.erb
+
+--643f1785d--2011-05-15--Cesy
+1	1	app/controllers/challenge_signups_controller.rb
+2	0	app/models/challenge_signup.rb
+14	0	features/challenge_promptmeme.feature
+52	2	features/step_definitions/challenge_steps.rb
+
+--2d14d17b2--2011-05-15--Cesy
+9	0	features/challenge_promptmeme.feature
+
+--c835465c3--2011-05-15--Cesy
+1	1	app/views/challenge_signups/_show_offers.html.erb
+1	1	app/views/challenge_signups/_show_requests.html.erb
+
+--3b1f10ef9--2011-05-14--pixel
+--5c68dd91f--2011-05-14--pixel
+--b41d6fac4--2011-05-14--shalott
+--38f80dda7--2011-05-14--shalott
+--e7fff9281--2011-03-26--Cesy
+1	1	app/controllers/challenge_signups_controller.rb
+12	0	features/challenge_giftexchange.feature
+
+--bfad1e7b3--2011-05-14--Cesy
+0	1	app/controllers/admin/settings_controller.rb
+6	0	features/step_definitions/admin_steps.rb
+
+--d36b9a3cf--2011-05-14--Cesy
+1	0	app/controllers/application_controller.rb
+12	10	features/banner_general.feature
+8	3	features/step_definitions/admin_steps.rb
+
+--36b71d0ba--2011-05-14--Cesy
+14	31	features/banner_general.feature
+27	12	features/step_definitions/admin_steps.rb
+
+--7a12b6dda--2011-05-13--Cesy
+7	1	app/controllers/application_controller.rb
+7	1	app/views/layouts/_header.html.erb
+
+--b61fbb32e--2011-04-01--Cesy
+8	1	app/controllers/admin/settings_controller.rb
+7	0	app/controllers/users_controller.rb
+2	0	app/views/admin/settings/index.html.erb
+14	0	app/views/layouts/_header.html.erb
+1	0	config/routes.rb
+9	0	db/migrate/20110401185831_add_banner_unseen_to_preferences.rb
+9	0	db/migrate/20110401201033_add_banner_to_admin_settings.rb
+56	0	features/banner_general.feature
+0	1	features/banner_login.feature
+
+--476a59774--2011-04-01--Cesy
+42	0	features/banner_login.feature
+
+--8f618a3dc--2011-05-14--shalott
+--a7351f7d5--2011-05-13--shalott
+1	0	app/views/works/_meta.html.erb
+7	6	public/stylesheets/site-chrome.css
+
+--8fdb6a3ff--2011-04-12--pixel
+1	0	app/mailers/admin_mailer.rb
+1	0	app/mailers/comment_mailer.rb
+1	0	app/mailers/kudo_mailer.rb
+1	0	app/mailers/user_mailer.rb
+5	0	app/views/layouts/mailer.html.erb
+
+--745e996d8--2011-05-13--Enigel
+10	10	app/controllers/chapters_controller.rb
+14	11	app/controllers/series_controller.rb
+19	2	app/views/series/_series_order.html.erb
+0	3	app/views/series/update_positions.rjs
+
+--cc8225ac8--2011-05-13--Enigel
+7	4	app/controllers/chapters_controller.rb
+30	11	app/views/chapters/manage.html.erb
+0	3	app/views/chapters/update_positions.rjs
+8	2	public/javascripts/application.js
+2	2	public/stylesheets/site-chrome.css
+
+--b1f57c107--2011-05-13--Enigel
+5	0	config/config.yml
+10	0	features/step_definitions/work_steps.rb
+10	0	features/work_browse.feature
+3	0	lib/html_cleaner.rb
+
+--830aadf80--2011-05-12--shalott
+0	5	config/config.yml
+63	20	features/skin.feature
+97	91	lib/css_cleaner.rb
+
+--f8042216d--2011-05-10--pixel
+--0b470fbba--2011-05-10--mumble
+1	1	app/views/user_mailer/collection_notification.html.erb

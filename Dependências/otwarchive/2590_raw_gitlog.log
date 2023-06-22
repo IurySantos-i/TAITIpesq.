@@ -1,0 +1,14 @@
+--dd27d3630--2011-06-07--elz
+--cc232c22d--2011-06-07--elz
+--ef8bd86ac--2011-06-04--Cesy
+1	0	features/work_download.feature
+
+--c1f882306--2011-06-04--Cesy
+1	1	app/controllers/challenge_assignments_controller.rb
+11	3	app/controllers/challenge_claims_controller.rb
+4	0	app/models/challenge_claim.rb
+8	4	app/views/challenge_claims/_maintainer_index.html.erb
+4	4	app/views/challenge_claims/_user_index.html.erb
+29	0	features/challenge_giftexchange.feature
+79	20	features/challenge_promptmeme.feature
+19	1	features/step_definitions/challenge_steps.rb

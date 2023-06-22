@@ -1,0 +1,27 @@
+--7de88263--2014-09-07--andreweskeclarke
+--769d4d0f--2014-09-07--andreweskeclarke
+1	1	app/controllers/children_controller.rb
+0	60	app/models/child_search.rb
+1	1	app/models/forms/search_form.rb
+5	5	spec/controllers/children_controller_spec.rb
+0	162	spec/models/child_search_spec.rb
+2	2	spec/models/forms/search_form_spec.rb
+
+--da7ab974--2014-09-07--andreweskeclarke
+1	1	app/controllers/enquiries_controller.rb
+0	60	app/models/enquiry_search.rb
+3	5	app/models/search.rb
+2	2	spec/factories.rb
+1	1	spec/models/search_spec.rb
+
+--fc1fb797--2014-09-07--andreweskeclarke
+7	4	app/models/search.rb
+132	130	spec/models/search_spec.rb
+
+--77e7e522--2014-09-05--andreweskeclarke
+0	7	app/models/enquiry_search.rb
+69	0	app/models/search.rb
+12	0	spec/factories.rb
+182	0	spec/models/search_spec.rb
+
+--c8d9a81e--2014-09-04--Kisitu Augustine

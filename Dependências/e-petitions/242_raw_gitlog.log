@@ -1,0 +1,83 @@
+--6aa53867--2015-07-03--Murray Steele
+--362794a6--2015-07-03--Murray Steele
+--019c49f4--2015-07-03--Murray Steele
+--59679117--2015-07-03--Murray Steele
+--22e0c2fc--2015-07-03--Pete Herlihy
+1	1	app/views/admin/searches/_form.html.erb
+
+--d6e26efb--2015-07-03--Murray Steele
+9	9	features/step_definitions/actioned_steps.rb
+1	1	features/step_definitions/constituency_search_steps.rb
+
+--25b3eb81--2015-07-03--Henry Hadlow
+1	0	app/assets/stylesheets/petitions/_colours.scss
+2	2	app/assets/stylesheets/petitions/_header.scss
+3	0	app/assets/stylesheets/petitions/_typography.scss
+52	36	app/assets/stylesheets/petitions/views/_home.scss
+31	1	app/assets/stylesheets/petitions/views/_shared.scss
+2	1	app/assets/stylesheets/petitions/views/shared/_petition-item.scss
+7	8	app/views/pages/index.html.erb
+9	9	config/locales/petitions.en-GB.yml
+6	6	spec/helpers/home_helper_spec.rb
+
+--d6c82f0f--2015-07-03--Henry Hadlow
+6	4	app/assets/stylesheets/petitions/views/shared/_petition-item.scss
+2	2	app/views/archived/petitions/index.html.erb
+3	6	app/views/local_petitions/index.html.erb
+7	6	app/views/pages/_home_debated_petitions.html.erb
+8	6	app/views/pages/_home_responded_petitions.html.erb
+1	1	app/views/petitions/_trending_petition.html.erb
+6	12	app/views/petitions/search/_results_for_pre_create_petition.html.erb
+1	1	app/views/petitions/search/result_items/_petition_result_for_facet_all.html.erb
+1	1	app/views/petitions/search/result_items/_petition_result_for_facet_awaiting_debate_date.html.erb
+1	1	app/views/petitions/search/result_items/_petition_result_for_facet_awaiting_response.html.erb
+1	1	app/views/petitions/search/result_items/_petition_result_for_facet_closed.html.erb
+1	1	app/views/petitions/search/result_items/_petition_result_for_facet_open.html.erb
+1	1	app/views/petitions/search/result_items/_petition_result_for_facet_rejected.html.erb
+1	1	app/views/petitions/search/result_items/_petition_result_for_facet_with_debate_outcome.html.erb
+1	1	app/views/petitions/search/result_items/_petition_result_for_facet_with_response.html.erb
+
+--ef1ae60c--2015-07-03--Pete Herlihy
+--da38937f--2015-07-03--Pete Herlihy
+1	1	app/views/admin/searches/_form.html.erb
+
+--61522940--2015-07-03--Henry Hadlow
+1	0	app/views/layouts/admin.html.erb
+-	-	public/favicon-admin.ico
+
+--6cea71f4--2015-07-03--Pete Herlihy
+1	0	app/views/admin/searches/_form.html.erb
+
+--dcc3f305--2015-07-03--Murray Steele
+4	0	app/models/petition.rb
+4	2	app/views/admin/moderation/_form.html.erb
+1	0	features/admin/moderator_responds_to_petition.feature
+5	0	features/step_definitions/moderation_steps.rb
+20	0	spec/models/petition_spec.rb
+
+--e0beec15--2015-07-03--Pete Herlihy
+1	1	app/views/admin/searches/_form.html.erb
+
+--2200ff27--2015-07-03--Pete Herlihy
+3	4	app/views/admin/searches/_form.html.erb
+
+--2b29f9e1--2015-07-03--Henry Hadlow
+1	1	public/404.html
+1	1	public/422.html
+1	1	public/500.html
+1	1	public/503.html
+
+--f8ef8497--2015-07-03--Pete Herlihy
+0	0	app/assets/stylesheets/petitions/{_search-inline.css => _search-inline.scss}
+
+--986b99e1--2015-07-03--Pete Herlihy
+1	0	app/assets/stylesheets/site-admin.scss
+
+--f16d9830--2015-07-03--Pete Herlihy
+1	0	app/assets/stylesheets/site.scss
+
+--61d2b977--2015-07-03--Pete Herlihy
+34	0	app/assets/stylesheets/petitions/_search-inline.css
+
+--f67190ba--2015-07-03--Pete Herlihy
+0	35	app/assets/stylesheets/petitions/views/_search.scss

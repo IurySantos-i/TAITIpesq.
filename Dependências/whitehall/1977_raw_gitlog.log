@@ -1,0 +1,251 @@
+--708ed494de--2014-12-17--Alex Tomlins
+--0a71945c0d--2014-12-17--Mark Sheldon
+--58e51ee5c0--2014-12-17--marksheldonGDS
+11	13	app/helpers/organisation_helper.rb
+
+--eda5a34db5--2014-12-17--Tekin Suleyman
+--59fbdeee4f--2014-12-17--Edd Sowden
+--990be69b74--2014-12-17--Edd Sowden
+8	0	app/assets/stylesheets/frontend/views/_organisations.scss
+
+--fb128aadc7--2014-12-17--Richard Boulton
+--1fc1a959ea--2014-12-17--Richard Boulton
+1	0	app/models/organisation.rb
+
+--d2fa524070--2014-12-16--Tekin Suleyman
+0	1	app/workers/publishing_api_schedule_worker.rb
+
+--0652a6f1c6--2014-12-16--Tekin Suleyman
+2	2	app/workers/publishing_api_schedule_worker.rb
+
+--7de88a38e7--2014-12-16--Tekin Suleyman
+2	0	app/workers/publishing_api_schedule_worker.rb
+2	18	test/unit/workers/publishing_api_schedule_worker_test.rb
+
+--26c024d515--2014-12-16--Tekin Suleyman
+5	1	test/integration/scheduling_test.rb
+
+--8957e56b83--2014-12-16--marksheldonGDS
+5	1	app/views/organisations/not_live.html.erb
+5	10	app/views/organisations/show.html.erb
+
+--f7dd661837--2014-12-16--marksheldonGDS
+21	2	app/helpers/organisation_helper.rb
+41	9	test/unit/helpers/organisation_helper_test.rb
+
+--882a8ef7f4--2014-12-15--Tekin Suleyman
+14	0	app/presenters/publishing_api_presenters/coming_soon.rb
+5	0	app/presenters/publishing_api_presenters/publish_intent.rb
+
+--effb244c44--2014-12-15--Tekin Suleyman
+2	2	app/presenters/publishing_api_presenters.rb
+1	1	app/presenters/publishing_api_presenters/{intent.rb => publish_intent.rb}
+1	1	app/workers/publishing_api_schedule_worker.rb
+2	3	test/unit/presenters/publishing_api_presenters/{intent_test.rb => publish_intent_test.rb}
+3	3	test/unit/presenters/publishing_api_presenters_test.rb
+1	1	test/unit/workers/publishing_api_schedule_worker_test.rb
+
+--db47ccdc6b--2014-12-16--Daniel Roseman
+9	6	app/workers/publishing_api_schedule_worker.rb
+6	6	test/integration/scheduling_test.rb
+24	13	test/unit/workers/publishing_api_schedule_worker_test.rb
+
+--87aa444828--2014-12-15--Daniel Roseman
+1	0	app/presenters/publishing_api_presenters/coming_soon.rb
+2	1	lib/govuk_content_schema.rb
+101	0	lib/govuk_content_schemas/coming_soon.json
+36	0	test/unit/presenters/publishing_api_presenters/coming_soon_test.rb
+
+--0451b32fcf--2014-12-11--Daniel Roseman
+1	0	config/initializers/edition_services.rb
+6	0	lib/whitehall/publishing_api.rb
+49	0	test/integration/scheduling_test.rb
+
+--655533877a--2014-12-11--Daniel Roseman
+35	0	app/workers/publishing_api_schedule_worker.rb
+45	0	test/unit/workers/publishing_api_schedule_worker_test.rb
+
+--bec5ab1773--2014-12-11--Daniel Roseman
+8	0	app/presenters/publishing_api_presenters.rb
+18	0	test/unit/presenters/publishing_api_presenters_test.rb
+
+--7b342672a1--2014-12-10--Daniel Roseman
+1	1	Gemfile
+2	2	Gemfile.lock
+
+--d49c993554--2014-12-09--Daniel Roseman
+39	0	app/presenters/publishing_api_presenters/coming_soon.rb
+
+--8f1fad6246--2014-12-08--Daniel Roseman
+26	0	app/presenters/publishing_api_presenters/intent.rb
+28	0	test/unit/presenters/publishing_api_presenters/intent_test.rb
+
+--a2728b71ea--2014-12-15--Edd Sowden
+--d664535de6--2014-12-15--David Heath
+--6314e77286--2014-12-15--Tekin Suleyman
+1	1	db/data_migration/20141209072457_destroy_orphaned_corporate_information_pages.rb
+
+--6f9fb3b90a--2014-12-15--David Heath
+--6d2129c596--2014-12-12--Tekin Suleyman
+1	1	config/initializers/edition_services.rb
+4	4	test/integration/archiving_test.rb
+
+--17f77c5b2f--2014-12-12--Tekin Suleyman
+15	2	db/data_migration/20141204142323_publish_all_unpublished_editions_to_content_api.rb
+
+--752a3d594b--2014-12-12--Tekin Suleyman
+5	0	test/test_helper.rb
+18	26	test/unit/presenters/publishing_api_presenters/case_study_test.rb
+0	7	test/unit/presenters/publishing_api_presenters/unpublishing_test.rb
+
+--3c783b0f33--2014-12-12--Tekin Suleyman
+4	8	app/presenters/publishing_api_presenters.rb
+0	38	app/presenters/publishing_api_presenters/edition_redirect.rb
+58	9	app/presenters/publishing_api_presenters/unpublishing.rb
+2	1	config/initializers/edition_services.rb
+1	2	lib/whitehall/publishing_api.rb
+22	1	test/integration/unpublishing_test.rb
+0	39	test/unit/presenters/publishing_api_presenters/edition_redirect_test.rb
+168	37	test/unit/presenters/publishing_api_presenters/unpublishing_test.rb
+3	23	test/unit/presenters/publishing_api_presenters_test.rb
+37	13	test/unit/whitehall/publishing_api_test.rb
+
+--26544cc184--2014-12-12--Tekin Suleyman
+10	0	test/factories/unpublishings.rb
+
+--ac88468b20--2014-12-12--Tekin Suleyman
+4	0	app/models/unpublishing.rb
+11	0	test/unit/unpublishing_test.rb
+
+--63e50a52ec--2014-12-11--Tekin Suleyman
+9	10	app/models/unpublishing.rb
+
+--020377a56a--2014-12-11--Tekin Suleyman
+3	5	lib/govuk_content_schemas/unpublishing.json
+
+--a6c39f46e8--2014-12-11--Tekin Suleyman
+1	1	test/factories/editions.rb
+2	3	test/factories/unpublishings.rb
+1	1	test/unit/edition/searchable_test.rb
+3	2	test/unit/edition_test.rb
+17	13	test/unit/unpublishing_test.rb
+1	2	test/unit/whitehall/edition_govspeak_renderer_test.rb
+
+--0cdabdc6c5--2014-12-11--Tekin Suleyman
+18	2	test/integration/unpublishing_test.rb
+12	0	test/unit/presenters/publishing_api_presenters/unpublishing_test.rb
+
+--b724869943--2014-12-09--Tekin Suleyman
+1	1	app/presenters/publishing_api_presenters/edition_redirect.rb
+
+--53f3d03f8e--2014-12-09--Tekin Suleyman
+1	1	app/presenters/publishing_api_presenters.rb
+11	0	test/unit/presenters/publishing_api_presenters_test.rb
+
+--bd012d02b6--2014-12-09--Tekin Suleyman
+0	1	test/unit/presenters/publishing_api_presenters/edition_redirect_test.rb
+
+--4d8b898a9f--2014-12-09--Tekin Suleyman
+5	0	test/test_helper.rb
+0	5	test/unit/presenters/publishing_api_presenters/case_study_test.rb
+10	1	test/unit/presenters/publishing_api_presenters/unpublishing_test.rb
+
+--82601bcfdb--2014-12-09--Tekin Suleyman
+1	0	lib/govuk_content_schemas/unpublishing.json
+
+--23d8b602a9--2014-12-09--Tekin Suleyman
+8	14	lib/data_hygiene/publishing_api_republisher.rb
+
+--ef3708c94b--2014-12-09--Daniel Roseman
+1	1	config/initializers/edition_services.rb
+4	4	test/integration/archiving_test.rb
+
+--860035b665--2014-12-09--Daniel Roseman
+1	1	app/presenters/publishing_api_presenters.rb
+1	1	app/presenters/publishing_api_presenters/{redirect.rb => edition_redirect.rb}
+2	2	test/unit/presenters/publishing_api_presenters/{redirect_test.rb => edition_redirect_test.rb}
+1	1	test/unit/presenters/publishing_api_presenters_test.rb
+
+--3de952d572--2014-12-08--Daniel Roseman
+10	6	lib/whitehall/publishing_api.rb
+1	1	test/integration/unpublishing_test.rb
+5	3	test/unit/whitehall/publishing_api_test.rb
+
+--46b7aebab7--2014-12-08--Daniel Roseman
+0	3	app/presenters/publishing_api_presenters/redirect.rb
+0	11	lib/govuk_content_schemas/redirect.json
+0	27	lib/govuk_content_schemas/unpublishing.json
+1	3	test/unit/presenters/publishing_api_presenters/redirect_test.rb
+
+--8ca32b10bd--2014-12-08--Daniel Roseman
+7	2	app/presenters/publishing_api_presenters/unpublishing.rb
+3	4	test/unit/presenters/publishing_api_presenters/unpublishing_test.rb
+
+--92f5eb4745--2014-12-04--Daniel Roseman
+5	1	app/presenters/publishing_api_presenters.rb
+41	0	app/presenters/publishing_api_presenters/redirect.rb
+2	1	lib/govuk_content_schema.rb
+60	0	lib/govuk_content_schemas/redirect.json
+42	0	test/unit/presenters/publishing_api_presenters/redirect_test.rb
+2	2	test/unit/presenters/publishing_api_presenters/unpublishing_test.rb
+8	0	test/unit/presenters/publishing_api_presenters_test.rb
+
+--d6d226a101--2014-12-04--Daniel Roseman
+1	0	lib/govuk_content_schema.rb
+1	1	lib/govuk_content_schemas/case_study.json
+131	0	lib/govuk_content_schemas/unpublishing.json
+22	12	test/unit/presenters/publishing_api_presenters/unpublishing_test.rb
+
+--267a8bab75--2014-12-04--Daniel Roseman
+8	19	lib/data_hygiene/publishing_api_republisher.rb
+17	6	lib/whitehall/publishing_api.rb
+0	19	test/unit/data_hygiene/publishing_api_republisher_test.rb
+37	0	test/unit/whitehall/publishing_api_test.rb
+
+--53ea19aff4--2014-12-03--Daniel Roseman
+2	0	db/data_migration/20141204142323_publish_all_unpublished_editions_to_content_api.rb
+1	1	lib/data_hygiene/publishing_api_republisher.rb
+
+--e116fccfee--2014-12-02--Daniel Roseman
+1	1	config/initializers/edition_services.rb
+9	0	test/integration/unpublishing_test.rb
+
+--0e115d163e--2014-12-01--Daniel Roseman
+13	4	app/presenters/publishing_api_presenters.rb
+8	0	test/unit/presenters/publishing_api_presenters_test.rb
+
+--43a86fd19b--2014-12-01--Daniel Roseman
+23	0	app/presenters/publishing_api_presenters/unpublishing.rb
+42	0	test/unit/presenters/publishing_api_presenters/unpublishing_test.rb
+
+--f4bcc19815--2014-12-15--Tekin Suleyman
+--b43795d71f--2014-12-15--Tekin Suleyman
+0	3	app/models/unpublishing_reason.rb
+
+--ffe6f467c5--2014-12-15--Edd Sowden
+--681cb88a7a--2014-12-13--Ivan Sim
+1	1	app/views/speeches/_document_extra_metadata.html.erb
+
+--3eba67f5b7--2014-12-12--Vinay Patel
+--a78f6f9a42--2014-12-12--Vinay Patel
+1	1	app/models/admin/edition_filter.rb
+4	0	app/views/admin/editions/_search_results.html.erb
+6	1	app/views/admin/editions/_show_metadata.html.erb
+2	1	app/views/admin/editions/show.html.erb
+6	0	features/step_definitions/unpublishing_published_documents_steps.rb
+6	0	features/unpublishing-published-documents.feature
+9	0	test/functional/admin/editions_controller_test.rb
+
+--4abc32bf51--2014-12-10--Edd Sowden
+7	7	db/data_migration/20141210090358_change_slug_for_schools_colleges_policy_document.rb
+
+--619d854902--2014-12-10--Aaron Keogh
+33	0	db/data_migration/20141210090358_change_slug_for_schools_colleges_policy_document.rb
+
+--6d6531fd76--2014-12-09--Vinay Patel
+4	1	app/models/has_corporate_information_pages.rb
+1	2	app/models/organisation.rb
+2	2	app/models/worldwide_organisation.rb
+9	0	db/data_migration/20141209072457_destroy_orphaned_corporate_information_pages.rb
+7	0	test/unit/models/organisation_test.rb
+9	0	test/unit/worldwide_organisation_test.rb

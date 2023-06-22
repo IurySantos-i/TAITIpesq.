@@ -1,0 +1,144 @@
+--f6f7d56f5--2013-11-22--Mikko Koski
+--d0908f058--2013-11-22--Mikko Koski
+11	6	Gemfile
+0	12	Gemfile.lock
+0	107	config/deploy.rb
+0	35	lib/recipes/delayed_job.rb
+
+--4b31e4f57--2013-11-22--Mikko Koski
+6	0	app/assets/stylesheets/main.css.scss
+14	8	app/views/settings/account.haml
+20	20	features/settings/user_changes_email_address.feature
+9	0	features/step_definitions/email_steps.rb
+90	4	features/step_definitions/settings_steps.rb
+4	0	features/step_definitions/web_steps.rb
+
+--61a5bc03a--2013-11-22--Mikko Koski
+2	0	app/controllers/emails_controller.rb
+4	0	app/models/person.rb
+7	2	app/views/settings/account.haml
+63	30	features/settings/user_changes_email_address.feature
+10	0	features/step_definitions/community_steps.rb
+15	0	features/step_definitions/email_steps.rb
+10	0	features/step_definitions/organization_steps.rb
+13	0	features/step_definitions/settings_steps.rb
+7	1	features/step_definitions/user_steps.rb
+2	0	features/support/paths.rb
+
+--a3b02e100--2013-11-21--Mikko Koski
+20	1	app/controllers/emails_controller.rb
+1	13	app/helpers/email_helper.rb
+64	0	app/services/email_service.rb
+3	0	config/locales/en.yml
+49	0	spec/controllers/emails_controller_spec.rb
+94	0	spec/services/email_service_spec.rb
+
+--d32eb0751--2013-11-21--Juho Makkonen
+62	13	app/assets/stylesheets/main.css.scss
+14	0	app/assets/stylesheets/partials/_responsive.css.scss
+7	0	app/controllers/emails_controller.rb
+32	11	app/views/settings/account.haml
+5	0	config/routes.rb
+
+--b5228d242--2013-11-21--Antti Virolainen
+1	0	.travis.yml
+1	1	app/controllers/settings_controller.rb
+
+--c61db2482--2013-11-21--Juho Makkonen
+--af93edcef--2013-11-21--Juho Makkonen
+--628729da7--2013-11-21--Mikko Koski
+1	1	app/controllers/{email_controller.rb => emails_controller.rb}
+
+--f1c9bbcc9--2013-11-21--Antti Virolainen
+4	2	app/controllers/application_controller.rb
+
+--fea2160e6--2013-11-21--Juho Makkonen
+28	12	app/assets/javascripts/kassi.js
+53	0	app/assets/stylesheets/main.css.scss
+15	9	app/controllers/people_controller.rb
+1	0	app/controllers/settings_controller.rb
+2	0	app/models/email.rb
+14	1	app/models/person.rb
+47	11	app/views/settings/account.haml
+1	1	config/locales/en.yml
+1	1	config/locales/fi.yml
+
+--730c66829--2013-11-21--Mikko Koski
+12	0	app/controllers/email_controller.rb
+1	0	config/locales/en.yml
+
+--37b7aaf8f--2013-11-21--Mikko Koski
+41	6	Guardfile
+1	1	app/assets/javascripts/kassi.js
+2	1	app/controllers/people_controller.rb
+1	1	app/controllers/settings_controller.rb
+11	10	app/models/person.rb
+1	1	app/views/sessions/_confirmation_form.haml
+2	2	features/communities/user_joins_another_community.feature
+1	1	features/invitations/user_joins_invite_only_community.feature
+1	1	features/organizations/user_creates_a_new_listing_with_payment.feature
+2	2	features/people/user_creates_a_new_account.feature
+2	2	features/sessions/facebook_connect.feature
+2	2	features/settings/user_changes_email_address.feature
+1	1	features/step_definitions/email_steps.rb
+1	1	features/step_definitions/organization_steps.rb
+20	2	features/step_definitions/user_steps.rb
+1	1	spec/factories.rb
+11	0	spec/fixtures/emails.yml
+2	2	spec/fixtures/people.yml
+2	2	test/helper_modules.rb
+
+--f6ce7c14f--2013-11-20--Antti Virolainen
+1	1	features/organizations/user_creates_a_new_listing_with_payment.feature
+
+--b1e70c4a2--2013-11-20--Antti Virolainen
+2	3	app/controllers/statistics_controller.rb
+5	11	app/views/statistics/_statistics.haml
+0	6	app/views/statistics/index.haml
+
+--72b2892fa--2013-11-20--Mikko Koski
+8	1	app/controllers/api/tokens_controller.rb
+1	0	app/controllers/settings_controller.rb
+1	1	spec/controllers/api/tokens_controller_spec.rb
+3	2	test/helper_modules.rb
+
+--1227b749b--2013-11-20--Mikko Koski
+2	1	app/controllers/api/people_controller.rb
+1	1	app/mailers/person_mailer.rb
+1	1	app/models/community.rb
+13	3	app/models/person.rb
+3	1	app/views/api/people/show.json.rabl
+3	3	spec/controllers/api/people_controller_spec.rb
+3	5	spec/controllers/people_controller_spec.rb
+1	0	spec/factories.rb
+2	2	spec/fixtures/people.yml
+48	36	spec/mailers/person_mailer_spec.rb
+2	4	spec/models/person_spec.rb
+4	5	spec/spec_helper.rb
+1	1	test/helper_modules.rb
+
+--275e1bace--2013-11-20--Mikko Koski
+16	14	Guardfile
+1	1	app/controllers/communities_controller.rb
+1	1	app/controllers/community_memberships_controller.rb
+37	71	app/controllers/confirmations_controller.rb
+42	25	app/controllers/people_controller.rb
+2	10	app/helpers/email_helper.rb
+0	9	app/helpers/people_helper.rb
+33	42	app/mailers/person_mailer.rb
+13	0	app/models/email.rb
+48	74	app/models/person.rb
+1	3	app/views/sessions/_change_mistyped_email.haml
+2	5	app/views/sessions/_confirmation_form.haml
+2	2	app/views/settings/account.haml
+2	2	config/initializers/devise.rb
+1	1	spec/controllers/people_controller_spec.rb
+10	7	spec/factories.rb
+9	16	spec/models/person_spec.rb
+13	0	spec/spec_helper.rb
+
+--038d55e44--2013-11-19--Mikko Koski
+5	0	db/migrate/20131119085439_add_send_notifications_to_emails.rb
+28	0	db/migrate/20131119085625_move_primary_email_to_emails.rb
+6	0	db/migrate_helpers/logging_helpers.rb
+2	1	db/schema.rb

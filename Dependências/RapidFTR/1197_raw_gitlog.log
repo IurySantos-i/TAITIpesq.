@@ -1,0 +1,45 @@
+--3f0874e2--2010-12-24--Zubair Khan
+--d999f432--2010-12-21--Jen Smith
+4	0	app/controllers/contact_information_controller.rb
+16	0	features/api_retrieve_contact_info.feature
+8	0	features/step_definitions/api_steps.rb
+3	3	features/support/paths.rb
+11	0	spec/controllers/contact_information_controller_spec.rb
+10	0	spec/models/contact_information_spec.rb
+
+--42543448--2010-12-21--Jen Smith
+5	2	app/models/contact_information.rb
+
+--e55c5f9d--2010-12-21--Jen Smith
+1	1	app/helpers/children_helper.rb
+1	1	app/models/child.rb
+1	1	app/views/children/show.html.erb
+-	-	features/resources/sample.ogg
+4	3	features/view_child.feature
+4	1	spec/models/child_spec.rb
+6	0	spec/spec_helper.rb
+
+--7a60b257--2010-12-21--asifmomin
+2	2	app/views/users/_edittable_user.html.erb
+
+--ef04cf9b--2010-12-20--Jen Smith
+0	1	app/controllers/child_media_controller.rb
+5	0	app/helpers/children_helper.rb
+2	0	app/views/children/show.html.erb
+5	0	features/step_definitions/more_web_steps.rb
+5	0	features/view_child.feature
+
+--733873a7--2010-12-18--Jen Smith
+1	1	app/models/child.rb
+0	1	features/resources/sample.band/Contents/PkgInfo
+-	-	features/resources/sample.band/Output/Output.aif
+-	-	features/resources/sample.band/Output/arrange_screenshot.tiff
+0	40	features/resources/sample.band/Output/metadata.plist
+0	9358	features/resources/sample.band/projectData
+2	2	spec/controllers/child_media_controller_spec.rb
+16	0	spec/models/child_spec.rb
+10	2	spec/spec_helper.rb
+
+--7271c186--2010-12-16--asifmomin
+1	1	app/views/children/_summary_row.html.erb
+11	0	spec/views/child/search.html.erb_spec.rb

@@ -1,0 +1,39 @@
+--50f47ef2--2010-11-22--tcochran
+--740f0e83--2010-11-21--Jen Smith
+6	6	public/stylesheets/core.css
+
+--cad0d8b0--2010-11-21--Jen Smith
+3	3	public/stylesheets/core.css
+
+--6242c4c6--2010-11-21--Timothy Cochran
+6	5	app/controllers/fields_controller.rb
+0	3	app/models/child.rb
+17	1	app/models/field.rb
+1	9	app/models/form_section.rb
+2	2	app/views/fields/_basic_new_field_form.html.erb
+1	1	features/step_definitions/basic_steps.rb
+36	1	spec/models/field_spec.rb
+0	6	spec/models/form_section_spec.rb
+
+--e721d08f--2010-11-21--Jen Smith
+7	1	public/javascripts/application.js
+
+--8de8fb85--2010-11-21--Jen Smith
+1	1	app/views/children/_date_field.html.erb
+2	2	spec/views/child/form_section.html.erb_spec.rb
+
+--60673d09--2010-11-21--Jen Smith
+1	1	app/views/users/index.html.erb
+
+--a5f8e9bb--2010-11-21--Jen Smith
+1	0	app/models/child.rb
+8	0	features/pdf_export.feature
+1	1	features/step_definitions/basic_steps.rb
+1	1	lib/pdf_generator.rb
+8	0	spec/models/child_spec.rb
+
+--318cd4c7--2010-11-20--Timothy Cochran
+24	27	app/models/child.rb
+4	1	app/views/children/_numeric_field.html.erb
+0	1	app/views/children/new.html.erb
+47	2	spec/models/child_spec.rb

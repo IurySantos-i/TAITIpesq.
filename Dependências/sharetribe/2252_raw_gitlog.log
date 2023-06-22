@@ -1,0 +1,39 @@
+--1733e009b--2014-02-10--Mikko Koski
+--317e86985--2014-02-07--Juho Makkonen
+13	4	app/views/listings/show.haml
+2	0	config/locales/en.yml
+1	0	config/locales/fi.yml
+5	0	db/migrate/20140207133412_add_show_listing_publishing_date_to_communities.rb
+39	9	db/schema.rb
+9	2	features/listings/user_views_a_single_listing.feature
+6	1	features/step_definitions/community_steps.rb
+
+--f8e902a79--2014-02-07--Mikko Koski
+--684e4cf8c--2014-02-07--Mikko Koski
+2	2	app/assets/stylesheets/main.css.scss
+
+--84f4aba3b--2014-02-07--Mikko Koski
+2	2	features/ridesharing/user_offers_a_ride.feature
+
+--acc9ebfd0--2014-02-07--Mikko Koski
+0	3	app/models/transaction_types/sell.rb
+0	3	app/models/transaction_types/service.rb
+
+--061de2542--2014-02-07--Mikko Koski
+8	3	app/services/community_stylesheet_compiler.rb
+
+--0ca157d5e--2014-02-07--Mikko Koski
+0	27	config/initializers/model_autoload.rb
+
+--2f705f808--2014-02-04--Antti Virolainen
+3	0	app/models/transaction_types/sell.rb
+3	0	app/models/transaction_types/service.rb
+8	8	config/locales/en.yml
+8	8	config/locales/fi.yml
+
+--c52e27048--2014-02-04--Antti Virolainen
+8	0	config/locales/en.yml
+8	0	config/locales/fi.yml
+
+--12d412983--2014-02-03--Mikko Koski
+1	3	README.md
