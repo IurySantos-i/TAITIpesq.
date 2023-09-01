@@ -1,0 +1,303 @@
+--c6a69cca--2016-11-04--Peter Woo
+--88fd86f1--2016-11-04--V Brown
+--de9ee8dc--2016-11-04--V Brown
+--406a6e94--2016-11-04--Peter Woo
+8	9	app/controllers/sessions_controller.rb
+
+--afd9ba48--2016-11-04--Peter Woo
+1	1	README.md
+
+--3343d098--2016-11-03--Peter Woo
+83	0	.env.example
+4	88	docker-compose.yml.example
+
+--08e86dce--2016-11-03--V Brown
+--32c5702e--2016-11-03--Peter Woo
+1	1	.travis.yml
+1	1	docker/entrypoint.sh
+
+--67e54cd1--2016-11-03--Peter Woo
+--a778ae73--2016-11-03--Peter Woo
+2	2	docker/crontab
+2	0	docker/entrypoint.sh
+
+--87009f8c--2016-11-03--Peter Woo
+17	8	docker-compose.yml.example
+5	3	docker/entrypoint.sh
+
+--6c382236--2016-11-03--vivian
+3	4	app/models/user.rb
+6	0	features/step_definitions/user_steps.rb
+14	0	features/users/reset_password.feature
+11	0	spec/models/user_spec.rb
+
+--c0010223--2016-11-03--V Brown
+--33bcbc8c--2016-11-02--Peter Woo
+1	1	docker-compose.yml.example
+
+--b5763dc5--2016-11-02--Peter Woo
+5	0	README.md
+
+--e93ee3b6--2016-11-02--Peter Woo
+6	1	Dockerfile
+13	1	docker-compose.yml.example
+2	0	docker/crontab
+
+--1e5f86af--2016-11-02--V Brown
+--64bdb7f8--2016-11-02--Peter Woo
+--c38305c8--2016-10-31--Jamie Calder
+1	0	.gitignore
+
+--a103eddf--2016-10-31--vivian
+5	0	app/helpers/application_helper.rb
+4	16	app/views/users/show.html.erb
+13	0	spec/helpers/application_helper_spec.rb
+
+--086403af--2016-10-28--vivian
+8	1	app/assets/stylesheets/users.css.scss
+6	0	app/views/users/show.html.erb
+
+--2b33505d--2016-10-28--V Brown
+--ec46f538--2016-10-28--Peter Woo
+2	3	app/assets/javascripts/application/sticky_tools.js
+
+--d9c3b772--2016-10-28--Peter Woo
+1	1	app/assets/javascripts/application.js
+0	0	{app/assets/javascripts/application => vendor/assets/javascripts}/congress-forms.js
+
+--8aa243f6--2016-10-28--Peter Woo
+17	19	app/assets/javascripts/admin/s3_uploads.js
+
+--1aae4b9c--2016-10-28--Peter Woo
+50	58	app/assets/javascripts/application/welcome.js
+
+--d9e50e37--2016-10-28--Peter Woo
+3	2	app/assets/javascripts/admin.js
+
+--aaf67fcd--2016-10-28--Peter Woo
+17	16	app/assets/javascripts/admin.js
+
+--b225dd08--2016-10-28--Peter Woo
+1	0	app/assets/javascripts/admin.js
+16	0	app/assets/javascripts/admin/epic_editor_helper.js.erb
+0	18	app/views/admin/_init_epic_editor.html.erb
+0	1	app/views/layouts/admin-blank.html.erb
+0	1	app/views/layouts/admin.html.erb
+
+--923aa381--2016-10-28--Peter Woo
+8	4	app/assets/javascripts/admin.js
+9	3	features/step_definitions/user_steps.rb
+
+--956f91a5--2016-10-28--Peter Woo
+14	28	app/views/layouts/application.html.erb
+
+--a4b27753--2016-10-28--Peter Woo
+4	0	app/models/user.rb
+1	1	app/views/layouts/application.html.erb
+
+--c5f1d51f--2016-10-26--V Brown
+--be0cd85f--2016-10-26--Peter Woo
+3	1	app/assets/javascripts/admin/email_tabulation.js
+
+--7b506ee9--2016-10-26--Peter Woo
+17	0	features/admin/users/make_collaborator.feature
+10	0	features/step_definitions/admin/features_steps.rb
+
+--c42f85eb--2016-10-26--Peter Woo
+53	5	spec/controllers/admin/action_pages_controller_spec.rb
+
+--83d811b9--2016-10-26--Peter Woo
+72	0	app/views/admin/action_pages/_panel_action_pages.html.erb
+28	0	app/views/admin/action_pages/_panel_homepage_settings.html.erb
+110	0	app/views/admin/action_pages/_panel_site_analytics.html.erb
+2	0	app/views/admin/action_pages/_panel_topics.html.erb
+4	221	app/views/admin/action_pages/index.html.erb
+
+--83b7796b--2016-10-26--Peter Woo
+3	0	app/controllers/admin/action_pages_controller.rb
+12	0	app/controllers/admin/application_controller.rb
+2	0	app/controllers/admin/email_campaigns_controller.rb
+2	0	app/controllers/admin/petitions_controller.rb
+
+--8df6007e--2016-10-26--Peter Woo
+62	40	app/views/admin/_nav_tabs.html.erb
+15	8	app/views/admin/action_pages/_form.html.erb
+5	3	app/views/admin/action_pages/_panel_analytics.html.erb
+43	36	app/views/admin/action_pages/_tab_buttons.html.erb
+200	183	app/views/admin/action_pages/index.html.erb
+4	1	app/views/admin/petitions/show.html.erb
+
+--aaaf5050--2016-10-26--Peter Woo
+4	0	app/helpers/application_helper.rb
+23	0	app/models/user.rb
+
+--7afc91e4--2016-10-25--Peter Woo
+2	2	app/controllers/action_page_controller.rb
+8	1	spec/controllers/action_page_controller_spec.rb
+8	0	spec/factories/users.rb
+5	0	spec/spec_helper.rb
+
+--2a74ba0b--2016-10-25--Peter Woo
+15	0	app/assets/stylesheets/admin/_users.css.scss
+1	0	app/assets/stylesheets/admin/admin.css.scss
+31	0	app/controllers/admin/users_controller.rb
+2	0	app/helpers/admin/users_helper.rb
+6	1	app/views/admin/_nav_tabs.html.erb
+51	0	app/views/admin/users/index.html.erb
+2	0	config/routes.rb
+22	0	spec/controllers/admin/users_controller_spec.rb
+
+--0200ec13--2016-10-25--vivian
+7	7	app/views/users/show.html.erb
+
+--44c41fae--2016-10-25--Peter Woo
+5	0	db/migrate/20161025215124_add_collaborator_to_users.rb
+2	1	db/schema.rb
+
+--aad3ce66--2016-10-25--Peter Woo
+--38ad535f--2016-10-25--vivian
+1	0	app/assets/javascripts/application/tools/email.js.erb
+
+--404efdfa--2016-10-25--vivian
+0	4	app/assets/javascripts/application/tools/email.js.erb
+
+--0dd2913c--2016-10-25--V Brown
+--4b02c423--2016-10-25--vivian
+--aa8c53cd--2016-10-24--Peter Woo
+3	5	features/action_page/call_tool_mailings_signup.feature
+0	9	features/step_definitions/user_steps.rb
+
+--2a4c9d4d--2016-10-24--Peter Woo
+--6578da69--2016-10-20--Peter Woo
+1	1	app/views/tools/_call.html.erb
+
+--89b466aa--2016-10-20--Peter Woo
+0	1	app/views/tools/_tweet.html.erb
+
+--ae737191--2016-10-17--Peter Woo
+0	1	app/views/tools/_newsletter_signup.html.erb
+
+--c7d5dace--2016-10-14--Peter Woo
+1	1	app/controllers/subscriptions_controller.rb
+2	0	app/views/tools/_newsletter_signup.html.erb
+1	0	app/views/tools/_tweet.html.erb
+
+--4c6c450b--2016-10-14--Peter Woo
+0	4	spec/factories/action_page.rb
+
+--4ca57f8b--2016-10-14--Peter Woo
+--9bc9cbfe--2016-10-13--Peter Woo
+3	3	app/assets/javascripts/application/tools/newsletter_signup.js
+14	2	app/assets/stylesheets/action_page.css.scss
+
+--6b1bcc24--2016-10-13--Peter Woo
+0	4	app/assets/stylesheets/action_page.css.scss
+2	2	app/views/tools/_email_signup_radios.html.erb
+
+--c88a455c--2016-10-13--Peter Woo
+2	4	app/views/tools/_email.html.erb
+3	4	app/views/tools/_petition.html.erb
+1	1	app/views/tools/_privacy_notice.html.erb
+
+--652ab5a3--2016-10-13--Peter Woo
+3	6	app/assets/stylesheets/action_page.css.scss
+
+--3d74508f--2016-10-13--Peter Woo
+8	1	app/assets/stylesheets/action_page.css.scss
+29	33	app/views/tools/_tweet.html.erb
+
+--496a9a02--2016-10-13--Peter Woo
+3	0	app/assets/stylesheets/action_page.css.scss
+
+--7e4879d6--2016-10-03--Peter Woo
+--e85ef4b7--2016-10-03--Peter Woo
+1	1	config/locales/es.yml
+
+--31204228--2016-09-30--Peter Woo
+14	0	app/assets/javascripts/application/tools/newsletter_signup.js
+1	1	app/views/tools/_tweet.html.erb
+
+--bb785cc1--2016-09-30--Peter Woo
+0	2	features/step_definitions/user_steps.rb
+
+--4ef136dc--2016-09-30--Peter Woo
+--75f770fb--2016-09-29--Peter Woo
+1	1	features/step_definitions/user_steps.rb
+
+--1cb2ff4b--2016-09-29--Peter Woo
+--9737ae9f--2016-09-29--Peter Woo
+1	1	features/step_definitions/user_steps.rb
+
+--be37b40e--2016-09-29--Peter Woo
+1	0	app/assets/javascripts/application/tools/call.js
+1	0	app/assets/javascripts/application/tools/newsletter_signup.js
+1	0	app/models/email_campaign.rb
+18	0	features/action_page/call_tool_mailings_signup.feature
+16	0	features/action_page/email_tool_mailings_signup.feature
+10	0	features/action_page/tweet_tool_mailings_signup.feature
+59	0	features/step_definitions/user_steps.rb
+1	1	features/support/env.rb
+4	0	spec/factories/action_page.rb
+2	0	spec/factories/call_campaigns.rb
+18	0	spec/factories/email_campaigns.rb
+
+--163c4b64--2016-09-28--Peter Woo
+1	1	app/views/tools/_tweet.html.erb
+
+--8a9a835c--2016-09-28--Peter Woo
+1	1	app/views/tools/_petition_location.html.erb
+
+--1cc0c9a2--2016-09-28--Peter Woo
+0	12	app/assets/javascripts/application/tools/call.js
+1	2	app/assets/javascripts/application/tools/newsletter_signup.js
+0	3	app/assets/stylesheets/action_page.css.scss
+0	8	app/views/tools/_call.html.erb
+3	2	app/views/tools/_tweet.html.erb
+1	0	config/locales/en.yml
+1	0	config/locales/es.yml
+
+--1808ff1e--2016-09-28--Peter Woo
+0	3	app/assets/stylesheets/action_page.css.scss
+0	6	app/views/tools/_petition_location.html.erb
+0	1	config/locales/en.yml
+0	1	config/locales/es.yml
+
+--ee499260--2016-09-28--Peter Woo
+--34bc3d57--2016-09-16--Peter Woo
+1	1	app/assets/stylesheets/action_page.css.scss
+
+--25702f3b--2016-09-16--Peter Woo
+1	0	app/controllers/tools_controller.rb
+
+--8e76a212--2016-09-16--Peter Woo
+1	1	app/assets/stylesheets/action_page.css.scss
+1	1	app/views/tools/_call.html.erb
+1	1	app/views/tools/_email.html.erb
+1	1	app/views/tools/_petition.html.erb
+1	1	app/views/tools/_tweet.html.erb
+
+--0ef0b528--2016-09-16--Peter Woo
+5	5	app/assets/javascripts/application/tools/call.js
+
+--790cc743--2016-09-16--Peter Woo
+1	1	app/views/tools/_newsletter_signup.html.erb
+1	1	app/views/tools/_petition_location.html.erb
+1	0	config/locales/en.yml
+1	0	config/locales/es.yml
+
+--f7710833--2016-09-16--Peter Woo
+2	23	app/views/tools/_petition.html.erb
+
+--02e529a9--2016-09-16--Peter Woo
+33	17	app/assets/javascripts/application/tools/call.js
+4	0	app/assets/javascripts/application/tools/email.js.erb
+16	0	app/assets/javascripts/application/tools/newsletter_signup.js
+10	1	app/assets/stylesheets/action_page.css.scss
+9	0	app/controllers/tools_controller.rb
+14	2	app/views/tools/_call.html.erb
+3	0	app/views/tools/_email.html.erb
+20	0	app/views/tools/_email_signup_radios.html.erb
+10	0	app/views/tools/_newsletter_signup.html.erb
+1	1	app/views/tools/_petition.html.erb
+4	0	app/views/tools/_privacy_notice.html.erb
+36	19	app/views/tools/_tweet.html.erb

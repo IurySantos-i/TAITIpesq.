@@ -1,0 +1,278 @@
+--ad999f557--2013-11-30--Cristina
+--8f781c278--2013-11-30--Cristina
+--399b736da--2013-11-29--Cristina
+--b7a8eee21--2013-11-29--Cristina
+--9a2ce9234--2013-11-28--Cristina
+--5b76631cb--2013-11-28--Cristina
+--0843d1ff4--2013-11-28--Cristina
+--9746f1e98--2013-11-28--tuff_ghost
+2	2	app/controllers/works_controller.rb
+20	0	features/works/work_create.feature
+
+--34dd7d890--2013-11-27--Storm
+58	58	features/works/work_dates_edit.feature
+13	12	features/works/work_edit.feature
+
+--0d69bdfe6--2013-11-25--sarken
+--a10f8d8a4--2013-11-23--Stephanie
+6	5	app/controllers/gifts_controller.rb
+0	5	app/models/work.rb
+
+--7a2958462--2013-11-22--sarken
+--156763187--2013-11-18--Karanguni
+0	1	public/nomaintenance.html
+
+--1c260a7c5--2013-11-10--shalott
+--840d6ee75--2013-11-08--Enigel
+20	2	app/sweepers/kudos_sweeper.rb
+
+--2f1b970ee--2013-11-05--shalott
+--1b05e05b4--2013-11-04--Enigel
+1	1	app/views/comments/_commentable.html.erb
+0	20	public/javascripts/application.js
+
+--7ab5bbd3d--2013-11-04--Enigel
+3	5	app/views/static/works/show.html.erb
+
+--462dca88c--2013-11-04--Enigel
+20	11	app/controllers/kudos_controller.rb
+36	1	app/views/comments/_commentable.html.erb
+23	17	app/views/kudos/_kudos.html.erb
+2	0	app/views/kudos/create.js.erb
+3	2	public/javascripts/application.js
+
+--acbefb91a--2013-11-03--Enigel
+10	10	app/models/kudo.rb
+1	1	app/models/kudo_observer.rb
+
+--df4202426--2013-11-02--Elz
+--b825f2837--2013-11-02--Enigel
+5	1	app/controllers/kudos_controller.rb
+10	7	public/javascripts/application.js
+
+--bd6d5b4cd--2013-11-01--Stephanie
+5	5	app/controllers/gifts_controller.rb
+5	0	app/models/work.rb
+
+--100357bc0--2013-10-30--Cristina
+--95d2b790e--2013-10-30--Cristina
+--e4eba3a31--2013-10-29--Scott D. Sullivan
+8	0	app/helpers/mailer_helper.rb
+2	2	app/views/user_mailer/admin_deleted_work_notification.html.erb
+2	2	app/views/user_mailer/admin_deleted_work_notification.text.erb
+
+--4bb76cfaf--2013-10-30--sarken
+485	608	app/views/home/_tos.html.erb
+
+--c2b1cac08--2013-10-29--Cristina
+--c823aeb5e--2013-10-29--sarken
+1	1	app/views/home/index.html.erb
+4	0	public/stylesheets/site/2.0/16-zone-system.css
+
+--f17a99dd9--2013-10-27--Elz
+--24ceb8c1a--2013-10-27--elz
+1	1	Gemfile
+0	4	Gemfile.lock
+8	7	config/initializers/copycopter.rb
+
+--2a78a8069--2013-10-27--Elz
+--5f3d00a02--2013-10-27--Elz
+--2c0ce166e--2013-10-27--elz
+3	1	app/controllers/bookmarks_controller.rb
+
+--476e942a3--2013-10-27--shalott
+--2a985286c--2013-10-27--Scott D. Sullivan
+2	6	features/other/admin_post.feature
+
+--d9b881b6c--2013-10-27--Elz
+--528693657--2013-10-27--Elz
+--840923527--2013-10-27--james_
+1	1	app/views/home/about.html.erb
+3	3	app/views/home/diversity_statement.html.erb
+1	1	app/views/home/index.html.erb
+1	1	app/views/tag_wranglers/show.html.erb
+
+--febfae7e5--2013-10-26--Elz
+--00b08931a--2013-10-26--sarken
+4	4	app/views/works/_work_header_notes.html.erb
+8	8	public/stylesheets/site/2.0/14-group-preface.css
+
+--b01ea35ff--2013-10-26--sarken
+1	1	app/views/tags/show.html.erb
+
+--e7e0a4f83--2013-10-24--sarken
+--2836dea63--2013-10-25--Scott D. Sullivan
+1	1	app/views/user_mailer/admin_deleted_work_notification.html.erb
+2	2	app/views/user_mailer/admin_deleted_work_notification.text.erb
+
+--9069fd9bd--2013-10-25--Scott D. Sullivan
+1	1	app/views/user_mailer/admin_deleted_work_notification.html.erb
+
+--e503ad936--2013-10-24--Cristina
+--1d39dd703--2013-10-24--Scott D. Sullivan
+1	1	app/views/works/_work_header_notes.html.erb
+1	1	features/works/work_related.feature
+
+--15198fa4d--2013-10-24--Scott D. Sullivan
+5	3	app/views/user_mailer/admin_deleted_work_notification.html.erb
+5	3	app/views/user_mailer/admin_deleted_work_notification.text.erb
+
+--b1e1799a9--2013-10-24--shalott
+--2d0b01761--2013-10-24--shalott
+--19fb03a43--2013-10-24--shalott
+--f1a23faf1--2013-10-24--Cristina
+--c9acdd486--2013-10-24--Cristina
+--b451ba637--2013-10-23--sarken
+--febdc88d7--2013-10-23--sarken
+--a0ec510de--2013-10-22--sarken
+1	1	app/views/comments/_commentable.html.erb
+1	1	app/views/works/_work_header_navigation.html.erb
+
+--4564aa3a3--2013-10-22--Enigel
+7	10	spec/helpers/works_helper_spec.rb
+
+--3bb90bfc0--2013-10-22--Enigel
+--c2c553e0d--2013-10-22--Elz
+--073691d24--2013-10-22--Enigel
+21	8	spec/requests/comments_spec.rb
+2	0	spec/spec_helper.rb
+
+--fff39d128--2013-10-22--sarken
+2	2	app/views/tags/show.html.erb
+
+--088863fa5--2013-10-21--james_
+1	1	config/initializers/copycopter.rb
+
+--1ec122ec1--2013-10-21--Cristina
+--8b998bbde--2013-10-21--Cristina
+--3b37bc07f--2013-10-21--sarken
+63	37	features/users/user_dashboard.feature
+
+--6c880f751--2013-10-21--sarken
+25	25	features/users/user_dashboard.feature
+
+--720191b2a--2013-10-02--sarken
+3	0	app/views/collections/_bookmarks_module.html.erb
+3	0	app/views/collections/_works_module.html.erb
+63	0	features/collections/collection_dashboard.feature
+
+--3788e51c4--2013-10-02--sarken
+8	2	app/views/users/_contents.html.erb
+247	0	features/users/user_dashboard.feature
+
+--ee8c8e867--2013-08-19--sarken
+1	1	public/stylesheets/site/2.0/02-elements.css
+
+--0afcde46f--2013-08-19--sarken
+1	1	public/stylesheets/site/2.0/02-elements.css
+
+--5f54673d7--2012-11-11--sarken
+4	1	public/stylesheets/site/2.0/21-userstuff.css
+
+--15a039b4b--2012-11-11--sarken
+6	4	public/stylesheets/site/2.0/07-interactions.css
+1	0	public/stylesheets/site/2.0/18-zone-searchbrowse.css
+1	0	public/stylesheets/site/2.0/21-userstuff.css
+
+--979d6c573--2013-10-20--Scott D. Sullivan
+--bbc558918--2013-10-20--Scott D. Sullivan
+2	2	app/views/home/index.html.erb
+3	3	features/other/admin_post.feature
+
+--995783e90--2013-10-13--Scott D. Sullivan
+1	1	app/controllers/home_controller.rb
+1	1	app/views/home/index.html.erb
+
+--f9d094903--2013-10-10--Scott D. Sullivan
+4	4	features/other/admin_post.feature
+14	0	features/step_definitions/admin_steps.rb
+
+--277730d36--2013-10-10--Scott D. Sullivan
+2	2	app/controllers/home_controller.rb
+3	1	app/views/home/index.html.erb
+36	0	features/other/admin_post.feature
+6	0	features/step_definitions/admin_steps.rb
+9	0	features/support/factories.rb
+
+--ad6e59a3f--2013-10-20--Enigel
+--320fe184e--2013-10-20--Enigel
+2	0	app/controllers/comments_controller.rb
+11	0	features/step_definitions/tag_steps.rb
+39	12	features/tags_and_wrangling/tag_comment.feature
+
+--b8c85870e--2013-10-20--Enigel
+--eb58e7b8e--2013-10-18--Enigel
+--c577f3a02--2013-10-18--Enigel
+--e3d2d1f2f--2013-10-18--Enigel
+--1d7b61369--2013-10-18--Enigel
+--daa7485a6--2013-10-18--Enigel
+--f70a53d7a--2013-10-17--Enigel
+--1b53a28e7--2013-10-14--Scott D. Sullivan
+2	2	app/views/works/_work_approved_children.html.erb
+1	1	app/views/works/_work_header_notes.html.erb
+
+--3e982e640--2013-10-13--Scott D. Sullivan
+15	10	app/views/works/_work_approved_children.html.erb
+7	5	app/views/works/_work_header_notes.html.erb
+7	5	features/cassette_library/cucumber_tags/work_external_parent.yml
+
+--27d3c3a70--2013-02-25--sarken
+1	1	app/views/fandoms/unassigned.html.erb
+
+--e06575821--2013-02-25--sarken
+1	1	app/views/comments/_commentable.html.erb
+
+--5d5e6a41e--2013-10-13--Enigel
+1	1	app/views/admin_mailer/comment_notification.html.erb
+1	1	app/views/admin_mailer/comment_notification.text.erb
+1	1	app/views/admin_mailer/edited_comment_notification.html.erb
+1	1	app/views/admin_mailer/edited_comment_notification.text.erb
+1	1	app/views/comment_mailer/comment_notification.html.erb
+1	1	app/views/comment_mailer/comment_notification.text.erb
+2	2	app/views/comment_mailer/comment_reply_notification.html.erb
+1	1	app/views/comment_mailer/comment_reply_notification.text.erb
+1	1	app/views/comment_mailer/comment_sent_notification.html.erb
+1	1	app/views/comment_mailer/comment_sent_notification.text.erb
+1	1	app/views/comment_mailer/edited_comment_notification.html.erb
+1	2	app/views/comment_mailer/edited_comment_notification.text.erb
+1	2	app/views/comment_mailer/edited_comment_reply_notification.html.erb
+1	1	app/views/comment_mailer/edited_comment_reply_notification.text.erb
+
+--98598d6d7--2013-10-12--Enigel
+4	4	app/controllers/tag_wranglers_controller.rb
+92	85	app/views/tag_wranglers/index.html.erb
+
+--f5e7d3cd3--2013-10-12--Enigel
+1	1	app/controllers/tag_wranglings_controller.rb
+2	2	app/views/tag_wranglings/index.html.erb
+
+--979584dea--2013-10-11--Enigel
+4	3	app/controllers/comments_controller.rb
+
+--d8b81eacb--2013-10-11--Enigel
+1	1	app/views/inbox/show.html.erb
+
+--3dcbe1397--2013-05-09--Scott D. Sullivan
+1	1	app/views/works/_work_header_notes.html.erb
+27	1	features/works/work_related.feature
+
+--715e88a1d--2013-05-09--Scott D. Sullivan
+2	2	app/views/works/_work_approved_children.html.erb
+1	1	app/views/works/_work_header_notes.html.erb
+
+--7f924cf61--2012-06-25--Scott D. Sullivan
+4	0	app/views/works/_work_header_notes.html.erb
+
+--0ef17a0e8--2012-06-25--Scott D. Sullivan
+7	0	app/views/works/_work_approved_children.html.erb
+4	0	app/views/works/_work_header_notes.html.erb
+
+--6fa690af9--2013-05-25--sarken
+1	2	public/stylesheets/site/2.0/11-group-listbox.css
+
+--0b614a649--2013-03-03--James Beal
+1	1	lib/tasks/statistics_tasks.rake
+
+--048684d4a--2012-10-18--James Beal
+1	1	app/controllers/downloads_controller.rb
+1	1	config/initializers/mime_types.rb

@@ -1,0 +1,1 @@
+O menor grau de acoplamento foi 30

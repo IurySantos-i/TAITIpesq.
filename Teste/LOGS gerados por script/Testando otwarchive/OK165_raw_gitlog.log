@@ -1,0 +1,509 @@
+--a0c94e312--2016-05-28--zz9pzza
+--6924aadaf--2016-05-28--zz9pzza
+--8317c894f--2016-05-28--zz9pzza
+--05535ee53--2016-05-26--zz9pzza
+--04926aa29--2016-05-23--sarken
+--076db2472--2016-05-23--Lin
+2	2	app/views/user_mailer/invited_to_collection_notification.text.erb
+
+--3642dd3fa--2016-05-23--Lin
+2	2	app/views/user_mailer/invited_to_collection_notification.html.erb
+
+--7f77a23b8--2016-05-23--Lin
+2	2	app/views/user_mailer/added_to_collection_notification.html.erb
+
+--dc79a816f--2016-05-23--Lin
+2	2	app/views/user_mailer/added_to_collection_notification.text.erb
+
+--b8d4388d7--2016-05-22--sarken
+--9ae60cf9c--2016-05-21--Scott D. Sullivan
+1	1	app/views/user_mailer/added_to_collection_notification.html.erb
+1	1	app/views/user_mailer/added_to_collection_notification.text.erb
+
+--9317224ee--2016-05-15--zz9pzza
+--53978da0b--2016-05-15--zz9pzza
+--70f1aa718--2016-05-15--zz9pzza
+--04c6b972a--2016-05-15--sarken
+--d15d22fa9--2016-05-15--Scott D. Sullivan
+2	2	app/views/feedbacks/new.html.erb
+
+--b4f397b80--2016-05-15--Scott D. Sullivan
+1	1	app/views/feedbacks/new.html.erb
+
+--f56701ef4--2016-05-15--Scott D. Sullivan
+2	0	app/views/feedbacks/new.html.erb
+
+--280b3f06e--2016-05-15--Scott D. Sullivan
+0	2	app/views/feedbacks/new.html.erb
+
+--cee79a1f8--2016-05-15--Scott D. Sullivan
+1	1	app/models/abuse_report.rb
+
+--6bb8f25fc--2016-05-14--Scott D. Sullivan
+2	2	app/models/abuse_report.rb
+14	0	app/models/feedback_reporters/feedback_reporter.rb
+
+--e9acc90ae--2016-05-15--zz9pzza
+1	1	app/helpers/works_helper.rb
+9	0	app/models/bookmark.rb
+1	0	app/models/work.rb
+1	1	app/views/works/_work_module.html.erb
+15	0	lib/bookmark_count_caching.rb
+
+--77f06fd03--2016-05-15--zz9pzza
+59	62	app/controllers/collection_items_controller.rb
+5	0	app/helpers/users_helper.rb
+23	0	app/mailers/user_mailer.rb
+34	7	app/models/collection_item.rb
+11	3	app/views/collection_items/index.html.erb
+3	3	app/views/comments/_commentable.html.erb
+1	1	app/views/preferences/index.html.erb
+19	0	app/views/user_mailer/added_to_collection_notification.html.erb
+13	0	app/views/user_mailer/added_to_collection_notification.text.erb
+15	0	app/views/user_mailer/invited_to_collection_notification.html.erb
+13	0	app/views/user_mailer/invited_to_collection_notification.text.erb
+1	1	features/bookmarks/bookmark_create.feature
+4	3	features/collections/collectible.feature
+64	0	features/collections/collection_invite.feature
+1	1	features/other_a/preferences_edit.feature
+7	0	features/step_definitions/collection_steps.rb
+4	0	lib/collectible.rb
+1	2	public/help/collection-preferences.html
+
+--cbe3b2ab3--2016-05-15--zz9pzza
+1	1	Gemfile
+6	6	Gemfile.lock
+0	7	app/views/layouts/_phraseapp.html.erb
+2	2	app/views/layouts/application.html.erb
+2	2	app/views/layouts/home.html.erb
+2	2	app/views/layouts/session.html.erb
+0	25	config/initializers/phrase.rb
+31	0	config/initializers/phraseapp_in_context_editor.rb
+
+--e9850f031--2016-05-15--zz9pzza
+--61ecc4172--2016-05-15--zz9pzza
+1	1	Gemfile
+6	6	Gemfile.lock
+7	0	app/views/layouts/_phraseapp.html.erb
+2	2	app/views/layouts/application.html.erb
+2	2	app/views/layouts/home.html.erb
+2	2	app/views/layouts/session.html.erb
+25	0	config/initializers/phrase.rb
+0	31	config/initializers/phraseapp_in_context_editor.rb
+
+--21f19468a--2016-05-15--zz9pzza
+--8226eb83b--2016-05-15--zz9pzza
+62	59	app/controllers/collection_items_controller.rb
+0	5	app/helpers/users_helper.rb
+0	23	app/mailers/user_mailer.rb
+7	34	app/models/collection_item.rb
+3	11	app/views/collection_items/index.html.erb
+3	3	app/views/comments/_commentable.html.erb
+1	1	app/views/preferences/index.html.erb
+0	19	app/views/user_mailer/added_to_collection_notification.html.erb
+0	13	app/views/user_mailer/added_to_collection_notification.text.erb
+0	15	app/views/user_mailer/invited_to_collection_notification.html.erb
+0	13	app/views/user_mailer/invited_to_collection_notification.text.erb
+1	1	features/bookmarks/bookmark_create.feature
+3	4	features/collections/collectible.feature
+0	64	features/collections/collection_invite.feature
+1	1	features/other_a/preferences_edit.feature
+0	7	features/step_definitions/collection_steps.rb
+0	4	lib/collectible.rb
+2	1	public/help/collection-preferences.html
+
+--4843ba3f4--2016-05-15--zz9pzza
+--31cbf63a7--2016-05-15--zz9pzza
+1	1	app/helpers/works_helper.rb
+0	9	app/models/bookmark.rb
+0	1	app/models/work.rb
+1	1	app/views/works/_work_module.html.erb
+0	15	lib/bookmark_count_caching.rb
+
+--f4edbff30--2016-05-14--sarken
+--abdd06075--2016-05-14--sarken
+--fa9d8ef9e--2016-05-14--sarken
+--c4570d94d--2016-05-10--zz9pzza
+--43cd2ccfa--2016-05-10--zz9pzza
+1	1	app/controllers/chapters_controller.rb
+2	2	app/controllers/works_controller.rb
+20	59	app/helpers/application_helper.rb
+2	2	app/views/works/_work_module.html.erb
+3	3	app/views/works/show.html.erb
+0	11	features/step_definitions/work_steps.rb
+2	6	features/works/work_drafts.feature
+
+--95722b531--2016-05-09--sarken
+--b239e9c00--2016-05-09--Scott D. Sullivan
+5	1	app/models/feedback_reporters/feedback_reporter.rb
+1	1	app/views/feedbacks/report.xml.erb
+
+--e84323b25--2016-04-29--zz9pzza
+--eb544c0f5--2016-04-28--sarken
+4	4	factories/feedback.rb
+
+--f886a98c8--2016-04-28--sarken
+1	1	factories/feedback.rb
+
+--a1bde95c3--2016-04-25--sarken
+--110903bcb--2016-04-24--Scott D. Sullivan
+1	1	app/views/feedbacks/report.xml.erb
+
+--1b4202ac9--2016-04-22--sarken
+--916362808--2016-04-21--Scott D. Sullivan
+1	0	app/models/feedback_reporters/feedback_reporter.rb
+
+--63ef469ea--2016-04-21--sarken
+--b18360464--2016-04-21--sarken
+--f59b55cad--2016-04-20--sarken
+--c8203bd7a--2016-04-20--sarken
+--03fcf966c--2016-04-20--zz9pzza
+0	0	app/views/layouts/_phraseapp.html.erb
+2	2	app/views/layouts/application.html.erb
+2	2	app/views/layouts/home.html.erb
+2	2	app/views/layouts/session.html.erb
+
+--dd57d0b0c--2016-04-17--Scott D. Sullivan
+1	1	app/views/feedbacks/new.html.erb
+
+--1ee03ea4d--2016-04-17--Scott D. Sullivan
+1	1	features/collections/collection_invite.feature
+
+--04b573651--2016-04-17--zz9pzza
+6	2	config/initializers/phraseapp_in_context_editor.rb
+
+--7b5ad3aa2--2016-04-17--zz9pzza
+0	25	config/initializers/phrase.rb
+27	0	config/initializers/phraseapp_in_context_editor.rb
+
+--989db0052--2016-04-17--zz9pzza
+1	1	Gemfile
+6	6	Gemfile.lock
+
+--c8548abef--2016-04-17--zz9pzza
+0	7	app/views/layouts/_phraseapp.html.erb
+
+--92dfac07a--2016-04-15--Scott D. Sullivan
+3	3	app/views/collection_items/index.html.erb
+1	1	features/collections/collection_invite.feature
+
+--baa2cbaad--2016-04-15--Scott D. Sullivan
+--51b007946--2016-04-11--sarken
+9	9	features/other_a/banner_general.feature
+6	2	features/step_definitions/banner_steps.rb
+
+--bf67e2d4c--2016-04-11--sarken
+9	6	features/other_a/banner_general.feature
+14	1	features/step_definitions/banner_steps.rb
+
+--c4a6a4983--2016-04-11--sarken
+4	4	app/controllers/admin/banners_controller.rb
+
+--0f4d0b6e6--2016-04-11--Scott D. Sullivan
+54	51	spec/helpers/tag_sets_helper_spec.rb
+
+--12f055822--2016-04-11--Scott D. Sullivan
+1	2	Gemfile
+4	0	Gemfile.lock
+
+--120bfdcaa--2016-04-11--Scott D. Sullivan
+--49206c088--2016-04-11--Scott D. Sullivan
+1	1	app/views/admin_mailer/feedback.html.erb
+1	1	app/views/admin_mailer/feedback.text.erb
+1	3	features/step_definitions/admin_steps.rb
+
+--0b673f23b--2016-04-11--sarken
+8	0	features/other_a/banner_general.feature
+4	4	features/step_definitions/banner_steps.rb
+
+--ec76b799c--2016-04-11--sarken
+1	1	app/controllers/admin/banners_controller.rb
+2	2	features/step_definitions/banner_steps.rb
+
+--2a057df8c--2016-04-11--sarken
+4	1	app/controllers/admin/banners_controller.rb
+5	0	app/views/admin/banners/_banner_form.html.erb
+19	0	features/other_a/banner_general.feature
+10	0	features/step_definitions/banner_steps.rb
+
+--2243cd4c2--2016-04-10--Scott D. Sullivan
+2	2	app/views/user_mailer/feedback.html.erb
+2	2	app/views/user_mailer/feedback.text.erb
+
+--df5b9123a--2016-04-10--Lauren Scott
+11	0	features/step_definitions/work_steps.rb
+6	2	features/works/work_drafts.feature
+
+--e4bc3fabe--2016-04-10--Lauren Scott
+--a94236c37--2016-04-10--Scott D. Sullivan
+1	1	app/mailers/admin_mailer.rb
+
+--ad86dcf28--2016-04-10--Scott D. Sullivan
+--618923f49--2016-04-07--Scott D. Sullivan
+1	1	app/views/feedbacks/new.html.erb
+
+--d9c407b7a--2016-04-07--Scott D. Sullivan
+7	4	features/other_b/support.feature
+2	0	features/step_definitions/admin_steps.rb
+
+--6a39060af--2016-04-07--zz9pzza
+1	1	app/helpers/works_helper.rb
+1	1	app/models/bookmark.rb
+1	1	app/views/works/_work_module.html.erb
+7	7	lib/bookmark_count_caching.rb
+
+--789add5a1--2016-04-07--zz9pzza
+1	1	app/models/work.rb
+0	0	lib/{work_bookmark_count_caching.rb => bookmark_count_caching.rb}
+
+--513043166--2016-04-07--zz9pzza
+--a373c0b47--2016-04-06--Scott D. Sullivan
+1	1	app/views/feedbacks/new.html.erb
+
+--f393e857e--2016-04-06--Scott D. Sullivan
+1	3	app/mailers/admin_mailer.rb
+1	3	app/mailers/user_mailer.rb
+2	8	app/views/admin_mailer/feedback.html.erb
+2	6	app/views/admin_mailer/feedback.text.erb
+4	6	app/views/feedbacks/new.html.erb
+9	9	app/views/feedbacks/report.xml.erb
+1	1	factories/feedback.rb
+8	8	features/other_b/support.feature
+
+--50521d0c7--2016-04-05--Scott D. Sullivan
+4	1	app/controllers/feedbacks_controller.rb
+8	1	app/mailers/admin_mailer.rb
+4	0	app/mailers/user_mailer.rb
+3	13	app/models/feedback.rb
+6	13	app/models/feedback_reporters/feedback_reporter.rb
+0	1	app/models/feedback_reporters/support_reporter.rb
+16	4	app/views/admin_mailer/feedback.html.erb
+13	5	app/views/admin_mailer/feedback.text.erb
+9	4	app/views/feedbacks/new.html.erb
+11	21	app/views/feedbacks/report.xml.erb
+10	5	app/views/user_mailer/feedback.html.erb
+7	3	app/views/user_mailer/feedback.text.erb
+4	5	config/locales/en-US.yml
+6	0	db/migrate/201604030319571_add_fields_to_feedbacks.rb
+
+--fff64025f--2016-03-30--Ariana
+22527	5401	features/cassette_library/cucumber_tags/archivist_import.yml
+59	57	features/importing/archivist.feature
+
+--cb7dd3865--2016-03-24--sarken
+1	1	public/stylesheets/site/2.0/09-roles-states.css
+
+--c7a779f17--2016-03-03--zz9pzza
+1	2	Gemfile
+4	4	Gemfile.lock
+
+--4d791a940--2016-03-02--zz9pzza
+--b84b4e03a--2016-02-29--Scott D. Sullivan
+1	1	features/bookmarks/bookmark_create.feature
+
+--b7bc2cfc7--2016-02-27--Scott D. Sullivan
+2	2	features/bookmarks/bookmark_create.feature
+
+--2429aa8ae--2016-02-27--Scott D. Sullivan
+1	1	app/controllers/collection_items_controller.rb
+
+--5c37a7fc9--2016-02-27--Scott D. Sullivan
+7	3	app/controllers/collection_items_controller.rb
+1	1	app/mailers/user_mailer.rb
+8	4	app/models/collection_item.rb
+4	0	lib/collectible.rb
+
+--88012c008--2016-02-27--zz9pzza
+1	1	app/helpers/application_helper.rb
+
+--ea0628751--2016-02-17--zz9pzza
+1	1	app/helpers/works_helper.rb
+9	0	app/models/bookmark.rb
+1	0	app/models/work.rb
+1	1	app/views/works/_work_module.html.erb
+15	0	lib/work_bookmark_count_caching.rb
+
+--4dc4346b4--2016-02-15--Lauren Scott
+4	4	app/helpers/application_helper.rb
+
+--da47e50b0--2016-02-15--Lauren Scott
+2	2	app/controllers/works_controller.rb
+12	10	app/helpers/application_helper.rb
+
+--0e9f7566a--2016-02-15--Lauren Scott
+1	1	app/controllers/chapters_controller.rb
+1	1	app/controllers/works_controller.rb
+8	8	app/helpers/application_helper.rb
+2	2	app/views/works/_work_module.html.erb
+
+--042b3fdf4--2016-02-15--Lauren Scott
+57	20	app/helpers/application_helper.rb
+3	3	app/views/works/show.html.erb
+
+--4d1c74373--2016-01-10--james_
+1	1	Gemfile
+3	2	Gemfile.lock
+
+--4b2de8093--2016-01-02--Scott D. Sullivan
+--36c5b59f5--2016-01-02--Scott D. Sullivan
+1	1	spec/helpers/tag_sets_helper_spec.rb
+
+--2b9e60d88--2016-01-02--Scott D. Sullivan
+1	1	spec/helpers/tag_sets_helper_spec.rb
+
+--8e876833f--2016-01-02--Scott D. Sullivan
+0	3	spec/spec_helper.rb
+
+--8b669f8a3--2016-01-02--Scott D. Sullivan
+3	2	app/helpers/tag_sets_helper.rb
+
+--14fd8fe93--2016-01-02--Scott D. Sullivan
+5	1	Gemfile
+4	0	Gemfile.lock
+4	8	app/helpers/tag_sets_helper.rb
+18	5	factories/tags.rb
+1	14	features/support/factories.rb
+96	15	spec/helpers/tag_sets_helper_spec.rb
+
+--0599f352a--2015-12-13--Scott D. Sullivan
+14	1	features/support/factories.rb
+130	0	spec/helpers/tag_sets_helper_spec.rb
+3	0	spec/spec_helper.rb
+
+--e885b654a--2016-01-02--Scott D. Sullivan
+0	3	spec/spec_helper.rb
+
+--24efcf946--2016-01-02--Scott D. Sullivan
+3	2	app/helpers/tag_sets_helper.rb
+
+--55d279058--2016-01-02--Scott D. Sullivan
+5	1	Gemfile
+4	0	Gemfile.lock
+4	8	app/helpers/tag_sets_helper.rb
+18	5	factories/tags.rb
+1	14	features/support/factories.rb
+96	15	spec/helpers/tag_sets_helper_spec.rb
+
+--99c7c3b62--2015-12-13--Scott D. Sullivan
+14	1	features/support/factories.rb
+130	0	spec/helpers/tag_sets_helper_spec.rb
+3	0	spec/spec_helper.rb
+
+--614eb9d3d--2015-09-30--Scott D. Sullivan
+0	37	app/controllers/collection_items_controller.rb
+4	4	app/mailers/user_mailer.rb
+
+--16ce62818--2015-09-30--Scott D. Sullivan
+--63f739f82--2015-09-13--Scott D. Sullivan
+1	2	app/views/collection_items/index.html.erb
+
+--c54736826--2015-09-13--Scott D. Sullivan
+--bc53ca8dc--2015-07-03--Scott D. Sullivan
+--908095142--2015-02-01--Scott D. Sullivan
+1	1	features/collections/collectible.feature
+
+--b2edf5f31--2015-02-01--Scott D. Sullivan
+--ce1a2ab2b--2015-01-25--Scott D. Sullivan
+--574faa811--2015-01-18--Scott D. Sullivan
+7	7	app/models/collection_item.rb
+1	1	features/collections/collectible.feature
+
+--f9f38a4e9--2015-01-18--Scott D. Sullivan
+15	15	app/controllers/collection_items_controller.rb
+4	4	app/mailers/user_mailer.rb
+
+--cb1c21e96--2015-01-18--Scott D. Sullivan
+31	32	app/controllers/collection_items_controller.rb
+
+--9706ccb61--2015-01-12--Scott D. Sullivan
+--5f9146a4d--2014-12-14--Scott D. Sullivan
+5	6	app/views/comments/_commentable.html.erb
+1	1	app/views/user_mailer/added_to_collection_notification.html.erb
+1	1	app/views/user_mailer/added_to_collection_notification.text.erb
+1	1	app/views/user_mailer/invited_to_collection_notification.html.erb
+1	1	app/views/user_mailer/invited_to_collection_notification.text.erb
+1	1	public/help/collection-preferences.html
+
+--b3672360f--2014-12-14--Scott D. Sullivan
+--26d8d3bee--2014-10-11--Scott D. Sullivan
+--abdd209bf--2014-07-20--Scott D. Sullivan
+1	1	features/collections/collectible.feature
+
+--4c3b4592b--2014-07-20--Scott D. Sullivan
+19	4	app/controllers/collection_items_controller.rb
+3	2	features/collections/collectible.feature
+
+--f8f5a28fd--2014-07-20--Scott D. Sullivan
+--a9d438ed2--2014-06-28--Scott D. Sullivan
+1	1	features/collections/collection_invite.feature
+1	1	lib/collectible.rb
+
+--7b89b3dc9--2014-06-28--Scott D. Sullivan
+--0218cd495--2014-06-19--Scott D. Sullivan
+--729da1854--2014-06-19--Scott D. Sullivan
+1	2	public/help/collection-preferences.html
+
+--2de2f6e0b--2014-06-09--Scott D. Sullivan
+--3e86a86dc--2014-05-08--Scott D. Sullivan
+0	1	app/models/collection_item.rb
+
+--bd4f56387--2014-05-08--Scott D. Sullivan
+--8bc00dba8--2014-04-14--Scott D. Sullivan
+--94bdac092--2014-01-04--Scott D. Sullivan
+1	1	features/other/preferences_edit.feature
+
+--72adb1a46--2013-06-13--Scott D. Sullivan
+64	0	features/collections/collection_invite.feature
+7	0	features/step_definitions/collection_steps.rb
+
+--6ad6087d5--2013-03-04--Scott D. Sullivan
+0	4	app/controllers/collection_items_controller.rb
+1	0	app/models/collection_item.rb
+1	0	app/views/collection_items/index.html.erb
+
+--1be7722ba--2013-03-04--Scott D. Sullivan
+3	2	app/models/collection_item.rb
+
+--93aa75626--2013-03-04--Scott D. Sullivan
+1	1	app/controllers/collection_items_controller.rb
+1	1	app/models/collection_item.rb
+1	1	app/views/preferences/index.html.erb
+1	1	app/views/user_mailer/added_to_collection_notification.html.erb
+1	1	app/views/user_mailer/added_to_collection_notification.text.erb
+1	1	app/views/user_mailer/invited_to_collection_notification.html.erb
+1	1	app/views/user_mailer/invited_to_collection_notification.text.erb
+0	9	db/migrate/20130302192346_add_collection_item_status.rb
+
+--193af12a3--2013-03-04--Scott D. Sullivan
+10	8	app/controllers/collection_items_controller.rb
+12	2	app/mailers/user_mailer.rb
+17	2	app/models/collection_item.rb
+0	1	app/views/collection_items/index.html.erb
+19	0	app/views/user_mailer/added_to_collection_notification.html.erb
+13	0	app/views/user_mailer/added_to_collection_notification.text.erb
+0	16	app/views/user_mailer/invite_to_collection.html.erb
+15	0	app/views/user_mailer/invited_to_collection_notification.html.erb
+13	0	app/views/user_mailer/invited_to_collection_notification.text.erb
+0	8	lib/collectible.rb
+
+--395863294--2013-03-03--Scott D. Sullivan
+5	0	app/controllers/collection_items_controller.rb
+5	0	app/helpers/users_helper.rb
+0	6	app/views/collection_items/_add_works.html.erb
+1	1	app/views/collection_items/index.html.erb
+7	6	app/views/comments/_commentable.html.erb
+
+--ed82f4e25--2013-03-03--Scott D. Sullivan
+2	0	app/controllers/collection_items_controller.rb
+3	4	app/models/collection_item.rb
+
+--a2251863f--2013-03-03--Scott D. Sullivan
+21	10	app/controllers/collection_items_controller.rb
+13	0	app/mailers/user_mailer.rb
+13	5	app/models/collection_item.rb
+6	0	app/views/collection_items/_add_works.html.erb
+11	2	app/views/collection_items/index.html.erb
+2	2	app/views/preferences/index.html.erb
+16	0	app/views/user_mailer/invite_to_collection.html.erb
+9	0	db/migrate/20130302192346_add_collection_item_status.rb
+9	1	lib/collectible.rb

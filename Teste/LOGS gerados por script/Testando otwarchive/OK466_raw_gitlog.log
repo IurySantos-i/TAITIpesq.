@@ -1,0 +1,406 @@
+--58a8c13b1--2015-07-14--sarken
+--171e29924--2015-07-13--sarken
+--a8f5dd18d--2015-07-12--sarken
+--1a3399c45--2015-07-11--Scott D. Sullivan
+--e9f9cc67b--2015-07-11--Scott D. Sullivan
+1	2	public/stylesheets/site/2.0/10-types-groups.css
+
+--153e74014--2015-07-11--sarken
+--db7d623ba--2015-07-09--zz9pzza
+--61dd31168--2015-07-09--Ariana
+1	1	app/mailers/kudo_mailer.rb
+3	1	app/views/kudo_mailer/batch_kudo_notification.html.erb
+1	1	app/views/kudo_mailer/batch_kudo_notification.text.erb
+
+--0bdc5c780--2015-07-04--Scott D. Sullivan
+--8bfc73874--2015-07-04--Scott D. Sullivan
+--5639bbfb4--2015-07-03--zz9pzza
+--958e11eee--2015-07-03--zz9pzza
+--b45de316c--2015-07-02--Ariana
+2	1	spec/controllers/tags_controller_spec.rb
+2	2	spec/requests/comments_spec.rb
+
+--0779dac89--2015-07-01--Ariana
+10	7	spec/controllers/tags_controller_spec.rb
+4	4	spec/models/story_parser_spec.rb
+0	1	spec/models/work_search_spec.rb
+1	1	spec/requests/comments_spec.rb
+
+--494bd7c8a--2015-07-01--Ariana
+--4f9ef84b3--2015-06-19--Elz
+--7d720b22c--2015-06-18--zz9pzza
+1	1	app/controllers/application_controller.rb
+
+--79d83f456--2015-06-13--Elz
+--b71182c2d--2015-06-12--Ariana
+20	11	spec/mailers/user_mailer_spec.rb
+
+--93ca7d017--2015-06-10--Ariana
+1	1	app/models/story_parser.rb
+8	4	spec/controllers/tags_controller_spec.rb
+3	3	spec/lib/html_cleaner_spec.rb
+2	2	spec/models/external_work_spec.rb
+4	5	spec/models/story_parser_spec.rb
+20	4	spec/models/work_search_spec.rb
+0	3	spec/models/work_spec.rb
+6	6	spec/requests/comments_spec.rb
+
+--a4deb714f--2015-06-09--zz9pzza
+1	2	app/controllers/application_controller.rb
+
+--234acc25c--2015-06-08--zz9pzza
+1	3	Gemfile.lock
+
+--3395f52a0--2015-06-08--zz9pzza
+1	0	.ruby_version
+1	1	.travis.yml
+2	3	Gemfile
+5	7	app/controllers/application_controller.rb
+6	2	spec/lib/html_cleaner_spec.rb
+
+--1e37dbdc6--2015-06-02--sarken
+--d14483356--2015-06-02--Scott D. Sullivan
+8	8	app/views/tag_wranglings/_wrangler_dashboard.html.erb
+
+--97eec43ea--2015-06-02--Scott D. Sullivan
+1	0	app/controllers/admin_posts_controller.rb
+1	1	app/views/admin_posts/_filters.html.erb
+
+--916289386--2015-06-02--Scott D. Sullivan
+1	1	app/views/tag_wranglings/_wrangler_dashboard.html.erb
+
+--0a5caeb50--2015-05-31--sarken
+--0bbdff6cf--2015-05-31--ariana-paris
+--ddfb72569--2015-05-31--zz9pzza
+--6ccbb9b8a--2015-05-31--zz9pzza
+1	1	app/views/kudo_mailer/batch_kudo_notification.html.erb
+
+--b179b9e39--2015-05-31--zz9pzza
+1	1	app/views/kudo_mailer/batch_kudo_notification.text.erb
+
+--49a28eabf--2015-05-31--zz9pzza
+1	1	app/views/kudo_mailer/batch_kudo_notification.html.erb
+4	1	config/locales/en.yml
+
+--7ff821cab--2015-05-31--zz9pzza
+2	2	app/views/kudo_mailer/batch_kudo_notification.html.erb
+
+--e17a577c0--2015-05-31--zz9pzza
+1	1	app/mailers/kudo_mailer.rb
+1	2	config/locales/en.yml
+
+--53efce868--2015-05-30--zz9pzza
+2	2	app/views/home/_tos.html.erb
+
+--77116856f--2015-05-30--zz9pzza
+--3cfdcec63--2015-05-30--ariana-paris
+--c20087c0d--2015-05-30--ariana-paris
+--c02dc46cd--2015-05-28--zz9pzza
+0	16	app/mailers/user_mailer.rb
+
+--b32b27c6c--2015-05-27--sarken
+--d4ec9a8d1--2015-05-27--zz9pzza
+0	13	app/models/work_observer.rb
+0	5	app/views/user_mailer/edit_work_notification.html.erb
+0	6	app/views/user_mailer/edit_work_notification.text.erb
+0	3	config/locales/en.yml
+
+--a745cdd31--2015-05-27--zz9pzza
+1	1	app/views/preferences/index.html.erb
+
+--6e7e95690--2015-05-26--zz9pzza
+4	4	app/views/preferences/index.html.erb
+
+--2823bdf46--2015-05-26--zz9pzza
+1	1	app/mailers/user_mailer.rb
+2	2	app/views/user_mailer/edit_work_notification.html.erb
+2	2	app/views/user_mailer/edit_work_notification.text.erb
+3	0	config/locales/en.yml
+
+--960bd9d8d--2015-05-26--zz9pzza
+1	1	features/other_a/preferences_edit.feature
+
+--b79d62aa0--2015-05-26--zz9pzza
+2	2	app/views/preferences/index.html.erb
+
+--e837b695c--2015-05-26--zz9pzza
+1	1	app/views/preferences/index.html.erb
+
+--37b0dbf3f--2015-05-25--Ariana
+1	1	config/initializers/gem-plugin_config/resque.rb
+12	0	spec/api/api_spec.rb
+
+--c8febe9cd--2015-05-25--Ariana
+1	1	config/initializers/gem-plugin_config/resque.rb
+
+--e50115d65--2015-05-25--Ariana
+1	1	app/controllers/api/v1/works_controller.rb
+
+--12d7b87e3--2015-05-23--sarken
+--122f16188--2015-05-23--vagrant
+1	1	app/mailers/kudo_mailer.rb
+
+--d41050957--2015-05-21--Scott D. Sullivan
+--6d3c33b09--2015-05-21--zz9pzza
+1	1	app/views/kudo_mailer/batch_kudo_notification.html.erb
+1	1	app/views/kudo_mailer/batch_kudo_notification.text.erb
+2	2	app/views/layouts/mailer.html.erb
+2	2	app/views/layouts/mailer.text.erb
+5	5	config/locales/en.yml
+2	2	config/locales/pt-BR.yml
+
+--fd0df4f5f--2015-05-21--zz9pzza
+1	1	config/locales/en.yml
+
+--6a0d90889--2015-05-21--ariana-paris
+--4c0f4de98--2015-05-20--zz9pzza
+3	2	app/mailers/kudo_mailer.rb
+
+--4efa5af21--2015-05-20--zz9pzza
+1	1	app/mailers/kudo_mailer.rb
+
+--021ff08fc--2015-05-19--zz9pzza
+3	3	app/mailers/kudo_mailer.rb
+
+--8b7ac43d1--2015-05-19--zz9pzza
+2	2	app/views/home/_tos.html.erb
+
+--8dd41c8cb--2015-05-17--james_
+6	0	Gemfile.lock
+
+--2cadfd86f--2015-05-17--james_
+1	1	features/comments_and_kudos/kudos.feature
+
+--e9786d95f--2015-05-17--james_
+3	3	app/mailers/kudo_mailer.rb
+
+--9697fee67--2015-05-17--james_
+2	1	app/views/home/_tos.html.erb
+
+--8f7181743--2015-05-17--james_
+14	0	.travis.yml
+
+--6a13e887a--2015-05-17--james_
+2	3	app/mailers/kudo_mailer.rb
+1	1	features/comments_and_kudos/kudos.feature
+
+--b7914d99f--2015-05-16--james_
+2	4	app/mailers/kudo_mailer.rb
+
+--25cf08ca2--2015-05-16--james_
+0	14	.travis.yml
+3	2	app/mailers/kudo_mailer.rb
+
+--98fb8bb15--2015-05-16--james_
+2	3	app/mailers/kudo_mailer.rb
+1	1	app/models/redis_mail_queue.rb
+
+--2be25f508--2015-05-16--zz9pzza
+--6669980cf--2015-05-16--Ariana
+--6613359a9--2015-05-16--Ariana
+32	7	app/mailers/kudo_mailer.rb
+1	1	app/models/redis_mail_queue.rb
+12	12	app/views/kudo_mailer/batch_kudo_notification.html.erb
+9	4	app/views/kudo_mailer/batch_kudo_notification.text.erb
+1	1	app/views/layouts/mailer.html.erb
+5	5	config/locales/en.yml
+2	2	features/comments_and_kudos/kudos.feature
+
+--6350a3f86--2015-05-15--sarken
+2	2	features/admins/admin_manage_users.feature
+
+--7a76d898b--2015-05-15--james_
+3	3	app/views/home/_tos.html.erb
+
+--3e5bd9aba--2015-05-15--james_
+2	2	app/views/home/_tos.html.erb
+
+--4e9887bc8--2015-05-15--james_
+18	29	app/views/home/_tos.html.erb
+
+--287b922a3--2015-05-15--james_
+--6c76dc20b--2015-05-14--sarken
+3	3	app/views/admin/admin_users/_user_form.html.erb
+14	14	app/views/admin/admin_users/index.html.erb
+20	20	app/views/admin/admin_users/show.html.erb
+0	51	config/locales/en.yml
+
+--118698c7d--2015-05-13--sarken
+39	32	features/cassette_library/cucumber_tags/work_external_language.yml
+51	51	features/cassette_library/cucumber_tags/work_external_parent.yml
+
+--eed38c8cf--2015-05-13--sarken
+1	1	features/step_definitions/work_steps.rb
+
+--a4518be2e--2015-05-12--sarken
+2	2	lib/url_helpers.rb
+
+--9a979d92c--2015-05-12--sarken
+4	4	lib/url_helpers.rb
+
+--1b9365f4b--2015-05-12--sarken
+1	1	app/models/work.rb
+
+--801443596--2015-05-12--james_
+1	1	app/views/kudo_mailer/batch_kudo_notification.text.erb
+
+--bc9d5992b--2015-05-12--james_
+1	1	app/views/kudo_mailer/batch_kudo_notification.html.erb
+
+--ae979c248--2015-05-12--james_
+1	1	config/locales/es.yml
+
+--390f5ea77--2015-05-12--james_
+--5d568ab8d--2015-05-11--james_
+2	0	Gemfile
+2	0	config/initializers/transaction_retry.rb
+
+--b84f96523--2015-05-11--james_
+1	1	config/locales/es.yml
+
+--2c4f83891--2015-05-10--james_
+2	2	config/initializers/monkeypatches/translate_string.rb
+
+--97d4c1ea5--2015-05-10--james_
+3	3	app/mailers/user_mailer.rb
+1	1	config/initializers/monkeypatches/translate_string.rb
+
+--db0ad173a--2015-05-10--james_
+1	1	config/initializers/monkeypatches/translate_string.rb
+
+--a3cce570e--2015-05-10--james_
+3	3	config/initializers/monkeypatches/translate_string.rb
+
+--99b26e8fd--2015-05-10--james_
+2	2	app/mailers/kudo_mailer.rb
+4	4	app/mailers/user_mailer.rb
+
+--c771b367d--2015-05-10--james_
+2	2	app/mailers/admin_mailer.rb
+1	1	app/mailers/collection_mailer.rb
+1	1	app/mailers/comment_mailer.rb
+1	1	app/mailers/user_mailer.rb
+
+--a37b91c57--2015-05-10--james_
+1	1	app/mailers/kudo_mailer.rb
+
+--c9632d2b0--2015-05-10--james_
+16	16	app/mailers/admin_mailer.rb
+3	3	app/mailers/collection_mailer.rb
+16	16	app/mailers/comment_mailer.rb
+4	4	app/mailers/kudo_mailer.rb
+65	65	app/mailers/user_mailer.rb
+
+--83c778823--2015-05-10--james_
+--b5796a8c7--2015-05-06--sarken
+1	1	app/views/external_works/_blurb.html.erb
+
+--86457855f--2015-05-06--sarken
+2	2	app/views/external_works/_blurb.html.erb
+
+--0552ee671--2015-05-06--sarken
+1	1	app/views/prompts/_prompt_blurb.html.erb
+
+--ec5ba3ee1--2015-04-28--Scott D. Sullivan
+3	3	lib/challenge_core.rb
+3	3	lib/tasks/after_tasks.rake
+
+--317619f22--2015-04-27--Scott D. Sullivan
+5	0	lib/tasks/after_tasks.rake
+
+--e64b20061--2015-04-27--Scott D. Sullivan
+--a38075c2e--2015-04-12--Scott D. Sullivan
+5	3	lib/tasks/after_tasks.rake
+
+--5d943a277--2015-04-12--Scott D. Sullivan
+11	0	lib/tasks/after_tasks.rake
+
+--c1d26120b--2015-04-09--Scott D. Sullivan
+4	4	spec/controllers/gift_exchange_controller_spec.rb
+4	4	spec/controllers/prompt_meme_controller_spec.rb
+3	3	spec/support/login_macros.rb
+
+--adeb03115--2015-04-09--Scott D. Sullivan
+0	1	app/controllers/challenge/gift_exchange_controller.rb
+0	1	app/controllers/challenge/prompt_meme_controller.rb
+0	7	app/controllers/challenges_controller.rb
+3	0	app/models/challenge_models/gift_exchange.rb
+3	0	app/models/challenge_models/prompt_meme.rb
+7	1	lib/challenge_core.rb
+
+--8aa4e9826--2015-03-07--james_
+1	1	app/controllers/application_controller.rb
+
+--005eb4651--2015-03-07--james_
+2	1	app/controllers/application_controller.rb
+
+--58ecf6e00--2015-03-04--sarken
+2	1	public/stylesheets/site/2.0/10-types-groups.css
+
+--f1816e1ec--2015-02-28--Scott D. Sullivan
+1	1	app/controllers/challenge/gift_exchange_controller.rb
+1	3	spec/controllers/gift_exchange_controller_spec.rb
+1	3	spec/controllers/prompt_meme_controller_spec.rb
+
+--7fb147f1a--2015-02-28--Scott D. Sullivan
+--14d123cf2--2015-01-03--Scott D. Sullivan
+1	0	app/controllers/challenges_controller.rb
+20	11	spec/controllers/gift_exchange_controller_spec.rb
+29	0	spec/controllers/prompt_meme_controller_spec.rb
+7	1	spec/support/login_macros.rb
+
+--a67988308--2015-01-03--Scott D. Sullivan
+--293fbd509--2015-01-03--Scott D. Sullivan
+2	2	app/controllers/challenge/gift_exchange_controller.rb
+1	1	app/controllers/challenges_controller.rb
+9	5	spec/controllers/gift_exchange_controller_spec.rb
+
+--1d95f321f--2015-01-01--Scott D. Sullivan
+1	0	app/controllers/challenge/gift_exchange_controller.rb
+1	0	app/controllers/challenge/prompt_meme_controller.rb
+7	1	app/controllers/challenges_controller.rb
+16	0	spec/controllers/gift_exchange_controller_spec.rb
+
+--2307b2f3f--2014-11-08--james_
+--8b413036b--2014-10-13--james_
+--2d7af924e--2014-10-12--james_
+2	2	features/comments_and_kudos/kudos.feature
+
+--88d04b230--2014-10-12--james_
+0	1	app/views/kudo_mailer/batch_kudo_notification.html.erb
+
+--d549fa5b0--2014-10-12--james_
+0	1	app/mailers/kudo_mailer.rb
+
+--11d5205f1--2014-10-12--james_
+9	8	app/mailers/kudo_mailer.rb
+0	3	app/views/kudo_mailer/batch_kudo_notification.html.erb
+1	2	app/views/kudo_mailer/batch_kudo_notification.text.erb
+
+--2784b6c04--2014-10-12--james_
+0	11	app/views/kudo_mailer/kudo_notification.html.erb
+
+--b0932fd72--2014-10-12--james_
+0	18	spec/mailers/kudo_mailer_spec.rb
+
+--0a65e37f2--2014-10-12--james_
+0	15	app/mailers/kudo_mailer.rb
+1	1	app/views/kudo_mailer/batch_kudo_notification.html.erb
+
+--31274c85a--2014-10-12--james_
+4	2	app/mailers/kudo_mailer.rb
+1	5	app/models/redis_mail_queue.rb
+6	2	app/views/kudo_mailer/batch_kudo_notification.html.erb
+9	7	app/views/kudo_mailer/batch_kudo_notification.text.erb
+1	0	app/views/kudo_mailer/kudo_notification.html.erb
+1	0	config/locales/en.yml
+
+--abf710d86--2014-10-12--james_
+--d7fc57013--2014-10-12--james_
+6	1	config/locales/en.yml
+
+--3f504310d--2014-10-11--james_
+2	2	app/mailers/kudo_mailer.rb
+2	2	app/views/kudo_mailer/batch_kudo_notification.html.erb
+2	2	app/views/kudo_mailer/batch_kudo_notification.text.erb
+2	2	app/views/kudo_mailer/kudo_notification.html.erb

@@ -1,0 +1,7 @@
+entity,coupled,degree,average-revs
+features/challenge_promptmeme.feature,features/step_definitions/challenge_steps.rb,75,8
+app/controllers/autocomplete_controller.rb,app/models/collection.rb,62,8
+app/controllers/autocomplete_controller.rb,app/models/tag.rb,58,9
+app/controllers/autocomplete_controller.rb,public/stylesheets/auto_complete.css,58,9
+app/controllers/autocomplete_controller.rb,public/javascripts/jquery.tokeninput.js,52,12
+public/javascripts/jquery.tokeninput.js,public/stylesheets/auto_complete.css,50,10

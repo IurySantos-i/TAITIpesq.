@@ -1,0 +1,61 @@
+--5d527145--2011-01-26--tashian
+--8eed3e2f--2011-01-26--tashian
+--405a8719--2011-01-26--tashian
+--8108c9ae--2011-01-26--tashian
+1	1	app/controllers/issues_controller.rb
+5	5	app/controllers/subjects_controller.rb
+1	0	app/models/subject.rb
+1	1	app/views/bills/show.html.haml
+1	1	app/views/subjects/_subject.html.haml
+2	2	config/navigation.rb
+1	1	config/routes.rb
+
+--bbf72509--2011-01-26--morganknutson
+1	0	app/views/layouts/application.html.haml
+-	-	public/images/grow.png
+12	1	public/stylesheets/classes.css
+
+--18b47cdc--2011-01-26--David Moore
+2	0	app/views/pages/help.html.haml
+8	0	app/views/pages/site-help.html.haml
+
+--cc35a5f9--2011-01-26--tashian
+6	1	config/schedule.rb
+
+--56ef3e48--2011-01-26--tashian
+5	3	config/schedule.rb
+
+--32d8c98f--2011-01-26--Erik Ostrom
+6	2	app/controllers/districts_controller.rb
+1	1	features/my_district.feature
+50	50	features/vcr_cassettes/cucumber_tags/uses_geocoder.yml
+
+--41cf3337--2011-01-26--Erik Ostrom
+1	2	Gemfile
+1	6	Gemfile.lock
+1	1	config/environments/test.rb
+2	2	features/step_definitions/clearance_steps.rb
+107	169	features/step_definitions/web_steps.rb
+19	18	features/support/env.rb
+0	5	features/support/webrat_fixes.rb
+68	0	features/vcr_cassettes/cucumber_tags/uses_geocoder.yml
+
+--6e55afd3--2011-01-26--Erik Ostrom
+2	2	app/controllers/application_controller.rb
+3	2	app/controllers/districts_controller.rb
+7	0	features/my_district.feature
+
+--a47c2773--2011-01-26--Erik Ostrom
+1	0	config/environments/test.rb
+16	14	features/my_district.feature
+4	0	features/support/vcr.rb
+45	0	features/vcr_cassettes/cucumber_tags/uses_geocoder.yml
+1	0	spec/fixtures/districts.yml
+0	1	spec/fixtures/people.yml
+1	1	spec/fixtures/roles.yml
+2	4	spec/fixtures/sessions.yml
+
+--b5159c29--2011-01-26--Erik Ostrom
+2	0	Gemfile
+7	0	Gemfile.lock
+6	0	features/support/vcr.rb

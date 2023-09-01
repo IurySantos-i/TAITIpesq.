@@ -1,0 +1,374 @@
+--b1c7531bd--2014-08-24--sarken
+--149aa0947--2014-08-24--sarken
+25	0	features/other/reading.feature
+12	0	features/step_definitions/work_steps.rb
+
+--c4c05484f--2014-08-24--sarken
+0	4	config/routes.rb
+
+--af581387c--2014-08-24--sarken
+1	5	app/helpers/application_helper.rb
+
+--000d50276--2014-08-24--sarken
+1	1	app/views/layouts/application.html.erb
+
+--b0a8f35e2--2014-08-24--sarken
+1	1	app/views/home/index.html.erb
+
+--ffcd6fb4c--2014-08-24--sarken
+16	0	features/step_definitions/tag_steps.rb
+25	7	features/tags_and_wrangling/favorite_tags.feature
+
+--957de991f--2014-08-22--zz9pzza
+--ca2df0a6f--2014-08-22--zz9pzza
+--6017fe891--2014-08-22--zz9pzza
+--6d11eb97a--2014-08-22--sarken
+3	3	features/fixtures/users.yml
+
+--404f13377--2014-08-22--zz9pzza
+--59f575106--2014-08-22--sarken
+16	12	app/views/tags/new.html.erb
+
+--2da3ec116--2014-08-22--sarken
+1	1	app/views/tags/new.html.erb
+
+--f4a80e616--2014-08-22--sarken
+3	0	features/fixtures/users.yml
+
+--610a94ea0--2014-08-22--sarken
+1	1	app/views/bookmarks/_filters.html.erb
+
+--a9c380b87--2014-08-21--zz9pzza
+--430baf0f3--2014-08-21--Ariana
+2454	1330	features/cassette_library/cucumber_tags/archivist_import.yml
+12	12	features/cassette_library/cucumber_tags/bookmark_fandom_error.yml
+12	12	features/cassette_library/cucumber_tags/bookmark_url_error.yml
+
+--0953f1653--2014-08-21--zz9pzza
+--aa6d8c147--2014-08-21--ariana-paris
+--3355a914b--2014-08-21--ariana-paris
+--a9ff3d4d5--2014-08-21--zz9pzza
+--9f64685d8--2014-08-21--zz9pzza
+--22d8a4a9c--2014-08-20--sarken
+1	7	app/controllers/inbox_controller.rb
+4	3	app/views/inbox/_delete_form.html.erb
+2	1	app/views/inbox/_read_form.html.erb
+
+--858aad8cf--2014-08-20--sarken
+27	0	app/views/home/_inbox_module.html.erb
+24	0	app/views/home/_intro_module.html.erb
+27	0	app/views/home/_news_module.html.erb
+47	117	app/views/home/index.html.erb
+
+--19147f248--2014-08-20--sarken
+3	0	public/javascripts/application.js
+5	0	public/stylesheets/site/2.0/28-role-ie8_or_lower.css
+
+--ea026bb9f--2014-08-20--sarken
+1	0	config/routes.rb
+
+--bafba41cd--2014-08-20--sarken
+10	0	app/controllers/inbox_controller.rb
+3	3	app/views/inbox/_delete_form.html.erb
+
+--8f2330d0d--2014-08-19--sarken
+1	1	app/controllers/readings_controller.rb
+1	2	app/views/readings/_reading_blurb.html.erb
+2	2	features/other/reading.feature
+
+--830f052ba--2014-08-19--sarken
+1	1	app/views/inbox/_delete_form.html.erb
+1	1	app/views/inbox/_read_form.html.erb
+
+--08b1b8ad3--2014-08-19--sarken
+1	1	app/controllers/inbox_controller.rb
+3	3	app/views/inbox/_delete_form.html.erb
+3	3	app/views/inbox/_read_form.html.erb
+
+--2947e8b28--2014-08-19--sarken
+1	1	app/views/layouts/application.html.erb
+
+--308bc6096--2014-08-19--sarken
+15	3	app/controllers/readings_controller.rb
+1	0	app/views/home/index.html.erb
+6	0	app/views/readings/_reading_blurb.html.erb
+40	1	public/javascripts/favorite_tags.js
+1	1	public/javascripts/favorite_tags.min.js
+1	1	public/stylesheets/site/2.0/22-system-messages.css
+
+--92ec41bcc--2014-08-19--james_
+1	1	app/controllers/series_controller.rb
+
+--d165cebf8--2014-08-19--james_
+1	1	app/controllers/series_controller.rb
+
+--19d9e4fc4--2014-08-19--james_
+1	1	app/views/user_sessions/_greeting.html.erb
+
+--91562c94a--2014-08-19--james_
+1	0	.travis.yml
+6	0	script/check_syntax
+2	0	script/check_syntax_file
+
+--b9a9c1a39--2014-08-18--zz9pzza
+1	1	app/views/invitations/manage.html.erb
+
+--1fe1ad836--2014-08-18--zz9pzza
+4	4	app/views/tag_wranglings/_wrangler_dashboard.html.erb
+
+--4deb8649c--2014-08-18--zz9pzza
+1	1	app/views/admin/_admin_nav.html.erb
+
+--992b6aa73--2014-08-18--sarken
+6	6	app/controllers/favorite_tags_controller.rb
+6	6	app/views/favorite_tags/_form.html.erb
+14	7	public/javascripts/favorite_tags.js
+1	1	public/javascripts/favorite_tags.min.js
+
+--9ee3bc66e--2014-08-17--sarken
+2	2	app/controllers/favorite_tags_controller.rb
+0	1	app/controllers/home_controller.rb
+1	1	app/controllers/inbox_controller.rb
+1	1	app/controllers/readings_controller.rb
+25	9	app/views/home/index.html.erb
+5	0	app/views/inbox/_delete_form.html.erb
+31	0	app/views/inbox/_inbox_comment_contents.html.erb
+5	0	app/views/inbox/_read_form.html.erb
+4	0	app/views/inbox/_reply_button.html.erb
+3	30	app/views/inbox/show.html.erb
+1	1	app/views/layouts/application.html.erb
+-	-	public/images/imageset.png
+
+--518afb8d7--2014-08-15--Elz
+--6b1292cb5--2014-08-14--Marie Markwell
+4	0	app/helpers/validation_helper.rb
+
+--34cb862c9--2014-08-14--Marie Markwell
+1	0	spec/helpers/validation_helper_spec.rb
+
+--4c705f16f--2014-08-14--Marie Markwell
+20	0	spec/helpers/validation_helper_spec.rb
+
+--c95d986cc--2014-08-14--Marie Markwell
+25	0	spec/helpers/validation_helper_spec.rb
+
+--ed1f46dae--2014-08-14--Elz
+--6b41824cf--2014-08-14--sarken
+1	4	features/tags_and_wrangling/favorite_tags.feature
+
+--1180e3662--2014-08-14--sarken
+27	0	features/tags_and_wrangling/favorite_tags.feature
+
+--0d49f5f4c--2014-08-14--sarken
+13	4	app/controllers/favorite_tags_controller.rb
+7	0	app/models/favorite_tag.rb
+18	2	app/views/favorite_tags/_form.html.erb
+1	0	config/config.yml
+14	6	public/javascripts/favorite_tags.js
+1	1	public/javascripts/favorite_tags.min.js
+
+--7e409db94--2014-08-13--sarken
+1	6	app/controllers/favorite_tags_controller.rb
+
+--36a5982ab--2014-08-13--Ariana
+4	8	Gemfile.lock
+
+--894a7b8fa--2014-08-12--sarken
+1	0	app/views/favorite_tags/_form.html.erb
+
+--d08dec1d8--2014-08-12--sarken
+1	0	public/javascripts/favorite_tags.min.js
+
+--f04dc59a9--2014-08-12--sarken
+27	27	app/views/home/index.html.erb
+
+--887bfa1ce--2014-08-12--zz9pzza
+--8745cd80d--2014-08-12--zz9pzza
+--49f2060a1--2014-08-12--Scott D. Sullivan
+3	3	app/views/user_sessions/_passwd_small.html.erb
+15	0	features/other/admin_tasks.feature
+
+--533359dc4--2014-08-11--sarken
+0	1	app/views/chapters/edit.html.erb
+
+--098dd0239--2014-08-10--sarken
+4	4	app/views/favorite_tags/_form.html.erb
+14	10	app/views/home/index.html.erb
+1	1	app/views/layouts/_javascripts.html.erb
+
+--9db1f7554--2014-08-10--sarken
+1	1	app/views/home/index.html.erb
+
+--c6d7adfdd--2014-08-10--Marie Markwell
+79	29	app/helpers/validation_helper.rb
+
+--d2e81ea4d--2014-08-10--Marie Markwell
+9	9	app/helpers/validation_helper.rb
+5	5	spec/helpers/validation_helper_spec.rb
+
+--c74063e70--2014-08-10--Marie Markwell
+3	3	app/helpers/validation_helper.rb
+1	1	spec/helpers/validation_helper_spec.rb
+
+--1b2210cb8--2014-08-10--Marie Markwell
+10	10	app/helpers/validation_helper.rb
+5	13	spec/helpers/validation_helper_spec.rb
+
+--49365654f--2014-08-10--Marie Markwell
+56	0	spec/helpers/validation_helper_spec.rb
+
+--c6da9d4ed--2014-08-10--sarken
+0	3	app/views/favorite_tags/_form.html.erb
+
+--3e74dceba--2014-08-10--sarken
+6	4	app/controllers/favorite_tags_controller.rb
+4	6	app/views/favorite_tags/_form.html.erb
+12	10	public/javascripts/favorite_tags.js
+
+--01beffcc6--2014-08-10--sarken
+27	34	app/controllers/favorite_tags_controller.rb
+0	13	app/views/favorite_tags/_favorite_tag.html.erb
+15	0	app/views/favorite_tags/_form.html.erb
+0	1	app/views/favorite_tags/create.js.erb
+1	1	app/views/layouts/_javascripts.html.erb
+2	1	app/views/layouts/application.html.erb
+1	4	app/views/works/index.html.erb
+0	19	public/javascripts/application.js
+29	0	public/javascripts/favorite_tags.js
+
+--33dc76ef4--2014-08-09--sarken
+0	1	app/views/favorite_tags/index.html.erb
+2	2	config/routes.rb
+
+--7f74e8e76--2014-08-09--sarken
+29	10	app/controllers/favorite_tags_controller.rb
+3	3	app/views/favorite_tags/{_form.html.erb => _favorite_tag.html.erb}
+1	0	app/views/favorite_tags/create.js.erb
+1	0	app/views/favorite_tags/index.html.erb
+4	1	app/views/works/index.html.erb
+2	2	config/routes.rb
+19	0	public/javascripts/application.js
+
+--6260f23de--2014-08-09--sarken
+0	1	app/models/favorite_tag.rb
+
+--b2d7fbe9c--2014-08-09--sarken
+1	1	app/views/works/index.html.erb
+
+--d3a928fec--2014-08-09--sarken
+0	6	app/views/favorite_tags/edit.html.erb
+0	31	app/views/favorite_tags/index.html.erb
+0	5	app/views/favorite_tags/new.html.erb
+0	15	app/views/favorite_tags/show.html.erb
+
+--ea735865b--2014-08-06--Ariana
+110	124	Gemfile.lock
+
+--7d947a389--2014-08-06--Ariana
+5	7	Gemfile
+129	110	Gemfile.lock
+
+--7daa6277f--2014-08-05--Ariana
+3	2	Gemfile
+7	9	Gemfile.lock
+1	0	config/initializers/gem-plugin_config/webmock.rb
+1	1	features/support/vcr.rb
+
+--17777a8f8--2014-08-05--Ariana
+1	0	features/other/invite_queue.feature
+
+--71b2ef982--2014-08-05--Ariana
+8	38	features/other/invite_queue.feature
+8	10	features/other/invite_request.feature
+2	13	features/users/user_create.feature
+
+--bac4b6c1a--2014-08-04--Ariana
+3	1	app/views/users/change_password.html.erb
+4	1	app/views/users/change_username.html.erb
+
+--89a82113e--2014-08-04--Ariana
+6	5	features/other/invite_queue.feature
+
+--f6b100ded--2014-08-04--Ariana
+63	68	features/other/invite_queue.feature
+12	12	features/step_definitions/user_steps.rb
+
+--df180681d--2014-08-03--Ariana
+15	22	app/models/user.rb
+18	10	app/views/users/_passwd.html.erb
+4	0	config/config.yml
+
+--b2909d3af--2014-08-03--zz9pzza
+0	8	spec/requests/series_spec.rb
+
+--21f9e1ec6--2014-08-02--zz9pzza
+3	7	spec/requests/series_spec.rb
+
+--6938e9e34--2014-08-02--zz9pzza
+2	2	spec/requests/series_spec.rb
+
+--7b11bb037--2014-08-02--zz9pzza
+2	2	spec/requests/series_spec.rb
+
+--57ac68f40--2014-07-31--james_
+0	3	app/controllers/bookmarks_controller.rb
+
+--40534151e--2014-07-31--james_
+3	0	app/controllers/bookmarks_controller.rb
+1	2	app/controllers/collections_controller.rb
+
+--bd94595df--2014-07-31--james_
+3	3	app/controllers/bookmarks_controller.rb
+3	3	app/controllers/series_controller.rb
+
+--b9866efcf--2014-07-31--james_
+6	0	app/controllers/bookmarks_controller.rb
+4	6	app/controllers/series_controller.rb
+
+--354b8ce08--2014-07-31--james_
+--c6c072078--2014-07-07--zz9pzza
+14	14	app/views/collections/_sidebar.html.erb
+
+--038c3733d--2014-07-07--zz9pzza
+4	4	app/views/admin/_admin_nav.html.erb
+
+--91cc944c1--2014-07-07--zz9pzza
+3	3	app/views/invitations/manage.html.erb
+4	4	app/views/tag_wranglings/_wrangler_dashboard.html.erb
+
+--fed7f815f--2014-07-06--zz9pzza
+2	4	app/helpers/application_helper.rb
+5	5	app/views/admin/_admin_nav.html.erb
+10	10	app/views/collections/_sidebar.html.erb
+6	6	app/views/invitations/manage.html.erb
+8	8	app/views/layouts/_header.html.erb
+2	2	app/views/menu/about.html.erb
+2	2	app/views/menu/browse.html.erb
+2	2	app/views/menu/fandoms.html.erb
+2	2	app/views/menu/search.html.erb
+7	7	app/views/tag_wranglings/_footer.html.erb
+10	10	app/views/tag_wranglings/_wrangler_dashboard.html.erb
+20	20	app/views/user_sessions/_greeting.html.erb
+4	4	app/views/works/_search_box.html.erb
+4	0	config/environments/development.rb
+3	0	config/initializers/monkeypatches/translate_string.rb
+
+--779ab1fa4--2014-07-02--zz9pzza
+1	1	README.md
+11	11	app/views/layouts/_footer.html.erb
+5	5	app/views/menu/_menu_about.html.erb
+5	5	app/views/menu/_menu_browse.html.erb
+3	3	app/views/menu/_menu_fandoms.html.erb
+4	4	app/views/menu/_menu_search.html.erb
+2	8	config/initializers/monkeypatches/translate_string.rb
+
+--55e7ead37--2014-07-02--zz9pzza
+--d37ae241f--2014-06-28--james_
+--4f22636e7--2014-06-28--james_
+--5ac5a00ed--2014-06-28--Scott D. Sullivan
+--bf0a234ad--2014-06-19--Scott D. Sullivan
+--26eb00cf1--2013-04-29--Scott D. Sullivan
+8	1	features/collections/collection_create.feature
+
+--27843d7f4--2013-02-14--Scott D. Sullivan
+1	1	app/models/collection.rb

@@ -1,0 +1,3174 @@
+--baa2cbaad--2016-04-15--Scott D. Sullivan
+--3b9437b6d--2016-04-10--zz9pzza
+--2fe92aaa8--2016-04-10--zz9pzza
+1	1	config/deploy.rb
+
+--e5ee7742c--2016-04-09--ariana-paris
+--81bd0f3b9--2016-04-09--zz9pzza
+--22c2e0b56--2016-04-09--astolat shalott
+7	7	features/step_definitions/comment_steps.rb
+
+--ef2a2f019--2016-04-09--sarken
+22	23	app/views/admin/blacklisted_emails/index.html.erb
+2	3	features/admins/admin_email_blacklist.feature
+5	5	features/step_definitions/admin_steps.rb
+4	0	public/stylesheets/site/2.0/07-interactions.css
+
+--23df5fa6c--2016-04-09--sarken
+--3353beb47--2016-04-08--astolat shalott
+1	1	app/views/admin/blacklisted_emails/index.html.erb
+3	1	config/locales/en-US.yml
+3	1	config/locales/en.yml
+2	1	features/admins/admin_email_blacklist.feature
+
+--8e160572b--2016-04-08--zz9pzza
+--4c2c7a567--2016-04-08--zz9pzza
+--32bc8c83f--2016-04-08--zz9pzza
+--75741f1f3--2016-04-08--zz9pzza
+--149bba0b8--2016-04-08--astolat shalott
+1	1	app/controllers/admin/blacklisted_emails_controller.rb
+2	2	app/models/admin_blacklisted_email.rb
+1	1	app/validators/email_blacklist_validator.rb
+2	2	app/validators/email_veracity_validator.rb
+0	21	app/views/admin/blacklisted_emails/_form.html.erb
+2	2	app/views/admin/blacklisted_emails/index.html.erb
+0	5	app/views/admin/blacklisted_emails/new.html.erb
+12	0	config/locales/en-US.yml
+12	0	config/locales/en.yml
+18	1	spec/models/admin_blacklisted_email_spec.rb
+
+--00b6d7a1d--2016-04-07--zz9pzza
+1	1	Gemfile
+12	3	Gemfile.lock
+1	1	script/gem_security.sh
+
+--c543c75fb--2016-04-07--zz9pzza
+--ec7d47915--2016-04-07--zz9pzza
+5	5	Gemfile
+15	16	Gemfile.lock
+0	2	config/initializers/gem-plugin_config/resque.rb
+0	0	lib/resque_scheduler/server.rb
+0	0	lib/resque_scheduler/tasks.rb
+1	1	script/gem_security.sh
+
+--ea8a471de--2016-04-07--zz9pzza
+--5d389850d--2016-04-07--zz9pzza
+1	1	Gemfile
+8	16	Gemfile.lock
+1	1	script/gem_security.sh
+
+--6e234bb83--2016-04-07--zz9pzza
+--d5bd25d2a--2016-04-07--zz9pzza
+2	1	lib/tasks/resque.rake
+
+--d3fb28522--2016-04-07--zz9pzza
+--54822d431--2016-04-07--zz9pzza
+2	5	lib/tasks/resque.rake
+
+--77723fa59--2016-04-07--zz9pzza
+--8a29bc13a--2016-04-07--zz9pzza
+15	13	app/helpers/tags_helper.rb
+1	1	app/models/work.rb
+
+--63e22b523--2016-04-07--zz9pzza
+--609acf767--2016-04-07--zz9pzza
+1	1	app/views/works/_meta.html.erb
+
+--927d747be--2016-04-07--zz9pzza
+--2b32008ae--2016-04-07--zz9pzza
+9	0	app/models/work.rb
+4	3	app/views/works/_meta.html.erb
+1	1	app/views/works/_work_module.html.erb
+6	6	features/tags_and_wrangling/tag_wrangling_special.feature
+1	5	lib/tasks/memcached.rake
+
+--ae39e60e2--2016-04-07--zz9pzza
+--5bed27836--2016-04-07--zz9pzza
+2	1	app/controllers/chapters_controller.rb
+20	5	app/controllers/works_controller.rb
+8	7	app/helpers/share_helper.rb
+10	4	app/models/work.rb
+2	2	app/views/works/_work_abbreviated_list.html.erb
+22	1	features/other_a/page_title.feature
+3	0	features/step_definitions/page_title_steps.rb
+2	0	features/support/hooks.rb
+
+--32e10b55c--2016-04-07--zz9pzza
+--f733329ea--2016-04-07--zz9pzza
+1	2	app/controllers/chapters_controller.rb
+5	20	app/controllers/works_controller.rb
+7	8	app/helpers/share_helper.rb
+4	10	app/models/work.rb
+2	2	app/views/works/_work_abbreviated_list.html.erb
+1	22	features/other_a/page_title.feature
+0	3	features/step_definitions/page_title_steps.rb
+0	2	features/support/hooks.rb
+
+--486f75d46--2016-04-07--zz9pzza
+--1f4da7c97--2016-04-07--zz9pzza
+0	9	app/models/work.rb
+3	4	app/views/works/_meta.html.erb
+1	1	app/views/works/_work_module.html.erb
+6	6	features/tags_and_wrangling/tag_wrangling_special.feature
+5	1	lib/tasks/memcached.rake
+
+--9a084b469--2016-04-07--zz9pzza
+--3bc7bc37f--2016-04-07--zz9pzza
+1	1	app/views/works/_meta.html.erb
+
+--0e207bd0c--2016-04-07--zz9pzza
+--5151936ff--2016-04-07--zz9pzza
+13	15	app/helpers/tags_helper.rb
+1	1	app/models/work.rb
+
+--6f8f3b02a--2016-04-06--zz9pzza
+--1567c2297--2016-04-05--sarken
+4	0	public/stylesheets/site/2.0/21-userstuff.css
+
+--e9ceb0006--2016-04-04--sarken
+--50ea6c79e--2016-04-04--sarken
+--9200ef77c--2016-04-04--sarken
+1	1	app/views/admin_posts/_admin_post.html.erb
+
+--1483623c3--2016-04-04--sarken
+2	2	app/views/admin_posts/_admin_post.html.erb
+8	0	features/admins/admin_post_news.feature
+19	0	features/step_definitions/admin_steps.rb
+
+--b010164ae--2016-04-04--sarken
+1	1	public/stylesheets/site/2.0/12-group-meta.css
+
+--f96a9f791--2016-04-04--sarken
+1	0	public/stylesheets/site/2.0/12-group-meta.css
+
+--be116dfd1--2016-04-03--astolat shalott
+1	1	app/views/admin/blacklisted_emails/index.html.erb
+4	5	app/views/invite_requests/index.html.erb
+3	3	features/admins/admin_email_blacklist.feature
+2	2	features/step_definitions/admin_steps.rb
+3	1	spec/models/admin_blacklisted_email_spec.rb
+
+--8681b4254--2016-04-03--sarken
+1	1	app/views/admin_posts/index.html.erb
+1	1	app/views/admin_posts/show.html.erb
+
+--6fbd99e48--2016-04-03--sarken
+22	22	app/views/admin_posts/index.html.erb
+
+--637520b36--2016-04-03--sarken
+23	23	features/step_definitions/admin_steps.rb
+
+--156aa7ac6--2016-04-03--sarken
+2	2	features/step_definitions/admin_steps.rb
+
+--7d883602e--2016-04-03--sarken
+1	1	app/views/admin_posts/_admin_post.html.erb
+6	6	app/views/admin_posts/index.html.erb
+2	2	app/views/admin_posts/show.html.erb
+
+--50d552353--2016-04-03--astolat shalott
+38	31	app/views/admin/blacklisted_emails/index.html.erb
+
+--239589edd--2016-04-03--sarken
+39	0	app/views/admin_posts/_admin_post.html.erb
+2	22	app/views/admin_posts/index.html.erb
+2	37	app/views/admin_posts/show.html.erb
+
+--21742cbee--2016-04-03--sarken
+1	1	features/admins/admin_post_news.feature
+4	4	features/step_definitions/admin_steps.rb
+
+--9f15b37c2--2016-04-03--sarken
+1	1	public/stylesheets/site/2.0/12-group-meta.css
+
+--4abd4971c--2016-04-03--sarken
+1	1	public/stylesheets/site/2.0/12-group-meta.css
+
+--e1e4521b0--2016-04-03--sarken
+22	1	public/stylesheets/site/2.0/12-group-meta.css
+
+--6c3bca3d5--2016-04-03--sarken
+58	43	app/views/admin_posts/show.html.erb
+
+--0f236c71f--2016-04-03--astolat shalott
+10	0	features/admins/admin_email_blacklist.feature
+7	0	features/step_definitions/admin_steps.rb
+
+--be217d609--2016-04-03--astolat shalott
+35	0	app/controllers/admin/blacklisted_emails_controller.rb
+36	0	app/models/admin_blacklisted_email.rb
+1	1	app/models/comment.rb
+10	0	app/validators/email_blacklist_validator.rb
+1	0	app/views/admin/_header.html.erb
+21	0	app/views/admin/blacklisted_emails/_form.html.erb
+50	0	app/views/admin/blacklisted_emails/index.html.erb
+5	0	app/views/admin/blacklisted_emails/new.html.erb
+1	0	config/routes.rb
+11	0	db/migrate/20160331005706_create_admin_blacklisted_emails.rb
+7	0	factories/admin_blacklisted_email.rb
+16	11	features/admins/admin_email_blacklist.feature
+34	0	features/step_definitions/admin_steps.rb
+2	2	features/step_definitions/comment_steps.rb
+4	2	features/step_definitions/work_steps.rb
+4	0	features/support/factories.rb
+2	0	features/support/paths.rb
+39	0	spec/models/admin_blacklisted_email_spec.rb
+
+--7ef31334c--2016-04-03--sarken
+3	9	app/views/admin_posts/show.html.erb
+
+--7536e744b--2016-03-28--zz9pzza
+--77636bb9c--2016-03-28--sarken
+1	1	.travis.yml
+
+--12597558c--2016-03-27--astolat shalott
+45	0	features/admins/admin_email_blacklist.feature
+
+--9b19a9d3c--2016-03-27--sarken
+--980b820f3--2016-03-26--zz9pzza
+15	13	app/helpers/tags_helper.rb
+
+--5772388b1--2016-03-26--zz9pzza
+--07d4f26c5--2016-03-26--zz9pzza
+1	1	app/models/work.rb
+
+--b976acb49--2016-03-26--sarken
+1	1	app/views/works/_meta.html.erb
+
+--b06a18574--2016-03-24--zz9pzza
+--835d8d19b--2016-03-24--zz9pzza
+--6c04627de--2016-03-24--zz9pzza
+--400f66bdd--2016-03-24--zz9pzza
+--ad872bdcc--2016-03-24--zz9pzza
+--29d0b5f98--2016-03-23--sarken
+1	1	app/views/home/_news_module.html.erb
+
+--d27fc4d95--2016-03-23--sarken
+9	2	app/views/home/_news_module.html.erb
+
+--89cbee6f7--2016-03-22--sarken
+--6fa8bf9ac--2016-03-21--Cristina
+--50503f1eb--2016-03-21--zz9pzza
+5	2	lib/tasks/resque.rake
+
+--b16b80fe3--2016-03-21--zz9pzza
+3	2	config/deploy/staging.rb
+
+--be34db104--2016-03-21--zz9pzza
+--29982664f--2016-03-20--sarken
+1	1	app/views/challenge/gift_exchange/_challenge_signups.html.erb
+
+--d099f8679--2016-03-20--sarken
+6	0	app/views/challenge/gift_exchange/_challenge_signups.html.erb
+
+--0ce8a1653--2016-03-20--sarken
+2	2	app/views/challenge/gift_exchange/_challenge_signups.html.erb
+
+--0fb50e84c--2016-03-20--sarken
+13	12	app/views/challenge/gift_exchange/_challenge_signups.html.erb
+
+--f16ad33a0--2016-03-20--sarken
+1	1	app/views/challenge/gift_exchange/_challenge_signups.html.erb
+
+--486be5029--2016-03-17--zz9pzza
+--a593b0a89--2016-03-16--zz9pzza
+1	2	lib/tasks/resque.rake
+
+--b47bce736--2016-03-15--zz9pzza
+--9d0d496b9--2016-03-15--zz9pzza
+--f75579946--2016-03-15--zz9pzza
+22	1	features/other_a/page_title.feature
+3	0	features/step_definitions/page_title_steps.rb
+
+--a4845c7a7--2016-03-15--Ariana
+4	4	app/views/works/new_import.html.erb
+
+--cca6235c4--2016-03-14--zz9pzza
+--dcd0cda4d--2016-03-14--zz9pzza
+1	1	app/controllers/works_controller.rb
+
+--44119f4bb--2016-03-14--Ariana
+--0beb74304--2016-03-13--Scott D. Sullivan
+--770907850--2016-03-13--zz9pzza
+--871f317df--2016-03-12--zz9pzza
+1	0	Gemfile.lock
+
+--2862dc9df--2016-03-12--zz9pzza
+1	1	Gemfile
+
+--85d5a0338--2016-03-12--zz9pzza
+1	1	Gemfile
+3	4	Gemfile.lock
+
+--7c0f88ec5--2016-03-12--zz9pzza
+1	1	Gemfile
+13	5	Gemfile.lock
+1	1	script/gem_security.sh
+
+--5cbc4264d--2016-03-12--zz9pzza
+7	5	app/controllers/works_controller.rb
+
+--17ae672df--2016-03-12--zz9pzza
+--8533de47d--2016-03-12--zz9pzza
+15	4	app/controllers/works_controller.rb
+
+--dc0776652--2016-03-12--zz9pzza
+--8cd6199c0--2016-03-11--Scott D. Sullivan
+--1b4bcc3c3--2016-03-11--Scott D. Sullivan
+--3eb545fbc--2016-03-12--Cristina
+--7d058afd6--2016-03-11--zz9pzza
+--e3c994759--2016-03-11--Ariana
+4	2	app/models/story_parser.rb
+5	3	features/importing/work_import.feature
+
+--56accc4f8--2016-03-10--Ariana
+1	0	app/models/story_parser.rb
+
+--5e5ed2335--2016-03-10--zz9pzza
+--a67f0bf1f--2016-03-10--zz9pzza
+--80a1b3326--2016-03-10--zz9pzza
+--49c9bae89--2016-03-10--zz9pzza
+0	0	features/collections/collection_anonymity.feature
+
+--84001e536--2016-03-10--zz9pzza
+2	2	Gemfile
+3	3	Gemfile.lock
+2	3	features/admins/admin_manage_users.feature
+1	2	features/admins/admin_notifications.feature
+1	3	features/admins/admin_works.feature
+3	6	features/collections/collection_anonymity.feature
+5	10	features/comments_and_kudos/add_comment.feature
+1	1	features/support/database_cleaner.rb
+
+--fdddcd6e7--2016-03-09--zz9pzza
+3	2	features/admins/admin_manage_users.feature
+2	1	features/admins/admin_notifications.feature
+3	1	features/admins/admin_works.feature
+6	3	features/collections/collection_anonymity.feature
+10	5	features/comments_and_kudos/add_comment.feature
+0	10	features/support/database_cleaner.rb
+
+--d1392cd07--2016-03-09--zz9pzza
+1	1	Gemfile
+2	2	Gemfile.lock
+
+--b9cfba30e--2016-03-09--zz9pzza
+11	1	features/support/database_cleaner.rb
+
+--e5c4c40f5--2016-03-09--zz9pzza
+1	1	Gemfile
+2	2	Gemfile.lock
+
+--597401b98--2016-03-09--zz9pzza
+1	1	Gemfile
+2	2	Gemfile.lock
+
+--13f752a79--2016-03-09--zz9pzza
+1	1	Gemfile
+2	2	Gemfile.lock
+
+--417a550e3--2016-03-09--zz9pzza
+1	1	Gemfile
+2	2	Gemfile.lock
+
+--016fe4e06--2016-03-08--zz9pzza
+2	2	Gemfile
+8	6	Gemfile.lock
+
+--651ea0c50--2016-03-08--zz9pzza
+0	1	Gemfile.lock
+1	1	features/support/env.rb
+
+--6cb053cb4--2016-03-08--zz9pzza
+1	1	features/works/work_related.feature
+
+--3df7983ab--2016-03-08--zz9pzza
+1	1	Gemfile
+8	6	Gemfile.lock
+
+--36510ee6c--2016-03-08--zz9pzza
+1	1	Gemfile
+3	2	Gemfile.lock
+
+--f4ba6c1de--2016-03-08--zz9pzza
+1	0	Gemfile
+5	0	Gemfile.lock
+
+--b4ff91d70--2016-03-08--shalott
+1	1	app/controllers/challenge_signups_controller.rb
+
+--d26e37f98--2016-03-08--shalott
+6	1	app/controllers/challenge_signups_controller.rb
+16	2	app/views/challenge/gift_exchange/_challenge_signups.html.erb
+1	2	app/views/challenge/prompt_meme/_challenge_signups.html.erb
+22	11	features/gift_exchanges/challenge_giftexchange.feature
+
+--76bfab27e--2016-03-08--zz9pzza
+1	0	Gemfile
+10	7	Gemfile.lock
+
+--a8345ecaa--2016-03-08--zz9pzza
+1	1	Gemfile
+2	2	Gemfile.lock
+
+--c42334816--2016-03-08--zz9pzza
+1	1	Gemfile
+5	5	Gemfile.lock
+
+--023c3c11e--2016-03-08--zz9pzza
+1	1	Gemfile
+6	12	Gemfile.lock
+
+--e9d7d24df--2016-03-08--zz9pzza
+1	1	Gemfile
+2	2	Gemfile.lock
+
+--a663579a4--2016-03-08--Ariana
+0	8	app/views/works/_work_form_tags.html.erb
+5	0	app/views/works/new_import.html.erb
+
+--439d2e160--2016-03-08--Ariana
+1	1	app/models/story_parser.rb
+20	6	features/importing/work_import.feature
+
+--c1bd374b7--2016-03-08--zz9pzza
+1	1	Gemfile
+2	2	Gemfile.lock
+
+--5865e3c71--2016-03-07--zz9pzza
+1	1	Gemfile
+16	16	Gemfile.lock
+
+--ca02529eb--2016-03-07--zz9pzza
+1	1	Gemfile
+2	2	Gemfile.lock
+2	0	features/support/env.rb
+
+--11b2b5569--2016-03-07--zz9pzza
+1	1	Gemfile
+2	2	Gemfile.lock
+
+--2cf0f6c6c--2016-03-06--zz9pzza
+--7c05defb4--2016-03-06--zz9pzza
+2	0	config/initializers/gem-plugin_config/resque.rb
+0	0	lib/resque_scheduler/server.rb
+0	0	lib/resque_scheduler/tasks.rb
+
+--c93e18b32--2016-03-06--zz9pzza
+2	2	app/controllers/works_controller.rb
+6	6	app/helpers/share_helper.rb
+0	1	features/support/hooks.rb
+
+--2a56499d8--2016-03-06--zz9pzza
+9	0	app/models/work.rb
+4	3	app/views/works/_meta.html.erb
+1	1	app/views/works/_work_module.html.erb
+6	6	features/tags_and_wrangling/tag_wrangling_special.feature
+1	5	lib/tasks/memcached.rake
+
+--2d70fe060--2016-03-06--Cesy
+27	27	features/importing/archivist.feature
+
+--c0a3a3721--2016-03-05--zz9pzza
+1	1	app/views/comments/_single_comment.html.erb
+
+--75618d176--2016-03-05--zz9pzza
+1	0	app/controllers/works_controller.rb
+
+--67655dd3e--2016-03-05--zz9pzza
+1	2	app/models/work.rb
+
+--72d8097f3--2016-03-05--zz9pzza
+3	0	features/support/hooks.rb
+
+--c780847b0--2016-03-05--zz9pzza
+2	1	app/controllers/chapters_controller.rb
+2	1	app/controllers/works_controller.rb
+3	4	app/helpers/share_helper.rb
+9	2	app/models/work.rb
+2	2	app/views/works/_work_abbreviated_list.html.erb
+
+--12e640193--2016-03-05--zz9pzza
+10	8	app/helpers/share_helper.rb
+
+--16a662516--2016-03-04--sarken
+0	1	lib/skin_wizard.rb
+2	0	public/help/skins-wizard-accent-color.html
+1	1	public/help/skins-wizard-vertical-gap.html
+
+--fb7b9fbcf--2016-03-04--sarken
+1	0	lib/skin_wizard.rb
+
+--19c12f6f4--2016-03-04--sarken
+0	1	lib/skin_wizard.rb
+
+--36427d7d6--2016-03-04--sarken
+2	1	app/views/skins/_wizard_form.html.erb
+1	1	public/help/skins-wizard-font-size.html
+3	2	public/help/skins-wizard-font.html
+2	2	public/help/skins-wizard-vertical-gap.html
+
+--a21e6547b--2016-03-04--sarken
+--cff668443--2016-03-04--sarken
+--9d02006c1--2016-03-04--zz9pzza
+1	1	app/views/comments/_single_comment.html.erb
+
+--04af13407--2016-03-04--zz9pzza
+1	1	app/views/comments/_single_comment.html.erb
+
+--7fbe29c93--2016-03-04--zz9pzza
+--f5afde764--2016-03-04--zz9pzza
+--33cd4f940--2016-03-04--zz9pzza
+--7ad636c33--2016-03-04--zz9pzza
+--f591020bd--2016-03-03--sarken
+6	1	lib/skin_wizard.rb
+
+--22211abb9--2016-03-03--sarken
+--4845b9a5e--2016-03-03--sarken
+--2043dced2--2016-03-03--sarken
+--44eb7031e--2016-03-03--zz9pzza
+1	0	Gemfile
+4	0	Gemfile.lock
+1	0	script/check_syntax
+12	0	script/gem_security.sh
+
+--76826c60e--2016-03-02--zz9pzza
+--96e3445c7--2016-03-02--zz9pzza
+--84b371a55--2016-03-02--zz9pzza
+--1637ed9f4--2016-03-02--zz9pzza
+--4e6853e47--2016-03-02--sarken
+--a610057a3--2016-03-02--zz9pzza
+0	23	features/comments_and_kudos/kudos.feature
+
+--2542f51f4--2016-03-01--sarken
+--648c6b9b9--2016-03-01--sarken
+--853c7469e--2016-03-01--zz9pzza
+23	0	features/comments_and_kudos/kudos.feature
+
+--8f52f810b--2016-03-01--zz9pzza
+2	0	app/models/kudo.rb
+
+--a69898bd7--2016-03-01--zz9pzza
+1	1	Gemfile
+26	26	Gemfile.lock
+
+--725a9815b--2016-03-01--zz9pzza
+13	0	app/controllers/collections_controller.rb
+
+--b84b4e03a--2016-02-29--Scott D. Sullivan
+1	1	features/bookmarks/bookmark_create.feature
+
+--effc240e5--2016-02-29--zz9pzza
+1	1	Gemfile
+
+--ef9a306e8--2016-02-29--zz9pzza
+--457ea8582--2016-02-29--zz9pzza
+5	7	Gemfile.lock
+
+--640e1b52a--2016-02-29--zz9pzza
+3	3	Gemfile
+13	13	Gemfile.lock
+
+--c82355ff4--2016-02-29--zz9pzza
+2	2	Gemfile
+5	5	Gemfile.lock
+
+--fbe81b5ee--2016-02-28--Ariana
+1	1	features/step_definitions/work_steps.rb
+
+--dbccf899d--2016-02-28--Ariana
+0	1	app/views/works/_work_header_navigation.html.erb
+1	3	features/step_definitions/work_steps.rb
+
+--cb1691edb--2016-02-28--zz9pzza
+--1f520e8b0--2016-02-28--zz9pzza
+--a0033bc7b--2016-02-28--zz9pzza
+--7951b4551--2016-02-28--zz9pzza
+--b7bc2cfc7--2016-02-27--Scott D. Sullivan
+2	2	features/bookmarks/bookmark_create.feature
+
+--2429aa8ae--2016-02-27--Scott D. Sullivan
+1	1	app/controllers/collection_items_controller.rb
+
+--5c37a7fc9--2016-02-27--Scott D. Sullivan
+7	3	app/controllers/collection_items_controller.rb
+1	1	app/mailers/user_mailer.rb
+8	4	app/models/collection_item.rb
+4	0	lib/collectible.rb
+
+--dfd13d1bb--2016-02-27--Ariana
+8	5	app/views/works/_work_form_tags.html.erb
+
+--3d898da2d--2016-02-27--Ariana
+1	0	app/controllers/api/v1/import_controller.rb
+1	0	app/controllers/works_controller.rb
+1	0	app/models/story_parser.rb
+7	1	app/views/works/_work_form_tags.html.erb
+25	11	app/views/works/new_import.html.erb
+2	18	features/importing/work_import.feature
+47	37	spec/api/api_spec.rb
+
+--e9781b66a--2016-02-26--zz9pzza
+--82ef8ff6d--2016-02-26--zz9pzza
+--e9fe04fd3--2016-02-26--zz9pzza
+--b8da7de0d--2016-02-26--zz9pzza
+--5bb7ce2d9--2016-02-26--zz9pzza
+--40605a3fb--2016-02-26--zz9pzza
+--9a79e82fb--2016-02-26--zz9pzza
+1	1	app/views/home/tos_faq.html.erb
+
+--834d2abf8--2016-02-25--zz9pzza
+--ebf6c3de8--2016-02-25--zz9pzza
+1	1	app/views/home/_tos.html.erb
+1	7	app/views/home/tos_faq.html.erb
+
+--810079620--2016-02-24--Ariana
+1	0	features/importing/work_import_dw.feature
+1	0	features/importing/work_import_lj.feature
+7	1	features/step_definitions/preferences_steps.rb
+
+--78d2c78dd--2016-02-23--Ariana
+1	0	app/models/story_parser.rb
+18	0	spec/models/story_parser_spec.rb
+
+--44ab9e1f6--2016-02-23--zz9pzza
+--51f3033ef--2016-02-23--zz9pzza
+--e54e1d96e--2016-02-23--zz9pzza
+--423d5098f--2016-02-23--zz9pzza
+--2e6b40aa2--2016-02-23--zz9pzza
+4	5	app/models/story_parser.rb
+0	1	features/importing/work_import_dw.feature
+1	7	features/step_definitions/preferences_steps.rb
+0	18	spec/models/story_parser_spec.rb
+3	0	spec/models/work_spec.rb
+
+--fd4b10378--2016-02-21--Cesy Avon
+2	4	features/comments_and_kudos/add_comment.feature
+6	0	features/step_definitions/comment_steps.rb
+
+--721693c0c--2016-02-20--Cesy Avon
+1	1	features/importing/work_import_errors.feature
+
+--9238a13b0--2016-02-20--Cesy Avon
+1	1	features/importing/work_import_errors.feature
+
+--4f9d079ca--2016-02-19--zz9pzza
+--7c961f539--2016-02-19--zz9pzza
+1	1	app/helpers/works_helper.rb
+
+--52706408c--2016-02-19--zz9pzza
+1	1	app/models/work.rb
+
+--5f4fdea93--2016-02-19--zz9pzza
+1	2	app/models/tag.rb
+6	4	app/models/work.rb
+
+--2e0bc8efa--2016-02-19--zz9pzza
+3	2	app/models/tag.rb
+9	1	app/models/work.rb
+
+--7d8882148--2016-02-19--zz9pzza
+2	2	app/models/tag.rb
+
+--3b0945a16--2016-02-19--zz9pzza
+1	1	app/models/tag.rb
+
+--bfac21b38--2016-02-18--zz9pzza
+1	1	app/models/tag.rb
+
+--f2be1020b--2016-02-18--zz9pzza
+11	0	app/models/tag.rb
+14	4	app/models/work.rb
+1	1	app/views/works/_work_module.html.erb
+
+--ec4cba909--2016-02-17--zz9pzza
+8	1	app/models/chapter.rb
+10	2	app/models/work.rb
+15	0	lib/work_chapter_count_caching.rb
+
+--aa08f92c8--2016-02-14--zz9pzza
+--39825f6a0--2016-02-14--zz9pzza
+--0ab92dfe0--2016-02-14--zz9pzza
+--e5a0b3a8b--2016-02-14--zz9pzza
+--aeb116724--2016-02-13--zz9pzza
+2	2	app/views/home/tos_faq.html.erb
+
+--d34872f63--2016-02-13--zz9pzza
+--404876446--2016-02-12--sarken
+1	1	public/stylesheets/site/2.0/25-media-midsize.css
+1	9	public/stylesheets/site/2.0/26-media-narrow.css
+
+--b2c82a8e0--2016-02-12--sarken
+0	9	public/stylesheets/site/2.0/15-group-comments.css
+7	0	public/stylesheets/site/2.0/17-zone-home.css
+
+--7442c595e--2016-02-12--sarken
+12	2	public/stylesheets/site/2.0/25-media-midsize.css
+5	4	public/stylesheets/site/2.0/26-media-narrow.css
+
+--f8dc73d4a--2016-02-12--sarken
+1	1	app/views/inbox/show.html.erb
+9	0	public/stylesheets/site/2.0/15-group-comments.css
+1	2	public/stylesheets/site/2.0/17-zone-home.css
+1	1	public/stylesheets/site/2.0/26-media-narrow.css
+
+--68d2521c2--2016-02-12--zz9pzza
+--5cdaec7ed--2016-02-12--zz9pzza
+0	1	config/deploy.rb
+
+--a6ec364fb--2016-02-12--sarken
+2	2	public/stylesheets/site/2.0/25-media-midsize.css
+
+--b158d2856--2016-02-12--sarken
+6	4	app/views/pseuds/index.html.erb
+
+--df55ac6df--2016-02-12--sarken
+2	0	app/views/gifts/index.html.erb
+
+--f46bc8127--2016-02-12--sarken
+7	5	public/stylesheets/site/2.0/25-media-midsize.css
+13	6	public/stylesheets/site/2.0/26-media-narrow.css
+
+--541568b38--2016-02-11--sarken
+1	0	app/models/skin.rb
+
+--2ac21c279--2016-02-10--sarken
+11	10	app/views/skins/_form.html.erb
+3	2	app/views/skins/_wizard_form.html.erb
+6	0	spec/models/skin_spec.rb
+
+--1cba6cd70--2016-02-10--zz9pzza
+--3b1ee92fe--2016-02-10--zz9pzza
+--968d939fc--2016-02-10--zz9pzza
+--eceb09ad6--2016-02-10--zz9pzza
+1	1	app/views/home/tos_faq.html.erb
+
+--3855f5500--2016-02-10--sarken
+0	1	features/other_b/skin.feature
+
+--fd1b2a4ec--2016-02-10--sarken
+1	0	lib/skin_wizard.rb
+
+--3f3eca4e1--2016-02-10--sarken
+49	31	features/other_b/skin.feature
+34	20	features/step_definitions/skin_steps.rb
+4	0	features/support/paths.rb
+
+--bdc75b463--2016-02-10--sarken
+2	2	app/views/skins/_wizard_form.html.erb
+1	1	app/views/skins/show.html.erb
+
+--6913106e4--2016-02-10--sarken
+9	9	app/models/skin.rb
+
+--42e6b9a60--2016-02-10--sarken
+3	3	lib/skin_wizard.rb
+
+--d0ac89eca--2016-02-10--sarken
+7	2	lib/skin_wizard.rb
+
+--c94f52b2f--2016-02-10--sarken
+7	4	app/models/skin.rb
+
+--5803e4e06--2016-02-09--sarken
+1	1	lib/skin_wizard.rb
+
+--0b4cf282c--2016-02-09--sarken
+13	9	app/views/skins/_wizard_form.html.erb
+64	34	app/views/skins/show.html.erb
+0	3	public/help/skins-wizard-accent-color.html
+0	3	public/help/skins-wizard-background-color.html
+1	1	public/help/skins-wizard-font-size.html
+2	4	public/help/skins-wizard-font.html
+0	3	public/help/skins-wizard-foreground-color.html
+0	3	public/help/skins-wizard-header-color.html
+0	2	public/help/skins-wizard-margin.html
+0	3	public/help/skins-wizard-text-color.html
+3	5	public/help/skins-wizard-vertical-gap.html
+
+--e05c593cd--2016-02-09--sarken
+0	45	app/views/skins/_skin_style_block.html.erb
+
+--40baee546--2016-02-09--sarken
+7	5	app/views/skins/_skin_navigation.html.erb
+
+--7822df453--2016-02-09--sarken
+5	12	lib/tasks/after_tasks.rake
+0	54	lib/tasks/skin_tasks.rake
+
+--e0019fa6b--2016-02-09--sarken
+11	0	app/models/skin.rb
+
+--37b674977--2016-02-09--sarken
+2	0	app/models/skin.rb
+
+--0da83048f--2016-02-09--sarken
+55	0	lib/tasks/after_tasks.rake
+55	1	lib/tasks/skin_tasks.rake
+
+--7e103c1c2--2016-02-09--sarken
+10	306	app/models/skin.rb
+349	0	lib/skin_wizard.rb
+
+--6bda4ee26--2016-02-09--zz9pzza
+--7f4515fe2--2016-02-09--zz9pzza
+2	2	app/controllers/application_controller.rb
+
+--599214b35--2016-02-09--Ariana
+3	2	app/models/story_parser.rb
+
+--e7f701d7f--2016-02-09--zz9pzza
+1	0	config/deploy.rb
+
+--aa81e3aa0--2016-02-09--Ariana
+10	2	app/controllers/api/v1/import_controller.rb
+
+--7375b5f4f--2016-02-08--zz9pzza
+3	2	app/views/home/_tos.html.erb
+5	3	app/views/home/tos_faq.html.erb
+
+--477fedf04--2016-02-08--sarken
+--5531771f1--2016-02-08--sarken
+--c0a969098--2016-02-08--zz9pzza
+1	1	app/decorators/homepage.rb
+
+--c386d5cff--2016-02-08--zz9pzza
+1	1	app/decorators/homepage.rb
+
+--927e19d16--2016-02-08--zz9pzza
+1	1	app/decorators/homepage.rb
+
+--196a3297e--2016-02-08--zz9pzza
+2	2	app/decorators/homepage.rb
+
+--f1289e202--2016-02-07--zz9pzza
+3	18	app/controllers/home_controller.rb
+20	0	app/decorators/homepage.rb
+
+--e81d968bb--2016-02-07--Ariana
+2	2	app/models/story_parser.rb
+0	1	spec/api/api_spec.rb
+
+--a64dbbd75--2016-02-07--Ariana
+5	10	app/models/story_parser.rb
+1	1	spec/models/story_parser_spec.rb
+
+--69c98a853--2016-02-07--zz9pzza
+--9e59e781c--2016-02-07--zz9pzza
+--484fbb18e--2016-02-07--zz9pzza
+--f8e1fccef--2016-02-06--Cristina
+--73bed2052--2016-02-06--Ariana
+14	7	app/controllers/api/v1/import_controller.rb
+15	5	app/models/story_parser.rb
+18	0	spec/api/api_spec.rb
+
+--59a73ed63--2016-02-06--Cesy Avon
+5	6	features/comments_and_kudos/comments_redirect.feature
+
+--55f07c388--2016-02-06--zz9pzza
+1	1	app/views/home/_intro_module.html.erb
+
+--14365059b--2016-02-06--A coders account
+--09481a009--2016-02-04--Cesy Avon
+3	3	features/importing/work_import_errors.feature
+
+--a2ea3f3c5--2016-02-04--Cesy Avon
+25	0	features/admins/admin_locales.feature
+0	368	features/other_a/admin_tasks.feature
+
+--8f3344da2--2016-01-21--Cesy Avon
+32	4	features/importing/archivist.feature
+
+--7005a5016--2016-02-06--Cesy Avon
+0	1	features/importing/work_import_da.feature
+
+--b726a2621--2016-01-27--Cesy Avon
+1	1	.travis.yml
+
+--b1e1820e7--2016-02-03--sarken
+--a65f37e56--2016-02-03--sarken
+--fad308444--2016-02-03--sarken
+--7c6bd70a7--2016-02-03--Cesy Avon
+3	1	features/admins/admin_post_news.feature
+
+--0afe02c14--2016-02-03--Cesy Avon
+1	2	features/bookmarks/bookmark_privacy.feature
+
+--2cfcaba7a--2016-02-01--sarken
+--ddba23ff1--2016-02-01--sarken
+--f861037fb--2016-02-01--zz9pzza
+--9910504d8--2016-02-01--zz9pzza
+--8fa8f0b54--2016-02-01--zz9pzza
+1	1	app/views/home/_intro_module.html.erb
+
+--3a2babea9--2016-02-01--zz9pzza
+2	4	app/controllers/application_controller.rb
+
+--851f186db--2016-02-01--zz9pzza
+4	7	app/controllers/application_controller.rb
+
+--1f1eff30f--2016-02-01--sarken
+--a17addbf5--2016-02-01--sarken
+--804b2a9a0--2016-02-01--zz9pzza
+--eac02a1d9--2016-01-31--Cesy Avon
+1	1	features/step_definitions/work_steps.rb
+
+--4bd7b480f--2016-01-31--sarken
+--21c5259ed--2016-01-31--zz9pzza
+17	23	app/models/skin.rb
+
+--42565c707--2016-01-31--zz9pzza
+3	2	lib/skin_cache_helper.rb
+
+--8fe417dac--2016-01-31--zz9pzza
+36	25	app/models/skin.rb
+3	0	app/models/work_skin.rb
+18	14	app/views/layouts/_footer.html.erb
+2	1	config/environments/development.rb
+2	1	config/environments/test.rb
+20	1	features/other_b/skin.feature
+30	0	features/step_definitions/skin_steps.rb
+42	0	lib/skin_cache_helper.rb
+
+--cf837ffee--2016-01-31--sarken
+1	0	public/stylesheets/site/2.0/04-region-dashboard.css
+1	1	public/stylesheets/site/2.0/25-media-midsize.css
+
+--677382878--2016-01-31--sarken
+0	1	public/stylesheets/site/2.0/16-zone-system.css
+
+--748ad00d0--2016-01-31--sarken
+6	0	app/models/skin.rb
+
+--5ff00ef8d--2016-01-31--sarken
+9	0	app/models/skin.rb
+1	1	public/stylesheets/site/2.0/08-actions.css
+
+--944056821--2016-01-31--sarken
+1	1	public/stylesheets/site/2.0/08-actions.css
+
+--b4181b69c--2016-01-30--sarken
+26	3	app/models/skin.rb
+
+--16457488d--2016-01-30--Cesy Avon
+-	-	public/apple-touch-icon-114x114.png
+-	-	public/apple-touch-icon-57x57.png
+-	-	public/apple-touch-icon-72x72.png
+-	-	public/apple-touch-icon120x120.png
+-	-	public/apple-touch-icon152x152.png
+-	-	public/apple-touch-icon76x76.png
+
+--b358bfefc--2016-01-30--Cesy Avon
+4	1	features/step_definitions/work_steps.rb
+
+--5e0792faf--2016-01-30--Cesy Avon
+25	40	features/importing/work_import_da.feature
+
+--7481649b8--2016-01-30--Cesy Avon
+2	1	features/comments_and_kudos/comments_pagination.feature
+
+--27904f700--2016-01-29--Cesy Avon
+24	2	features/comments_and_kudos/comments_pagination.feature
+
+--315418add--2016-01-29--Cesy Avon
+23	4	features/comments_and_kudos/add_comment.feature
+
+--3f6afe363--2016-01-30--zz9pzza
+--7ff8079ac--2016-01-30--zz9pzza
+--bce30d381--2016-01-30--zz9pzza
+--662785eff--2016-01-30--zz9pzza
+7	2	public/stylesheets/site/2.0/16-zone-system.css
+3	1	public/stylesheets/site/2.0/26-media-narrow.css
+
+--9c7cb192f--2016-01-30--zz9pzza
+-	-	public/apple-touch-icon-114x114-precomposed.png
+-	-	public/apple-touch-icon-120x120-precomposed.png
+-	-	public/apple-touch-icon-120x120.png
+-	-	public/apple-touch-icon-144x144-precomposed.png
+-	-	public/apple-touch-icon-144x144.png
+-	-	public/apple-touch-icon-152x152-precomposed.png
+-	-	public/apple-touch-icon-152x152.png
+-	-	public/apple-touch-icon-167x167-precomposed.png
+-	-	public/apple-touch-icon-180x180-precomposed.png
+-	-	public/apple-touch-icon-180x180.png
+-	-	public/apple-touch-icon-57x57-precomposed.png
+-	-	public/apple-touch-icon-72x72-precomposed.png
+-	-	public/apple-touch-icon-76x76-precomposed.png
+-	-	public/apple-touch-icon-76x76.png
+-	-	public/apple-touch-icon-precomposed.png
+-	-	public/apple-touch-icon.png
+
+--a43643c3d--2016-01-30--zz9pzza
+0	23	app/controllers/admin/stats_controller.rb
+0	17	app/helpers/stats_helper.rb
+0	41	app/views/admin/stats/_invitation_stats.html.erb
+0	1	app/views/admin/stats/_tag_stats.html.erb
+0	17	app/views/admin/stats/_user_stats.html.erb
+0	17	app/views/admin/stats/_work_stats.html.erb
+0	15	app/views/admin/stats/index.html.erb
+0	1	config/routes.rb
+
+--44507fa06--2016-01-30--zz9pzza
+--9c44cbc74--2016-01-30--zz9pzza
+--594316ae1--2016-01-30--zz9pzza
+--c5f7d319f--2016-01-30--zz9pzza
+--2cc89e9bb--2016-01-30--zz9pzza
+25	36	app/models/skin.rb
+0	3	app/models/work_skin.rb
+14	18	app/views/layouts/_footer.html.erb
+1	2	config/environments/development.rb
+1	2	config/environments/test.rb
+1	20	features/other_b/skin.feature
+0	30	features/step_definitions/skin_steps.rb
+0	42	lib/skin_cache_helper.rb
+
+--70954c03d--2016-01-30--zz9pzza
+--2dae983d1--2016-01-30--zz9pzza
+2	3	lib/skin_cache_helper.rb
+
+--56e4ad786--2016-01-30--zz9pzza
+-	-	public/apple-touch-icon-114x114-precomposed.png
+-	-	public/apple-touch-icon-120x120-precomposed.png
+-	-	public/apple-touch-icon-120x120.png
+-	-	public/apple-touch-icon-144x144-precomposed.png
+-	-	public/apple-touch-icon-144x144.png
+-	-	public/apple-touch-icon-152x152-precomposed.png
+-	-	public/apple-touch-icon-152x152.png
+-	-	public/apple-touch-icon-167x167-precomposed.png
+-	-	public/apple-touch-icon-180x180-precomposed.png
+-	-	public/apple-touch-icon-180x180.png
+-	-	public/apple-touch-icon-57x57-precomposed.png
+-	-	public/apple-touch-icon-72x72-precomposed.png
+-	-	public/apple-touch-icon-76x76-precomposed.png
+-	-	public/apple-touch-icon-76x76.png
+-	-	public/apple-touch-icon-precomposed.png
+-	-	public/apple-touch-icon.png
+
+--30d696009--2016-01-30--zz9pzza
+2	7	public/stylesheets/site/2.0/16-zone-system.css
+1	3	public/stylesheets/site/2.0/26-media-narrow.css
+
+--58dca8b31--2016-01-30--zz9pzza
+23	0	app/controllers/admin/stats_controller.rb
+17	0	app/helpers/stats_helper.rb
+41	0	app/views/admin/stats/_invitation_stats.html.erb
+1	0	app/views/admin/stats/_tag_stats.html.erb
+17	0	app/views/admin/stats/_user_stats.html.erb
+17	0	app/views/admin/stats/_work_stats.html.erb
+15	0	app/views/admin/stats/index.html.erb
+1	0	config/routes.rb
+
+--49f6a0224--2016-01-30--sarken
+47	38	app/models/skin.rb
+
+--a37163b29--2016-01-30--sarken
+137	3	app/models/skin.rb
+
+--9cb22bfcd--2016-01-30--zz9pzza
+--5d9d2ffe7--2016-01-30--zz9pzza
+--590081408--2016-01-30--zz9pzza
+--6e4e04a24--2016-01-30--zz9pzza
+1	1	app/views/home/_intro_module.html.erb
+
+--ec5499498--2016-01-30--zz9pzza
+6	6	app/controllers/home_controller.rb
+
+--4fe672046--2016-01-30--sarken
+1	1	public/stylesheets/site/2.0/08-actions.css
+
+--a2f1f2688--2016-01-30--sarken
+1	1	public/stylesheets/site/2.0/07-interactions.css
+1	1	public/stylesheets/site/2.0/11-group-listbox.css
+
+--dc2979d94--2016-01-30--sarken
+0	1	public/stylesheets/site/2.0/02-elements.css
+
+--8691a5f9a--2016-01-30--sarken
+1	1	public/stylesheets/site/2.0/08-actions.css
+
+--a526e07b6--2016-01-30--sarken
+44	4	app/models/skin.rb
+27	6	app/views/skins/_skin_style_block.html.erb
+
+--4b8ae16d2--2016-01-29--sarken
+35	3	app/models/skin.rb
+5	1	app/views/skins/_skin_navigation.html.erb
+1	1	app/views/skins/show.html.erb
+
+--e12931fd9--2016-01-29--sarken
+37	3	app/models/skin.rb
+
+--013385a38--2016-01-29--sarken
+79	32	app/views/skins/_wizard_form.html.erb
+1	1	app/views/skins/new_wizard.html.erb
+4	0	public/stylesheets/site/2.0/07-interactions.css
+
+--120ab311e--2016-01-29--zz9pzza
+1	1	app/controllers/home_controller.rb
+
+--682098bd3--2016-01-29--zz9pzza
+15	3	app/controllers/home_controller.rb
+
+--a825b77ea--2016-01-29--zz9pzza
+12	1	app/controllers/application_controller.rb
+
+--5301ce5c9--2016-01-27--Cesy Avon
+6	10	features/bookmarks/bookmark_create.feature
+
+--a9da49374--2016-01-27--Cesy Avon
+1	1	features/admins/admin_post_news.feature
+
+--1706778f1--2016-01-29--Cesy Avon
+28	26	features/bookmarks/bookmark_privacy.feature
+6	0	features/step_definitions/bookmark_steps.rb
+
+--8eea6d29f--2016-01-28--zz9pzza
+--b6a4e5aaa--2016-01-28--james_
+3	2	lib/skin_cache_helper.rb
+
+--1f4cf1335--2016-01-28--sarken
+--7a054cd80--2016-01-22--Cesy Avon
+20	5	features/importing/archivist.feature
+10	0	features/step_definitions/archivist_steps.rb
+
+--90736df2a--2016-01-27--sarken
+--48f1a022f--2016-01-27--sarken
+--2e9ea6f9e--2016-01-27--sarken
+--b962c69d6--2016-01-27--james_
+0	2	Gemfile
+0	1	Gemfile.lock
+
+--d363d580e--2016-01-27--james_
+6	5	app/models/skin.rb
+
+--e2ab16833--2016-01-27--sarken
+250	145	public/javascripts/rails.js
+
+--845e9802a--2016-01-27--Cesy Avon
+14	13	features/admins/admin_works.feature
+
+--d0a371c1d--2016-01-27--Cesy Avon
+9	6	features/admins/admin_works.feature
+
+--6cb4173f8--2016-01-22--Cesy Avon
+22	0	features/admins/admin_post_news.feature
+
+--956bad170--2016-01-22--Cesy Avon
+1	2	features/admins/admin_post_news.feature
+
+--96aca67ce--2016-01-22--Cesy Avon
+5	2	features/admins/admin_post_issues.feature
+
+--c0943f000--2016-01-27--Cesy Avon
+0	14	features/admins/admin_tasks.feature
+0	2	features/support/paths.rb
+
+--e0fbfab30--2016-01-27--Cesy Avon
+1	1	app/views/owned_tag_sets/_internal_tag_set_fields.html.erb
+
+--13192392f--2016-01-27--Cesy Avon
+0	23	app/controllers/admin/stats_controller.rb
+0	17	app/helpers/stats_helper.rb
+0	41	app/views/admin/stats/_invitation_stats.html.erb
+0	1	app/views/admin/stats/_tag_stats.html.erb
+0	17	app/views/admin/stats/_user_stats.html.erb
+0	17	app/views/admin/stats/_work_stats.html.erb
+0	15	app/views/admin/stats/index.html.erb
+0	1	config/routes.rb
+
+--53dd21b04--2016-01-27--zz9pzza
+--7f6dc87f7--2016-01-27--james_
+--3d66b1a51--2016-01-25--Cristina
+--6ad2e545d--2016-01-25--elz
+1	1	Gemfile
+26	26	Gemfile.lock
+
+--dfcc1a3ed--2016-01-25--zz9pzza
+--6c25199d2--2016-01-25--sarken
+12	1	public/javascripts/application.js
+
+--30adefaa4--2016-01-24--sarken
+9	12	public/stylesheets/site/2.0/25-media-midsize.css
+
+--15762f1e7--2016-01-23--james_
+5	5	Gemfile.lock
+
+--15157d397--2016-01-23--james_
+7	7	Gemfile.lock
+
+--1d3914bb3--2016-01-23--james_
+1	1	Gemfile.lock
+
+--b93b7c794--2016-01-23--sarken
+--2c7b8f5c4--2016-01-23--zz9pzza
+--6bc5638ee--2016-01-22--Cesy Avon
+9	21	features/works/work_delete.feature
+
+--ed6cd8ebb--2016-01-22--sarken
+1	1	public/stylesheets/site/2.0/04-region-dashboard.css
+
+--57bfc7a25--2016-01-22--sarken
+--a87db6db6--2016-01-22--sarken
+1	1	public/stylesheets/site/2.0/04-region-dashboard.css
+16	2	public/stylesheets/site/2.0/25-media-midsize.css
+8	0	public/stylesheets/site/2.0/26-media-narrow.css
+
+--2040a25f2--2016-01-21--zz9pzza
+--2fb8c28db--2016-01-21--Cesy Avon
+22	23	features/step_definitions/challege_gift_exchange_steps.rb
+
+--85d371280--2016-01-21--Cesy Avon
+11	20	features/importing/archivist.feature
+
+--f267df072--2016-01-20--Cesy Avon
+1	1	app/views/owned_tag_sets/_internal_tag_set_fields.html.erb
+0	1	app/views/owned_tag_sets/_tag_set_form.html.erb
+36	1	features/gift_exchanges/challenge_giftexchange_tagsets.feature
+27	0	features/step_definitions/challege_gift_exchange_steps.rb
+2	1	features/step_definitions/tag_set_steps.rb
+1	1	features/tags_and_wrangling/tag_set.feature
+
+--8c58343a9--2016-01-18--Cesy Avon
+0	28	features/gift_exchanges/challenge_giftexchange.feature
+31	0	features/gift_exchanges/challenge_giftexchange_tagsets.feature
+2	0	features/gift_exchanges/challenge_yuletide.feature
+
+--c6e42e23c--2016-01-21--Cesy Avon
+1	3	spec/support/matchers/be_valid_verbose.rb
+
+--b38a64fc1--2016-01-20--zz9pzza
+--ee3d9c0f0--2016-01-20--zz9pzza
+--e086ab70c--2016-01-20--zz9pzza
+--4a65328f7--2016-01-20--zz9pzza
+--fde0f17b0--2016-01-19--sarken
+1	0	public/stylesheets/site/2.0/25-media-midsize.css
+
+--41ed2465d--2016-01-19--sarken
+1	1	public/stylesheets/site/2.0/25-media-midsize.css
+
+--139071dc9--2016-01-19--sarken
+4	8	public/stylesheets/site/2.0/25-media-midsize.css
+4	0	public/stylesheets/site/2.0/26-media-narrow.css
+
+--c7019b0db--2016-01-19--sarken
+3	3	public/stylesheets/site/2.0/25-media-midsize.css
+6	0	public/stylesheets/site/2.0/26-media-narrow.css
+
+--63905b0f6--2016-01-18--sarken
+30	4	public/stylesheets/site/2.0/25-media-midsize.css
+
+--d882a3a1e--2016-01-17--james_
+1	1	app/controllers/challenge_signups_controller.rb
+
+--c2f86711b--2016-01-17--Cesy Avon
+0	1	spec/models/pseud_spec.rb
+1	1	spec/support/matchers/be_valid_verbose.rb
+
+--5470d8b64--2016-01-17--james_
+1	1	Gemfile.lock
+
+--4441649cf--2016-01-17--james_
+1	1	Gemfile.lock
+
+--a9a5cf5c6--2016-01-17--james_
+1	1	Gemfile.lock
+
+--de00e48ae--2016-01-17--james_
+1	1	Gemfile.lock
+
+--5b433b366--2016-01-17--Cesy Avon
+1	204	features/prompt_memes_a/{challenge_promptmeme.feature => challenge_promptmeme_setup.feature}
+408	0	features/prompt_memes_b/challenge_promptmeme_posting_fills.feature
+4	215	features/prompt_memes_c/{challenge_promptmeme_part2.feature => challenge_promptmeme_claims.feature}
+
+--fb08624b7--2016-01-07--Cesy Avon
+62	3	features/importing/archivist.feature
+1	1	features/step_definitions/invite_steps.rb
+
+--8b08fb365--2016-01-16--Cesy Avon
+3	50	config/locales/en-GB.yml
+0	219	config/locales/en.yml
+
+--ccf8cbe32--2016-01-14--zz9pzza
+--98aabb4e3--2016-01-14--sarken
+--8f084471e--2016-01-14--sarken
+1	2	app/models/skin.rb
+
+--82711a1cb--2016-01-14--zz9pzza
+--d66d93c94--2016-01-13--sarken
+3	2	public/stylesheets/site/2.0/26-media-narrow.css
+
+--9d01775c6--2016-01-13--sarken
+1	1	public/stylesheets/site/2.0/26-media-narrow.css
+
+--9dcc9a740--2016-01-13--sarken
+7	2	public/stylesheets/site/2.0/16-zone-system.css
+2	1	public/stylesheets/site/2.0/26-media-narrow.css
+
+--7f39f8eb4--2016-01-13--sarken
+6	0	public/stylesheets/site/2.0/25-media-midsize.css
+4	0	public/stylesheets/site/2.0/26-media-narrow.css
+
+--ff5cc1265--2016-01-13--sarken
+1	1	app/views/layouts/_includes.html.erb
+
+--5199b9052--2016-01-13--sarken
+10	1	features/other_b/skin.feature
+4	0	features/step_definitions/skin_steps.rb
+
+--616f7a0c0--2016-01-13--Cesy Avon
+-	-	public/apple-touch-icon-114x114-precomposed.png
+-	-	public/apple-touch-icon-120x120-precomposed.png
+-	-	public/apple-touch-icon-120x120.png
+-	-	public/apple-touch-icon-144x144-precomposed.png
+-	-	public/apple-touch-icon-144x144.png
+-	-	public/apple-touch-icon-152x152-precomposed.png
+-	-	public/apple-touch-icon-152x152.png
+-	-	public/apple-touch-icon-167x167-precomposed.png
+-	-	public/apple-touch-icon-180x180-precomposed.png
+-	-	public/apple-touch-icon-180x180.png
+-	-	public/apple-touch-icon-57x57-precomposed.png
+-	-	public/apple-touch-icon-72x72-precomposed.png
+-	-	public/apple-touch-icon-76x76-precomposed.png
+-	-	public/apple-touch-icon-76x76.png
+-	-	public/apple-touch-icon-precomposed.png
+-	-	public/apple-touch-icon.png
+
+--0145602e4--2016-01-12--sarken
+--ff7d3af37--2016-01-12--zz9pzza
+--13b53ee3f--2016-01-12--james_
+1	1	Gemfile
+27	27	Gemfile.lock
+
+--ae438fac0--2016-01-12--james_
+4	5	features/step_definitions/skin_steps.rb
+
+--5ea12f682--2016-01-12--james_
+0	1	features/other_b/skin.feature
+7	5	lib/skin_cache_helper.rb
+
+--3aa464937--2016-01-11--james_
+8	0	lib/skin_cache_helper.rb
+
+--96f24ce5f--2016-01-11--james_
+8	4	features/step_definitions/skin_steps.rb
+
+--b669a0c5f--2016-01-11--james_
+17	2	features/other_b/skin.feature
+17	0	features/step_definitions/skin_steps.rb
+2	1	lib/skin_cache_helper.rb
+
+--1ac31852a--2016-01-11--zz9pzza
+--471fee701--2016-01-11--james_
+8	6	Gemfile.lock
+
+--b7894e980--2016-01-10--james_
+1	2	Gemfile.lock
+
+--8fe6e4324--2016-01-10--james_
+1	1	Gemfile.lock
+
+--5b7915f97--2016-01-10--james_
+2	1	Gemfile.lock
+
+--70285cd4b--2016-01-10--james_
+1	1	Gemfile.lock
+
+--7945db28b--2016-01-10--james_
+7	5	Gemfile.lock
+
+--17ff8e1e1--2016-01-10--james_
+1	1	Gemfile.lock
+
+--a33523356--2016-01-10--james_
+1	1	Gemfile.lock
+
+--40b7f08d0--2016-01-10--james_
+1	1	Gemfile.lock
+
+--4a61fe303--2016-01-10--james_
+1	1	Gemfile
+
+--b25d0324b--2016-01-10--james_
+4	4	Gemfile.lock
+
+--2038a7e1f--2016-01-10--james_
+0	1	config/environments/development.rb
+
+--74e266e91--2016-01-10--james_
+2	2	app/models/skin.rb
+6	6	lib/skin_cache_helper.rb
+
+--ad0a12f82--2016-01-10--james_
+0	3	app/controllers/skins_controller.rb
+1	1	app/models/skin.rb
+
+--cf90a5f18--2016-01-10--james_
+34	30	app/models/skin.rb
+1	1	app/models/work_skin.rb
+4	0	lib/skin_cache_helper.rb
+
+--331949071--2016-01-10--james_
+18	14	app/views/layouts/_footer.html.erb
+
+--b17e4344a--2016-01-10--james_
+3	0	app/controllers/skins_controller.rb
+7	1	app/models/skin.rb
+3	0	app/models/work_skin.rb
+3	1	config/environments/development.rb
+2	1	config/environments/test.rb
+3	0	features/other_b/skin.feature
+10	0	features/step_definitions/skin_steps.rb
+27	0	lib/skin_cache_helper.rb
+
+--3098ef707--2016-01-10--zz9pzza
+--364f3a92b--2016-01-09--sarken
+--d21d86368--2016-01-09--Cesy Avon
+-	-	public/apple-touch-icon-114x114-precomposed.png
+-	-	public/apple-touch-icon-144x144-precomposed.png
+-	-	public/apple-touch-icon-144x144.png
+-	-	public/apple-touch-icon-167x167-precomposed.png
+-	-	public/apple-touch-icon-57x57-precomposed.png
+-	-	public/apple-touch-icon-72x72-precomposed.png
+-	-	public/apple-touch-icon-76x76.png
+-	-	public/apple-touch-icon-precomposed.png
+-	-	public/apple-touch-icon.png
+
+--cf96c519b--2016-01-09--Cesy Avon
+1	1	features/users/user_rename.feature
+
+--ea0803905--2016-01-09--zz9pzza
+--67d850d97--2016-01-06--Cesy Avon
+26	0	features/other_a/homepage.feature
+
+--7291b01a3--2016-01-05--Cesy Avon
+11	0	features/importing/archivist.feature
+13	0	features/step_definitions/archivist_steps.rb
+2	0	features/support/paths.rb
+7	0	test/fixtures/roles.yml
+
+--00eb2d491--2016-01-05--Cesy Avon
+14	0	features/admins/admin_tasks.feature
+2	0	features/support/paths.rb
+
+--002e1f53c--2016-01-04--Cesy Avon
+43	0	features/tags_and_wrangling/tag_wrangling_special.feature
+
+--03b3a29ce--2016-01-04--Cesy Avon
+12	0	spec/models/abuse_report_spec.rb
+
+--dcace2d44--2016-01-05--Cesy Avon
+2	3	config/locales/en-GB.yml
+2	3	config/locales/en.yml
+
+--afe8a37c8--2016-01-05--Cesy Avon
+1	1	config/locales/en-GB.yml
+2	3	config/locales/en-US.yml
+1	1	config/locales/en.yml
+
+--020cb5c07--2016-01-05--Cesy Avon
+-	-	public/apple-touch-icon-120x120-precomposed.png
+-	-	public/apple-touch-icon-120x120.png
+-	-	public/apple-touch-icon-152x152-precomposed.png
+-	-	public/apple-touch-icon-152x152.png
+-	-	public/apple-touch-icon-180x180-precomposed.png
+-	-	public/apple-touch-icon-180x180.png
+-	-	public/apple-touch-icon-76x76-precomposed.png
+
+--581c36008--2016-01-05--Cesy Avon
+5	0	config/locales/en-US.yml
+
+--69303b0a4--2016-01-04--Cesy Avon
+51	3	config/locales/en-GB.yml
+7	2	config/locales/en-US.yml
+235	14	config/locales/en.yml
+
+--20b389ca5--2016-01-04--sarken
+--509f63df1--2016-01-04--sarken
+--5fa0a5e12--2015-11-28--james_
+1	0	.travis.yml
+0	724	features/prompt_memes_a/challenge_promptmeme.feature
+729	0	features/prompt_memes_c/challenge_promptmeme_part2.feature
+
+--4dc5e1a06--2016-01-04--Cesy Avon
+1	1	app/mailers/user_mailer.rb
+3	5	app/views/user_mailer/abuse_report.html.erb
+3	3	app/views/user_mailer/abuse_report.text.erb
+5	0	config/locales/en.yml
+
+--73fcd74a3--2016-01-04--Cesy
+2	0	app/mailers/kudo_mailer.rb
+1	1	app/views/kudo_mailer/batch_kudo_notification.html.erb
+1	1	app/views/kudo_mailer/batch_kudo_notification.text.erb
+6	2	config/locales/en.yml
+
+--cd9d62921--2016-01-04--Cesy
+1	1	features/works/work_edit.feature
+
+--697e106c9--2016-01-03--Cesy Avon
+1	1	features/step_definitions/user_steps.rb
+2	7	features/works/work_edit.feature
+
+--c70b08a86--2016-01-03--zz9pzza
+1	1	.phraseapp.yml
+
+--2e7cf9fc7--2016-01-03--Cesy Avon
+-	-	public/apple-touch-icon-120x120-precomposed.png
+-	-	public/apple-touch-icon-152x152.png
+-	-	public/apple-touch-icon-76x76-precomposed.png
+-	-	public/apple-touch-icon-76x76.png
+
+--1fb2ec15a--2016-01-03--Cesy Avon
+-	-	public/apple-touch-icon-120x120.png
+-	-	public/apple-touch-icon-180x180.png
+
+--c578deacf--2016-01-03--Cesy Avon
+-	-	public/apple-touch-icon-144x144-precomposed.png
+-	-	public/apple-touch-icon-152x152-precomposed.png
+-	-	public/apple-touch-icon-167x167-precomposed.png
+-	-	public/apple-touch-icon-180x180-precomposed.png
+-	-	public/apple-touch-icon-precomposed.png
+
+--ec754a080--2016-01-03--james_
+1	1	app/helpers/works_helper.rb
+
+--df4ff2f0e--2016-01-03--james_
+1	1	app/helpers/pseuds_helper.rb
+
+--41bf04405--2016-01-03--Cesy Avon
+-	-	public/apple-touch-icon-120x120-precomposed.png
+-	-	public/apple-touch-icon-152x152-precomposed.png
+-	-	public/apple-touch-icon-167x167-precomposed.png
+-	-	public/apple-touch-icon-180x180-precomposed.png
+
+--1c0003a1a--2016-01-03--Cesy Avon
+-	-	public/apple-touch-icon-114x114-precomposed.png
+-	-	public/apple-touch-icon-144x144-precomposed.png
+-	-	public/apple-touch-icon-57x57-precomposed.png
+-	-	public/apple-touch-icon-72x72-precomposed.png
+-	-	public/apple-touch-icon-precomposed.png
+-	-	public/apple-touch-icon.png
+
+--1423d3223--2016-01-03--sarken
+--ccde6448a--2016-01-02--Scott D. Sullivan
+1	1	config/environments/staging.rb
+
+--e061262b2--2016-01-02--sarken
+1	1	app/views/fandoms/unassigned.html.erb
+
+--41414f9ce--2016-01-02--sarken
+1	1	app/views/fandoms/unassigned.html.erb
+
+--b168919ac--2016-01-02--Scott D. Sullivan
+3	1	config/environments/development.rb
+2	1	config/environments/staging.rb
+
+--3d43a7ef4--2016-01-02--sarken
+23	5	app/views/fandoms/unassigned.html.erb
+1	1	public/stylesheets/site/2.0/25-role-handheld.css
+
+--265300056--2016-01-02--Cesy Avon
+1	1	features/step_definitions/user_steps.rb
+30	1	features/works/work_edit.feature
+
+--9685e2f3a--2016-01-01--Cesy Avon
+3	3	features/support/factories.rb
+3	4	spec/models/pseud_spec.rb
+
+--4cb8295b5--2016-01-02--Cesy Avon
+3	3	spec/models/pseud_spec.rb
+
+--54061a629--2016-01-02--Cesy Avon
+7	11	spec/models/pseud_spec.rb
+
+--7aa7cc7d2--2016-01-02--Cesy Avon
+17	0	spec/support/matchers/be_valid_verbose.rb
+
+--4d993a775--2016-01-01--Cesy Avon
+0	1	Gemfile
+1	6	Gemfile.lock
+0	4	spec/models/work_spec.rb
+1	4	spec/spec_helper.rb
+0	17	spec/support/matchers/be_valid_verbose.rb
+0	89	spec/views/home/index.html.erb_spec.rb
+
+--4985265c7--2015-12-29--Cesy
+3	3	Gemfile.lock
+
+--d652b1f9c--2015-12-29--Cesy
+2	2	Gemfile.lock
+1	2	features/support/factories.rb
+
+--d9869c27a--2012-02-17--Cesy
+1	0	Gemfile
+5	1	Gemfile.lock
+8	17	spec/views/home/index.html.erb_spec.rb
+
+--39cff8ea5--2012-01-26--Cesy
+0	1	Gemfile
+1	5	Gemfile.lock
+17	8	spec/views/home/index.html.erb_spec.rb
+
+--ccc4a58c6--2011-12-16--Cesy
+12	9	spec/models/pseud_spec.rb
+0	2	spec/spec_helper.rb
+1	1	spec/support/matchers/be_valid_verbose.rb
+
+--fcc398a15--2011-12-16--Cesy
+73	29	spec/views/home/index.html.erb_spec.rb
+0	90	spec/views/index.html.erb_spec.rb
+
+--99e6211f2--2011-12-16--Cesy
+36	1	spec/models/pseud_spec.rb
+17	0	spec/support/matchers/be_valid_verbose.rb
+
+--6d75cc6d7--2011-12-16--Cesy
+4	2	spec/views/home/index.html.erb_spec.rb
+
+--a2a5a2d89--2011-12-14--Rebecca
+1	0	Gemfile
+6	1	Gemfile.lock
+6	1	spec/spec_helper.rb
+90	0	spec/views/index.html.erb_spec.rb
+
+--57ccf2e70--2011-12-13--Cesy
+1	0	spec/views/home/index.html.erb_spec.rb
+
+--99fd1705d--2011-11-30--Cesy
+31	3	spec/views/home/index.html.erb_spec.rb
+
+--9f3d27afa--2011-11-27--Cesy
+2	1	features/support/factories.rb
+1	1	spec/models/work_spec.rb
+3	3	spec/views/home/index.html.erb_spec.rb
+
+--f290b8772--2011-06-22--Cesy
+2	1	features/support/factories.rb
+4	0	spec/models/work_spec.rb
+14	0	spec/views/home/index.html.erb_spec.rb
+
+--6e4646a34--2016-01-02--Cesy Avon
+27	0	features/users/user_rename.feature
+
+--807433cc4--2016-01-02--zz9pzza
+--2fafab0de--2016-01-02--zz9pzza
+--d50a15a47--2016-01-02--Cesy Avon
+1	0	.gitignore
+
+--2cdfede65--2016-01-01--Cesy
+2	2	features/step_definitions/tag_steps.rb
+
+--46e1c01a8--2016-01-01--Cesy Avon
+1	1	app/models/tag.rb
+1	1	features/tags_and_wrangling/tag_search.feature
+
+--c99b62325--2016-01-01--Cesy Avon
+21	0	features/step_definitions/tag_steps.rb
+20	0	features/tags_and_wrangling/tag_comment.feature
+28	0	features/tags_and_wrangling/tag_search.feature
+
+--ffd0288ba--2015-12-31--zz9pzza
+--48350f172--2015-12-30--Cesy Avon
+2	2	app/controllers/collections_controller.rb
+
+--4b3f104be--2015-12-30--Cesy Avon
+11	2	app/controllers/tags_controller.rb
+
+--6c1fa185a--2015-12-30--Cesy Avon
+1	1	app/controllers/tags_controller.rb
+
+--b25d11eb2--2015-12-30--zz9pzza
+--6e5202396--2015-12-30--zz9pzza
+--e9755c127--2015-12-30--zz9pzza
+--89219a5e9--2015-12-30--Cesy Avon
+2	2	app/controllers/bookmarks_controller.rb
+
+--ab60fd26a--2015-12-30--Cesy Avon
+1	0	.travis.yml
+
+--9bfaa5ca2--2015-12-30--Cesy
+20	5	features/other_a/reading.feature
+
+--8cf0d8a38--2015-12-29--Cesy Avon
+8	8	spec/mailers/user_mailer_spec.rb
+
+--4daa7ddfc--2015-12-29--james_
+6	2	app/models/reading.rb
+
+--9343545b5--2015-12-29--zz9pzza
+--039a1b9bc--2015-12-28--james_
+1	1	config/deploy.rb
+
+--1e85ae705--2015-12-28--zz9pzza
+--7d6669ce4--2015-12-28--james_
+1	1	config/deploy.rb
+
+--0f2f05964--2015-12-27--sarken
+--491ac5f96--2015-12-27--james_
+1	1	config/environments/staging.rb
+
+--570c5ccac--2015-12-27--zz9pzza
+--8a9eda912--2015-12-27--james_
+3	0	Gemfile
+
+--f7062626d--2015-12-27--sarken
+--e2f6c050e--2015-12-27--sarken
+--d08f8c3a2--2015-12-22--james_
+1	1	Gemfile.lock
+
+--89243240f--2015-12-22--james_
+1	1	Gemfile.lock
+
+--c2de8f08c--2015-12-22--james_
+2	2	Gemfile.lock
+
+--24d322c4b--2015-12-22--james_
+1	1	Gemfile.lock
+
+--e224366ff--2015-12-22--james_
+1	1	Gemfile.lock
+
+--9ff3020cb--2015-12-22--james_
+3	3	Gemfile.lock
+
+--994433132--2015-12-22--james_
+1	1	Gemfile.lock
+
+--417dce41f--2015-12-22--james_
+1	1	Gemfile.lock
+
+--1c487f986--2015-12-22--james_
+1	1	Gemfile.lock
+
+--296c0ee19--2015-12-22--james_
+1	1	Gemfile.lock
+
+--5c16c208c--2015-12-22--james_
+1	1	Gemfile.lock
+
+--a30aeed20--2015-12-22--james_
+1	1	Gemfile.lock
+
+--551ba11ac--2015-12-22--james_
+2	2	Gemfile.lock
+
+--2c4aebe6d--2015-12-22--james_
+6	6	Gemfile.lock
+
+--743dd0a88--2015-12-22--james_
+4	4	Gemfile.lock
+
+--4628cb390--2015-12-22--james_
+1	1	Gemfile.lock
+
+--48924dc45--2015-12-22--james_
+1	1	Gemfile.lock
+
+--917d1de4b--2015-12-22--james_
+4	4	Gemfile.lock
+
+--121796977--2015-12-21--Elz
+--7c3e5af61--2015-12-21--sarken
+1	1	public/javascripts/mce_editor.js
+1	1	public/javascripts/mce_editor.min.js
+
+--ce1d39ac1--2015-12-21--james_
+--7887dcca6--2015-12-21--james_
+1	0	config/environments/development.rb
+1	0	config/environments/staging.rb
+
+--8796e145f--2015-12-21--james_
+3	3	app/controllers/works_controller.rb
+
+--cb7dda69d--2015-12-21--james_
+16	0	config/initializers/active_record_log_subscriber.rb
+
+--134322077--2015-12-21--james_
+7	0	config/environments/development.rb
+7	0	config/environments/staging.rb
+
+--70e653d07--2015-12-21--james_
+1	0	Gemfile
+5	0	Gemfile.lock
+
+--db0ed2bb7--2015-12-21--zz9pzza
+--3a4225267--2015-12-16--Ariana
+1	1	app/controllers/api/v1/import_controller.rb
+
+--87a8dd751--2015-12-16--zz9pzza
+--d3125fdc2--2015-12-16--sarken
+1	1	public/javascripts/tinymce/plugins/advlist/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/anchor/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/autolink/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/autoresize/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/autosave/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/bbcode/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/charmap/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/code/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/codesample/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/colorpicker/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/contextmenu/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/directionality/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/emoticons/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/example/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/fullpage/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/fullscreen/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/hr/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/image/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/imagetools/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/importcss/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/insertdatetime/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/layer/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/legacyoutput/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/link/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/lists/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/media/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/nonbreaking/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/noneditable/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/pagebreak/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/paste/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/preview/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/print/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/save/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/searchreplace/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/spellchecker/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/tabfocus/plugin.min.js
+2	2	public/javascripts/tinymce/plugins/table/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/template/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/textcolor/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/textpattern/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/visualblocks/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/visualchars/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/wordcount/plugin.min.js
+1	1	public/javascripts/tinymce/themes/modern/theme.min.js
+13	13	public/javascripts/tinymce/tinymce.min.js
+
+--b35363d09--2015-12-16--Ariana
+21	21	spec/api/api_spec.rb
+
+--c9fa3b517--2015-12-15--Ariana
+13	0	spec/models/story_parser_spec.rb
+
+--d4dc697eb--2015-12-15--Ariana
+2	0	app/controllers/api/v1/import_controller.rb
+2	2	app/models/story_parser.rb
+4	2	spec/api/api_spec.rb
+
+--f9ca5ef21--2015-12-13--Ariana
+2	1	app/controllers/api/v1/import_controller.rb
+28	13	app/models/story_parser.rb
+38	23	spec/api/api_spec.rb
+
+--4c78c36fa--2015-12-13--zz9pzza
+--f7c0c277d--2015-12-13--sarken
+1	1	public/javascripts/tinymce/plugins/anchor/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/autoresize/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/charmap/plugin.min.js
+138	0	public/javascripts/tinymce/plugins/codesample/css/prism.css
+1	0	public/javascripts/tinymce/plugins/codesample/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/image/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/imagetools/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/importcss/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/legacyoutput/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/link/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/lists/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/media/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/noneditable/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/pagebreak/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/paste/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/save/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/searchreplace/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/spellchecker/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/tabfocus/plugin.min.js
+2	1	public/javascripts/tinymce/plugins/table/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/template/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/wordcount/plugin.min.js
+154	1	public/javascripts/tinymce/skins/lightgray/content.inline.min.css
+1	1	public/javascripts/tinymce/skins/lightgray/content.min.css
+-	-	public/javascripts/tinymce/skins/lightgray/fonts/tinymce-small.eot
+54	53	public/javascripts/tinymce/skins/lightgray/fonts/tinymce-small.svg
+-	-	public/javascripts/tinymce/skins/lightgray/fonts/tinymce-small.ttf
+-	-	public/javascripts/tinymce/skins/lightgray/fonts/tinymce-small.woff
+-	-	public/javascripts/tinymce/skins/lightgray/fonts/tinymce.eot
+89	74	public/javascripts/tinymce/skins/lightgray/fonts/tinymce.svg
+-	-	public/javascripts/tinymce/skins/lightgray/fonts/tinymce.ttf
+-	-	public/javascripts/tinymce/skins/lightgray/fonts/tinymce.woff
+1	1	public/javascripts/tinymce/skins/lightgray/skin.ie7.min.css
+1	1	public/javascripts/tinymce/skins/lightgray/skin.min.css
+1	1	public/javascripts/tinymce/themes/modern/theme.min.js
+13	12	public/javascripts/tinymce/tinymce.min.js
+
+--e85dfbb8b--2015-12-13--zz9pzza
+--daf2d0ba8--2015-12-13--Ariana
+94	11	spec/api/api_spec.rb
+
+--87614323e--2015-12-12--Ariana
+107	9	spec/api/api_spec.rb
+
+--fb70767a3--2015-12-10--zz9pzza
+--a355660ba--2015-12-10--elz
+5	1	app/controllers/gifts_controller.rb
+5	3	app/models/gift.rb
+
+--332ce8768--2015-12-08--zz9pzza
+--0cc221f7d--2015-12-08--james_
+5	2	config/locales/en-US.yml
+
+--754fe1ac3--2015-12-08--james_
+1	0	config/locales/en-US.yml
+
+--624dce9b0--2015-12-08--zz9pzza
+--7756a16e7--2015-12-08--james_
+0	30	config/locales/en-US.yml
+
+--f707d851d--2015-12-08--zz9pzza
+--a334dde9f--2015-12-08--james_
+1	1	config/locales/en-US.yml
+
+--523a30a3e--2015-12-07--james_
+66	1	config/locales/en-US.yml
+
+--6ed1c30cb--2015-12-07--zz9pzza
+--7f57abf42--2015-12-07--zz9pzza
+1	1	.phraseapp.yml
+
+--5c39955cb--2015-12-07--zz9pzza
+--a291b6baf--2015-12-07--zz9pzza
+13	0	.phraseapp.yml
+
+--5ff292c0d--2015-12-06--zz9pzza
+--2b8ad1b96--2015-12-06--zz9pzza
+--4393d56d2--2015-12-06--Scott D. Sullivan
+--abf2fdc49--2015-11-30--zz9pzza
+--adc3e93f6--2015-11-30--sarken
+--95f1fee2c--2015-11-29--Scott D. Sullivan
+1	1	app/views/owned_tag_sets/_show_tags_by_alpha.html.erb
+
+--04933ec89--2015-11-29--sarken
+1	1	db/schema.rb
+
+--8a77a1b0e--2015-11-29--sarken
+1	1	db/migrate/{20150829180100_add_rejected_to_gifts.rb => 20151129234505_add_rejected_to_gifts.rb}
+
+--048b0ea0a--2015-11-29--sarken
+--9566e8563--2015-11-29--james_
+1	1	db/schema.rb
+
+--1458dfd28--2015-11-29--sarken
+--130cd918e--2015-11-29--zz9pzza
+--5d17a1364--2015-11-29--james_
+4	0	script/try_command.sh
+
+--765e48b35--2015-11-29--james_
+10	0	script/try_command.sh
+
+--9dcc7d093--2015-11-29--sarken
+--c7118aa65--2015-11-28--Scott D. Sullivan
+21	0	features/gift_exchanges/challenge_giftexchange.feature
+1	2	lib/challenge_core.rb
+
+--bdd5887b5--2015-11-26--l1n
+1	1	app/views/comments/_comment_form.html.erb
+
+--b6f289cd4--2015-11-24--astolat shalott
+0	1	features/bookmarks/bookmark_create.feature
+2	0	features/step_definitions/bookmark_steps.rb
+
+--e125e7c07--2015-11-24--astolat
+--497b9eae4--2015-11-24--ariana-paris
+--59454bef3--2015-11-24--astolat shalott
+--667d99d36--2015-11-24--astolat shalott
+1	0	features/bookmarks/bookmark_create.feature
+11	1	features/step_definitions/bookmark_steps.rb
+
+--62e23d6f9--2015-11-24--astolat shalott
+1	0	features/bookmarks/bookmark_create.feature
+
+--5fa077052--2015-11-19--astolat shalott
+3	7	features/bookmarks/bookmark_create.feature
+11	0	features/step_definitions/bookmark_steps.rb
+
+--e36a1a63e--2015-11-16--astolat
+5	5	features/step_definitions/work_steps.rb
+
+--645793933--2015-11-16--astolat shalott
+7	9	features/step_definitions/collection_steps.rb
+2	2	features/step_definitions/series_steps.rb
+
+--d057be5a4--2015-11-16--astolat shalott
+0	3	features/step_definitions/series_steps.rb
+
+--c56535851--2015-11-16--astolat
+6	6	features/step_definitions/work_steps.rb
+
+--da8b284bd--2015-11-16--astolat
+14	14	features/support/paths.rb
+
+--4aeb5f03b--2015-11-16--shalott
+6	0	features/step_definitions/bookmark_steps.rb
+1	1	features/step_definitions/series_steps.rb
+6	0	features/step_definitions/work_steps.rb
+32	32	features/support/paths.rb
+5	10	features/tags_and_wrangling/tag_wrangling.feature
+79	142	features/users/user_dashboard.feature
+
+--99a8959bf--2015-11-16--astolat shalott
+17	14	features/collections/collection_anonymity.feature
+1	0	features/collections/collection_dashboard.feature
+6	6	features/other_b/subscriptions_fandoms.feature
+4	4	features/step_definitions/collection_steps.rb
+21	22	features/step_definitions/series_steps.rb
+12	12	features/support/paths.rb
+5	9	features/users/user_dashboard.feature
+
+--a045a1c4f--2015-11-15--astolat shalott
+10	14	features/collections/collection_anonymity.feature
+1	6	features/step_definitions/collection_steps.rb
+
+--6b7f4f790--2015-11-24--astolat shalott
+3	3	features/bookmarks/bookmark_create.feature
+230	407	features/collections/collection_anonymity.feature
+6	12	features/collections/collection_create.feature
+7	0	features/step_definitions/bookmark_steps.rb
+112	43	features/step_definitions/collection_steps.rb
+72	5	features/step_definitions/series_steps.rb
+7	8	features/step_definitions/subscription_steps.rb
+83	95	features/step_definitions/work_steps.rb
+
+--df4f9f215--2015-11-24--astolat shalott
+1	0	features/bookmarks/bookmark_create.feature
+11	1	features/step_definitions/bookmark_steps.rb
+
+--c649f6b04--2015-11-24--astolat shalott
+1	0	features/bookmarks/bookmark_create.feature
+
+--f3e38ff92--2015-11-24--astolat shalott
+1	1	app/views/admin/admin_users/show.html.erb
+11	0	features/admins/admin_manage_users.feature
+
+--86ad889d3--2015-11-23--sarken
+--588f18377--2015-11-23--elz
+3	11	app/models/inbox_comment.rb
+3	4	app/models/user.rb
+
+--22ad586a5--2015-11-22--Elz
+--a483d25b8--2015-11-22--astolat shalott
+--71eed207f--2015-11-22--astolat shalott
+1	0	features/admins/admin_manage_users.feature
+5	0	features/step_definitions/email_custom_steps.rb
+
+--73aea3fcd--2015-11-22--astolat shalott
+1	1	app/views/admin/admin_users/confirm_delete_user_creations.html.erb
+
+--ca403d476--2015-11-03--astolat shalott
+1	1	app/controllers/admin/admin_users_controller.rb
+1	1	features/step_definitions/admin_steps.rb
+
+--626a78717--2015-11-03--shalott
+1	1	features/step_definitions/work_steps.rb
+
+--b8e22ce97--2015-11-03--shalott
+3	3	app/controllers/admin/admin_users_controller.rb
+1	1	features/step_definitions/collection_steps.rb
+1	1	features/step_definitions/series_steps.rb
+
+--8de5f9296--2015-08-26--shalott
+1	1	app/views/works/_work_abbreviated_list.html.erb
+
+--35618c92b--2015-08-26--shalott
+1	1	app/views/comments/_comment_abbreviated_list.html.erb
+
+--040b6348a--2015-08-26--shalott
+12	7	app/views/admin/admin_users/confirm_delete_user_creations.html.erb
+
+--ef510832c--2015-08-26--shalott
+2	2	app/controllers/admin/admin_users_controller.rb
+21	27	app/views/admin/admin_users/confirm_delete_user_creations.html.erb
+15	0	app/views/comments/_comment_abbreviated_list.html.erb
+8	7	features/admins/admin_manage_users.feature
+4	0	features/step_definitions/collection_steps.rb
+
+--ed79f2d6e--2015-08-26--shalott
+1	1	features/admins/admin_manage_users.feature
+
+--2ba9f53fa--2015-08-26--shalott
+2	2	features/admins/admin_manage_users.feature
+
+--687f34d31--2015-08-26--shalott
+37	2	app/controllers/admin/admin_users_controller.rb
+33	0	app/views/admin/admin_users/confirm_delete_user_creations.html.erb
+4	0	app/views/admin/admin_users/show.html.erb
+4	0	config/routes.rb
+47	0	features/admins/admin_manage_users.feature
+25	0	features/step_definitions/admin_steps.rb
+4	0	features/step_definitions/series_steps.rb
+6	0	features/step_definitions/work_steps.rb
+
+--ca54275ea--2015-11-22--astolat shalott
+1	0	features/admins/admin_manage_users.feature
+6	0	features/step_definitions/email_custom_steps.rb
+
+--20a3d27dd--2015-11-22--astolat shalott
+1	1	app/views/admin/admin_users/confirm_delete_user_creations.html.erb
+
+--b114cbca3--2015-11-22--zz9pzza
+--8dcdc4d42--2015-11-21--james_
+1	1	config/deploy/production.rb
+
+--239224120--2015-11-21--james_
+2	2	config/deploy.rb
+
+--310d488f7--2015-11-20--sarken
+54	20	db/schema.rb
+191	679	db/structure.sql
+
+--a57b385dd--2015-11-20--elz
+12	0	app/models/pseud.rb
+9	5	app/sweepers/pseud_sweeper.rb
+86	46	features/other_a/autocomplete.feature
+10	0	features/step_definitions/autocomplete_steps.rb
+21	0	features/step_definitions/pseud_steps.rb
+9	0	features/step_definitions/user_steps.rb
+
+--d121128d6--2015-11-19--sarken
+1	1	features/step_definitions/invite_steps.rb
+
+--3efcb580c--2015-11-19--sarken
+1	1	features/other_a/invite_request.feature
+7	0	features/step_definitions/invite_steps.rb
+
+--32d2e37a3--2015-11-19--astolat shalott
+--febc0f0a2--2015-11-19--astolat shalott
+3	7	features/bookmarks/bookmark_create.feature
+11	0	features/step_definitions/bookmark_steps.rb
+
+--fd94b7286--2015-11-19--sarken
+2	1	app/views/users/confirmation.html.erb
+
+--6901e678e--2015-11-18--sarken
+18	19	app/views/users/confirmation.html.erb
+
+--f6d4ee5c6--2015-11-18--sarken
+19	19	app/views/users/confirmation.html.erb
+
+--534d2c01d--2015-11-18--elz
+0	12	app/models/pseud.rb
+5	9	app/sweepers/pseud_sweeper.rb
+46	86	features/other_a/autocomplete.feature
+0	10	features/step_definitions/autocomplete_steps.rb
+0	21	features/step_definitions/pseud_steps.rb
+0	9	features/step_definitions/user_steps.rb
+
+--d98a57f97--2015-11-18--astolat
+--068802a53--2015-11-18--elz
+1	1	app/models/work.rb
+
+--05f265f4d--2015-11-18--sarken
+--adc4c5758--2015-11-16--astolat
+5	5	features/step_definitions/work_steps.rb
+
+--e80d7b743--2015-11-16--astolat shalott
+7	9	features/step_definitions/collection_steps.rb
+2	3	features/step_definitions/series_steps.rb
+
+--b1d3c5486--2015-11-16--astolat shalott
+0	3	features/step_definitions/series_steps.rb
+
+--fe65f95ac--2015-11-16--astolat
+6	6	features/step_definitions/work_steps.rb
+
+--2b34a9c34--2015-11-16--astolat
+14	14	features/support/paths.rb
+
+--cebb47321--2015-11-16--shalott
+6	0	features/step_definitions/bookmark_steps.rb
+1	1	features/step_definitions/series_steps.rb
+6	0	features/step_definitions/work_steps.rb
+32	32	features/support/paths.rb
+5	10	features/tags_and_wrangling/tag_wrangling.feature
+79	142	features/users/user_dashboard.feature
+
+--c9ca6ca2c--2015-11-16--astolat shalott
+17	14	features/collections/collection_anonymity.feature
+1	0	features/collections/collection_dashboard.feature
+6	6	features/other_b/subscriptions_fandoms.feature
+4	4	features/step_definitions/collection_steps.rb
+21	22	features/step_definitions/series_steps.rb
+12	12	features/support/paths.rb
+5	9	features/users/user_dashboard.feature
+
+--a42e8cc4a--2015-11-15--Scott D. Sullivan
+--a41d9107f--2015-11-15--astolat shalott
+52	49	features/other_a/autocomplete.feature
+
+--6eceb117c--2015-11-15--zz9pzza
+1	1	Gemfile
+2	3	Gemfile.lock
+
+--87949cb73--2015-11-15--astolat shalott
+10	14	features/collections/collection_anonymity.feature
+1	6	features/step_definitions/collection_steps.rb
+
+--0d1e30c36--2015-11-14--Elz
+--26572e421--2015-11-14--zz9pzza
+1	1	config/deploy.rb
+
+--e368b9582--2015-11-14--zz9pzza
+1	1	config/deploy/production.rb
+
+--911b16357--2015-11-13--shalott
+3	3	features/bookmarks/bookmark_create.feature
+230	407	features/collections/collection_anonymity.feature
+6	12	features/collections/collection_create.feature
+7	0	features/step_definitions/bookmark_steps.rb
+112	43	features/step_definitions/collection_steps.rb
+73	5	features/step_definitions/series_steps.rb
+7	8	features/step_definitions/subscription_steps.rb
+83	95	features/step_definitions/work_steps.rb
+
+--ca53febc3--2015-11-10--astolat
+--14ac2c49a--2015-11-10--Ariana
+1	0	features/collections/collection_navigation.feature
+
+--53607124a--2015-11-10--Ariana
+--ad35511f1--2015-11-10--Ariana
+1	1	features/comments_and_kudos/comment_moderation.feature
+
+--286b588c7--2015-11-05--Ariana
+3	2	features/bookmarks/bookmark_create.feature
+4	2	features/collections/collection_anonymity.feature
+3	2	features/collections/collection_notification.feature
+4	1	features/other_b/series.feature
+2	1	features/other_b/subscriptions_fandoms.feature
+7	31	features/support/env.rb
+1	0	features/tags_and_wrangling/tag_comment.feature
+1	0	features/users/user_dashboard.feature
+
+--19a71c2af--2015-11-09--sarken
+--844a9bfb0--2015-11-08--sarken
+4	4	app/views/comments/review.js.erb
+
+--50eb4a1ff--2015-11-08--sarken
+1	1	app/views/home/_inbox_module.html.erb
+2	2	app/views/inbox/show.html.erb
+
+--e56ee9fc3--2015-11-08--sarken
+1	1	public/javascripts/application.js
+
+--dd6116613--2015-11-08--sarken
+1	1	app/views/inbox/_approve_button.html.erb
+3	0	public/javascripts/application.js
+
+--b2be1fed5--2015-11-08--astolat shalott
+10	1	app/controllers/comments_controller.rb
+1	0	app/views/comment_mailer/_comment_notification_footer_for_other.html.erb
+6	0	app/views/comments/review.js.erb
+2	2	app/views/home/_inbox_module.html.erb
+6	1	app/views/inbox/_approve_button.html.erb
+1	1	app/views/inbox/show.html.erb
+40	13	features/comments_and_kudos/comment_moderation.feature
+
+--9b824c0da--2015-11-06--sarken
+1	1	app/views/layouts/barebones.html.erb
+
+--939b110c1--2015-11-06--sarken
+2	2	app/views/layouts/barebones.html.erb
+
+--658c70621--2015-11-06--sarken
+0	90	public/auth_error.html
+0	141	public/placeholder.html
+
+--a3ee853e9--2015-11-06--sarken
+2	2	app/views/layouts/application.html.erb
+2	2	app/views/layouts/barebones.html.erb
+2	2	app/views/layouts/home.html.erb
+2	2	app/views/layouts/session.html.erb
+2	2	public/500.html
+2	2	public/502.html
+2	2	public/503.html
+2	2	public/507.html
+2	2	public/auth_error.html
+2	2	public/drive.html
+2	2	public/nomaintenance.html
+2	2	public/placeholder.html
+2	2	public/status/index.html
+
+--1d8a60cf1--2015-11-05--sarken
+--cb371a1b9--2015-11-05--astolat shalott
+12	7	app/models/comment_observer.rb
+4	1	features/comments_and_kudos/comment_moderation.feature
+5	0	features/step_definitions/comment_steps.rb
+
+--647dea476--2015-11-05--ariana-paris
+--a94f0581f--2015-11-05--Ariana
+3	2	features/bookmarks/bookmark_create.feature
+4	2	features/collections/collection_anonymity.feature
+3	2	features/collections/collection_notification.feature
+4	1	features/other_b/series.feature
+2	1	features/other_b/subscriptions_fandoms.feature
+7	31	features/support/env.rb
+1	0	features/tags_and_wrangling/tag_comment.feature
+1	0	features/users/user_dashboard.feature
+
+--ccb3d6dc4--2015-11-04--astolat shalott
+3	13	app/controllers/comments_controller.rb
+
+--d53b1da33--2015-11-04--astolat shalott
+14	2	app/controllers/comments_controller.rb
+5	0	app/models/comment.rb
+1	1	app/models/comment_observer.rb
+2	2	app/views/comment_mailer/_comment_notification_footer.html.erb
+2	2	app/views/comment_mailer/_comment_notification_footer.text.erb
+8	0	app/views/comments/unreviewed.html.erb
+1	0	config/routes.rb
+36	19	features/comments_and_kudos/comment_moderation.feature
+11	2	features/step_definitions/comment_steps.rb
+5	5	features/step_definitions/email_custom_steps.rb
+
+--5344220fb--2015-11-04--shalott
+1	5	app/controllers/chapters_controller.rb
+8	10	app/controllers/comments_controller.rb
+1	0	app/mailers/comment_mailer.rb
+41	1	app/models/comment_observer.rb
+0	85	app/views/comment_mailer/_comment_notification_footer.erb
+12	0	app/views/comment_mailer/_comment_notification_footer.html.erb
+2	14	app/views/comment_mailer/_comment_notification_footer.text.erb
+36	0	app/views/comment_mailer/_comment_notification_footer_for_other.html.erb
+9	0	app/views/comment_mailer/_comment_notification_footer_for_other.text.erb
+42	0	app/views/comment_mailer/_comment_notification_footer_for_tag.html.erb
+4	0	app/views/comment_mailer/_comment_notification_footer_for_tag.text.erb
+1	1	app/views/comments/_comment_actions.html.erb
+1	1	app/views/inbox/_approve_button.html.erb
+4	0	config/config.yml
+42	1	features/comments_and_kudos/comment_moderation.feature
+22	0	features/step_definitions/email_custom_steps.rb
+
+--a4f092bf0--2015-11-04--shalott
+--102664c69--2015-11-04--zz9pzza
+--bab06beef--2015-11-04--zz9pzza
+3	3	config/deploy/production.rb
+
+--03378f2e5--2015-11-04--sarken
+3	1	app/controllers/comments_controller.rb
+1	1	app/views/home/_inbox_module.html.erb
+2	3	app/views/inbox/_approve_button.html.erb
+1	1	app/views/inbox/show.html.erb
+
+--2e6730df5--2015-11-04--sarken
+4	0	app/views/comments/review.js.erb
+
+--1e173bbe6--2015-11-04--sarken
+9	5	app/controllers/comments_controller.rb
+1	1	app/views/inbox/_approve_button.html.erb
+
+--92a1f7471--2015-11-04--sarken
+9	3	app/views/home/_inbox_module.html.erb
+1	1	app/views/inbox/show.html.erb
+
+--e22b1bb72--2015-11-04--sarken
+6	5	app/controllers/comments_controller.rb
+1	1	app/views/inbox/_approve_button.html.erb
+2	2	app/views/inbox/show.html.erb
+
+--1b3b89714--2015-11-03--astolat shalott
+1	1	app/controllers/admin/admin_users_controller.rb
+1	1	features/step_definitions/admin_steps.rb
+
+--28d1ede95--2015-11-03--shalott
+1	1	features/step_definitions/work_steps.rb
+
+--0b08bb6ba--2015-11-03--shalott
+3	3	app/controllers/admin/admin_users_controller.rb
+1	1	features/step_definitions/collection_steps.rb
+1	1	features/step_definitions/series_steps.rb
+
+--0bc19ce37--2015-11-03--ariana-paris
+--4e06546ef--2015-11-03--astolat shalott
+8	0	config/.rubocop.yml
+
+--aa02a2ecc--2015-11-02--sarken
+1	3	app/views/inbox/_approve_button.html.erb
+14	8	app/views/inbox/show.html.erb
+
+--30ee120e1--2015-11-02--sarken
+--ab69a65b7--2015-11-02--astolat shalott
+19	1	app/controllers/comments_controller.rb
+5	1	app/helpers/comments_helper.rb
+78	58	app/models/comment_observer.rb
+1	1	app/views/comment_mailer/_comment_notification_footer.erb
+55	0	app/views/comments/_comment_actions.html.erb
+1	1	app/views/comments/_comment_thread.html.erb
+1	5	app/views/comments/_commentable.html.erb
+1	49	app/views/comments/_single_comment.html.erb
+5	0	app/views/inbox/_approve_button.html.erb
+5	2	app/views/inbox/show.html.erb
+93	20	features/comments_and_kudos/comment_moderation.feature
+17	7	features/step_definitions/comment_steps.rb
+6	1	features/step_definitions/email_steps.rb
+1	1	lib/plugins/acts_as_commentable/commentable_entity.rb
+
+--099683c9e--2015-11-02--Elz
+--eb8611be9--2015-11-01--zz9pzza
+2	1	config/deploy.rb
+0	3	config/deploy/i18n.rb
+0	1	config/deploy/production.rb
+0	1	config/deploy/staging.rb
+6	1	lib/tasks/skin_tasks.rake
+
+--e0b906288--2015-11-01--Ariana
+--6efae6290--2015-10-31--sarken
+--4e843dbf3--2015-10-31--sarken
+--4005a8b95--2015-10-31--sarken
+--22b8238d1--2015-10-29--astolat shalott
+--5d2cd57a2--2015-10-29--sarken
+5	0	app/views/comments/_single_comment.html.erb
+5	0	app/views/comments/_single_comment_abbreviated.html.erb
+5	0	app/views/inbox/_inbox_comment_contents.html.erb
+1	1	public/stylesheets/site/2.0/09-roles-states.css
+
+--0b238d63d--2015-10-29--sarken
+1	1	app/views/comments/_single_comment.html.erb
+1	1	app/views/comments/_single_comment_abbreviated.html.erb
+1	1	app/views/home/_inbox_module.html.erb
+1	1	app/views/inbox/show.html.erb
+
+--fa36ff400--2015-10-29--astolat shalott
+2	1	app/models/pseud.rb
+
+--d700f9e37--2015-10-29--astolat shalott
+4	0	config/.rubocop.yml
+0	5	features/step_definitions/.rubocop.yml
+
+--9149d791b--2015-10-29--astolat shalott
+4	0	config/.rubocop.yml
+1	0	features/step_definitions/user_steps.rb
+
+--3b3133dcb--2015-10-29--astolat shalott
+1	1	features/step_definitions/user_steps.rb
+
+--e6495ff2e--2015-10-29--astolat shalott
+5	0	features/step_definitions/.rubocop.yml
+1	1	features/step_definitions/user_steps.rb
+
+--f35556e98--2015-10-29--astolat shalott
+1	1	features/step_definitions/user_steps.rb
+
+--db7c46e82--2015-10-29--astolat shalott
+2	2	app/models/pseud.rb
+2	2	app/sweepers/pseud_sweeper.rb
+2	2	features/step_definitions/autocomplete_steps.rb
+1	1	features/step_definitions/pseud_steps.rb
+1	1	features/step_definitions/user_steps.rb
+
+--e3b2f063d--2015-10-29--astolat shalott
+1	1	features/step_definitions/pseud_steps.rb
+
+--be80d6e85--2015-10-29--astolat shalott
+11	0	app/models/pseud.rb
+9	5	app/sweepers/pseud_sweeper.rb
+37	0	features/other_a/autocomplete.feature
+10	0	features/step_definitions/autocomplete_steps.rb
+21	0	features/step_definitions/pseud_steps.rb
+8	0	features/step_definitions/user_steps.rb
+
+--1d12b218a--2015-10-28--sarken
+--aedd3cb8f--2015-10-28--sarken
+2	1	features/other_a/reading.feature
+
+--f93e65459--2015-10-28--ariana-paris
+--fb5e57ed2--2015-10-28--elz
+1	0	features/other_b/skin.feature
+
+--8ee6b6b85--2015-10-28--elz
+1	3	features/other_a/preferences_edit.feature
+
+--3e1cf9471--2015-10-28--elz
+7	0	app/models/pseud.rb
+8	0	app/models/user.rb
+
+--96d034aca--2015-10-28--sarken
+--1cba6962f--2015-10-27--sarken
+8	0	app/controllers/works_controller.rb
+3	2	app/views/works/_standard_form.html.erb
+52	5	app/views/works/edit_multiple.html.erb
+1	1	app/views/works/show_multiple.html.erb
+19	2	features/comments_and_kudos/comment_moderation.feature
+6	1	features/step_definitions/comment_steps.rb
+45	0	features/step_definitions/work_steps.rb
+2	0	features/support/paths.rb
+103	0	features/works/work_edit_multiple.feature
+
+--94d1a717b--2015-10-26--astolat
+23	4	app/controllers/comments_controller.rb
+33	0	app/helpers/comments_helper.rb
+4	0	app/views/comment_mailer/_comment_notification_footer.erb
+4	0	app/views/comment_mailer/_comment_notification_footer.text.erb
+16	11	app/views/comments/_comment_form.html.erb
+2	2	app/views/comments/unreviewed.html.erb
+2	2	features/comments_and_kudos/comment_moderation.feature
+
+--3f1b8c4c9--2015-10-23--zz9pzza
+5	1	app/controllers/chapters_controller.rb
+53	5	app/controllers/comments_controller.rb
+1	1	app/helpers/comments_helper.rb
+4	0	app/models/chapter.rb
+15	4	app/models/comment.rb
+8	4	app/views/comments/_comment_thread.html.erb
+5	1	app/views/comments/_commentable.html.erb
+5	0	app/views/comments/_single_comment.html.erb
+18	0	app/views/comments/unreviewed.html.erb
+8	1	app/views/works/_standard_form.html.erb
+8	0	app/views/works/_work_header_navigation.html.erb
+4	0	config/routes.rb
+5	0	db/migrate/20150901024743_add_moderated_commenting_enabled_to_works.rb
+5	0	db/migrate/20150901132832_add_unreviewed_to_comments.rb
+103	0	features/comments_and_kudos/comment_moderation.feature
+28	1	features/step_definitions/comment_steps.rb
+1	1	lib/plugins/acts_as_commentable/commentable_entity.rb
+0	0	public/help/{anonymous-commenting.html => comments-anonymous.html}
+2	0	public/help/comments-moderated.html
+
+--193cb7931--2015-10-28--sarken
+--e464e40ba--2015-10-28--sarken
+--6c40b3315--2015-10-28--sarken
+1	1	app/controllers/preferences_controller.rb
+1	1	app/controllers/users_controller.rb
+
+--e64542ae7--2015-10-28--zz9pzza
+1	1	config/deploy/production.rb
+
+--e776b6a76--2015-10-28--sarken
+--da3a52b86--2015-10-28--sarken
+1	5	app/controllers/chapters_controller.rb
+5	53	app/controllers/comments_controller.rb
+1	1	app/helpers/comments_helper.rb
+0	4	app/models/chapter.rb
+4	15	app/models/comment.rb
+4	8	app/views/comments/_comment_thread.html.erb
+1	5	app/views/comments/_commentable.html.erb
+0	5	app/views/comments/_single_comment.html.erb
+0	18	app/views/comments/unreviewed.html.erb
+1	8	app/views/works/_standard_form.html.erb
+0	8	app/views/works/_work_header_navigation.html.erb
+0	4	config/routes.rb
+0	5	db/migrate/20150901024743_add_moderated_commenting_enabled_to_works.rb
+0	5	db/migrate/20150901132832_add_unreviewed_to_comments.rb
+0	103	features/comments_and_kudos/comment_moderation.feature
+1	28	features/step_definitions/comment_steps.rb
+1	1	lib/plugins/acts_as_commentable/commentable_entity.rb
+0	0	public/help/{comments-anonymous.html => anonymous-commenting.html}
+0	2	public/help/comments-moderated.html
+
+--79b4f5953--2015-10-28--sarken
+4	23	app/controllers/comments_controller.rb
+0	33	app/helpers/comments_helper.rb
+0	4	app/views/comment_mailer/_comment_notification_footer.erb
+0	4	app/views/comment_mailer/_comment_notification_footer.text.erb
+11	16	app/views/comments/_comment_form.html.erb
+2	2	app/views/comments/unreviewed.html.erb
+2	2	features/comments_and_kudos/comment_moderation.feature
+
+--81c9888af--2015-10-28--sarken
+0	8	app/controllers/works_controller.rb
+2	3	app/views/works/_standard_form.html.erb
+5	52	app/views/works/edit_multiple.html.erb
+1	1	app/views/works/show_multiple.html.erb
+2	19	features/comments_and_kudos/comment_moderation.feature
+1	6	features/step_definitions/comment_steps.rb
+0	45	features/step_definitions/work_steps.rb
+0	2	features/support/paths.rb
+0	103	features/works/work_edit_multiple.feature
+
+--ca6b99623--2015-10-28--elz
+10	9	app/controllers/users_controller.rb
+1	1	app/views/users/change_email.html.erb
+1	1	app/views/users/change_password.html.erb
+1	1	app/views/users/change_username.html.erb
+3	3	config/routes.rb
+
+--69fc02ec2--2015-10-27--sarken
+--03347f53c--2015-10-27--elz
+1	1	app/models/creatorship.rb
+
+--fda5c5ae0--2015-10-27--sarken
+2	2	features/step_definitions/work_steps.rb
+
+--e325ac099--2015-10-27--sarken
+1	1	app/controllers/works_controller.rb
+6	6	features/step_definitions/work_steps.rb
+
+--b27548994--2015-10-27--sarken
+2	4	app/controllers/works_controller.rb
+35	17	app/views/works/edit_multiple.html.erb
+22	0	features/step_definitions/work_steps.rb
+32	8	features/works/work_edit_multiple.feature
+
+--b7f758af5--2015-10-27--sarken
+4	4	features/comments_and_kudos/comment_moderation.feature
+1	1	features/step_definitions/comment_steps.rb
+
+--871a1c24a--2015-10-27--sarken
+3	2	app/views/works/_standard_form.html.erb
+
+--a996cacde--2015-10-27--elz
+23	25	app/helpers/application_helper.rb
+
+--5b6c23049--2015-10-27--shalott
+10	0	app/controllers/works_controller.rb
+34	5	app/views/works/edit_multiple.html.erb
+1	1	app/views/works/show_multiple.html.erb
+17	0	features/comments_and_kudos/comment_moderation.feature
+5	0	features/step_definitions/comment_steps.rb
+23	0	features/step_definitions/work_steps.rb
+2	0	features/support/paths.rb
+79	0	features/works/work_edit_multiple.feature
+
+--29f33b06c--2015-10-26--elz
+5	3	app/controllers/home_controller.rb
+
+--95dce4ceb--2015-10-26--astolat
+--647c73150--2015-10-26--ChulaBruggeling
+1	1	app/views/pseuds/_pseuds_form.html.erb
+
+--1fe858159--2015-10-25--sarken
+16	1	app/controllers/comments_controller.rb
+
+--d3685d821--2015-10-25--sarken
+1	0	app/views/comment_mailer/_comment_notification_footer.text.erb
+
+--933069b9e--2015-10-25--sarken
+2	2	features/comments_and_kudos/comment_moderation.feature
+
+--c3e8a4b58--2015-10-25--sarken
+2	2	features/comments_and_kudos/comment_moderation.feature
+
+--4d1e963ac--2015-10-25--sarken
+8	4	app/controllers/comments_controller.rb
+
+--17d8ab0c7--2015-10-25--sarken
+4	0	app/views/comment_mailer/_comment_notification_footer.erb
+3	0	app/views/comment_mailer/_comment_notification_footer.text.erb
+
+--bb9ab84be--2015-10-25--sarken
+31	5	app/helpers/comments_helper.rb
+7	1	app/views/comments/_comment_form.html.erb
+
+--e5324291f--2015-10-25--sarken
+1	1	app/views/comments/unreviewed.html.erb
+
+--3cde1fbcd--2015-10-25--sarken
+1	1	app/controllers/comments_controller.rb
+
+--13741073f--2015-10-25--sarken
+2	2	app/views/comments/unreviewed.html.erb
+
+--bd193d720--2015-10-25--sarken
+7	0	app/helpers/comments_helper.rb
+4	10	app/views/comments/_comment_form.html.erb
+
+--7e4de5fc5--2015-10-25--sarken
+13	8	app/views/comments/_comment_form.html.erb
+
+--7f997ad76--2015-10-23--zz9pzza
+--d05b01213--2015-10-22--sarken
+2	2	app/models/work.rb
+
+--f6f0738d9--2015-10-22--sarken
+5	3	app/views/languages/index.html.erb
+4	0	public/stylesheets/site/2.0/08-actions.css
+
+--a25cde6ce--2015-10-22--sarken
+17	19	app/views/languages/index.html.erb
+
+--a985e1c44--2015-10-22--sarken
+0	3	config/config.yml
+
+--9f00c1e19--2015-10-22--sarken
+34	12	app/views/languages/_form.html.erb
+1	1	app/views/languages/edit.html.erb
+0	1	app/views/languages/index.html.erb
+1	1	app/views/languages/new.html.erb
+
+--b0cb76979--2015-10-18--elz
+5	0	app/controllers/feedbacks_controller.rb
+17	3	app/controllers/languages_controller.rb
+1	1	app/views/feedbacks/new.html.erb
+17	0	app/views/languages/_form.html.erb
+3	0	app/views/languages/edit.html.erb
+1	1	app/views/languages/index.html.erb
+1	14	app/views/languages/new.html.erb
+9	0	app/views/languages/show.html.erb
+5	0	db/migrate/20151018165632_add_support_available_to_languages.rb
+
+--2d8146c8e--2015-10-17--ChulaBruggeling
+4	4	app/views/home/diversity_statement.html.erb
+
+--eb1453e66--2015-10-17--ChulaBruggeling
+1	1	app/views/pseuds/_pseuds_form.html.erb
+
+--b0af2ee8f--2015-10-16--ChulaBruggeling
+0	2	public/help/fandom-help.html
+
+--1d4ba2e47--2015-10-16--ChulaBruggeling
+1	0	public/help/fandom-help.html
+2	0	public/help/tagging-help.html
+
+--124708fcc--2015-10-16--Scott D. Sullivan
+--1076f2544--2015-10-16--Scott D. Sullivan
+5	1	app/controllers/user_sessions_controller.rb
+1	5	app/views/users/change_email.html.erb
+0	4	app/views/users/change_password.html.erb
+
+--bef43b066--2015-10-16--ChulaBruggeling
+1	1	app/views/tag_wranglings/index.html.erb
+
+--bc605935d--2015-10-15--zz9pzza
+--86ddfcade--2015-10-15--zz9pzza
+--f7732a48d--2015-10-15--zz9pzza
+--770a565c7--2015-10-15--zz9pzza
+--9edd45480--2015-10-15--zz9pzza
+--82bccb41c--2015-10-04--Scott D. Sullivan
+--92a12a5d2--2015-10-04--zz9pzza
+--cf10a4b53--2015-10-04--zz9pzza
+1	1	config/deploy/production.rb
+
+--eb8a3fa70--2015-10-01--Scott D. Sullivan
+1	1	app/controllers/bookmarks_controller.rb
+1	1	features/bookmarks/bookmark_create.feature
+
+--8913da1d2--2015-10-01--Scott D. Sullivan
+1	1	app/controllers/collection_participants_controller.rb
+
+--614eb9d3d--2015-09-30--Scott D. Sullivan
+0	37	app/controllers/collection_items_controller.rb
+4	4	app/mailers/user_mailer.rb
+
+--1a3c59aa2--2015-09-30--Ariana
+4	4	spec/models/story_parser_spec.rb
+
+--14003e829--2015-09-28--Scott D. Sullivan
+1	1	app/controllers/collections_controller.rb
+1	1	app/models/pseud.rb
+1	1	features/works/work_create.feature
+
+--79edfd234--2015-09-28--Scott D. Sullivan
+8	1	app/controllers/collection_participants_controller.rb
+1	1	app/controllers/collections_controller.rb
+1	1	app/models/pseud.rb
+1	1	app/models/work.rb
+
+--b46b8bcdb--2015-09-28--Scott D. Sullivan
+14	10	app/controllers/bookmarks_controller.rb
+12	0	features/bookmarks/bookmark_create.feature
+
+--6afb526ef--2015-09-26--sarken
+51	53	app/models/skin.rb
+
+--1f44f1763--2015-09-26--sarken
+7	4	app/models/skin.rb
+11	0	lib/tasks/after_tasks.rake
+1	1	public/stylesheets/site/2.0/04-region-dashboard.css
+2	1	public/stylesheets/site/2.0/05-region-main.css
+13	3	public/stylesheets/site/2.0/18-zone-searchbrowse.css
+47	0	public/stylesheets/site/2.0/25-media-midsize.css
+3	40	public/stylesheets/site/2.0/{25-role-handheld.css => 26-media-narrow.css}
+0	0	public/stylesheets/site/2.0/{26-role-aural.css => 27-media-aural.css}
+0	0	public/stylesheets/site/2.0/{27-role-print.css => 28-media-print.css}
+0	0	public/stylesheets/site/2.0/{28-role-ie8_or_lower.css => 29-role-ie8_or_lower.css}
+0	0	public/stylesheets/site/2.0/{29-role-ie5.css => 30-role-ie5.css}
+0	0	public/stylesheets/site/2.0/{30-role-ie6.css => 31-role-ie6.css}
+0	0	public/stylesheets/site/2.0/{31-role-ie7.css => 32-role-ie7.css}
+
+--da99b8525--2015-09-24--Ariana
+--a56739f8a--2015-09-24--Ariana
+0	2	spec/models/work_spec.rb
+
+--5998be710--2015-07-07--Ariana
+1	0	features/importing/work_import_dw.feature
+7	1	features/step_definitions/preferences_steps.rb
+
+--e336d1094--2015-07-01--Ariana
+0	1	spec/models/work_spec.rb
+
+--471fc2c61--2015-06-22--Ariana
+3	2	app/models/story_parser.rb
+18	0	spec/models/story_parser_spec.rb
+
+--ab6caf4f5--2015-05-30--Ariana
+2	2	app/models/story_parser.rb
+
+--10f58f068--2015-09-21--sarken
+1	1	app/controllers/fandoms_controller.rb
+
+--533d1f563--2015-09-14--sarken
+1	1	public/stylesheets/site/2.0/05-region-main.css
+
+--8b4784c0b--2015-09-14--sarken
+16	16	public/502.html
+14	14	public/503.html
+16	16	public/507.html
+20	21	public/nomaintenance.html
+
+--b8093b744--2015-09-14--sarken
+3	3	public/nomaintenance.html
+4	0	public/stylesheets/site/2.0/05-region-main.css
+
+--9cc9d03df--2015-09-14--sarken
+1	4	app/helpers/application_helper.rb
+1	1	public/500.html
+1	1	public/502.html
+1	1	public/503.html
+1	1	public/507.html
+1	1	public/stylesheets/site/2.0/05-region-main.css
+
+--43b79db30--2015-09-14--sarken
+0	4	public/stylesheets/site/2.0/05-region-main.css
+
+--d2267912e--2015-09-14--sarken
+1	1	public/stylesheets/site/2.0/05-region-main.css
+
+--650463566--2015-09-14--sarken
+6	0	app/helpers/application_helper.rb
+3	5	app/views/errors/403.html.erb
+8	5	app/views/errors/404.html.erb
+3	5	app/views/errors/422.html.erb
+3	5	app/views/errors/500.html.erb
+4	4	public/500.html
+3	3	public/502.html
+3	3	public/503.html
+4	4	public/507.html
+2	6	public/stylesheets/site/2.0/05-region-main.css
+
+--26cb191c8--2015-09-13--sarken
+1	1	spec/models/skin_spec.rb
+
+--b453b43b4--2015-09-11--sarken
+5	5	lib/css_cleaner.rb
+
+--5192bc14b--2015-09-11--sarken
+5	2	lib/css_cleaner.rb
+5	2	spec/models/skin_spec.rb
+
+--b02fdd739--2015-09-08--sarken
+2	2	features/gift_exchanges/challenge_giftexchange.feature
+6	6	features/other_a/gift.feature
+1	1	features/step_definitions/challege_gift_exchange_steps.rb
+1	1	features/step_definitions/gift_steps.rb
+
+--44be34596--2015-09-07--sarken
+3	3	app/views/gifts/index.html.erb
+1	1	app/views/works/_standard_form.html.erb
+
+--e55321e57--2015-09-07--sarken
+3	3	app/views/works/_meta.html.erb
+
+--678fd7aab--2015-09-03--astolat shalott
+5	1	app/controllers/chapters_controller.rb
+12	2	app/controllers/comments_controller.rb
+0	7	app/helpers/comments_helper.rb
+4	2	app/models/comment.rb
+8	4	app/views/comments/_comment_thread.html.erb
+5	1	app/views/comments/_commentable.html.erb
+1	1	app/views/comments/_single_comment.html.erb
+9	6	app/views/comments/unreviewed.html.erb
+2	2	app/views/works/_standard_form.html.erb
+2	2	app/views/works/_work_header_navigation.html.erb
+43	3	features/comments_and_kudos/comment_moderation.feature
+6	1	features/step_definitions/comment_steps.rb
+0	0	public/help/{anonymous-commenting.html => comments-anonymous.html}
+2	0	public/help/comments-moderated.html
+
+--528ebf0dc--2015-09-03--astolat shalott
+0	1	Gemfile
+0	11	Gemfile.lock
+
+--bba491991--2015-09-03--astolat shalott
+11	0	Gemfile.lock
+
+--a212234d5--2015-09-03--astolat shalott
+1	0	Gemfile
+42	4	app/controllers/comments_controller.rb
+7	0	app/helpers/comments_helper.rb
+4	0	app/models/chapter.rb
+12	3	app/models/comment.rb
+5	0	app/views/comments/_single_comment.html.erb
+15	0	app/views/comments/unreviewed.html.erb
+7	0	app/views/works/_standard_form.html.erb
+8	0	app/views/works/_work_header_navigation.html.erb
+4	0	config/routes.rb
+5	0	db/migrate/20150901024743_add_moderated_commenting_enabled_to_works.rb
+5	0	db/migrate/20150901132832_add_unreviewed_to_comments.rb
+63	0	features/comments_and_kudos/comment_moderation.feature
+22	0	features/step_definitions/comment_steps.rb
+1	1	lib/plugins/acts_as_commentable/commentable_entity.rb
+
+--0b0790ef0--2015-08-31--sarken
+0	1	features/other_a/gift.feature
+
+--826916ef7--2015-08-31--sarken
+1	1	app/models/gift.rb
+
+--0e5fdfdde--2015-08-31--sarken
+11	3	features/other_a/gift.feature
+
+--a456ce64a--2015-08-31--sarken
+2	2	features/other_a/gift.feature
+
+--20e49daa5--2015-08-31--sarken
+1	1	app/controllers/gifts_controller.rb
+1	1	config/routes.rb
+
+--c00d405d5--2015-08-31--sarken
+0	1	features/other_a/gift.feature
+
+--de3faa9a8--2015-08-31--sarken
+1	1	features/step_definitions/gift_steps.rb
+
+--3f9d028fa--2015-08-31--sarken
+1	2	app/controllers/gifts_controller.rb
+1	1	app/models/gift.rb
+
+--34dbc3bf4--2015-08-31--sarken
+1	2	app/controllers/gifts_controller.rb
+4	4	app/models/gift.rb
+
+--035d7f5d4--2015-08-31--sarken
+2	2	app/models/gift.rb
+4	4	app/models/pseud.rb
+3	3	app/models/user.rb
+3	3	app/models/work.rb
+2	2	config/routes.rb
+1	7	features/step_definitions/challege_gift_exchange_steps.rb
+2	3	features/step_definitions/gift_steps.rb
+1	1	features/support/paths.rb
+
+--46b55aeed--2015-08-31--sarken
+1	1	app/views/works/_work_module.html.erb
+
+--51d0fca63--2015-08-31--sarken
+7	3	app/controllers/gifts_controller.rb
+2	0	app/models/pseud.rb
+3	2	app/models/user.rb
+10	0	app/views/gifts/_gift_blurb.html.erb
+17	4	app/views/gifts/index.html.erb
+0	6	app/views/works/_work_header_navigation.html.erb
+8	7	features/other_a/gift.feature
+3	1	features/support/paths.rb
+
+--56114c72a--2015-08-31--sarken
+--4990d1664--2015-08-30--astolat shalott
+2	2	app/helpers/works_helper.rb
+5	4	app/models/creation_observer.rb
+2	2	app/models/gift.rb
+7	8	app/models/work.rb
+1	1	app/views/works/_standard_form.html.erb
+1	1	app/views/works/_work_header_notes.html.erb
+17	0	features/gift_exchanges/challenge_giftexchange.feature
+26	9	features/other_a/gift.feature
+20	0	features/step_definitions/challege_gift_exchange_steps.rb
+21	0	features/step_definitions/gift_steps.rb
+
+--525e5c42f--2015-08-29--shalott
+15	0	app/controllers/gifts_controller.rb
+1	1	app/helpers/works_helper.rb
+19	1	app/models/gift.rb
+1	1	app/models/pseud.rb
+1	1	app/models/user.rb
+21	5	app/models/work.rb
+8	0	app/views/works/_meta.html.erb
+6	0	app/views/works/_work_header_navigation.html.erb
+6	1	config/routes.rb
+5	0	db/migrate/20150829180100_add_rejected_to_gifts.rb
+49	0	features/other_a/gift.feature
+13	1	features/step_definitions/gift_steps.rb
+2	0	features/support/paths.rb
+
+--7500539db--2015-08-28--sarken
+1	1	public/javascripts/tinymce/plugins/autolink/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/imagetools/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/media/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/searchreplace/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/spellchecker/plugin.min.js
+1	1	public/javascripts/tinymce/skins/lightgray/content.inline.min.css
+1	1	public/javascripts/tinymce/skins/lightgray/content.min.css
+1	1	public/javascripts/tinymce/skins/lightgray/skin.ie7.min.css
+1	1	public/javascripts/tinymce/skins/lightgray/skin.min.css
+1	1	public/javascripts/tinymce/themes/modern/theme.min.js
+12	12	public/javascripts/tinymce/tinymce.min.js
+
+--d7f5d05c7--2015-08-28--sarken
+--8b0d17b77--2015-08-26--shalott
+1	1	app/views/works/_work_abbreviated_list.html.erb
+
+--7e5389d47--2015-08-26--shalott
+1	1	app/views/comments/_comment_abbreviated_list.html.erb
+
+--3762766af--2015-08-26--shalott
+12	7	app/views/admin/admin_users/confirm_delete_user_creations.html.erb
+
+--5e4585092--2015-08-26--shalott
+2	2	app/controllers/admin/admin_users_controller.rb
+21	27	app/views/admin/admin_users/confirm_delete_user_creations.html.erb
+15	0	app/views/comments/_comment_abbreviated_list.html.erb
+8	7	features/admins/admin_manage_users.feature
+4	0	features/step_definitions/collection_steps.rb
+
+--0a4d5bfbe--2015-08-26--shalott
+1	1	features/admins/admin_manage_users.feature
+
+--4a4c51d1b--2015-08-26--shalott
+2	2	features/admins/admin_manage_users.feature
+
+--f000b27c2--2015-08-26--shalott
+37	2	app/controllers/admin/admin_users_controller.rb
+33	0	app/views/admin/admin_users/confirm_delete_user_creations.html.erb
+4	0	app/views/admin/admin_users/show.html.erb
+4	0	config/routes.rb
+47	0	features/admins/admin_manage_users.feature
+25	0	features/step_definitions/admin_steps.rb
+4	0	features/step_definitions/series_steps.rb
+6	0	features/step_definitions/work_steps.rb
+
+--999fb40c8--2015-08-25--shalott
+--a73e16b5c--2015-08-22--shalott
+--25250e0a6--2015-07-10--sarken
+1	1	public/javascripts/tinymce/plugins/advlist/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/anchor/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/autolink/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/autoresize/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/autosave/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/bbcode/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/charmap/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/code/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/colorpicker/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/contextmenu/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/directionality/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/emoticons/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/example/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/fullpage/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/fullscreen/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/hr/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/image/plugin.min.js
+1	0	public/javascripts/tinymce/plugins/imagetools/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/importcss/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/insertdatetime/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/layer/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/legacyoutput/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/link/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/lists/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/media/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/nonbreaking/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/noneditable/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/pagebreak/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/paste/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/preview/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/print/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/save/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/searchreplace/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/spellchecker/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/tabfocus/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/table/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/template/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/textcolor/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/textpattern/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/visualblocks/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/visualchars/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/wordcount/plugin.min.js
+1	1	public/javascripts/tinymce/skins/lightgray/content.inline.min.css
+1	1	public/javascripts/tinymce/skins/lightgray/content.min.css
+0	1	public/javascripts/tinymce/skins/lightgray/fonts/readme.md
+0	175	public/javascripts/tinymce/skins/lightgray/fonts/tinymce-small.dev.svg
+-	-	public/javascripts/tinymce/skins/lightgray/fonts/tinymce-small.eot
+56	56	public/javascripts/tinymce/skins/lightgray/fonts/tinymce-small.svg
+-	-	public/javascripts/tinymce/skins/lightgray/fonts/tinymce-small.ttf
+-	-	public/javascripts/tinymce/skins/lightgray/fonts/tinymce-small.woff
+0	153	public/javascripts/tinymce/skins/lightgray/fonts/tinymce.dev.svg
+-	-	public/javascripts/tinymce/skins/lightgray/fonts/tinymce.eot
+77	57	public/javascripts/tinymce/skins/lightgray/fonts/tinymce.svg
+-	-	public/javascripts/tinymce/skins/lightgray/fonts/tinymce.ttf
+-	-	public/javascripts/tinymce/skins/lightgray/fonts/tinymce.woff
+1	1	public/javascripts/tinymce/skins/lightgray/skin.ie7.min.css
+1	1	public/javascripts/tinymce/skins/lightgray/skin.min.css
+1	1	public/javascripts/tinymce/themes/modern/theme.min.js
+12	11	public/javascripts/tinymce/tinymce.min.js
+
+--0c8793056--2015-07-10--sarken
+--81984443f--2015-07-07--Ariana
+1	0	features/importing/work_import_dw.feature
+7	1	features/step_definitions/preferences_steps.rb
+
+--0690a0aea--2015-07-01--Ariana
+1	1	app/models/story_parser.rb
+5	5	spec/models/story_parser_spec.rb
+0	5	spec/models/work_spec.rb
+
+--ed8433593--2015-06-22--Ariana
+3	2	app/models/story_parser.rb
+18	0	spec/models/story_parser_spec.rb
+
+--3a7990827--2015-06-21--Ariana
+--90e878320--2015-05-30--Ariana
+2	2	app/models/story_parser.rb
+
+--6b8b7d5b5--2014-08-13--sarken
+--b964ba8c8--2014-07-30--sarken
+3	2	public/javascripts/mce_editor.js
+1	1	public/javascripts/mce_editor.min.js
+1	1	public/javascripts/tinymce/plugins/advlist/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/anchor/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/autolink/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/autoresize/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/autosave/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/bbcode/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/charmap/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/code/plugin.min.js
+1	0	public/javascripts/tinymce/plugins/colorpicker/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/contextmenu/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/directionality/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/emoticons/plugin.min.js
+8	0	public/javascripts/tinymce/plugins/example/dialog.html
+1	1	public/javascripts/tinymce/plugins/example/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/fullpage/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/hr/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/image/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/importcss/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/insertdatetime/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/layer/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/legacyoutput/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/link/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/lists/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/media/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/nonbreaking/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/noneditable/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/pagebreak/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/paste/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/preview/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/save/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/searchreplace/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/spellchecker/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/tabfocus/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/table/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/template/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/textcolor/plugin.min.js
+1	0	public/javascripts/tinymce/plugins/textpattern/plugin.min.js
+7	0	public/javascripts/tinymce/plugins/visualblocks/css/visualblocks.css
+1	1	public/javascripts/tinymce/plugins/visualblocks/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/visualchars/plugin.min.js
+1	1	public/javascripts/tinymce/plugins/wordcount/plugin.min.js
+1	1	public/javascripts/tinymce/skins/lightgray/content.inline.min.css
+1	1	public/javascripts/tinymce/skins/lightgray/content.min.css
+175	0	public/javascripts/tinymce/skins/lightgray/fonts/tinymce-small.dev.svg
+-	-	public/javascripts/tinymce/skins/lightgray/fonts/tinymce-small.eot
+55	168	public/javascripts/tinymce/skins/lightgray/fonts/tinymce-small.svg
+-	-	public/javascripts/tinymce/skins/lightgray/fonts/tinymce-small.ttf
+-	-	public/javascripts/tinymce/skins/lightgray/fonts/tinymce-small.woff
+153	0	public/javascripts/tinymce/skins/lightgray/fonts/tinymce.dev.svg
+-	-	public/javascripts/tinymce/skins/lightgray/fonts/tinymce.eot
+56	146	public/javascripts/tinymce/skins/lightgray/fonts/tinymce.svg
+-	-	public/javascripts/tinymce/skins/lightgray/fonts/tinymce.ttf
+-	-	public/javascripts/tinymce/skins/lightgray/fonts/tinymce.woff
+-	-	public/javascripts/tinymce/skins/lightgray/img/wline.gif
+1	1	public/javascripts/tinymce/skins/lightgray/skin.ie7.min.css
+1	1	public/javascripts/tinymce/skins/lightgray/skin.min.css
+1	1	public/javascripts/tinymce/themes/modern/theme.min.js
+11	10	public/javascripts/tinymce/tinymce.min.js
