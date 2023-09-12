@@ -18,7 +18,7 @@ def intersection(lst1, lst2):
     lst3 = [value for value in lst1 if value in lst2]
     return lst3
 
-path_of_the_directory = r"F:\Pesquisa TAITI\Dependências\action-center-platform"
+path_of_the_directory = r"F:\Pesquisa TAITI\Dependências\action-center-platform\Colar"
 degreeofdependence= 80
 df = pd.read_csv('https___github.com_EFForg_action-center-platform.csv',engine="python", sep=';')
 
