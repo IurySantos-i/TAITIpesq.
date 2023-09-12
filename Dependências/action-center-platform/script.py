@@ -20,7 +20,7 @@ def intersection(lst1, lst2):
 
 path_of_the_directory = r"F:\Pesquisa TAITI\Dependências\action-center-platform"
 degreeofdependence= 80
-df = pd.read_excel('ArquivosTAITI.xlsx')
+df = pd.read_csv('https___github.com_EFForg_action-center-platform.csv',engine="python", sep=',')
 
 
 testIwithDeps = []
@@ -34,10 +34,21 @@ index=0
 
 for filename in os.listdir(path_of_the_directory):
 
-    if filename.endswith('.csv'):
-        print(filename)
+    if filename.endswith('.csv') and not filename.startswith("http"):
+        if (pd.read_csv('120_raw_gitlog.logdependencies.csv')).values.tolist() == []:
+            testIwithDeps.append("0")
+            precision.append("0")
+            recall.append("0")
+            precisiondeps.append("0")
+            recalldeps.append("0")
+            f2.append("0")
+            f2deps.append("0")
 
-        df1 = pd.read_csv(filename, engine="python", sep=';')
+            index = index+1
+            continue
+
+
+        df1 = pd.read_csv(filename, engine="python", sep=',')
         df1.drop(df1[df1['degree'] > degreeofdependence ].index, inplace = True)
 
         weaklogicaldependence=df1['coupled'].tolist()
