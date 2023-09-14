@@ -1,0 +1,88 @@
+--16a99762b1--2017-02-03--Markus Kahl
+--a0dc2efe0e--2017-02-02--CI
+1	1	Gemfile.lock
+
+--9c67ab0f84--2017-02-01--CI
+1	1	Gemfile.lock
+
+--3a904d066e--2017-01-30--CI
+1	1	Gemfile.lock
+
+--472297ad1e--2017-01-28--CI
+1	1	Gemfile.lock
+
+--e2e35138dd--2017-01-27--Oliver Günther
+--b3f6c210e8--2017-01-26--Henriette Dinger
+2	1	app/assets/stylesheets/layout/_toolbar.lsg
+1	1	app/assets/stylesheets/open_project_global/_variables.sass
+2	1	app/helpers/work_packages_helper.rb
+7	6	app/views/common/_calendar.html.erb
+1	1	app/views/repositories/_dir_list_content.html.erb
+
+--8be2262583--2017-01-26--ulferts
+--0d2bd8d2a6--2017-01-25--Markus Kahl
+1	1	db/migrate/20151028063433_boolearlize_bool_custom_values.rb
+
+--ed53e00867--2017-01-24--CI
+1	1	Gemfile.lock
+
+--a11da1c339--2017-01-22--CI
+1	1	Gemfile.lock
+
+--fef232ec13--2017-01-20--Cyril Rohr
+0	5	.pkgr.yml
+
+--c5f545bfd0--2017-01-20--Henriette Dinger
+2	2	app/views/account/_login.html.erb
+1	1	app/views/account/_password_login_form.html.erb
+33	0	app/views/account/register.html.erb
+1	1	features/step_definitions/{login_steps.rb => registration_steps.rb}
+4	4	features/users/user_activation.feature
+6	6	features/users/user_registration.feature
+8	4	spec/features/auth/omniauth_spec.rb
+1	1	spec/features/users/create_spec.rb
+
+--bdd075f15a--2017-01-20--Oliver Günther
+1	1	lib/open_project/version.rb
+
+--25d58006ba--2017-01-20--Oliver Günther
+2	2	Gemfile.lock
+
+--455d15659c--2017-01-20--Oliver Günther
+1	1	.pkgr.yml
+
+--c0837bc7c6--2017-01-06--Henriette Dinger
+3	3	spec/features/auth/omniauth_spec.rb
+
+--1a285fc530--2017-01-06--Henriette Dinger
+37	0	features/step_definitions/login_steps.rb
+8	4	features/users/user_activation.feature
+6	12	features/users/user_registration.feature
+
+--6b5a4df797--2016-12-16--Henriette Dinger
+8	4	app/assets/stylesheets/content/_accounts.sass
+4	0	app/assets/stylesheets/content/_modal.sass
+10	1	app/views/account/_password_login_form.html.erb
+2	1	frontend/app/components/modals/modal-wrapper/modal-wrapper.directive.ts
+
+--311c11bbc5--2016-12-16--Henriette Dinger
+3	3	app/assets/stylesheets/content/_accounts.lsg
+8	11	app/assets/stylesheets/content/_accounts.sass
+2	0	app/assets/stylesheets/content/_forms.sass
+12	4	app/views/account/_login.html.erb
+2	5	app/views/account/_register.html.erb
+0	98	app/views/account/register.html.erb
+1	1	app/views/hooks/login/_auth_provider.html.erb
+
+--0990cb219d--2016-12-09--Henriette Dinger
+2	1	app/assets/stylesheets/content/_accounts.sass
+31	0	app/assets/stylesheets/content/_modal.sass
+0	30	app/assets/stylesheets/specific/onboarding.sass
+10	1	app/views/account/_login.html.erb
+106	0	app/views/account/_register.html.erb
+20	19	app/views/account/register.html.erb
+1	1	app/views/customizable/_field.html.erb
+1	1	app/views/homescreen/index.html.erb
+1	1	app/views/onboarding/_menu_item.html.erb
+3	3	app/views/onboarding/_starting_video_modal.html.erb
+9	2	frontend/app/components/modals/modal-wrapper/modal-wrapper.directive.ts

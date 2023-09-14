@@ -1,0 +1,11 @@
+entity,coupled,degree,average-revs
+public/stylesheets/widget/sass/screen.sass,public/stylesheets/widget/screen_450_410.css,100,12
+app/views/widget/earls/_cast_votes.html.haml,public/stylesheets/widget/sass/screen.sass,78,12
+app/views/widget/earls/_cast_votes.html.haml,public/stylesheets/widget/screen_450_410.css,78,12
+app/views/widget/earls/_cast_votes.html.haml,public/javascripts/widget/widget.js,62,8
+app/views/widget/earls/_cast_votes.html.haml,app/views/widget/earls/_vote_box_js.html.erb,60,10
+app/views/widget/earls/_cast_votes.html.haml,app/views/widget/questions/results.html.haml,58,9
+app/views/widget/earls/_vote_box_js.html.erb,public/stylesheets/widget/sass/screen.sass,57,11
+app/views/widget/earls/_vote_box_js.html.erb,public/stylesheets/widget/screen_450_410.css,57,11
+app/views/widget/questions/results.html.haml,public/stylesheets/widget/sass/screen.sass,55,9
+app/views/widget/questions/results.html.haml,public/stylesheets/widget/screen_450_410.css,55,9

@@ -1,0 +1,62 @@
+version: '2'
+services:
+
+  # db and testdb define local database containers for development.
+  # If you plan to use a remote database (like RDS), remove the db and testdb
+  # services and add your own database hosts to the db_host and test_db_host
+  # environment variables.
+  db:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: mysecretpassword
+
+  testdb:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: mysecrettestpassword
+
+  app:
+    build: .
+
+    # # Expose ports for development. Use 8094 to integrate with Congress Forms.
+    # ports:
+    #   - '8094:3000'
+    # # Use volumes to edit files from the host OS in development.
+    # volumes:
+    #   - ./app:/opt/actioncenter/app
+    #   - ./bin:/opt/actioncenter/bin
+    #   - ./config:/opt/actioncenter/config
+    #   - ./db:/opt/actioncenter/db
+    #   - ./features:/opt/actioncenter/features
+    #   - ./lib:/opt/actioncenter/lib
+    #   - ./script:/opt/actioncenter/script
+    #   - ./spec:/opt/actioncenter/spec
+    #   - ./vendor:/opt/actioncenter/vendor
+    #   - ./Gemfile:/opt/Gemfile
+    #   - ./Gemfile.lock:/opt/Gemfile.lock
+
+    # # Automatically restart the app on exit in production.
+    # restart: always
+
+    env_file: .env
+    environment:
+      ROLE: web
+
+  # Uncomment these services to run cron/delayed job
+  #
+  # cron:
+  #   build: .
+  #   user: root
+  #   restart: always
+  #   command: cron -f
+  #   env_file: .env
+  #   environment:
+  #     ROLE: worker
+  #
+  # delayed_jobs:
+  #   build: .
+  #   restart: always
+  #   command: bundle exec rake jobs:work
+  #   env_file: .env
+  #   environment:
+  #     ROLE: worker

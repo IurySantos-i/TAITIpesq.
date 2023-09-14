@@ -1,0 +1,327 @@
+--f6dae5fad2--2016-06-22--Oliver Günther
+--49f5a836e8--2016-06-22--Oliver Günther
+2	2	frontend/app/components/work-packages/wp-single-view/single-view-wp.service.ts
+0	1	frontend/app/components/work-packages/wp-single-view/wp-single-view.directive.ts
+6	0	spec/features/work_packages/new_work_package_spec.rb
+
+--83760a4c54--2016-06-22--Alex Dik
+21	24	frontend/app/components/work-packages/wp-single-view/single-view-wp.service.ts
+9	8	frontend/app/components/work-packages/wp-single-view/wp-single-view.directive.ts
+
+--af5731a843--2016-06-22--ulferts
+1	2	app/models/work_package.rb
+9	34	spec/models/work_package_spec.rb
+2	2	spec/requests/api/v3/work_packages/create_form_resource_spec.rb
+
+--d053bcaccd--2016-06-22--ulferts
+--27198a8db4--2016-06-22--Oliver Günther
+1	1	frontend/app/components/routing/wp-details/wp-details.controller.test.js
+2	1	spec/features/work_packages/create_child_spec.rb
+
+--e337be7957--2016-06-22--Oliver Günther
+4	1	frontend/app/components/wp-buttons/wp-inline-create-button/wp-inline-create-button.controller.ts
+1	1	frontend/app/components/wp-table/wp-table.directive.ts
+6	0	spec/features/work_packages/table/create_work_packages_spec.rb
+
+--8278772ca6--2016-06-21--Alex Dik
+0	6	frontend/app/components/wp-panels/relations-panel/relations-panel.directive.html
+4	4	frontend/app/components/wp-relations/wp-relation-row/wp-relation-row.directive.ts
+166	335	frontend/app/components/wp-relations/wp-relations.directive.test.ts
+
+--d33643f0a1--2016-06-21--Alex Dik
+0	98	frontend/app/components/wp-relations/child-relations-handler/child-relations-handler.service.ts
+0	63	frontend/app/components/wp-relations/parent-relations-handler/parent-relations-handler.service.test.ts
+0	121	frontend/app/components/wp-relations/parent-relations-handler/parent-relations-handler.service.ts
+0	97	frontend/app/components/wp-relations/relations-handler/relations-handler.service.ts
+
+--2a38ff1156--2016-06-21--Oliver Günther
+1	1	frontend/app/components/api/api-v3/hal-resources/hal-resource.service.ts
+29	8	frontend/app/components/api/api-v3/hal-resources/work-package-resource.service.ts
+5	0	frontend/app/components/routing/ui-router.config.ts
+55	0	frontend/app/components/wp-copy/wp-copy.controller.ts
+19	14	frontend/app/components/wp-create/wp-create.controller.ts
+8	5	frontend/app/components/wp-create/wp-create.service.ts
+
+--0a1f9ce7f0--2016-06-21--Oliver Günther
+2	2	spec/support/pages/abstract_work_package.rb
+
+--e28ad041d2--2016-06-21--Oliver Günther
+1	3	frontend/app/components/work-packages/wp-single-view/wp-single-view.directive.html
+5	0	frontend/app/components/work-packages/wp-single-view/wp-single-view.directive.ts
+
+--d3bbc6749c--2016-06-21--Oliver Günther
+1	1	frontend/app/components/routing/main/work-packages.new.html
+1	1	frontend/app/components/routing/wp-list/wp.list.new.html
+2	1	frontend/app/components/wp-create/wp-create.controller.ts
+
+--25b5f89352--2016-06-21--Jens Ulferts
+0	16	features/work_packages/work_package_show.feature
+
+--4a8eb0dd04--2016-06-21--Jens Ulferts
+1	0	features/work_packages/attachments.feature
+
+--02216b2dd9--2016-06-21--Jens Ulferts
+8	8	features/work_packages/work_package_show.feature
+
+--e693ce0025--2016-06-21--Oliver Günther
+5	5	spec/features/work_packages/details/details_relations_spec.rb
+
+--65546c0296--2016-06-21--Oliver Günther
+1	1	frontend/app/components/wp-buttons/wp-inline-create-button/wp-inline-create-button.controller.ts
+
+--efdc044a29--2016-06-21--Oliver Günther
+22	9	frontend/app/components/wp-create/wp-create.controller.ts
+13	38	frontend/app/components/wp-create/wp-create.service.ts
+3	1	frontend/app/components/wp-edit/wp-edit-mode-state.service.ts
+
+--4af41a0350--2016-06-20--Alex Dik
+8	1	frontend/app/components/api/api-v3/hal-resources/collection-resource.service.ts
+5	4	frontend/app/components/api/api-v3/hal-resources/work-package-resource.service.ts
+4	11	frontend/app/components/wp-panels/relations-panel/relations-panel.directive.ts
+3	2	frontend/app/components/wp-relations/wp-relation-group/wp-relation-group.service.ts
+3	3	frontend/app/components/wp-relations/wp-relations.directive.ts
+
+--8136a3a26f--2016-06-15--Jens Ulferts
+65	0	lib/api/v3/relations/relation_collection_representer.rb
+11	0	lib/api/v3/relations/relations_api.rb
+11	5	lib/api/v3/work_packages/work_package_representer.rb
+67	0	spec/lib/api/v3/relations/relation_collection_representer_spec.rb
+86	8	spec/lib/api/v3/work_packages/work_package_representer_spec.rb
+102	0	spec/requests/api/v3/relations_resource_spec.rb
+
+--3d76e8759b--2016-06-20--Alex Dik
+6	1	frontend/app/components/wp-relations/wp-relations.directive.ts
+
+--041c115ff7--2016-06-20--Alex Dik
+11	2	frontend/app/components/api/api-v3/hal-resources/work-package-resource.service.ts
+102	0	frontend/app/components/wp-relations/wp-relation-group/wp-child-relation-group.service.ts
+5	5	frontend/app/components/wp-relations/wp-relation-group/wp-relation-group.service.ts
+1	1	frontend/app/components/wp-relations/wp-relations.directive.html
+11	6	frontend/app/components/wp-relations/wp-relations.service.ts
+
+--365a68e8c0--2016-06-18--Alex Dik
+2	4	frontend/app/components/wp-relations/wp-relation-group/wp-parent-relation-group.service.ts
+
+--19a4f9158f--2016-06-15--Alex Dik
+1	1	frontend/app/components/wp-relations/wp-relations.service.ts
+
+--acf8b2d7dd--2016-06-15--Alex Dik
+8	4	frontend/app/components/wp-relations/wp-relations.directive.ts
+
+--1825a78076--2016-06-15--Alex Dik
+1	0	frontend/app/components/api/api-v3/hal-resources/work-package-resource.service.ts
+0	17	frontend/app/components/wp-panels/relations-panel/relations-panel.directive.ts
+23	2	frontend/app/components/wp-relations/wp-relation-group/wp-parent-relation-group.service.ts
+0	1	frontend/app/components/wp-relations/wp-relations.service.ts
+
+--b80d13e324--2016-06-14--Alex Dik
+0	7	frontend/app/components/wp-panels/relations-panel/relations-panel.directive.html
+63	0	frontend/app/components/wp-relations/wp-relation-group/wp-parent-relation-group.service.ts
+8	4	frontend/app/components/wp-relations/wp-relation-group/wp-relation-group.service.ts
+1	1	frontend/app/components/wp-relations/wp-relations.directive.html
+7	6	frontend/app/components/wp-relations/wp-relations.directive.ts
+10	4	frontend/app/components/wp-relations/wp-relations.service.ts
+
+--e9d68bc5ae--2016-06-14--Alex Dik
+2	1	frontend/app/components/wp-relations/wp-relation-group/wp-relation-group.service.ts
+
+--773807e38f--2016-06-14--Alex Dik
+1	1	frontend/app/components/wp-relations/wp-relation-group/wp-relation-group.service.ts
+
+--fb993d27c7--2016-06-14--Alex Dik
+13	0	frontend/app/components/wp-relations/wp-relation-group/wp-relation-group.service.ts
+2	2	frontend/app/components/wp-relations/wp-relations.directive.html
+16	5	frontend/app/components/wp-relations/wp-relations.directive.ts
+
+--f325745ca8--2016-06-14--Alex Dik
+0	0	frontend/app/components/wp-relations/wp-relation-group/{wp-relation-group.ts => wp-relation-group.service.ts}
+1	1	frontend/app/components/wp-relations/wp-relations.directive.ts
+
+--0206c19683--2016-06-14--Alex Dik
+18	53	frontend/app/components/wp-panels/relations-panel/relations-panel.directive.html
+42	22	frontend/app/components/wp-panels/relations-panel/relations-panel.directive.ts
+5	5	frontend/app/components/wp-relations/add-wp-relation/add-wp-relation.directive.html
+8	26	frontend/app/components/wp-relations/add-wp-relation/add-wp-relation.directive.ts
+0	7	frontend/app/components/wp-relations/relations-handler/relations-handler.service.ts
+117	0	frontend/app/components/wp-relations/wp-relation-group/wp-relation-group.ts
+2	9	frontend/app/components/wp-relations/wp-relation-row/wp-relation-row.directive.ts
+16	16	frontend/app/components/wp-relations/wp-relations.directive.html
+30	20	frontend/app/components/wp-relations/wp-relations.directive.ts
+31	20	frontend/app/components/wp-relations/{wp-relations.constants.ts => wp-relations.service.ts}
+
+--c8faeb43fe--2016-06-10--Alex Dik
+9	5	frontend/app/components/wp-panels/relations-panel/relations-panel.directive.ts
+6	6	frontend/app/components/wp-relations/add-wp-relation/add-wp-relation.directive.html
+12	5	frontend/app/components/wp-relations/add-wp-relation/add-wp-relation.directive.ts
+3	5	frontend/app/components/wp-relations/parent-relations-handler/parent-relations-handler.service.ts
+27	31	frontend/app/components/wp-relations/relations-handler/relations-handler.service.ts
+31	12	frontend/app/components/wp-relations/wp-relation-row/wp-relation-row.directive.ts
+63	48	frontend/app/components/wp-relations/wp-relations.directive.html
+0	2	frontend/app/components/wp-relations/wp-relations.directive.test.ts
+66	43	frontend/app/components/wp-relations/wp-relations.directive.ts
+0	68	frontend/app/work_packages/helpers/work-packages-helper.js
+
+--e8041c2957--2016-06-07--Alex Dik
+14	10	frontend/app/{work_packages/tabs/related-work-package-table-row-directive.js => components/wp-relations/wp-relation-row/wp-relation-row.directive.ts}
+1	1	frontend/app/components/wp-relations/wp-relations.directive.html
+1	7	frontend/app/work_packages/tabs/index.js
+
+--d0bf7c3819--2016-06-07--Alex Dik
+0	8	frontend/app/components/wp-relations/relations-handler/relations-handler.service.ts
+0	1	frontend/app/components/wp-relations/wp-relations.directive.test.ts
+0	6	frontend/app/components/wp-relations/wp-relations.directive.ts
+
+--a492cb420c--2016-06-07--Alex Dik
+4	3	frontend/app/components/api/api-v3/hal-resources/work-package-resource.service.ts
+17	25	frontend/app/components/wp-panels/relations-panel/relations-panel.directive.ts
+
+--d6dc899063--2016-06-07--Alex Dik
+2	0	frontend/app/components/wp-relations/relations-handler/relations-handler.service.ts
+
+--4e85918e44--2016-06-07--Alex Dik
+2	2	frontend/app/components/wp-panels/relations-panel/relations-panel.directive.ts
+11	8	frontend/app/components/wp-relations/wp-relations.directive.test.ts
+
+--77190d6390--2016-06-07--Alex Dik
+17	37	frontend/{tests/unit/tests/work_packages/view_models/parent-relations-handler-test.js => app/components/wp-relations/parent-relations-handler/parent-relations-handler.service.test.ts}
+123	0	frontend/app/components/wp-relations/parent-relations-handler/parent-relations-handler.service.ts
+0	1	frontend/app/work_packages/index.js
+0	36	frontend/app/work_packages/view_models/index.js
+0	96	frontend/app/work_packages/view_models/parent-relations-handler.js
+
+--01869f4965--2016-06-07--Alex Dik
+98	0	frontend/app/components/wp-relations/child-relations-handler/child-relations-handler.service.ts
+2	2	frontend/app/components/wp-relations/relations-handler/relations-handler.service.ts
+0	78	frontend/app/work_packages/view_models/children-relations-handler.js
+0	7	frontend/app/work_packages/view_models/index.js
+
+--57f191ba61--2016-06-06--Alex Dik
+4	9	frontend/app/components/work-packages/wp-single-view/wp-single-view.directive.ts
+8	3	frontend/app/components/wp-create/wp-create.service.ts
+3	3	spec/features/work_packages/new_work_package_spec.rb
+
+--4cf0fcf3f3--2016-06-06--Alex Dik
+3	1	frontend/app/angular-modules.ts
+114	0	frontend/app/components/wp-relations/relations-handler/relations-handler.service.ts
+0	108	frontend/app/work_packages/view_models/common-relations-handler.js
+0	6	frontend/app/work_packages/view_models/index.js
+
+--0e3b7c6123--2016-06-06--Alex Dik
+4	1	frontend/app/components/routing/ui-router.config.ts
+0	36	frontend/app/components/routing/wp-details/wp-details.controller.ts
+1	36	frontend/app/components/routing/wp-show/wp-show.controller.ts
+1	1	frontend/app/components/wp-panels/relations-panel/relations-panel.directive.html
+46	1	frontend/app/components/wp-panels/relations-panel/relations-panel.directive.ts
+
+--8da9082c2f--2016-06-06--Alex Dik
+50	0	frontend/app/components/wp-relations/wp-relations.constants.ts
+0	19	frontend/app/work_packages/controllers/index.js
+
+--6fed1a7b90--2016-06-02--Alex Dik
+0	0	frontend/app/{templates/work_packages/tabs/_add_work_package_relation.html => components/wp-relations/add-wp-relation/add-wp-relation.directive.html}
+19	14	frontend/app/{work_packages/tabs/add-work-package-relation-directive.js => components/wp-relations/add-wp-relation/add-wp-relation.directive.ts}
+1	1	frontend/app/components/wp-relations/wp-relations.directive.html
+0	2	frontend/app/work_packages/tabs/index.js
+
+--5a201b4df5--2016-06-02--Alex Dik
+12	1	frontend/app/components/wp-relations/wp-relations.directive.html
+0	6	frontend/app/templates/work_packages/tabs/_add_work_package_child.html
+0	35	frontend/app/work_packages/tabs/add-work-package-child-directive.js
+0	2	frontend/app/work_packages/tabs/index.js
+
+--9eb99e527d--2016-06-02--Alex Dik
+1	1	frontend/app/angular-modules.ts
+53	53	frontend/app/components/wp-panels/relations-panel/relations-panel.directive.html
+0	0	frontend/app/{templates/work_packages/tabs/_work_package_relations.html => components/wp-relations/wp-relations.directive.html}
+88	107	frontend/{tests/unit/tests/work_packages/directives/work-package-relations-directive-test.js => app/components/wp-relations/wp-relations.directive.test.ts}
+11	5	frontend/app/{work_packages/tabs/work-package-relations-directive.js => components/wp-relations/wp-relations.directive.ts}
+0	6	frontend/app/work_packages/tabs/index.js
+
+--37831fdc24--2016-06-01--Alex Dik
+1	1	frontend/app/components/routing/ui-router.config.ts
+0	0	frontend/app/{templates/work_packages/tabs/relations.html => components/wp-panels/relations-panel/relations-panel.directive.html}
+38	0	frontend/app/components/wp-panels/relations-panel/relations-panel.directive.ts
+
+--4fbcf39663--2016-06-01--Alex Dik
+1	2	spec/features/work_packages/create_child_spec.rb
+1	1	spec/support/pages/abstract_work_package_create.rb
+
+--fb122066fd--2016-05-31--Alex Dik
+3	1	frontend/app/components/routing/ui-router.config.ts
+0	6	frontend/app/components/wp-create/wp-create.controller.ts
+17	19	spec/features/work_packages/new_work_package_spec.rb
+21	1	spec/support/pages/abstract_work_package.rb
+
+--fadf0eca9b--2016-05-30--Alex Dik
+220	0	frontend/app/components/routing/wp-details/wp-details.controller.test.js
+
+--d46a6e2365--2016-05-30--Alex Dik
+1	1	frontend/app/components/routing/main/work-packages.new.html
+1	1	frontend/app/components/routing/wp-list/wp.list.new.html
+14	6	frontend/app/components/wp-create/wp-create.controller.ts
+
+--81cc3545a9--2016-05-30--Alex Dik
+20	1	frontend/app/components/wp-create/wp-create.controller.ts
+
+--eb004bfbc6--2016-05-30--Alex Dik
+1	1	frontend/app/components/routing/wp-list/wp.list.new.html
+
+--782c6572ee--2016-05-30--Alex Dik
+1	0	frontend/app/components/routing/main/work-packages.new.html
+2	1	frontend/app/components/routing/wp-list/wp.list.new.html
+12	1	frontend/app/components/wp-create/wp-create.controller.ts
+
+--7cd45c2186--2016-05-30--Alex Dik
+12	2	frontend/app/components/routing/main/work-packages.new.html
+4	0	frontend/app/components/routing/ui-router.config.ts
+21	2	frontend/app/components/routing/wp-list/wp.list.new.html
+9	28	frontend/app/components/wp-create/{wp-create.directive.ts => wp-create.controller.ts}
+0	13	frontend/app/components/wp-create/wp-create.directive.html
+
+--7e8c9beea4--2016-05-30--Alex Dik
+1	1	frontend/app/components/routing/main/work-packages.new.html
+1	1	frontend/app/components/routing/wp-list/wp.list.new.html
+8	2	frontend/app/components/wp-create/wp-create.directive.ts
+13	3	frontend/app/components/wp-create/wp-create.service.ts
+1	1	frontend/app/components/wp-edit/wp-edit-form.directive.ts
+3	1	frontend/app/components/wp-edit/wp-edit-mode-state.service.ts
+
+--c7096bb220--2016-05-30--Alex Dik
+6	2	frontend/app/components/work-packages/wp-subject/wp-subject.directive.ts
+3	0	frontend/app/components/wp-create/wp-create.directive.html
+1	1	frontend/app/components/wp-edit/wp-edit-mode-state.service.ts
+
+--58d5ee0072--2016-05-30--Alex Dik
+10	3	frontend/app/components/wp-create/wp-create.service.ts
+3	2	frontend/app/components/wp-edit/wp-edit-mode-state.service.ts
+
+--b68394d3cb--2016-05-27--Alex Dik
+1	2	frontend/app/components/routing/main/work-packages.new.html
+1	2	frontend/app/components/routing/wp-list/wp.list.new.html
+0	68	frontend/app/components/work-packages/wp-create-form/wp-create-form.directive.html
+0	64	frontend/app/components/work-packages/wp-create-form/wp-create-form.directive.js
+0	69	frontend/app/components/work-packages/wp-create-form/wp-full-create-form.directive.html
+6	0	frontend/app/components/work-packages/wp-single-view/wp-single-view.directive.ts
+10	0	frontend/app/components/wp-create/wp-create.directive.html
+81	0	frontend/app/components/wp-create/wp-create.directive.ts
+7	0	frontend/app/components/wp-create/wp-create.service.ts
+
+--7447da02a6--2016-05-27--Alex Dik
+11	12	frontend/app/components/wp-buttons/wp-inline-create-button/wp-inline-create-button.controller.ts
+11	5	frontend/app/components/wp-create/wp-create.service.ts
+
+--7758e2328b--2016-05-27--Alex Dik
+10	11	frontend/app/components/wp-buttons/wp-create-button/wp-create-button.controller.ts
+4	4	frontend/app/components/wp-buttons/wp-create-button/wp-create-button.directive.html
+1	1	frontend/app/components/wp-buttons/wp-create-button/wp-create-button.directive.ts
+
+--67313c8066--2016-05-25--Alex Dik
+5	18	frontend/app/components/wp-buttons/wp-inline-create-button/wp-inline-create-button.controller.ts
+56	0	frontend/app/components/wp-create/wp-create.service.ts
+
+--24785f165f--2016-06-17--Alex Dik
+0	2	frontend/tslint.json
+
+--009fe4894c--2016-06-21--Oliver Günther
+1	0	config/locales/js-en.yml
+3	3	frontend/app/components/wp-edit/wp-edit-mode-state.service.ts

@@ -1,0 +1,56 @@
+--f30ad54b95--2010-08-24--Mark Maglana
+--056007c0de--2010-08-24--Mark Maglana
+2	1	config/routes.rb
+31	0	features/scrum_master.feature
+74	0	features/step_definitions/global_steps.rb
+18	58	features/step_definitions/product_owner_steps.rb
+48	0	features/step_definitions/scrum_master_steps.rb
+1	21	features/support/setup.rb
+
+--eaa9cfbd09--2010-08-24--Mark Maglana
+1	1	app/controllers/stories_controller.rb
+1	1	app/models/story.rb
+44	42	features/product_owner.feature
+9	2	features/step_definitions/product_owner_steps.rb
+
+--b9a6b7ab1e--2010-08-24--Mark Maglana
+14	0	db/migrate/018_fix_story_positions_again.rb
+
+--db9a677534--2010-08-24--friflaj
+5	8	app/models/story.rb
+
+--182fe92b53--2010-08-24--friflaj
+5	8	app/models/story.rb
+
+--1f4c69dcf0--2010-08-23--friflaj
+4	2	features/.autotest_example
+
+--cb4cc5afac--2010-08-23--friflaj
+2	0	config/locales/en.yml
+55	54	config/locales/nl.yml
+
+--a663b30884--2010-08-23--friflaj
+0	1	app/controllers/backlogs_controller.rb
+3	3	app/models/sprint.rb
+10	6	app/views/backlogs/index.html.erb
+3	3	lib/backlogs_issue_patch.rb
+
+--76645c13d7--2010-08-22--friflaj
+4	3	db/migrate/013_fill_position.rb
+
+--ce0e60115c--2010-08-21--friflaj
+7	3	app/views/backlogs_global/statistics.rhtml
+
+--18ee600376--2010-08-20--friflaj
+10	0	app/views/backlogs_global/statistics.rhtml
+9	0	lib/backlogs_project_patch.rb
+
+--3ec41d99ba--2010-08-20--friflaj
+1	1	app/controllers/backlogs_global_controller.rb
+2	1	app/models/sprint.rb
+5	5	app/models/story.rb
+17	12	app/views/backlogs_global/statistics.rhtml
+8	14	config/locales/en.yml
+42	36	config/locales/nl.yml
+183	132	lib/backlogs_project_patch.rb
+3	0	lib/tasks/update_translations.rake

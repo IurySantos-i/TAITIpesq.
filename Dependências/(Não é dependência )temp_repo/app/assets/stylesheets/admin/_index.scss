@@ -1,0 +1,167 @@
+/**********************
+Actions tab
+*************+*********/
+
+table.table-simple.table-spaced td {
+  padding: 13px 9px;
+}
+table.table-simple.table-spaced tr:hover {
+  background-color: #F7F7F7;
+}
+td.action-icons {
+  width: 42px;
+  i.icon {
+    display: block;
+    position: relative;
+    top: 1px;
+  }
+}
+#action-pages td.action-titles {
+  word-wrap: break-word;
+  max-width: 520px;
+  @media (max-width: $screen-xs-max) {
+    display: block;
+    border-bottom: 0;
+  }
+}
+#action-pages td.action-links {
+  @media (max-width: $screen-xs-max) {
+    display: block;
+    text-align: left;
+    padding-top: 0;
+  }
+}
+#action-pages table .btn-group {
+  @media (min-width: $screen-md-min) {
+    min-width: 343px;
+  }
+  @media (max-width: $screen-sm-max) {
+    min-width: 190px;
+  }
+}
+#action-pages td.action-icons {
+  @media (max-width: $screen-xs-max) {
+    display: none;
+  }
+}
+#action-pages .btn-group   .btn.btn-sm {
+  text-align: center;
+  padding: 6px 14px 7px 17px;
+  border-color: #ddd;
+  font-size: 13px;
+
+  @media (max-width: $screen-sm-max) {
+    padding: 4px 5px 4px 5px;
+  }
+
+  &:hover {
+    background-color: #fff;
+    i {
+      color: $red;
+    }
+  }
+}
+#action-pages .btn-group i {
+  @include transition( color 0.5s ease );
+  position: relative;
+  font-size: 19px;
+  left: -4px;
+  top: 1px;
+  padding-right: 1px;
+
+  @media (max-width: $screen-sm-max) {
+    display: none;
+  }
+}
+
+.tabs-left .create-new {
+  float: none !important;
+}
+
+#filter_action_pages {
+  padding: 0 9px 13px 9px;
+
+  @media (max-width: 767px) {
+    padding-top: 13px;
+  }
+
+  fieldset {
+    margin-bottom: 0.5rem;
+  }
+
+  input[type=radio] {
+    float: none;
+
+    position: absolute;
+    left: -9999999px;
+
+    + label {
+      display: inline-block;
+      margin-right: 1.5rem;
+
+      cursor: pointer;
+    }
+
+    + label > .icon {
+      display: none;
+      margin-right: 0.3rem;
+      vertical-align: middle;
+    }
+
+    + label > .on, &[value=all]:checked + label {
+      color: $red;
+    }
+
+    &:checked + label > .icon.on {
+      display: inline-block;
+    }
+
+    &:not(:checked) + label > .icon.off {
+      display: inline-block;
+    }
+  }
+
+  button[type=reset] {
+    border: 0;
+    background: rgba(0, 0, 0, 0);
+    font-size: 11px;
+  }
+
+  .query {
+    display: flex;
+    flex-direction: row;
+
+    input[type=text] {
+      flex: 1 0;
+    }
+
+    input[type=submit] {
+      margin-left: 8px;
+    }
+  }
+}
+
+/**********************
+Homepage tab
+*************+*********/
+.select-featured {
+  margin-bottom: 50px;
+  select {
+    max-width: 100%;
+  }
+}
+
+/**********************
+Partners tab
+*************+*********/
+#partners {
+  h2 {
+    margin-top: 0;
+  }
+  .back-button {
+    margin-bottom: 10px;
+  }
+  label {
+    font-weight: 100;
+  }
+}
