@@ -36,8 +36,10 @@ for filename in os.listdir(path_of_the_directory):
     if filename.endswith('.csv') and not filename.startswith("http") and (pd.read_csv(filename, sep=";")).values.tolist() == []:
 
             Taiti= df.at[index,'TestI'][1:-1].split(",")
-            #Taiti= [x.strip(' ') for x in Taiti]
+            Taiti = [x.strip(' ') for x in Taiti]
+
             Changed= df.at[index,'Changed files'][1:-1].split(",")
+            Changed = [x.strip(' ') for x in Changed]
 
             precisionTemp = len(intersection(Taiti,Changed))/len(Taiti)
             recallTemp = len(intersection(Taiti,Changed))/len(Changed)
@@ -69,9 +71,11 @@ for filename in os.listdir(path_of_the_directory):
 
 
         Taiti= df.at[index,'TestI'][1:-1].split(",")
-        Changed= df.at[index,'Changed files'][1:-1].split(",")
-
         Taiti= [x.strip(' ') for x in Taiti]
+        Changed= df.at[index,'Changed files'][1:-1].split(",")
+        Changed = [x.strip(' ') for x in Changed]
+
+
 
         Final = Matchmaker(compare,Taiti)
 
