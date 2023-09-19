@@ -1,0 +1,3 @@
+entity,coupled,degree,average-revs
+features/challenge_promptmeme_unlimited.feature,features/step_definitions/challenge_steps.rb,80,8
+features/challenge_promptmeme.feature,features/step_definitions/challenge_steps.rb,75,8

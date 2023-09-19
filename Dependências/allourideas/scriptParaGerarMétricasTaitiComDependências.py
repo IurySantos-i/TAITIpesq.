@@ -19,11 +19,12 @@ def intersection(lst1, lst2):
     return lst3
 
 path_of_the_directory = r"F:\Pesquisa TAITI\Dependências\allourideas"
-degreeofdependence= 80
+degreeofdependence= 30
 df = pd.read_csv('https___github.com_allourideas_allourideas.org.csv',engine="python", sep=';')
 
 
 testIwithDeps = []
+deps = []
 precision = []
 recall = []
 f2= []
@@ -48,6 +49,7 @@ for filename in os.listdir(path_of_the_directory):
             else: f2Temp = (5*precisionTemp*recallTemp)/ (4* precisionTemp + recallTemp)
 
             testIwithDeps.append(Taiti)
+            deps.append(" ")
             precision.append(precisionTemp)
             recall.append(recallTemp)
             precisiondeps.append(precisionTemp)
@@ -81,6 +83,8 @@ for filename in os.listdir(path_of_the_directory):
 
         testIwithDepstemp = Union(Final, Taiti)
 
+        depstemp = [x for x in testIwithDepstemp if x not in Taiti]
+
         precisionTemp = len(intersection(Taiti,Changed))/len(Taiti)
 
 
@@ -102,6 +106,7 @@ for filename in os.listdir(path_of_the_directory):
         else: f2depsTemp = (5*precisiondepsTemp*recalldepsTemp)/ (4* precisiondepsTemp + recalldepsTemp)
 
         testIwithDeps.append(testIwithDepstemp)
+        deps.append(depstemp)
         precision.append(precisionTemp)
         recall.append(recallTemp)
         precisiondeps.append(precisiondepsTemp)
@@ -113,6 +118,7 @@ for filename in os.listdir(path_of_the_directory):
         index = index+1
 
 df['TestIWithDeps'] = testIwithDeps
+df['IsolatedDeps'] = deps
 df['Precision'] = precision
 df['Recall'] = recall
 df['F2'] = f2

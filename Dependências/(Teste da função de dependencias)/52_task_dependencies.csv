@@ -1,0 +1,7 @@
+entity,coupled,degree,average-revs
+app/views/admin/coops/show.html.haml,spec/views/admin/coops/show.html.haml_spec.rb,90,6
+app/models/coop.rb,spec/models/coop_spec.rb,76,7
+app/views/registration_forms/edit.html.haml,features/step_definitions/coop_registration_steps.rb,66,8
+features/step_definitions/coop_registration_steps.rb,spec/models/coop_spec.rb,66,8
+Gemfile,Gemfile.lock,60,15
+app/models/coop.rb,features/step_definitions/coop_registration_steps.rb,55,9

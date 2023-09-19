@@ -1,6 +1,18 @@
 
 import os
 import pandas as pd
+import re
+
+def atoi(text):
+    return int(text) if text.isdigit() else text
+
+def natural_keys(text):
+    '''
+    alist.sort(key=natural_keys) sorts in human order
+    http://nedbatchelder.com/blog/200712/human_sorting.html
+    (See Toothy's implementation in the comments)
+    '''
+    return [ atoi(c) for c in re.split(r'(\d+)', text) ]
 
 def Union(lst1, lst2):
     final_list = list(set(lst1) | set(lst2))
@@ -18,12 +30,13 @@ def intersection(lst1, lst2):
     lst3 = [value for value in lst1 if value in lst2]
     return lst3
 
-path_of_the_directory = r"F:\Pesquisa TAITI\Dependências\allourideas"
-degreeofdependence= 80
-df = pd.read_csv('https___github.com_allourideas_allourideas.org.csv',engine="python", sep=';')
+path_of_the_directory = r"F:\Pesquisa TAITI\Dependências\sharetribe"
+degreeofdependence= 30
+df = pd.read_csv('https___github.com_sharetribe_sharetribe.csv',engine="python", sep=';')
 
 
 testIwithDeps = []
+deps = []
 precision = []
 recall = []
 f2= []
@@ -32,7 +45,7 @@ recalldeps = []
 f2deps= []
 index=0
 
-for filename in os.listdir(path_of_the_directory):
+for filename in sorted(os.listdir(path_of_the_directory), key = natural_keys):
     if filename.endswith('.csv') and not filename.startswith("http") and (pd.read_csv(filename, sep=";")).values.tolist() == []:
 
             Taiti= df.at[index,'TestI'][1:-1].split(",")
@@ -44,10 +57,11 @@ for filename in os.listdir(path_of_the_directory):
             precisionTemp = len(intersection(Taiti,Changed))/len(Taiti)
             recallTemp = len(intersection(Taiti,Changed))/len(Changed)
             if (4* precisionTemp + recallTemp == 0):
-             f2Temp = "Null"
+             f2Temp = 0
             else: f2Temp = (5*precisionTemp*recallTemp)/ (4* precisionTemp + recallTemp)
 
             testIwithDeps.append(Taiti)
+            deps.append("")
             precision.append(precisionTemp)
             recall.append(recallTemp)
             precisiondeps.append(precisionTemp)
@@ -56,12 +70,12 @@ for filename in os.listdir(path_of_the_directory):
             f2deps.append(f2Temp)
 
             index = index+1
+            print(filename)
             continue
 
     if filename.endswith('.csv') and not filename.startswith("http"):
 
         df1 = pd.read_csv(filename, engine="python", sep=',')
-        df1.drop(df1[df1['degree'] > degreeofdependence ].index, inplace = True)
 
         weaklogicaldependence=df1['coupled'].tolist()
 
@@ -81,6 +95,8 @@ for filename in os.listdir(path_of_the_directory):
 
         testIwithDepstemp = Union(Final, Taiti)
 
+        depstemp = [x for x in testIwithDepstemp if x not in Taiti]
+
         precisionTemp = len(intersection(Taiti,Changed))/len(Taiti)
 
 
@@ -94,14 +110,15 @@ for filename in os.listdir(path_of_the_directory):
 
 
         if (4* precisionTemp + recallTemp == 0):
-            f2Temp = "Null"
+            f2Temp = 0
         else: f2Temp = (5*precisionTemp*recallTemp)/ (4* precisionTemp + recallTemp)
 
         if (4* precisiondepsTemp + recalldepsTemp == 0):
-            f2depsTemp = "Null"
+            f2depsTemp = 0
         else: f2depsTemp = (5*precisiondepsTemp*recalldepsTemp)/ (4* precisiondepsTemp + recalldepsTemp)
 
         testIwithDeps.append(testIwithDepstemp)
+        deps.append(depstemp)
         precision.append(precisionTemp)
         recall.append(recallTemp)
         precisiondeps.append(precisiondepsTemp)
@@ -109,10 +126,11 @@ for filename in os.listdir(path_of_the_directory):
         f2.append(f2Temp)
         f2deps.append(f2depsTemp)
 
-
+        print(filename)
         index = index+1
 
 df['TestIWithDeps'] = testIwithDeps
+df['IsolatedDeps'] = deps
 df['Precision'] = precision
 df['Recall'] = recall
 df['F2'] = f2
@@ -121,7 +139,7 @@ df['RecallDeps'] = recalldeps
 df['F2Deps'] = f2deps
 
 
-df.to_excel('TaitiWithdeps-allourideas.xlsx', index=False)
+df.to_excel('TaitiWithdeps_sharetribe.xlsx', index=False)
 
 
 

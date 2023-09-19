@@ -1,0 +1,4 @@
+entity,coupled,degree,average-revs
+app/views/kudo_mailer/batch_kudo_notification.html.erb,app/views/kudo_mailer/batch_kudo_notification.text.erb,60,10
+app/mailers/kudo_mailer.rb,app/views/kudo_mailer/batch_kudo_notification.html.erb,37,16
+app/mailers/kudo_mailer.rb,app/views/kudo_mailer/batch_kudo_notification.text.erb,35,14

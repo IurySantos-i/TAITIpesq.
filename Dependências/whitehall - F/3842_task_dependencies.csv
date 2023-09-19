@@ -1,0 +1,2 @@
+entity,coupled,degree,average-revs
+features/importing-new-editions.feature,features/step_definitions/import_steps.rb,82,9

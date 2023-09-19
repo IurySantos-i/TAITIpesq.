@@ -1,0 +1,3 @@
+entity,coupled,degree,average-revs
+Gemfile,Gemfile.lock,100,6
+features/cassette_library/cucumber_tags/import_da_fic.yml,features/cassette_library/cucumber_tags/import_da_title_link.yml,100,5

@@ -1,0 +1,6 @@
+entity,coupled,degree,average-revs
+lib/jekyll/version.rb,site/_docs/history.md,58,9
+lib/jekyll/post.rb,test/test_post.rb,47,11
+lib/jekyll/document.rb,test/test_document.rb,42,19
+lib/jekyll/metadata.rb,lib/jekyll/site.rb,38,18
+lib/jekyll/filters.rb,test/test_filters.rb,37,16

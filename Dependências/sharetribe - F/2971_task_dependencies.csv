@@ -1,0 +1,4 @@
+entity,coupled,degree,average-revs
+config/locales/en.yml,config/locales/fi.yml,88,13
+Gemfile,Gemfile.lock,83,6
+app/models/listing.rb,config/locales/fi.yml,46,13

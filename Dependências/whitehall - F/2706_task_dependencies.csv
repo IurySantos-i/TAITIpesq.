@@ -1,0 +1,2 @@
+entity,coupled,degree,average-revs
+app/models/csv_preview.rb,test/unit/csv_preview_test.rb,83,6
