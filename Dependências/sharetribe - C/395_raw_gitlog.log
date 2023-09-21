@@ -1,0 +1,89 @@
+--12dafc060--2017-11-08--Thomas Malbaux
+--5d9245886--2017-11-07--Valdis Pornieks
+72	0	app/view_utils/admin_community_memberships_view_utils.rb
+1	1	app/views/admin/community_memberships/index.haml
+12	0	config/locales/en.yml
+1	1	features/admin/manage_members/admin_lists_members.feature
+2	2	features/step_definitions/admin_manage_members_steps.rb
+
+--659133cdd--2017-09-15--Nikolai
+3	1	app/assets/stylesheets/views/admin/_communities.scss
+16	2	app/controllers/admin/community_memberships_controller.rb
+28	4	app/views/admin/community_memberships/index.haml
+2	1	config/locales/en.yml
+1	0	config/routes.rb
+14	7	features/admin/manage_members/admin_lists_members.feature
+15	8	features/step_definitions/admin_manage_members_steps.rb
+
+--f794fa5fb--2017-11-07--Thomas Malbaux
+1	1	config/locales/en.yml
+
+--98ba7bf80--2017-11-07--Thomas Malbaux
+1	1	config/locales/en.yml
+
+--cf9baeeb7--2017-11-07--Thomas Malbaux
+1	4	app/views/listings/help_texts/_help_valid_until.vi.haml
+17	0	config/locales/ab.yml
+18	1	config/locales/ar.yml
+17	0	config/locales/bg.yml
+17	0	config/locales/bn-BD.yml
+17	0	config/locales/ca.yml
+17	0	config/locales/cs.yml
+17	0	config/locales/da-DK.yml
+38	21	config/locales/de.yml
+2	2	config/locales/devise.vi.yml
+17	0	config/locales/el.yml
+17	0	config/locales/en-AU.yml
+17	0	config/locales/en-GB.yml
+17	0	config/locales/en-NZ.yml
+7	8	config/locales/en.yml
+39	20	config/locales/es-ES.yml
+17	0	config/locales/es.yml
+17	0	config/locales/et.yml
+17	0	config/locales/eu-ES.yml
+39	16	config/locales/fi.yml
+17	0	config/locales/fr-CA.yml
+24	7	config/locales/fr.yml
+24	9	config/locales/he-IL.yml
+17	0	config/locales/hi-IN.yml
+17	0	config/locales/hr.yml
+17	0	config/locales/hu.yml
+17	0	config/locales/hy-AM.yml
+17	0	config/locales/id.yml
+17	0	config/locales/is.yml
+17	0	config/locales/it.yml
+17	0	config/locales/ja.yml
+17	0	config/locales/ka.yml
+17	0	config/locales/km-KH.yml
+17	0	config/locales/lv.yml
+17	0	config/locales/mn.yml
+17	0	config/locales/ms-MY.yml
+17	0	config/locales/nb.yml
+17	0	config/locales/nl.yml
+17	0	config/locales/pl.yml
+19	2	config/locales/pt-BR.yml
+19	2	config/locales/pt-PT.yml
+17	0	config/locales/ro.yml
+17	0	config/locales/ru.yml
+17	0	config/locales/sk-SK.yml
+17	0	config/locales/sl.yml
+17	0	config/locales/sq-AL.yml
+17	0	config/locales/sr.yml
+30	11	config/locales/sv.yml
+17	0	config/locales/sw.yml
+17	0	config/locales/ta-IN.yml
+17	0	config/locales/th-TH.yml
+17	0	config/locales/ti.yml
+17	0	config/locales/tr-TR.yml
+17	0	config/locales/uk.yml
+155	136	config/locales/vi.yml
+17	0	config/locales/zh-HK.yml
+17	0	config/locales/zh-TW.yml
+17	0	config/locales/zh.yml
+
+--754a09449--2017-11-07--Thomas Malbaux
+1	1	config/locales/en.yml
+
+--1ff8f15e9--2017-11-07--Thomas Malbaux
+--68b091352--2017-11-06--Thomas Malbaux
+2	2	app/models/invitation.rb

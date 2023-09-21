@@ -1,0 +1,21 @@
+--303d78f1f--2015-07-07--Himal Mandalia
+--62423d5c2--2015-07-07--jsugarman
+8	7	app/assets/javascripts/advocates/claims/fee_calculator.js
+20	0	app/views/advocates/claims/_basic_fee_fields.html.haml
+0	13	app/views/advocates/claims/_basic_fees.html.haml
+1	1	app/views/advocates/claims/_expense_fields.html.haml
+9	9	app/views/advocates/claims/_fee_fields.html.haml
+3	4	app/views/advocates/claims/_form.html.haml
+1	1	config/locales/en.yml
+8	3	features/advocate_new_claim.feature
+13	5	features/step_definitions/advocate_new_claim_steps.rb
+
+--2a063371e--2015-07-07--Himal Mandalia
+--c4be85392--2015-07-07--Himal Mandalia
+--07bd866d3--2015-07-06--jsugarman
+1	1	lib/assets/data/fee_types.csv
+
+--3575cea69--2015-07-06--jsugarman
+1	1	app/views/shared/_claim.html.haml
+8	0	config/initializers/date_time.rb
+6	0	config/locales/en.yml

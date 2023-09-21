@@ -1,4 +1,0 @@
-entity,coupled,degree,average-revs
-features/other_a/banner_general.feature,features/step_definitions/banner_steps.rb,90,6
-app/controllers/api/v1/base_controller.rb,app/controllers/api/v1/bookmarks_controller.rb,55,9
-app/controllers/api/v1/bookmarks_controller.rb,spec/api/api_bookmarks_spec.rb,43,12

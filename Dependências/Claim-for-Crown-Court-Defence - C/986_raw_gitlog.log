@@ -1,0 +1,51 @@
+--d13d83a00--2016-02-17--Himal Mandalia
+--d4f438d0f--2016-02-17--Stephen Richards
+7	0	app/validators/base_validator.rb
+2	11	app/validators/claim/advocate_claim_validator.rb
+2	10	app/validators/claim/litigator_claim_validator.rb
+1	1	spec/models/claim/advocate_claim_spec.rb
+2	2	spec/models/claim/litigator_claim_spec.rb
+
+--c8c184cc1--2016-02-17--Himal Mandalia
+--25fa8aaab--2016-02-17--jsugarman
+0	1	app/controllers/concerns/password_helpers.rb
+0	17	app/mailers/adp_mailer.rb
+0	1	app/models/user.rb
+5	4	app/views/devise/mailer/reset_password_instructions.html.haml
+19	8	features/new_user.feature
+31	8	features/step_definitions/new_user_steps.rb
+1	20	spec/mailers/previews/adp_mailer_preview.rb
+
+--256034fb3--2016-02-17--Stephen Richards
+9	0	app/validators/claim/advocate_claim_validator.rb
+1	1	app/validators/claim/base_claim_validator.rb
+10	0	app/validators/claim/litigator_claim_validator.rb
+21	2	spec/models/claim/litigator_claim_spec.rb
+
+--c7409feb0--2016-02-17--Stephen Richards
+--2919b5733--2016-02-16--Stephen Richards
+11	1	app/validators/claim/advocate_claim_validator.rb
+1	1	app/validators/claim/base_claim_validator.rb
+9	0	app/validators/claim/litigator_claim_validator.rb
+1	1	features/step_definitions/shared/sign_in_steps.rb
+26	0	spec/factories/claim/litigator_claims.rb
+17	2	spec/models/claim/{base_claim_spec.rb => advocate_claim_spec.rb}
+21	0	spec/models/claim/litigator_claim_spec.rb
+
+--33324cf23--2016-02-17--Stephen Richards
+1	1	app/validators/claim/base_claim_validator.rb
+1	1	features/step_definitions/shared/sign_in_steps.rb
+5	1	spec/factories/claim/litigator_claims.rb
+2	2	spec/models/claim/advocate_claim_spec.rb
+5	5	spec/models/claim/litigator_claim_spec.rb
+
+--443f822b7--2016-02-17--Himal Mandalia
+--ac53f97eb--2016-02-17--jsugarman
+1	1	app/views/external_users/claims/defendants/_representation_order_fields.html.haml
+
+--f27abe193--2016-02-16--Stephen Richards
+11	1	app/validators/claim/advocate_claim_validator.rb
+9	0	app/validators/claim/litigator_claim_validator.rb
+22	0	spec/factories/claim/litigator_claims.rb
+15	0	spec/models/claim/{base_claim_spec.rb => advocate_claim_spec.rb}
+21	0	spec/models/claim/litigator_claim_spec.rb

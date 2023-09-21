@@ -1,0 +1,43 @@
+--30526a0ed7--2015-06-19--Brian Russel Davis
+--eb65b0f0e0--2015-06-19--Brian Russel Davis
+16	8	app/assets/stylesheets/custom.css.erb
+1	1	app/views/employers/employer_profiles/_form.html.erb
+91	143	app/views/employers/employer_profiles/my_account/_home_tab.html.erb
+1	4	app/views/employers/premium_statements/_show.html.erb
+
+--b03e90ad3d--2015-06-19--Brian Russel Davis
+1	1	app/assets/stylesheets/custom.css.erb
+16	13	app/views/employers/employer_profiles/_form.html.erb
+44	43	app/views/shared/_office_location_fields.html.erb
+
+--9a204273fc--2015-06-19--Brian Russel Davis
+11	3	app/assets/stylesheets/custom.css.erb
+2	0	app/views/layouts/application.html.erb
+46	40	app/views/shared/inboxes/_messages.html.erb
+
+--674da7cb56--2015-06-18--Ken Lu
+7	1	features/employers/create_employer.feature
+21	0	features/step_definitions/employers_steps.rb
+
+--0955450df6--2015-06-18--jfinucane
+1	0	app/models/message.rb
+
+--5de2496342--2015-06-18--jfinucane
+17	0	app/controllers/exchanges/hbx_profiles_controller.rb
+12	0	app/models/hbx_portal.rb
+2	0	app/views/exchanges/hbx_profiles/inbox.js.erb
+4	4	app/views/exchanges/hbx_profiles/shared/_primary_nav.html.erb
+0	14	app/views/exchanges/hbx_profiles/show.html.erb
+1	1	app/views/shared/inboxes/_messages.html.erb
+
+--977481fa14--2015-06-18--Dan Thomas
+52	15	app/models/broker_role.rb
+5	3	app/models/workflow_state_transition.rb
+64	4	spec/models/broker_role_spec.rb
+12	10	spec/models/workflow_state_transition_spec.rb
+
+--642d424ea6--2015-06-18--Raghuram
+1	1	app/views/employers/broker_agency/_index.html.erb
+1	1	app/views/employers/broker_agency/_show.html.erb
+6	0	app/views/employers/employer_profiles/my_account/_broker_agency.html.erb
+1	1	app/views/shared/_search.html.erb

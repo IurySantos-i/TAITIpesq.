@@ -1,0 +1,115 @@
+--8ab87888e--2015-06-26--Stephen Richards
+--83aa18c72--2015-06-26--Himal Mandalia
+--346ac6c55--2015-06-26--Himal Mandalia
+2	1	app/controllers/advocates/admin/application_controller.rb
+5	3	app/controllers/advocates/application_controller.rb
+15	0	app/controllers/application_controller.rb
+2	1	app/controllers/case_workers/admin/application_controller.rb
+2	3	app/controllers/case_workers/application_controller.rb
+0	1	app/controllers/documents_controller.rb
+3	0	app/controllers/sessions_controller.rb
+30	9	app/models/ability.rb
+1	0	config/locales/en.yml
+15	2	config/routes.rb
+2	2	features/claims_authorisation.feature
+2	2	features/document_security.feature
+2	2	features/step_definitions/caseworker_claims_list_steps.rb
+4	6	features/step_definitions/claim_steps.rb
+6	8	features/step_definitions/document_steps.rb
+2	2	features/step_definitions/view_claim_evidence_steps.rb
+6	5	spec/controllers/advocates/admin/advocates_controller_spec.rb
+193	0	spec/models/ability_spec.rb
+
+--decaffbc4--2015-06-26--Himal Mandalia
+--fc6914120--2015-06-26--Himal Mandalia
+0	1	Gemfile
+0	2	Gemfile.lock
+0	6	app/views/pages/home.html.haml
+0	1	config/routes.rb
+0	4	features/home_page.feature
+0	7	features/step_definitions/home_page_steps.rb
+
+--029ae202e--2015-06-25--Stephen Richards
+2	2	app/models/claim.rb
+2	2	app/models/defendant.rb
+4	0	app/models/representation_order.rb
+2	2	app/presenters/claim_presenter.rb
+2	3	app/views/shared/_claim.html.haml
+6	6	spec/models/claim_spec.rb
+3	3	spec/presenters/claim_presenter_spec.rb
+
+--989a56c15--2015-06-25--Edward Andress
+--deee41b33--2015-06-25--jsugarman
+0	2	app/models/claims/state_machine.rb
+1	1	lib/tasks/claims.rake
+
+--3516cb29c--2015-06-25--Edward Andress
+6	6	features/step_definitions/advocate_new_claim_steps.rb
+1	1	spec/models/defendant_spec.rb
+
+--78e54015d--2015-06-25--Joel Sugarman
+--a391cc326--2015-06-25--Himal Mandalia
+--882538e73--2015-06-25--Edward Andress
+--0071fab9f--2015-06-25--Edward Andress
+1	1	app/models/defendant.rb
+1	1	app/views/advocates/admin/advocates/_form.html.haml
+1	1	app/views/advocates/admin/advocates/index.html.haml
+3	3	app/views/advocates/claims/_claims.html.haml
+3	3	app/views/advocates/claims/_date_attended_fields.html.haml
+7	7	app/views/advocates/claims/_defendant_fields.html.haml
+7	7	app/views/advocates/claims/_document_fields.html.haml
+2	2	app/views/advocates/claims/_document_type_fields.html.haml
+4	4	app/views/advocates/claims/_dynamic_offence_fields.html.haml
+1	1	app/views/advocates/claims/_expense_fields.html.haml
+2	2	app/views/advocates/claims/_fee_fields.html.haml
+4	4	app/views/advocates/claims/_financial_summary.html.haml
+57	43	app/views/advocates/claims/_form.html.haml
+164	36	config/locales/en.yml
+
+--e4abe1a0a--2015-06-25--jsugarman
+11	8	app/controllers/advocates/claims_controller.rb
+0	1	app/controllers/case_workers/claims_controller.rb
+1	1	app/models/claims/search.rb
+1	1	app/models/claims/state_machine.rb
+42	0	spec/models/claim_spec.rb
+
+--ce6196642--2015-06-25--Stephen Richards
+0	1	app/models/claims/state_machine.rb
+53	32	spec/models/claims/state_machine_spec.rb
+6	1	spec/presenters/claim_presenter_spec.rb
+
+--4f2723136--2015-06-25--Edward Andress
+--f14005110--2015-06-25--Stephen Richards
+--d928bdb57--2015-06-25--Stephen Richards
+2	2	app/models/date_attended.rb
+0	58	app/models/representation_order.rb
+6	2	app/presenters/claim_presenter.rb
+0	9	app/presenters/representation_order_presenter.rb
+1	17	app/views/advocates/claims/_representation_order_fields.html.haml
+1	4	app/views/advocates/claims/show.html.haml
+0	3	app/views/case_workers/claims/show.html.haml
+0	15	app/views/shared/_representation_order.html.haml
+1	1	app/views/user_message_statuses/index.html.haml
+4	1	config/settings.yml
+26	0	db/migrate/20150625090816_remove_document_from_rep_orders.rb
+1	9	db/schema.rb
+0	1	features/step_definitions/advocate_new_claim_steps.rb
+3	3	spec/controllers/advocates/claims_controller_spec.rb
+1	1	spec/factories/representation_orders.rb
+0	8	spec/models/defendant_spec.rb
+6	0	spec/presenters/claim_presenter_spec.rb
+0	13	spec/presenters/representation_order_presenter_spec.rb
+
+--d7b48f27b--2015-06-25--Stephen Richards
+--7911a89cf--2015-06-25--Stephen Richards
+--d3a900b3f--2015-06-25--jsugarman
+2	1	app/models/claims/search.rb
+7	0	app/models/claims/state_machine.rb
+
+--8abf5f9c5--2015-06-24--Stephen Richards
+3	3	app/models/claim.rb
+1	1	app/views/shared/_evidence_list.html.haml
+1	0	features/step_definitions/sign_in_steps.rb
+12	0	spec/factories/document_types.rb
+14	0	spec/factories/documents.rb
+36	0	spec/models/claim_spec.rb

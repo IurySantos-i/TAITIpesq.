@@ -1,0 +1,432 @@
+--628838c8--2011-08-09--Praful
+--77e1e06f--2011-08-09--Praful
+2	2	app/views/children/_show_child_toolbar.erb
+23	0	features/reunite_child_record.feature
+16	0	features/step_definitions/basic_steps.rb
+
+--4cf67836--2011-08-08--Louis
+1	1	app/views/users/_edittable_user.html.erb
+2	0	features/edit_user_details.feature
+
+--fe2c4062--2011-08-02--Jennifer Smith
+2	2	app/models/mobile_login_event.rb
+5	4	spec/models/user_spec.rb
+
+--7dca6a71--2011-08-02--Praful
+2	2	app/helpers/histories_helper.rb
+1	1	app/models/child.rb
+2	2	app/views/children/_show_child_toolbar.erb
+3	6	app/views/histories/_flag_change.erb
+7	0	app/views/histories/_reunited_change.erb
+13	3	app/views/histories/show.html.erb
+3	3	spec/helpers/histories_helper_spec.rb
+33	1	spec/models/child_spec.rb
+
+--33aaec1b--2011-08-02--Praful
+1	2	app/views/children/_mark_as.html.erb
+1	1	app/views/children/show.html.erb
+
+--528ed5bf--2011-08-02--chrisgeorge
+--5014eea8--2011-08-01--Kishore Kumar Yekkanti
+1	2	app/controllers/children_controller.rb
+
+--3017dcb2--2011-08-01--Kishore Kumar Yekkanti
+--3d3a6c25--2011-06-30--Jennifer Smith
+6	3	lib/extensions/couchrest/custom_fields_validator.rb
+
+--f287f3e7--2011-06-29--Jennifer Smith
+9	5	app/models/child.rb
+10	11	spec/models/child_spec.rb
+
+--25b4d2ad--2011-06-28--Jen Smith
+1	1	features/step_definitions/web_steps.rb
+
+--1aa94ece--2011-07-22--Tom Elkin
+1	0	app/controllers/advanced_search_controller.rb
+
+--6c9cb64b--2011-07-22--Tom Elkin
+--fa0bc556--2011-07-21--Tom Elkin
+4	2	config/cucumber.yml
+17	4	lib/tasks/cucumber.rake
+
+--bc33a383--2011-07-19--Tom Elkin
+1	0	features/step_definitions/basic_steps.rb
+1	0	spec/models/child_spec.rb
+
+--4a7b9c21--2011-07-20--Kishore Kumar Yekkanti
+4	1	app/controllers/children_controller.rb
+4	0	app/controllers/users_controller.rb
+7	0	spec/controllers/children_controller_spec.rb
+7	0	spec/controllers/users_controller_spec.rb
+
+--fbe10a9b--2011-07-19--chrisgeorge
+23	0	spec/models/form_section_spec.rb
+
+--2ec50984--2011-07-19--chrisgeorge
+--b10436a8--2011-07-19--Tom Elkin
+1	1	Rakefile
+3	1	lib/tasks/ci.rake
+0	2	lib/tasks/cucumber.rake
+
+--aa5b3d3c--2011-07-17--Tom Elkin
+1	1	Gemfile
+9	5	Gemfile.lock
+1	1	capybara_features/support/env.rb
+
+--d9b25e30--2011-07-16--Tom Elkin
+--5eea6bd7--2011-07-12--Praful
+0	1	app/views/children/show.html.erb
+
+--8128331b--2011-07-12--Praful
+1	1	app/controllers/admin_controller.rb
+1	0	app/models/child.rb
+12	0	app/views/children/_mark_as.html.erb
+43	23	app/views/children/_show_child_toolbar.erb
+10	23	app/views/children/show.html.erb
+4	8	public/stylesheets/core.css
+
+--d322fb7f--2011-07-12--chrisgeorge
+1	2	app/controllers/user_preferences_controller.rb
+0	6	app/controllers/users_controller.rb
+1	1	app/models/user.rb
+1	1	app/views/home/index.html.erb
+1	7	features/step_definitions/pdf_steps.rb
+1	1	features/user_time_zones.feature
+11	11	features/view_child_record_log.feature
+4	2	spec/controllers/children_controller_spec.rb
+1	1	spec/spec_helper.rb
+7	10	spec/views/child/show.html.erb_spec.rb
+18	15	spec/views/histories/show.html.erb_spec.rb
+
+--0a0f5f43--2011-07-12--chrisgeorge
+--d49d39bd--2011-07-11--zoodor
+28	0	spec/views/users/_mobile_login_history.html.erb_spec.rb
+
+--0c71d611--2011-07-06--chrisgeorge
+--eb095a60--2011-07-06--Noppanit Charassinvichai
+1	1	app/views/children/_show_child_toolbar.erb
+5	1	app/views/children/show.html.erb
+
+--bea08b37--2011-07-05--chrisgeorge
+--d2bdb054--2011-07-05--chrisgeorge
+--000d63f2--2011-07-05--chrisgeorge
+--8bba13e5--2011-07-05--Carlos Júnior
+2	4	app/controllers/children_controller.rb
+1	2	app/models/search_criteria.rb
+2	2	features/step_definitions/csv_steps.rb
+5	7	spec/controllers/attachments_controller_spec.rb
+
+--657de06d--2011-07-05--Carlos Júnior
+1	1	public/javascripts/advanced_search.js
+
+--4bf2daa2--2011-07-05--zoodor
+2	2	app/views/users/_mobile_login_history.html.erb
+1	1	app/views/users/show.html.erb
+
+--9f55f52b--2011-07-04--zoodor
+1	1	app/views/children/show.html.erb
+1	1	app/views/histories/show.html.erb
+4	3	spec/views/child/show.html.erb_spec.rb
+20	0	spec/views/histories/show.html.erb_spec.rb
+
+--a09041c1--2011-07-03--Rikesh Dhokia
+2	1	app/controllers/advanced_search_controller.rb
+22	5	capybara_features/advanced_search.feature
+22	0	capybara_features/step_definitions/more_web_steps.rb
+2	2	spec/controllers/advanced_search_controller_spec.rb
+
+--7610888b--2011-07-02--Noppanit Charassinvichai
+3	3	app/views/children/_show_child_toolbar.erb
+9	13	app/views/children/show.html.erb
+2	2	public/stylesheets/core.css
+
+--798c6637--2011-06-30--Noppanit Charassinvichai
+1	1	public/javascripts/form_section.js
+
+--b1684ccc--2011-06-30--Rikesh Dhokia
+0	3	app/models/search_criteria.rb
+1	1	app/views/advanced_search/index.html.erb
+11	15	capybara_features/advanced_search.feature
+18	0	capybara_features/step_definitions/children_setup_steps.rb
+13	0	capybara_features/step_definitions/login_steps.rb
+7	0	capybara_features/step_definitions/search_steps.rb
+1	1	capybara_features/support/env.rb
+12	12	capybara_features/support/paths.rb
+1	1	config/cucumber.yml
+2	1	config/routes.rb
+30	36	public/javascripts/advanced_search.js
+
+--e558ad8a--2011-06-30--Noppanit Charassinvichai
+8	3	app/views/children/_show_child_toolbar.erb
+18	0	app/views/children/show.html.erb
+11	0	public/stylesheets/core.css
+
+--d7562790--2011-06-29--Noppanit Charassinvichai
+1	1	app/models/user.rb
+30	1	features/edit_user_details.feature
+0	4	features/user_disable.feature
+
+--bfc8187b--2011-06-28--Shyam Vala
+--79256e32--2011-06-28--Shyam Vala
+7	3	app/controllers/highlight_fields_controller.rb
+6	1	app/models/field.rb
+12	1	app/models/form_section.rb
+1	1	app/models/highlight_information.rb
+23	7	app/views/highlight_fields/index.html.erb
+1	1	config/routes.rb
+3	3	lib/rapid_ftr/form_section_setup.rb
+15	7	spec/controllers/highlight_fields_controller_spec.rb
+9	3	spec/models/field_spec.rb
+19	5	spec/models/form_section_spec.rb
+0	8	test/functional/highlight_fields_controller_test.rb
+0	4	test/unit/helpers/highlight_fields_helper_test.rb
+
+--c53cd3c7--2011-06-26--Rikesh Dhokia
+0	23	features/advanced_search.feature
+
+--0a9aa571--2011-06-26--Rikesh Dhokia
+--860cc772--2011-06-26--Rikesh Dhokia
+--8cb3e542--2011-06-26--Rikesh Dhokia
+1	1	lib/tasks/cucumber.rake
+
+--f8de7843--2011-06-26--Rikesh Dhokia
+1	0	Gemfile
+19	0	Gemfile.lock
+24	0	capybara_features/advanced_search.feature
+9	0	capybara_features/capybara.feature
+52	0	capybara_features/step_definitions/database_steps.rb
+201	0	capybara_features/step_definitions/web_steps.rb
+54	0	capybara_features/support/env.rb
+10	0	capybara_features/support/hooks.rb
+137	0	capybara_features/support/paths.rb
+11	0	capybara_features/support/reset_couchdb.rb
+1	0	config/cucumber.yml
+11	5	lib/tasks/cucumber.rake
+
+--c60e937a--2011-06-21--Shyam Vala
+--a0403656--2011-06-20--zoodor
+1	0	features/step_definitions/basic_steps.rb
+1	1	features/view_child_audio.feature
+4	4	features/view_child_record_log.feature
+0	9	spec/controllers/children_controller_spec.rb
+
+--b739f2c8--2011-06-20--zoodor
+--254afc7a--2011-06-20--zoodor
+1	1	app/views/children/show.html.erb
+30	7	spec/views/child/show.html.erb_spec.rb
+
+--b6907097--2011-06-14--Shyam Vala
+4	1	app/controllers/children_controller.rb
+5	7	app/views/children/_summary_row.html.erb
+11	0	spec/controllers/children_controller_spec.rb
+34	14	spec/views/child/search.html.erb_spec.rb
+
+--6a9e5814--2011-06-07--Shyam Vala
+2	6	app/controllers/highlight_fields_controller.rb
+8	4	app/models/form_section.rb
+2	4	app/views/highlight_fields/index.html.erb
+1	2	public/javascripts/form_fields.js
+7	4	spec/controllers/highlight_fields_controller_spec.rb
+18	5	spec/models/form_section_spec.rb
+
+--55d26dad--2011-06-07--Shyam Vala
+8	5	app/controllers/highlight_fields_controller.rb
+1	1	app/models/field.rb
+5	8	app/models/form_section.rb
+14	6	app/views/highlight_fields/index.html.erb
+1	0	app/views/shared/_form_fields.html.erb
+4	4	lib/rapid_ftr/form_section_setup.rb
+1	1	public/javascripts/form_fields.js
+22	7	spec/controllers/highlight_fields_controller_spec.rb
+3	3	spec/models/field_spec.rb
+6	7	spec/models/form_section_spec.rb
+
+--d6aa0511--2011-06-07--Shyam Vala
+--e3e02a2a--2011-06-04--zoodor
+1	0	app/controllers/children_controller.rb
+2	2	app/views/children/show.html.erb
+31	11	features/view_child.feature
+
+--c373ae9a--2011-05-24--zoodor
+0	16	app/controllers/home_controller.rb
+
+--e0e2023e--2011-05-24--zoodor
+--ae84169c--2011-05-24--Rikesh Dhokia
+9	0	app/controllers/advanced_search_controller.rb
+1	1	app/helpers/application_helper.rb
+1	1	config/routes.rb
+2	1	features/advanced_search.feature
+2	2	public/javascripts/advanced_search.js
+2	1	spec/controllers/advanced_search_controller_spec.rb
+
+--e26ea4d5--2011-05-23--zoodor
+20	17	spec/controllers/children_controller_spec.rb
+
+--1b98a2f7--2011-05-23--zoodor
+14	8	app/controllers/children_controller.rb
+35	0	features/csv_export.feature
+
+--8b90d873--2011-05-16--zoodor
+2	1	app/controllers/children_controller.rb
+16	16	features/view_child_record_log.feature
+2	2	spec/views/histories/show.html.erb_spec.rb
+
+--cc233062--2011-04-18--zoodor
+16	1	spec/controllers/children_controller_spec.rb
+1	0	spec/controllers/histories_controller_spec.rb
+31	14	spec/views/histories/show.html.erb_spec.rb
+
+--1cb3292f--2011-04-11--zoodor
+7	3	app/controllers/children_controller.rb
+11	0	features/admin_page_link.feature
+35	0	features/pdf_export.feature
+0	6	features/step_definitions/basic_steps.rb
+12	0	features/step_definitions/more_web_steps.rb
+9	0	features/step_definitions/pdf_steps.rb
+1	4	features/view_child_record_log.feature
+
+--38c07c42--2011-04-04--zoodor
+2	2	app/views/histories/show.html.erb
+6	2	features/view_child_record_log.feature
+
+--08046119--2011-04-04--zoodor
+1	0	app/controllers/histories_controller.rb
+2	2	app/views/histories/show.html.erb
+6	0	features/step_definitions/basic_steps.rb
+26	0	features/view_child_record_log.feature
+
+--9e8333ef--2011-03-28--zoodor
+1	1	app/controllers/user_preferences_controller.rb
+1	1	app/models/user.rb
+1	1	app/views/home/index.html.erb
+
+--6803e544--2011-03-28--zoodor
+1	0	Gemfile
+2	0	Gemfile.lock
+18	0	app/controllers/home_controller.rb
+12	0	app/controllers/user_preferences_controller.rb
+3	0	app/helpers/home_helper.rb
+1	0	app/models/user.rb
+7	2	app/views/home/index.html.erb
+1	0	config/routes.rb
+3	3	features/step_definitions/basic_steps.rb
+11	2	features/user_time_zones.feature
+
+--4a5e75ec--2011-03-14--zoodor
+4	0	app/views/home/index.html.erb
+5	0	features/step_definitions/basic_steps.rb
+6	0	features/user_time_zones.feature
+
+--14a34bd7--2011-05-19--Rikesh Dhokia
+1	1	app/views/advanced_search/index.html.erb
+18	2	public/javascripts/advanced_search.js
+
+--5664497e--2011-05-18--Rikesh Dhokia
+1	1	spec/controllers/advanced_search_controller_spec.rb
+
+--4d003372--2011-05-18--Rikesh Dhokia
+--7c46f3a6--2011-05-18--Rikesh Dhokia
+1	0	Gemfile
+8	3	Gemfile.lock
+19	7	app/controllers/advanced_search_controller.rb
+5	3	app/models/child.rb
+5	1	app/models/search_criteria.rb
+7	3	app/views/advanced_search/index.html.erb
+1	1	config/routes.rb
+22	0	features/advanced_search.feature
+0	1	features/step_definitions/web_steps.rb
+16	10	features/support/paths.rb
+5	0	public/javascripts/advanced_search.js
+52	8	spec/controllers/advanced_search_controller_spec.rb
+23	1	spec/models/child_spec.rb
+9	1	spec/models/search_criteria_spec.rb
+
+--6e8df146--2011-05-18--Shyam Vala
+--c3b9610e--2011-05-17--Shyam Vala
+2	0	app/controllers/highlight_fields_controller.rb
+9	0	app/models/field.rb
+7	7	app/models/form_section.rb
+1	1	app/views/highlight_fields/index.html.erb
+35	0	spec/controllers/highlight_fields_controller_spec.rb
+15	0	spec/models/field_spec.rb
+42	0	spec/models/form_section_spec.rb
+
+--34c72539--2011-05-10--Shyam Vala
+--4edf872d--2011-05-10--Shyam Vala
+12	53	app/views/highlight_fields/index.html.erb
+44	0	app/views/shared/_form_fields.html.erb
+23	23	public/javascripts/form_fields.js
+
+--4eb7d839--2011-04-26--Shyam Vala
+2	2	app/views/highlight_fields/index.html.erb
+61	69	public/javascripts/form_fields.js
+13	17	public/javascripts/jquery_plugin.js
+
+--e512d2e5--2011-04-26--Shyam Vala
+--7a17400e--2011-04-26--Shyam Vala
+17	2	app/controllers/highlight_fields_controller.rb
+2	0	app/models/field.rb
+15	0	app/models/form_section.rb
+7	0	app/models/highlight_information.rb
+1	1	app/views/admin/index.html.erb
+33	17	app/views/highlight_fields/{edit.html.erb => index.html.erb}
+4	1	public/javascripts/form_fields.js
+4	3	spec/controllers/fields_controller_spec.rb
+
+--a25de164--2011-04-18--zoodor
+16	3	spec/controllers/children_controller_spec.rb
+1	0	spec/controllers/histories_controller_spec.rb
+32	12	spec/views/histories/show.html.erb_spec.rb
+
+--aab148a5--2011-04-11--zoodor
+9	4	app/controllers/children_controller.rb
+11	0	features/admin_page_link.feature
+35	0	features/pdf_export.feature
+0	6	features/step_definitions/basic_steps.rb
+12	0	features/step_definitions/more_web_steps.rb
+9	0	features/step_definitions/pdf_steps.rb
+1	4	features/view_child_record_log.feature
+
+--a2eb6621--2011-04-11--Shyam Vala
+7	0	app/controllers/highlight_fields_controller.rb
+2	0	app/helpers/highlight_fields_helper.rb
+4	1	app/views/admin/index.html.erb
+75	0	app/views/highlight_fields/edit.html.erb
+2	0	config/routes.rb
+72	0	public/javascripts/form_fields.js
+18	0	public/javascripts/jquery_plugin.js
+14	3	public/stylesheets/core.css
+8	0	test/functional/highlight_fields_controller_test.rb
+4	0	test/unit/helpers/highlight_fields_helper_test.rb
+
+--be7f2dac--2011-04-04--zoodor
+2	2	app/views/histories/show.html.erb
+6	2	features/view_child_record_log.feature
+
+--76e28b7b--2011-04-04--zoodor
+1	0	app/controllers/histories_controller.rb
+2	2	app/views/histories/show.html.erb
+6	0	features/step_definitions/basic_steps.rb
+26	0	features/view_child_record_log.feature
+
+--75f024c2--2011-03-28--zoodor
+1	1	app/controllers/user_preferences_controller.rb
+1	1	app/models/user.rb
+1	1	app/views/home/index.html.erb
+
+--3d904128--2011-03-28--zoodor
+1	0	Gemfile
+2	0	Gemfile.lock
+18	0	app/controllers/home_controller.rb
+12	0	app/controllers/user_preferences_controller.rb
+3	0	app/helpers/home_helper.rb
+1	0	app/models/user.rb
+7	2	app/views/home/index.html.erb
+1	0	config/routes.rb
+3	3	features/step_definitions/basic_steps.rb
+11	2	features/user_time_zones.feature
+
+--859f0d1c--2011-03-14--zoodor
+4	0	app/views/home/index.html.erb
+6	0	features/step_definitions/basic_steps.rb
+6	0	features/user_time_zones.feature

@@ -1,0 +1,59 @@
+--4b1100e--2012-11-30--SangyoonPark
+--fb25e0c--2012-11-30--SangyoonPark
+5	10	app/controllers/students_controller.rb
+1	1	app/models/invite.rb
+1	1	app/views/invites/index.html.haml
+
+--b4856cc--2012-11-30--Alex Tom
+1	1	app/views/students/index.html.haml
+
+--9ff0f5d--2012-11-30--Alex Tom
+0	0	app/views/application/{_student_advisor_view.html.haml => _advisor_view.html.haml}
+2	2	app/views/layouts/application.html.haml
+1	1	features/step_definitions/bsmi_steps.rb
+4	3	features/student_advisors_can_review_schedule.feature
+
+--53ed44a--2012-11-30--Alex Tom
+1	1	app/controllers/students_controller.rb
+1	1	app/views/application/_student_view.html.haml
+1	0	features/registration_login.feature
+15	0	features/step_definitions/bsmi_steps.rb
+
+--04d7eb9--2012-11-30--SangyoonPark
+--3597d3b--2012-11-30--SangyoonPark
+3	0	app/controllers/users_controller.rb
+1	1	app/models/cal_course.rb
+2	0	app/views/application/_student_advisor_view.html.haml
+8	4	app/views/invites/index.html.haml
+1	1	app/views/layouts/application.html.haml
+
+--fec8843--2012-11-30--SangyoonPark
+--2b25319--2012-11-30--SangyoonPark
+--e4524b4--2012-11-30--saasbook
+6	1	app/views/invitation_mailer/invite.html.erb
+11	9	app/views/invites/index.html.haml
+7	2	config/environment.rb
+1	1	config/environments/development.rb
+
+--6b09f5e--2012-11-26--SangyoonPark
+8	2	app/controllers/cal_courses_controller.rb
+14	5	app/models/cal_course.rb
+12	0	app/views/cal_courses/_form.html.haml
+11	0	app/views/cal_courses/show.html.haml
+1	1	db/seeds.rb
+
+--3554f16--2012-11-26--SangyoonPark
+--ce28dee--2012-11-26--saasbook
+6	0	Gemfile
+10	0	Gemfile.lock
+1	1	app/controllers/application_controller.rb
+34	0	app/controllers/invites_controller.rb
+14	6	app/controllers/students_controller.rb
+1	1	app/controllers/users_controller.rb
+55	0	app/uploaders/file_uploader.rb
+1	0	app/views/invites/index.html.haml
+11	0	app/views/invites/new_excel.rhtml
+1	4	app/views/students/show.html.haml
+14	0	config/environment.rb
+9	1	config/environments/production.rb
+4	2	config/routes.rb

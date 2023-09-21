@@ -1,0 +1,29 @@
+--496fa87b2--2016-01-06--Himal Mandalia
+--a635bb2ba--2016-01-06--Joel Sugarman
+--4409d5cc6--2016-01-06--Himal Mandalia
+--c36d0ca96--2016-01-06--Himal Mandalia
+1	1	app/controllers/super_admins/providers_controller.rb
+1	1	app/views/super_admins/providers/_form.html.haml
+7	1	spec/controllers/super_admins/providers_controller_spec.rb
+
+--f1aba1924--2016-01-06--jsugarman
+6	0	features/claim_redetermination.feature
+7	0	features/step_definitions/caseworker_claims_list_steps.rb
+
+--cf573368f--2016-01-06--jsugarman
+1	1	app/views/case_workers/claims/_claims.html.haml
+
+--372b82368--2016-01-06--Alistair Laing
+4	0	features/step_definitions/shared/navigation_in_app_steps.rb
+6	0	features/step_definitions/shared/sign_in_steps.rb
+31	0	features/step_definitions/super_admin_provider_steps.rb
+23	0	features/super_admin_provider.feature
+
+--84077b72a--2016-01-06--Alistair Laing
+--5d2ac56c3--2016-01-05--Alistair Laing
+41	0	app/assets/javascripts/modules/superadmin/Provider.js
+19	16	app/views/super_admins/providers/_form.html.haml
+
+--701733664--2016-01-05--Himal Mandalia
+4	2	app/views/super_admins/advocates/_form.html.haml
+4	0	app/views/super_admins/advocates/show.html.haml

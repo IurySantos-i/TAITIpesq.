@@ -1,0 +1,70 @@
+--440ca59e--2011-08-06--Chris Mear
+--4893ef4f--2011-07-21--Chris Mear
+14	0	CHANGELOG.txt
+4	3	doc/CONTRIBUTORS.txt
+1	1	lib/one_click_orgs/version.rb
+
+--4f574fec--2011-06-04--Alex Muller
+2	2	app/views/welcome/index.html.haml
+
+--a5693850--2011-07-21--Chris Mear
+1	1	app/views/shared/_footer.html.haml
+
+--dfbeffd0--2011-07-21--Chris Mear
+--adbefd49--2011-07-21--Chris Mear
+2	5	features/organisation_running/exporting_members.feature
+3	2	features/step_definitions/web_steps_custom.rb
+
+--204f2080--2011-07-02--Chris Adams
+5	1	app/controllers/members_controller.rb
+3	3	features/organisation_running/exporting_members.feature
+
+--4ccf9bbf--2011-07-02--Jon Gilbraith
+15	0	app/controllers/members_controller.rb
+2	1	app/views/members/index.html.haml
+5	0	features/organisation_running/exporting_members.feature
+
+--98dcf42f--2011-07-02--Jon Gilbraith
+2	0	Gemfile
+2	0	Gemfile.lock
+
+--48541c55--2011-07-02--Jon Gilbraith
+18	0	features/organisation_running/exporting_members.feature
+
+--7ec968a3--2011-07-02--Jon Gilbraith
+3	1	features/support/paths.rb
+
+--ca726c61--2011-07-02--Jon Gilbraith
+4	0	features/step_definitions/web_steps_custom.rb
+
+--af7c5f30--2011-06-01--Chris Mear
+--81ec4d5e--2011-05-19--Chris Mear
+--37d6cb34--2011-05-07--Chris Mear
+--50a191d8--2011-05-01--Chris Mear
+1	0	config/deploy.rb
+
+--c104252e--2011-04-30--Chris Mear
+11	0	CHANGELOG.txt
+2	1	doc/CONTRIBUTORS.txt
+1	1	lib/one_click_orgs/version.rb
+
+--d1b9a803--2011-04-30--Chris Mear
+3	2	app/controllers/members_controller.rb
+10	0	app/models/add_member_proposal.rb
+7	5	spec/models/add_member_proposal_spec.rb
+20	2	spec/requests/members_spec.rb
+1	0	spec/support/blueprints.rb
+
+--877aeff0--2011-04-30--Chris Mear
+12	6	app/controllers/members_controller.rb
+3	1	app/models/add_member_proposal.rb
+9	10	app/models/member.rb
+4	0	app/views/members/new.html.haml
+6	1	spec/models/member_spec.rb
+41	0	spec/requests/members_spec.rb
+
+--16466a4c--2011-01-23--Jan Berkel
+5	0	script/delayed_job
+
+--ff52bbf6--2011-04-10--Chris Mear
+2	2	config/deploy.rb

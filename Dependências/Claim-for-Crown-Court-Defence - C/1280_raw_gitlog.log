@@ -1,0 +1,89 @@
+--6f7d0254f--2015-10-21--Himal Mandalia
+--f45ce70f6--2015-10-21--Himal Mandalia
+0	29	app/models/claim.rb
+0	26	app/models/scheme.rb
+0	1	config/locales/en.yml
+9	6	db/data/advocates.yml
+24	24	db/data/case_types.yml
+49	49	db/data/case_worker_claims.yml
+146	146	db/data/case_workers.yml
+12	12	db/data/chambers.yml
+108	108	db/data/claim_state_transitions.yml
+583	607	db/data/claims.yml
+158	158	db/data/courts.yml
+666	576	db/data/defendants.yml
+80	80	db/data/determinations.yml
+922	842	db/data/documents.yml
+20	20	db/data/expense_types.yml
+552	672	db/data/expenses.yml
+6	6	db/data/fee_categories.yml
+152	152	db/data/fee_types.yml
+2060	1932	db/data/fees.yml
+4	4	db/data/locations.yml
+282	277	db/data/messages.yml
+22	22	db/data/offence_classes.yml
+778	778	db/data/offences.yml
+541	461	db/data/representation_orders.yml
+0	29	db/data/schemes.yml
+289	289	db/data/user_message_statuses.yml
+225	225	db/data/users.yml
+10	10	db/data/vat_rates.yml
+1963	1875	db/data/versions.yml
+5	0	db/migrate/20151021091240_remove_schemes.rb
+5	0	db/migrate/20151021091610_remove_scheme_id_from_claims.rb
+1	13	db/schema.rb
+0	1	db/seeds.rb
+0	3	db/seeds/schemes.rb
+0	3	features/advocate_archived_claims_list.feature
+0	4	features/advocate_claims_financial_summary.feature
+0	4	features/advocate_claims_financial_summary_details.feature
+0	8	features/advocate_claims_list.feature
+0	2	features/advocate_edit_claim.feature
+0	11	features/advocate_new_claim.feature
+0	1	features/caseworker_admin_claims_list.feature
+0	2	features/caseworker_claims_list.feature
+1	2	features/claim_allocation.feature
+0	2	features/claim_evidence_checklist.feature
+0	2	features/claim_messages.feature
+0	4	features/claim_status.feature
+0	6	features/step_definitions/advocate_new_claim_steps.rb
+0	1	features/step_definitions/caseworker_claims_list_steps.rb
+0	5	features/view_claim_evidence.feature
+3	5	spec/controllers/advocates/claims_controller_spec.rb
+0	8	spec/factories/claims.rb
+0	29	spec/factories/schemes.rb
+0	3	spec/models/claim_spec.rb
+0	83	spec/models/scheme_spec.rb
+
+--6fc2f9fea--2015-10-21--Himal Mandalia
+--7a392f67d--2015-10-21--jsugarman
+9	6	db/data/advocates.yml
+24	24	db/data/case_types.yml
+53	53	db/data/case_worker_claims.yml
+146	146	db/data/case_workers.yml
+12	12	db/data/chambers.yml
+108	108	db/data/claim_state_transitions.yml
+581	577	db/data/claims.yml
+158	158	db/data/courts.yml
+548	539	db/data/defendants.yml
+78	78	db/data/determinations.yml
+983	855	db/data/documents.yml
+20	20	db/data/expense_types.yml
+593	673	db/data/expenses.yml
+6	6	db/data/fee_categories.yml
+152	152	db/data/fee_types.yml
+2061	1965	db/data/fees.yml
+4	4	db/data/locations.yml
+281	284	db/data/messages.yml
+22	22	db/data/offence_classes.yml
+778	778	db/data/offences.yml
+479	471	db/data/representation_orders.yml
+6	6	db/data/schemes.yml
+293	293	db/data/user_message_statuses.yml
+225	225	db/data/users.yml
+10	10	db/data/vat_rates.yml
+1823	1802	db/data/versions.yml
+
+--408e8d96d--2015-10-21--Himal Mandalia
+--ab15586fb--2015-10-21--jsugarman
+5	5	lib/api_test_client.rb

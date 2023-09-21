@@ -1,0 +1,957 @@
+--0c9958fe--2012-10-29--Chris Mear
+--24945d6f--2012-10-29--Chris Mear
+1	0	.travis.yml
+
+--40c73788--2012-10-29--Chris Mear
+1	1	.travis.yml
+
+--206c9cd2--2012-10-29--Chris Mear
+15	13	features/coop/running/directors/appointing_new_officer.feature
+17	0	features/step_definitions/director_steps.rb
+
+--9f286e18--2012-10-29--Chris Mear
+1	1	app/views/directorships/_form.html.haml
+
+--410fe144--2012-10-29--Chris Mear
+2	2	app/views/officerships/new.html.haml
+15	1	spec/views/officerships/new.html.haml_spec.rb
+
+--a1c93dbd--2012-10-29--Chris Mear
+2	0	app/views/tasks/_task_annual_general_meeting_minute.html.haml
+
+--a2f2933e--2012-10-26--Chris Mear
+11	0	app/assets/javascripts/share_withdrawals.js
+7	1	app/assets/stylesheets/one_click.css.sass
+1	0	app/controllers/share_withdrawals_controller.rb
+1	1	app/models/share_withdrawal.rb
+12	0	app/views/share_withdrawals/new.html.haml
+11	11	features/coop/running/shares/withdrawing_shares.feature
+21	0	features/step_definitions/shares_steps.rb
+2	0	spec/controllers/share_withdrawals_controller_spec.rb
+1	1	spec/views/share_withdrawals/new.html.haml_spec.rb
+
+--65519c6e--2012-10-26--Chris Mear
+12	0	app/controllers/share_withdrawals_controller.rb
+2	1	app/controllers/shares_controller.rb
+2	0	app/helpers/share_withdrawals_helper.rb
+16	0	app/mailers/share_transaction_mailer.rb
+1	0	app/models/ability.rb
+2	0	app/models/share_transaction.rb
+1	1	app/models/share_withdrawal.rb
+9	0	app/observers/share_transaction_mailer_observer.rb
+10	0	app/views/share_transaction_mailer/notify_share_withdrawal.text.erb
+12	0	app/views/share_withdrawals/new.html.haml
+22	3	app/views/shares/coop/index.html.haml
+2	1	config/routes.rb
+13	13	features/coop/running/shares/withdrawing_shares.feature
+14	0	features/step_definitions/email_steps.rb
+28	0	features/step_definitions/shares_steps.rb
+68	0	spec/controllers/share_withdrawals_controller_spec.rb
+5	4	spec/controllers/shares_controller_spec.rb
+18	0	spec/views/share_withdrawals/new.html.haml_spec.rb
+15	4	spec/views/shares/coop/index.html.haml_spec.rb
+
+--c2e7cfe8--2012-10-25--Chris Mear
+26	0	app/observers/resolution_task_observer.rb
+5	0	app/views/tasks/_task_resolution_vote.html.haml
+1	0	config/application.rb
+3	3	features/coop/running/resolutions/voting_on_a_resolution.feature
+8	0	features/step_definitions/task_steps.rb
+
+--f6d5ec02--2012-10-25--Chris Mear
+6	7	features/coop/running/shares/viewing_share_ownership.feature
+11	0	features/step_definitions/shares_steps.rb
+
+--8e2536f2--2012-10-25--Chris Mear
+4	4	features/step_definitions/shares_steps.rb
+
+--f30dcee7--2012-10-25--Chris Mear
+3	4	features/coop/running/rules/viewing_rules.feature
+29	0	features/step_definitions/rules_steps.rb
+
+--eb729c11--2012-10-25--Chris Mear
+6	6	features/coop/running/meetings/viewing_meeting_details.feature
+4	0	features/step_definitions/general_meeting_steps.rb
+18	0	features/step_definitions/meeting_steps.rb
+
+--00356607--2012-10-25--Chris Mear
+8	9	features/coop/running/meetings/viewing_meeting_details.feature
+1	1	features/coop/running/miscellaneous/viewing_dashboard.feature
+2	2	features/step_definitions/general_meeting_steps.rb
+15	0	features/step_definitions/meeting_steps.rb
+
+--c1b8b885--2012-10-24--Chris Mear
+1	1	app/views/one_click/coop/dashboard.html.haml
+4	0	features/coop/running/miscellaneous/viewing_dashboard.feature
+5	1	features/step_definitions/dashboard_steps.rb
+
+--3ba75732--2012-10-24--Chris Mear
+1	1	app/views/one_click/coop/dashboard.html.haml
+
+--a464027b--2012-10-24--Chris Mear
+5	0	features/coop/running/miscellaneous/viewing_dashboard.feature
+7	0	features/step_definitions/dashboard_steps.rb
+
+--b98ffd92--2012-10-24--Chris Mear
+1	1	app/views/one_click/coop/dashboard.html.haml
+
+--499c0f31--2012-10-24--Chris Mear
+5	0	features/coop/running/miscellaneous/viewing_dashboard.feature
+8	0	features/step_definitions/dashboard_steps.rb
+4	0	features/step_definitions/general_meeting_steps.rb
+4	0	spec/support/blueprints.rb
+
+--bca602c2--2012-10-24--Chris Mear
+1	1	app/views/one_click/coop/dashboard.html.haml
+
+--6659280a--2012-10-24--Chris Mear
+4	4	features/coop/running/miscellaneous/viewing_dashboard.feature
+1	1	features/step_definitions/dashboard_steps.rb
+5	0	features/step_definitions/shares_steps.rb
+
+--d99d93fe--2012-10-23--Chris Mear
+11	0	app/controllers/members_controller.rb
+15	0	app/views/members/coop/confirm_eject.html.haml
+5	3	app/views/members/coop/show.html.haml
+4	0	config/routes.rb
+8	9	features/coop/running/members/terminating_membership.feature
+8	0	features/step_definitions/coop_member_steps.rb
+3	0	features/support/paths.rb
+69	0	spec/controllers/members_controller_spec.rb
+22	0	spec/views/members/coop/confirm_eject.html.haml_spec.rb
+10	1	spec/views/members/coop/show.html.haml_spec.rb
+
+--a1f42cb0--2012-10-23--Chris Mear
+13	2	app/observers/member_mailer_observer.rb
+13	0	app/views/members/coop/confirm_resign.html.haml
+1	1	app/views/members/coop/edit.html.haml
+1	1	app/views/members/resigned.html.haml
+8	9	features/coop/running/members/resigning_membership.feature
+1	2	features/step_definitions/association_member_steps.rb
+4	0	features/step_definitions/coop_member_steps.rb
+11	0	features/step_definitions/email_steps.rb
+
+--7daab974--2012-10-23--Chris Mear
+1	1	app/models/ability.rb
+3	7	app/views/constitutions/coop/show.html.haml
+0	25	spec/views/constitutions/coop/show.html.haml_spec.rb
+
+--2b68cf64--2012-10-23--Chris Mear
+0	20	app/views/meetings/coop/index.html.haml
+0	21	spec/views/meetings/coop/index.html.haml_spec.rb
+
+--0468a630--2012-10-23--Chris Mear
+15	6	app/controllers/share_transactions_controller.rb
+7	0	app/controllers/shares_controller.rb
+1	0	app/models/ability.rb
+1	0	app/models/coop.rb
+9	0	app/models/share_transaction.rb
+22	0	app/views/share_transactions/confirm_approve.html.haml
+19	0	app/views/shares/coop/index.html.haml
+1	0	config/routes.rb
+8	8	features/coop/running/shares/managing_share_withdrawals.feature
+15	0	features/step_definitions/shares_steps.rb
+39	5	spec/controllers/share_transactions_controller_spec.rb
+9	0	spec/controllers/shares_controller_spec.rb
+21	0	spec/models/share_transaction_spec.rb
+25	0	spec/views/share_transactions/confirm_approve.html.haml_spec.rb
+33	0	spec/views/shares/coop/index.html.haml_spec.rb
+
+--b7fb1e49--2012-10-21--Chris Mear
+14	0	app/models/share_transaction.rb
+40	0	app/models/share_withdrawal.rb
+0	8	app/views/shares/coop/index.html.haml
+10	0	app/views/tasks/_task_share_transaction_mark_payment_sent.html.haml
+10	10	features/coop/running/shares/managing_share_withdrawals.feature
+25	0	features/step_definitions/shares_steps.rb
+1	0	lib/daily_job_runner.rb
+21	0	spec/models/share_transaction_spec.rb
+74	0	spec/models/share_withdrawal_spec.rb
+
+--5c90fc3c--2012-10-23--Chris Mear
+0	1	spec/views/shares/coop/index.html.haml_spec.rb
+
+--598e33f0--2012-10-22--Chris Mear
+32	31	app/views/directors/coop/index.html.haml
+
+--ab22b82f--2012-10-22--Chris Mear
+2	0	app/assets/stylesheets/themes/cooperatives_uk.css.sass
+
+--694e337d--2012-10-21--Chris Mear
+2	2	features/association/notifications/show_failed_proposal.feature
+2	2	features/association/notifications/show_founding_vote_passed_notification.feature
+
+--6d158a13--2012-10-21--Chris Mear
+1	1	features/association/notifications/show_failed_proposal.feature
+1	1	features/association/notifications/show_founding_vote_passed_notification.feature
+
+--645b673b--2012-10-21--Chris Mear
+10	0	app/controllers/share_transactions_controller.rb
+1	0	app/controllers/shares_controller.rb
+8	0	app/models/ability.rb
+3	0	app/models/coop.rb
+14	0	app/views/shares/coop/index.html.haml
+3	0	app/views/tasks/_task_share_transaction_mark_payment_received.html.haml
+5	1	config/routes.rb
+9	10	features/coop/running/shares/managing_share_payments.feature
+22	0	features/step_definitions/shares_steps.rb
+59	0	spec/controllers/share_transactions_controller_spec.rb
+7	0	spec/controllers/shares_controller_spec.rb
+4	0	spec/models/coop_spec.rb
+31	0	spec/views/shares/coop/index.html.haml_spec.rb
+
+--b2637d51--2012-10-19--Chris Mear
+3	1	features/step_definitions/general_meeting_steps.rb
+
+--f4ae55f1--2012-10-19--Chris Mear
+1	1	features/step_definitions/administrator_steps.rb
+14	14	features/step_definitions/association_member_steps.rb
+6	6	features/step_definitions/association_steps.rb
+4	4	features/step_definitions/authentication_steps.rb
+2	2	features/step_definitions/comment_steps.rb
+3	3	features/step_definitions/company_member_steps.rb
+2	2	features/step_definitions/company_steps.rb
+7	7	features/step_definitions/constitution_steps.rb
+17	17	features/step_definitions/coop_member_steps.rb
+3	3	features/step_definitions/coop_registration_steps.rb
+5	5	features/step_definitions/coop_review_steps.rb
+5	5	features/step_definitions/coop_steps.rb
+3	3	features/step_definitions/dashboard_steps.rb
+36	36	features/step_definitions/director_steps.rb
+13	13	features/step_definitions/election_steps.rb
+28	28	features/step_definitions/email_steps.rb
+9	9	features/step_definitions/general_meeting_steps.rb
+5	5	features/step_definitions/meeting_settings_steps.rb
+45	45	features/step_definitions/meeting_steps.rb
+6	6	features/step_definitions/new_member_steps.rb
+3	3	features/step_definitions/notification_steps.rb
+7	7	features/step_definitions/organisation_steps.rb
+19	19	features/step_definitions/proposal_steps.rb
+34	34	features/step_definitions/resolution_steps.rb
+14	14	features/step_definitions/rules_steps.rb
+3	3	features/step_definitions/setup_steps.rb
+12	12	features/step_definitions/shares_steps.rb
+2	2	features/step_definitions/task_steps.rb
+7	7	features/step_definitions/user_steps.rb
+1	1	features/step_definitions/voting_steps.rb
+25	25	features/step_definitions/web_steps.rb
+6	6	features/step_definitions/web_steps_custom.rb
+
+--508691d5--2012-10-19--Chris Mear
+2	2	features/step_definitions/association_member_steps.rb
+2	2	features/step_definitions/constitution_steps.rb
+4	4	features/step_definitions/notification_steps.rb
+3	3	features/step_definitions/web_steps.rb
+
+--8b3cadc2--2012-10-19--Chris Mear
+19	2	app/observers/member_task_observer.rb
+3	0	app/views/tasks/_task_member_process_resignation.html.haml
+4	5	features/coop/running/members/managing_membership_issues.feature
+9	0	features/step_definitions/coop_member_steps.rb
+
+--012470fa--2012-10-19--Chris Mear
+4	0	config/initializers/{periodic_proposal_closer.rb => periodic_jobs.rb}
+6	0	lib/daily_job_runner.rb
+
+--e4904373--2012-10-19--Chris Mear
+1	0	app/controllers/members_controller.rb
+7	0	app/helpers/application_helper.rb
+16	0	app/models/coop.rb
+4	0	app/views/members/coop/index.html.haml
+13	0	app/views/tasks/_task_member_minimum_shareholding_missed.html.haml
+5	5	features/coop/running/members/managing_membership_issues.feature
+4	0	features/step_definitions/coop_steps.rb
+13	0	features/step_definitions/shares_steps.rb
+1	0	spec/controllers/members_controller_spec.rb
+26	0	spec/models/coop_spec.rb
+
+--a0c63a58--2012-08-19--Chris Mear
+9	0	spec/lib/periodic_proposal_closer_spec.rb
+
+--0aae5fe7--2012-08-21--Chris Mear
+1	1	app/assets/javascripts/share_applications_new.js
+
+--6fa58818--2012-10-18--Chris Mear
+2	10	app/views/shared/_footer.html.haml
+
+--12421b6a--2012-10-17--Chris Mear
+45	28	app/assets/javascripts/general_meetings.js.erb
+5	3	app/models/meeting.rb
+1	1	app/models/minute.rb
+1	1	app/views/general_meetings/edit.html.haml
+1	1	app/views/minutes/new.html.haml
+2	1	spec/views/general_meetings/edit.html.haml_spec.rb
+2	1	spec/views/minutes/new.html.haml_spec.rb
+
+--8581525b--2012-10-17--Chris Mear
+1	0	app/assets/stylesheets/themes/cooperatives_uk.css.sass
+
+--3642c3b1--2012-10-17--Chris Mear
+5	1	app/assets/stylesheets/themes/cooperatives_uk.css.sass
+
+--1482d25d--2012-10-17--Chris Mear
+3	1	app/assets/stylesheets/themes/cooperatives_uk.css.sass
+
+--0fdc61d6--2012-10-17--Chris Mear
+1	3	app/views/layouts/application.html.haml
+1	3	app/views/layouts/welcome.html.haml
+10	4	app/views/shared/_footer.html.haml
+8	0	app/views/shared/_tagline.html.haml
+
+--0ad7b3b5--2012-10-16--Chris Mear
+2	2	app/assets/stylesheets/themes/cooperatives_uk.css.sass
+
+--42356a89--2012-10-16--Chris Mear
+-	-	app/assets/images/themes/cooperatives_uk/cuk-logo-24.png
+5	2	app/views/shared/_footer.html.haml
+
+--2c21c138--2012-10-16--Chris Mear
+-	-	app/assets/images/themes/cooperatives_uk/menu_items_background_over.jpg
+27	10	app/assets/stylesheets/themes/cooperatives_uk.css.sass
+
+--064469c9--2012-10-16--Chris Mear
+-	-	app/assets/images/themes/cooperatives_uk/menu_items_background.jpg
+20	0	app/assets/stylesheets/themes/cooperatives_uk.css.sass
+
+--82e60617--2012-10-16--Chris Mear
+1	1	app/assets/stylesheets/themes/cooperatives_uk.css.sass
+
+--a1f17684--2012-10-16--Chris Mear
+1	1	app/assets/stylesheets/one_click.css.sass
+1	0	app/assets/stylesheets/themes/cooperatives_uk.css.sass
+2	0	app/assets/stylesheets/themes/defaults.css.sass
+
+--d8ff504a--2012-10-16--Chris Mear
+2	1	app/assets/stylesheets/themes/cooperatives_uk.css.sass
+
+--b01378ac--2012-10-16--Chris Mear
+-	-	app/assets/images/jquery-ui/cooperatives_uk/ui-bg_flat_0_aaaaaa_40x100.png
+-	-	app/assets/images/jquery-ui/cooperatives_uk/ui-bg_flat_65_ffffff_40x100.png
+-	-	app/assets/images/jquery-ui/cooperatives_uk/ui-bg_flat_75_313131_40x100.png
+-	-	app/assets/images/jquery-ui/cooperatives_uk/ui-bg_flat_75_dadada_40x100.png
+-	-	app/assets/images/jquery-ui/cooperatives_uk/ui-bg_flat_75_e6e6e6_40x100.png
+-	-	app/assets/images/jquery-ui/cooperatives_uk/ui-bg_flat_75_ffffff_40x100.png
+-	-	app/assets/images/jquery-ui/cooperatives_uk/ui-bg_glass_55_fbf9ee_1x400.png
+-	-	app/assets/images/jquery-ui/cooperatives_uk/ui-bg_inset-soft_95_fef1ec_1x100.png
+-	-	app/assets/images/jquery-ui/cooperatives_uk/ui-icons_222222_256x240.png
+-	-	app/assets/images/jquery-ui/cooperatives_uk/ui-icons_2e83ff_256x240.png
+-	-	app/assets/images/jquery-ui/cooperatives_uk/ui-icons_454545_256x240.png
+-	-	app/assets/images/jquery-ui/cooperatives_uk/ui-icons_888888_256x240.png
+-	-	app/assets/images/jquery-ui/cooperatives_uk/ui-icons_cd0a0a_256x240.png
+-	-	app/assets/images/jquery-ui/cooperatives_uk/ui-icons_ffffff_256x240.png
+0	1	app/assets/stylesheets/application.css.sass
+458	0	app/assets/stylesheets/jquery-ui/cooperatives_uk/jquery-ui-1.9.0.custom.css.erb
+4	0	app/assets/stylesheets/themes/cooperatives_uk.css.sass
+4	0	app/assets/stylesheets/themes/one_click_orgs.css.sass
+
+--20ef8a7b--2012-10-16--Chris Mear
+0	71	app/assets/javascripts/general_meetings.js
+150	0	app/assets/javascripts/general_meetings.js.erb
+12	0	app/assets/stylesheets/one_click.css.sass
+1	0	app/controllers/general_meetings_controller.rb
+1	0	app/controllers/minutes_controller.rb
+10	0	app/models/meeting.rb
+1	0	app/models/minute.rb
+1	1	app/observers/general_meeting_task_observer.rb
+20	7	app/views/general_meetings/edit.html.haml
+24	16	app/views/general_meetings/show.html.haml
+3	3	app/views/meetings/coop/index.html.haml
+14	5	app/views/minutes/new.html.haml
+4	1	features/coop/running/meetings/entering_minutes_for_a_meeting.feature
+18	3	features/step_definitions/general_meeting_steps.rb
+14	2	features/step_definitions/meeting_steps.rb
+1	1	spec/controllers/general_meetings_controller_spec.rb
+1	1	spec/controllers/minutes_controller_spec.rb
+16	1	spec/views/general_meetings/edit.html.haml_spec.rb
+16	2	spec/views/general_meetings/show.html.haml_spec.rb
+2	2	spec/views/meetings/coop/index.html.haml_spec.rb
+
+--d0e842b5--2012-10-16--Chris Mear
+1	1	app/models/meeting.rb
+
+--ea8a3d6a--2012-10-15--Chris Mear
+0	21	app/assets/javascripts/general_meetings.js
+
+--1cdcc5b3--2012-10-15--Chris Mear
+0	8	app/assets/javascripts/general_meetings.js
+18	0	app/controllers/annual_general_meetings_controller.rb
+1	1	app/controllers/general_meetings_controller.rb
+2	0	app/helpers/annual_general_meetings_helper.rb
+8	0	app/views/annual_general_meetings/_agenda_item.html.haml
+2	0	app/views/annual_general_meetings/create.html.haml
+62	0	app/views/annual_general_meetings/new.html.haml
+1	1	app/views/meetings/coop/index.html.haml
+1	0	config/routes.rb
+3	5	features/coop/running/meetings/convening_an_annual_general_meeting.feature
+8	8	features/step_definitions/election_steps.rb
+14	5	features/step_definitions/meeting_steps.rb
+39	0	spec/controllers/annual_general_meetings_controller_spec.rb
+5	2	spec/controllers/general_meetings_controller_spec.rb
+5	0	spec/views/annual_general_meetings/create.html.erb_spec.rb
+5	0	spec/views/annual_general_meetings/new.html.erb_spec.rb
+0	5	spec/views/meetings/coop/index.html.haml_spec.rb
+
+--7300d14c--2012-10-14--Chris Mear
+16	16	app/helpers/application_helper.rb
+4	4	features/coop/running/meetings/convening_an_annual_general_meeting.feature
+
+--8cabbc92--2012-10-15--Chris Mear
+-	-	app/assets/images/arrow_down.png
+-	-	app/assets/images/arrow_up.png
+-	-	app/assets/images/delete.png
+91	0	app/assets/javascripts/general_meetings.js
+5	1	app/assets/stylesheets/one_click.css.sass
+12	1	app/helpers/application_helper.rb
+8	0	app/views/general_meetings/_agenda_item.html.haml
+6	5	app/views/general_meetings/new.html.haml
+4	0	app/views/general_meetings/show.html.haml
+21	0	features/coop/running/meetings/convening_a_general_meeting.feature
+28	0	features/step_definitions/meeting_steps.rb
+25	0	spec/views/general_meetings/show.html.haml_spec.rb
+
+--d1950ab2--2012-10-14--Chris Mear
+3	0	app/models/agenda_item.rb
+11	0	app/models/general_meeting.rb
+5	1	app/models/meeting.rb
+11	4	app/views/general_meetings/new.html.haml
+12	0	db/migrate/20121014191808_create_agenda_items.rb
+10	1	db/schema.rb
+6	4	features/coop/running/meetings/convening_a_general_meeting.feature
+4	3	features/step_definitions/meeting_steps.rb
+5	0	spec/models/agenda_item_spec.rb
+14	0	spec/models/general_meeting_spec.rb
+15	0	spec/models/meeting_spec.rb
+3	0	spec/support/blueprints.rb
+12	1	spec/views/general_meetings/new.html.haml_spec.rb
+
+--020da655--2012-10-14--Chris Mear
+13	3	app/models/general_meeting.rb
+5	2	app/views/general_meetings/new.html.haml
+1	1	features/coop/running/meetings/convening_a_general_meeting.feature
+1	1	features/coop/running/meetings/convening_an_annual_general_meeting.feature
+12	3	features/step_definitions/meeting_steps.rb
+17	0	spec/models/general_meeting_spec.rb
+8	1	spec/views/general_meetings/new.html.haml_spec.rb
+
+--455b0719--2012-10-14--Chris Mear
+1	1	app/views/board_resolutions/new.html.haml
+1	1	app/views/boards/show.html.haml
+2	2	features/coop/running/board/creating_a_board_resolution.feature
+
+--c51bee53--2012-10-09--Chris Mear
+1	1	config/environments/production.rb
+
+--f0fd3d59--2012-10-09--Chris Mear
+3	3	app/views/layouts/application.html.haml
+2	2	features/association/founding/creating_an_association.feature
+
+--5db25aef--2012-10-09--Chris Mear
+18	1	app/assets/stylesheets/themes/cooperatives_uk.css.sass
+
+--4fb1edb1--2012-10-09--Chris Mear
+2	2	app/views/layouts/application.html.haml
+
+--9e225533--2012-10-09--Chris Mear
+0	24	app/assets/stylesheets/themes/defaults.css.sass
+28	0	app/assets/stylesheets/themes/one_click_orgs.css.sass
+
+--d5ec85fc--2012-10-09--Chris Mear
+1	1	app/assets/stylesheets/one_click.css.sass
+2	0	app/assets/stylesheets/themes/defaults.css.sass
+
+--471bd47d--2012-10-09--Chris Mear
+3	4	app/assets/stylesheets/one_click.css.sass
+2	2	app/assets/stylesheets/themes/defaults.css.sass
+
+--fe4bc343--2012-10-09--Chris Mear
+2	0	app/assets/stylesheets/application.css.sass
+0	5	app/assets/stylesheets/one_click.css.sass
+7	0	app/assets/stylesheets/themes/cooperatives_uk.css.sass
+0	0	app/assets/stylesheets/themes/{default_theme.css.sass => defaults.css.sass}
+7	0	app/assets/stylesheets/themes/one_click_orgs.css.sass
+2	1	app/views/layouts/admin.html.haml
+3	2	app/views/layouts/application.html.haml
+2	1	app/views/layouts/setup.html.haml
+6	5	app/views/layouts/welcome.html.haml
+
+--54a1bade--2012-10-09--Chris Mear
+90	129	app/assets/stylesheets/one_click.css.sass
+110	0	app/assets/stylesheets/themes/default_theme.css.sass
+
+--ac961a91--2012-10-09--Chris Mear
+1	1	app/controllers/board_resolutions_controller.rb
+2	0	app/controllers/boards_controller.rb
+1	0	app/models/member.rb
+29	0	app/views/boards/show.html.haml
+22	22	features/coop/running/board/creating_a_board_resolution.feature
+2	2	spec/controllers/board_resolutions_controller_spec.rb
+30	0	spec/controllers/boards_controller_spec.rb
+31	0	spec/views/boards/show.html.haml_spec.rb
+
+--fe8cc0b1--2012-10-09--Chris Mear
+1	1	app/controllers/board_resolutions_controller.rb
+18	18	spec/controllers/board_resolutions_controller_spec.rb
+
+--b4d9baf2--2012-10-09--Chris Mear
+4	0	spec/controllers/boards_controller_spec.rb
+
+--516d4a2c--2012-10-09--Chris Mear
+2	0	app/models/coop.rb
+
+--0e9aebb3--2012-10-09--Chris Mear
+2	0	app/views/shared/coop/_main_menu.html.haml
+
+--24ca3d8d--2012-10-08--Chris Mear
+1	1	app/controllers/board_meetings_controller.rb
+5	0	app/controllers/boards_controller.rb
+2	0	app/helpers/boards_helper.rb
+23	0	app/views/boards/show.html.haml
+2	0	config/routes.rb
+3	3	features/coop/running/board/convening_a_board_meeting.feature
+1	1	features/step_definitions/meeting_steps.rb
+2	0	features/support/paths.rb
+2	2	spec/controllers/board_meetings_controller_spec.rb
+37	0	spec/controllers/boards_controller_spec.rb
+27	0	spec/views/boards/show.html.haml_spec.rb
+
+--3e55db1a--2012-10-08--Chris Mear
+2	2	features/coop/running/{meetings => board}/convening_a_board_meeting.feature
+0	0	features/coop/running/{resolutions => board}/creating_a_board_resolution.feature
+
+--47c73927--2012-10-05--Chris Mear
+--bfbce81f--2012-10-05--Chris Mear
+58	0	app/assets/javascripts/resolutions.js
+2	0	app/controllers/resolutions_controller.rb
+5	1	app/views/resolutions/coop/new.html.haml
+3	3	features/coop/running/meetings/amending_meeting_settings.feature
+2	2	features/coop/running/resolutions/creating_a_resolution.feature
+7	7	features/coop/running/rules/drafting_rules_amendments.feature
+
+--618f3d55--2012-10-05--Chris Mear
+14	21	app/views/resolutions/coop/new.html.haml
+11	2	spec/views/resolutions/coop/new.html.haml_spec.rb
+
+--f1781701--2012-10-05--Chris Mear
+22	60	features/coop/running/meetings/amending_meeting_settings.feature
+6	8	features/coop/running/resolutions/creating_a_resolution.feature
+62	11	features/coop/running/rules/drafting_rules_amendments.feature
+0	34	features/coop/running/rules/suggesting_rules_amendments.feature
+13	8	features/step_definitions/resolution_steps.rb
+8	8	features/step_definitions/rules_steps.rb
+
+--c0d7e22c--2012-10-05--Chris Mear
+10	0	app/controllers/change_board_composition_resolutions_controller.rb
+9	0	app/controllers/change_common_ownership_resolutions_controller.rb
+9	0	app/controllers/change_membership_criteria_resolutions_controller.rb
+9	0	app/controllers/change_name_resolutions_controller.rb
+9	0	app/controllers/change_objectives_resolutions_controller.rb
+9	0	app/controllers/change_registered_office_address_resolutions_controller.rb
+9	0	app/controllers/change_single_shareholding_resolutions_controller.rb
+9	0	app/controllers/generic_resolutions_controller.rb
+39	1	app/controllers/resolutions_controller.rb
+2	0	app/helpers/change_board_composition_resolutions_helper.rb
+2	0	app/helpers/change_common_ownership_resolutions_helper.rb
+2	0	app/helpers/change_membership_criteria_resolutions_helper.rb
+2	0	app/helpers/change_name_resolutions_helper.rb
+2	0	app/helpers/change_objectives_resolutions_helper.rb
+2	0	app/helpers/change_registered_office_address_resolutions_helper.rb
+2	0	app/helpers/change_single_shareholding_resolutions_helper.rb
+2	0	app/helpers/generic_resolutions_helper.rb
+17	0	app/views/change_board_composition_resolutions/_form.html.haml
+3	0	app/views/change_board_composition_resolutions/new.html.haml
+1	0	app/views/change_board_composition_resolutions/new.js.erb
+10	0	app/views/change_common_ownership_resolutions/_form.html.haml
+3	0	app/views/change_common_ownership_resolutions/new.html.haml
+1	0	app/views/change_common_ownership_resolutions/new.js.erb
+20	0	app/views/change_membership_criteria_resolutions/_form.html.haml
+3	0	app/views/change_membership_criteria_resolutions/new.html.haml
+1	0	app/views/change_membership_criteria_resolutions/new.js.erb
+4	0	app/views/change_name_resolutions/_form.html.haml
+3	0	app/views/change_name_resolutions/new.html.haml
+1	0	app/views/change_name_resolutions/new.js.erb
+3	0	app/views/change_objectives_resolutions/_form.html.haml
+3	0	app/views/change_objectives_resolutions/new.html.haml
+1	0	app/views/change_objectives_resolutions/new.js.erb
+4	0	app/views/change_registered_office_address_resolutions/_form.html.haml
+3	0	app/views/change_registered_office_address_resolutions/new.html.haml
+1	0	app/views/change_registered_office_address_resolutions/new.js.erb
+7	0	app/views/change_single_shareholding_resolutions/_form.html.haml
+3	0	app/views/change_single_shareholding_resolutions/new.html.haml
+1	0	app/views/change_single_shareholding_resolutions/new.js.erb
+7	0	app/views/generic_resolutions/_form.html.haml
+3	0	app/views/generic_resolutions/new.html.haml
+1	0	app/views/generic_resolutions/new.js.erb
+10	2	config/routes.rb
+5	0	spec/controllers/change_board_composition_resolutions_controller_spec.rb
+5	0	spec/controllers/change_common_ownership_resolutions_controller_spec.rb
+5	0	spec/controllers/change_membership_criteria_resolutions_controller_spec.rb
+5	0	spec/controllers/change_name_resolutions_controller_spec.rb
+5	0	spec/controllers/change_objectives_resolutions_controller_spec.rb
+5	0	spec/controllers/change_registered_office_address_resolutions_controller_spec.rb
+5	0	spec/controllers/change_single_shareholding_resolutions_controller_spec.rb
+5	0	spec/controllers/generic_resolutions_controller_spec.rb
+38	14	spec/controllers/resolutions_controller_spec.rb
+
+--f562ff4c--2012-10-05--Chris Mear
+28	0	app/models/change_board_composition_resolution.rb
+27	0	app/models/change_common_ownership_resolution.rb
+34	0	app/models/change_membership_criteria_resolution.rb
+15	0	app/models/change_name_resolution.rb
+16	0	app/models/change_objectives_resolution.rb
+15	0	app/models/change_registered_office_address_resolution.rb
+27	0	app/models/change_single_shareholding_resolution.rb
+45	0	app/models/resolution_wrapper.rb
+
+--1dc5eafe--2012-10-05--Chris Mear
+5	0	app/controllers/change_meeting_notice_period_resolutions_controller.rb
+6	0	app/controllers/change_quorum_resolutions_controller.rb
+1	0	app/views/change_meeting_notice_period_resolutions/new.js.erb
+1	0	app/views/change_quorum_resolutions/new.js.erb
+
+--193ad10d--2012-10-05--Chris Mear
+13	0	app/views/change_meeting_notice_period_resolutions/_form.html.haml
+1	12	app/views/change_meeting_notice_period_resolutions/new.html.haml
+12	0	app/views/change_quorum_resolutions/_form.html.haml
+1	11	app/views/change_quorum_resolutions/new.html.haml
+
+--701f0dd8--2012-10-05--Chris Mear
+3	3	app/assets/javascripts/change_meeting_notice_period_resolutions.js
+
+--2c85d743--2012-10-05--Chris Mear
+7	2	app/controllers/resolutions_controller.rb
+9	1	app/models/change_meeting_notice_period_resolution.rb
+8	0	app/models/resolution.rb
+2	3	spec/controllers/resolutions_controller_spec.rb
+
+--f5ab259b--2012-10-05--Chris Mear
+1	1	app/controllers/change_meeting_notice_period_resolutions_controller.rb
+2	2	app/controllers/resolutions_controller.rb
+1	1	app/models/change_meeting_notice_period_resolution.rb
+1	1	features/coop/running/meetings/amending_meeting_settings.feature
+14	13	spec/controllers/resolutions_controller_spec.rb
+3	3	spec/views/resolutions/coop/new.html.haml_spec.rb
+
+--40f3b96e--2012-10-05--Chris Mear
+1	1	config/cucumber.yml
+
+--a216823a--2012-09-30--Chris Mear
+6	6	spec/models/directorship_spec.rb
+
+--a587a02e--2012-09-30--Chris Mear
+12	0	app/controllers/directorships_controller.rb
+8	2	app/models/coop.rb
+14	3	app/models/directorship.rb
+2	2	app/models/member.rb
+3	0	app/views/directorships/_form.html.haml
+15	0	app/views/directorships/external.html.haml
+5	1	config/routes.rb
+18	0	features/coop/running/directors/appointing_external_director.feature
+2	2	features/step_definitions/director_steps.rb
+42	0	spec/controllers/directorships_controller_spec.rb
+9	0	spec/models/coop_spec.rb
+37	0	spec/models/directorship_spec.rb
+7	2	spec/support/blueprints.rb
+5	0	spec/views/directorships/_form.html.haml_spec.rb
+41	0	spec/views/directorships/external.html.haml_spec.rb
+
+--d9f12e6c--2012-09-24--Chris Mear
+1	1	spec/models/general_meeting_spec.rb
+4	4	spec/models/resolution_spec.rb
+
+--4a84e93c--2012-09-24--Chris Mear
+4	4	features/coop/running/meetings/convening_a_general_meeting.feature
+12	12	spec/models/resolution_spec.rb
+
+--2af49b55--2012-09-24--Chris Mear
+4	0	app/models/general_meeting.rb
+8	0	app/models/resolution.rb
+1	1	features/step_definitions/meeting_steps.rb
+9	2	spec/models/general_meeting_spec.rb
+9	3	spec/models/resolution_spec.rb
+
+--ff5c1ff1--2012-09-23--Chris Mear
+2	0	app/views/constitutions/coop/show.html.haml
+1	1	app/views/meetings/coop/index.html.haml
+1	1	app/views/proposals/coop/index.html.haml
+
+--c5b88b43--2012-09-18--Chris Mear
+1	1	app/controllers/resolution_proposals_controller.rb
+3	3	features/coop/running/resolutions/creating_a_resolution.feature
+7	7	features/step_definitions/proposal_steps.rb
+15	15	spec/controllers/resolution_proposals_controller_spec.rb
+
+--a012bdfd--2012-09-18--Chris Mear
+4	0	app/controllers/resolution_proposals_controller.rb
+22	0	app/views/resolution_proposals/support.html.haml
+
+--5069fc42--2012-09-18--Chris Mear
+8	0	app/assets/stylesheets/one_click.css.sass
+1	0	app/controllers/resolution_proposals_controller.rb
+5	2	app/views/resolution_proposals/new.html.haml
+
+--0d63352b--2012-09-18--Chris Mear
+1	1	app/controllers/resolution_proposals_controller.rb
+10	0	app/models/coop.rb
+2	2	app/views/proposals/coop/index.html.haml
+6	3	app/views/resolution_proposals/new.html.haml
+20	1	app/views/resolution_proposals/show.html.haml
+1	0	config/routes.rb
+2	2	features/coop/running/resolutions/creating_a_resolution.feature
+18	0	features/coop/running/resolutions/forcing_a_resolution.feature
+3	3	features/coop/running/resolutions/suggesting_a_resolution.feature
+5	0	features/step_definitions/proposal_steps.rb
+28	1	features/step_definitions/resolution_steps.rb
+4	4	spec/controllers/resolution_proposals_controller_spec.rb
+
+--f6cf6da6--2012-09-18--Chris Mear
+3	1	app/views/directors/coop/index.html.haml
+1	0	spec/views/directors/coop/index.html.haml_spec.rb
+
+--8e397522--2012-09-17--Chris Mear
+2	2	features/coop/running/directors/stepping_down_officer.feature
+2	2	spec/controllers/officerships_controller_spec.rb
+
+--c1ed6793--2012-09-17--Chris Mear
+29	1	app/assets/stylesheets/one_click.css.sass
+2	0	app/controllers/directors_controller.rb
+8	1	app/controllers/officerships_controller.rb
+9	0	app/controllers/offices_controller.rb
+2	0	app/helpers/offices_helper.rb
+2	0	app/models/ability.rb
+5	1	app/models/member.rb
+4	0	app/models/office.rb
+47	46	app/views/directors/coop/index.html.haml
+1	6	app/views/officerships/new.html.haml
+1	0	config/routes.rb
+1	1	features/coop/founding/appointing_initial_directors.feature
+14	14	features/coop/running/directors/appointing_new_officer.feature
+12	21	features/step_definitions/director_steps.rb
+1	0	spec/controllers/directors_controller_spec.rb
+10	0	spec/controllers/officerships_controller_spec.rb
+5	0	spec/controllers/offices_controller_spec.rb
+14	21	spec/views/directors/coop/index.html.haml_spec.rb
+0	5	spec/views/officerships/new.html.haml_spec.rb
+
+--cde04f1a--2012-09-17--Chris Mear
+1	1	Gemfile
+2	2	Gemfile.lock
+
+--5f3067c6--2012-09-16--Chris Mear
+1	1	Gemfile
+3	9	Gemfile.lock
+
+--7a117aef--2012-09-16--Chris Mear
+1	1	Gemfile
+1	0	Gemfile.lock
+
+--4697a048--2012-09-16--Chris Mear
+1	1	Gemfile
+1	1	Gemfile.lock
+
+--cc434bd0--2012-09-16--Chris Mear
+2	2	Gemfile.lock
+
+--6f4a02cd--2012-09-16--Chris Mear
+4	4	app/assets/stylesheets/one_click.css.sass
+1	0	app/views/shared/coop/_container_start.html.haml
+
+--afc97448--2012-09-16--Chris Mear
+1	1	Gemfile.lock
+88	0	app/controllers/registration_forms_controller.rb
+-	-	data/pdf_form_filler/fsa_ips/ms_application_form.pdf
+129	0	data/pdf_form_filler/fsa_ips/ms_application_form.yml
+72	0	data/pdf_form_filler/fsa_ips/ms_application_form_data.yml
+
+--f17b3755--2012-09-16--Chris Mear
+14	0	app/models/coop.rb
+3	2	app/views/shared/coop/_container_start.html.haml
+1	0	features/coop/founding/submitting_coop_registration.feature
+14	0	features/step_definitions/coop_registration_steps.rb
+
+--4b4643a8--2012-09-16--Chris Mear
+2	1	app/models/member.rb
+3	0	app/views/members/coop/edit.html.haml
+2	0	app/views/members/coop/show.html.haml
+5	0	db/migrate/20120916081259_add_phone_to_members.rb
+2	1	db/schema.rb
+
+--6600b976--2012-09-15--Chris Mear
+1	0	Gemfile
+19	0	Gemfile.lock
+
+--b6f0f102--2012-09-16--Chris Mear
+1	1	app/views/members/coop/show.html.haml
+2	1	spec/views/members/coop/show.html.haml_spec.rb
+
+--90209807--2012-09-16--Chris Mear
+1	1	Gemfile.lock
+
+--a90e1535--2012-09-16--Chris Mear
+2	2	app/views/directors/coop/index.html.haml
+
+--cc096c08--2012-09-16--Chris Mear
+2	1	app/models/member.rb
+
+--3081a7d9--2012-09-16--Chris Mear
+2	2	app/models/ability.rb
+
+--de4696b0--2012-09-16--Chris Mear
+1	1	app/mailers/members_mailer.rb
+
+--acc8d3dd--2012-09-16--Chris Mear
+18	13	app/controllers/coops_controller.rb
+3	0	app/views/coops/new.html.haml
+
+--0512803c--2012-09-16--Chris Mear
+2	0	app/controllers/one_click_controller.rb
+10	2	app/models/task.rb
+7	0	app/views/one_click/coop/dashboard.html.haml
+2	0	spec/controllers/one_click_controller_spec.rb
+
+--893b2025--2012-09-16--Chris Mear
+1	1	app/controllers/directors_controller.rb
+
+--f7d2c435--2012-09-15--Chris Mear
+2	2	app/models/officership.rb
+
+--4b8fa771--2012-09-15--Chris Mear
+7	0	app/controllers/directors_controller.rb
+4	0	app/models/directorship.rb
+3	1	app/models/member.rb
+4	0	app/models/officership.rb
+5	0	app/views/directors/coop/index.html.haml
+31	0	app/views/directors/coop/index.pdf.haml
+11	0	features/coop/running/directors/exporting_list_of_directors.feature
+
+--10d7e46a--2012-09-15--Chris Mear
+11	0	app/models/member.rb
+5	0	app/views/members/coop/index.html.haml
+18	0	app/views/members/coop/index.pdf.haml
+1	0	config/initializers/formats.rb
+11	0	features/coop/running/members/exporting_list_of_members.feature
+
+--fa80ef7f--2012-09-13--Chris Mear
+3	3	app/assets/javascripts/application.js
+
+--f27d1fc8--2012-09-14--Chris Mear
+-	-	app/assets/images/jquery-ui/oco-theme/ui-bg_flat_0_aaaaaa_40x100.png
+-	-	app/assets/images/jquery-ui/oco-theme/ui-bg_flat_65_ffffff_40x100.png
+-	-	app/assets/images/jquery-ui/oco-theme/ui-bg_flat_75_a2005a_40x100.png
+-	-	app/assets/images/jquery-ui/oco-theme/ui-bg_flat_75_dadada_40x100.png
+-	-	app/assets/images/jquery-ui/oco-theme/ui-bg_flat_75_e6e6e6_40x100.png
+-	-	app/assets/images/jquery-ui/oco-theme/ui-bg_flat_75_ffffff_40x100.png
+-	-	app/assets/images/jquery-ui/oco-theme/ui-bg_glass_55_fbf9ee_1x400.png
+-	-	app/assets/images/jquery-ui/oco-theme/ui-bg_inset-soft_95_fef1ec_1x100.png
+-	-	app/assets/images/jquery-ui/oco-theme/ui-icons_222222_256x240.png
+-	-	app/assets/images/jquery-ui/oco-theme/ui-icons_2e83ff_256x240.png
+-	-	app/assets/images/jquery-ui/oco-theme/ui-icons_454545_256x240.png
+-	-	app/assets/images/jquery-ui/oco-theme/ui-icons_888888_256x240.png
+-	-	app/assets/images/jquery-ui/oco-theme/ui-icons_cd0a0a_256x240.png
+-	-	app/assets/images/jquery-ui/oco-theme/ui-icons_ffffff_256x240.png
+563	0	app/assets/stylesheets/jquery-ui/oco-theme/jquery-ui-1.8.23.custom.css.erb
+2	2	app/assets/stylesheets/one_click.css.sass
+
+--5415e41d--2012-09-13--Chris Mear
+57	1	app/assets/javascripts/application.js
+5	0	app/assets/stylesheets/one_click.css.sass
+1	1	app/views/board_meetings/new.html.haml
+1	1	app/views/general_meetings/new.html.haml
+5	7	features/step_definitions/meeting_steps.rb
+
+--743e7300--2012-09-14--Chris Mear
+9	0	app/models/general_meeting.rb
+
+--2f0c8ae7--2012-09-13--Chris Mear
+13	13	app/assets/javascripts/application.js
+
+--8b3a553a--2012-09-14--Chris Mear
+0	3	app/assets/stylesheets/board_meetings.css.scss
+0	3	app/assets/stylesheets/board_resolutions.css.scss
+0	3	app/assets/stylesheets/change_meeting_notice_period_resolutions.css.scss
+0	3	app/assets/stylesheets/change_quorum_resolutions.css.scss
+0	3	app/assets/stylesheets/coops.css.scss
+0	3	app/assets/stylesheets/directorships.css.scss
+0	3	app/assets/stylesheets/general_meetings.css.scss
+0	3	app/assets/stylesheets/organisations.css.scss
+0	3	app/assets/stylesheets/resolution_proposals.css.scss
+0	3	app/assets/stylesheets/resolutions.css.scss
+0	3	app/assets/stylesheets/shares.css.scss
+
+--e8b77578--2012-09-14--Chris Mear
+15	4	app/assets/stylesheets/one_click.css.sass
+8	9	app/views/one_click/coop/dashboard.html.haml
+
+--ca6e12ef--2012-09-13--Chris Mear
+1	5	app/views/tasks/_task_general_meeting_minute.html.haml
+1	5	app/views/tasks/_task_resolution_proposal.html.haml
+
+--a0966766--2012-09-13--Chris Mear
+3	0	app/assets/stylesheets/one_click.css.sass
+1	1	app/views/one_click/coop/dashboard.html.haml
+
+--24f8bbfe--2012-09-13--Chris Mear
+8	0	app/assets/stylesheets/one_click.css.sass
+6	2	app/controllers/one_click_controller.rb
+17	2	app/views/one_click/coop/dashboard.html.haml
+1	1	spec/controllers/one_click_controller_spec.rb
+
+--75f01030--2012-09-12--Chris Mear
+22	1	app/assets/stylesheets/one_click.css.sass
+8	0	app/controllers/one_click_controller.rb
+36	2	app/views/one_click/coop/dashboard.html.haml
+5	0	spec/controllers/one_click_controller_spec.rb
+
+--5c4d76d7--2012-09-12--Chris Mear
+6	0	app/assets/stylesheets/one_click.css.sass
+14	0	app/views/one_click/coop/dashboard.html.haml
+
+--acd48915--2012-09-12--Chris Mear
+2	1	app/views/one_click/coop/dashboard.html.haml
+
+--c8e6df34--2012-09-12--Chris Mear
+0	7	app/views/one_click/coop/dashboard.html.haml
+0	4	features/coop/running/miscellaneous/viewing_dashboard.feature
+
+--b3fec2ad--2012-09-12--Chris Mear
+0	8	app/controllers/one_click_controller.rb
+0	2	app/views/one_click/coop/dashboard.html.haml
+3	1	features/coop/running/meetings/entering_minutes_for_a_meeting.feature
+0	4	features/coop/running/miscellaneous/viewing_dashboard.feature
+1	1	features/step_definitions/meeting_steps.rb
+6	0	features/step_definitions/web_steps_custom.rb
+2	0	features/support/paths.rb
+0	8	spec/controllers/one_click_controller_spec.rb
+
+--bdb4ac17--2012-09-10--Chris Mear
+5	5	app/controllers/proposals_controller.rb
+44	44	app/models/proposal.rb
+51	51	app/models/voting_systems.rb
+1	1	features/coop/running/resolutions/suggesting_a_resolution.feature
+19	19	spec/controllers/proposals_controller_spec.rb
+
+--99e97037--2012-09-10--Chris Mear
+4	0	app/assets/javascripts/proposals_index.js
+7	0	app/controllers/proposals_controller.rb
+3	1	app/models/proposal.rb
+110	51	app/views/proposals/coop/index.html.haml
+1	1	app/views/shared/coop/_main_menu.html.haml
+25	25	features/coop/running/resolutions/creating_a_board_resolution.feature
+0	1	features/coop/running/resolutions/suggesting_a_resolution.feature
+3	3	features/coop/running/resolutions/viewing_a_resolution.feature
+10	10	features/coop/running/rules/suggesting_rules_amendments.feature
+16	1	features/step_definitions/resolution_steps.rb
+12	2	spec/controllers/proposals_controller_spec.rb
+18	15	spec/views/proposals/coop/index.html.haml_spec.rb
+
+--b075cf42--2012-09-10--Chris Mear
+5	0	app/models/coop.rb
+3	0	app/models/extraordinary_resolution.rb
+4	0	app/models/resolution.rb
+4	0	app/models/resolution_proposal.rb
+26	1	app/models/voting_systems.rb
+
+--200ad275--2012-09-10--Chris Mear
+1	0	Gemfile
+10	14	Gemfile.lock
+1	0	app/assets/javascripts/defaults.js
+2	0	app/assets/stylesheets/one_click.css.sass

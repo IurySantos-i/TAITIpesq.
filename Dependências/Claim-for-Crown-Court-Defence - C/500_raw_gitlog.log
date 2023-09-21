@@ -1,0 +1,86 @@
+--52d19d5bb--2016-07-01--Stephen Richards
+--43d613a1c--2016-07-01--Jesus Laiz
+27	14	app/assets/javascripts/modules/AmountAssessed.js
+9	7	app/views/shared/_determinations_form.html.haml
+1	1	features/authorise_claim.feature
+5	0	features/page_objects/claim_show_page.rb
+20	0	features/reject_claim.feature
+11	3	features/step_definitions/authorise_claim_steps.rb
+
+--c474d32b1--2016-07-01--Stephen Richards
+--982286419--2016-06-30--David Plews (ClearGif)
+1	1	app/views/external_users/claims/case_details/_fields.html.haml
+1	1	features/page_objects/claim_form_page.rb
+
+--deef918a1--2016-06-30--Jesus Laiz
+2	2	app/controllers/case_workers/claims_controller.rb
+0	1	app/controllers/external_users/claims_controller.rb
+0	16	app/models/claim/base_claim.rb
+16	0	app/models/claims/state_machine.rb
+7	2	app/services/claims/case_worker_claim_updater.rb
+4	1	app/views/shared/_determinations_form.html.haml
+3	0	app/views/shared/_determinations_table.html.haml
+1	1	features/page_objects/claim_show_page.rb
+31	20	spec/services/claims/case_worker_claim_updater_spec.rb
+
+--7dfc38a53--2016-06-29--David Plews (ClearGif)
+6	0	app/assets/stylesheets/moj/_forms.scss
+6	6	app/views/external_users/claims/_date_attended_fields.html.haml
+1	1	app/views/external_users/claims/defendants/_defendant_fields.html.haml
+1	0	app/views/external_users/claims/defendants/_representation_order_fields.html.haml
+1	1	app/views/external_users/claims/fixed_fees/_fixed_fee_fields.html.haml
+2	1	app/views/external_users/claims/transfer_fee/_detail_fields.html.haml
+
+--e8b80628b--2016-06-30--Stephen Richards
+23	0	app/models/stats/collector/base_collector.rb
+1	4	app/models/stats/collector/claim_submissions_collector.rb
+1	9	app/models/stats/collector/info_request_count_collector.rb
+1	5	app/models/stats/collector/multi_session_submission_collector.rb
+25	0	app/services/stats/base_data_generator.rb
+1	1	app/services/stats/claim_submissions_data_generator.rb
+7	18	app/services/stats/multi_session_submission_data_generator.rb
+7	20	app/services/stats/request_for_further_info_data_generator.rb
+1	1	config/routes.rb
+
+--769028933--2016-06-30--Stephen Richards
+--5de2f7322--2016-06-30--Stephen Richards
+--812e8a8dd--2016-06-30--Jesus Laiz
+3	3	app/controllers/external_users/claims_controller.rb
+9	2	app/controllers/offences_controller.rb
+3	1	app/models/offence.rb
+1	1	spec/controllers/offences_controller_spec.rb
+
+--31b8c5f14--2016-06-27--David Plews (ClearGif)
+1	1	app/assets/javascripts/modules/external_users/claims/NewClaim.js
+52	1	app/assets/stylesheets/moj/_forms.scss
+8	1	app/assets/stylesheets/moj/_shame.scss
+68	27	app/form_builders/adp_text_field.rb
+9	3	app/helpers/external_users/claims_helper.rb
+1	1	app/views/case_workers/admin/allocations/_allocation.html.haml
+1	1	app/views/case_workers/admin/allocations/_re_allocation.html.haml
+12	12	app/views/external_users/claims/basic_fees/_basic_fee_calculated_fields.html.haml
+12	11	app/views/external_users/claims/basic_fees/_basic_fee_uncalculated_fields.html.haml
+5	3	app/views/external_users/claims/case_details/_case_owner_select.html.haml
+7	4	app/views/external_users/claims/case_details/_cracked_trial_fields.html.haml
+21	22	app/views/external_users/claims/case_details/_fields.html.haml
+6	5	app/views/external_users/claims/case_details/_offence_id_select.html.haml
+1	1	app/views/external_users/claims/case_details/_offence_select.html.haml
+2	6	app/views/external_users/claims/case_details/_retrial_detail_fields.html.haml
+2	6	app/views/external_users/claims/case_details/_trial_detail_fields.html.haml
+5	15	app/views/external_users/claims/defendants/_defendant_fields.html.haml
+9	6	app/views/external_users/claims/defendants/_representation_order_fields.html.haml
+14	15	app/views/external_users/claims/disbursements/_disbursement_fields.html.haml
+33	26	app/views/external_users/claims/expenses/_expense_fields.html.haml
+13	12	app/views/external_users/claims/fixed_fees/_fixed_fee_fields.html.haml
+8	7	app/views/external_users/claims/fixed_fees/litigators/_fields.html.haml
+28	22	app/views/external_users/claims/interim_fee/_fields.html.haml
+14	13	app/views/external_users/claims/misc_fees/_misc_fee_fields.html.haml
+15	17	app/views/external_users/claims/misc_fees/litigators/_misc_fee_fields.html.haml
+1	1	app/views/external_users/claims/supplier_number/_fields.html.haml
+4	4	app/views/external_users/claims/transfer_fee/_detail_fields.html.haml
+9	7	app/views/external_users/claims/transfer_fee/_fields.html.haml
+17	11	app/views/external_users/claims/warrant_fee/_fields.html.haml
+7	1	config/locales/en.yml
+4	4	features/page_objects/claim_form_page.rb
+92	12	spec/form_builders/adp_text_field_spec.rb
+2	2	spec/helpers/external_users/claims_helper_spec.rb

@@ -1,0 +1,33 @@
+--6e353ac1f--2015-05-13--Himal Mandalia
+--83eff338c--2015-05-13--Himal Mandalia
+--64a1631bf--2015-05-13--Himal Mandalia
+1	1	app/models/claim.rb
+
+--eb8064eb0--2015-05-13--Himal Mandalia
+1	1	app/views/advocates/claims/index.html.haml
+
+--bded1886a--2015-05-13--Himal Mandalia
+12	0	features/advocate_claims_list.feature
+14	2	features/step_definitions/advocate_claims_list_steps.rb
+
+--e7ba98835--2015-05-13--Himal Mandalia
+6	0	features/advocate_claims_list.feature
+28	0	features/step_definitions/advocate_claims_list_steps.rb
+
+--d8aaf0022--2015-05-13--Himal Mandalia
+6	3	app/views/advocates/claims/index.html.haml
+
+--8cbecbbe9--2015-05-13--Himal Mandalia
+1	1	app/views/advocates/claims/_claims.html.haml
+
+--e4ba01be0--2015-05-13--jsugarman
+5	4	app/assets/javascripts/advocates/claims/new_claim.js
+3	1	app/assets/stylesheets/application.css.scss
+14	0	app/assets/stylesheets/new_claim.css.scss
+1	1	app/views/advocates/claims/_dynamic_offence_fields.html.haml
+
+--bf033bcd1--2015-05-13--Stephen Strudwick
+--64aa15784--2015-05-13--Himal Mandalia
+6	1	app/models/advocate.rb
+7	1	app/models/case_worker.rb
+0	13	app/models/concerns/authenticatable.rb

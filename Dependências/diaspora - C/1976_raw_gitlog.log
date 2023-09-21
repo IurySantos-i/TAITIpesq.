@@ -1,0 +1,37 @@
+--fd748b8af--2012-06-18--Maxwell Salzberg
+--05c856170--2012-06-18--Steven Hancock
+--6344d4343--2012-06-17--Steven Hancock
+1	1	Gemfile
+6	6	Gemfile.lock
+
+--1fb016597--2012-06-18--Florian Staudacher
+-	-	app/assets/images/static-loader.png
+0	1	app/assets/stylesheets/new_styles/_spinner.scss
+
+--d3b70a7f3--2012-06-18--Florian Staudacher
+2	2	app/controllers/application_controller.rb
+
+--6bd93a116--2012-06-18--Florian Staudacher
+--0596f5345--2012-06-18--Florian Staudacher
+3	3	Gemfile.lock
+6	0	app/controllers/application_controller.rb
+
+--bccee2385--2012-06-18--Florian Staudacher
+--64a20793e--2012-06-18--Florian Staudacher
+11	5	app/assets/javascripts/app/pages/post-viewer.js
+1	0	vendor/assets/javascripts/keycodes.js
+
+--b6bc2eace--2012-06-18--Florian Staudacher
+--994bfd4a2--2012-06-18--Florian Staudacher
+1	1	app/views/registrations/new.html.erb
+23	0	features/signs_up.feature
+4	0	features/step_definitions/custom_web_steps.rb
+4	0	features/step_definitions/session_steps.rb
+6	0	features/support/user_cuke_helpers.rb
+
+--f3d983151--2012-06-18--Florian Staudacher
+--f4d7196fb--2012-06-18--Florian Staudacher
+1	0	app/views/photos/_new_photo.haml
+
+--ab9bd2f9e--2012-06-17--Zach Prezkuta
+9	0	app/uploaders/unprocessed_image.rb

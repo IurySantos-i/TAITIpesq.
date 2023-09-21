@@ -96,6 +96,8 @@ for filename in sorted(os.listdir(path_of_the_directory), key = natural_keys):
         testIwithDepstemp = Union(Final, Taiti)
 
         depstemp = [x for x in testIwithDepstemp if x not in Taiti]
+        if depstemp == []:
+            depstemp = ""
 
         precisionTemp = len(intersection(Taiti,Changed))/len(Taiti)
 

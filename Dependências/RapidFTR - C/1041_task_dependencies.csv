@@ -1,0 +1,12 @@
+entity,coupled,degree,average-revs
+app/controllers/children_controller.rb,spec/controllers/children_controller_spec.rb,100,5
+app/views/children/show.html.erb,public/stylesheets/core.css,84,13
+app/views/children/_show_child_toolbar.erb,features/step_definitions/basic_steps.rb,80,8
+app/views/children/_mark_as.html.erb,app/views/children/_show_child_toolbar.erb,71,7
+app/models/child.rb,spec/models/child_spec.rb,66,8
+app/views/children/_mark_as.html.erb,app/views/children/show.html.erb,60,10
+capybara_features/step_definitions/child_record_toolbar_steps.rb,public/stylesheets/core.css,55,9
+app/views/children/_mark_as.html.erb,public/stylesheets/core.css,55,9
+app/views/children/_show_child_toolbar.erb,public/stylesheets/core.css,50,10
+app/views/children/show.html.erb,capybara_features/step_definitions/child_record_toolbar_steps.rb,50,10
+app/views/children/_show_child_toolbar.erb,app/views/children/show.html.erb,45,11

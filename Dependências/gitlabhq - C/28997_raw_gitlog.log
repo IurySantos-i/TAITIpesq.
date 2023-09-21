@@ -1,0 +1,58 @@
+--77bfc591bf5--2012-09-10--Alex Denisov
+--b565f33472d--2012-09-10--Dmitriy Zaporozhets
+16	0	lib/api/helpers.rb
+2	0	lib/api/issues.rb
+2	0	lib/api/milestones.rb
+7	0	lib/api/projects.rb
+
+--80685596d3d--2012-09-09--Dmitriy Zaporozhets
+--1f240b09ed5--2012-09-10--Alex Denisov
+1	2	app/decorators/event_decorator.rb
+13	2	app/models/event.rb
+1	1	app/models/users_project.rb
+9	0	app/observers/users_project_observer.rb
+2	2	app/views/events/_event.html.haml
+1	0	app/views/events/{_event_joined.html.haml => _event_membership_changed.html.haml}
+7	2	features/dashboard/dashboard.feature
+10	0	features/step_definitions/dashboard_steps.rb
+12	1	spec/models/event_spec.rb
+19	0	spec/observers/users_project_observer_spec.rb
+
+--a86bd87afcb--2012-09-09--Alex Denisov
+8	0	app/assets/stylesheets/common.scss
+4	1	app/decorators/event_decorator.rb
+8	1	app/models/event.rb
+6	0	app/observers/users_project_observer.rb
+4	0	app/views/events/_event.html.haml
+8	0	app/views/events/_event_joined.html.haml
+6	1	features/dashboard/dashboard.feature
+15	0	features/step_definitions/dashboard_steps.rb
+11	0	spec/models/event_spec.rb
+8	0	spec/observers/users_project_observer_spec.rb
+
+--85db51f660c--2012-09-07--Alex Denisov
+1	0	app/observers/users_project_observer.rb
+
+--ed4fbcf6b00--2012-09-07--Alex Denisov
+--38b17e4e063--2012-09-03--Alex Denisov
+--af63607a5cf--2012-09-03--Alex Denisov
+1	0	Gemfile
+2	0	Gemfile.lock
+0	8	app/observers/users_project_observer.rb
+9	6	spec/observers/users_project_observer_spec.rb
+
+--1f1c8094fe3--2012-09-03--Alex Denisov
+8	4	app/observers/users_project_observer.rb
+4	4	spec/observers/users_project_observer_spec.rb
+
+--a56cec11320--2012-08-29--Dmitriy Zaporozhets
+1	0	config/gitlab.yml.example
+4	0	config/initializers/1_settings.rb
+1	12	lib/gitlab/backend/gitolite_config.rb
+
+--ad3a88cfd34--2012-08-29--Dmitriy Zaporozhets
+1	1	app/models/merge_request.rb
+2	0	app/roles/push_event.rb
+2	2	config/gitlab.yml.example
+9	6	doc/installation.md
+1	2	lib/gitlab/merge.rb

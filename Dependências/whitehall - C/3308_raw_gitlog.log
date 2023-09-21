@@ -1,0 +1,121 @@
+--8c73dc27a8--2013-05-01--Murray Steele
+--a00af78690--2013-05-01--Murray Steele
+--5ca5d97da8--2013-05-01--Matthew Ford
+4	3	app/views/admin/speeches/_delivered_by_fields.html.erb
+
+--5674c43748--2013-05-01--Chris Parsons
+--18a5e24afe--2013-05-01--Chris Parsons
+3	1	app/views/admin/feature_lists/_feature_list.html.erb
+
+--d963bd6c63--2013-05-01--Chris Parsons
+10	6	app/helpers/admin/organisation_helper.rb
+19	2	app/helpers/admin/tabbed_nav_helper.rb
+2	2	app/views/admin/contacts/index.html.erb
+1	1	app/views/admin/corporate_information_pages/index.html.erb
+1	1	app/views/admin/featured_topics_and_policies_lists/show.html.erb
+1	1	app/views/admin/groups/index.html.erb
+1	1	app/views/admin/organisation_translations/index.html.erb
+1	1	app/views/admin/organisations/about.html.erb
+1	1	app/views/admin/organisations/document_series.html.erb
+1	1	app/views/admin/organisations/features.html.erb
+1	1	app/views/admin/organisations/people.html.erb
+1	1	app/views/admin/organisations/show.html.erb
+1	1	app/views/admin/promotional_features/index.html.erb
+1	1	app/views/admin/social_media_accounts/index.html.erb
+1	1	app/views/admin/worldwide_offices/index.html.erb
+1	1	app/views/admin/worldwide_organisations/access_info.html.erb
+1	1	app/views/admin/worldwide_organisations/show.html.erb
+2	2	app/views/admin/worldwide_organisations_translations/index.html.erb
+
+--75de36029a--2013-05-01--Murray Steele
+--37d359d1cc--2013-05-01--Murray Steele
+16	0	db/data_migration/20130501135231_add_lists_of_contacts_to_all_organisations.rb
+16	0	db/data_migration/20130501140018_add_lists_of_worldwide_offices_to_all_worldwide_organisations.rb
+
+--becbf6975a--2013-05-01--Chris Parsons
+3	3	app/views/admin/organisations/features.html.erb
+18	16	app/views/admin/promotional_features/index.html.erb
+
+--eb1041e893--2013-05-01--Chris Parsons
+1	1	app/helpers/admin/organisation_helper.rb
+
+--486226c194--2013-05-01--Murray Steele
+11	4	app/models/home_page_list.rb
+9	0	test/functional/organisations_controller_test.rb
+11	0	test/functional/worldwide_organisations_controller_test.rb
+28	4	test/unit/home_page_list_test.rb
+
+--00c6c8776a--2013-05-01--Tekin Suleyman
+1	1	app/models/classification_featuring_image_data.rb
+17	15	test/unit/edition/topical_events_test.rb
+
+--e860ceb9d6--2013-04-30--Chris Parsons
+0	1	test/unit/featurable_test.rb
+
+--60e28355da--2013-04-26--Chris Parsons
+75	0	db/migrate/20130426094508_move_orgs_to_new_feature_lists.rb
+
+--a2f9af94fb--2013-04-25--Chris Parsons
+0	36	app/controllers/admin/edition_organisations_controller.rb
+1	1	app/controllers/admin/feature_lists_controller.rb
+6	10	app/controllers/admin/organisations_controller.rb
+1	6	app/controllers/admin/world_locations_controller.rb
+1	1	app/controllers/organisations_controller.rb
+1	1	app/controllers/world_locations_controller.rb
+4	1	app/helpers/admin/organisation_helper.rb
+2	2	app/helpers/admin/world_location_helper.rb
+4	0	app/models/featurable.rb
+2	0	app/models/organisation.rb
+14	2	app/presenters/feature_list_presenter.rb
+9	9	app/views/admin/editions/_filter_options.html.erb
+1	0	app/views/admin/feature_lists/_featurable_editions.html.erb
+1	1	app/views/admin/feature_lists/_feature_list.html.erb
+0	42	app/views/admin/organisations/documents.html.erb
+17	0	app/views/admin/organisations/features.html.erb
+1	1	app/views/admin/world_locations/features.html.erb
+14	0	app/views/organisations/_featured_items.html.erb
+7	21	app/views/organisations/show-executive-office.html.erb
+6	20	app/views/organisations/show.html.erb
+4	2	config/routes.rb
+2	0	features/administering-organisations.feature
+2	2	features/administering-world-locations.feature
+24	7	features/step_definitions/organisation_steps.rb
+2	6	features/step_definitions/world_location_steps.rb
+10	0	features/support/feature_order_helper.rb
+0	141	test/functional/admin/edition_organisations_controller_test.rb
+3	3	test/functional/admin/feature_lists_controller_test.rb
+0	60	test/functional/admin/organisations_controller_test.rb
+0	19	test/functional/admin/world_locations_controller_test.rb
+9	20	test/support/organisation_controller_test_helpers.rb
+15	0	test/unit/featurable_test.rb
+3	2	test/unit/presenters/feature_list_presenter_test.rb
+
+--ea50d0868e--2013-05-01--Tekin Suleyman
+2	27	features/support/quarantine.rb
+35	0	lib/whitehall/quarantine_file_storage_simulator.rb
+
+--0b678d464f--2013-05-01--Bradley Wright
+3	3	app/views/home/how_government_works.html.erb
+
+--bacdf3a445--2013-04-25--Chris Parsons
+33	0	app/views/admin/feature_lists/_feature_list.html.erb
+1	33	app/views/admin/world_locations/features.html.erb
+
+--9b0b527b0a--2013-04-25--Chris Parsons
+11	0	app/models/featurable.rb
+2	5	app/models/world_location.rb
+16	0	test/unit/featurable_test.rb
+
+--084ab5366e--2013-05-01--Tekin Suleyman
+3	1	test/unit/edition/topical_events_test.rb
+
+--e6138467f2--2013-05-01--Tekin Suleyman
+5	0	test/unit/publication_test.rb
+
+--ff070970cc--2013-04-30--Tekin Suleyman
+1	1	app/models/edition/access_control.rb
+1	1	test/unit/consultation_test.rb
+2	2	test/unit/edition/access_control_test.rb
+6	1	test/unit/news_article_test.rb
+1	1	test/unit/publication_test.rb
+1	1	test/unit/speech_test.rb

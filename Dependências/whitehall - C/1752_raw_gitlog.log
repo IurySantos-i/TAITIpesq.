@@ -1,0 +1,157 @@
+--e59305ceb8--2015-05-28--Tekin Suleyman
+--114600047d--2015-05-28--Tekin Suleyman
+7	7	lib/data_hygiene/{edition_unarchiver.rb => edition_unwithdrawer.rb}
+3	3	lib/tasks/data_hygiene.rake
+0	57	test/unit/data_hygiene/edition_unarchiver_test.rb
+67	0	test/unit/data_hygiene/edition_unwithdrawer_test.rb
+
+--0fb405e130--2015-05-28--Tekin Suleyman
+4	0	app/helpers/admin/editions_helper.rb
+1	1	app/views/admin/editions/_search_results.html.erb
+
+--c74bc878df--2015-05-28--Tekin Suleyman
+4	4	lib/collection_data_reporter.rb
+
+--8941f7abe2--2015-05-28--Tekin Suleyman
+--be4e43eece--2015-05-28--Tekin Suleyman
+2	2	test/unit/models/frontend/statistics_announcement_filter_test.rb
+1	1	test/unit/models/frontend/statistics_announcement_test.rb
+3	3	test/unit/models/organisation_test.rb
+1	1	test/unit/presenters/promotional_feature_presenter_test.rb
+7	7	test/unit/services/edition_service_coordinator_test.rb
+2	2	test/unit/services/listeners/edition_dependencies_test.rb
+1	1	test/unit/world_location_test.rb
+1	1	test/unit/worldwide_office_test.rb
+
+--1226d4771c--2015-05-28--Tekin Suleyman
+1	1	test/unit/edition_test.rb
+
+--f8ce0e68fb--2015-05-28--Tekin Suleyman
+1	1	app/helpers/admin/editions_helper.rb
+1	1	app/helpers/admin/supporting_pages_helper.rb
+1	1	app/helpers/document_helper.rb
+3	3	app/models/edition.rb
+1	1	app/models/edition/supporting_pages.rb
+7	10	app/models/edition/workflow.rb
+1	1	app/models/registerable_edition.rb
+1	1	app/presenters/publishing_api_presenters/case_study.rb
+1	1	app/views/documents/_header.html.erb
+1	1	app/views/supporting_pages/show.html.erb
+1	1	features/step_definitions/unpublishing_published_documents_steps.rb
+1	1	lib/data_hygiene/edition_unarchiver.rb
+2	2	lib/data_hygiene/policy_publication_history_writer.rb
+1	1	lib/tasks/election.rake
+1	1	lib/whitehall/exporters/mappings.rb
+1	1	test/factories/editions.rb
+1	1	test/integration/unpublishing_test.rb
+8	0	test/unit/admin/edition_filter_test.rb
+1	2	test/unit/data_hygiene/edition_unarchiver_test.rb
+1	1	test/unit/data_hygiene/policy_publication_history_writer_test.rb
+5	4	test/unit/document_test.rb
+4	4	test/unit/edition/workflow_test.rb
+2	2	test/unit/services/edition_withdrawer_test.rb
+1	1	test/unit/whitehall/exporters/mappings_test.rb
+5	0	test/unit/whitehall/publishing_api_test.rb
+
+--13b87f69a2--2015-05-27--Tekin Suleyman
+1	1	app/helpers/admin/editions_helper.rb
+1	1	app/models/edition/workflow.rb
+
+--d123ee2d4d--2015-05-27--Tekin Suleyman
+3	3	app/models/edition/supporting_pages.rb
+5	0	app/models/edition/workflow.rb
+
+--a5eac55874--2015-05-27--Tekin Suleyman
+4	4	app/assets/javascripts/admin/views/edition_workflow/confirm_unpublish.js
+4	4	app/views/admin/edition_workflow/confirm_unpublish.html.erb
+
+--c9e3cf8721--2015-05-27--Tekin Suleyman
+2	2	test/factories/editions.rb
+2	2	test/functional/admin/api/search_controller_test.rb
+1	1	test/functional/admin/edition_unpublishing_controller_test.rb
+1	1	test/integration/broken_link_reporter_test.rb
+1	1	test/unit/attachment_visibility_test.rb
+3	3	test/unit/data_hygiene/registerable_edition_builder_for_unpublished_editions_test.rb
+1	1	test/unit/document_history_test.rb
+1	1	test/unit/document_test.rb
+2	2	test/unit/edition/workflow_test.rb
+2	2	test/unit/presenters/publishing_api_presenters/case_study_test.rb
+2	2	test/unit/registerable_edition_test.rb
+1	1	test/unit/services/edition_unpublisher_test.rb
+1	1	test/unit/services/edition_withdrawer_test.rb
+2	2	test/unit/whitehall/exporters/mappings_test.rb
+
+--1cc26f3aca--2015-05-27--Tekin Suleyman
+6	6	features/step_definitions/unpublishing_published_documents_steps.rb
+6	6	features/unpublishing-published-documents.feature
+1	1	test/integration/withdrawing_test.rb
+1	1	test/unit/attachment_visibility_test.rb
+3	3	test/unit/data_hygiene/policy_publication_history_writer_test.rb
+1	1	test/unit/document_history_test.rb
+6	6	test/unit/services/edition_withdrawer_test.rb
+1	1	test/unit/whitehall/edition_govspeak_renderer_test.rb
+1	1	test/unit/whitehall/exporters/mappings_test.rb
+
+--d244545a9f--2015-05-27--Tekin Suleyman
+5	5	app/controllers/admin/edition_workflow_controller.rb
+2	2	test/functional/admin/edition_workflow_controller_test.rb
+
+--a8450c46ad--2015-05-27--Tekin Suleyman
+1	1	app/helpers/admin/supporting_pages_helper.rb
+1	1	app/helpers/document_helper.rb
+4	0	app/models/edition/workflow.rb
+1	1	app/presenters/publishing_api_presenters/case_study.rb
+1	1	app/views/admin/editions/_edition_view_edit_buttons.html.erb
+1	1	app/views/admin/supporting_pages/_edition_view_edit_buttons.html.erb
+1	1	app/views/documents/_header.html.erb
+1	1	app/views/supporting_pages/show.html.erb
+1	1	lib/data_hygiene/edition_unarchiver.rb
+1	1	lib/data_hygiene/policy_publication_history_writer.rb
+1	1	test/unit/data_hygiene/policy_publication_history_writer_test.rb
+1	1	test/unit/services/edition_withdrawer_test.rb
+
+--a48bcd6e16--2015-05-27--Tekin Suleyman
+3	3	app/controllers/admin/edition_workflow_controller.rb
+3	0	app/models/edition/workflow.rb
+2	2	app/services/edition_service_coordinator.rb
+3	3	app/services/{edition_archiver.rb => edition_withdrawer.rb}
+3	3	config/initializers/edition_services.rb
+1	1	db/data_migration/20150514112017_generate_publications_for_archived_policies.rb
+6	6	test/integration/{archiving_test.rb => withdrawing_test.rb}
+3	3	test/unit/services/edition_service_coordinator_test.rb
+9	9	test/unit/services/{edition_archiver_test.rb => edition_withdrawer_test.rb}
+
+--e95e5330aa--2015-05-27--Tekin Suleyman
+2	2	app/models/unpublishing.rb
+1	1	test/unit/unpublishing_test.rb
+
+--95e11e372a--2015-05-27--Tekin Suleyman
+2	2	app/controllers/admin/edition_workflow_controller.rb
+1	1	app/helpers/admin/editions_helper.rb
+1	1	app/models/unpublishing.rb
+1	1	app/models/unpublishing_reason.rb
+5	5	app/views/admin/edition_workflow/confirm_unpublish.html.erb
+1	1	db/data_migration/20150106070706_restore_unpublishings_for_editions.rb
+1	1	db/data_migration/20150427095111_archive_all_worldwide_priorities.rb
+1	1	db/data_migration/20150511103747_archive_remaining_worldwide_priorities.rb
+1	1	test/functional/admin/edition_unpublishing_controller_test.rb
+1	1	test/functional/admin/edition_workflow_controller_test.rb
+1	1	test/integration/archiving_test.rb
+1	1	test/unit/data_hygiene/policy_publication_history_writer_test.rb
+1	1	test/unit/presenters/publishing_api_presenters/case_study_test.rb
+2	2	test/unit/services/edition_archiver_test.rb
+3	3	test/unit/unpublishing_test.rb
+
+--4de44ee70b--2015-05-27--Tekin Suleyman
+1	1	app/helpers/admin/editions_helper.rb
+5	5	app/views/admin/edition_unpublishing/edit.html.erb
+1	1	app/views/admin/editions/show.html.erb
+1	1	features/step_definitions/unpublishing_published_documents_steps.rb
+
+--4c8834f8d0--2015-05-27--Tekin Suleyman
+2	2	app/helpers/admin/editions_helper.rb
+4	4	app/views/admin/edition_workflow/confirm_unpublish.html.erb
+1	1	app/views/admin/editions/show.html.erb
+5	5	features/step_definitions/unpublishing_published_documents_steps.rb
+1	1	features/support/unpublishing_helpers.rb
+2	2	test/functional/admin/generic_editions_controller_tests/unpublishing_test.rb

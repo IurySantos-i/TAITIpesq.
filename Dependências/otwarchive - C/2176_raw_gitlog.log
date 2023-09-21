@@ -1,0 +1,683 @@
+--5b81cb693--2012-04-01--Elz
+--189eaee09--2012-04-01--Elz
+--fecb91f3e--2012-04-01--Elz
+--ddd359777--2012-04-01--Elz
+--3758263cc--2012-04-01--Elz
+--1761cbe50--2012-04-01--Elz
+--255421c10--2012-04-01--Elz
+--6ea0a28d4--2012-04-01--Elz
+--706b1b154--2012-04-01--Elz
+--d05d548a4--2012-04-01--Elz
+--b57ea936d--2012-04-01--Elz
+--6ac29fc19--2012-04-01--Elz
+--8603318a8--2012-04-01--Elz
+--f47e5a64e--2012-04-01--Elz
+--cf0799907--2012-04-01--Elz
+10	10	lib/tasks/after_tasks.rake
+
+--7dff27dc2--2012-04-01--sarken
+1	1	app/views/works/_standard_form.html.erb
+
+--0370a4dac--2012-03-31--Cristina
+--10f4e4d09--2012-03-31--elz
+21	20	app/models/story_parser.rb
+7	5	app/views/works/new_import.html.erb
+
+--a675d3f04--2012-03-31--Elz
+--13744cd1c--2012-03-31--Cristina
+1	1	lib/tasks/work_tasks.rake
+
+--a4e30508b--2012-03-31--Sidra
+1	1	doc/app/AutocompleteController.html
+1	1	doc/app/ChallengeRequestsController.html
+1	1	doc/app/GiftsController.html
+20	18	doc/app/PromptsController.html
+22	19	doc/app/TagSet.html
+22	16	doc/app/TagsController.html
+228	228	doc/app/created.rid
+
+--0fe77faa4--2012-03-30--Daniel Erenrich
+-	-	public/images/ao3_logos/ao3-502.png
+-	-	public/images/ao3_logos/logo-rails3.png
+-	-	public/images/ao3_logos/logo-ruby.png
+-	-	public/images/ao3_logos/logo-stroke.png
+-	-	public/images/ao3_logos/logo.png
+-	-	public/images/ao3_logos/sadface.png
+
+--033622083--2012-03-30--Daniel Erenrich
+-	-	public/images/OTWLogo.png
+-	-	public/images/arrow-down.png
+-	-	public/images/arrow-right.png
+-	-	public/images/arrow-up.png
+-	-	public/images/beta-flag.png
+-	-	public/images/feed-icon-14x14.png
+-	-	public/images/imageset.png
+-	-	public/images/key-square-1.png
+-	-	public/images/key-square-2.png
+-	-	public/images/key-square-3.png
+-	-	public/images/key-square-4.png
+-	-	public/images/lockblack.png
+-	-	public/images/lockblue.png
+-	-	public/images/lockred.png
+-	-	public/images/logo-stroke.png
+-	-	public/images/logo.png
+
+--d77215096--2012-03-30--sarken
+3	3	app/views/tags/wrangle.html.erb
+
+--539aac3fc--2012-03-30--sarken
+4	0	public/stylesheets/site/2.0/18-zone-searchbrowse.css
+
+--00a5978be--2012-03-30--sarken
+1	1	public/stylesheets/site/2.0/02-elements.css
+
+--4110c79f8--2012-03-27--Elz
+--33140518f--2012-03-27--Elz
+--3bf215a27--2012-03-26--sarken
+1	1	app/views/home/index.html.erb
+
+--305dfcedc--2012-03-26--sarken
+1	1	app/models/skin.rb
+
+--9e1b03421--2012-03-26--sarken
+1	1	app/views/users/new.html.erb
+
+--0c7a6ad9d--2012-03-26--sarken
+0	4	public/stylesheets/site/2.0/22-system-messages.css
+
+--368542f32--2012-03-26--sarken
+1	1	app/views/tags/edit.html.erb
+
+--fbf604c23--2012-03-26--sarken
+--73fd4ffc8--2012-03-26--sarken
+1	1	app/views/chapters/_chapter.html.erb
+
+--d7b682c57--2012-03-26--sarken
+3	0	app/views/chapters/_chapter.html.erb
+0	1	app/views/chapters/_chapter_management.html.erb
+
+--a05dd0b03--2012-03-26--sarken
+3	0	app/views/chapters/_chapter.html.erb
+0	1	app/views/chapters/_chapter_management.html.erb
+
+--30fc806e7--2012-03-26--Cristina
+1	1	app/controllers/gifts_controller.rb
+15	9	app/controllers/tags_controller.rb
+
+--a397503e8--2012-03-25--sarken
+4	0	public/stylesheets/site/2.0/13-group-blurb.css
+
+--ecbf309bc--2012-03-25--sarken
+4	0	public/stylesheets/site/2.0/22-system-messages.css
+
+--109a4bb37--2012-03-24--Cristina
+--6f21b7fd1--2012-03-24--shalott
+--63ecab969--2012-03-24--shalott
+--b9824f6de--2012-03-24--shalott
+--b3b69f82b--2012-03-24--Sidra
+26	20	doc/app/Work.html
+228	228	doc/app/created.rid
+1	1	doc/app/js/search_index.js
+
+--111944ea3--2012-03-22--sarken
+4	4	app/views/works/_filters.html.erb
+
+--52cb106ca--2012-03-22--sarken
+1	0	public/javascripts/application.js
+6	0	public/stylesheets/site/2.0/28-role-ie8_or_lower.css
+
+--a99e2040e--2012-03-22--sarken
+1	7	app/views/pseuds/index.html.erb
+
+--039134132--2012-03-21--shalott
+1	1	app/controllers/autocomplete_controller.rb
+1	1	app/views/prompts/_prompt_form.html.erb
+
+--fcd43da66--2012-03-21--shalott
+4	1	app/models/tag_set.rb
+
+--b05f8f08d--2012-03-21--shalott
+--d67b69247--2012-03-21--shalott
+--0ae0b9533--2012-03-21--shalott
+--9d5e8e4ab--2012-03-21--shalott
+--a3efce17c--2012-03-21--shalott
+--9f204d75d--2012-03-21--shalott
+--c38a9fd82--2012-03-21--sarken
+--5e3c414d5--2012-03-21--sarken
+12	10	app/views/archive_faqs/index.html.erb
+7	7	app/views/archive_faqs/show.html.erb
+2	2	public/stylesheets/site/2.0/21-userstuff.css
+
+--ca3524eb3--2012-03-12--sarken
+5	10	app/views/archive_faqs/show.html.erb
+11	0	public/stylesheets/site/2.0/21-userstuff.css
+
+--39aa33d26--2012-03-21--sarken
+1	1	app/views/works/edit_multiple.html.erb
+
+--17ed9f25f--2012-03-21--elz
+11	5	app/models/work.rb
+
+--8422c811e--2012-03-20--Tegan Mulholland
+1	2	public/help/skins-approval.html
+
+--912188bf9--2012-03-20--sarken
+1	10	public/stylesheets/site/2.0/07-interactions.css
+
+--fc4143583--2012-03-19--mumble
+1	1	app/controllers/gifts_controller.rb
+1	1	app/controllers/series_controller.rb
+1	2	app/controllers/users_controller.rb
+
+--a3ef9140e--2012-03-19--sarken
+5	2	public/stylesheets/static.css
+
+--ce650bf01--2012-03-19--Elz
+--5f0b05b9d--2012-03-19--Elz
+--6fff4fc30--2012-03-19--Elz
+--82be6758d--2012-03-19--Elz
+--0314f08ee--2012-03-19--Elz
+--b67044ff9--2012-03-19--Elz
+--587233135--2012-03-19--Elz
+--03968f119--2012-03-19--Elz
+--9bc471b3a--2012-03-19--Elz
+--62e296eeb--2012-03-19--sarken
+16	0	public/stylesheets/static.css
+
+--a8bcbd892--2012-03-19--sarken
+3	0	public/help/work-search-bookmark-help.html
+
+--1ac92b352--2012-03-18--sarken
+6	4	app/views/skins/show.html.erb
+
+--36930405b--2012-03-18--sarken
+9	0	public/stylesheets/site/2.0/07-interactions.css
+
+--e9ed05a8c--2012-03-18--sarken
+2	2	public/stylesheets/site/2.0/08-actions.css
+
+--d57379f4d--2012-03-18--sarken
+5	1	app/views/bookmarks/search.html.erb
+7	4	app/views/people/search.html.erb
+8	10	app/views/search/index.html.erb
+8	1	app/views/tags/search.html.erb
+
+--81498e839--2012-03-17--Sidra
+11	32	doc/app/Admin/AdminUsersController.html
+5	1	doc/app/FandomsController.html
+6	6	doc/app/GiftsController.html
+2	2	doc/app/ProfileController.html
+13	7	doc/app/SubscriptionsController.html
+1	1	doc/app/TagsController.html
+2	2	doc/app/TagsHelper.html
+75	31	doc/app/User.html
+1	1	doc/app/Work.html
+1	1	doc/app/WorksController.html
+75	16	doc/app/WorksHelper.html
+228	228	doc/app/created.rid
+1	1	doc/app/js/search_index.js
+497	491	doc/app/table_of_contents.html
+
+--b25728363--2012-03-14--sarken
+1	1	app/views/home/index.html.erb
+4	3	app/views/user_mailer/invitation.html.erb
+1	1	features/invite_queue.feature
+
+--00c13fd9c--2012-03-12--sarken
+4	0	public/stylesheets/site/2.0/25-role-handheld.css
+
+--623991fa8--2012-03-12--sarken
+1	11	app/views/works/_standard_form.html.erb
+
+--fc39b538c--2012-03-12--mumble
+2	2	app/views/layouts/application.html.erb
+
+--67f9da5ab--2012-03-12--Elz
+--8db4de2ce--2012-03-12--Elz
+--71d41f9c5--2012-03-12--Elz
+--56e91f01d--2012-03-12--Elz
+--e4c63c5ce--2012-03-12--Elz
+--b6f1b6584--2012-03-12--Elz
+--900ff40cf--2012-03-12--Elz
+--fb4af7e26--2012-03-12--Elz
+--20542365f--2012-03-12--sarken
+9	1	app/views/chapters/preview_edit.html.erb
+
+--6ab7890a2--2012-03-12--sarken
+5	10	app/views/archive_faqs/show.html.erb
+11	0	public/stylesheets/site/2.0/21-userstuff.css
+
+--b02a12d42--2012-03-12--sarken
+38	20	app/views/series/edit.html.erb
+
+--a5d25e59c--2012-03-10--mumble
+--804fbcff9--2012-03-10--sarken
+--c0163f40c--2012-03-10--sarken
+5	6	app/helpers/works_helper.rb
+
+--039101977--2012-03-09--Cristina
+--c3d85d6a9--2012-03-08--Cristina
+18	20	app/views/readings/_reading.html.erb
+
+--fa5031adc--2012-03-05--sarken
+7	10	app/helpers/works_helper.rb
+1	1	app/views/comments/_commentable.html.erb
+1	1	app/views/works/_work_header_navigation.html.erb
+
+--f60c00c2e--2012-03-04--sarken
+9	2	app/helpers/works_helper.rb
+5	0	app/views/comments/_commentable.html.erb
+
+--9ccb6ed26--2012-03-05--sarken
+7	10	app/helpers/works_helper.rb
+1	1	app/views/comments/_commentable.html.erb
+1	1	app/views/works/_work_header_navigation.html.erb
+
+--b2e82d457--2012-03-04--Cristina
+2	0	public/robots.public.txt
+
+--d3bef13be--2012-03-04--Cristina
+8	0	public/robots.public.txt
+
+--9cb561dde--2012-03-04--Cristina
+75	4	public/500.html
+
+--5af6217c4--2012-03-04--Enigel
+--410a751ed--2012-03-04--Cristina
+4	0	app/controllers/fandoms_controller.rb
+2	2	app/views/fandoms/show.html.erb
+
+--e3e3cbe27--2012-03-04--Cristina
+2	2	app/controllers/profile_controller.rb
+
+--48a9cfbfe--2012-03-04--Elz
+--9406fab16--2012-03-04--Elz
+--f66a59f57--2012-03-04--Elz
+--c7af15e02--2012-03-04--Elz
+--702b04b36--2012-03-04--Elz
+--79baa56bc--2012-03-04--Cristina
+1	1	app/views/tags/feed.atom.builder
+
+--2031f50af--2012-03-04--Cristina
+6	6	app/controllers/gifts_controller.rb
+
+--00a581290--2012-03-04--sarken
+9	2	app/helpers/works_helper.rb
+5	0	app/views/comments/_commentable.html.erb
+
+--5b3e4ba84--2012-03-03--Cristina
+--306816945--2012-03-03--Cristina
+--c12b1f037--2012-03-04--Enigel
+--d54b6d0d5--2012-03-03--Cristina
+--4e71a7e02--2012-03-04--Enigel
+--731a72d7e--2012-03-04--Cristina
+1	1	app/models/work.rb
+
+--e537efa91--2012-03-03--Cristina
+18	7	features/subscriptions.feature
+
+--33e8136ee--2012-03-03--Cristina
+3	3	features/subscriptions.feature
+
+--cc56e9e60--2012-03-03--elz
+3	24	app/controllers/admin/admin_users_controller.rb
+17	0	app/models/user.rb
+42	36	app/views/admin/admin_users/index.html.erb
+
+--1a5307d6b--2012-03-03--elz
+26	1	lib/query.rb
+
+--0fc54edc2--2012-03-03--elz
+1	1	app/controllers/tags_controller.rb
+1	1	app/views/works/index.html.erb
+
+--34c71c181--2012-03-03--elz
+1	1	app/helpers/works_helper.rb
+
+--3838ea6d0--2012-03-03--elz
+1	1	features/icon.feature
+6	6	features/series.feature
+
+--91c601ed7--2012-03-02--shalott
+2	2	app/helpers/tags_helper.rb
+
+--2107429ac--2012-03-03--Sidra
+2	1	doc/app/Admin/AdminUsersController.html
+2	1	doc/app/ChallengeSignupObserver.html
+27	27	doc/app/Pseud.html
+46	16	doc/app/SeriesHelper.html
+30	29	doc/app/User.html
+11	9	doc/app/UsersController.html
+3	2	doc/app/WorkObserver.html
+38	0	doc/app/WorksHelper.html
+228	228	doc/app/created.rid
+1	1	doc/app/js/search_index.js
+527	523	doc/app/table_of_contents.html
+
+--483aab3b5--2012-03-03--sarken
+16	7	app/views/works/preview.html.erb
+
+--3124e9b7e--2012-03-02--Cristina
+12	3	app/controllers/subscriptions_controller.rb
+9	8	app/views/subscriptions/index.html.erb
+4	2	app/views/users/_header_navigation.html.erb
+3	1	app/views/works/_work_header_navigation.html.erb
+
+--3b9572779--2012-03-02--shalott
+--633eb5f19--2012-02-29--sarken
+4	5	app/views/user_mailer/invitation.html.erb
+
+--f138a85ea--2012-02-28--Elz
+--aaed3feba--2012-02-29--sarken
+2	15	app/views/tag_wranglers/show.html.erb
+4	5	app/views/tag_wranglings/index.html.erb
+
+--6978d89d6--2012-02-28--Cristina
+--704d99b2e--2012-02-28--elz
+1	1	app/views/works/preview.html.erb
+
+--a3745e112--2012-02-28--shalott
+--0a75df574--2012-02-28--tuff_ghost
+1	1	public/javascripts/ibox/ibox.js
+
+--e6ea4c826--2012-02-27--Elz
+--426a19423--2012-02-27--shalott
+--815821b20--2012-02-27--shalott
+--784b49be9--2012-02-27--shalott
+--f0e483c6e--2012-02-27--shalott
+--d37165e54--2012-02-28--tuff_ghost
+4	5	public/stylesheets/site/2.0/07-interactions.css
+7	1	public/stylesheets/site/2.0/28-role-ie8_or_lower.css
+
+--8ec145b98--2012-02-28--sarken
+4	4	public/stylesheets/site/2.0/10-types-groups.css
+
+--fd3b32a94--2012-02-27--sarken
+1	0	public/stylesheets/site/2.0/18-zone-searchbrowse.css
+
+--eca5a1138--2012-02-27--tuff_ghost
+0	8	public/javascripts/ibox/ibox.js
+11	15	public/stylesheets/site/2.0/07-interactions.css
+
+--44acdda82--2012-02-27--tuff_ghost
+--6501f175e--2012-02-26--Elz
+--e8674284f--2012-02-26--shalott
+--e664ae014--2012-02-26--sarken
+1	5	public/stylesheets/site/2.0/17-zone-home.css
+
+--6d246e137--2012-02-26--sarken
+4	0	public/stylesheets/site/2.0/17-zone-home.css
+
+--8caca3155--2012-02-25--shalott
+--a2f22ab2f--2012-02-25--tuff_ghost
+--ae8b2c8c0--2012-02-25--tuff_ghost
+455	346	public/javascripts/ibox/ibox.js
+33	8	public/stylesheets/site/2.0/07-interactions.css
+
+--5467352ca--2012-02-25--shalott
+1	1	app/views/layouts/_footer.html.erb
+5	0	app/views/layouts/mailer.html.erb
+
+--f5d2c6f00--2012-02-24--shalott
+--014633c67--2012-02-24--shalott
+--dcc7791c8--2012-02-24--shalott
+--d328335b5--2012-02-24--shalott
+--da64177ae--2012-02-24--shalott
+--0cda3068c--2012-02-24--shalott
+--35944e6d4--2012-02-24--shalott
+--43c69241b--2012-02-24--shalott
+--9bbef8574--2012-02-24--shalott
+--3312d71f2--2012-02-24--shalott
+2	1	app/controllers/admin/admin_users_controller.rb
+3	1	app/controllers/users_controller.rb
+2	1	app/models/challenge_signup_observer.rb
+3	2	app/models/invitation.rb
+2	1	app/models/user.rb
+3	2	app/models/work_observer.rb
+1	1	lib/tasks/after_tasks.rake
+
+--37697cb04--2012-02-25--Sidra
+1	1	doc/app/CommentsController.html
+1	1	doc/app/OrphansController.html
+228	228	doc/app/created.rid
+
+--871a6c557--2012-02-22--sarken
+5	4	app/views/user_mailer/invitation.html.erb
+2	0	features/invite_queue.feature
+
+--b1cd19d82--2012-02-21--sarken
+7	4	public/stylesheets/site/2.0/14-group-preface.css
+
+--99eb33512--2012-02-21--sarken
+1	1	app/helpers/works_helper.rb
+
+--0c3ea9897--2012-02-21--sarken
+10	0	app/helpers/works_helper.rb
+3	1	app/views/works/_work_header.html.erb
+1	1	app/views/works/_work_header_notes.html.erb
+24	0	features/work_notes.feature
+
+--b63152882--2012-02-21--sarken
+2	3	app/views/chapters/show.html.erb
+1	1	app/views/works/_work_approved_children.html.erb
+1	1	app/views/works/_work_series_links.html.erb
+7	4	public/stylesheets/site/2.0/14-group-preface.css
+
+--13714a4e6--2012-02-20--sarken
+--e9b8bb1a7--2012-02-20--sarken
+1	1	app/views/chapters/show.html.erb
+
+--86977993f--2012-02-20--sarken
+4	0	public/stylesheets/site/2.0/08-actions.css
+
+--289c8e228--2012-02-20--sarken
+2	2	app/views/tag_wranglings/index.html.erb
+
+--495b84aac--2012-02-15--sarken
+2	0	app/views/chapters/show.html.erb
+2	0	app/views/works/show.html.erb
+
+--910a94705--2012-02-15--sarken
+5	1	public/stylesheets/site/2.0/14-group-preface.css
+
+--454197b86--2012-02-14--sarken
+14	9	app/views/chapters/show.html.erb
+2	2	app/views/works/_work_approved_children.html.erb
+1	1	app/views/works/_work_endnotes.html.erb
+2	2	app/views/works/_work_series_links.html.erb
+4	6	app/views/works/show.html.erb
+1	1	public/stylesheets/site/2.0/14-group-preface.css
+
+--62e62149f--2012-02-13--sarken
+16	0	app/views/works/_work_approved_children.html.erb
+3	5	app/views/works/_work_endnotes.html.erb
+0	18	app/views/works/_work_footer.html.erb
+0	0	app/views/works/{_series_links.html.erb => _work_series_links.html.erb}
+16	9	app/views/works/show.html.erb
+
+--21f61645b--2012-02-10--sarken
+9	6	app/helpers/series_helper.rb
+8	3	app/views/works/_series_links.html.erb
+4	4	app/views/works/show.html.erb
+4	0	public/stylesheets/site/2.0/10-types-groups.css
+
+--1c3ca888d--2012-02-18--Cristina
+--4f944f18a--2012-02-18--Cesy
+--ff08778c7--2012-02-18--sarken
+1	1	app/views/collections/_collection_blurb.html.erb
+
+--6fb261a62--2012-02-18--sarken
+4	1	public/stylesheets/site/2.0/07-interactions.css
+
+--99118ad21--2012-02-18--sarken
+1	1	app/views/archive_faqs/_archive_faq_order.html.erb
+1	1	app/views/series/_series_order.html.erb
+
+--5acd8507a--2012-02-18--sarken
+4	0	public/stylesheets/site/2.0/17-zone-home.css
+
+--7a006fc85--2012-02-17--Elz
+--11cbabad6--2012-02-17--Elz
+--6a36148b2--2012-02-17--Elz
+--0c7e31dc7--2012-02-17--Elz
+--aac82d96d--2012-02-17--Elz
+--064f389d7--2012-02-17--Elz
+--623819974--2012-02-18--sarken
+1	1	app/views/tag_wranglers/show.html.erb
+
+--187687df0--2012-02-18--sarken
+1	1	app/views/works/_standard_form.html.erb
+
+--2b522d4d6--2012-02-18--sarken
+10	1	public/stylesheets/sandbox.css
+
+--de0979d3a--2012-02-17--elz
+1	1	app/controllers/works_controller.rb
+
+--97259e9ef--2012-02-17--Sidra
+9	3	lib/tasks/resque.rake
+
+--ec60c1beb--2012-02-17--elz
+2	2	features/orphan_work.feature
+
+--5bdbe58fc--2012-02-17--elz
+1	1	app/controllers/orphans_controller.rb
+
+--ad8a1831c--2012-02-17--elz
+8	8	features/orphan_pseud.feature
+
+--0858526a8--2012-02-18--Sidra
+228	228	doc/app/created.rid
+
+--729d7386f--2012-02-17--Sidra
+1	1	doc/app/ApplicationHelper.html
+27	21	doc/app/AutocompleteController.html
+1	1	doc/app/CollectionItem.html
+1	1	doc/app/CollectionItemsController.html
+14	9	doc/app/CollectionParticipant.html
+35	3	doc/app/ExternalCreatorship.html
+62	30	doc/app/OrphansController.html
+7	6	doc/app/OrphansHelper.html
+2	2	doc/app/PromptRestriction.html
+4	2	doc/app/UrlActiveValidator.html
+27	27	doc/app/UsersController.html
+292	84	doc/app/Work.html
+105	20	doc/app/WorksController.html
+228	228	doc/app/created.rid
+1	1	doc/app/js/search_index.js
+529	509	doc/app/table_of_contents.html
+
+--ad647fc9f--2012-02-17--Rebecca Breu
+3	3	config/initializers/gem-plugin_config/sanitizer_config.rb
+1	2	spec/lib/html_cleaner_spec.rb
+
+--675f43c45--2012-02-17--Cesy
+0	35	spec/models/pseud_spec.rb
+
+--fb9959f0b--2012-02-17--Cesy
+--3cb81bdfb--2012-01-29--Cesy
+3	0	app/controllers/challenge_claims_controller.rb
+17	3	app/views/challenge_claims/_user_index.html.erb
+1	0	features/challenge_promptmeme.feature
+
+--364ae06c3--2012-02-17--elz
+4	4	features/orphan_account.feature
+
+--768a043c1--2012-02-17--elz
+2	2	features/orphan_account.feature
+
+--bf4856599--2012-01-29--Cesy
+4	2	app/controllers/prompts_controller.rb
+6	6	features/challenge_promptmeme.feature
+
+--278b1f45d--2012-02-16--sarken
+-	-	public/images/imageset.png
+1	1	public/stylesheets/site/2.0/13-group-blurb.css
+
+--c1ffe1410--2012-02-15--elz
+1	1	app/controllers/works_controller.rb
+8	7	app/views/chapters/preview_edit.html.erb
+9	8	app/views/works/preview.html.erb
+
+--be7add4a7--2012-02-15--elz
+1	1	app/controllers/comments_controller.rb
+
+--02a65e6e0--2012-02-15--sarken
+2	0	app/views/chapters/show.html.erb
+2	0	app/views/works/show.html.erb
+
+--5cbcce669--2012-02-15--sarken
+17	12	app/views/works/show.html.erb
+
+--fdb072d33--2012-02-15--sarken
+--7803a975d--2012-02-15--sarken
+5	1	public/stylesheets/site/2.0/14-group-preface.css
+
+--340fd54ce--2012-02-14--sarken
+14	9	app/views/chapters/show.html.erb
+2	2	app/views/works/_work_approved_children.html.erb
+1	1	app/views/works/_work_endnotes.html.erb
+2	2	app/views/works/_work_series_links.html.erb
+4	6	app/views/works/show.html.erb
+1	1	public/stylesheets/site/2.0/14-group-preface.css
+
+--71f619a35--2012-02-13--sarken
+16	0	app/views/works/_work_approved_children.html.erb
+3	5	app/views/works/_work_endnotes.html.erb
+0	18	app/views/works/_work_footer.html.erb
+0	0	app/views/works/{_series_links.html.erb => _work_series_links.html.erb}
+16	9	app/views/works/show.html.erb
+
+--c98d37a84--2012-02-10--sarken
+9	6	app/helpers/series_helper.rb
+8	3	app/views/works/_series_links.html.erb
+4	4	app/views/works/show.html.erb
+4	0	public/stylesheets/site/2.0/10-types-groups.css
+
+--c7b26a184--2012-02-10--sarken
+9	6	app/helpers/series_helper.rb
+8	3	app/views/works/_series_links.html.erb
+4	4	app/views/works/show.html.erb
+4	0	public/stylesheets/site/2.0/10-types-groups.css
+
+--f3d84ef35--2012-01-29--Cesy
+2	1	app/views/prompts/_prompt_controls.html.erb
+11	2	features/challenge_promptmeme.feature
+0	1	features/step_definitions/challenge_steps.rb
+
+--658c35b3b--2012-01-29--Cesy
+1	1	app/controllers/challenge_requests_controller.rb
+1	1	features/step_definitions/challenge_steps.rb
+
+--28c135890--2011-12-13--Phoenix Wolfe
+35	0	spec/models/pseud_spec.rb
+
+--e6b34a71b--2011-12-13--Phoenix Wolfe
+2	0	app/models/pseud.rb
+
+--d2dc8373d--2011-12-06--Phoenix Wolfe
+1	0	app/views/pseuds/_pseuds_form.html.erb
+1	0	config/config.yml
+
+--aed938026--2011-06-22--mumble
+1	0	app/controllers/bookmarks_controller.rb
+2	0	app/controllers/fandoms_controller.rb
+0	1	app/controllers/feedbacks_controller.rb
+1	0	app/controllers/works_controller.rb
+
+--8cdcd6dfc--2011-02-12--mumble
+1	0	app/controllers/collection_profile_controller.rb
+2	0	app/controllers/collections_controller.rb
+2	1	app/controllers/pseuds_controller.rb
+1	0	app/controllers/series_controller.rb
+1	1	app/controllers/works_controller.rb
+
+--915241c76--2011-02-09--mumble
+2	0	app/controllers/bookmarks_controller.rb
+1	0	app/controllers/gifts_controller.rb
+
+--f45736367--2011-02-09--mumble
+2	1	app/controllers/pseuds_controller.rb
+2	0	app/controllers/users_controller.rb
+8	1	app/controllers/works_controller.rb
+2	2	app/views/layouts/application.html.erb

@@ -1,0 +1,150 @@
+--f42c9827--2010-08-05--tubergen
+--0643b1dc--2010-08-03--Dhruv Kapadia
+1	0	app/models/idea_mailer.rb
+1	1	app/views/idea_mailer/flag_notification.erb
+1	1	config/locales/photocracy_en.yml
+
+--98eec057--2010-08-03--Dhruv Kapadia
+0	1	features/photocracy/add_photo.feature
+1	1	features/photocracy/individual_photo_page.feature
+4	0	features/photocracy/voting_history.feature
+
+--48d52f3d--2010-08-03--Dhruv Kapadia
+3	5	app/views/photocracy/questions/_prompt.haml
+3	2	public/javascripts/photocracy/application.js
+
+--432e846f--2010-08-03--Dhruv Kapadia
+2	2	app/views/photocracy/questions/admin.html.haml
+
+--b7a4557f--2010-08-03--Dhruv Kapadia
+10	1	app/views/photocracy/layouts/application.html.haml
+
+--5d11456f--2010-08-03--Dhruv Kapadia
+4	1	app/views/photocracy/earls/show.haml
+1	0	config/locales/photocracy_en.yml
+4	4	features/photocracy/add_photo.feature
+0	1	features/photocracy/flag_as_inappropriate.feature
+
+--5a19d689--2010-08-03--Dhruv Kapadia
+1	1	config/locales/en.yml
+
+--af5e7bba--2010-08-03--Dhruv Kapadia
+13	0	app/views/photocracy/layouts/_google_analytics.html.erb
+3	0	app/views/photocracy/layouts/application.html.haml
+
+--2d6ef21e--2010-08-03--Dhruv Kapadia
+1	0	app/models/idea_mailer.rb
+8	7	app/views/idea_mailer/flag_notification.erb
+3	1	config/locales/en.yml
+26	0	features/photocracy/flag_as_inappropriate.feature
+1	1	features/step_definitions/voting_steps.rb
+
+--21464b36--2010-08-03--Dhruv Kapadia
+5	0	features/fraud_prevention/ignore_votes_after_skips.feature
+0	1	features/photocracy/voting_history.feature
+
+--5a1b4478--2010-08-03--Dhruv Kapadia
+1	1	public/javascripts/photocracy/application.js
+
+--2f3194fd--2010-08-03--Dhruv Kapadia
+2	2	app/views/photocracy/questions/_results_header.html.erb
+
+--6f050526--2010-08-03--Dhruv Kapadia
+3	2	app/controllers/questions_controller.rb
+13	5	app/views/photocracy/earls/show.haml
+1	0	config/locales/photocracy_en.yml
+7	2	public/javascripts/photocracy/application.js
+4	0	public/stylesheets/photocracy/application.css
+6	1	public/stylesheets/photocracy/application.scss
+
+--f30fbd0c--2010-08-03--Dmitri Garbuzov
+1	0	features/step_definitions/admin_steps.rb
+
+--f6874a17--2010-08-03--Dhruv Kapadia
+18	3	public/javascripts/photocracy/application.js
+
+--3208a6f8--2010-08-03--tubergen
+0	5	app/controllers/application_controller.rb
+65	0	app/controllers/earls_controller.rb
+61	9	app/views/widget/earls/show.html.haml
+
+--e17f0911--2010-08-03--Dhruv Kapadia
+1	0	app/models/idea_mailer.rb
+1	1	app/views/idea_mailer/flag_notification.erb
+1	1	config/locales/photocracy_en.yml
+
+--a034a985--2010-08-03--Dhruv Kapadia
+0	1	features/photocracy/add_photo.feature
+1	1	features/photocracy/individual_photo_page.feature
+4	0	features/photocracy/voting_history.feature
+
+--8f769d5a--2010-08-03--Dhruv Kapadia
+3	5	app/views/photocracy/questions/_prompt.haml
+3	2	public/javascripts/photocracy/application.js
+
+--bdc1eba5--2010-08-03--Dhruv Kapadia
+2	2	app/views/photocracy/questions/admin.html.haml
+
+--8552da16--2010-08-03--Dhruv Kapadia
+10	1	app/views/photocracy/layouts/application.html.haml
+
+--705bc112--2010-08-03--Dhruv Kapadia
+4	1	app/views/photocracy/earls/show.haml
+1	0	config/locales/photocracy_en.yml
+4	4	features/photocracy/add_photo.feature
+0	1	features/photocracy/flag_as_inappropriate.feature
+
+--a6d176fb--2010-08-03--Dhruv Kapadia
+1	1	config/locales/en.yml
+
+--2c230f4b--2010-08-03--Dhruv Kapadia
+13	0	app/views/photocracy/layouts/_google_analytics.html.erb
+3	0	app/views/photocracy/layouts/application.html.haml
+
+--829e4612--2010-08-03--Dhruv Kapadia
+1	0	app/models/idea_mailer.rb
+8	7	app/views/idea_mailer/flag_notification.erb
+3	1	config/locales/en.yml
+26	0	features/photocracy/flag_as_inappropriate.feature
+1	1	features/step_definitions/voting_steps.rb
+
+--787bc66f--2010-08-03--Dhruv Kapadia
+5	0	features/fraud_prevention/ignore_votes_after_skips.feature
+0	1	features/photocracy/voting_history.feature
+
+--9e948d12--2010-08-03--Dhruv Kapadia
+1	1	public/javascripts/photocracy/application.js
+
+--b34c085a--2010-08-03--Dhruv Kapadia
+2	2	app/views/photocracy/questions/_results_header.html.erb
+
+--822dc32b--2010-08-03--Dhruv Kapadia
+3	2	app/controllers/questions_controller.rb
+13	5	app/views/photocracy/earls/show.haml
+1	0	config/locales/photocracy_en.yml
+7	2	public/javascripts/photocracy/application.js
+4	0	public/stylesheets/photocracy/application.css
+6	1	public/stylesheets/photocracy/application.scss
+
+--5f555f3c--2010-08-03--Dmitri Garbuzov
+1	0	features/step_definitions/admin_steps.rb
+
+--cb529fad--2010-08-03--Dhruv Kapadia
+18	3	public/javascripts/photocracy/application.js
+
+--8cec15e4--2010-08-03--tubergen
+6	0	app/controllers/application_controller.rb
+8	1	app/views/widget/earls/show.html.haml
+3	1	public/stylesheets/widget/sass/screen.sass
+2	0	public/stylesheets/widget/screen.css
+
+--67b6a911--2010-08-02--tubergen
+29	19	app/views/widget/earls/show.html.haml
+
+--a5c493a8--2010-08-02--tubergen
+1	23	app/views/widget/earls/_vote_box_js.html.erb
+
+--1a7403b1--2010-08-02--tubergen
+7	5	app/views/widget/earls/_cast_votes.html.haml
+4	4	public/stylesheets/widget/sass/screen.sass
+7	8	public/stylesheets/widget/screen.css

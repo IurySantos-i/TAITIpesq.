@@ -1,0 +1,156 @@
+--7110e5d13--2015-11-12--Joel Sugarman
+--8a065ecc1--2015-11-11--Edward Andress
+15	0	features/feedback_loop.feature
+25	0	features/step_definitions/feedback_steps.rb
+3	0	features/support/stub_zendesk_requests.rb
+
+--276e0af6d--2015-11-11--Himal Mandalia
+--1ce99d310--2015-11-11--jsugarman
+--c440e220c--2015-11-11--jsugarman
+7	8	app/validators/claim_date_validator.rb
+0	2	spec/validators/claim_date_validator_spec.rb
+
+--1bd44f270--2015-11-11--Himal Mandalia
+--dcd51e476--2015-11-10--jsugarman
+6	0	app/presenters/error_message_translator.rb
+6	6	app/validators/claim_date_validator.rb
+38	1	config/locales/error_messages.en.yml
+8	0	spec/api/v1/claims/date_attended_spec.rb
+
+--a70fb836d--2015-11-10--Himal Mandalia
+--7549e212d--2015-11-10--Tyom Semonov
+2	1	.eslintrc
+3	2	.jshintrc
+1	1	app/assets/javascripts/modules/advocates/claims/Dropzone.js
+
+--38c4c12bb--2015-11-10--Himal Mandalia
+--3b54a056e--2015-11-10--Alistair Laing
+--9f8dcb2fa--2015-11-10--jsugarman
+2	2	app/views/pages/api_landing.html.haml
+
+--bd927e3fe--2015-11-10--Edward Andress
+10	1	app/models/bug_report.rb
+19	10	app/models/feedback.rb
+0	26	app/services/zendesk_bug_report_sender.rb
+0	26	app/services/zendesk_feedback_sender.rb
+26	0	app/services/zendesk_sender.rb
+0	0	spec/models/{report_bug_spec.rb => bug_report_spec.rb}
+39	0	spec/services/zendesk_sender_spec.rb
+
+--de4cd080f--2015-11-10--Edward Andress
+--c7aeea0a8--2015-11-10--Tyom Semonov
+7	19	app/assets/stylesheets/api-documentation.scss
+4	4	app/views/pages/api_landing.html.haml
+
+--079f7d0c5--2015-11-10--jsugarman
+6	14	app/views/pages/api_landing.html.haml
+
+--44856f2d1--2015-11-09--Tyom Semonov
+1	1	app/assets/javascripts/application.js
+7	8	app/assets/javascripts/modules/Messaging.js
+3	3	app/assets/javascripts/modules/SelectAll.js
+2	3	app/assets/javascripts/modules/advocates/claims/CrackedTrial.js
+6	6	app/assets/javascripts/modules/advocates/claims/Dropzone.js
+5	6	app/assets/javascripts/modules/advocates/claims/FeeCalculator.js
+16	18	app/assets/javascripts/modules/advocates/claims/FeeSectionDisplay.js
+2	2	app/assets/javascripts/modules/advocates/claims/NewClaim.js
+10	17	app/assets/javascripts/modules/case_worker/claims/DeterminationCalculator.js
+
+--348d28b85--2015-11-09--Tyom Semonov
+0	29	app/assets/javascripts/modules/FileUpload.js
+
+--449daa62f--2015-11-09--Tyom Semonov
+16	0	.eslintrc
+
+--79b6b5d84--2015-11-10--jsugarman
+11	14	app/views/pages/api_landing.html.haml
+
+--99bcd0b1c--2015-11-09--jsugarman
+19	1	app/assets/stylesheets/api-documentation.scss
+80	64	app/views/pages/api_landing.html.haml
+
+--ea45344f1--2015-11-09--Edward Andress
+--14e7e4d66--2015-11-09--Himal Mandalia
+8	15	app/assets/javascripts/modules/advocates/claims/TrialFieldsDisplay.js
+7	0	app/controllers/case_types_controller.rb
+5	0	app/views/case_types/show.js.erb
+1	0	config/routes.rb
+18	0	spec/controllers/case_types_controller_spec.rb
+4	4	spec/controllers/offences_controller_spec.rb
+
+--f08659d90--2015-11-09--Himal Mandalia
+--8792f7c24--2015-11-09--jsugarman
+0	2	app/models/defendant.rb
+0	2	app/models/expense.rb
+0	2	app/models/fee.rb
+
+--d6c393424--2015-11-09--jsugarman
+1	1	app/validators/fee_validator.rb
+0	2	lib/tasks/api.rake
+9	14	spec/api/v1/claims/defendant_spec.rb
+6	10	spec/models/timed_state_transitions/transitioner_spec.rb
+
+--80ae3aef2--2015-11-09--jsugarman
+5	5	app/interfaces/api/v1/advocates/claim.rb
+1	1	app/interfaces/api/v1/advocates/date_attended.rb
+1	1	app/interfaces/api/v1/advocates/expense.rb
+17	9	app/interfaces/api/v1/error_response.rb
+1	1	config/locales/error_messages.en.yml
+
+--47ae312b1--2015-11-09--Alistair Laing
+--a575d09a7--2015-11-09--Himal Mandalia
+57	57	db/seeds/case_types.rb
+
+--bc10d6850--2015-11-09--jsugarman
+0	1	app/models/claim.rb
+10	3	app/validators/fee_validator.rb
+0	1	app/validators/validation_initializer.rb
+14	14	lib/tasks/api.rake
+1	0	spec/api/v1/claims/fee_spec.rb
+
+--050a989a0--2015-11-08--jsugarman
+1	1	app/interfaces/api/v1/advocates/fee.rb
+20	17	app/interfaces/api/v1/error_response.rb
+3	3	app/validators/fee_validator.rb
+13	9	config/locales/error_messages.en.yml
+4	6	spec/api/v1/claims/date_attended_spec.rb
+42	3	spec/api/v1/claims/fee_spec.rb
+8	12	spec/api/v1/claims/representation_order_spec.rb
+1	1	spec/api/v1/claims/shared_examples_for_fees.rb
+45	8	spec/api/v1/error_response_spec.rb
+
+--2175b758a--2015-11-07--jsugarman
+1	1	app/interfaces/api/v1/advocates/fee.rb
+2	53	app/interfaces/api/v1/api_helper.rb
+8	0	app/interfaces/api/v1/api_response.rb
+90	0	app/interfaces/api/v1/error_response.rb
+1	2	app/models/date_attended.rb
+4	4	app/models/defendant.rb
+2	1	app/models/expense.rb
+8	3	app/models/fee.rb
+1	2	app/models/representation_order.rb
+5	3	app/presenters/error_detail.rb
+0	5	app/presenters/error_detail_collection.rb
+6	3	app/presenters/error_message_translator.rb
+8	5	app/presenters/error_presenter.rb
+0	2	app/validators/claim_date_validator.rb
+6	6	app/validators/defendant_validator.rb
+8	0	app/validators/expense_validator.rb
+7	0	app/validators/fee_validator.rb
+146	20	config/locales/error_messages.en.yml
+24	23	spec/api/v1/claims/claim_spec.rb
+14	19	spec/api/v1/claims/defendant_spec.rb
+13	17	spec/api/v1/claims/expense_spec.rb
+6	7	spec/api/v1/claims/fee_spec.rb
+3	4	spec/api/v1/claims/shared_examples_for_fees.rb
+42	0	spec/api/v1/error_response_spec.rb
+1	1	spec/models/expense_spec.rb
+2	2	spec/models/fee_spec.rb
+8	1	spec/presenters/data/error_messages.en.yml
+3	4	spec/presenters/error_detail_collection_spec.rb
+11	8	spec/presenters/error_detail_spec.rb
+45	34	spec/presenters/error_message_translator_spec.rb
+10	12	spec/presenters/error_presenter_spec.rb
+0	1	spec/validators/date_attended_validator_spec.rb
+3	4	spec/validators/expense_validator_spec.rb
+4	0	spec/validators/fee_validator_spec.rb

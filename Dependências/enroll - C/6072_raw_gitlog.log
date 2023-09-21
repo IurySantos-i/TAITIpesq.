@@ -1,0 +1,183 @@
+--415e63dee0--2015-05-22--Brian Russel Davis
+--12fa8bf41e--2015-05-22--Brian Russel Davis
+2	1	app/assets/javascripts/semantic_class.js
+
+--011ede8099--2015-05-22--Brian Russel Davis
+20	8	app/assets/javascripts/semantic_class.js
+1	0	app/views/consumer_profiles/personal.js.erb
+2	2	app/views/people/landing_pages/_personal.html.erb
+
+--05962ccf08--2015-05-22--Ken Lu
+15	5	app/assets/javascripts/application.js
+3	3	app/assets/javascripts/dynamic_nested_fields.js.coffee
+2	2	app/controllers/application_controller.rb
+3	2	app/controllers/employers/family_controller.rb
+2	2	app/views/employers/family/_member_fields.html.erb
+
+--33905ec585--2015-05-22--Brian Russel Davis
+5	4	app/assets/javascripts/plan_shopping.js.erb
+4	12	app/views/shared/_reference_plans_list.html.erb
+
+--f8673fa7f0--2015-05-22--Brian Russel Davis
+1	1	app/assets/javascripts/application.js
+5	5	app/views/consumer/employee_dependents/index.html.erb
+2	2	app/views/consumer/employee_roles/_employment_relationships.html.haml
+4	4	app/views/consumer/employee_roles/_form.html.erb
+1	1	app/views/consumer/employee_roles/_no_match.html.haml
+1	1	app/views/consumer/employee_roles/_welcome_msg.html.haml
+1	1	app/views/employers/employer_profiles/_welcome_msg.html.haml
+1	1	app/views/employers/people/_person_info_form.html.erb
+1	1	app/views/employers/people/_search_fields.html.erb
+5	5	app/views/group_selection/new.html.erb
+2	2	app/views/insured/plan_shoppings/_plan_details.html.erb
+1	1	app/views/insured/plan_shoppings/_plan_filters.html.erb
+5	5	app/views/insured/plan_shoppings/show.html.erb
+4	4	app/views/insured/plan_shoppings/thankyou.html.erb
+1	1	app/views/shared/_person_search_fields.html.erb
+
+--0cc7358261--2015-05-22--Brian Russel Davis
+2	0	app/assets/javascripts/application.js
+13	4	app/assets/javascripts/semantic_class.js
+1	1	app/views/employers/family/_form.html.haml
+2	1	app/views/employers/family/new.js.erb
+
+--ce1c0e52a7--2015-05-22--Brian Russel Davis
+3	3	app/views/employers/plan_years/_form.html.erb
+
+--ddc27be3db--2015-05-22--vinner
+4	4	app/views/shared/_relationship_benefit_fields.html.erb
+2	2	features/employers/create_employer.feature
+6	3	features/step_definitions/employers_steps.rb
+2	1	features/step_definitions/integration_steps.rb
+
+--bd0ba40cbf--2015-05-22--vinner
+0	1	app/views/shared/_address_fields.html.erb
+0	2	features/step_definitions/employers_steps.rb
+
+--d5f54b08c3--2015-05-22--vinner
+11	13	features/employers/create_employer.feature
+37	56	features/step_definitions/employers_steps.rb
+
+--fa6457c6d3--2015-05-21--vinner
+5	0	app/views/employers/plan_years/_form.html.erb
+
+--e7b057ffd8--2015-05-22--Brian Russel Davis
+2	1	app/assets/javascripts/application.js
+
+--935144fc31--2015-05-22--Brian Russel Davis
+6	2	app/assets/javascripts/semantic_class.js
+0	2	app/assets/stylesheets/custom.css.erb
+3	4	app/views/employers/employer_profiles/_welcome_msg.html.haml
+1	1	app/views/employers/employer_profiles/index.html.erb
+5	14	app/views/employers/employer_profiles/my_account/_employee_families.html.erb
+1	2	app/views/employers/family/_details.html.haml
+3	4	app/views/employers/family/_form.html.haml
+1	1	app/views/employers/family/show.html.erb
+1	1	app/views/employers/people/_person_info_form.html.erb
+1	1	app/views/employers/people/_search_fields.html.erb
+1	1	app/views/shared/_benefit_group_assignment_fields.html.erb
+1	1	app/views/shared/_person_search_fields.html.erb
+
+--38c7a2da35--2015-05-21--vinner
+1	1	app/views/shared/_employer_profile_fields.html.erb
+
+--46391f0ba2--2015-05-21--vinner
+0	1	app/views/employers/plan_years/_form.html.erb
+
+--a379dfae95--2015-05-21--vinner
+14	1	app/views/employers/plan_years/_form.html.erb
+
+--36d4c8c608--2015-05-21--Kevin Wei
+2	0	spec/controllers/exchanges/hbx_profiles_controller_spec.rb
+
+--2b6b350468--2015-05-21--Trey Evans
+2	0	config/unicorn.rb
+
+--c8b71b61e7--2015-05-21--Trey Evans
+1	1	config/deploy/production.rb
+
+--fa40b08f45--2015-05-21--Trey Evans
+0	1	Gemfile
+0	4	Gemfile.lock
+1	1	eyes/enroll.eye.rb
+
+--500c7c733e--2015-05-21--Trey Evans
+1	1	config/unicorn.rb
+
+--71cabda5c4--2015-05-21--Brian Russel Davis
+7	0	app/assets/javascripts/semantic_class.js
+
+--b54a715f50--2015-05-21--Dan Thomas
+6	2	app/models/premium_statement.rb
+64	49	spec/models/premium_statement_spec.rb
+
+--1015c3e1af--2015-05-21--Brian Russel Davis
+0	9	app/assets/stylesheets/custom.css.erb
+5	5	app/views/consumer/employee_dependents/index.html.erb
+2	2	app/views/consumer/employee_roles/_employment_relationships.html.haml
+17	5	app/views/consumer/employee_roles/_form.html.erb
+2	2	app/views/consumer/employee_roles/_no_match.html.haml
+1	1	app/views/consumer/employee_roles/_select_employer.html.haml
+1	1	app/views/consumer/employee_roles/_welcome_msg.html.haml
+1	3	app/views/consumer_profiles/_qles.html.erb
+5	5	app/views/group_selection/new.html.erb
+2	2	app/views/insured/plan_shoppings/_plan_details.html.erb
+1	1	app/views/insured/plan_shoppings/_plan_filters.html.erb
+5	5	app/views/insured/plan_shoppings/show.html.erb
+4	4	app/views/insured/plan_shoppings/thankyou.html.erb
+1	1	app/views/shared/_person_search_fields.html.erb
+
+--bad1ef251e--2015-05-21--Brian Russel Davis
+--94d6716cc8--2015-05-19--Brian Russel Davis
+--1c5f4196e2--2015-05-19--Brian Russel Davis
+1	1	app/views/consumer_profiles/_family.html.erb
+5	1	app/views/consumer_profiles/_qles.html.erb
+
+--cd7e430ee6--2015-05-19--Brian Russel Davis
+2	2	app/assets/stylesheets/custom.css.erb
+62	8	app/views/consumer_profiles/_employers_and_plans.html.erb
+23	15	app/views/consumer_profiles/_qles.html.erb
+7	18	app/views/shared/families/_benefit_summary_shop.html.erb
+11	1	app/views/shared/families/_show.html.erb
+
+--cb4ec1ee85--2015-05-18--Brian Russel Davis
+3	2	app/assets/stylesheets/custom.css.erb
+0	6	app/assets/stylesheets/style.css.erb
+67	17	app/views/shared/families/_benefit_summary_item.html.erb
+1	1	app/views/shared/families/_benefit_summary_shop.html.erb
+
+--f2dbaf99d4--2015-05-18--Brian Russel Davis
+0	1	app/views/insured/families/show.html.erb
+17	18	app/views/shared/families/_benefit_summary_item.html.erb
+20	10	app/views/shared/families/_benefit_summary_shop.html.erb
+
+--03c78c9e12--2015-05-18--Brian Russel Davis
+46	53	app/assets/javascripts/application.js
+2	14	app/assets/stylesheets/custom.css.erb
+68	68	app/views/consumer/employee_dependents/_dependent_form.html.erb
+0	3	app/views/consumer/employee_dependents/index.html.erb
+75	1	app/views/consumer/employee_roles/_get_employer.js.erb
+13	13	app/views/insured/families/index.html.erb
+19	3	app/views/insured/plan_shoppings/thankyou.html.erb
+0	3	app/views/people/_form.html.erb
+1	1	app/views/shared/_signup_progress.html.erb
+
+--7c843c6d7e--2015-05-18--Brian Russel Davis
+0	3	app/assets/stylesheets/custom.css.erb
+6	3	app/views/consumer/employee_dependents/_dependent_form.html.erb
+22	5	app/views/consumer/employee_dependents/index.html.erb
+18	4	app/views/group_selection/new.html.erb
+19	3	app/views/insured/plan_shoppings/show.html.erb
+21	6	app/views/people/_form.html.erb
+
+--a20c5c9d55--2015-05-18--Brian Russel Davis
+--947a9b7875--2015-05-17--Brian Russel Davis
+2	0	app/assets/javascripts/application.js
+0	7	app/assets/stylesheets/custom.css.erb
+0	1676	app/assets/stylesheets/font-awesome.css
+1	3	app/views/consumer/employee_dependents/index.html.erb
+2	2	app/views/group_selection/new.html.erb
+1	1	app/views/insured/plan_shoppings/show.html.erb
+2	2	app/views/insured/plan_shoppings/thankyou.html.erb
+1	1	app/views/people/_form.html.erb
+9	11	app/views/shared/_signup_progress.html.erb

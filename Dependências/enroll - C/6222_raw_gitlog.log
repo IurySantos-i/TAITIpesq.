@@ -1,0 +1,33 @@
+--0ab48c4b57--2015-04-23--Ken Lu
+--b4b725160b--2015-04-23--Ken Lu
+1	1	app/models/coverage_household.rb
+1	1	app/models/household.rb
+
+--13619e7b46--2015-04-23--Ken Lu
+10	2	app/controllers/plan_shoppings_controller.rb
+61	0	app/views/plan_shopping/thankyou.html.erb
+2	0	config/environments/development.rb
+
+--67e2914726--2015-04-23--Brian Russel Davis
+5	0	app/assets/javascripts/application.js
+2	0	app/assets/javascripts/jquery.selectric.min.js
+2	0	app/assets/stylesheets/application.css
+1	124	app/assets/stylesheets/custom.css.erb
+122	0	app/assets/stylesheets/responsive.css
+191	0	app/assets/stylesheets/selectric.css
+39	0	app/views/employers/employer_profiles/_employer_menu.html.erb
+114	101	app/views/employers/employer_profiles/new.html.erb
+35	40	app/views/layouts/_header.html.erb
+1	0	app/views/people/_form.html.erb
+19	19	app/views/shared/_benefit_group_fields.html.erb
+14	14	app/views/shared/_employer_profile_fields.html.erb
+24	26	app/views/shared/_plan_year_fields.html.erb
+15	20	app/views/shared/_relationship_benefit_fields.html.erb
+
+--12a334fabd--2015-04-23--vinner
+2	2	app/models/employer_census/employee_family.rb
+11	1	features/employers/create_employer.feature
+64	5	features/step_definitions/employers_steps.rb
+
+--8f571dc38f--2015-04-23--vinner
+0	6	app/controllers/employers/family_controller.rb

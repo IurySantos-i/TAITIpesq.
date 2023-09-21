@@ -1,0 +1,12 @@
+--05a982e5b--2015-11-02--Parker Moore
+--e5279d477--2015-11-01--Paul Robert Lloyd
+5	1	lib/jekyll/converters/markdown/kramdown_parser.rb
+
+--a64a5b957--2015-10-31--Jordon Bedwell
+--3a225c2ed--2015-10-31--Jordon Bedwell
+3	0	.travis.yml
+
+--9d1641f16--2015-10-31--Paul Robert Lloyd
+2	2	features/collections.feature
+1	0	lib/jekyll/converters/markdown/kramdown_parser.rb
+10	0	test/test_kramdown.rb

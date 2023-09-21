@@ -1,0 +1,115 @@
+--46db47be3--2014-01-10--Mikko Koski
+--f15936b3a--2014-01-10--Antti Virolainen
+--62c541ed2--2014-01-10--Antti Virolainen
+3	1	config/locales/ca.yml
+2	0	config/locales/de-bl.yml
+2	0	config/locales/de-rc.yml
+5	3	config/locales/de.yml
+13	0	config/locales/el.yml
+3	1	config/locales/en-at.yml
+2	0	config/locales/en-bd.yml
+2	0	config/locales/en-bf.yml
+2	0	config/locales/en-bl.yml
+2	0	config/locales/en-cf.yml
+2	0	config/locales/en-qr.yml
+2	0	config/locales/en-rc.yml
+2	0	config/locales/en-sb.yml
+2	0	config/locales/en-ul.yml
+2	0	config/locales/en-un.yml
+2	0	config/locales/en-vg.yml
+13	0	config/locales/es-ES.yml
+2	0	config/locales/es-rc.yml
+22	9	config/locales/es.yml
+4	4	config/locales/fi.yml
+2	0	config/locales/fr-at.yml
+2	0	config/locales/fr-bd.yml
+2	0	config/locales/fr-rc.yml
+16	3	config/locales/fr.yml
+2	0	config/locales/hr.yml
+2	0	config/locales/hu.yml
+6	4	config/locales/it.yml
+2	0	config/locales/lv.yml
+15	2	config/locales/nl.yml
+2	0	config/locales/pt-BR.yml
+2	0	config/locales/ro.yml
+13	0	config/locales/ru.yml
+2	0	config/locales/sv.yml
+2	0	config/locales/sw.yml
+2	0	config/locales/vi.yml
+2	0	config/locales/zh.yml
+
+--c853f4327--2014-01-10--Antti Virolainen
+5	0	RELEASE_NOTES.md
+1	1	VERSION
+
+--fdd342986--2014-01-10--Antti Virolainen
+1	1	app/models/community.rb
+1	0	app/models/custom_field.rb
+1	1	features/admin/admin_remove_custom_field.feature
+1	1	features/listings/user_adds_new_listing_with_custom_field.feature
+3	2	features/step_definitions/listing_steps.rb
+1	0	spec/factories.rb
+
+--520327b8c--2014-01-10--Juho Makkonen
+--562c6eb35--2014-01-10--Mikko Koski
+1	1	app/assets/stylesheets/views/_home.css.scss
+
+--0e47fb6d2--2014-01-10--Mikko Koski
+5	4	app/assets/stylesheets/views/_home.css.scss
+4	2	app/views/homepage/_custom_filters.haml
+
+--e2a49bd4e--2014-01-10--Mikko Koski
+18	0	app/assets/stylesheets/views/_home.css.scss
+0	18	app/assets/stylesheets/views/admin/_custom_fields.css.scss
+10	1	app/controllers/admin/custom_fields_controller.rb
+3	1	app/controllers/homepage_controller.rb
+1	4	app/views/admin/custom_fields/index.haml
+8	7	app/views/homepage/_custom_filters.haml
+19	16	app/views/homepage/index.haml
+68	0	spec/controllers/admin/custom_field_controller_spec.rb
+
+--ff4ecd411--2014-01-09--Antti Virolainen
+13	0	db/migrate/20140109190928_add_indexes_for_custom_fields.rb
+9	3	db/schema.rb
+
+--4cebaca0a--2014-01-09--Antti Virolainen
+1	1	app/views/listings/form/_custom_fields.haml
+3	3	features/step_definitions/listing_steps.rb
+
+--adeeb04f6--2014-01-09--Antti Virolainen
+3	0	features/step_definitions/admin_steps.rb
+
+--860db34d7--2014-01-09--Mikko Koski
+--def8dc41e--2014-01-09--Mikko Koski
+0	2	app/controllers/homepage_controller.rb
+
+--9d03ffb82--2013-12-27--Mikko Koski
+12	5	app/controllers/people_controller.rb
+5	0	app/models/email.rb
+
+--81a8e9eb4--2013-12-27--Mikko Koski
+0	1	app/controllers/people_controller.rb
+3	2	app/models/person.rb
+0	1	spec/factories.rb
+0	1	spec/fixtures/communities.yml
+0	2	spec/fixtures/people.yml
+1	2	spec/models/person_spec.rb
+
+--b6e6af0cf--2013-12-27--Mikko Koski
+3	12	app/controllers/people_controller.rb
+1	6	db/schema.rb
+
+--fdc4a4161--2013-12-27--Mikko Koski
+1	1	app/controllers/application_controller.rb
+0	4	app/controllers/confirmations_controller.rb
+1	1	app/models/person.rb
+1	4	app/views/communities/new.haml
+0	1	features/step_definitions/organization_steps.rb
+0	1	lib/console scripts/creating_accounts_from_list.rb
+0	8	lib/tasks/kassi.rake
+
+--34feaf1ff--2013-12-27--Mikko Koski
+0	1	app/controllers/communities_controller.rb
+3	6	app/controllers/people_controller.rb
+0	22	app/models/community.rb
+0	42	spec/models/community_spec.rb

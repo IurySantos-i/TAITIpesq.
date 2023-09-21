@@ -1,0 +1,26 @@
+--d768b8ba95--2015-06-13--Ken Lu
+--4545d71b32--2015-06-13--Ken Lu
+5	5	features/employers/create_employer.feature
+2	0	features/step_definitions/employers_steps.rb
+
+--ed098df9ea--2015-06-13--Raghuram
+12	22	app/assets/javascripts/employer_profile.js
+15	68	app/views/employers/employer_profiles/my_account/_census_employees.html.erb
+21	22	app/views/employers/employer_profiles/my_account/_employees_by_status.html.erb
+
+--703b4ba8c6--2015-06-13--Raghuram
+1	1	app/views/employers/employer_profiles/show.js.erb
+4	1	app/views/shared/_alph_paginate.html.erb
+
+--ce0d370a93--2015-06-13--Raghuram
+15	3	app/controllers/employers/employer_profiles_controller.rb
+0	10	app/models/employer_profile.rb
+
+--e000851d58--2015-06-13--Raghuram
+7	0	app/models/census_employee.rb
+
+--f3d51951c6--2015-06-13--raghuram
+64	0	app/views/employers/employer_profiles/my_account/_employees_by_status.html.erb
+
+--ea39042da5--2015-06-13--Trey Evans
+67	59	app/views/broker_agencies/profiles/_form.html.erb

@@ -1,0 +1,135 @@
+--9126cb5c61--2014-03-03--Tekin Suleyman
+--fda9b2a500--2014-03-03--Will Tomlins
+1	1	app/helpers/organisation_helper.rb
+1	1	config/locales/en.yml
+
+--0dd666d365--2014-03-03--Bradley Wright
+--04ce2b55ad--2014-03-03--Alex Tomlins
+--d8423fa908--2014-03-03--Tekin Suleyman
+1	1	Gemfile
+2	2	Gemfile.lock
+4	3	lib/whitehall/bad_link_finder.rb
+
+--24e1c72b4a--2014-02-28--Will Tomlins
+3	1	app/assets/stylesheets/frontend/views/_organisations.scss
+6	5	app/controllers/organisations_controller.rb
+49	0	app/views/organisations/_documents.html.erb
+1	15	app/views/organisations/not_live.html.erb
+2	51	app/views/organisations/show.html.erb
+6	2	features/organisations.feature
+
+--fa58deedf4--2014-02-28--Will Tomlins
+7	2	app/assets/stylesheets/frontend/helpers/_status-block.scss
+9	0	app/helpers/organisation_helper.rb
+1	1	app/views/ministerial_roles/show.html.erb
+2	3	app/views/organisations/not_live.html.erb
+1	0	config/locales/ar.yml
+1	0	config/locales/az.yml
+1	0	config/locales/be.yml
+1	0	config/locales/bg.yml
+1	0	config/locales/bn.yml
+1	0	config/locales/cs.yml
+1	0	config/locales/cy.yml
+1	0	config/locales/de.yml
+1	0	config/locales/dr.yml
+1	0	config/locales/el.yml
+1	0	config/locales/en.yml
+1	0	config/locales/es-419.yml
+1	0	config/locales/es.yml
+1	0	config/locales/fa.yml
+1	0	config/locales/fr.yml
+1	0	config/locales/he.yml
+1	0	config/locales/hi.yml
+1	0	config/locales/hu.yml
+1	0	config/locales/hy.yml
+1	0	config/locales/id.yml
+1	0	config/locales/it.yml
+1	0	config/locales/ja.yml
+1	0	config/locales/ka.yml
+1	0	config/locales/ko.yml
+1	0	config/locales/lt.yml
+1	0	config/locales/lv.yml
+1	0	config/locales/ms.yml
+1	0	config/locales/pl.yml
+1	0	config/locales/ps.yml
+1	0	config/locales/pt.yml
+1	0	config/locales/ro.yml
+1	0	config/locales/ru.yml
+1	0	config/locales/si.yml
+1	0	config/locales/sk.yml
+1	0	config/locales/so.yml
+1	0	config/locales/sq.yml
+1	0	config/locales/sr.yml
+1	0	config/locales/sw.yml
+1	0	config/locales/ta.yml
+1	0	config/locales/th.yml
+1	0	config/locales/tk.yml
+1	0	config/locales/tr.yml
+1	0	config/locales/uk.yml
+1	0	config/locales/ur.yml
+1	0	config/locales/uz.yml
+1	0	config/locales/vi.yml
+1	0	config/locales/zh-hk.yml
+1	0	config/locales/zh-tw.yml
+1	0	config/locales/zh.yml
+1	1	features/organisations.feature
+28	0	features/step_definitions/organisation_steps.rb
+14	0	test/unit/helpers/organisation_helper_test.rb
+
+--a9b7360597--2014-02-27--Will Tomlins
+21	30	app/assets/javascripts/admin/views/organisations/_form.js
+1	0	app/controllers/admin/organisations_controller.rb
+3	0	app/models/organisation.rb
+5	1	app/views/admin/organisations/_form.html.erb
+9	4	app/views/admin/organisations/show.html.erb
+9	0	db/migrate/20140227121604_add_organisation_supersedings.rb
+8	1	db/schema.rb
+7	0	features/organisations.feature
+15	0	features/step_definitions/organisation_steps.rb
+26	5	test/javascripts/unit/admin/views/organisations/_form_test.js
+
+--702cd9ad31--2014-02-28--Bradley Wright
+--228eba34e6--2014-02-28--Daniel Roseman
+23	0	db/data_migration/20140228122745_create_medical_mainstream_categories.rb
+
+--fa7ee1c072--2014-02-28--Alex Tomlins
+--a6f4332e71--2014-02-27--Jordan Hatch
+28	0	lib/tasks/panopticon.rake
+
+--02b59a4ad7--2014-02-27--Elliot Crosby-McCullough
+--c640536ac5--2014-02-26--Tekin Suleyman
+6	10	lib/whitehall/bad_link_finder.rb
+
+--0f81d4d75e--2014-02-27--Tekin Suleyman
+--9d8b7ec0e3--2014-02-24--Vinay Patel
+1	1	test/factories/email_curation_queue_items.rb
+3	3	test/unit/whitehall/gov_uk_delivery/email_formatter_test.rb
+1	1	test/unit/whitehall/gov_uk_delivery/worker_test.rb
+
+--e0e7355923--2014-02-27--Tekin Suleyman
+--be9378ecc2--2014-02-27--Will Tomlins
+1	0	app/models/document_collection.rb
+1	0	app/views/admin/document_collections/_form.html.erb
+11	5	features/step_definitions/topical_event_steps.rb
+1	1	features/support/document_helper.rb
+10	2	features/topical_events.feature
+
+--d79271636b--2014-02-27--Tekin Suleyman
+--e21db1c1b3--2014-02-25--Vinay Patel
+4	1	app/controllers/admin/classification_featurings_controller.rb
+1	0	app/views/admin/classification_featurings/index.html.erb
+17	0	test/functional/admin/classification_featurings_controller_test.rb
+
+--93ca575734--2014-02-24--Vinay Patel
+4	0	app/models/edition/publishing.rb
+1	1	lib/whitehall/gov_uk_delivery/email_formatter.rb
+5	0	test/unit/edition_test.rb
+
+--069131224f--2014-02-25--Tekin Suleyman
+1	0	Gemfile
+24	1	Gemfile.lock
+7	0	lib/tasks/bad_link_reporting.rake
+72	0	lib/whitehall/bad_link_finder.rb
+
+--fdae10adbf--2014-02-25--Dan Carley
+2	2	lib/tasks/export.rake

@@ -1,0 +1,64 @@
+--e09977de0--2011-06-26--pixel
+--92c04256c--2011-06-24--Cesy
+0	1	app/views/home/index.html.erb
+
+--5923e5c85--2011-06-24--Cesy
+0	2	app/views/challenge_signups/_signup_controls.html.erb
+
+--fcba8141b--2011-06-24--Cesy
+9	7	app/views/challenge_signups/_signup_controls.html.erb
+2	2	app/views/collection_participants/_participant_form.html.erb
+4	4	app/views/collection_participants/index.html.erb
+7	7	app/views/prompts/_prompt_controls.html.erb
+25	10	features/challenge_promptmeme.feature
+12	0	features/step_definitions/collection_steps.rb
+
+--d41528619--2011-06-23--Cesy
+21	0	features/abuse_report.feature
+
+--a4e088228--2011-06-23--Cesy
+1	1	features/work_search.feature
+
+--69453d880--2011-06-23--Cesy
+1	0	app/views/layouts/home.html.erb
+
+--a4f81783d--2011-06-23--Cesy
+89	0	features/abuse_report.feature
+35	24	features/step_definitions/work_steps.rb
+7	7	features/support.feature
+
+--deb264e6a--2011-06-22--Cesy
+77	23	features/challenge_promptmeme.feature
+
+--37e8b0636--2011-06-22--Cesy
+1	0	.gitignore
+
+--70a69b514--2011-06-22--Cesy
+26	5	features/challenge_promptmeme.feature
+55	24	features/step_definitions/tag_steps.rb
+60	37	features/tag_comment.feature
+
+--0d9047526--2011-06-21--Cesy
+18	9	features/challenge_promptmeme.feature
+8	0	features/step_definitions/challenge_steps.rb
+
+--ce689e6fc--2011-06-21--Cesy
+41	16	features/challenge_promptmeme.feature
+8	0	features/step_definitions/challenge_steps.rb
+
+--47334c6ca--2011-06-21--Cesy
+46	34	features/challenge_promptmeme.feature
+10	0	features/step_definitions/challenge_steps.rb
+
+--44d0a7f02--2011-06-21--Cesy
+6	3	features/challenge_promptmeme.feature
+
+--962949789--2011-06-21--Cesy
+11	9	features/add_comment.feature
+40	15	features/challenge_promptmeme.feature
+2	0	features/step_definitions/challenge_steps.rb
+
+--6d58f8956--2011-06-24--pixel
+--3c0f98032--2011-06-24--Cesy
+1	1	app/views/users/_sidebar.html.erb
+4	4	features/challenge_promptmeme.feature

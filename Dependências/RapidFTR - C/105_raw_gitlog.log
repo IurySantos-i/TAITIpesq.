@@ -1,0 +1,56 @@
+--544218a6--2014-08-25--Kisitu Augustine
+--b2422f48--2014-08-24--rdsubhas
+1	1	Dockerfile
+1	1	docker/bootstrap.sh
+
+--84f3d15c--2014-08-24--rdsubhas
+1	1	Dockerfile
+1	1	docker/bootstrap.sh
+
+--01c54075--2014-08-22--ctumwebaze
+--a2cbd1c2--2014-08-21--Charles Tumwebaze
+6	3	app/assets/stylesheets/new/_entity_summary.scss
+30	1	app/controllers/enquiries_controller.rb
+4	0	app/helpers/enquiries_helper.rb
+46	2	app/models/enquiry.rb
+8	1	app/models/enquiry_search.rb
+2	1	app/views/children/index.html.erb
+3	2	app/views/enquiries/_header.html.erb
+13	0	app/views/enquiries/_potential_matches.html.erb
+4	3	app/views/enquiries/index.html.erb
+11	0	app/views/enquiries/index_with_potential_matches.html.erb
+9	1	app/views/enquiries/show.html.erb
+13	9	app/views/home/index.html.erb
+3	0	config/locales/en.yml
+3	1	config/routes.rb
+10	9	features/api/enquiries/create_or_edit_enquiry.feature
+14	14	features/api/enquiries/sync_enquiries.feature
+10	9	features/api/enquiries/trigger_matches_on_enquiry.feature
+56	8	features/enquiry_record_functionality.feature
+9	4	features/step_definitions/basic_steps.rb
+1	1	features/step_definitions/children_listing_steps.rb
+8	0	features/step_definitions/enquiry_setup_steps.rb
+1	1	features/support/pages/{child_list_page.rb => entity_list_page.rb}
+19	2	spec/views/enquiries/show.html.erb_spec.rb
+
+--6a13137e--2014-08-22--Kisitu Augustine
+--78a9ed4d--2014-08-22--Kisitu Augustine
+1	1	app/controllers/enquiries_controller.rb
+6	6	spec/controllers/enquiries_controller_spec.rb
+8	8	spec/views/enquiries/edit.html.erb_spec.rb
+
+--ce270bb2--2014-08-22--Kisitu Augustine
+15	0	features/enquiry_record_functionality.feature
+
+--65fe9ae6--2014-08-21--Kisitu Augustine
+45	23	app/controllers/enquiries_controller.rb
+26	0	app/views/enquiries/edit.html.erb
+62	0	spec/controllers/enquiries_controller_spec.rb
+36	0	spec/views/enquiries/edit.html.erb_spec.rb
+
+--6a440a95--2014-08-21--Kisitu Augustine
+5	1	app/helpers/application_helper.rb
+5	1	config/locales/en.yml
+
+--8c3ef8ed--2014-08-21--Kisitu Augustine
+1	1	app/models/ability.rb

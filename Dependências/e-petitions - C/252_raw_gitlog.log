@@ -1,0 +1,29 @@
+--6bdac752--2015-07-02--Alexander Bobin
+--e1ba581b--2015-07-02--Henry Hadlow
+--220638fb--2015-07-02--Pete Herlihy
+2	1	app/views/application/_footer.html.erb
+39	206	app/views/pages/help.html.erb
+110	0	app/views/pages/privacy.html.erb
+1	1	app/views/petitions/create/_your_details_ui.html.erb
+4	3	config/locales/page_titles.en-GB.yml
+3	1	config/routes.rb
+3	0	features/support/paths.rb
+10	3	features/user_sees_static_stuff.feature
+7	0	spec/controllers/pages_controller_spec.rb
+2	2	spec/requests/redirect_old_urls_spec.rb
+
+--7c8fcae9--2015-07-02--Henry Hadlow
+--c9afd67f--2015-07-02--Murray Steele
+11	5	features/step_definitions/search_steps.rb
+1	4	features/suzie_searches_by_free_text.feature
+23	28	features/suzie_views_all_petitions.feature
+
+--82c1a9e0--2015-07-02--Pete Herlihy
+2	2	app/views/petitions/search/_results_for_pre_create_petition.html.erb
+
+--5d821d3f--2015-07-01--Henry Hadlow
+20	2	app/assets/stylesheets/petitions/views/_search.scss
+14	1	app/views/petitions/index.html.erb
+1	1	config/locales/petitions.en-GB.yml
+1	1	features/suzie_searches_by_free_text.feature
+1	1	features/suzie_views_all_petitions.feature

@@ -1,0 +1,214 @@
+--ebfd2b5b--2015-06-18--Murray Steele
+--10a6304b--2015-06-18--Murray Steele
+--7d39b953--2015-06-17--David Basalla
+1	1	app/views/petition_mailer/double_signature_confirmation.html.erb
+1	1	app/views/petition_mailer/double_signature_confirmation.text.erb
+1	1	app/views/petition_mailer/email_already_confirmed_for_signature.html.erb
+1	1	app/views/petition_mailer/email_already_confirmed_for_signature.text.erb
+1	1	app/views/petition_mailer/email_confirmation_for_signer.html.erb
+1	1	app/views/petition_mailer/email_confirmation_for_signer.text.erb
+1	1	app/views/petition_mailer/gather_sponsors_for_petition.html.erb
+1	1	app/views/petition_mailer/gather_sponsors_for_petition.text.erb
+1	1	app/views/petition_mailer/no_signature_for_petition.html.erb
+1	1	app/views/petition_mailer/no_signature_for_petition.text.erb
+1	1	app/views/petition_mailer/notify_creator_of_closing_date_change.html.erb
+1	1	app/views/petition_mailer/notify_creator_of_closing_date_change.text.erb
+1	1	app/views/petition_mailer/notify_creator_that_petition_is_published.html.erb
+1	1	app/views/petition_mailer/notify_creator_that_petition_is_published.text.erb
+1	1	app/views/petition_mailer/notify_signer_of_threshold_response.html.erb
+1	1	app/views/petition_mailer/notify_signer_of_threshold_response.text.erb
+1	1	app/views/petition_mailer/one_pending_one_validated_signature.html.erb
+1	1	app/views/petition_mailer/one_pending_one_validated_signature.text.erb
+1	1	app/views/petition_mailer/petition_rejected.html.erb
+1	1	app/views/petition_mailer/petition_rejected.text.erb
+1	1	app/views/petition_mailer/special_resend_of_email_confirmation_for_signer.html.erb
+1	1	app/views/petition_mailer/special_resend_of_email_confirmation_for_signer.text.erb
+1	1	app/views/petition_mailer/two_pending_signatures.html.erb
+1	1	app/views/petition_mailer/two_pending_signatures.text.erb
+1	1	app/views/sponsor_mailer/petition_and_email_confirmation_for_sponsor.html.erb
+1	1	app/views/sponsor_mailer/petition_and_email_confirmation_for_sponsor.text.erb
+1	1	app/views/sponsor_mailer/sponsor_signed_email_below_threshold.html.erb
+1	1	app/views/sponsor_mailer/sponsor_signed_email_below_threshold.text.erb
+1	1	app/views/sponsor_mailer/sponsor_signed_email_on_threshold.html.erb
+1	1	app/views/sponsor_mailer/sponsor_signed_email_on_threshold.text.erb
+
+--15d230d4--2015-06-18--David Basalla
+20	19	config/locales/petitions.en-GB.yml
+
+--016df3b6--2015-06-17--David Basalla
+1	1	app/views/feedback/index.html.erb
+1	1	app/views/feedback/thanks.html.erb
+1	1	app/views/petitions/check.html.erb
+1	1	app/views/petitions/check_results.html.erb
+1	1	app/views/petitions/create/_replay_email_ui.html.erb
+1	1	app/views/petitions/create/_replay_petition_ui.html.erb
+1	1	app/views/petitions/index.html.erb
+1	1	app/views/petitions/moderation_info.html.erb
+1	1	app/views/petitions/new.html.erb
+1	1	app/views/petitions/resend_confirmation_email.html.erb
+1	1	app/views/petitions/show.html.erb
+1	1	app/views/petitions/thank_you.html.erb
+1	1	app/views/search/search.html.erb
+1	1	app/views/shared/_share_petition.html.erb
+1	1	app/views/signatures/new.html.erb
+1	1	app/views/signatures/signed.html.erb
+1	1	app/views/signatures/thank_you.html.erb
+1	1	app/views/sponsors/show.html.erb
+1	1	app/views/sponsors/sponsored.html.erb
+1	1	app/views/sponsors/thank_you.html.erb
+
+--534eda48--2015-06-17--David Basalla
+2	2	README.md
+1	1	app/controllers/signatures_controller.rb
+0	1	app/mailers/petition_mailer.rb
+1	1	app/views/admin/reports/index.html.erb
+2	2	app/views/admin/searches/new.html.erb
+6	6	app/views/archived/petitions/index.html.erb
+2	2	app/views/archived/petitions/search.html.erb
+5	5	app/views/archived/petitions/show.html.erb
+1	1	app/views/petition_mailer/double_signature_confirmation.html.erb
+1	1	app/views/petition_mailer/double_signature_confirmation.text.erb
+1	1	app/views/petition_mailer/email_already_confirmed_for_signature.html.erb
+1	1	app/views/petition_mailer/email_already_confirmed_for_signature.text.erb
+2	2	app/views/petition_mailer/email_confirmation_for_signer.html.erb
+2	2	app/views/petition_mailer/email_confirmation_for_signer.text.erb
+3	3	app/views/petition_mailer/no_signature_for_petition.html.erb
+3	3	app/views/petition_mailer/no_signature_for_petition.text.erb
+2	2	app/views/petition_mailer/notify_creator_that_petition_is_published.html.erb
+2	2	app/views/petition_mailer/notify_creator_that_petition_is_published.text.erb
+2	2	app/views/petition_mailer/notify_signer_of_threshold_response.html.erb
+2	2	app/views/petition_mailer/notify_signer_of_threshold_response.text.erb
+2	2	app/views/petition_mailer/one_pending_one_validated_signature.html.erb
+2	2	app/views/petition_mailer/one_pending_one_validated_signature.text.erb
+3	3	app/views/petition_mailer/petition_rejected.html.erb
+3	3	app/views/petition_mailer/petition_rejected.text.erb
+3	3	app/views/petition_mailer/special_resend_of_email_confirmation_for_signer.html.erb
+2	2	app/views/petition_mailer/special_resend_of_email_confirmation_for_signer.text.erb
+2	2	app/views/petition_mailer/two_pending_signatures.html.erb
+2	2	app/views/petition_mailer/two_pending_signatures.text.erb
+1	1	app/views/petitions/_petition_show.html.erb
+1	1	app/views/petitions/_response_threshold.html.erb
+1	1	app/views/petitions/check.html.erb
+1	1	app/views/petitions/check_results.html.erb
+1	1	app/views/petitions/create/_replay_email_ui.html.erb
+1	1	app/views/petitions/create/_replay_petition_ui.html.erb
+1	1	app/views/petitions/index.html.erb
+1	1	app/views/petitions/new.html.erb
+1	1	app/views/petitions/resend_confirmation_email.html.erb
+1	1	app/views/signatures/new.html.erb
+1	1	app/views/sponsor_mailer/petition_and_email_confirmation_for_sponsor.html.erb
+1	1	app/views/sponsor_mailer/petition_and_email_confirmation_for_sponsor.text.erb
+2	2	app/views/sponsors/show.html.erb
+2	2	app/views/sponsors/sponsored.html.erb
+1	1	app/views/sponsors/thank_you.html.erb
+2	2	app/views/static_pages/home.html.erb
+5	5	lib/tasks/import.rake
+3	3	public/maintenance.html
+3	3	public/overloaded.html
+
+--06b9ee24--2015-06-18--David Basalla
+1	1	features/admin/moderator_responds_to_petition.feature
+1	1	features/admin/reports.feature
+2	2	features/admin/takedown.feature
+4	4	features/charlie_creates_a_petition.feature
+7	7	features/charlie_is_notified_about_sponsors_signing_his_petition.feature
+1	1	features/joe_searches_for_an_archived_petition.feature
+5	5	features/joe_views_an_archived_petition.feature
+2	2	features/step_definitions/moderation_steps.rb
+4	4	features/step_definitions/petition_steps.rb
+1	1	features/step_definitions/resend_confirmation_steps.rb
+2	2	features/step_definitions/signature_steps.rb
+6	6	features/step_definitions/sponsor_steps.rb
+1	1	features/step_definitions/sponsor_support_nofitication_steps.rb
+1	1	features/suzie_searches_by_free_text.feature
+1	1	features/suzie_signs_a_petition.feature
+3	3	features/suzie_views_a_petition.feature
+2	2	spec/controllers/admin/petitions_controller_spec.rb
+1	1	spec/controllers/admin/searches_controller_spec.rb
+11	10	spec/mailers/petition_mailer_spec.rb
+1	1	spec/models/feedback_spec.rb
+2	2	spec/models/petition_spec.rb
+
+--b009cb67--2015-06-17--Alexander Bobin
+-	-	{public => app/assets}/images/admin/delete.png
+-	-	{public => app/assets}/images/admin/logos/hm_gov.gif
+-	-	{public => app/assets}/images/admin/shadows/gray_bottom.gif
+-	-	{public => app/assets}/images/admin/shadows/gray_top.gif
+-	-	{public => app/assets}/images/admin/shadows/white_top.gif
+-	-	{public => app/assets}/images/admin/tick.gif
+0	0	{public => app/assets}/images/graphics/graphic.ai
+-	-	{public => app/assets}/images/graphics/graphic_crest-large-grey-2x.png
+-	-	{public => app/assets}/images/graphics/graphic_crest-large-grey.png
+-	-	{public => app/assets}/images/graphics/graphic_crown-2x.png
+-	-	{public => app/assets}/images/graphics/graphic_crown-grey-2x.png
+-	-	{public => app/assets}/images/graphics/graphic_crown-grey.png
+-	-	{public => app/assets}/images/graphics/graphic_crown-white-2x.png
+-	-	{public => app/assets}/images/graphics/graphic_crown-white.png
+-	-	{public => app/assets}/images/graphics/graphic_crown.png
+-	-	{public => app/assets}/images/graphics/graphic_open-government-licence-2x.png
+-	-	{public => app/assets}/images/graphics/graphic_open-government-licence.png
+-	-	{public => app/assets}/images/graphics/graphic_pen-2x.png
+-	-	{public => app/assets}/images/graphics/graphic_pen.png
+-	-	{public => app/assets}/images/graphics/graphic_portcullis-2x.png
+-	-	{public => app/assets}/images/graphics/graphic_portcullis-grey-2x.png
+-	-	{public => app/assets}/images/graphics/graphic_portcullis-grey.png
+-	-	{public => app/assets}/images/graphics/graphic_portcullis-large-grey-2x.png
+-	-	{public => app/assets}/images/graphics/graphic_portcullis-large-grey.png
+-	-	{public => app/assets}/images/graphics/graphic_portcullis-white-2x.png
+-	-	{public => app/assets}/images/graphics/graphic_portcullis-white.png
+-	-	{public => app/assets}/images/graphics/graphic_portcullis.png
+0	0	{public => app/assets}/images/icons/icon.ai
+-	-	{public => app/assets}/images/icons/icon_confirmation-tick-2x.png
+-	-	{public => app/assets}/images/icons/icon_confirmation-tick.png
+-	-	{public => app/assets}/images/icons/icon_email-2x.png
+-	-	{public => app/assets}/images/icons/icon_email.png
+-	-	{public => app/assets}/images/icons/icon_location-white-2x.png
+-	-	{public => app/assets}/images/icons/icon_location-white.png
+-	-	{public => app/assets}/images/icons/icon_paginate-next-2x.png
+-	-	{public => app/assets}/images/icons/icon_paginate-next.png
+-	-	{public => app/assets}/images/icons/icon_paginate-previous-2x.png
+-	-	{public => app/assets}/images/icons/icon_paginate-previous.png
+-	-	{public => app/assets}/images/icons/icon_play-white-2x.png
+-	-	{public => app/assets}/images/icons/icon_play-white.png
+-	-	{public => app/assets}/images/icons/icon_search-white-2x.png
+-	-	{public => app/assets}/images/icons/icon_search-white.png
+-	-	{public => app/assets}/images/icons/icon_share-email-2x.png
+-	-	{public => app/assets}/images/icons/icon_share-email.png
+-	-	{public => app/assets}/images/icons/icon_share-facebook-2x.png
+-	-	{public => app/assets}/images/icons/icon_share-facebook.png
+-	-	{public => app/assets}/images/icons/icon_share-twitter-2x.png
+-	-	{public => app/assets}/images/icons/icon_share-twitter.png
+-	-	{public => app/assets}/images/icons/icon_share-whatsapp-2x.png
+-	-	{public => app/assets}/images/icons/icon_share-whatsapp.png
+-	-	{public => app/assets}/images/icons/icon_warning-white-2x.png
+-	-	{public => app/assets}/images/icons/icon_warning-white.png
+-	-	{public => app/assets}/images/os-social/android/icon-192x192.png
+-	-	{public => app/assets}/images/os-social/android/launcher-icon-0-75x.png
+-	-	{public => app/assets}/images/os-social/android/launcher-icon-1-5x.png
+-	-	{public => app/assets}/images/os-social/android/launcher-icon-1x.png
+-	-	{public => app/assets}/images/os-social/android/launcher-icon-2x.png
+-	-	{public => app/assets}/images/os-social/android/launcher-icon-3x.png
+-	-	{public => app/assets}/images/os-social/android/launcher-icon-4x.png
+-	-	{public => app/assets}/images/os-social/apple/apple-touch-icon-114x114.png
+-	-	{public => app/assets}/images/os-social/apple/apple-touch-icon-120x120.png
+-	-	{public => app/assets}/images/os-social/apple/apple-touch-icon-144x144.png
+-	-	{public => app/assets}/images/os-social/apple/apple-touch-icon-152x152.png
+-	-	{public => app/assets}/images/os-social/apple/apple-touch-icon-180x180.png
+-	-	{public => app/assets}/images/os-social/apple/apple-touch-icon-57x57.png
+-	-	{public => app/assets}/images/os-social/apple/apple-touch-icon-60x60.png
+-	-	{public => app/assets}/images/os-social/apple/apple-touch-icon-72x72.png
+-	-	{public => app/assets}/images/os-social/apple/apple-touch-icon-76x76.png
+-	-	{public => app/assets}/images/os-social/apple/apple-touch-icon.png
+-	-	{public => app/assets}/images/os-social/opengraph-image.png
+-	-	{public => app/assets}/images/os-social/windows/large.png
+-	-	{public => app/assets}/images/os-social/windows/square.png
+-	-	{public => app/assets}/images/os-social/windows/tiny.png
+-	-	{public => app/assets}/images/os-social/windows/wide.png
+1	0	app/assets/stylesheets/admin.css
+1	1	app/assets/stylesheets/petitions/_footer.scss
+42	42	app/assets/stylesheets/petitions/_icons.scss
+5	5	app/assets/stylesheets/petitions/views/_shared.scss
+3	4	public/stylesheets/admin.css => app/assets/stylesheets/site-admin.scss
+1	1	config/initializers/assets.rb
+-	-	public/images/admin/shadows/white_bottom.gif
+0	0	public/stylesheets/.gitkeep

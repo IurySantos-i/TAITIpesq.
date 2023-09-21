@@ -1,0 +1,13 @@
+--a312a7f55a--2015-08-06--Trey Evans
+--4c50106a44--2015-08-06--Trey Evans
+23	0	app/controllers/events/employers_controller.rb
+8	1	app/models/employer_profile.rb
+1	1	config/environments/development.rb
+26	0	spec/controllers/events/employers_controller_spec.rb
+14	0	spec/models/employer_profile_spec.rb
+
+--85cbf7b9b4--2015-08-06--Sagar Arlekar
+5	0	app/views/consumer_profiles/_employers_and_plans.html.erb
+31	0	app/views/consumer_profiles/_enrollment_history.html.erb
+1	0	features/integration/employee_sign_up.feature
+5	0	features/step_definitions/integration_steps.rb

@@ -1,0 +1,30 @@
+--7539e2109--2014-09-27--Parker Moore
+--4a5f70b31--2014-09-27--chrisfinazzo
+1	1	site/_docs/usage.md
+
+--bec32b14c--2014-09-27--chrisfinazzo
+14	1	site/_docs/usage.md
+
+--a041d5068--2014-09-26--Parker Moore
+1	0	History.markdown
+
+--0553dc2f8--2014-09-26--Parker Moore
+--0701fa7b1--2014-09-26--feivel
+1	1	lib/jekyll/convertible.rb
+
+--f80d82cfc--2014-09-26--chrisfinazzo
+0	3	site/_docs/usage.md
+
+--e3c74d536--2014-09-24--Parker Moore
+1	0	History.markdown
+
+--1f2250e7a--2014-09-24--Parker Moore
+--ccef84a80--2014-09-14--Alfred Xing
+2	2	features/permalinks.feature
+
+--3a96d01e4--2014-09-13--Alfred Xing
+1	1	lib/jekyll/post.rb
+1	1	test/test_post.rb
+
+--95644a844--2014-09-24--Parker Moore
+1	0	History.markdown

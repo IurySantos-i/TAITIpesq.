@@ -1,0 +1,59 @@
+--be1ab6c6a--2015-02-27--Jonne Haß
+--073e99992--2015-02-27--Jonne Haß
+4	2	app/assets/javascripts/app/views/stream_post_views.js
+3	5	app/assets/stylesheets/application.css.scss
+4	4	app/assets/templates/stream-element_tpl.jst.hbs
+7	7	app/controllers/participations_controller.rb
+
+--39c50b231--2015-02-26--Jonne Haß
+--168adae00--2015-02-14--Augier
+32	3	app/assets/javascripts/app/views/help_view.js
+12	0	app/assets/stylesheets/help.css.scss
+6	0	app/assets/templates/faq_chat_tpl.jst.hbs
+6	0	app/assets/templates/help_tpl.jst.hbs
+7	3	app/controllers/help_controller.rb
+5	0	config/locales/diaspora/en.yml
+26	0	spec/javascripts/app/views/help_view_spec.js
+
+--3a0857b4b--2015-02-23--Jonne Haß
+--b8be76be3--2015-02-20--PIOTR KLOSINSKI
+1	0	Changelog.md
+7	9	app/assets/javascripts/app/models/post/interactions.js
+26	0	spec/javascripts/app/models/post/interacations_spec.js
+
+--cdd1155bd--2015-02-22--Steffen van Bergerem
+2	2	config/.jshint.json
+2	2	config/jshint.yml
+
+--9ad26604b--2015-02-20--Jonne Haß
+--f695b5d3e--2015-02-08--zachrab
+1	1	app/models/user.rb
+9	0	db/migrate/20150209230946_disable_mail_for_closed_account.rb
+1	1	db/schema.rb
+12	0	spec/models/user_spec.rb
+
+--5af432437--2015-02-20--Jonne Haß
+--0434599bd--2015-02-19--Steffen van Bergerem
+2	2	app/views/contacts/_header.html.haml
+
+--fb1ff0639--2015-02-19--Jonne Haß
+--53714c469--2015-02-19--Steffen van Bergerem
+2	2	app/models/conversation.rb
+3	1	features/desktop/conversations.feature
+4	0	features/step_definitions/conversations_steps.rb
+
+--eccab62e3--2014-12-29--Marco Colli
+-	-	app/assets/images/icons-s71323e8d98.png
+-	-	app/assets/images/icons-sbcb16d92c7.png
+-	-	app/assets/images/icons/create_participation.png
+-	-	app/assets/images/icons/destroy_participation.png
+21	2	app/assets/javascripts/app/views/stream_post_views.js
+16	0	app/assets/stylesheets/application.css.scss
+9	0	app/assets/templates/stream-element_tpl.jst.hbs
+23	0	app/controllers/participations_controller.rb
+1	1	app/models/comment.rb
+6	1	app/presenters/post_presenter.rb
+2	0	config/locales/javascript/javascript.en.yml
+1	1	config/routes.rb
+79	0	spec/controllers/participations_controller_spec.rb
+7	1	spec/models/comment_spec.rb

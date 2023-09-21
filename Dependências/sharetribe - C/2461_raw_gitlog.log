@@ -1,0 +1,57 @@
+--af93edcef--2013-11-21--Juho Makkonen
+--fea2160e6--2013-11-21--Juho Makkonen
+28	12	app/assets/javascripts/kassi.js
+53	0	app/assets/stylesheets/main.css.scss
+15	9	app/controllers/people_controller.rb
+1	0	app/controllers/settings_controller.rb
+2	0	app/models/email.rb
+14	1	app/models/person.rb
+47	11	app/views/settings/account.haml
+1	1	config/locales/en.yml
+1	1	config/locales/fi.yml
+
+--730c66829--2013-11-21--Mikko Koski
+12	0	app/controllers/email_controller.rb
+1	0	config/locales/en.yml
+
+--37b7aaf8f--2013-11-21--Mikko Koski
+41	6	Guardfile
+1	1	app/assets/javascripts/kassi.js
+2	1	app/controllers/people_controller.rb
+1	1	app/controllers/settings_controller.rb
+11	10	app/models/person.rb
+1	1	app/views/sessions/_confirmation_form.haml
+2	2	features/communities/user_joins_another_community.feature
+1	1	features/invitations/user_joins_invite_only_community.feature
+1	1	features/organizations/user_creates_a_new_listing_with_payment.feature
+2	2	features/people/user_creates_a_new_account.feature
+2	2	features/sessions/facebook_connect.feature
+2	2	features/settings/user_changes_email_address.feature
+1	1	features/step_definitions/email_steps.rb
+1	1	features/step_definitions/organization_steps.rb
+20	2	features/step_definitions/user_steps.rb
+1	1	spec/factories.rb
+11	0	spec/fixtures/emails.yml
+2	2	spec/fixtures/people.yml
+2	2	test/helper_modules.rb
+
+--72b2892fa--2013-11-20--Mikko Koski
+8	1	app/controllers/api/tokens_controller.rb
+1	0	app/controllers/settings_controller.rb
+1	1	spec/controllers/api/tokens_controller_spec.rb
+3	2	test/helper_modules.rb
+
+--1227b749b--2013-11-20--Mikko Koski
+2	1	app/controllers/api/people_controller.rb
+1	1	app/mailers/person_mailer.rb
+1	1	app/models/community.rb
+13	3	app/models/person.rb
+3	1	app/views/api/people/show.json.rabl
+3	3	spec/controllers/api/people_controller_spec.rb
+3	5	spec/controllers/people_controller_spec.rb
+1	0	spec/factories.rb
+2	2	spec/fixtures/people.yml
+48	36	spec/mailers/person_mailer_spec.rb
+2	4	spec/models/person_spec.rb
+4	5	spec/spec_helper.rb
+1	1	test/helper_modules.rb

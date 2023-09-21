@@ -1,0 +1,98 @@
+--309dab4ccd--2017-07-10--Paul Hayes
+--f135bee6a1--2017-07-10--Paul Hayes
+-	-	app/assets/images/history/buildings/lancaster-house-music-room.jpg
+2	1	app/views/histories/lancaster_house.html.erb
+
+--e998dc6b9a--2017-07-10--Andrew Garner
+--4f9d5d130c--2017-07-07--Andrew Garner
+1	4	app/models/consultation.rb
+
+--e546a31143--2017-07-07--Andrew Garner
+0	1	app/assets/stylesheets/frontend/base.scss
+1	1	app/assets/stylesheets/frontend/helpers/_browse.scss
+0	134	app/assets/stylesheets/frontend/views/_consultations.scss
+0	12	app/controllers/consultations_controller.rb
+0	8	app/helpers/cache_control_helper.rb
+0	13	app/helpers/consultations_helper.rb
+0	9	app/views/consultations/_document_summary.html.erb
+0	172	app/views/consultations/show.html.erb
+2	9	features/consultations.feature
+7	33	features/step_definitions/consultation_steps.rb
+0	1	features/topical_events.feature
+0	116	test/functional/consultations_controller_test.rb
+1	1	test/integration/document_locale_param_canonicalisation_test.rb
+0	18	test/unit/helpers/cache_control_helper_test.rb
+0	34	test/unit/helpers/consultations_helper_test.rb
+
+--a3feb7d3a8--2017-07-07--Paul Hayes
+--d3ee9a35eb--2017-07-07--Paul Hayes
+1	10	test/integration/document_locale_param_canonicalisation_test.rb
+
+--3160bb7e3c--2017-07-07--Paul Hayes
+0	12	app/controllers/case_studies_controller.rb
+0	8	app/views/case_studies/_document_sidebar.html.erb
+0	2	app/views/case_studies/show.html.erb
+2	1	config/routes.rb
+0	48	test/functional/case_studies_controller_test.rb
+
+--e44eda767b--2017-07-05--Ruben Arakelyan
+--0d7f3167e8--2017-07-05--Ruben Arakelyan
+2	1	config/routes.rb
+
+--f1df1b1754--2017-07-03--Bevan
+--8f5bcd6b93--2017-07-03--Bevan Loon
+1	0	app/controllers/world_location_news_controller.rb
+1	1	app/views/world_location_news/index.html.erb
+
+--3b7e1790a5--2017-07-03--Bevan Loon
+11	0	app/models/world_location_news_translation.rb
+55	0	test/unit/models/world_location_news_translation_test.rb
+
+--a110e90e9d--2017-06-30--David Basalla
+--175e4245ea--2017-06-30--David Basalla
+5	1	app/views/world_locations/index.html.erb
+
+--4a7af4e0b0--2017-06-30--David Basalla
+--ef12560cfe--2017-06-30--David Basalla
+2	2	app/controllers/world_locations_controller.rb
+1	1	app/views/world_locations/index.html.erb
+
+--0ba7a391de--2017-06-29--Paul Hayes
+-	-	app/assets/images/history/buildings/lancaster-house-map.jpg
+1	2	app/views/histories/lancaster_house.html.erb
+
+--397f15b001--2017-06-28--Paul Hayes
+-	-	app/assets/images/history/buildings/lancaster-house-300.jpg
+-	-	app/assets/images/history/buildings/lancaster-house-external.jpg
+1	1	app/views/histories/lancaster_house.html.erb
+
+--2b816d5af2--2017-06-28--Paul Hayes
+38	29	app/views/histories/lancaster_house.html.erb
+
+--e693c08290--2017-06-28--Paul Hayes
+-	-	app/assets/images/history/buildings/lancaster-house-external.jpg
+-	-	app/assets/images/history/buildings/lancaster-house-green-room.jpg
+-	-	app/assets/images/history/buildings/lancaster-house-long-gallery.jpg
+-	-	app/assets/images/history/buildings/lancaster-house-main-hall.jpg
+-	-	app/assets/images/history/buildings/lancaster-house-map.jpg
+-	-	app/assets/images/history/buildings/lancaster-house-state-drawing-room.jpg
+
+--38eec4afc2--2017-06-28--Paul Hayes
+-	-	app/assets/images/history/buildings/lancaster-house-external.jpg
+-	-	app/assets/images/history/buildings/lancaster-house-green-room.jpg
+-	-	app/assets/images/history/buildings/lancaster-house-long-gallery.jpg
+-	-	app/assets/images/history/buildings/lancaster-house-main-hall.jpg
+-	-	app/assets/images/history/buildings/lancaster-house-map.jpg
+-	-	app/assets/images/history/buildings/lancaster-house-state-drawing-room.jpg
+
+--b18f4efae0--2017-06-28--Paul Hayes
+15	17	app/views/histories/lancaster_house.html.erb
+
+--6239dcdce2--2017-06-23--aledelcueto
+18	13	app/views/histories/lancaster_house.html.erb
+
+--acb2f376b2--2017-06-23--aledelcueto
+28	7	app/views/histories/lancaster_house.html.erb
+
+--42f587cd45--2017-06-23--aledelcueto
+28	12	app/views/histories/lancaster_house.html.erb

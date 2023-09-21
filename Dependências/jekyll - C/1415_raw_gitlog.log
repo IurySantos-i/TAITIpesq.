@@ -1,0 +1,24 @@
+--e58c1ee30--2014-06-23--Parker Moore
+--fd3ceb60c--2014-06-23--Parker Moore
+1	0	History.markdown
+
+--4c04420a5--2014-06-23--Parker Moore
+--e345ceb01--2014-06-21--Parker Moore
+1	0	History.markdown
+
+--f3e415769--2014-06-21--Parker Moore
+--1a99b241c--2014-06-20--Paul Henry
+1	1	site/docs/configuration.md
+
+--74f0f27d1--2014-06-19--Simon Sarris
+1	0	lib/jekyll/static_file.rb
+
+--5846cc7b7--2014-06-19--Parker Moore
+0	2	lib/jekyll/log_adapter.rb
+
+--35ed10165--2014-06-18--Parker Moore
+12	0	features/post_data.feature
+3	3	test/test_post.rb
+
+--99cc12cc0--2014-06-18--Parker Moore
+2	3	lib/jekyll/post.rb

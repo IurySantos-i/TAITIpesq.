@@ -1,0 +1,61 @@
+--8a46e1fa--2013-06-08--Chris Mear
+--80cb0344--2013-06-08--Chris Mear
+--77c52a34--2013-06-08--Chris Mear
+1	0	app/views/layouts/application.html.haml
+1	0	app/views/layouts/setup.html.haml
+1	0	app/views/layouts/welcome.html.haml
+
+--3f4fdf5d--2013-06-08--Chris Mear
+--dbd52c41--2013-06-08--Chris Mear
+1	1	README.md
+
+--bdf239d5--2013-06-08--Chris Mear
+2	3	README.md
+
+--f60a89e5--2013-06-06--Chris Mear
+30	3	features/coop/running/board/entering_minutes_for_a_board_meeting.feature
+
+--3db519a8--2013-06-06--Chris Mear
+70	5	features/coop/running/meetings/entering_minutes_for_a_meeting.feature
+
+--1fe6b2ef--2013-05-28--Chris Mear
+15	14	app/views/boards/show.html.haml
+
+--4103f33e--2013-05-28--Chris Mear
+8	2	app/controllers/meetings_controller.rb
+6	0	app/views/meetings/coop/index.html.haml
+10	10	spec/controllers/meetings_controller_spec.rb
+
+--efa5f34b--2013-04-08--Chris Mear
+3	3	lib/tasks/one_click_orgs.rake
+
+--281708de--2013-05-27--Chris Mear
+17	17	db/schema.rb
+
+--c3e3cc2a--2013-04-21--Chris Mear
+0	9	app/views/board_meetings/edit.html.haml
+
+--8967b170--2013-04-21--Chris Mear
+1	1	app/views/board_meetings/edit.html.haml
+
+--8263628b--2013-04-21--Chris Mear
+11	0	app/views/board_meetings/edit.html.haml
+11	0	app/views/general_meetings/edit.html.haml
+
+--87b5e5a4--2013-04-21--Chris Mear
+28	1	public/404.html
+28	1	public/422.html
+28	1	public/500.html
+
+--c96d1fab--2013-05-27--Chris Mear
+2	2	Gemfile
+10	13	Gemfile.lock
+
+--cb1dcc0d--2013-05-09--Chris Mear
+1	1	Gemfile.lock
+
+--607d8142--2013-05-09--Chris Mear
+33	0	config/initializers/security_patch_sanitize_css.rb
+
+--36ac7ec3--2013-05-09--Chris Mear
+13	0	config/initializers/security_patch_sanitize_helper.rb

@@ -1,0 +1,92 @@
+--c1761bc47--2015-11-18--Parker Moore
+--b01b089f6--2015-11-18--Parker Moore
+1	1	Rakefile
+
+--61aff2c54--2015-11-18--Parker Moore
+7	1	site/_docs/extras.md
+
+--cae8bd31c--2015-11-17--Parker Moore
+6	0	History.markdown
+
+--ed0c08c7f--2015-11-17--Parker Moore
+--1dcb1e9fd--2015-11-17--Parker Moore
+1	1	site/latest_version.txt
+
+--6448c0e6a--2015-11-17--Parker Moore
+29	1	Rakefile
+22	0	jekyll-docs.gemspec
+
+--2b4a3c008--2015-11-17--Parker Moore
+1	1	Gemfile
+2	2	History.markdown
+1	1	Rakefile
+1	1	lib/jekyll/version.rb
+35	0	site/_docs/history.md
+25	0	site/_posts/2015-11-17-jekyll-3-0-1-released.markdown
+
+--9bc926be3--2015-11-17--Parker Moore
+1	0	History.markdown
+
+--d7dc9d809--2015-11-17--Parker Moore
+--6a98ab2a1--2015-11-18--rebornix
+24	0	features/permalinks.feature
+3	1	lib/jekyll/document.rb
+1	1	lib/jekyll/filters.rb
+19	8	lib/jekyll/utils.rb
+14	2	site/_docs/permalinks.md
+6	0	test/source/_slides/example-slide-Upper-Cased.html
+22	2	test/test_document.rb
+20	5	test/test_utils.rb
+
+--03d3eb719--2015-11-16--Matt Rogers
+1	0	History.markdown
+
+--f783cc33d--2015-11-16--Matt Rogers
+--b1f1a5d65--2015-11-15--Jordon Bedwell
+1	0	History.markdown
+
+--7b9e1a8e9--2015-11-15--Jordon Bedwell
+--1b91e6d89--2015-11-15--Lewis Cowles
+5	4	site/_docs/assets.md
+
+--f69c92036--2015-11-14--Christian Trosell
+1	1	site/_docs/pagination.md
+
+--5da9333f6--2015-11-13--Jordon Bedwell
+1	0	History.markdown
+
+--fcfc10747--2015-11-13--Jordon Bedwell
+--c984d8c53--2015-11-14--Lewis Cowles
+15	3	site/_docs/assets.md
+
+--eec94cd96--2015-11-13--Jordon Bedwell
+1	0	History.markdown
+
+--e0fb513df--2015-11-13--Jordon Bedwell
+--45b40782d--2015-11-13--Vincent Wochnik
+1	0	site/_docs/plugins.md
+
+--95f325898--2015-11-12--Jordon Bedwell
+2	0	.travis.yml
+
+--1b3cb4515--2015-11-11--Matt Rogers
+1	0	History.markdown
+
+--dc14a1ac0--2015-11-11--Matt Rogers
+--55a759357--2015-11-11--Nicole White
+1	1	site/_docs/pagination.md
+
+--59f80ac37--2015-11-11--Jordon Bedwell
+--246ff3f9b--2015-11-11--Larry Fox
+0	1	lib/jekyll.rb
+
+--294f25b12--2015-11-10--Jordon Bedwell
+1	0	History.markdown
+
+--7678de537--2015-11-10--Jordon Bedwell
+--5f7df357d--2015-11-10--Jordan Thornquest
+0	2	site/_docs/resources.md
+
+--87a869519--2015-11-10--rebornix
+12	0	features/include_tag.feature
+12	1	lib/jekyll/tags/include.rb

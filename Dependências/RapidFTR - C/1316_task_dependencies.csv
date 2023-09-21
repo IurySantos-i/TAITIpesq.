@@ -1,0 +1,6 @@
+entity,coupled,degree,average-revs
+app/views/children/summaries/show.html.erb,features/basic_search.feature,100,5
+app/models/child.rb,spec/models/child_spec.rb,86,19
+app/models/templates.rb,features/create_child_record.feature,71,7
+app/controllers/children/summaries_controller.rb,app/models/search_request.rb,66,8
+app/models/search_request.rb,spec/controllers/children/summaries_controller_spec.rb,50,10

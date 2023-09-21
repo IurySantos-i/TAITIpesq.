@@ -1,9 +1,0 @@
---6b2518d4--2011-06-28--chrisgeorge
---cc4c5763--2011-06-27--Minno
-1	0	app/views/children/show.html.erb
-6	0	features/step_definitions/basic_steps.rb
-54	0	features/upload_a_childs_audio.feature
-
---ec8bf7e3--2011-06-23--Fernando Kakimoto
-1	0	.gitignore
-1	1	public/javascripts/vtip-min.js

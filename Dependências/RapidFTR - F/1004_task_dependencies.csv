@@ -1,4 +1,0 @@
-entity,coupled,degree,average-revs
-app/views/children/index.html.erb,features/view_child_records.feature,85,7
-app/controllers/children_controller.rb,features/view_child_records.feature,84,10
-app/controllers/children_controller.rb,app/views/children/index.html.erb,70,9

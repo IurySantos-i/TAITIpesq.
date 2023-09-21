@@ -1,0 +1,14 @@
+--c870c8d7f--2015-06-23--Himal Mandalia
+--fb4dea50c--2015-06-23--Edward Andress
+17	16	app/views/advocates/claims/_fee_fields.html.haml
+4	4	app/views/advocates/claims/_form.html.haml
+8	0	features/advocate_new_claim.feature
+19	0	features/step_definitions/advocate_new_claim_steps.rb
+
+--8c4a50887--2015-06-23--Stephen Richards
+--41562ca49--2015-06-23--jsugarman
+7	5	app/models/claim.rb
+1	1	app/presenters/claim_presenter.rb
+4	4	app/views/advocates/claims/_claims.html.haml
+33	0	spec/models/claim_spec.rb
+1	1	spec/presenters/claim_presenter_spec.rb

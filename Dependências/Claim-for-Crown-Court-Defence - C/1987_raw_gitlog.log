@@ -1,0 +1,50 @@
+--bac19fdf4--2015-05-29--Himal Mandalia
+--768cc855b--2015-05-29--Stephen Richards
+9	1	app/controllers/advocates/claims_controller.rb
+18	0	features/advocate_new_claim.feature
+31	0	features/step_definitions/advocate_new_claim_steps.rb
+
+--98674de28--2015-05-29--Edward Andress
+--db0e969f6--2015-05-29--Edward Andress
+--0f3440c26--2015-05-29--Eddie Andress
+--8b0047308--2015-05-29--Stephen Richards
+5	1	app/controllers/advocates/claims_controller.rb
+14	0	app/models/advocate.rb
+4	0	app/views/advocates/claims/_form.html.haml
+47	0	spec/models/advocate_spec.rb
+
+--966f73a39--2015-05-29--Himal Mandalia
+1	1	app/views/advocates/claims/_claims.html.haml
+5	0	app/views/advocates/claims/show.html.haml
+5	0	app/views/case_workers/claims/show.html.haml
+
+--f4cebb451--2015-05-29--Himal Mandalia
+--a2c495d0e--2015-05-29--Himal Mandalia
+2	6	app/controllers/advocates/claims_controller.rb
+1	1	app/models/claim.rb
+8	2	app/models/claims/state_machine.rb
+2	3	app/views/advocates/claims/_claims.html.haml
+8	18	spec/controllers/advocates/claims_controller_spec.rb
+21	2	spec/models/claims/state_machine_scopes_spec.rb
+
+--42adb6eae--2015-05-29--jsugarman
+1	1	features/step_definitions/view_claim_evidence_steps.rb
+
+--37f1f396e--2015-05-29--jsugarman
+--974d1cae2--2015-05-29--Himal Mandalia
+--7fab8d1a4--2015-05-29--Himal Mandalia
+--93606f981--2015-05-28--jsugarman
+1	0	app/controllers/advocates/claims_controller.rb
+1	1	app/models/claims/state_machine.rb
+2	6	app/views/advocates/claims/index.html.haml
+0	1	features/advocate_claims_list.feature
+4	0	spec/controllers/advocates/claims_controller_spec.rb
+
+--f7df81b3f--2015-05-28--Benedetto Lo Giudice
+5	0	docker/Dockerfile
+
+--ec0ca852b--2015-05-28--jsugarman
+1	0	app/models/claims/state_machine.rb
+6	6	app/views/advocates/claims/index.html.haml
+13	0	features/advocate_claims_list.feature
+6	0	features/step_definitions/advocate_claims_list_steps.rb

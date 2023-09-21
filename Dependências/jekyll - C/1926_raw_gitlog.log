@@ -1,0 +1,553 @@
+--08f6f3c2e--2013-07-09--Parker Moore
+--f6db08302--2013-07-09--Parker Moore
+2	0	History.markdown
+
+--3209b5002--2013-07-09--Parker Moore
+--0358d520d--2013-05-07--Parker Moore
+19	0	bin/jekyll
+
+--79f95b7a1--2013-07-08--Parker Moore
+1	0	History.markdown
+
+--1286d980e--2013-07-08--Parker Moore
+--6afbf2b05--2013-07-08--Parker Moore
+1	2	History.markdown
+
+--dca715803--2013-07-08--Parker Moore
+--ff48b88a4--2013-07-08--Matt Rogers
+2	0	History.markdown
+
+--66c2ceeda--2013-07-08--Matt Rogers
+--a6c0fa9b6--2013-07-08--Coby Chapple
+6	0	site/css/style.css
+
+--57994ef4c--2013-07-08--Coby Chapple
+1	1	site/css/style.css
+
+--9d2849c56--2013-07-08--maul.esel
+4	4	lib/jekyll/tags/include.rb
+
+--a4eee86fd--2013-07-08--Coby Chapple
+1	1	site/_includes/news_item.html
+1	1	site/_layouts/news_item.html
+
+--306172050--2013-07-08--Coby Chapple
+1	1	site/css/style.css
+
+--e6de4b3f2--2013-07-08--Coby Chapple
+1	1	site/css/style.css
+
+--e0e72ca38--2013-07-08--Parker Moore
+--d5742cf38--2013-07-08--Coby Chapple
+10	10	site/css/style.css
+
+--dbc20b787--2013-07-08--Parker Moore
+1	0	History.markdown
+
+--e8d82fd88--2013-07-08--Parker Moore
+--af8266e32--2013-07-08--Parker Moore
+1	0	History.markdown
+
+--c4fd5ddc8--2013-07-08--Parker Moore
+--731c7b18a--2013-07-08--Coby Chapple
+--f72365da4--2013-07-08--maul.esel
+22	18	lib/jekyll/tags/include.rb
+
+--9d3d095bc--2013-07-08--Parker Moore
+1	1	lib/jekyll/configuration.rb
+
+--bbd466497--2013-06-09--Parker Moore
+8	15	lib/jekyll/configuration.rb
+
+--08d9f4e8e--2013-07-08--Coby Chapple
+1	9	site/css/style.css
+
+--c800e5707--2013-07-08--Coby Chapple
+7	0	site/css/style.css
+
+--65a3195a5--2013-07-08--Coby Chapple
+12	10	site/css/style.css
+
+--f4580fb40--2013-07-08--Coby Chapple
+14	5	site/_includes/news_item.html
+15	6	site/_layouts/news_item.html
+2	2	site/_posts/2013-05-06-jekyll-1-dot-0-dot-0-released.markdown
+3	3	site/_posts/2013-05-08-jekyll-1-dot-0-dot-1-released.markdown
+3	3	site/_posts/2013-05-12-jekyll-1-dot-0-dot-2-released.markdown
+3	3	site/_posts/2013-06-07-jekyll-1-dot-0-dot-3-released.markdown
+77	4	site/css/style.css
+1	1	site/news/releases/index.md
+
+--1a7bbcaaf--2013-07-08--Coby Chapple
+2	2	site/_includes/news_item.html
+1	3	site/_layouts/news.html
+14	19	site/_layouts/news_item.html
+30	80	site/css/style.css
+2	7	site/news/index.md
+1	6	site/news/releases/index.md
+
+--5ff0f1262--2013-07-08--Coby Chapple
+2	3	site/_layouts/news_item.html
+0	9	site/css/style.css
+
+--74d90626b--2013-07-08--Coby Chapple
+10	5	site/_includes/news_contents.html
+5	0	site/_layouts/news_item.html
+2	1	site/_posts/2013-05-06-jekyll-1-dot-0-dot-0-released.markdown
+2	1	site/_posts/2013-05-08-jekyll-1-dot-0-dot-1-released.markdown
+2	1	site/_posts/2013-05-12-jekyll-1-dot-0-dot-2-released.markdown
+2	1	site/_posts/2013-06-07-jekyll-1-dot-0-dot-3-released.markdown
+0	1	site/css/style.css
+15	0	site/news/releases/index.md
+
+--cf25da943--2013-07-08--Coby Chapple
+0	1	site/_layouts/news.html
+0	4	site/css/style.css
+
+--be91ee3df--2013-07-08--Parker Moore
+1	1	site/docs/migrations.md
+
+--2bc050133--2013-07-08--Parker Moore
+1	0	History.markdown
+
+--6d9eccb90--2013-07-07--Parker Moore
+--c172f0b72--2013-07-07--Rob Wierzbowski
+1	0	site/docs/plugins.md
+
+--570079bbb--2013-07-05--John Piasetzki
+0	0	CONTRIBUTING.md => CONTRIBUTING.markdown
+45	0	README.markdown
+0	45	README.textile
+
+--b6c86579f--2013-07-06--Parker Moore
+1	0	site/_includes/top.html
+36	0	site/feed.xml
+
+--695080990--2013-07-06--Parker Moore
+0	0	site/_posts/{2013-05-06-jekyll-1-dot-0-dot-0-released.markdown => 2013-05-06-jekyll-1-0-0-released.markdown}
+0	0	site/_posts/{2013-05-08-jekyll-1-dot-0-dot-1-released.markdown => 2013-05-08-jekyll-1-0-1-released.markdown}
+0	0	site/_posts/{2013-05-12-jekyll-1-dot-0-dot-2-released.markdown => 2013-05-12-jekyll-1-0-2-released.markdown}
+0	0	site/_posts/{2013-06-07-jekyll-1-dot-0-dot-3-released.markdown => 2013-06-07-jekyll-1-0-3-released.markdown}
+
+--5737a5078--2013-07-06--Parker Moore
+2	2	site/_posts/2013-05-08-jekyll-1-dot-0-dot-1-released.markdown
+2	2	site/_posts/2013-05-12-jekyll-1-dot-0-dot-2-released.markdown
+2	2	site/_posts/2013-06-07-jekyll-1-dot-0-dot-3-released.markdown
+
+--6b8294215--2013-07-06--Parker Moore
+1	1	site/_posts/2013-05-06-jekyll-1-dot-0-dot-0-released.markdown
+
+--91427c16e--2013-07-06--Parker Moore
+1	1	site/_posts/2013-05-06-jekyll-1-dot-0-dot-0-released.markdown
+2	2	site/_posts/2013-05-08-jekyll-1-dot-0-dot-1-released.markdown
+2	2	site/_posts/2013-05-12-jekyll-1-dot-0-dot-2-released.markdown
+
+--78d169ce0--2013-07-06--Parker Moore
+24	0	site/_posts/2013-06-07-jekyll-1-dot-0-dot-3-released.markdown
+
+--caa248201--2013-07-06--Parker Moore
+1	1	site/news/index.md
+
+--d8cf817b8--2013-07-06--Parker Moore
+19	0	site/_layouts/news_item.html
+
+--ca6f3614a--2013-07-06--Parker Moore
+1	1	site/css/style.css
+
+--27c915b90--2013-07-06--Parker Moore
+40	0	site/css/style.css
+
+--01a04c846--2013-07-06--Parker Moore
+10	3	site/css/style.css
+
+--0f9d205d0--2013-07-06--Parker Moore
+1	1	site/_posts/2013-05-06-jekyll-1-dot-0-dot-0-released.markdown
+
+--c853de480--2013-07-06--Parker Moore
+3	1	site/_includes/news_item.html
+
+--74ee8c3bf--2013-07-01--Parker Moore
+13	7	site/_includes/news_item.html
+2	2	site/_layouts/news.html
+0	28	site/_layouts/news_item.html
+30	3	site/css/style.css
+1	1	site/news/index.md
+
+--f0f36466b--2013-06-30--Parker Moore
+3	3	site/_posts/2013-05-06-jekyll-1-dot-0-dot-0-released.markdown
+
+--43117b9d0--2013-05-12--Parker Moore
+1	1	site/_layouts/news.html
+28	0	site/_layouts/news_item.html
+1	1	site/_posts/2013-05-06-jekyll-1-dot-0-dot-0-released.markdown
+1	1	site/_posts/2013-05-08-jekyll-1-dot-0-dot-1-released.markdown
+1	1	site/_posts/2013-05-12-jekyll-1-dot-0-dot-2-released.markdown
+6	2	site/css/style.css
+
+--02d6d7796--2013-05-12--Parker Moore
+15	0	site/news/index.md
+
+--f150ae209--2013-05-12--Parker Moore
+22	0	site/_posts/2013-05-06-jekyll-1-dot-0-dot-0-released.markdown
+26	0	site/_posts/2013-05-08-jekyll-1-dot-0-dot-1-released.markdown
+27	0	site/_posts/2013-05-12-jekyll-1-dot-0-dot-2-released.markdown
+
+--4687b1f01--2013-05-12--Parker Moore
+18	0	site/_includes/news_contents.html
+11	0	site/_includes/news_contents_mobile.html
+7	0	site/_includes/news_item.html
+22	0	site/_layouts/news.html
+
+--49ca6d448--2013-05-12--Parker Moore
+14	0	site/css/style.css
+
+--411911977--2013-05-12--Parker Moore
+1	1	site/_config.yml
+1	1	site/_includes/primary-nav-items.html
+
+--cd3e95bea--2013-05-12--Parker Moore
+1	1	site/index.html
+
+--699ae71f6--2013-05-12--Parker Moore
+4	1	site/_includes/primary-nav-items.html
+
+--eae825cd7--2013-05-12--Parker Moore
+1	0	site/_config.yml
+
+--dfca2c6ed--2013-07-06--Anand Narayan
+2	1	lib/jekyll/related_posts.rb
+6	1	test/test_related_posts.rb
+
+--c688ee67b--2013-07-05--Parker Moore
+1	0	History.markdown
+
+--f1941f89d--2013-07-05--Parker Moore
+--f5dc9d0ee--2013-07-05--Parker Moore
+--ef22ebd7f--2013-07-05--maul.esel
+2	9	lib/jekyll/tags/include.rb
+
+--9a73d3510--2013-07-05--Jens Krause
+1	0	site/docs/plugins.md
+
+--6eeb2e3f7--2013-07-03--Parker Moore
+1	1	site/docs/plugins.md
+
+--45c7de0bb--2013-07-03--Parker Moore
+1	0	History.markdown
+
+--4080691b3--2013-07-02--Parker Moore
+--efcfa4ec8--2013-07-02--markets
+1	0	site/docs/plugins.md
+
+--e1dd55a6d--2013-07-01--Parker Moore
+1	1	.travis.yml
+
+--4118886c2--2013-07-01--Parker Moore
+7	1	.travis.yml
+
+--7e750f323--2013-07-01--Matt Rogers
+2	0	History.markdown
+
+--2484833bc--2013-07-01--Matt Rogers
+--826a70f54--2013-07-01--Matt Rogers
+1	0	History.markdown
+
+--359383b5b--2013-07-01--Matt Rogers
+--cb1a2d181--2013-06-30--Parker Moore
+4	0	lib/jekyll/convertible.rb
+
+--a8123e06f--2013-06-30--Parker Moore
+1	0	History.markdown
+
+--950920167--2013-06-30--Parker Moore
+10	0	site/docs/templates.md
+
+--13a88a6d0--2013-06-30--Parker Moore
+1	0	History.markdown
+
+--99bffd112--2013-06-30--Parker Moore
+2	0	site/docs/plugins.md
+
+--a6e483279--2013-06-30--Parker Moore
+1	0	History.markdown
+
+--f25fe1c86--2013-06-30--tomsugden
+8	0	site/docs/variables.md
+
+--1763acd6f--2013-06-27--Parker Moore
+4	1	History.markdown
+
+--15bb9c675--2013-06-27--Parker Moore
+--90962a5ac--2013-06-27--Matt Rogers
+7	1	site/docs/quickstart.md
+
+--d5caebfc0--2013-06-27--Matt Rogers
+1	1	jekyll.gemspec
+
+--744cc3c00--2013-06-27--Matt Rogers
+2	0	History.markdown
+
+--c5bf1349d--2013-06-27--Matt Rogers
+--a26ab60ca--2013-06-27--Parker Moore
+1	0	History.markdown
+
+--36fc16b4a--2013-06-27--Parker Moore
+1	0	lib/site_template/_config.yml
+
+--f652d0d04--2013-06-27--Parker Moore
+1	0	jekyll.gemspec
+
+--bfdcdeebf--2013-06-26--Parker Moore
+1	1	site/docs/migrations.md
+
+--a1b4537d1--2013-06-26--Parker Moore
+1	0	History.markdown
+
+--a7f905dea--2013-06-26--Parker Moore
+--d305226ab--2013-06-26--Florent Guilleux
+1	1	site/docs/migrations.md
+
+--63390ecb9--2013-06-25--Matt Rogers
+2	0	History.markdown
+
+--c1850a38f--2013-06-25--Matt Rogers
+--ae85b57bd--2013-06-25--Matt Rogers
+1	0	History.markdown
+
+--fdebe492c--2013-06-24--Matt Rogers
+--175c3a5ed--2013-06-24--Matt Rogers
+1	0	History.markdown
+
+--7f9ccf1e4--2013-06-24--Matt Rogers
+--84113c367--2013-06-23--Parker Moore
+5	0	History.markdown
+
+--f9d173968--2013-06-23--Parker Moore
+--22a6f0ada--2013-06-23--Parker Moore
+1	0	History.markdown
+
+--5fdf2d87b--2013-06-23--Parker Moore
+--656dcca3d--2013-06-22--maul.esel
+3	0	features/include_tag.feature
+
+--2b01b06ec--2013-06-22--imathis
+5	3	lib/jekyll/tags/include.rb
+
+--f8f678430--2013-06-22--maul.esel
+6	4	lib/jekyll/tags/include.rb
+
+--00ed567f9--2013-06-22--maul.esel
+3	2	lib/jekyll/tags/include.rb
+
+--55f77d2ce--2013-06-22--Parker Moore
+1	0	History.markdown
+
+--6391f8746--2013-06-22--Parker Moore
+--99c700a8a--2013-06-21--Matt Rogers
+1	0	History.markdown
+
+--d97509ced--2013-06-21--Matt Rogers
+--f5eed5895--2013-06-18--Nicolás Reynolds
+3	0	site/docs/plugins.md
+
+--b40cfb623--2013-06-18--zachgersh
+1	1	site/docs/plugins.md
+
+--1cb9de26e--2013-06-18--zachgersh
+0	1	site/docs/plugins.md
+
+--fb2703fb3--2013-06-18--zachgersh
+2	1	site/docs/plugins.md
+
+--11e10700a--2013-06-18--zachgersh
+0	1	site/docs/plugins.md
+
+--5c82835cf--2013-06-18--zachgersh
+0	1	site/docs/plugins.md
+
+--c0c92a2e8--2013-06-18--zachgersh
+3	1	CONTRIBUTING.md
+3	1	site/docs/contributing.md
+
+--2b8dc2bb3--2013-06-18--zachgersh
+0	1	site/docs/resources.md
+
+--270ad54eb--2013-06-10--zachgersh
+3	3	features/create_sites.feature
+0	9	features/step_definitions/jekyll_steps.rb
+
+--042c960df--2013-06-05--zachgersh
+4	4	lib/jekyll/commands/new.rb
+
+--a3d53a74b--2013-06-04--zachgersh
+11	12	lib/jekyll/commands/new.rb
+
+--eb06cf0d3--2013-06-04--zachgersh
+4	4	features/step_definitions/jekyll_steps.rb
+
+--44cfa0540--2013-06-04--zachgersh
+2	2	features/step_definitions/jekyll_steps.rb
+
+--3fdeb8c59--2013-06-04--zachgersh
+3	3	features/create_sites.feature
+9	0	features/step_definitions/jekyll_steps.rb
+
+--b19997aee--2013-06-04--zachgersh
+7	0	features/create_sites.feature
+12	4	features/step_definitions/jekyll_steps.rb
+1	0	features/support/env.rb
+
+--7fba828f0--2013-06-03--zachgersh
+8	0	features/support/env.rb
+
+--16314ee4a--2013-06-03--zachgersh
+9	2	lib/jekyll/commands/new.rb
+
+--a21031eae--2013-06-02--zachgersh
+1	0	bin/jekyll
+6	0	lib/jekyll/commands/new.rb
+
+--6e0bb5e0b--2013-06-17--zachgersh
+6	5	CONTRIBUTING.md
+5	4	site/docs/contributing.md
+
+--ec1644dfd--2013-06-09--zachgersh
+5	6	CONTRIBUTING.md
+5	6	site/docs/contributing.md
+
+--86b053700--2013-06-07--zachgersh
+3	3	CONTRIBUTING.md
+3	3	site/docs/contributing.md
+
+--5ada13fb4--2013-06-07--zachgersh
+16	0	CONTRIBUTING.md
+16	0	site/docs/contributing.md
+
+--58dacf796--2013-06-17--Matt Rogers
+1	0	History.markdown
+
+--6825b8ad9--2013-06-17--Matt Rogers
+--5593a2d72--2013-06-17--Aleksey V. Zapparov
+1	0	site/docs/plugins.md
+
+--02037b5f6--2013-06-17--Matt Rogers
+2	0	History.markdown
+
+--106455b47--2013-06-17--Matt Rogers
+--0ee385f21--2013-06-17--Matt Rogers
+0	3	site/docs/plugins.md
+
+--98247a1c9--2013-06-17--Matt Rogers
+1	0	History.markdown
+
+--8024dc107--2013-06-17--Matt Rogers
+--4a88bf224--2013-06-17--Zach Leatherman
+1	0	site/docs/plugins.md
+
+--7e79b9df9--2013-06-15--Anand Narayan
+1	0	test/source/+/foo.md
+2	2	test/test_page.rb
+
+--bdd84f275--2013-06-15--maul.esel
+2	2	lib/jekyll/tags/include.rb
+
+--99721ee8a--2013-06-15--maul.esel
+1	1	lib/jekyll/tags/include.rb
+
+--5c47014c9--2013-06-15--Anand Narayan
+1	3	lib/jekyll/page.rb
+6	0	test/source/+/foo.md
+9	0	test/test_page.rb
+
+--872eba313--2013-06-15--Parker Moore
+1	0	History.markdown
+
+--76e5b7fa1--2013-06-15--Parker Moore
+--9f1e1d4b4--2013-06-15--Jarrod Birch
+1	1	CONTRIBUTING.md
+1	1	site/docs/contributing.md
+
+--0fa03d265--2013-06-13--maul.esel
+6	6	lib/jekyll/tags/include.rb
+
+--53dec6a4f--2013-06-13--maul.esel
+3	1	features/include_tag.feature
+
+--639acea0a--2013-06-13--maul.esel
+18	38	lib/jekyll/tags/include.rb
+
+--7ee89982e--2013-06-13--Parker Moore
+1	0	History.markdown
+
+--e5d2b2fb9--2013-06-13--Parker Moore
+1	0	History.markdown
+
+--9a8c5aa19--2013-06-13--Matt Rogers
+--fe957af27--2013-06-13--Parker Moore
+--12fe8ed00--2013-06-13--John Papandriopoulos
+1	0	site/docs/plugins.md
+
+--ab351fb07--2013-06-12--Nick Quaranto
+-	-	site/img/article-footer.png
+-	-	site/img/footer-arrow.png
+-	-	site/img/footer-logo.png
+-	-	site/img/logo-2x.png
+-	-	site/img/octojekyll.png
+-	-	site/img/tube.png
+-	-	site/img/tube1x.png
+
+--4c750da1b--2013-06-12--Parker Moore
+1	0	site/freenode.txt
+
+--1b20a185c--2013-06-12--maul.esel
+2	2	site/docs/templates.md
+
+--1e15df070--2013-06-11--maul.esel
+7	7	features/include_tag.feature
+
+--5a990f785--2013-06-11--maul.esel
+7	0	test/source/_includes/params.html
+90	0	test/test_tags.rb
+
+--fad210100--2013-06-11--maul.esel
+12	0	site/docs/templates.md
+
+--f61233056--2013-05-24--maul.esel
+64	2	lib/jekyll/tags/include.rb
+
+--73e589df5--2013-05-24--maul.esel
+30	0	features/include_tag.feature
+4	0	features/step_definitions/jekyll_steps.rb
+
+--7f10b3243--2013-06-09--Parker Moore
+10	6	test/test_pager.rb
+
+--7dc6767bc--2013-06-09--Parker Moore
+14	10	lib/jekyll/generators/pagination.rb
+
+--05218711b--2013-06-09--Parker Moore
+8	1	lib/jekyll/generators/pagination.rb
+
+--6e80ba868--2013-06-09--Parker Moore
+1	1	lib/jekyll/configuration.rb
+22	43	test/test_pager.rb
+
+--81a2d03e5--2013-06-09--Parker Moore
+5	1	lib/jekyll/generators/pagination.rb
+15	4	test/test_pager.rb
+
+--bd0e45c1b--2013-06-08--Parker Moore
+80	25	lib/jekyll/generators/pagination.rb
+
+--a71b755e9--2013-06-08--Parker Moore
+0	5	features/step_definitions/jekyll_steps.rb
+
+--ce3fa7fd0--2013-06-08--Parker Moore
+28	0	features/pagination.feature
+
+--45576a39a--2013-05-18--maul.esel
+11	0	features/create_sites.feature
+4	0	features/step_definitions/jekyll_steps.rb
+
+--96efa9ed0--2013-05-17--maul.esel
+5	1	lib/jekyll/site.rb

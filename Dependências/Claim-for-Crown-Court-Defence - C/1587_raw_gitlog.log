@@ -1,0 +1,79 @@
+--7f8c04381--2015-09-01--Himal Mandalia
+--33b864677--2015-09-01--jsugarman
+1	9	app/interfaces/api/v1/advocates/claim.rb
+1	8	app/interfaces/api/v1/advocates/date_attended.rb
+1	8	app/interfaces/api/v1/advocates/defendant.rb
+1	8	app/interfaces/api/v1/advocates/expense.rb
+1	7	app/interfaces/api/v1/advocates/fee.rb
+1	8	app/interfaces/api/v1/advocates/representation_order.rb
+1	1	app/interfaces/api/v1/advocates/root.rb
+79	81	app/interfaces/api/v1/api_helper.rb
+1	4	app/interfaces/api/v1/dropdown_data.rb
+15	0	app/interfaces/api/v1/grape_api_helper.rb
+1	1	app/models/date_attended.rb
+4	4	spec/api/v1/claims/dropdown_data_spec.rb
+3	3	spec/api/v1/claims/representation_order_spec.rb
+
+--b2d165477--2015-09-01--jsugarman
+23	19	app/interfaces/api/v1/advocates/date_attended.rb
+1	0	app/interfaces/api/v1/advocates/defendant.rb
+5	4	app/interfaces/api/v1/advocates/expense.rb
+25	19	app/interfaces/api/v1/advocates/fee.rb
+25	19	app/interfaces/api/v1/advocates/representation_order.rb
+14	0	app/interfaces/api/v1/advocates/root.rb
+8	1	app/interfaces/api/v1/api_helper.rb
+1	0	app/models/date_attended.rb
+69	28	spec/api/v1/claims/date_attended_spec.rb
+12	3	spec/api/v1/claims/expense_spec.rb
+74	22	spec/api/v1/claims/fee_spec.rb
+61	38	spec/api/v1/claims/representation_order_spec.rb
+
+--1af6ec54b--2015-09-01--Stephen Richards
+--bd5fa6119--2015-09-01--Himal Mandalia
+39	0	app/assets/javascripts/advocates/claims/trial_fields_display.js
+1	0	app/assets/javascripts/application.js
+13	12	app/views/advocates/claims/_form.html.haml
+31	0	features/cassettes/Advocate_new_claim/Add_fees_with_dates_attended_then_remove_fee/_2_basic_.yml
+158	0	features/cassettes/Guilty_plea_case_type/Guilty_plea_conditional_fields.yml
+220	0	features/cassettes/Guilty_plea_case_type/Guilty_plea_conditional_fields_for_guilty_plea_existing_claim.yml
+158	0	features/cassettes/Guilty_plea_case_type/Guilty_plea_conditional_fields_for_new_claim.yml
+34	0	features/cassettes/Guilty_plea_case_type/Guilty_plea_conditional_fields_for_non_guilty_plea_existing_claim.yml
+33	0	features/guilty_plea_case_type.feature
+24	0	features/step_definitions/guilty_plea_case_type_steps.rb
+
+--270ac355b--2015-08-31--jsugarman
+32	28	spec/api/v1/claims/claim_spec.rb
+4	3	spec/api/v1/claims/defendant_spec.rb
+3	3	spec/api/v1/claims/expense_spec.rb
+
+--361948906--2015-08-30--jsugarman
+14	40	app/interfaces/api/v1/advocates/expense.rb
+1	1	spec/api/v1/claims/claim_spec.rb
+20	17	spec/api/v1/claims/defendant_spec.rb
+39	24	spec/api/v1/claims/expense_spec.rb
+
+--41c358d94--2015-08-29--jsugarman
+21	15	app/interfaces/api/v1/api_helper.rb
+2	2	app/models/defendant.rb
+5	3	spec/api/v1/claims/claim_spec.rb
+35	23	spec/api/v1/claims/defendant_spec.rb
+1	1	spec/api/v1/claims/expense_spec.rb
+1	1	spec/api/v1/claims/fee_spec.rb
+1	1	spec/api/v1/claims/representation_order_spec.rb
+
+--f128ca13d--2015-08-28--jsugarman
+36	88	app/interfaces/api/v1/advocates/claim.rb
+21	48	app/interfaces/api/v1/advocates/defendant.rb
+13	84	app/interfaces/api/v1/api_helper.rb
+2	2	spec/api/v1/claims/claim_spec.rb
+3	3	spec/api/v1/claims/defendant_spec.rb
+
+--502babc63--2015-08-28--jsugarman
+115	84	app/interfaces/api/v1/advocates/claim.rb
+28	3	app/interfaces/api/v1/advocates/defendant.rb
+0	45	app/interfaces/api/v1/advocates/error_response.rb
+26	3	app/interfaces/api/v1/advocates/expense.rb
+1	0	app/interfaces/api/v1/advocates/root.rb
+163	0	app/interfaces/api/v1/api_helper.rb
+63	35	spec/api/v1/claims/claim_spec.rb
+3	3	spec/api/v1/claims/expense_spec.rb

@@ -1,0 +1,207 @@
+--2438fb4e2--2014-02-06--Mikko Koski
+--6d745c647--2014-02-06--Mikko Koski
+1	0	app/assets/javascripts/application.js
+70	0	app/assets/javascripts/categories.js
+17	0	app/controllers/admin/categories_controller.rb
+4	2	app/models/category.rb
+2	2	app/views/admin/categories/_listed_top_level_category.haml
+3	34	app/views/admin/categories/index.haml
+3	0	config/routes.rb
+5	0	db/migrate/20140206065052_add_sort_priority_to_category.rb
+6	5	db/schema.rb
+
+--019ca3d07--2014-02-06--Mikko Koski
+7	4	app/assets/stylesheets/views/admin/_categories.scss
+12	1	app/views/admin/categories/_listed_top_level_category.haml
+
+--4077d44e3--2014-02-05--Mikko Koski
+1	1	app/assets/stylesheets/views/admin/_categories.scss
+1	1	app/views/admin/categories/_listed_subcategory.haml
+9	8	app/views/admin/categories/_listed_top_level_category.haml
+20	3	app/views/admin/categories/index.haml
+
+--262e05bba--2014-02-05--Mikko Koski
+6	1	app/views/admin/categories/_category_action_buttons.haml
+1	1	app/views/admin/categories/_listed_top_level_category.haml
+17	0	app/views/admin/categories/index.haml
+
+--19b820736--2014-02-05--Mikko Koski
+13	2	app/assets/stylesheets/design.css.scss
+53	30	app/views/design/design.haml
+
+--9cd7dff88--2014-02-05--Mikko Koski
+10	6	app/assets/javascripts/custom_fields.js
+18	14	app/views/design/design.haml
+
+--f69756620--2014-02-05--Mikko Koski
+7	0	app/assets/stylesheets/design.css.scss
+79	1	app/views/design/design.haml
+8	1	app/views/layouts/design.haml
+
+--66c057acf--2014-02-05--Mikko Koski
+0	2	app/views/dashboard/design.haml
+
+--bb53f7dfd--2014-02-05--Antti Virolainen
+5	0	db/migrate/20140205101011_add_price_quantity_placeholder_to_transaction_type.rb
+
+--d4aff32a5--2014-02-05--Mikko Koski
+1	1	features/admin/categories/admin_edits_category.feature
+1	1	spec/factories.rb
+
+--17362442f--2014-02-05--Mikko Koski
+8	0	app/models/category.rb
+4	4	app/models/community.rb
+1	1	app/views/admin/categories/_listed_subcategory.haml
+1	1	app/views/admin/categories/_listed_top_level_category.haml
+4	4	features/admin/categories/admin_removes_category.feature
+77	0	features/step_definitions/admin_category_steps.rb
+1	0	features/step_definitions/community_steps.rb
+13	0	features/step_definitions/listing_steps.rb
+
+--23a198817--2014-02-05--Antti Virolainen
+0	251	db/migrate/20140204101010_create_community_specific_categories.rb
+
+--a76c34f8c--2014-02-05--Antti Virolainen
+5	0	db/migrate/20140205092212_change_transaction_id_to_transaction_type_id.rb
+14	11	db/schema.rb
+
+--8a785a276--2014-02-05--Mikko Koski
+12	0	app/views/admin/categories/_category_action_buttons.haml
+2	10	app/views/admin/categories/_listed_subcategory.haml
+10	19	app/views/admin/categories/_listed_top_level_category.haml
+
+--0a56735e3--2014-02-04--Mikko Koski
+--7aabd2774--2014-02-04--Mikko Koski
+1	0	app/controllers/admin/categories_controller.rb
+11	13	app/models/category.rb
+4	0	app/models/community.rb
+15	4	app/views/admin/categories/remove.haml
+1	1	app/views/admin/custom_fields/form/_field_categories.haml
+
+--f9a46a888--2014-02-04--Mikko Koski
+4	0	app/controllers/admin/categories_controller.rb
+4	0	app/models/category_custom_field.rb
+18	0	app/services/admin/category_service.rb
+29	16	spec/services/admin_category_service_spec.rb
+
+--223f66bde--2014-02-04--Antti Virolainen
+73	24	db/migrate/20140204101010_create_community_specific_categories.rb
+
+--7d28bf217--2014-02-04--Mikko Koski
+2	2	app/controllers/admin/categories_controller.rb
+1	2	spec/models/category_spec.rb
+47	0	spec/services/admin_category_service_spec.rb
+0	1	test/helper_modules.rb
+
+--2a391fbfd--2014-02-04--Mikko Koski
+--61dbe55a6--2014-02-04--Mikko Koski
+1	2	spec/controllers/api/comments_controller_spec.rb
+1	1	spec/controllers/api/listings_controller_spec.rb
+
+--5df7a114d--2014-02-04--Mikko Koski
+0	1	Gemfile
+0	2	Gemfile.lock
+
+--370268b78--2014-02-04--Mikko Koski
+0	5	custom_plan.rb
+59	106	features/support/env.rb
+0	7	features/support/hooks.rb
+2	77	spec/spec_helper.rb
+24	0	spec/support/database_cleanup.rb
+1	4	test/helper_modules.rb
+0	83	test/performance/browsing_test.rb
+0	18	test/performance/show_listing_bubble_test.rb
+0	39	test/test_helper.rb
+
+--d66d48ffc--2014-02-04--Antti Virolainen
+0	3	app/models/transaction_types/free_service.rb
+0	3	app/models/transaction_types/sell_products.rb
+118	36	db/migrate/20140204101010_create_community_specific_categories.rb
+
+--0c01bca13--2014-02-04--Antti Virolainen
+--2f705f808--2014-02-04--Antti Virolainen
+3	0	app/models/transaction_types/sell.rb
+3	0	app/models/transaction_types/service.rb
+8	8	config/locales/en.yml
+8	8	config/locales/fi.yml
+
+--321bf9237--2014-02-04--Antti Virolainen
+--c52e27048--2014-02-04--Antti Virolainen
+8	0	config/locales/en.yml
+8	0	config/locales/fi.yml
+
+--5df178457--2014-02-04--Antti Virolainen
+5	0	db/migrate/20140204082210_add_sort_priority_to_categories.rb
+34	31	db/migrate/{20140129082116_create_community_specific_categories.rb => 20140204101010_create_community_specific_categories.rb}
+
+--38fee5845--2014-02-03--Mikko Koski
+10	0	app/assets/stylesheets/partials/_utils.css.scss
+0	6	app/assets/stylesheets/views/admin/_custom_fields.css.scss
+10	0	app/models/category.rb
+4	1	app/views/admin/categories/_listed_top_level_category.haml
+
+--bbf0bde80--2014-02-03--Mikko Koski
+1	1	app/models/category.rb
+27	1	spec/models/category_spec.rb
+
+--dbf975c16--2014-02-03--Mikko Koski
+1	0	Gemfile
+3	0	Gemfile.lock
+
+--355e05107--2014-02-03--Mikko Koski
+42	0	features/admin/categories/admin_removes_category.feature
+
+--3599c053d--2014-02-03--Juho Makkonen
+3	2	app/views/admin/categories/form/_category_parent.haml
+1	1	config/environments/test.rb
+18	6	features/admin/categories/admin_adds_category.feature
+15	15	features/step_definitions/community_steps.rb
+9	1	features/step_definitions/user_steps.rb
+1	0	features/support/env.rb
+
+--4e571893f--2014-02-03--Mikko Koski
+4	0	app/assets/stylesheets/main.css.scss
+11	0	app/controllers/admin/categories_controller.rb
+29	0	app/models/category.rb
+4	0	app/models/listing.rb
+6	2	app/views/admin/categories/_listed_subcategory.haml
+6	2	app/views/admin/categories/_listed_top_level_category.haml
+35	0	app/views/admin/categories/remove.haml
+1	0	config/routes.rb
+
+--53565ab2b--2014-02-03--Mikko Koski
+4	0	app/models/category.rb
+3	2	app/views/admin/categories/_listed_subcategory.haml
+3	2	app/views/admin/categories/_listed_top_level_category.haml
+18	0	spec/models/category_spec.rb
+
+--a2f93f2e1--2014-02-03--Mikko Koski
+3	8	app/controllers/admin/categories_controller.rb
+1	1	app/views/admin/categories/_listed_subcategory.haml
+2	2	app/views/admin/categories/_listed_top_level_category.haml
+1	0	config/locales/en.yml
+
+--ce61f9c02--2014-02-03--Mikko Koski
+3	1	app/views/admin/categories/_listed_subcategory.haml
+2	0	app/views/admin/categories/_listed_top_level_category.haml
+
+--505ed054b--2014-01-31--Juho Makkonen
+1	1	app/helpers/categories_helper.rb
+6	0	custom_plan.rb
+3	2	features/step_definitions/admin_category_steps.rb
+5	2	features/support/env.rb
+1	1	features/support/hooks.rb
+9	7	spec/spec_helper.rb
+14	4	test/helper_modules.rb
+
+--f8646f2c7--2014-01-31--Juho Makkonen
+1	1	app/views/admin/categories/form/_category_parent.haml
+
+--7b29a808a--2014-01-31--Juho Makkonen
+2	2	app/views/admin/categories/form/_category_parent.haml
+
+--2026bf2ce--2014-01-30--Antti Virolainen
+1	2	app/controllers/listings_controller.rb
+6	0	db/migrate/20140129081030_add_transaction_id_and_new_category_id_to_listings.rb
+117	0	db/migrate/20140129082116_create_community_specific_categories.rb
+6	0	db/migrate_helpers/logging_helpers.rb

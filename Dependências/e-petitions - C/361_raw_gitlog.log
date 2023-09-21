@@ -1,0 +1,149 @@
+--520076f3--2015-06-12--Andrew White
+--2d8a142d--2015-06-11--Andrew White
+3	3	app/models/petition.rb
+
+--5b26e9c8--2015-06-11--Andrew White
+3	3	app/models/petition.rb
+
+--b42b2db4--2015-06-11--Murray Steele
+--d2d50549--2015-06-11--Andrew White
+1	1	features/step_definitions/petition_steps.rb
+
+--320b3d4f--2015-06-11--Andrew White
+15	29	app/models/concerns/browseable.rb
+16	10	spec/models/concerns/browseable_spec.rb
+
+--7feaed61--2015-06-11--Andrew White
+5	5	app/models/concerns/browseable.rb
+1	2	spec/models/concerns/browseable_spec.rb
+
+--e52c6a19--2015-06-11--Andrew White
+1	1	spec/models/archived_petition_spec.rb
+
+--44a7c429--2015-06-11--Andrew White
+5	5	app/models/archived_petition.rb
+1	1	app/models/concerns/browseable.rb
+4	4	app/models/petition.rb
+1	1	spec/models/concerns/browseable_spec.rb
+
+--61901eba--2015-06-11--Alexander Bobin
+--cbb968d7--2015-06-11--Andrew White
+1	1	app/views/petitions/index.html.erb
+
+--53057bbc--2015-06-11--Andrew White
+0	4	.gitignore
+0	3	.travis.yml
+0	2	Gemfile
+0	12	Gemfile.lock
+3	5	README.md
+0	27	config/sunspot.yml
+0	6	features/step_definitions/search_steps.rb
+0	1	features/suzie_searches_by_free_text.feature
+0	11	lib/tasks/epets.rake
+0	31	solr/conf/admin-extra.html
+0	36	solr/conf/elevate.xml
+0	246	solr/conf/mapping-ISOLatin1Accent.txt
+0	21	solr/conf/protwords.txt
+0	275	solr/conf/schema.xml
+0	24	solr/conf/scripts.conf
+0	673	solr/conf/solrconfig.xml
+0	2	solr/conf/spellings.txt
+0	58	solr/conf/stopwords.txt
+0	31	solr/conf/synonyms.txt
+0	8	solr/solr.xml
+0	4	spec/models/archived_petition_spec.rb
+
+--8aab9ba5--2015-06-11--Andrew White
+2	3	features/suzie_searches_by_free_text.feature
+
+--1389fc8c--2015-06-11--Andrew White
+1	1	app/models/petition.rb
+
+--8ba4926b--2015-06-11--Andrew White
+0	19	app/helpers/search_helper.rb
+0	22	spec/helpers/search_helper_spec.rb
+
+--46c6d688--2015-06-11--Andrew White
+2	4	app/controllers/petitions_controller.rb
+1	1	app/controllers/search_controller.rb
+2	2	app/views/petitions/_pre_creation_search_form.html.erb
+5	8	app/views/petitions/check_results.html.erb
+1	1	app/views/petitions/index.html.erb
+9	1	app/views/search/_filter_nav.html.erb
+1	1	app/views/search/_result_list_footer.html.erb
+5	5	app/views/search/_results.html.erb
+2	2	app/views/search/_results_for_pre_create_petition.html.erb
+1	1	app/views/search/_results_table.html.erb
+1	1	app/views/search/search.html.erb
+12	0	config/locales/petitions.en-GB.yml
+1	1	features/step_definitions/petition_steps.rb
+
+--01fa3fcc--2015-06-11--Andrew White
+1	1	app/models/concerns/browseable.rb
+9	1	spec/models/concerns/browseable_spec.rb
+
+--bb85791e--2015-06-11--Andrew White
+3	3	features/joe_searches_for_an_archived_petition.feature
+
+--10ff209d--2015-06-11--Andrew White
+1	11	lib/health_check.rb
+0	11	spec/lib/health_check_spec.rb
+
+--c58b8889--2015-06-11--Andrew White
+3	6	app/models/concerns/browseable.rb
+8	8	spec/models/concerns/browseable_spec.rb
+
+--a89c59c8--2015-06-11--Andrew White
+0	122	app/decorators/petition_search.rb
+0	123	spec/decorators/petition_search_spec.rb
+
+--da10e67b--2015-06-11--Andrew White
+0	5	app/controllers/application_controller.rb
+0	19	app/controllers/petitions_controller.rb
+
+--4ffdd8c1--2015-06-11--Andrew White
+9	13	app/models/petition.rb
+
+--067fb3b6--2015-06-11--Andrew White
+7	3	app/models/concerns/browseable.rb
+49	24	spec/models/concerns/browseable_spec.rb
+
+--ad03ec11--2015-06-11--Andrew White
+1	1	app/models/concerns/browseable.rb
+4	4	spec/models/concerns/browseable_spec.rb
+
+--7b364575--2015-06-11--Andrew White
+1	1	app/models/concerns/browseable.rb
+36	2	spec/models/concerns/browseable_spec.rb
+
+--caab4a63--2015-06-08--Andrew White
+38	9	app/models/archived_petition.rb
+156	0	app/models/concerns/browseable.rb
+1	1	spec/models/archived_petition_spec.rb
+287	0	spec/models/concerns/browseable_spec.rb
+
+--02627f96--2015-06-03--Andrew White
+3	3	app/decorators/petition_search.rb
+8	10	app/models/archived_petition.rb
+32	0	db/migrate/20150603112821_add_search_indexes_for_archived_petitions.rb
+24	0	db/migrate/20150605100049_add_search_indexes_for_petitions.rb
+53	0	db/structure.sql
+22	24	lib/tasks/import.rake
+
+--9b6e3344--2015-06-03--Andrew White
+1	0	Gemfile
+3	0	Gemfile.lock
+
+--f030b564--2015-06-11--David Basalla
+23	22	spec/lib/constituency_api_spec.rb
+
+--f1fcaaa7--2015-06-11--David Basalla
+27	6	app/lib/constituency_api.rb
+10	2	spec/lib/constituency_api_spec.rb
+
+--ca0c65e2--2015-06-10--David Basalla
+5	7	app/views/signatures/signed.html.erb
+
+--b114a4b3--2015-06-11--Otto Laitila
+5	0	app/assets/stylesheets/petitions/views/shared/_share-petition.scss
+1	1	app/views/shared/_share_petition.html.erb

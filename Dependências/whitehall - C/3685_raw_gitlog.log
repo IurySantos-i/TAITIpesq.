@@ -1,0 +1,150 @@
+--386b62df39--2013-02-18--Murray Steele
+--14ad92fd0f--2013-02-18--James Adam
+0	17	app/views/admin/world_location_translations/_fields.html.erb
+0	23	app/views/admin/worldwide_offices_translations/_fields.html.erb
+
+--851ac79017--2013-02-18--Matthew Ford
+--8b22eb0132--2013-02-18--James Adam
+1	1	app/views/admin/worldwide_offices/index.html.erb
+
+--0dc4a22f28--2013-02-18--James Adam
+1	1	app/controllers/admin/worldwide_offices_translations_controller.rb
+
+--b3ac751848--2013-02-18--Edd Sowden
+--3101017b15--2013-02-18--Matthew Ford
+1	0	config/initializers/search_backend.rb
+1	4	lib/whitehall.rb
+
+--2a40e8c043--2013-02-18--russell thorn
+17	7	app/assets/stylesheets/frontend/views/_how-gov-works.scss
+
+--6f5b77f4cd--2013-02-18--Murray Steele
+21	6	app/assets/javascripts/application/document_filter.js
+
+--84371fbf2c--2013-02-18--Murray Steele
+5	1	lib/whitehall/document_filter/mysql.rb
+22	0	test/unit/whitehall/document_filter/mysql_test.rb
+
+--67c987805d--2013-02-18--russell thorn
+1	2	app/assets/stylesheets/frontend/views/_how-gov-works.scss
+
+--ac2941922b--2013-02-18--James Adam
+6	6	app/views/worldwide_offices/show.html.erb
+8	0	config/locales/ar.yml
+8	0	config/locales/az.yml
+8	0	config/locales/be.yml
+8	0	config/locales/bg.yml
+8	0	config/locales/bn.yml
+8	0	config/locales/cs.yml
+5	0	config/locales/de.yml
+8	0	config/locales/dr.yml
+8	0	config/locales/el.yml
+5	0	config/locales/en.yml
+6	1	config/locales/es.yml
+8	0	config/locales/fa.yml
+5	0	config/locales/fr.yml
+8	0	config/locales/he.yml
+8	0	config/locales/hi.yml
+8	0	config/locales/hu.yml
+8	0	config/locales/hy.yml
+8	0	config/locales/id.yml
+5	0	config/locales/it.yml
+5	0	config/locales/ja.yml
+8	0	config/locales/ka.yml
+8	0	config/locales/ko.yml
+8	0	config/locales/lt.yml
+8	0	config/locales/lv.yml
+8	0	config/locales/ms.yml
+8	0	config/locales/pl.yml
+8	0	config/locales/ps.yml
+5	0	config/locales/pt.yml
+8	0	config/locales/ro.yml
+5	0	config/locales/ru.yml
+8	0	config/locales/si.yml
+8	0	config/locales/sk.yml
+8	0	config/locales/so.yml
+8	0	config/locales/sq.yml
+8	0	config/locales/sr.yml
+8	0	config/locales/sw.yml
+8	0	config/locales/ta.yml
+8	0	config/locales/th.yml
+8	0	config/locales/tk.yml
+5	0	config/locales/tr.yml
+8	0	config/locales/uk.yml
+8	0	config/locales/ur.yml
+8	0	config/locales/uz.yml
+8	0	config/locales/vi.yml
+8	0	config/locales/zh.yml
+
+--6633fceabc--2013-02-18--James Adam
+39	0	app/controllers/admin/worldwide_offices_translations_controller.rb
+5	1	app/controllers/worldwide_offices_controller.rb
+1	0	app/models/worldwide_office.rb
+3	1	app/views/admin/worldwide_offices/index.html.erb
+23	0	app/views/admin/worldwide_offices_translations/_fields.html.erb
+29	0	app/views/admin/worldwide_offices_translations/edit.html.erb
+30	0	app/views/admin/worldwide_offices_translations/index.html.erb
+1	1	app/views/worldwide_offices/_worldwide_office.html.erb
+1	0	config/routes.rb
+17	0	db/migrate/20130218120402_add_translation_to_worldwide_offices.rb
+18	4	db/schema.rb
+27	0	features/administering-worldwide-offices.feature
+70	0	features/step_definitions/worldwide_office_steps.rb
+4	0	lib/locale.rb
+1	1	test/factories/worldwide_offices.rb
+123	0	test/functional/admin/worldwide_offices_translations_controller_test.rb
+
+--720e4193f0--2013-02-18--Chris Roos
+3	0	app/views/admin/edition_translations/edit.html.erb
+8	0	test/functional/admin/edition_translations_controller_test.rb
+
+--428e757dee--2013-02-18--Chris Roos
+7	5	app/controllers/admin/edition_translations_controller.rb
+15	0	test/functional/admin/edition_translations_controller_test.rb
+
+--5f35b4d068--2013-02-18--Chris Roos
+1	1	app/views/admin/editions/_document_preview.html.erb
+9	0	test/functional/admin/international_priorities_controller_test.rb
+
+--3c8d88b37e--2013-02-15--Chris Roos
+15	11	app/views/admin/editions/_document_preview.html.erb
+22	1	test/functional/admin/international_priorities_controller_test.rb
+
+--19dad63f03--2013-02-15--Chris Roos
+3	2	app/controllers/admin/edition_translations_controller.rb
+14	0	app/views/admin/edition_translations/edit.html.erb
+10	0	test/functional/admin/edition_translations_controller_test.rb
+
+--e7c556fc6e--2013-02-15--Chris Roos
+10	6	app/controllers/admin/edition_translations_controller.rb
+5	0	app/controllers/admin/international_priorities_controller.rb
+0	6	app/helpers/locale_helper.rb
+19	0	app/views/admin/edition_translations/edit.html.erb
+0	22	app/views/admin/edition_translations/new.html.erb
+13	6	app/views/admin/editions/_document_preview.html.erb
+1	1	config/routes.rb
+1	1	features/step_definitions/international_priority_steps.rb
+26	23	test/functional/admin/edition_translations_controller_test.rb
+37	2	test/functional/admin/international_priorities_controller_test.rb
+
+--8c92ad340f--2013-02-13--Chris Roos & James Mead
+30	0	app/controllers/admin/edition_translations_controller.rb
+6	0	app/helpers/locale_helper.rb
+8	0	app/models/edition.rb
+4	0	app/models/international_priority.rb
+22	0	app/views/admin/edition_translations/new.html.erb
+22	0	app/views/admin/editions/_document_preview.html.erb
+1	0	config/routes.rb
+5	0	features/editing-draft-international-priorities.feature
+20	0	features/step_definitions/international_priority_steps.rb
+104	0	test/functional/admin/edition_translations_controller_test.rb
+24	0	test/functional/admin/international_priorities_controller_test.rb
+12	0	test/unit/edition_test.rb
+4	0	test/unit/international_priority_test.rb
+
+--522536a69b--2013-02-18--russell thorn
+2	1	app/assets/stylesheets/frontend/views/_how-gov-works.scss
+
+--d4ee4658c7--2013-02-18--russell thorn
+29	1	app/assets/stylesheets/frontend/views/_how-gov-works.scss
+28	10	app/views/home/how_government_works.html.erb

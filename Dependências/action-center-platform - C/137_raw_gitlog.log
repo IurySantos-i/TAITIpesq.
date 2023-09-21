@@ -1,0 +1,19 @@
+--08e86dce--2016-11-03--V Brown
+--32c5702e--2016-11-03--Peter Woo
+1	1	.travis.yml
+1	1	docker/entrypoint.sh
+
+--67e54cd1--2016-11-03--Peter Woo
+--a778ae73--2016-11-03--Peter Woo
+2	2	docker/crontab
+2	0	docker/entrypoint.sh
+
+--87009f8c--2016-11-03--Peter Woo
+17	8	docker-compose.yml.example
+5	3	docker/entrypoint.sh
+
+--6c382236--2016-11-03--vivian
+3	4	app/models/user.rb
+6	0	features/step_definitions/user_steps.rb
+14	0	features/users/reset_password.feature
+11	0	spec/models/user_spec.rb

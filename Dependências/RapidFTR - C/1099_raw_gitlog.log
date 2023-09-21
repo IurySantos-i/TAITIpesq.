@@ -1,0 +1,93 @@
+--c60e937a--2011-06-21--Shyam Vala
+--72ae20c6--2011-06-07--ptodkar
+8	0	app/helpers/histories_helper.rb
+1	1	app/views/histories/show.html.erb
+8	6	features/flag_child_record.feature
+8	0	features/step_definitions/basic_steps.rb
+17	0	spec/helpers/histories_helper_spec.rb
+
+--7bbd58b8--2011-06-07--ptodkar
+4	1	public/stylesheets/core.css
+
+--9ae79952--2011-05-24--ptodkar
+4	4	app/models/child.rb
+2	2	app/views/children/_show_child_toolbar.erb
+17	0	app/views/children/show.html.erb
+
+--472c65fd--2011-05-24--ptodkar
+9	4	app/views/children/_show_child_toolbar.erb
+4	0	app/views/children/show.html.erb
+5	2	app/views/histories/_flag_change.erb
+0	5	app/views/histories/_flag_message_change.erb
+3	7	app/views/histories/show.html.erb
+
+--b6907097--2011-06-14--Shyam Vala
+4	1	app/controllers/children_controller.rb
+5	7	app/views/children/_summary_row.html.erb
+11	0	spec/controllers/children_controller_spec.rb
+34	14	spec/views/child/search.html.erb_spec.rb
+
+--6a9e5814--2011-06-07--Shyam Vala
+2	6	app/controllers/highlight_fields_controller.rb
+8	4	app/models/form_section.rb
+2	4	app/views/highlight_fields/index.html.erb
+1	2	public/javascripts/form_fields.js
+7	4	spec/controllers/highlight_fields_controller_spec.rb
+18	5	spec/models/form_section_spec.rb
+
+--55d26dad--2011-06-07--Shyam Vala
+8	5	app/controllers/highlight_fields_controller.rb
+1	1	app/models/field.rb
+5	8	app/models/form_section.rb
+14	6	app/views/highlight_fields/index.html.erb
+1	0	app/views/shared/_form_fields.html.erb
+4	4	lib/rapid_ftr/form_section_setup.rb
+1	1	public/javascripts/form_fields.js
+22	7	spec/controllers/highlight_fields_controller_spec.rb
+3	3	spec/models/field_spec.rb
+6	7	spec/models/form_section_spec.rb
+
+--d6aa0511--2011-06-07--Shyam Vala
+--6e8df146--2011-05-18--Shyam Vala
+--c3b9610e--2011-05-17--Shyam Vala
+2	0	app/controllers/highlight_fields_controller.rb
+9	0	app/models/field.rb
+7	7	app/models/form_section.rb
+1	1	app/views/highlight_fields/index.html.erb
+35	0	spec/controllers/highlight_fields_controller_spec.rb
+15	0	spec/models/field_spec.rb
+42	0	spec/models/form_section_spec.rb
+
+--34c72539--2011-05-10--Shyam Vala
+--4edf872d--2011-05-10--Shyam Vala
+12	53	app/views/highlight_fields/index.html.erb
+44	0	app/views/shared/_form_fields.html.erb
+23	23	public/javascripts/form_fields.js
+
+--4eb7d839--2011-04-26--Shyam Vala
+2	2	app/views/highlight_fields/index.html.erb
+61	69	public/javascripts/form_fields.js
+13	17	public/javascripts/jquery_plugin.js
+
+--e512d2e5--2011-04-26--Shyam Vala
+--7a17400e--2011-04-26--Shyam Vala
+17	2	app/controllers/highlight_fields_controller.rb
+2	0	app/models/field.rb
+15	0	app/models/form_section.rb
+7	0	app/models/highlight_information.rb
+1	1	app/views/admin/index.html.erb
+33	17	app/views/highlight_fields/{edit.html.erb => index.html.erb}
+4	1	public/javascripts/form_fields.js
+4	3	spec/controllers/fields_controller_spec.rb
+
+--a2eb6621--2011-04-11--Shyam Vala
+7	0	app/controllers/highlight_fields_controller.rb
+2	0	app/helpers/highlight_fields_helper.rb
+4	1	app/views/admin/index.html.erb
+75	0	app/views/highlight_fields/edit.html.erb
+2	0	config/routes.rb
+72	0	public/javascripts/form_fields.js
+18	0	public/javascripts/jquery_plugin.js
+14	3	public/stylesheets/core.css
+8	0	test/functional/highlight_fields_controller_test.rb
+4	0	test/unit/helpers/highlight_fields_helper_test.rb

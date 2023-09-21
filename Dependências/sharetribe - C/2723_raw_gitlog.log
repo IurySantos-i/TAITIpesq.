@@ -1,0 +1,76 @@
+--c1493c5cf--2013-01-08--Antti Virolainen
+--9642dc645--2013-01-08--Antti Virolainen
+1	2	app/controllers/testimonials_controller.rb
+1	1	app/views/settings/account.haml
+1	3	features/people/user_views_profile_page.feature
+7	7	features/sessions/user_requests_new_password.feature
+3	4	features/settings/user_changes_email_address.feature
+2	2	features/settings/user_changes_password.feature
+1	1	features/settings/user_changes_profile.photo.feature
+5	5	features/settings/user_updates_profile_information.feature
+2	17	features/testimonials/user_views_testimonials.feature
+
+--ef9cebbdc--2013-01-08--Kusti
+--a560bfa0f--2013-01-08--Kusti
+2	1	app/views/infos/about.haml
+9	8	app/views/people/not_member.haml
+2	2	config/locales/en.yml
+
+--2084adf2f--2013-01-08--Kusti
+0	71	app/assets/javascripts/kassi.js
+51	72	app/assets/stylesheets/application.scss
+4	87	app/controllers/listings_controller.rb
+1	27	app/controllers/search_controller.rb
+3	2	app/views/admin/communities/edit_details.haml
+1	3	app/views/conversations/index.haml
+1	0	app/views/conversations/notifications.haml
+2	2	app/views/homepage/index.haml
+8	0	app/views/layouts/_global_view_notification.haml
+12	15	app/views/layouts/application.haml
+1	1	app/views/layouts/no_tribe.haml
+10	7	app/views/sessions/new.haml
+2	2	app/views/settings/_community_updates_radiobutton.haml
+1	1	app/views/settings/_notification_checkbox.haml
+1	1	app/views/settings/account.haml
+1	0	app/views/settings/avatar.haml
+2	1	app/views/settings/notifications.haml
+1	0	app/views/settings/profile.haml
+4	0	config/locales/en.yml
+11	7	config/locales/fi.yml
+0	4	config/routes.rb
+10	4	public/system/paperclip_attachments.yml
+
+--4ed8b3327--2013-01-08--Kusti
+--39c9956ef--2013-01-08--Kusti
+-	-	app/assets/images/sprite.png
+1	4	app/assets/javascripts/application.js
+1	1	app/assets/javascripts/dashboard.js
+5	5	app/assets/javascripts/kassi.js
+8	12	app/assets/stylesheets/application.scss
+1	3	app/assets/stylesheets/old_ie.scss
+567	0	app/assets/stylesheets/uniform.default.css
+725	0	app/assets/stylesheets/uniform.kassi.css
+2	1	app/controllers/feedbacks_controller.rb
+0	1	app/views/feedbacks/new.haml
+3	3	app/views/infos/about.haml
+4	6	app/views/layouts/_head.haml
+83	83	app/views/layouts/application.haml
+23	18	app/views/layouts/no_tribe.haml
+8	14	app/views/people/not_member.haml
+1	1	config/application.rb
+2	1	config/locales/en.yml
+2	1	config/locales/fi.yml
+1	0	vendor/assets/javascripts/jquery.uniform.min.css
+1257	0	vendor/assets/javascripts/jquery.validate.js
+0	16	vendor/assets/javascripts/jquery.validate.min.js
+
+--6b74074bd--2013-01-07--Kusti
+--e88fcb1d5--2013-01-07--Kusti
+5	0	app/assets/stylesheets/application.scss
+3	0	app/assets/stylesheets/old_ie.scss
+0	567	app/assets/stylesheets/uniform.default.css
+0	725	app/assets/stylesheets/uniform.kassi.css
+1	1	app/controllers/admin/communities_controller.rb
+4	1	app/views/layouts/_head.haml
+4	0	app/views/layouts/application.haml
+1	1	config/application.rb

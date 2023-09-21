@@ -1,0 +1,106 @@
+--8970f0ba--2015-06-15--Murray Steele
+--c87f0396--2015-06-15--mybits
+--f204adc9--2015-06-15--Alexander Bobin
+3	3	features/charlie_creates_a_petition.feature
+1	1	features/step_definitions/inspection_steps.rb
+
+--a238515a--2015-06-15--Alexander Bobin
+22	0	app/views/petitions/_action_help.html.erb
+1	22	app/views/petitions/check.html.erb
+1	22	app/views/petitions/create/_petition_details_ui.html.erb
+
+--a754d9f8--2015-06-11--Alexander Bobin
+9	1	app/assets/stylesheets/petitions/views/_shared.scss
+1	1	app/views/petitions/check_results.html.erb
+1	1	app/views/petitions/create/_petition_details_ui.html.erb
+1	3	app/views/petitions/create/_replay_email_ui.html.erb
+1	3	app/views/petitions/create/_replay_petition_ui.html.erb
+1	3	app/views/petitions/create/_your_details_ui.html.erb
+1	1	app/views/search/_results_for_pre_create_petition.html.erb
+6	0	features/charlie_creates_a_petition.feature
+
+--11378c1b--2015-06-11--Alexander Bobin
+2	3	app/views/petitions/create/_your_details_ui.html.erb
+5	5	features/charlie_creates_a_petition.feature
+
+--c0cedaf5--2015-06-11--Murray Steele
+16	0	app/controllers/concerns/managing_move_parameter.rb
+2	5	app/controllers/petitions_controller.rb
+3	0	app/controllers/signatures_controller.rb
+3	0	app/controllers/sponsors_controller.rb
+1	0	app/helpers/petition_helper.rb
+1	0	app/helpers/signature_helper.rb
+1	1	app/views/petitions/create/_petition_details_ui.html.erb
+1	1	app/views/petitions/create/_replay_email_ui.html.erb
+3	2	app/views/petitions/create/_replay_petition_ui.html.erb
+2	2	app/views/petitions/create/_your_details_ui.html.erb
+1	1	app/views/signatures/create/_replay_email_ui.html.erb
+1	1	app/views/signatures/create/_signer_ui.html.erb
+32	0	spec/controllers/petitions_controller_spec.rb
+33	1	spec/controllers/signatures_controller_spec.rb
+32	0	spec/controllers/sponsors_controller_spec.rb
+
+--ab95116e--2015-06-11--Alexander Bobin
+1	1	app/views/petitions/create/_your_details_ui.html.erb
+7	1	app/views/signatures/_form.html.erb
+1	1	app/views/signatures/create/_signer_ui.html.erb
+
+--ff81d9d5--2015-06-11--Alexander Bobin
+1	1	app/views/petitions/create/_replay_email_ui.html.erb
+1	1	app/views/signatures/_email.html.erb
+1	1	app/views/signatures/_form.html.erb
+1	6	app/views/signatures/create/_replay_email_ui.html.erb
+
+--1ff71cf8--2015-06-11--Alexander Bobin
+11	0	app/views/petitions/create/_error_summary.html.erb
+2	0	app/views/petitions/create/_petition_details_ui.html.erb
+2	0	app/views/petitions/create/_your_details_ui.html.erb
+0	12	app/views/petitions/new.html.erb
+
+--6b11d5d7--2015-06-10--Paula Stepinska
+10	2	app/assets/stylesheets/petitions/_buttons.scss
+5	0	app/assets/stylesheets/petitions/_typography.scss
+1	1	app/views/petitions/check.html.erb
+9	1	app/views/petitions/create/_petition_details_ui.html.erb
+15	13	app/views/petitions/create/_replay_email_ui.html.erb
+20	23	app/views/petitions/create/_replay_petition_ui.html.erb
+15	11	app/views/petitions/create/_your_details_ui.html.erb
+0	8	app/views/petitions/new.html.erb
+9	10	app/views/petitions/thank_you.html.erb
+1	1	app/views/signatures/_email.html.erb
+10	12	features/charlie_creates_a_petition.feature
+4	0	features/step_definitions/inspection_steps.rb
+3	0	features/step_definitions/petition_steps.rb
+
+--1152d366--2015-06-09--Paula Stepinska
+18	3	app/assets/stylesheets/petitions/_forms.scss
+6	6	app/models/staged/validations/petition_details.rb
+51	34	app/views/petitions/create/_petition_details_ui.html.erb
+11	17	app/views/petitions/new.html.erb
+14	14	features/charlie_creates_a_petition.feature
+4	4	features/step_definitions/petition_steps.rb
+9	9	spec/models/petition_spec.rb
+
+--db33af4d--2015-06-08--Alexander Bobin
+0	2	app/assets/stylesheets/petitions/_details.scss
+10	7	app/assets/stylesheets/petitions/_forms.scss
+1	1	app/assets/stylesheets/petitions/_panels.scss
+9	0	app/assets/stylesheets/petitions/views/_petition-create.scss
+21	19	app/assets/stylesheets/petitions/views/_shared.scss
+30	0	app/assets/stylesheets/petitions/views/shared/_petition-item.scss
+1	0	app/assets/stylesheets/site.scss
+0	7	app/views/petitions/_pre_creation_search_form.html.erb
+40	6	app/views/petitions/check.html.erb
+18	19	app/views/petitions/check_results.html.erb
+12	7	app/views/search/_results_for_pre_create_petition.html.erb
+1	1	app/views/static_pages/home.html.erb
+5	5	features/charlie_creates_a_petition.feature
+6	7	features/step_definitions/petition_steps.rb
+
+--661e6e7c--2015-06-15--Alexander Bobin
+--fa82fae0--2015-06-15--Paula Stepinska
+8	0	app/assets/stylesheets/petitions/_forms.scss
+
+--724f79ec--2015-06-15--Otto Laitila
+1	1	app/models/petition.rb
+2	2	features/suzie_views_all_petitions.feature

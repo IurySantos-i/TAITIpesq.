@@ -1,0 +1,51 @@
+--7df550cfa8--2012-07-10--russell thorn
+--0f0bf39c0b--2012-07-10--Bradley Wright
+2	2	app/assets/javascripts/application/policy_update_notes.js
+
+--799637cca1--2012-07-10--James Mead
+2	4	features/step_definitions/policy_steps.rb
+8	0	features/support/media_player.rb
+
+--5d6aaf3275--2012-07-10--James Mead
+0	1	app/models/edition.rb
+0	24	app/models/edition/video.rb
+0	5	app/views/admin/editions/_standard_elements.html.erb
+0	4	app/views/admin/news_articles/_form.html.erb
+0	5	app/views/news_articles/_document_content.html.erb
+0	5	app/views/specialist_guides/_document_content.html.erb
+5	0	db/migrate/20120710091651_remove_video_url_from_editions.rb
+1	2	db/schema.rb
+0	9	features/step_definitions/news_article_steps.rb
+0	5	features/viewing-published-news-articles.feature
+0	1	test/functional/admin/news_articles_controller_test.rb
+0	54	test/support/admin_edition_controller_test_helpers.rb
+0	30	test/unit/edition/validation_test.rb
+
+--a5c809bb4a--2012-07-10--Edd Sowden
+2	2	app/assets/javascripts/application/paginate_document.js
+1	1	app/assets/stylesheets/frontend/layouts/specialist.scss
+1	0	app/assets/stylesheets/frontend/styleguide/_colours.scss
+59	1	app/assets/stylesheets/frontend/views/_specialist_guides.scss
+1	1	features/step_definitions/specialist_guide_pagination_steps.rb
+
+--48999eb52b--2012-07-10--russell thorn
+9	10	app/assets/stylesheets/frontend/views/_policies.scss
+0	1	app/views/documents/_change_notes.html.erb
+
+--40af118023--2012-07-10--Edd Sowden
+6	0	app/assets/javascripts/application/paginate_document.js
+
+--c859767ab0--2012-07-09--James Mead
+0	1	app/assets/javascripts/common/media-player/jquery.player.js
+5	0	features/editing-draft-policies.feature
+21	0	features/step_definitions/policy_steps.rb
+6	0	features/viewing-published-policies.feature
+
+--0569e3d632--2012-07-09--russell thorn
+3	7	app/assets/stylesheets/frontend/styleguide/_button.scss
+8	0	app/assets/stylesheets/frontend/styleguide/_css3.scss
+41	19	app/assets/stylesheets/frontend/views/_policies.scss
+2	1	app/views/documents/_change_notes.html.erb
+3	3	app/views/policies/_document_contextual.html.erb
+1	2	app/views/policies/_document_related.html.erb
+9	6	app/views/supporting_pages/_document_contextual.html.erb

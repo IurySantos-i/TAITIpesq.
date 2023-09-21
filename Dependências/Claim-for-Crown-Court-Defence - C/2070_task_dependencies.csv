@@ -1,0 +1,3 @@
+entity,coupled,degree,average-revs
+Gemfile,Gemfile.lock,100,5
+features/advocate_claims_list.feature,features/step_definitions/advocate_claims_list_steps.rb,90,6

@@ -1,0 +1,247 @@
+--4f517af8ef--2013-01-02--Bradley Wright
+--5cdd0d6802--2013-01-02--Edd Sowden
+1	4	app/assets/stylesheets/frontend/views/_organisations.scss
+
+--49f6ea4572--2013-01-02--Edd Sowden
+1	1	app/assets/stylesheets/frontend/helpers/_document_list.scss
+
+--fb1b6b582c--2013-01-02--Bradley Wright
+6	0	app/models/topical_event.rb
+1	1	lib/whitehall.rb
+
+--bff20a7187--2013-01-02--Edd Sowden
+1	0	app/assets/stylesheets/frontend/helpers/_govspeak.scss
+
+--89c9251888--2013-01-02--Chris Parsons
+7	0	app/controllers/admin/editions_controller.rb
+2	0	config/routes.rb
+1	0	test/functional/admin/case_studies_controller_test.rb
+1	0	test/functional/admin/consultations_controller_test.rb
+1	0	test/functional/admin/detailed_guides_controller_test.rb
+0	20	test/functional/admin/editions_controller_test.rb
+1	0	test/functional/admin/fatality_notices_controller_test.rb
+1	0	test/functional/admin/international_priorities_controller_test.rb
+1	0	test/functional/admin/news_articles_controller_test.rb
+1	0	test/functional/admin/policies_controller_test.rb
+1	0	test/functional/admin/publications_controller_test.rb
+1	0	test/functional/admin/speeches_controller_test.rb
+2	1	test/functional/admin/statistical_data_sets_controller_test.rb
+7	0	test/integration/routing_test.rb
+24	0	test/support/admin_edition_controller_test_helpers.rb
+
+--6d4eb9c2bd--2013-01-02--Edd Sowden
+4	4	app/assets/stylesheets/frontend/views/_topical-events.scss
+
+--6dc7f9910c--2013-01-02--russell thorn
+1	1	app/views/shared/_social_media_accounts.html.erb
+1	1	app/views/topical_events/show.html.erb
+
+--9aca39fae7--2013-01-02--Bradley Wright
+--43a55d7610--2013-01-02--Edd Sowden
+9	8	app/assets/stylesheets/frontend/views/_topical-events.scss
+
+--e9e48895c1--2013-01-02--Bradley Wright
+0	0	GUIDELINES.markdown => CONTRIBUTING.md
+
+--98109bec8d--2012-12-25--samsmith
+4	4	doc/govuk-exemption-list.csv
+
+--b26b76773a--2012-12-24--Bradley Wright
+--fedb01ce3c--2012-12-24--Bradley Wright
+--be71e3bcfa--2012-12-24--Bradley Wright
+1	1	Gemfile
+2	2	Gemfile.lock
+
+--f4891f7b14--2012-12-24--Bradley Wright
+0	2	app/views/classifications/index.html.erb
+
+--3b26e38d26--2012-12-24--Bradley Wright
+--79247bcc11--2012-12-24--Bradley Wright
+1	1	app/views/admin/classifications/_form.html.erb
+4	3	app/views/admin/topical_events/_logo.html.erb
+
+--87af7294b4--2012-12-24--Bradley Wright
+1	1	app/views/admin/classifications/_form.html.erb
+3	4	app/views/admin/topical_events/_logo.html.erb
+
+--d2452d43fb--2012-12-24--Murray Steele
+10	8	app/views/admin/topical_events/_logo.html.erb
+
+--7c098e9684--2012-12-24--Murray Steele
+1	1	app/views/admin/classifications/_form.html.erb
+
+--1d642921fa--2012-12-24--Edd Sowden
+7	3	app/assets/javascripts/application/joining-message.js
+8	10	app/views/layouts/frontend.html.erb
+0	9	test/functional/home_controller_test.rb
+13	13	test/javascripts/unit/joining-message_test.js
+
+--35f63664ba--2012-12-21--Chris Parsons
+1	1	app/controllers/admin/editions_controller.rb
+1	0	app/views/admin/editions/index.html.erb
+2	2	app/views/admin/speeches/_form.html.erb
+2	0	test/functional/admin/editions_controller_test.rb
+
+--db22793538--2012-12-21--Chris Parsons
+8	1	app/views/admin/speeches/_form.html.erb
+
+--d7adea92d8--2012-12-21--Chris Parsons
+7	0	app/models/speech.rb
+15	0	test/unit/speech_test.rb
+
+--169f77820f--2012-12-21--Chris Parsons
+4	0	app/models/edition/access_control.rb
+1	1	app/models/edition/appointment.rb
+2	0	app/models/edition/publishing.rb
+1	1	app/models/edition/workflow.rb
+3	3	app/models/publication.rb
+1	1	app/models/speech.rb
+9	2	features/importing-new-editions.feature
+9	3	features/step_definitions/import_steps.rb
+15	1	test/unit/edition/access_control_test.rb
+1	1	test/unit/edition/appointment_test.rb
+5	0	test/unit/edition/publishing_test.rb
+1	1	test/unit/edition/workflow_test.rb
+1	1	test/unit/speech_test.rb
+
+--ba3b6ee69f--2012-12-21--Chris Parsons
+1	1	app/models/speech.rb
+3	16	app/views/admin/editions/show.html.erb
+21	0	app/views/admin/speeches/_speech_details.html.erb
+12	9	features/importing-new-editions.feature
+26	2	features/step_definitions/import_steps.rb
+7	2	lib/whitehall/uploader/speech_row.rb
+3	5	test/unit/speech_test.rb
+16	2	test/unit/uploader/speech_row_test.rb
+
+--084cca5c53--2012-12-20--Murray Steele
+22	1	app/controllers/admin/edition_workflow_controller.rb
+5	0	app/helpers/admin/edition_actions_helper.rb
+3	0	app/views/admin/editions/_navigation.html.erb
+1	0	config/routes.rb
+52	0	test/functional/admin/edition_workflow_controller_test.rb
+
+--7d895f26a9--2012-12-20--Murray Steele
+13	0	app/models/edition.rb
+6	2	app/models/edition/access_control.rb
+12	0	app/models/edition/workflow.rb
+7	0	app/models/publication.rb
+21	2	test/unit/edition/access_control_test.rb
+26	0	test/unit/edition_test.rb
+17	0	test/unit/publication_test.rb
+
+--3158a51b7c--2012-12-20--Murray Steele
+1	0	features/importing-new-editions.feature
+22	0	features/step_definitions/import_steps.rb
+
+--185aba7c0e--2012-12-20--Chris Parsons + Murray Steele
+1	1	app/models/import.rb
+3	2	lib/whitehall/uploader/consultation_row.rb
+2	2	lib/whitehall/uploader/finders/organisation_finder.rb
+3	2	lib/whitehall/uploader/news_article_row.rb
+3	2	lib/whitehall/uploader/publication_row.rb
+1	1	lib/whitehall/uploader/speech_row.rb
+3	2	lib/whitehall/uploader/statistical_data_set_row.rb
+3	2	test/unit/uploader/consultation_row_test.rb
+8	7	test/unit/uploader/finders/organisation_finder_test.rb
+6	2	test/unit/uploader/news_article_row_test.rb
+28	26	test/unit/uploader/publication_row_test.rb
+17	16	test/unit/uploader/speech_row_test.rb
+4	3	test/unit/uploader/statistical_data_set_row_test.rb
+
+--bdbc7ac299--2012-12-20--Chris Parsons + Murray Steele
+1	1	app/models/edition/appointment.rb
+1	1	app/models/speech.rb
+1	0	app/models/speech_type.rb
+1	1	features/importing-new-editions.feature
+10	1	features/step_definitions/import_steps.rb
+1	0	lib/whitehall/uploader/finders/speech_type_finder.rb
+9	1	test/unit/edition/appointment_test.rb
+5	0	test/unit/speech_test.rb
+2	2	test/unit/uploader/finders/publication_type_finder_test.rb
+5	1	test/unit/uploader/finders/speech_type_finder_test.rb
+
+--c2c5c6e2da--2012-12-20--Murray Steele
+3	0	app/models/publication_type.rb
+3	2	features/importing-new-editions.feature
+2	1	lib/whitehall/uploader/finders/publication_type_finder.rb
+4	0	test/unit/uploader/finders/publication_type_finder_test.rb
+
+--383e8157bf--2012-12-20--Murray Steele
+1	1	app/models/edition.rb
+1	0	app/models/edition/workflow.rb
+1	1	app/models/import.rb
+4	4	features/importing-new-editions.feature
+19	4	features/step_definitions/import_steps.rb
+2	0	test/factories/editions.rb
+15	1	test/unit/edition/workflow_test.rb
+7	2	test/unit/import_test.rb
+
+--fca5920934--2012-12-20--Chris Parsons + Murray Steele
+1	1	app/controllers/admin/imports_controller.rb
+3	1	app/models/import.rb
+1	1	app/views/admin/imports/new.html.erb
+2	1	features/step_definitions/import_steps.rb
+2	1	test/factories/imports.rb
+7	3	test/functional/admin/imports_controller_test.rb
+1	1	test/integration/dclg_consultation_import_test.rb
+1	1	test/integration/dft_publication_import_with_json_test.rb
+1	1	test/integration/statistical_data_set_import_test.rb
+6	2	test/unit/import_test.rb
+
+--1c8dfb80c5--2012-12-20--Chris Parsons + Murray Steele
+11	2	app/models/import.rb
+7	1	app/views/admin/imports/new.html.erb
+5	0	db/migrate/20121220102017_add_organisation_id_to_import.rb
+1	0	db/schema.rb
+63	47	test/unit/import_test.rb
+
+--76fb55e153--2012-12-20--Chris Parsons + Murray Steele
+1	1	features/importing-new-editions.feature
+4	2	features/step_definitions/import_steps.rb
+
+--c1eca86d8f--2012-12-20--Chris Parsons
+71	52	features/importing-new-editions.feature
+
+--12d7199911--2012-12-19--Chris Parsons
+80	0	features/importing-new-editions.feature
+28	0	features/step_definitions/import_steps.rb
+18	0	features/support/import_helpers.rb
+
+--0ed4cae9de--2012-12-21--Bradley Wright
+1	1	app/views/topical_events/show.html.erb
+
+--a1f595f565--2012-12-21--Matthew Ford
+--087504c3b0--2012-12-21--Matthew Ford
+4	0	app/models/topical_event.rb
+
+--737a058390--2012-12-21--Edd Sowden
+2	0	app/assets/stylesheets/frontend/views/_topical-events.scss
+
+--ded647cb16--2012-12-21--Edd Sowden
+2	2	app/controllers/topical_events_controller.rb
+
+--95d1faee1e--2012-12-21--Bradley Wright
+1	1	app/views/topical_events/show.html.erb
+
+--39f3946869--2012-12-21--Bradley Wright
+1	1	app/controllers/topical_events_controller.rb
+5	0	test/functional/topical_events_controller_test.rb
+
+--a2004ede4d--2012-12-21--Bradley Wright
+1	1	app/views/topical_events/show.html.erb
+
+--38ea902a36--2012-12-21--Edd Sowden
+1	1	app/views/topical_events/show.html.erb
+
+--4ed04d53d7--2012-12-21--Bradley Wright
+5	0	test/functional/topical_events_controller_test.rb
+
+--3f4ca96576--2012-12-21--Edd Sowden
+1	1	app/controllers/admin/organisations_controller.rb
+
+--31b687f000--2012-12-21--Bradley Wright
+1	1	app/controllers/topical_events_controller.rb
+
+--7c3153376c--2012-12-19--Murray Steele
+2	1	features/support/env.rb

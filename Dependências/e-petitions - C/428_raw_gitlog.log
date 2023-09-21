@@ -1,0 +1,118 @@
+--481b8df1--2015-05-18--Murray Steele
+--6bc9374d--2015-05-18--Murray Steele
+--bd9f7af1--2015-05-18--Murray Steele
+2	2	features/step_definitions/department_steps.rb
+2	2	features/step_definitions/moderation_steps.rb
+
+--7491f5fa--2015-05-18--Murray Steele
+1	1	app/controllers/admin/petitions_controller.rb
+1	1	app/controllers/admin/profile_controller.rb
+2	2	app/decorators/department_petition_search.rb
+4	4	app/decorators/petition_search.rb
+2	2	app/lib/email_reminder.rb
+4	4	app/models/petition.rb
+1	1	app/views/static_pages/home.html.erb
+2	2	features/step_definitions/transforms.rb
+1	1	spec/controllers/admin/petitions_controller_spec.rb
+1	1	spec/controllers/admin/profile_controller_spec.rb
+4	4	spec/factories.rb
+3	3	spec/lib/email_reminder_spec.rb
+3	3	spec/models/petition_spec.rb
+
+--15b36ddc--2015-05-15--Murray Steele
+3	0	app/views/petitions/create/_submit_ui.html.erb
+
+--63967cd2--2015-05-15--Murray Steele
+1	4	app/controllers/admin/petitions_controller.rb
+7	0	app/models/petition.rb
+1	6	spec/controllers/admin/petitions_controller_spec.rb
+21	1	spec/models/petition_spec.rb
+
+--851d0a7d--2015-05-15--Murray Steele
+1	1	app/controllers/admin/petitions_controller.rb
+0	5	app/views/admin/petitions/edit.html.erb
+1	0	config/application.yml
+5	11	spec/controllers/admin/petitions_controller_spec.rb
+
+--c44a0d55--2015-05-15--Murray Steele
+3	7	app/helpers/form_helper.rb
+0	1	app/views/petitions/create/_petition_details_hidden.html.erb
+0	6	app/views/petitions/create/_petition_details_ui.html.erb
+1	2	features/charlie_creates_a_petition.feature
+0	1	spec/controllers/petitions_controller_spec.rb
+
+--3236b6fd--2015-05-15--Murray Steele
+0	1	app/models/petition.rb
+0	1	app/models/staged/validations/petition_details.rb
+5	0	db/migrate/20150515102858_drop_duration_from_petitions.rb
+1	2	db/schema.rb
+0	7	spec/models/petition_spec.rb
+0	1	spec/models/staged_petition_creator_spec.rb
+
+--835e37f7--2015-05-15--Murray Steele
+--97da00ed--2015-05-15--Murray Steele
+2	4	app/models/staged/sponsors.rb
+
+--579c5666--2015-05-15--Murray Steele
+1	3	app/models/staged/sponsors.rb
+2	1	app/models/staged/validations/sponsor_details.rb
+7	0	spec/models/petition_spec.rb
+
+--e99a8c8d--2015-05-15--Murray Steele
+1	1	app/models/staged/validations/sponsor_details.rb
+12	3	spec/models/petition_spec.rb
+
+--009b6094--2015-05-15--Murray Steele
+--e8d019b8--2015-05-15--David Basalla
+5	13	app/views/signatures/_form.html.erb
+1	1	app/views/signatures/new.html.erb
+2	2	features/step_definitions/signature_steps.rb
+2	2	features/step_definitions/sponsor_steps.rb
+
+--541a5f69--2015-05-14--Murray Steele
+2	11	features/admin/admin_users_crud.feature
+2	3	features/admin/all_petitions.feature
+1	1	features/admin/moderator_responds_to_petition.feature
+4	5	features/admin/petition_requires_response.feature
+6	9	features/admin/reports.feature
+7	13	features/admin/search_for_petition_by_id.feature
+1	3	features/admin/takedown.feature
+3	5	features/admin/todolist.feature
+0	5	features/step_definitions/admin_user_steps.rb
+0	6	features/step_definitions/authentication_steps.rb
+1	3	features/step_definitions/moderation_steps.rb
+10	6	features/step_definitions/petition_steps.rb
+2	8	features/step_definitions/reports_steps.rb
+
+--6bcb5b15--2015-05-13--Murray Steele
+2	2	app/lib/email_reminder.rb
+16	10	spec/lib/email_reminder_spec.rb
+
+--897d916b--2015-05-13--Murray Steele
+10	19	spec/controllers/admin/todolist_controller_spec.rb
+
+--ad473659--2015-05-13--Murray Steele
+3	8	app/controllers/admin/petitions_controller.rb
+7	5	spec/controllers/admin/petitions_controller_spec.rb
+
+--4d112d63--2015-05-13--Murray Steele
+1	2	app/controllers/admin/reports_controller.rb
+0	4	app/models/admin_user.rb
+11	30	spec/controllers/admin/reports_controller_spec.rb
+0	17	spec/models/admin_user_spec.rb
+
+--7a0af5e8--2015-05-13--Murray Steele
+1	8	app/helpers/admin_helper.rb
+1	1	app/views/admin/admin_users/_form.html.erb
+
+--b5bde472--2015-05-13--Murray Steele
+3	2	app/models/petition.rb
+9	10	spec/models/petition_spec.rb
+
+--a5e22bec--2015-05-13--Murray Steele
+0	17	app/controllers/admin/admin_users_controller.rb
+0	3	app/models/admin_user.rb
+5	13	app/views/admin/admin_users/_form.html.erb
+5	0	db/migrate/20150513162113_remove_admin_users_departments_join_table.rb
+0	8	db/schema.rb
+60	68	spec/controllers/admin/admin_users_controller_spec.rb

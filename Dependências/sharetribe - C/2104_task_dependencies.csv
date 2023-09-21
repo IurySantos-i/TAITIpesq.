@@ -1,0 +1,5 @@
+entity,coupled,degree,average-revs
+config/locales/en.yml,config/locales/fi.yml,83,16
+app/models/conversation.rb,app/services/confirm_conversation.rb,66,8
+app/assets/javascripts/image_uploader.js,app/views/listings/form/_images.haml,60,12
+app/assets/javascripts/image_uploader.js,app/models/listing_image.rb,47,11

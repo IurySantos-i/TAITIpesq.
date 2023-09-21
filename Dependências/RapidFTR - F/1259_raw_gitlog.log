@@ -1,9 +1,0 @@
---2b09215a--2010-09-08--Ketan Padegaonkar
---5cd1ddbc--2010-09-08--Ketan Padegaonkar
-1	1	app/controllers/children_controller.rb
-
---a99a0e78--2010-09-08--Andrew
-3	3	app/views/children/index.html.erb
-
---300c253f--2010-09-08--Andrew
-10	0	features/manage_children.feature

@@ -1,0 +1,21 @@
+--07de1a02f--2013-01-25--Antti Virolainen
+--9fb0fb25a--2013-01-25--Antti Virolainen
+3	5	features/invitations/user_invites_another_user.feature
+2	2	features/support/paths.rb
+3	2	spec/mailers/person_mailer_spec.rb
+
+--e9dbde513--2013-01-25--Kusti
+--7a7a97ce1--2013-01-25--Kusti
+9	0	app/helpers/application_helper.rb
+1	1	app/views/person_mailer/community_member_email.html.haml
+
+--76fc42332--2013-01-25--Antti Virolainen
+2	2	app/controllers/invitations_controller.rb
+1	1	app/helpers/application_helper.rb
+1	1	app/views/invitations/new.haml
+1	1	app/views/layouts/application.haml
+1	1	app/views/people/index.haml
+4	4	app/views/person_mailer/welcome_email.html.haml
+2	1	config/routes.rb
+3	3	features/invitations/user_invites_another_user.feature
+2	2	features/support/paths.rb

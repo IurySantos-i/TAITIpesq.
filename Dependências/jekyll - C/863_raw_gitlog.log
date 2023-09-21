@@ -1,0 +1,13 @@
+--5e790a6d4--2015-11-05--Parker Moore
+--455e18624--2015-11-05--Parker Moore
+1	0	History.markdown
+
+--7f1c3d4b7--2015-11-05--Parker Moore
+--61c8ab662--2015-11-04--Lawrence Murray
+3	0	site/_docs/plugins.md
+
+--db6103bde--2015-11-04--Parker Moore
+18	0	features/post_data.feature
+26	4	lib/jekyll/document.rb
+1	1	test/test_site.rb
+2	2	test/test_tags.rb

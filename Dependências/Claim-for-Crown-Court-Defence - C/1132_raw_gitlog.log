@@ -1,0 +1,112 @@
+--54ba9d53c--2016-01-06--Himal Mandalia
+--388b16659--2016-01-06--Himal Mandalia
+--5ce5e10c7--2016-01-04--Alistair Laing
+1	1	app/views/advocates/admin/providers/edit.html.haml
+1	1	features/step_definitions/advocate_admin_edit_provider_steps.rb
+
+--b0f8a59b0--2016-01-04--Alistair Laing
+4	0	app/assets/stylesheets/form.scss
+32	18	app/views/advocates/admin/providers/show.html.haml
+
+--25c08f2c9--2016-01-04--Alistair Laing
+2	1	app/views/advocates/admin/providers/edit.html.haml
+
+--9af878c70--2016-01-04--Alistair Laing
+2	2	app/views/advocates/admin/providers/edit.html.haml
+
+--ac2e12068--2016-01-04--Alistair Laing
+9	9	app/views/advocates/admin/providers/edit.html.haml
+
+--c2512fafb--2016-01-05--Alistair Laing
+--7b3056056--2016-01-05--Himal Mandalia
+3	7	features/step_definitions/advocate_admin_steps.rb
+
+--9630f2de6--2016-01-05--Himal Mandalia
+8	6	app/views/advocates/admin/advocates/_form.html.haml
+7	6	app/views/advocates/admin/providers/edit.html.haml
+7	6	app/views/advocates/admin/providers/show.html.haml
+27	1	features/advocate_admin_edit_provider.feature
+20	9	features/new_user.feature
+38	0	features/step_definitions/advocate_admin_edit_provider_steps.rb
+4	2	features/step_definitions/new_user_steps.rb
+
+--a9382f102--2016-01-05--Himal Mandalia
+--d24b01ba1--2016-01-05--Himal Mandalia
+--1fa0783a4--2016-01-04--Joel Sugarman
+--0aadb4b3c--2016-01-04--jsugarman
+2	2	app/assets/javascripts/modules/advocates/claims/NewClaim.js
+22	0	db/seeds/full_offences.rb
+1	0	lib/assets/data/full_offences.csv
+
+--6eeaf66d0--2016-01-04--Edward Andress
+1	1	spec/controllers/advocates/claims_controller_spec.rb
+
+--e7c9fdca1--2016-01-04--Alistair Laing
+6	6	lib/demo_data/claim_generator.rb
+67	3	lib/demo_data/demo_seeds/advocates.rb
+
+--be9916dde--2016-01-04--Edward Andress
+--43eb89b78--2016-01-04--Edward Andress
+2	1	app/controllers/advocates/claims_controller.rb
+0	1	db/schema.rb
+3	3	features/advocate_edit_claim.feature
+12	0	features/step_definitions/advocate_edit_claim_steps.rb
+9	0	spec/controllers/advocates/claims_controller_spec.rb
+
+--cd1b02989--2016-01-04--Himal Mandalia
+1	1	app/controllers/advocates/admin/advocates_controller.rb
+1	1	app/controllers/super_admins/advocates_controller.rb
+2	2	app/models/advocate.rb
+1	1	app/models/claims/calculations.rb
+2	2	app/views/advocates/admin/advocates/_form.html.haml
+2	2	app/views/super_admins/advocates/_form.html.haml
+1	1	config/locales/en.yml
+5	0	db/migrate/20160104152536_rename_advocates_apply_vat_to_vat_registered.rb
+2	2	db/schema.rb
+2	2	features/step_definitions/new_user_steps.rb
+4	4	spec/models/advocate_spec.rb
+3	3	spec/models/claim_spec.rb
+5	5	spec/models/claims/financial_summary_spec.rb
+
+--58dc18139--2016-01-04--Edward Andress
+--f5d790d49--2016-01-04--Himal Mandalia
+2	2	app/models/advocate.rb
+
+--a464ee91d--2016-01-04--Himal Mandalia
+14	0	app/models/advocate.rb
+39	0	spec/models/advocate_spec.rb
+
+--44e18e739--2016-01-04--Alistair Laing
+--9c16302b2--2016-01-04--Himal Mandalia
+9	3	app/models/advocate.rb
+53	19	spec/models/advocate_spec.rb
+
+--78e76bfc9--2015-12-31--Himal Mandalia
+--ec0488f3b--2015-12-31--Himal Mandalia
+3	1	app/controllers/advocates/admin/advocates_controller.rb
+
+--fe680f91c--2015-12-31--Alistair Laing
+2	0	app/views/advocates/admin/advocates/_form.html.haml
+
+--4643b4756--2015-12-31--Alistair Laing
+0	6	app/views/advocates/admin/advocates/_form.html.haml
+7	0	app/views/advocates/admin/advocates/edit.html.haml
+7	0	app/views/advocates/admin/advocates/new.html.haml
+3	1	config/locales/en.yml
+
+--6bfb3a987--2015-12-31--Alistair Laing
+2	2	app/views/advocates/admin/advocates/edit.html.haml
+2	2	app/views/advocates/admin/advocates/new.html.haml
+
+--b11306299--2015-12-31--Alistair Laing
+5	5	app/views/advocates/admin/advocates/_form.html.haml
+
+--823efab67--2015-12-30--Alistair Laing
+12	0	features/advocate_admin.feature
+42	0	features/step_definitions/advocate_admin_steps.rb
+13	0	features/step_definitions/shared/advocate_steps.rb
+4	0	features/step_definitions/shared/navigation_in_app_steps.rb
+
+--a9a14f872--2015-12-30--Alistair Laing
+24	10	app/views/advocates/admin/advocates/index.html.haml
+8	0	config/locales/en.yml

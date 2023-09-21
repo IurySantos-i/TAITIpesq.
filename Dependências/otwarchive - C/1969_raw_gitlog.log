@@ -1,0 +1,90 @@
+--b9c33da51--2012-08-25--Elz
+--d0e6ed8d0--2012-08-25--Elz
+--7ec69ab1e--2012-08-25--Elz
+--ef8d1e3a1--2012-08-25--Elz
+--1c685651b--2012-08-25--Sidra
+238	238	doc/app/created.rid
+
+--d7768b46c--2012-08-22--Cristina
+--999d72ba9--2012-08-19--Ariana
+2	2	app/views/bookmarks/_external_work_fields.html.erb
+3	3	app/views/works/_work_form_tags.html.erb
+
+--c00360e4d--2012-08-18--Cristina
+5	4	features/challenge_promptmeme.feature
+
+--4f6a09034--2012-08-18--Cristina
+1	1	features/challenge_promptmeme.feature
+
+--7a66b0a1b--2012-08-18--Cristina
+--8c8e7950b--2012-08-18--Cristina
+5	3	features/step_definitions/archivist_steps.rb
+
+--b3fbf07cc--2012-08-18--Scott D. Sullivan
+1	1	config/config.yml
+0	1	config/initializers/archive_config/archive_config.rb
+
+--351af8955--2012-08-18--Scott D. Sullivan
+1	1	features/collection_create.feature
+1	1	features/step_definitions/autocomplete_steps.rb
+2	2	features/work_create.feature
+1	1	features/work_delete.feature
+
+--d144f7006--2012-08-18--Scott D. Sullivan
+2	2	app/views/works/_standard_form.html.erb
+2	0	lib/collectible.rb
+
+--f0be624c5--2012-08-18--Sidra
+238	238	doc/app/created.rid
+
+--1844374ff--2012-08-15--elz
+0	2	vendor/plugins/squirrel/.gitignore
+0	55	vendor/plugins/squirrel/README
+0	41	vendor/plugins/squirrel/Rakefile
+0	17	vendor/plugins/squirrel/init.rb
+0	36	vendor/plugins/squirrel/lib/extensions.rb
+0	81	vendor/plugins/squirrel/lib/paginator.rb
+0	519	vendor/plugins/squirrel/lib/squirrel.rb
+0	18	vendor/plugins/squirrel/test/database.yml
+0	24	vendor/plugins/squirrel/test/fixtures/addresses.yml
+0	9	vendor/plugins/squirrel/test/fixtures/companies.yml
+0	35	vendor/plugins/squirrel/test/fixtures/posts.yml
+0	30	vendor/plugins/squirrel/test/fixtures/posts_tags.yml
+0	9	vendor/plugins/squirrel/test/fixtures/tags.yml
+0	15	vendor/plugins/squirrel/test/fixtures/users.yml
+0	36	vendor/plugins/squirrel/test/schema.rb
+0	290	vendor/plugins/squirrel/test/squirrel_test.rb
+0	39	vendor/plugins/squirrel/test/test_helper.rb
+
+--8d017abac--2012-08-12--Cristina
+1	1	app/sweepers/kudos_sweeper.rb
+1	1	app/views/comments/_commentable.html.erb
+
+--12aa506b7--2012-07-13--Ariana
+2	2	app/views/bookmarks/_external_work_fields.html.erb
+1	1	app/views/works/_work_form_tags.html.erb
+
+--ffb59bf9f--2012-05-24--Ariana
+1	1	app/views/works/_work_form_tags.html.erb
+
+--038c993b0--2012-05-24--Ariana
+3	0	public/help/additional-tags-help.html
+
+--f6c90eb96--2012-05-24--Ariana
+7	8	app/views/bookmarks/_external_work_fields.html.erb
+1	1	app/views/works/_work_form_tags.html.erb
+3	0	public/help/characters-help.html
+3	0	public/help/relationships-help.html
+4	4	public/help/tagging-help.html
+
+--a4be7c45c--2012-05-24--Ariana
+2	2	public/help/categories-help.html
+
+--5d8a5a13f--2012-05-24--Ariana
+16	0	public/help/categories-help.html
+
+--2d38ed2af--2012-05-24--Ariana
+3	0	public/help/fandom-help.html
+
+--c89009431--2012-05-23--Ariana
+11	11	app/views/works/_work_form_tags.html.erb

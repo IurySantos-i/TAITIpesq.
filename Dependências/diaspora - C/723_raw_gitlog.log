@@ -1,0 +1,1086 @@
+--baeff2245--2016-01-06--Jonne Haß
+--439ea693a--2016-01-06--Dennis Schubert
+--ccd10d287--2016-01-06--Dennis Schubert
+--65a28fcde--2016-01-06--Dennis Schubert
+1	1	config/defaults.yml
+
+--40e780abc--2016-01-06--Dennis Schubert
+--812510b44--2016-01-03--Benjamin Neff
+49	15	spec/integration/federation/federation_helper.rb
+0	164	spec/integration/federation/federation_messages_generation.rb
+68	95	spec/integration/federation/receive_federation_messages_spec.rb
+51	36	spec/integration/federation/shared_receive_relayable.rb
+34	21	spec/integration/federation/shared_receive_retraction.rb
+69	69	spec/integration/federation/shared_receive_stream_items.rb
+
+--b6c7f004e--2015-12-21--cmrd Senya
+1	1	lib/diaspora/relayable.rb
+14	6	spec/integration/federation/federation_helper.rb
+164	0	spec/integration/federation/federation_messages_generation.rb
+145	97	spec/integration/federation/receive_federation_messages_spec.rb
+36	85	spec/integration/federation/shared_receive_relayable.rb
+18	37	spec/integration/federation/shared_receive_retraction.rb
+166	0	spec/integration/federation/shared_receive_stream_items.rb
+
+--2aaf45166--2015-12-23--cmrd Senya
+2	2	Gemfile
+8	8	Gemfile.lock
+
+--56f022f28--2015-12-22--cmrd Senya
+11	2	lib/postzord/receiver/public.rb
+
+--e54f87b7a--2015-12-11--cmrd Senya
+2	0	spec/spec_helper.rb
+
+--764a3fec1--2016-01-05--Jonne Haß
+--d025cc38d--2016-01-05--Jonne Haß
+0	3	config/locales/diaspora/en.yml
+
+--4f34ecafa--2016-01-03--Manuel Vögele
+0	7	app/assets/javascripts/app/pages/profile.js
+8	2	app/models/post.rb
+1	3	app/views/people/show.mobile.haml
+0	1	config/locales/diaspora/en.yml
+0	1	config/locales/javascript/javascript.en.yml
+3	0	features/desktop/blocks_user.feature
+7	0	lib/stream/person.rb
+
+--079d5ab29--2016-01-04--Steffen van Bergerem
+--09e2c1af2--2016-01-04--Steffen van Bergerem
+2	1	Changelog.md
+
+--38439277d--2016-01-04--theworldbright
+0	19	app/controllers/api/LICENSE
+1	0	app/controllers/api/openid_connect/clients_controller.rb
+23	0	app/controllers/api/openid_connect/discovery_controller.rb
+21	0	app/controllers/api/openid_connect/id_tokens_controller.rb
+3	0	app/models/api/openid_connect/authorization.rb
+23	0	app/models/api/openid_connect/id_token.rb
+23	0	app/models/api/openid_connect/o_auth_access_token.rb
+23	0	app/models/api/openid_connect/o_auth_application.rb
+23	0	app/models/api/openid_connect/pairwise_pseudonymous_identifier.rb
+2	0	db/migrate/20150613202109_create_o_auth_applications.rb
+2	0	db/migrate/20150708153928_create_o_auth_access_tokens.rb
+2	0	db/migrate/20150714055110_create_id_tokens.rb
+2	0	db/migrate/20150731123113_create_pairwise_pseudonymous_identifiers.rb
+23	0	lib/api/openid_connect/protected_resource_endpoint.rb
+2	0	lib/api/openid_connect/token_endpoint.rb
+
+--b09ee8791--2016-01-04--theworldbright
+1	1	spec/controllers/api/openid_connect/id_tokens_controller_spec.rb
+
+--58aef5658--2016-01-04--theworldbright
+1	1	app/controllers/api/openid_connect/authorizations_controller.rb
+0	1	app/controllers/api/openid_connect/token_endpoint_controller.rb
+4	3	app/models/api/openid_connect/o_auth_application.rb
+3	3	config/initializers/cors.rb
+2	2	config/locales/diaspora/en.yml
+1	1	features/step_definitions/oidc_common_steps.rb
+1	1	spec/controllers/api/openid_connect/authorizations_controller_spec.rb
+52	45	spec/controllers/api/openid_connect/clients_controller_spec.rb
+
+--ef7ea1a85--2015-11-23--augier
+1	0	app/assets/stylesheets/mobile/mobile.scss
+9	0	app/assets/stylesheets/mobile/openid_connect_error_page.scss
+10	5	app/controllers/api/openid_connect/authorizations_controller.rb
+5	1	app/views/api/openid_connect/error/_error.html.haml
+7	0	app/views/api/openid_connect/error/error.mobile.haml
+3	0	config/locales/diaspora/en.yml
+
+--10314ffc8--2015-11-23--augier
+3	3	app/views/api/openid_connect/authorizations/_grants_list.haml
+1	1	config/initializers/cors.rb
+2	2	config/locales/diaspora/en.yml
+
+--c1e1f9bf6--2015-11-22--theworldbright
+4	4	app/controllers/api/openid_connect/token_endpoint_controller.rb
+
+--4cde41486--2015-11-22--theworldbright
+9	8	app/controllers/api/openid_connect/authorizations_controller.rb
+
+--9f85a90f5--2015-11-22--theworldbright
+1	0	app/models/api/openid_connect/authorization.rb
+
+--a4095692b--2015-11-22--theworldbright
+1	1	app/controllers/api/openid_connect/id_tokens_controller.rb
+
+--1e3421713--2015-11-22--theworldbright
+5	0	app/controllers/api/openid_connect/authorizations_controller.rb
+
+--7e8bd0f41--2015-11-22--theworldbright
+5	0	app/assets/javascripts/api/authorization_page.js
+1	0	app/assets/javascripts/main.js
+1	1	app/views/api/openid_connect/authorizations/_grants_list.haml
+1	1	app/views/api/openid_connect/user_applications/_grants_list.haml
+
+--fd4022a55--2015-11-22--theworldbright
+5	5	app/assets/stylesheets/_application.scss
+2	2	app/assets/stylesheets/openid_connect_error_page.scss
+16	12	app/controllers/api/openid_connect/authorizations_controller.rb
+0	1	features/step_definitions/oidc_common_steps.rb
+
+--773a5a67d--2015-11-22--theworldbright
+3	1	app/models/api/openid_connect/id_token.rb
+7	0	spec/lib/api/openid_connect/token_endpoint_spec.rb
+
+--ed1dc256a--2015-11-22--theworldbright
+28	25	app/controllers/api/openid_connect/authorizations_controller.rb
+2	1	app/views/api/openid_connect/error/_error.html.haml
+1	1	features/desktop/oidc_auth_code_flow.feature
+1	1	features/desktop/oidc_implicit_flow.feature
+5	0	features/step_definitions/oidc_common_steps.rb
+8	15	spec/controllers/api/openid_connect/authorizations_controller_spec.rb
+
+--ebeafb789--2015-11-11--augier
+3	0	app/assets/stylesheets/_application.scss
+7	0	app/assets/stylesheets/openid_connect_error_page.scss
+10	4	app/controllers/api/openid_connect/authorizations_controller.rb
+6	0	app/views/api/openid_connect/error/_error.html.haml
+1	0	app/views/api/openid_connect/error/error.html.haml
+1	0	app/views/api/openid_connect/error/error.mobile.haml
+2	0	config/locales/diaspora/en.yml
+
+--10938404e--2015-11-21--theworldbright
+4	4	spec/controllers/api/openid_connect/clients_controller_spec.rb
+
+--73c1f0bc7--2015-11-08--augier
+2	3	app/assets/stylesheets/_application.scss
+5	4	app/assets/stylesheets/user_applications.scss
+2	4	app/presenters/user_application_presenter.rb
+1	1	spec/spec_helper.rb
+
+--c6bec2f2d--2015-11-06--theworldbright
+2	2	app/controllers/api/openid_connect/authorizations_controller.rb
+1	2	spec/controllers/api/openid_connect/authorizations_controller_spec.rb
+
+--9fc8c63ca--2015-11-06--theworldbright
+8	8	spec/controllers/api/openid_connect/clients_controller_spec.rb
+
+--7865a30fe--2015-11-06--theworldbright
+4	0	app/controllers/api/openid_connect/clients_controller.rb
+
+--3440709ec--2015-11-06--theworldbright
+2	1	app/controllers/api/openid_connect/discovery_controller.rb
+
+--f1b394de0--2015-10-24--theworldbright
+1	1	app/controllers/api/openid_connect/authorizations_controller.rb
+1	2	app/controllers/api/openid_connect/token_endpoint_controller.rb
+1	2	app/models/api/openid_connect/authorization.rb
+2	4	app/models/api/openid_connect/o_auth_application.rb
+5	0	lib/api/openid_connect/{error/invalid_sector_identifier_uri.rb => error.rb}
+0	11	lib/api/openid_connect/error/invalid_redirect_uri.rb
+8	8	spec/controllers/api/openid_connect/clients_controller_spec.rb
+
+--d028b5672--2015-10-24--augier
+12	16	app/controllers/api/openid_connect/authorizations_controller.rb
+2	2	app/controllers/api/openid_connect/clients_controller.rb
+5	7	app/models/api/openid_connect/authorization.rb
+1	1	app/models/api/openid_connect/id_token.rb
+2	2	app/models/api/openid_connect/o_auth_application.rb
+2	1	app/presenters/user_application_presenter.rb
+1	1	app/serializers/user_info_serializer.rb
+1	1	lib/api/openid_connect/authorization_point/endpoint_start_point.rb
+1	1	lib/api/openid_connect/{exception => error}/invalid_redirect_uri.rb
+1	1	lib/api/openid_connect/{exception => error}/invalid_sector_identifier_uri.rb
+2	2	lib/api/openid_connect/subject_identifier_creator.rb
+
+--2f8c391ac--2015-10-23--theworldbright
+13	9	app/controllers/api/openid_connect/authorizations_controller.rb
+3	2	app/controllers/api/openid_connect/user_info_controller.rb
+1	1	features/desktop/oidc_auth_code_flow.feature
+1	1	features/desktop/oidc_implicit_flow.feature
+1	1	features/step_definitions/auth_code_steps.rb
+2	2	features/step_definitions/implicit_flow_steps.rb
+2	2	lib/api/openid_connect/authorization_point/endpoint_confirmation_point.rb
+1	3	lib/api/openid_connect/authorization_point/endpoint_start_point.rb
+7	6	spec/controllers/api/openid_connect/authorizations_controller_spec.rb
+38	37	spec/controllers/api/openid_connect/clients_controller_spec.rb
+
+--8f5094c29--2015-10-23--theworldbright
+10	5	app/controllers/api/openid_connect/authorizations_controller.rb
+
+--0fbcb7125--2015-10-23--theworldbright
+14	7	app/controllers/api/openid_connect/authorizations_controller.rb
+5	2	app/controllers/api/openid_connect/discovery_controller.rb
+7	1	app/controllers/api/openid_connect/user_info_controller.rb
+1	1	app/models/api/openid_connect/authorization.rb
+5	1	app/serializers/user_info_serializer.rb
+8	6	lib/api/openid_connect/authorization_point/endpoint.rb
+8	0	lib/api/openid_connect/authorization_point/endpoint_confirmation_point.rb
+26	0	lib/api/openid_connect/authorization_point/endpoint_start_point.rb
+35	0	spec/controllers/api/openid_connect/authorizations_controller_spec.rb
+3	3	spec/factories.rb
+
+--2a002d90c--2015-10-22--theworldbright
+1	1	db/migrate/20150613202109_create_o_auth_applications.rb
+1	1	db/schema.rb
+
+--82600003b--2015-10-22--theworldbright
+5	3	app/controllers/api/openid_connect/authorizations_controller.rb
+2	0	config/locales/diaspora/en.yml
+10	7	spec/controllers/api/openid_connect/authorizations_controller_spec.rb
+
+--e4edad064--2015-10-22--theworldbright
+2	1	app/controllers/api/openid_connect/authorizations_controller.rb
+
+--adcf2ab7a--2015-10-13--theworldbright
+0	2	app/controllers/api/openid_connect/authorizations_controller.rb
+0	1	spec/controllers/api/openid_connect/authorizations_controller_spec.rb
+
+--d351db198--2015-10-11--augier
+12	1	app/controllers/api/openid_connect/authorizations_controller.rb
+13	0	spec/controllers/api/openid_connect/authorizations_controller_spec.rb
+
+--7b2be0d3c--2015-10-10--augier
+5	0	app/assets/stylesheets/user_applications.scss
+1	1	app/controllers/api/openid_connect/authorizations_controller.rb
+1	1	app/helpers/user_applications_helper.rb
+18	6	app/presenters/user_application_presenter.rb
+14	0	app/views/api/openid_connect/authorizations/_grants_list.haml
+14	0	app/views/api/openid_connect/user_applications/_grants_list.haml
+2	0	config/locales/diaspora/en.yml
+1	1	db/schema.rb
+10	0	spec/controllers/api/openid_connect/authorizations_controller_spec.rb
+
+--6fcb9a9d3--2015-10-10--augier
+1	1	app/presenters/user_application_presenter.rb
+0	4	features/desktop/user_applications.feature
+0	6	features/step_definitions/user_applications_steps.rb
+0	1	spec/controllers/api/openid_connect/authorizations_controller_spec.rb
+17	0	spec/controllers/api/openid_connect/user_applications_spec.rb
+5	0	spec/factories.rb
+
+--9c9880d88--2015-10-04--theworldbright
+0	1	.gitignore
+9	6	app/controllers/api/openid_connect/authorizations_controller.rb
+2	4	app/controllers/api/openid_connect/token_endpoint_controller.rb
+3	15	app/models/api/openid_connect/o_auth_application.rb
+1	2	db/migrate/20150613202109_create_o_auth_applications.rb
+5	5	db/schema.rb
+1	0	spec/fixtures/client_assertion_with_nonexistent_client_id.txt
+1	0	spec/fixtures/client_assertion_with_nonexistent_kid.txt
+1	0	spec/fixtures/client_assertion_with_tampered_sig.txt
+1	0	spec/fixtures/valid_client_assertion.txt
+5	5	spec/lib/api/openid_connect/token_endpoint_spec.rb
+20	1	spec/spec_helper.rb
+
+--2c7d10201--2015-10-09--augier
+12	0	app/assets/stylesheets/mobile/settings.scss
+1	5	app/controllers/api/openid_connect/authorizations_controller.rb
+9	0	app/helpers/user_applications_helper.rb
+36	0	app/presenters/user_application_presenter.rb
+4	24	app/presenters/user_applications_presenter.rb
+9	8	app/views/api/openid_connect/authorizations/_grants_list.haml
+2	2	app/views/api/openid_connect/authorizations/new.html.haml
+1	1	app/views/api/openid_connect/user_applications/_add_remove_applications.haml
+8	8	app/views/api/openid_connect/user_applications/_grants_list.haml
+9	13	app/views/api/openid_connect/user_applications/index.html.haml
+9	13	app/views/api/openid_connect/user_applications/index.mobile.haml
+0	1	config/locales/diaspora/en.yml
+4	0	features/desktop/user_applications.feature
+6	0	features/step_definitions/user_applications_steps.rb
+1	0	spec/controllers/api/openid_connect/authorizations_controller_spec.rb
+
+--80cbc7d91--2015-10-04--theworldbright
+6	0	app/controllers/api/openid_connect/authorizations_controller.rb
+
+--da766d8e8--2015-10-03--theworldbright
+8	3	app/models/api/openid_connect/authorization.rb
+1	0	db/migrate/20150708153926_create_authorizations.rb
+3	2	db/schema.rb
+0	2	spec/lib/api/openid_connect/token_endpoint_spec.rb
+
+--b3b9b3969--2015-10-03--theworldbright
+1	1	app/controllers/api/openid_connect/authorizations_controller.rb
+
+--fd467cd42--2015-10-03--theworldbright
+1	0	.gitignore
+1	1	app/controllers/api/openid_connect/clients_controller.rb
+1	1	app/controllers/api/openid_connect/discovery_controller.rb
+64	0	app/controllers/api/openid_connect/token_endpoint_controller.rb
+22	1	app/models/api/openid_connect/o_auth_application.rb
+1	1	config/routes.rb
+4	0	db/migrate/20150613202109_create_o_auth_applications.rb
+20	17	db/schema.rb
+81	0	spec/controllers/api/openid_connect/clients_controller_spec.rb
+7	0	spec/factories.rb
+1	0	spec/fixtures/jwks.json
+100	0	spec/lib/api/openid_connect/token_endpoint_spec.rb
+4	0	spec/spec_helper.rb
+
+--1dcefdb99--2015-09-25--theworldbright
+12	11	app/controllers/api/openid_connect/clients_controller.rb
+24	1	app/models/api/openid_connect/o_auth_application.rb
+11	0	lib/api/openid_connect/exception/invalid_redirect_uri.rb
+11	0	lib/api/openid_connect/exception/invalid_sector_identifier_uri.rb
+4	0	spec/controllers/api/openid_connect/clients_controller_spec.rb
+
+--5f19d8ffe--2015-09-24--theworldbright
+2	1	app/models/api/openid_connect/id_token.rb
+
+--a76f51a6a--2015-09-24--theworldbright
+1	1	app/controllers/api/openid_connect/user_info_controller.rb
+3	8	app/models/api/openid_connect/id_token.rb
+1	1	app/models/api/openid_connect/pairwise_pseudonymous_identifier.rb
+1	8	app/serializers/user_info_serializer.rb
+1	1	db/migrate/20150731123113_create_pairwise_pseudonymous_identifiers.rb
+1	1	db/schema.rb
+17	0	lib/api/openid_connect/subject_identifier_creator.rb
+1	1	spec/integration/api/user_info_controller_spec.rb
+1	1	spec/lib/api/openid_connect/token_endpoint_spec.rb
+
+--4e18f3849--2015-09-13--theworldbright
+1	1	db/migrate/{20150801074555_create_pairwise_pseudonymous_identifiers.rb => 20150731123113_create_pairwise_pseudonymous_identifiers.rb}
+1	0	db/schema.rb
+
+--21175e7ee--2015-09-25--theworldbright
+1	1	config/initializers/cors.rb
+1	1	config/routes.rb
+1	1	db/schema.rb
+
+--4be9f4d55--2015-08-29--theworldbright
+1	1	app/models/api/openid_connect/o_auth_application.rb
+0	11	spec/controllers/api/openid_connect/clients_controller_spec.rb
+
+--9439a16d9--2015-08-28--theworldbright
+1	2	app/models/api/openid_connect/o_auth_application.rb
+2	2	app/views/api/openid_connect/authorizations/_grants_list.haml
+1	1	app/views/api/openid_connect/user_applications/_add_remove_applications.haml
+2	2	app/views/api/openid_connect/user_applications/_grants_list.haml
+6	6	app/views/shared/_settings_nav.mobile.haml
+3	3	features/step_definitions/auth_code_steps.rb
+
+--8c2af7444--2015-08-28--augier
+1	0	app/assets/stylesheets/user_applications.scss
+1	1	app/controllers/api/openid_connect/discovery_controller.rb
+4	7	app/models/api/openid_connect/authorization.rb
+0	11	app/models/api/openid_connect/authorization_scope.rb
+4	0	app/models/api/openid_connect/o_auth_application.rb
+0	9	app/models/api/openid_connect/scope.rb
+8	8	app/views/api/openid_connect/authorizations/new.html.haml
+1	1	config/locales/diaspora/en.yml
+11	10	features/step_definitions/auth_code_steps.rb
+2	2	features/support/paths.rb
+4	4	lib/api/openid_connect/authorization_point/endpoint.rb
+
+--c33cce095--2015-08-16--augier
+2	31	app/assets/stylesheets/mobile/settings.scss
+23	27	app/assets/stylesheets/user_applications.scss
+8	1	app/controllers/api/openid_connect/authorizations_controller.rb
+11	0	app/controllers/api/openid_connect/user_applications_controller.rb
+0	9	app/controllers/user_applications_controller.rb
+7	2	app/models/api/openid_connect/authorization.rb
+0	7	app/views/api/openid_connect/authorizations/_form.haml
+16	0	app/views/api/openid_connect/authorizations/_grants_list.haml
+12	11	app/views/api/openid_connect/authorizations/new.html.haml
+14	0	app/views/api/openid_connect/user_applications/_add_remove_applications.haml
+16	0	app/views/api/openid_connect/user_applications/_grants_list.haml
+0	0	app/views/{ => api/openid_connect}/user_applications/index.html.haml
+13	0	app/views/api/openid_connect/user_applications/index.mobile.haml
+2	1	app/views/shared/_settings_nav.haml
+1	1	app/views/shared/_settings_nav.mobile.haml
+0	28	app/views/user_applications/_add_remove_applications.haml
+0	13	app/views/user_applications/index.mobile.haml
+25	25	config/locales/diaspora/en.yml
+1	3	config/routes.rb
+1	1	features/support/paths.rb
+6	3	lib/api/openid_connect/authorization_point/endpoint.rb
+1	1	spec/controllers/api/openid_connect/authorizations_controller_spec.rb
+
+--1a7f2edc0--2015-08-12--theworldbright
+1	1	.gitignore
+6	8	app/controllers/api/openid_connect/authorizations_controller.rb
+9	0	app/controllers/api/openid_connect/clients_controller.rb
+0	13	app/controllers/api/v0/users_controller.rb
+1	1	app/models/api/openid_connect/authorization.rb
+4	6	app/models/api/openid_connect/id_token.rb
+0	6	app/presenters/api/v0/base_presenter.rb
+8	9	app/presenters/user_applications_presenter.rb
+1	3	app/views/api/openid_connect/authorizations/new.html.haml
+1	1	app/views/user_applications/_add_remove_applications.haml
+7	7	config/locales/diaspora/en.yml
+2	0	config/routes.rb
+2	1	db/migrate/20150613202109_create_o_auth_applications.rb
+2	0	db/migrate/20150708153926_create_authorizations.rb
+2	1	db/migrate/{20150614134031_create_o_auth_access_tokens.rb => 20150708153928_create_o_auth_access_tokens.rb}
+1	0	db/migrate/20150714055110_create_id_tokens.rb
+2	0	db/migrate/20150801074555_create_pairwise_pseudonymous_identifiers.rb
+9	0	db/schema.rb
+1	1	features/desktop/oidc_implicit_flow.feature
+0	1	features/desktop/user_applications.feature
+0	1	features/mobile/user_applications.feature
+24	25	features/step_definitions/implicit_flow_steps.rb
+3	3	lib/api/openid_connect/authorization_point/endpoint.rb
+1	3	lib/api/openid_connect/authorization_point/endpoint_confirmation_point.rb
+0	2	lib/api/openid_connect/authorization_point/endpoint_start_point.rb
+2	4	lib/api/openid_connect/id_token_config.rb
+3	1	spec/controllers/api/openid_connect/authorizations_controller_spec.rb
+22	0	spec/controllers/api/openid_connect/clients_controller_spec.rb
+5	4	spec/controllers/api/openid_connect/discovery_controller_spec.rb
+0	4	spec/controllers/api/v0/base_controller_spec.rb
+7	7	spec/factories.rb
+1	0	spec/lib/api/openid_connect/protected_resource_endpoint_spec.rb
+17	0	spec/lib/api/openid_connect/token_endpoint_spec.rb
+0	4	spec/presenters/api/v0/base_presenter_spec.rb
+
+--e55a0b0d0--2015-08-12--theworldbright
+1	1	app/controllers/api/openid_connect/authorizations_controller.rb
+2	2	app/controllers/api/openid_connect/discovery_controller.rb
+1	1	app/controllers/api/openid_connect/user_info_controller.rb
+21	11	app/models/api/openid_connect/authorization.rb
+2	2	app/presenters/user_applications_presenter.rb
+1	1	app/views/api/openid_connect/authorizations/new.html.haml
+1	0	db/migrate/20150708153926_create_authorizations.rb
+0	9	db/migrate/20150708154727_create_scope.rb
+0	8	db/migrate/20150708155202_create_authorization_scopes_join_table.rb
+1	14	db/schema.rb
+0	3	db/seeds.rb
+0	1	features/desktop/oidc_auth_code_flow.feature
+0	1	features/desktop/oidc_implicit_flow.feature
+0	5	features/step_definitions/oidc_common_steps.rb
+4	3	lib/api/openid_connect/authorization_point/endpoint.rb
+12	5	lib/api/openid_connect/authorization_point/endpoint_confirmation_point.rb
+1	1	lib/api/openid_connect/protected_resource_endpoint.rb
+1	11	lib/api/openid_connect/token_endpoint.rb
+1	1	spec/controllers/api/openid_connect/authorizations_controller_spec.rb
+3	16	spec/factories.rb
+4	6	spec/lib/api/openid_connect/token_endpoint_spec.rb
+0	1	spec/spec_helper.rb
+
+--28fc65ae2--2015-08-09--theworldbright
+2	0	app/controllers/api/v0/base_controller.rb
+7	3	config/initializers/cors.rb
+
+--858e8c250--2015-08-07--theworldbright
+1	1	app/models/api/openid_connect/o_auth_application.rb
+1	1	lib/api/openid_connect/authorization_point/endpoint_confirmation_point.rb
+
+--054e42182--2015-08-07--theworldbright
+1	1	app/controllers/api/openid_connect/discovery_controller.rb
+1	5	app/serializers/user_info_serializer.rb
+0	1	features/step_definitions/oidc_common_steps.rb
+
+--724f32604--2015-08-07--theworldbright
+1	1	app/models/api/openid_connect/authorization.rb
+1	0	db/migrate/20150708153926_create_authorizations.rb
+1	0	db/schema.rb
+4	3	lib/api/openid_connect/authorization_point/endpoint_confirmation_point.rb
+
+--bb8fe6aa8--2015-08-07--theworldbright
+1	0	.gitignore
+1	1	app/controllers/api/openid_connect/id_tokens_controller.rb
+1	1	app/models/api/openid_connect/id_token.rb
+1	1	features/step_definitions/auth_code_steps.rb
+11	6	lib/api/openid_connect/id_token_config.rb
+5	5	spec/controllers/api/openid_connect/authorizations_controller_spec.rb
+1	1	spec/controllers/api/openid_connect/id_tokens_controller_spec.rb
+2	2	spec/lib/api/openid_connect/token_endpoint_spec.rb
+
+--24fd70676--2015-08-07--theworldbright
+1	1	app/controllers/api/openid_connect/discovery_controller.rb
+2	2	config/routes.rb
+1	1	spec/controllers/api/openid_connect/discovery_controller_spec.rb
+
+--ab6561795--2015-08-07--theworldbright
+18	6	app/controllers/api/openid_connect/authorizations_controller.rb
+13	3	features/desktop/oidc_implicit_flow.feature
+22	2	features/step_definitions/implicit_flow_steps.rb
+0	0	features/step_definitions/password_flow_steps.rb
+1	1	spec/controllers/api/openid_connect/authorizations_controller_spec.rb
+
+--25f51c606--2015-08-06--theworldbright
+69	5	app/controllers/api/openid_connect/authorizations_controller.rb
+1	1	app/presenters/user_applications_presenter.rb
+1	0	features/step_definitions/implicit_flow_steps.rb
+68	0	spec/controllers/api/openid_connect/authorizations_controller_spec.rb
+
+--8be3be3e1--2015-08-06--theworldbright
+5	5	app/controllers/api/openid_connect/authorizations_controller.rb
+19	0	spec/controllers/api/openid_connect/authorizations_controller_spec.rb
+
+--4dae744a4--2015-08-04--theworldbright
+9	9	config/locales/diaspora/en.yml
+
+--07c12ba05--2015-08-02--augier
+7	9	app/assets/stylesheets/mobile/settings.scss
+7	9	app/assets/stylesheets/user_applications.scss
+1	1	app/controllers/api/openid_connect/authorizations_controller.rb
+4	0	app/models/api/openid_connect/o_auth_application.rb
+1	1	app/presenters/user_applications_presenter.rb
+2	2	app/views/user_applications/_add_remove_applications.haml
+24	0	features/desktop/user_applications.feature
+25	0	features/mobile/user_applications.feature
+11	0	features/step_definitions/oidc_common_steps.rb
+16	0	features/step_definitions/user_applications_steps.rb
+2	0	features/support/paths.rb
+6	0	spec/factories.rb
+
+--3fb2d262b--2015-08-02--augier
+17	11	app/assets/stylesheets/mobile/settings.scss
+17	2	app/assets/stylesheets/user_applications.scss
+0	4	app/models/api/openid_connect/o_auth_application.rb
+1	1	app/presenters/user_applications_presenter.rb
+4	1	app/views/user_applications/_add_remove_applications.haml
+1	2	app/views/user_applications/index.mobile.haml
+
+--098e8e46d--2015-08-02--augier
+4	0	app/assets/stylesheets/_application.scss
+17	1	app/assets/stylesheets/mobile/settings.scss
+19	0	app/assets/stylesheets/user_applications.scss
+16	19	app/views/user_applications/_add_remove_applications.haml
+
+--469521c57--2015-08-02--augier
+1	1	app/controllers/user_applications_controller.rb
+6	5	app/presenters/user_applications_presenter.rb
+6	4	app/views/user_applications/_add_remove_applications.haml
+0	0	app/views/user_applications/{show.html.haml => index.html.haml}
+0	0	app/views/user_applications/{show.mobile.haml => index.mobile.haml}
+16	2	config/locales/diaspora/en.yml
+1	1	config/routes.rb
+
+--3734e074a--2015-08-02--theworldbright
+5	1	app/controllers/api/openid_connect/authorizations_controller.rb
+1	1	app/models/api/openid_connect/authorization.rb
+1	1	app/models/api/openid_connect/o_auth_application.rb
+5	1	app/presenters/api/v0/base_presenter.rb
+2	1	config/application.rb
+1	1	features/step_definitions/implicit_flow_steps.rb
+2	2	lib/api/openid_connect/token_endpoint.rb
+
+--98fd18077--2015-08-02--theworldbright
+0	1	app/models/api/openid_connect/authorization.rb
+0	2	lib/api/openid_connect/authorization_point/endpoint.rb
+19	3	spec/lib/api/openid_connect/protected_resource_endpoint_spec.rb
+
+--6e1a67345--2015-08-02--theworldbright
+2	10	spec/controllers/api/openid_connect/authorizations_controller_spec.rb
+48	0	spec/factories.rb
+6	18	spec/integration/api/user_info_controller_spec.rb
+1	11	spec/lib/api/openid_connect/protected_resource_endpoint_spec.rb
+1	5	spec/lib/api/openid_connect/token_endpoint_spec.rb
+
+--b9da104b2--2015-08-01--augier
+4	0	app/assets/stylesheets/mobile/settings.scss
+10	0	app/controllers/api/openid_connect/authorizations_controller.rb
+6	0	app/presenters/user_applications_presenter.rb
+1	0	app/views/shared/_settings_nav.mobile.haml
+7	2	app/views/user_applications/_add_remove_applications.haml
+1	1	app/views/user_applications/show.html.haml
+14	0	app/views/user_applications/show.mobile.haml
+2	1	config/locales/diaspora/en.yml
+1	1	config/routes.rb
+
+--dd337d416--2015-08-02--theworldbright
+1	1	app/controllers/api/openid_connect/clients_controller.rb
+2	2	features/step_definitions/auth_code_steps.rb
+1	1	features/step_definitions/implicit_flow_steps.rb
+2	2	spec/controllers/api/openid_connect/clients_controller_spec.rb
+
+--308170f69--2015-08-01--augier
+9	0	app/controllers/user_applications_controller.rb
+4	0	app/models/api/openid_connect/o_auth_application.rb
+34	0	app/presenters/user_applications_presenter.rb
+1	0	app/views/shared/_settings_nav.haml
+21	0	app/views/user_applications/_add_remove_applications.haml
+17	0	app/views/user_applications/show.html.haml
+9	0	config/locales/diaspora/en.yml
+2	0	config/routes.rb
+
+--65c40f236--2015-08-01--theworldbright
+0	2	app/models/api/openid_connect/scope.rb
+3	0	db/seeds.rb
+1	1	lib/api/openid_connect/token_endpoint.rb
+0	1	spec/controllers/api/openid_connect/authorizations_controller_spec.rb
+2	2	spec/lib/api/openid_connect/protected_resource_endpoint_spec.rb
+5	8	spec/lib/api/openid_connect/token_endpoint_spec.rb
+1	0	spec/spec_helper.rb
+
+--99d6d7b3e--2015-08-01--theworldbright
+1	1	app/controllers/api/openid_connect/discovery_controller.rb
+1	1	app/controllers/api/openid_connect/user_info_controller.rb
+14	4	app/models/api/openid_connect/id_token.rb
+12	14	app/models/api/openid_connect/o_auth_application.rb
+22	0	app/models/api/openid_connect/pairwise_pseudonymous_identifier.rb
+1	0	app/models/user.rb
+9	1	app/serializers/user_info_serializer.rb
+4	1	db/migrate/20150613202109_create_o_auth_applications.rb
+1	1	db/migrate/20150708154727_create_scope.rb
+11	0	db/migrate/20150801074555_create_pairwise_pseudonymous_identifiers.rb
+28	16	db/schema.rb
+4	0	features/step_definitions/auth_code_steps.rb
+1	1	lib/account_deleter.rb
+9	6	spec/controllers/api/openid_connect/clients_controller_spec.rb
+8	1	spec/controllers/api/openid_connect/discovery_controller_spec.rb
+7	2	spec/integration/api/{users_controller_spec.rb => user_info_controller_spec.rb}
+4	1	spec/lib/api/openid_connect/token_endpoint_spec.rb
+
+--d834a1d4d--2015-07-31--theworldbright
+2	2	app/controllers/api/openid_connect/discovery_controller.rb
+19	0	app/controllers/api/openid_connect/user_info_controller.rb
+23	0	app/serializers/user_info_serializer.rb
+0	3	app/serializers/user_serializer.rb
+2	0	config/routes.rb
+1	1	features/step_definitions/auth_code_steps.rb
+1	1	features/step_definitions/implicit_flow_steps.rb
+5	5	features/step_definitions/oidc_common_steps.rb
+4	2	spec/controllers/api/openid_connect/authorizations_controller_spec.rb
+5	4	spec/integration/api/users_controller_spec.rb
+6	5	spec/lib/api/openid_connect/protected_resource_endpoint_spec.rb
+
+--2be932cef--2015-07-31--theworldbright
+0	21	features/desktop/oauth_password_flow.feature
+30	0	features/step_definitions/oidc_common_steps.rb
+0	48	features/step_definitions/password_flow_steps.rb
+0	16	lib/api/openid_connect/token_endpoint.rb
+0	73	spec/lib/api/openid_connect/token_endpoint_spec.rb
+
+--e5932968f--2015-07-31--theworldbright
+14	1	app/models/api/openid_connect/authorization.rb
+1	1	app/models/api/openid_connect/o_auth_application.rb
+2	0	db/migrate/20150708153926_create_authorizations.rb
+2	0	db/schema.rb
+27	0	features/desktop/oidc_auth_code_flow.feature
+32	0	features/step_definitions/auth_code_steps.rb
+11	3	lib/api/openid_connect/authorization_point/endpoint_confirmation_point.rb
+8	0	lib/api/openid_connect/token_endpoint.rb
+38	2	spec/controllers/api/openid_connect/authorizations_controller_spec.rb
+67	3	spec/lib/api/openid_connect/token_endpoint_spec.rb
+
+--bc5e5c742--2015-08-13--theworldbright
+106	0	app/controllers/api/openid_connect/authorizations_controller.rb
+37	0	app/controllers/api/openid_connect/clients_controller.rb
+34	0	app/controllers/api/openid_connect/discovery_controller.rb
+15	0	app/controllers/api/openid_connect/id_tokens_controller.rb
+8	4	app/controllers/api/v0/base_controller.rb
+10	6	app/controllers/api/v0/users_controller.rb
+0	91	app/controllers/openid_connect/authorizations_controller.rb
+0	33	app/controllers/openid_connect/clients_controller.rb
+0	30	app/controllers/openid_connect/discovery_controller.rb
+0	5	app/controllers/openid_connect/id_tokens_controller.rb
+50	0	app/models/api/openid_connect/authorization.rb
+11	0	app/models/api/openid_connect/authorization_scope.rb
+42	0	app/models/api/openid_connect/id_token.rb
+26	0	app/models/api/openid_connect/o_auth_access_token.rb
+60	0	app/models/api/openid_connect/o_auth_application.rb
+11	0	app/models/api/openid_connect/scope.rb
+0	46	app/models/openid_connect/authorization.rb
+0	7	app/models/openid_connect/authorization_scope.rb
+0	38	app/models/openid_connect/id_token.rb
+0	22	app/models/openid_connect/o_auth_access_token.rb
+0	58	app/models/openid_connect/o_auth_application.rb
+0	7	app/models/openid_connect/scope.rb
+2	2	app/models/user.rb
+1	1	app/views/{ => api}/openid_connect/authorizations/_form.haml
+2	2	app/views/{ => api}/openid_connect/authorizations/new.html.haml
+1	1	config/application.rb
+10	9	config/locales/diaspora/en.yml
+16	15	config/routes.rb
+3	2	features/step_definitions/implicit_flow_steps.rb
+5	5	features/step_definitions/password_flow_steps.rb
+58	0	lib/api/openid_connect/authorization_point/endpoint.rb
+50	0	lib/api/openid_connect/authorization_point/endpoint_confirmation_point.rb
+13	0	lib/api/openid_connect/authorization_point/endpoint_start_point.rb
+13	0	lib/api/openid_connect/id_token_config.rb
+15	0	lib/api/openid_connect/protected_resource_endpoint.rb
+73	0	lib/api/openid_connect/token_endpoint.rb
+0	58	lib/openid_connect/authorization_point/endpoint.rb
+0	38	lib/openid_connect/authorization_point/endpoint_confirmation_point.rb
+0	11	lib/openid_connect/authorization_point/endpoint_start_point.rb
+0	11	lib/openid_connect/id_token_config.rb
+0	15	lib/openid_connect/protected_resource_endpoint.rb
+0	67	lib/openid_connect/token_endpoint.rb
+12	12	spec/controllers/{ => api}/openid_connect/authorizations_controller_spec.rb
+1	1	spec/controllers/{ => api}/openid_connect/clients_controller_spec.rb
+2	2	spec/controllers/{ => api}/openid_connect/discovery_controller_spec.rb
+2	2	spec/controllers/{ => api}/openid_connect/id_tokens_controller_spec.rb
+27	0	spec/integration/api/users_controller_spec.rb
+8	6	spec/lib/{ => api}/openid_connect/protected_resource_endpoint_spec.rb
+22	20	spec/lib/{ => api}/openid_connect/token_endpoint_spec.rb
+
+--cd2f1215e--2015-08-12--theworldbright
+1	1	app/controllers/api/v0/users_controller.rb
+8	21	spec/lib/openid_connect/protected_resource_endpoint_spec.rb
+
+--3cbe75469--2015-07-27--theworldbright
+3	2	app/controllers/api/v0/base_controller.rb
+4	6	app/controllers/api/v0/users_controller.rb
+2	2	app/controllers/openid_connect/authorizations_controller.rb
+7	0	app/models/openid_connect/authorization.rb
+0	5	app/models/openid_connect/o_auth_access_token.rb
+1	1	app/models/openid_connect/o_auth_application.rb
+1	2	app/models/openid_connect/scope.rb
+0	7	app/models/openid_connect/scopes_tokens.rb
+8	0	db/migrate/20150708155202_create_authorization_scopes_join_table.rb
+0	8	db/migrate/20150708155202_create_authorizations_scopes_join_table.rb
+0	8	db/migrate/20150708155747_create_scopes_tokens_join_table.rb
+8	16	db/schema.rb
+1	0	features/desktop/oauth_password_flow.feature
+1	1	features/desktop/oidc_implicit_flow.feature
+5	12	features/step_definitions/implicit_flow_steps.rb
+14	12	features/step_definitions/password_flow_steps.rb
+2	2	lib/openid_connect/authorization_point/endpoint.rb
+1	0	lib/openid_connect/authorization_point/endpoint_confirmation_point.rb
+3	9	lib/openid_connect/protected_resource_endpoint.rb
+8	0	lib/openid_connect/token_endpoint.rb
+64	50	spec/lib/openid_connect/protected_resource_endpoint_spec.rb
+29	25	spec/lib/openid_connect/token_endpoint_spec.rb
+
+--de4f68c28--2015-07-25--augier
+5	2	app/controllers/openid_connect/authorizations_controller.rb
+1	1	app/controllers/openid_connect/clients_controller.rb
+28	1	app/models/openid_connect/o_auth_application.rb
+1	1	app/views/openid_connect/authorizations/new.html.haml
+9	1	db/migrate/20150613202109_create_o_auth_applications.rb
+15	7	db/schema.rb
+1	1	features/step_definitions/password_flow_steps.rb
+3	2	spec/controllers/openid_connect/authorizations_controller_spec.rb
+16	2	spec/controllers/openid_connect/clients_controller_spec.rb
+2	1	spec/lib/openid_connect/protected_resource_endpoint_spec.rb
+4	1	spec/lib/openid_connect/token_endpoint_spec.rb
+
+--979adca1e--2015-07-25--theworldbright
+2	2	app/controllers/openid_connect/discovery_controller.rb
+0	1	app/models/user.rb
+1	1	db/schema.rb
+1	1	lib/account_deleter.rb
+
+--b17328369--2015-07-20--augier
+8	1	app/models/openid_connect/authorization.rb
+10	6	app/models/openid_connect/id_token.rb
+1	1	lib/openid_connect/token_endpoint.rb
+1	1	spec/lib/openid_connect/protected_resource_endpoint_spec.rb
+69	7	spec/lib/openid_connect/token_endpoint_spec.rb
+
+--cc2819955--2015-07-16--augier
+8	4	app/controllers/openid_connect/authorizations_controller.rb
+19	19	app/controllers/openid_connect/discovery_controller.rb
+9	9	app/models/openid_connect/id_token.rb
+1	1	app/models/openid_connect/o_auth_access_token.rb
+5	5	app/models/user.rb
+10	4	features/step_definitions/implicit_flow_steps.rb
+1	1	lib/openid_connect/authorization_point/endpoint.rb
+1	1	lib/openid_connect/authorization_point/endpoint_start_point.rb
+11	7	spec/controllers/openid_connect/authorizations_controller_spec.rb
+1	1	spec/controllers/openid_connect/id_tokens_controller_spec.rb
+
+--7b80a7408--2015-07-16--theworldbright
+1	0	app/models/openid_connect/authorization.rb
+0	4	app/models/user.rb
+0	4	db/migrate/20150613202109_create_o_auth_applications.rb
+1	1	db/migrate/20150614134031_create_o_auth_access_tokens.rb
+3	3	features/desktop/oauth_password_flow.feature
+26	0	features/desktop/oidc_implicit_flow.feature
+41	0	features/step_definitions/implicit_flow_steps.rb
+3	3	features/step_definitions/{openid_steps.rb => password_flow_steps.rb}
+5	5	lib/openid_connect/token_endpoint.rb
+0	17	public/docs/v0/index.html
+0	5	public/docs/v0/style.css
+2	0	spec/controllers/openid_connect/authorizations_controller_spec.rb
+
+--ee9ac06e1--2015-07-16--theworldbright
+1	1	app/controllers/openid_connect/authorizations_controller.rb
+8	13	app/models/openid_connect/authorization.rb
+1	1	app/models/openid_connect/o_auth_access_token.rb
+1	1	app/models/openid_connect/o_auth_application.rb
+8	5	lib/openid_connect/authorization_point/endpoint_confirmation_point.rb
+54	22	spec/controllers/openid_connect/authorizations_controller_spec.rb
+
+--2d762da07--2015-07-15--theworldbright
+0	3	app/controllers/api/v0/base_controller.rb
+1	1	app/controllers/api/v0/users_controller.rb
+31	26	app/controllers/openid_connect/authorizations_controller.rb
+12	14	app/models/openid_connect/authorization.rb
+5	9	app/models/{ => openid_connect}/id_token.rb
+2	2	app/models/openid_connect/o_auth_access_token.rb
+0	1	app/models/user.rb
+1	2	db/migrate/20150714055110_create_id_tokens.rb
+5	7	db/schema.rb
+19	1	lib/openid_connect/{endpoints => authorization_point}/endpoint.rb
+3	7	lib/openid_connect/{endpoints => authorization_point}/endpoint_confirmation_point.rb
+11	0	lib/openid_connect/authorization_point/endpoint_start_point.rb
+0	30	lib/openid_connect/endpoints/endpoint_start_point.rb
+0	1	lib/openid_connect/token_endpoint.rb
+74	50	spec/controllers/openid_connect/authorizations_controller_spec.rb
+25	3	spec/lib/openid_connect/protected_resource_endpoint_spec.rb
+
+--17fde49d6--2015-07-15--theworldbright
+29	15	app/controllers/openid_connect/authorizations_controller.rb
+2	2	app/controllers/openid_connect/discovery_controller.rb
+5	0	app/controllers/openid_connect/id_tokens_controller.rb
+38	0	app/models/id_token.rb
+1	0	app/models/user.rb
+1	1	app/views/openid_connect/authorizations/new.html.haml
+1	0	config/routes.rb
+12	0	db/migrate/20150714055110_create_id_tokens.rb
+13	1	db/schema.rb
+1	1	lib/account_deleter.rb
+6	7	lib/openid_connect/endpoints/endpoint.rb
+4	1	lib/openid_connect/endpoints/endpoint_confirmation_point.rb
+0	4	lib/openid_connect/endpoints/endpoint_start_point.rb
+11	0	lib/openid_connect/id_token_config.rb
+1	9	lib/openid_connect/protected_resource_endpoint.rb
+5	1	spec/controllers/openid_connect/authorizations_controller_spec.rb
+19	0	spec/controllers/openid_connect/id_tokens_controller_spec.rb
+0	4	spec/requests/api/v2/base_controller_spec.rb
+
+--1475672d7--2015-07-15--theworldbright
+4	0	app/controllers/api/v0/base_controller.rb
+1	1	app/controllers/api/v0/users_controller.rb
+15	20	app/models/openid_connect/authorization.rb
+5	5	app/models/openid_connect/authorization_scope.rb
+2	2	app/models/openid_connect/o_auth_access_token.rb
+0	2	app/models/openid_connect/o_auth_application.rb
+1	1	app/models/openid_connect/scope.rb
+1	1	app/models/openid_connect/scopes_tokens.rb
+3	3	app/models/user.rb
+1	3	db/migrate/20150614134031_create_o_auth_access_tokens.rb
+1	1	db/migrate/20150708155202_create_authorizations_scopes_join_table.rb
+1	2	db/schema.rb
+4	4	lib/openid_connect/token_endpoint.rb
+5	5	spec/lib/openid_connect/protected_resource_endpoint_spec.rb
+
+--031679762--2015-09-13--augier
+3	3	app/controllers/openid_connect/authorizations_controller.rb
+1	1	app/controllers/openid_connect/clients_controller.rb
+27	29	app/controllers/openid_connect/discovery_controller.rb
+0	7	app/models/authorization.rb
+43	0	app/models/openid_connect/authorization.rb
+0	0	app/models/{ => openid_connect}/authorization_scope.rb
+2	3	app/models/{token.rb => openid_connect/o_auth_access_token.rb}
+3	1	app/models/{ => openid_connect}/o_auth_application.rb
+1	1	app/models/{ => openid_connect}/scope.rb
+1	1	app/models/{ => openid_connect}/scopes_tokens.rb
+0	26	app/models/refresh_token.rb
+12	10	app/models/user.rb
+1	1	config/application.rb
+13	0	db/migrate/20150614134031_create_o_auth_access_tokens.rb
+0	15	db/migrate/20150614134031_create_tokens.rb
+1	0	db/migrate/20150708153926_create_authorizations.rb
+1	1	db/migrate/20150708155202_create_authorizations_scopes_join_table.rb
+1	1	db/migrate/20150708155747_create_scopes_tokens_join_table.rb
+0	14	db/migrate/20150713132035_create_refresh_token.rb
+45	11	db/schema.rb
+4	3	lib/account_deleter.rb
+4	3	lib/openid_connect/{authorization => endpoints}/endpoint.rb
+1	1	lib/openid_connect/{authorization => endpoints}/endpoint_confirmation_point.rb
+2	2	lib/openid_connect/{authorization => endpoints}/endpoint_start_point.rb
+6	8	lib/openid_connect/token_endpoint.rb
+3	3	spec/controllers/openid_connect/authorizations_controller_spec.rb
+5	1	spec/lib/openid_connect/protected_resource_endpoint_spec.rb
+1	1	spec/lib/openid_connect/token_endpoint_spec.rb
+
+--9140c8244--2015-07-13--Augier
+26	0	app/models/refresh_token.rb
+2	0	app/models/token.rb
+14	0	db/migrate/20150713132035_create_refresh_token.rb
+16	1	lib/openid_connect/token_endpoint.rb
+
+--9d9dc1327--2015-07-13--theworldbright
+28	41	app/controllers/openid_connect/discovery_controller.rb
+6	2	config/routes.rb
+27	0	spec/controllers/openid_connect/discovery_controller_spec.rb
+
+--73cc55940--2015-08-13--Augier
+2	2	app/controllers/api/v0/users_controller.rb
+0	22	app/controllers/openid_connect/LICENSE
+16	17	app/controllers/openid_connect/authorizations_controller.rb
+17	14	app/controllers/openid_connect/clients_controller.rb
+21	21	app/controllers/openid_connect/discovery_controller.rb
+1	2	app/controllers/users_controller.rb
+1	1	app/models/authorization.rb
+7	0	app/models/authorization_scope.rb
+5	17	app/models/o_auth_application.rb
+2	2	app/models/scope.rb
+7	0	app/models/scopes_tokens.rb
+3	3	app/models/token.rb
+1	1	config/application.rb
+5	5	config/routes.rb
+1	1	db/migrate/20150613202109_create_o_auth_applications.rb
+23	41	features/step_definitions/openid_steps.rb
+2	1	lib/account_deleter.rb
+0	22	lib/openid_connect/LICENSE
+14	11	lib/openid_connect/authorization/endpoint.rb
+5	5	lib/openid_connect/authorization/endpoint_confirmation_point.rb
+15	9	lib/openid_connect/authorization/endpoint_start_point.rb
+0	1	lib/openid_connect/protected_resource_endpoint.rb
+11	11	lib/openid_connect/token_endpoint.rb
+1	2	spec/controllers/api/v0/base_controller_spec.rb
+41	88	spec/controllers/openid_connect/authorizations_controller_spec.rb
+6	9	spec/controllers/openid_connect/clients_controller_spec.rb
+9	24	spec/lib/openid_connect/protected_resource_endpoint_spec.rb
+19	66	spec/lib/openid_connect/token_endpoint_spec.rb
+0	5	spec/models/o_auth_application_spec.rb
+0	5	spec/models/token_spec.rb
+1	2	spec/presenters/api/v0/base_presenter_spec.rb
+1	2	spec/requests/api/v2/base_controller_spec.rb
+0	8	spec/spec_helper.rb
+
+--c6eb72251--2015-07-11--Augier
+7	0	app/views/openid_connect/authorizations/_form.haml
+0	9	app/views/openid_connect/authorizations/_form.html.erb
+0	15	app/views/openid_connect/authorizations/new.html.erb
+14	0	app/views/openid_connect/authorizations/new.html.haml
+0	1	config/application.rb
+9	0	config/locales/diaspora/en.yml
+
+--3d26cbf65--2015-07-10--theworldbright
+21	9	app/controllers/openid_connect/authorizations_controller.rb
+4	1	config/routes.rb
+1	1	lib/openid_connect/authorization/endpoint_start_point.rb
+116	13	spec/controllers/openid_connect/authorizations_controller_spec.rb
+
+--3cfbcbce8--2015-07-10--theworldbright
+38	31	app/controllers/openid_connect/authorizations_controller.rb
+6	0	app/models/o_auth_application.rb
+9	0	app/views/openid_connect/authorizations/_form.html.erb
+15	0	app/views/openid_connect/authorizations/new.html.erb
+12	25	lib/openid_connect/authorization/endpoint.rb
+35	0	lib/openid_connect/authorization/endpoint_confirmation_point.rb
+28	0	lib/openid_connect/authorization/endpoint_start_point.rb
+69	0	spec/controllers/openid_connect/authorizations_controller_spec.rb
+
+--059933f07--2015-09-13--theworldbright
+7	0	app/models/authorization.rb
+2	0	app/models/o_auth_application.rb
+8	0	app/models/scope.rb
+1	0	app/models/token.rb
+1	0	app/models/user.rb
+10	0	db/migrate/20150708153926_create_authorizations.rb
+9	0	db/migrate/20150708154727_create_scope.rb
+8	0	db/migrate/20150708155202_create_authorizations_scopes_join_table.rb
+8	0	db/migrate/20150708155747_create_scopes_tokens_join_table.rb
+
+--88d02ea35--2015-07-08--theworldbright
+1	1	app/controllers/api/v0/base_controller.rb
+1	1	app/controllers/api/v0/users_controller.rb
+1	1	app/controllers/openid_connect/authorizations_controller.rb
+30	0	app/controllers/openid_connect/clients_controller.rb
+28	0	app/models/o_auth_application.rb
+13	12	features/desktop/oauth_password_flow.feature
+48	21	features/step_definitions/openid_steps.rb
+50	0	lib/openid_connect/authorization/endpoint.rb
+0	12	lib/openid_connect/authorization_endpoint.rb
+2	2	lib/openid_connect/{authentication.rb => protected_resource_endpoint.rb}
+29	21	lib/openid_connect/token_endpoint.rb
+23	0	spec/controllers/openid_connect/clients_controller_spec.rb
+25	10	spec/{controllers/api/v0/users_controller_spec.rb => lib/openid_connect/protected_resource_endpoint_spec.rb}
+78	27	spec/lib/openid_connect/token_endpoint_spec.rb
+
+--7c75eb590--2015-07-08--theworldbright
+0	2	app/models/o_auth_application.rb
+1	1	app/models/token.rb
+1	0	app/models/user.rb
+2	0	db/migrate/20150613202109_create_o_auth_applications.rb
+2	1	db/migrate/20150614134031_create_tokens.rb
+7	5	db/schema.rb
+
+--3fc0f64c5--2015-09-13--theworldbright
+1	1	Gemfile
+7	7	Gemfile.lock
+0	4	app/controllers/openid/connect_controller.rb
+0	0	app/controllers/{openid => openid_connect}/LICENSE
+6	6	app/controllers/{openid => openid_connect}/authorizations_controller.rb
+0	0	app/controllers/{openid => openid_connect}/discovery_controller.rb
+3	4	config/routes.rb
+
+--52e10a91f--2015-07-07--theworldbright
+32	3	spec/controllers/api/v0/users_controller_spec.rb
+
+--9de2837a6--2015-07-07--theworldbright
+1	1	app/controllers/api/{v2 => v0}/base_controller.rb
+1	1	app/controllers/api/{v2 => v0}/users_controller.rb
+2	0	app/presenters/api/v0/base_presenter.rb
+0	2	app/presenters/api/v2/base_presenter.rb
+1	9	config/routes.rb
+2	2	features/step_definitions/openid_steps.rb
+2	2	public/docs/{v2 => v0}/index.html
+0	0	public/docs/{v2 => v0}/style.css
+5	0	spec/controllers/api/v0/base_controller_spec.rb
+2	2	spec/controllers/api/{v2 => v0}/users_controller_spec.rb
+0	5	spec/controllers/api/v2/base_controller_spec.rb
+5	0	spec/presenters/api/v0/base_presenter_spec.rb
+0	5	spec/presenters/api/v2/base_presenter_spec.rb
+1	1	spec/requests/api/v2/base_controller_spec.rb
+
+--beae77102--2015-07-06--theworldbright
+1	2	app/controllers/api/v2/base_controller.rb
+7	1	app/controllers/api/v2/users_controller.rb
+3	0	app/models/o_auth_application.rb
+1	1	config/routes.rb
+6	1	db/migrate/20150613202109_create_o_auth_applications.rb
+1	1	db/migrate/20150614134031_create_tokens.rb
+5	0	db/schema.rb
+19	0	features/desktop/oauth_password_flow.feature
+0	31	features/desktop/protected_resource.feature
+2	2	features/step_definitions/openid_steps.rb
+0	35	lib/openid/token_endpoint.rb
+0	0	lib/{openid => openid_connect}/LICENSE
+3	3	lib/{openid => openid_connect}/authentication.rb
+1	1	lib/{openid => openid_connect}/authorization_endpoint.rb
+39	0	lib/openid_connect/token_endpoint.rb
+19	0	spec/controllers/api/v2/users_controller_spec.rb
+1	1	spec/{integration/openid => lib/openid_connect}/token_endpoint_spec.rb
+8	0	spec/spec_helper.rb
+
+--68d96a318--2015-09-13--theworldbright
+2	0	Gemfile
+6	0	Gemfile.lock
+19	0	app/controllers/api/LICENSE
+6	0	app/controllers/api/v2/base_controller.rb
+5	0	app/controllers/api/v2/users_controller.rb
+0	7	app/controllers/users_controller.rb
+2	0	app/presenters/api/v2/base_presenter.rb
+3	0	app/serializers/user_serializer.rb
+5	2	config/routes.rb
+17	0	public/docs/v2/index.html
+5	0	public/docs/v2/style.css
+5	0	spec/controllers/api/v2/base_controller_spec.rb
+5	0	spec/presenters/api/v2/base_presenter_spec.rb
+5	0	spec/requests/api/v2/base_controller_spec.rb
+
+--efdfe318f--2015-09-13--theworldbright
+3	0	Gemfile
+56	0	Gemfile.lock
+9	1	app/controllers/users_controller.rb
+7	1	app/models/token.rb
+5	1	config/application.rb
+2	2	config/routes.rb
+1	1	db/migrate/20150614134031_create_tokens.rb
+31	0	features/desktop/protected_resource.feature
+37	0	features/step_definitions/openid_steps.rb
+3	0	features/support/env.rb
+0	0	lib/{openid_connect => openid}/LICENSE
+30	0	lib/openid/authentication.rb
+12	0	lib/openid/authorization_endpoint.rb
+35	0	lib/openid/token_endpoint.rb
+0	10	lib/openid_connect/authorization_endpoint.rb
+0	22	lib/openid_connect/token_endpoint.rb
+64	0	spec/integration/openid/token_endpoint_spec.rb
+0	8	spec/lib/openid_connect/token_endpoint_spec.rb
+
+--a1f3d5f5f--2015-06-14--Augier
+22	0	app/controllers/openid/LICENSE
+3	3	app/controllers/openid/discovery_controller.rb
+6	0	app/models/o_auth_application.rb
+19	0	app/models/token.rb
+2	0	app/models/user.rb
+1	0	config/application.rb
+10	0	db/migrate/20150613202109_create_o_auth_applications.rb
+14	0	db/migrate/20150614134031_create_tokens.rb
+15	0	db/schema.rb
+22	0	lib/openid_connect/LICENSE
+2	74	lib/openid_connect/authorization_endpoint.rb
+9	16	lib/openid_connect/token_endpoint.rb
+8	0	spec/lib/openid_connect/token_endpoint_spec.rb
+5	0	spec/models/o_auth_application_spec.rb
+5	0	spec/models/token_spec.rb
+
+--8d8faf684--2015-09-13--augier
+3	0	Gemfile
+47	0	app/controllers/openid/authorizations_controller.rb
+4	0	app/controllers/openid/connect_controller.rb
+45	0	app/controllers/openid/discovery_controller.rb
+9	0	config/routes.rb
+1	1	db/schema.rb
+82	0	lib/openid_connect/authorization_endpoint.rb
+29	0	lib/openid_connect/token_endpoint.rb

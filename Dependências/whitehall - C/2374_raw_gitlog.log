@@ -1,0 +1,39 @@
+--eaf755d24b--2014-04-14--Dominic Baggott
+--da887c89a3--2014-04-14--Edd Sowden
+--4276532fe3--2014-04-11--Tekin Suleyman
+--2c00982c2d--2014-04-11--Edd Sowden
+16	10	app/assets/javascripts/common/duplicate_fields.js
+24	0	test/javascripts/unit/duplicate_fields_test.js
+
+--54c71c6932--2014-04-11--Elliot Crosby-McCullough
+0	4	app/models/promotional_feature_item.rb
+0	1	app/views/admin/promotional_feature_items/_form_fields.html.erb
+0	16	test/unit/promotional_feature_item_test.rb
+8	8	test/unit/whitehall/form_builder_test.rb
+
+--6b4cfdf810--2014-04-11--Alex Tomlins
+0	25	app/services/service_listeners/router_registrar.rb
+1	0	app/workers/router_add_route_worker.rb
+1	0	app/workers/router_delete_route_worker.rb
+0	1	config/initializers/edition_services.rb
+0	29	test/unit/services/listeners/router_registrar_test.rb
+
+--f24f929cdb--2014-04-11--Alex Tomlins
+12	0	app/models/registerable_edition.rb
+14	0	test/unit/registerable_edition_test.rb
+
+--6a306c6365--2014-04-11--Elliot Crosby-McCullough
+1	1	app/controllers/admin/promotional_feature_items_controller.rb
+7	2	test/functional/admin/promotional_feature_items_controller_test.rb
+
+--5b44f42e75--2014-04-11--Elliot Crosby-McCullough
+1	1	features/executive-office-promotional-features.feature
+
+--179e0a0e67--2014-04-09--Will Tomlins
+1	1	app/assets/stylesheets/frontend/base.scss
+1	1	app/assets/stylesheets/frontend/helpers/{_meta.scss => _metadata-list.scss}
+1	1	app/views/documents/_metadata.html.erb
+1	1	app/views/ministerial_roles/show.html.erb
+2	2	app/views/statistics_announcements/show.html.erb
+1	1	app/views/topical_events/show.html.erb
+1	1	app/views/topics/show.html.erb

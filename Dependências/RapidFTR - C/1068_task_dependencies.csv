@@ -1,0 +1,8 @@
+entity,coupled,degree,average-revs
+Gemfile,Gemfile.lock,100,5
+app/controllers/highlight_fields_controller.rb,app/models/form_section.rb,90,6
+app/controllers/user_preferences_controller.rb,app/models/user.rb,90,6
+app/controllers/user_preferences_controller.rb,app/views/home/index.html.erb,83,6
+app/views/home/index.html.erb,features/user_time_zones.feature,83,6
+app/models/user.rb,app/views/home/index.html.erb,76,7
+features/step_definitions/basic_steps.rb,features/view_child_record_log.feature,50,10

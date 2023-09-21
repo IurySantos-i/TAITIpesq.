@@ -1,0 +1,28 @@
+--b806f921--2010-02-09--Babitha
+--7c2c9e87--2010-02-09--Babitha
+3	0	app/models/child.rb
+1	0	config/routes.rb
+21	0	features/create_child_record.feature
+3	6	features/step_definitions/basic_steps.rb
+
+--f96dbb70--2010-02-09--Zubair
+--3256b86c--2010-02-08--Srinivas Murthy
+46	0	features/add_family_details_to_a_child_record.feature
+30	49	features/create_child_record.feature
+3	0	features/support/paths.rb
+
+--c4f8df53--2010-02-08--Babitha
+4	2	app/models/child.rb
+3	5	app/views/children/new.html.erb
+4	0	app/views/children/show.html.erb
+12	8	features/create_child_record.feature
+
+--c6400dcf--2010-02-06--Tom Elkin
+0	1	rerun.txt
+
+--f56ed98f--2010-02-05--Srinivas Murthy
+27	9	features/create_child_record.feature
+4	0	features/support/paths.rb
+
+--54f2856b--2010-02-04--Srinivas Murthy
+11	0	features/create_child_record.feature

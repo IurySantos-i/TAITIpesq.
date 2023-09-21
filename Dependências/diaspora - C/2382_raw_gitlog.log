@@ -1,0 +1,37 @@
+--47bc94c06--2011-10-23--manuels
+--a91932c57--2011-10-23--Manuel Schölling
+41	42	db/migrate/20111012215141_move_photos_to_their_own_table.rb
+
+--ddd152505--2011-10-23--Gonzalo Rodriguez
+6	6	config/locales/diaspora/en.yml
+
+--63f0dac92--2011-10-23--Gonzalo Rodriguez
+9	0	app/helpers/reshares_helper.rb
+1	1	app/views/shared/_stream_element.html.haml
+32	4	features/reshare.feature
+
+--11a59b933--2011-10-23--Gonzalo Rodriguez
+44	1	features/posts_from_main_page.feature
+1	1	features/step_definitions/custom_web_steps.rb
+
+--4331e7467--2011-10-23--Gonzalo Rodriguez
+17	17	app/views/users/edit.html.haml
+
+--0a081b051--2011-10-23--Gonzalo Rodriguez
+1	1	app/views/shared/_right_sections.html.haml
+2	2	lib/stream/base.rb
+
+--64dc0cbdf--2011-10-22--Daniel Grippi
+--f18846bf9--2011-10-22--Justin Thomas
+1	1	config/locales/diaspora/en.yml
+
+--d8e410f24--2011-10-22--Manuel Schölling
+42	9	db/migrate/20111012215141_move_photos_to_their_own_table.rb
+
+--eddc3eb01--2011-10-22--Manuel Schölling
+--afe8ee988--2011-10-22--Manuel Schölling
+1	1	db/migrate/20111012215141_move_photos_to_their_own_table.rb
+
+--b92ee9c8d--2011-10-22--Manuel Schölling
+19	10	db/migrate/20111012215141_move_photos_to_their_own_table.rb
+2	0	db/schema.rb

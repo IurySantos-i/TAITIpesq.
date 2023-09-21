@@ -1,0 +1,44 @@
+--d202f5408--2015-10-19--jsugarman
+--ddc82074e--2015-10-19--jsugarman
+9067	9614	db/data.yml
+
+--16784c26e--2015-10-19--jsugarman
+32	0	app/controllers/advocates/admin/chambers_controller.rb
+1	0	app/models/ability.rb
+3	1	app/views/advocates/admin/advocates/change_password.html.haml
+1	1	app/views/advocates/admin/advocates/edit.html.haml
+1	1	app/views/advocates/admin/advocates/index.html.haml
+1	1	app/views/advocates/admin/advocates/new.html.haml
+5	1	app/views/advocates/admin/advocates/show.html.haml
+17	0	app/views/advocates/admin/chambers/edit.html.haml
+17	0	app/views/advocates/admin/chambers/show.html.haml
+1	1	app/views/case_workers/admin/case_workers/change_password.html.haml
+1	1	app/views/case_workers/admin/case_workers/edit.html.haml
+1	1	app/views/case_workers/admin/case_workers/index.html.haml
+1	1	app/views/case_workers/admin/case_workers/new.html.haml
+3	2	app/views/grape_swagger_rails/application/index.html.erb
+3	2	app/views/layouts/_primary_navigation.html.haml
+2	0	config/routes.rb
+12031	12019	db/data.yml
+1	1	features/caseworker_admin_claims_list.feature
+3	3	features/step_definitions/shared/sign_in_steps.rb
+14	8	features/step_definitions/sign_in_steps.rb
+28	0	spec/models/ability_spec.rb
+
+--6840e74c5--2015-10-19--Himal Mandalia
+--3c5926910--2015-10-19--Stephen Richards
+1	1	lib/tasks/claims.rake
+
+--be7a163df--2015-10-19--Stephen Richards
+9	5	app/models/claim.rb
+15	0	app/models/timed_transitions/batch_transitioner.rb
+14	0	app/models/timed_transitions/specification.rb
+49	0	app/models/timed_transitions/transitioner.rb
+6	0	lib/tasks/claims.rake
+52	0	spec/models/timed_state_transitions/batch_transitioner_spec.rb
+86	0	spec/models/timed_state_transitions/transitioner_spec.rb
+
+--d0fd5efa1--2015-10-19--Himal Mandalia
+--13559df5a--2015-10-19--Edward Andress
+--791b9e8cf--2015-10-19--Edward Andress
+9581	8447	db/data.yml

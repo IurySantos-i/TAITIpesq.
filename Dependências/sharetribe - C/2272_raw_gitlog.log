@@ -1,0 +1,109 @@
+--181acf49e--2014-01-28--Juho Makkonen
+--ffcacdb28--2014-01-28--Juho Makkonen
+8	0	app/assets/stylesheets/views/admin/_categories.scss
+17	0	app/controllers/admin/categories_controller.rb
+1	1	app/controllers/admin/custom_fields_controller.rb
+11	0	app/models/category.rb
+3	0	app/models/category_translation.rb
+7	0	app/views/admin/categories/form/_buttons.haml
+8	0	app/views/admin/categories/form/_category_name.haml
+6	0	app/views/admin/categories/new.haml
+0	1	app/views/admin/custom_fields/form/_field_name.haml
+14	0	features/admin/admin_adds_category.feature
+4	5	features/admin/admin_views_categories.feature
+14	0	features/step_definitions/admin_category_steps.rb
+2	6	features/step_definitions/{admin_steps.rb => admin_custom_field_steps.rb}
+0	2	features/step_definitions/community_steps.rb
+
+--ce0249469--2014-01-28--Antti Virolainen
+--143caa0bf--2014-01-28--Antti Virolainen
+3	1	app/models/category_translation.rb
+1	0	app/models/community.rb
+1	0	app/models/transaction_type.rb
+3	0	app/models/transaction_type_translation.rb
+3	0	app/models/transaction_types/free_service.rb
+3	0	app/models/transaction_types/give.rb
+3	0	app/models/transaction_types/loan.rb
+3	0	app/models/transaction_types/rent.rb
+3	0	app/models/transaction_types/request.rb
+3	0	app/models/transaction_types/sell_products.rb
+3	0	app/models/transaction_types/swap.rb
+0	27	config/initializers/model_autoload.rb
+
+--72a784b18--2014-01-28--Antti Virolainen
+4	0	app/models/category.rb
+4	0	app/models/category_transaction_type.rb
+10	0	app/models/transaction_type.rb
+5	0	app/models/transaction_type_translation.rb
+12	0	db/migrate/20140128094422_create_transaction_types.rb
+10	0	db/migrate/20140128094642_create_category_transaction_types.rb
+12	0	db/migrate/20140128095047_create_transaction_type_translations.rb
+29	3	db/schema.rb
+
+--0e0e08d77--2014-01-28--Juho Makkonen
+16	16	app/models/classification.rb
+2	2	app/views/admin/categories/_listed_subcategory.haml
+1	1	app/views/admin/categories/_listed_top_level_category.haml
+7	3	features/admin/admin_views_categories.feature
+2	15	features/step_definitions/admin_steps.rb
+18	0	features/step_definitions/community_steps.rb
+
+--3e1f46b7b--2014-01-27--Juho Makkonen
+1	1	config/locales/en.yml
+1	1	config/locales/fi.yml
+
+--25e32d11a--2014-01-27--Juho Makkonen
+3	0	config/locales/ca.yml
+3	0	config/locales/de-bl.yml
+3	0	config/locales/de-rc.yml
+4	1	config/locales/de.yml
+3	0	config/locales/en-at.yml
+3	0	config/locales/en-bd.yml
+3	0	config/locales/en-bf.yml
+3	0	config/locales/en-bl.yml
+5	2	config/locales/en-cf.yml
+3	0	config/locales/en-qr.yml
+3	0	config/locales/en-rc.yml
+3	0	config/locales/en-sb.yml
+3	0	config/locales/en-ul.yml
+3	0	config/locales/en-un.yml
+3	0	config/locales/en-vg.yml
+3	0	config/locales/es-rc.yml
+3	0	config/locales/fr-at.yml
+3	0	config/locales/fr-bd.yml
+3	0	config/locales/fr-rc.yml
+3	0	config/locales/hr.yml
+3	0	config/locales/hu.yml
+3	0	config/locales/it.yml
+3	0	config/locales/lv.yml
+3	0	config/locales/pt-BR.yml
+3	0	config/locales/ro.yml
+3	0	config/locales/sv.yml
+3	0	config/locales/sw.yml
+3	0	config/locales/vi.yml
+3	0	config/locales/zh.yml
+
+--589511866--2014-01-27--Juho Makkonen
+1	1	app/views/admin/communities/edit_details.haml
+
+--4473dbc40--2014-01-27--Juho Makkonen
+0	1	app/controllers/admin/communities_controller.rb
+
+--364ba3b4d--2014-01-27--Antti Virolainen
+--343104197--2014-01-24--Juho Makkonen
+--1ccb69ea6--2014-01-24--Juho Makkonen
+5	0	app/assets/stylesheets/main.css.scss
+1	0	app/controllers/people_controller.rb
+1	1	app/models/community_customization.rb
+10	0	app/views/admin/communities/edit_details.haml
+112	99	app/views/homepage/index.haml
+6	3	app/views/listings/form/_privacy.haml
+3	0	config/locales/en.yml
+3	0	config/locales/fi.yml
+5	0	db/migrate/20140124141214_add_private_community_homepage_content_to_community_customizations.rb
+8	5	db/schema.rb
+18	1	features/admin/admin_edits_community_details.feature
+16	3	features/homepage/user_views_homepage.feature
+23	0	features/listings/user_creates_a_new_listing.feature
+10	1	features/people/user_views_profile_page.feature
+4	0	features/step_definitions/community_steps.rb

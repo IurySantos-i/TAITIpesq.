@@ -1,0 +1,489 @@
+--0cb20a2ec--2015-05-21--Todd Tyree
+--778f7f37b--2015-05-15--Todd Tyree
+2	0	.travis.yml
+6	1	Gemfile
+24	7	Gemfile.lock
+57	96	Guardfile
+10	0	app/assets/javascripts/advocates/claims/{new_claim.js => dynamic-offence-list.js}
+17	1	app/assets/stylesheets/advocates/application.css.scss
+43	0	app/assets/stylesheets/advocates/claim-form.scss
+26	0	app/assets/stylesheets/advocates/claims-table.scss
+33	33	app/assets/stylesheets/claim-accordion.scss
+11	11	app/assets/stylesheets/claims-list.scss
+0	0	app/assets/stylesheets/{new_claim.css.scss => dynamic-offence-list.scss}
+0	2	app/assets/stylesheets/fonts.scss
+12	7	app/assets/stylesheets/imports.scss
+84	53	app/assets/stylesheets/layout.scss
+2	2	app/assets/stylesheets/list-controls.scss
+7	7	app/assets/stylesheets/navigation.scss
+0	12	app/assets/stylesheets/typography.scss
+10	8	app/controllers/advocates/claims_controller.rb
+2	2	app/controllers/application_controller.rb
+2	1	app/controllers/case_workers/admin/case_workers_controller.rb
+13	13	app/controllers/case_workers/claims_controller.rb
+11	3	app/controllers/documents_controller.rb
+4	29	app/models/ability.rb
+2	1	app/models/advocate.rb
+1	1	app/models/case_worker.rb
+11	4	app/models/claim.rb
+7	0	app/models/claims/state_machine.rb
+23	0	app/models/claims/summary.rb
+37	1	app/models/document.rb
+1	1	app/models/expense.rb
+2	1	app/models/fee.rb
+6	4	app/views/advocates/admin/advocates/index.html.haml
+9	3	app/views/advocates/claims/_claims.html.haml
+23	26	app/views/advocates/claims/_defendant_fields.html.haml
+6	6	app/views/advocates/claims/_dynamic_offence_fields.html.haml
+18	12	app/views/advocates/claims/_expense_fields.html.haml
+12	8	app/views/advocates/claims/_fee_fields.html.haml
+102	98	app/views/advocates/claims/_form.html.haml
+6	0	app/views/advocates/claims/_nav_tabs.html.haml
+12	0	app/views/advocates/claims/_summary.html.haml
+33	27	app/views/advocates/claims/index.html.haml
+8	0	app/views/advocates/claims/landing.html.haml
+3	0	app/views/advocates/claims/new.html.haml
+6	6	app/views/advocates/claims/summary.html.haml
+3	1	app/views/case_workers/admin/case_workers/allocate.html.haml
+2	0	app/views/case_workers/admin/case_workers/edit.html.haml
+2	0	app/views/case_workers/admin/case_workers/index.html.haml
+2	0	app/views/case_workers/admin/case_workers/new.html.haml
+2	0	app/views/case_workers/admin/case_workers/show.html.haml
+6	2	app/views/case_workers/claims/_claim.html.haml
+4	5	app/views/case_workers/claims/_evidence_list.html.haml
+9	0	app/views/case_workers/claims/_nav_tabs.html.haml
+2	1	app/views/case_workers/claims/index.html.haml
+3	1	app/views/case_workers/claims/show.html.haml
+16	0	app/views/devise/confirmations/new.html.erb
+5	0	app/views/devise/mailer/confirmation_instructions.html.erb
+8	0	app/views/devise/mailer/reset_password_instructions.html.erb
+7	0	app/views/devise/mailer/unlock_instructions.html.erb
+19	0	app/views/devise/passwords/edit.html.erb
+15	0	app/views/devise/passwords/new.html.erb
+27	0	app/views/devise/registrations/edit.html.erb
+17	0	app/views/devise/registrations/new.html.erb
+18	0	app/views/devise/sessions/new.html.erb
+25	0	app/views/devise/shared/_links.html.erb
+16	0	app/views/devise/unlocks/new.html.erb
+6	5	app/views/layouts/_user.html.haml
+26	42	app/views/layouts/advocate.html.haml
+26	43	app/views/layouts/application.html.haml
+26	36	app/views/layouts/case_worker.html.haml
+1	1	app/views/pages/home.html.haml
+3	3	config/application.rb
+2	0	config/cucumber.yml
+3	1	config/routes.rb
+5	0	db/migrate/20150515082101_add_paid_at_to_claims.rb
+7	0	db/migrate/20150518132415_alter_documents_add_advocate_id.rb
+4	1	db/schema.rb
+1	1	db/seeds/advocates.rb
+4	4	docker/Dockerfile
+31	0	features/advocate_claims_summary.feature
+1	1	features/advocate_new_claim.feature
+36	0	features/document_security.feature
+6	2	features/documents.feature
+-	-	features/examples/shorter_lorem.pdf
+1	1	features/home_page.feature
+6	6	features/sign_in.feature
+1	1	features/step_definitions/advocate_claims_list_steps.rb
+26	4	features/step_definitions/advocate_new_claim_steps.rb
+3	4	features/step_definitions/caseworker_claims_list_steps.rb
+17	0	features/step_definitions/claims_summary_steps.rb
+4	0	features/step_definitions/common_steps.rb
+45	7	features/step_definitions/document_steps.rb
+43	13	features/step_definitions/sign_in_steps.rb
+5	8	features/step_definitions/view_provider_evidence_steps.rb
+2	2	features/view_provider_evidence.feature
+71	22	lib/tasks/claims.rake
+4	7	runtests.sh
+12	0	spec/controllers/advocates/claims_controller_spec.rb
+2	2	spec/controllers/application_controller_spec.rb
+1	1	spec/controllers/case_workers/admin/case_workers_controller_spec.rb
+3	3	spec/controllers/case_workers/claims_controller_spec.rb
+2	2	spec/factories/claims.rb
+5	0	spec/factories/documents.rb
+2	1	spec/models/advocate_spec.rb
+20	10	spec/models/claim_spec.rb
+10	0	spec/models/claims/state_machine_spec.rb
+63	0	spec/models/claims/summary_spec.rb
+3	3	spec/models/claims/totals_spec.rb
+57	1	spec/models/document_spec.rb
+4	4	spec/models/expense_spec.rb
+4	3	spec/models/fee_spec.rb
+4	0	spec/rails_helper.rb
+
+--d29ca3c80--2015-05-21--Todd Tyree
+6	2	features/step_definitions/document_steps.rb
+
+--0d9da3564--2015-05-21--Todd Tyree
+--dddc4d561--2015-05-21--Himal Mandalia
+--02164c189--2015-05-18--Eddie Andress
+1	5	app/controllers/documents_controller.rb
+13	1	app/models/document.rb
+2	3	app/views/case_workers/claims/_evidence_list.html.haml
+-	-	features/examples/shorter_lorem.pdf
+1	1	features/step_definitions/document_steps.rb
+4	0	spec/factories/documents.rb
+45	3	spec/models/document_spec.rb
+4	0	spec/rails_helper.rb
+
+--eb5f92f16--2015-05-21--Todd Tyree
+1	1	app/controllers/documents_controller.rb
+2	1	app/models/ability.rb
+1	0	features/document_security.feature
+4	0	features/documents.feature
+4	4	features/sign_in.feature
+
+--8e58d6cfc--2015-05-21--Todd Tyree
+--181f3aeef--2015-05-21--Todd Tyree
+--3c9077009--2015-05-21--Todd Tyree
+--bfc50b8bc--2015-05-21--Todd Tyree
+--7520b2d98--2015-05-21--Himal Mandalia
+13	13	app/controllers/case_workers/claims_controller.rb
+
+--4b110ab3b--2015-05-20--Todd Tyree
+1	0	app/controllers/documents_controller.rb
+3	2	app/models/ability.rb
+1	0	app/models/document.rb
+12	9	features/document_security.feature
+17	4	features/step_definitions/document_steps.rb
+12	4	features/step_definitions/sign_in_steps.rb
+1	0	spec/models/document_spec.rb
+
+--7c5668bb6--2015-05-20--Himal Mandalia
+2	2	app/models/claim.rb
+1	1	app/models/expense.rb
+1	1	app/models/fee.rb
+2	2	spec/models/claim_spec.rb
+4	4	spec/models/expense_spec.rb
+3	3	spec/models/fee_spec.rb
+
+--9d444469f--2015-05-20--Todd Tyree
+8	2	app/controllers/documents_controller.rb
+
+--344630439--2015-05-20--Todd Tyree
+8	2	app/controllers/documents_controller.rb
+
+--219ba6fed--2015-05-20--Himal Mandalia
+0	3	app/views/advocates/claims/summary.html.haml
+
+--6b0c66c16--2015-05-20--Todd Tyree
+2	2	app/controllers/documents_controller.rb
+
+--798255dd4--2015-05-20--Todd Tyree
+2	3	app/controllers/documents_controller.rb
+
+--aa375fd1e--2015-05-20--Himal Mandalia
+5	2	app/controllers/advocates/claims_controller.rb
+2	2	app/models/claim.rb
+1	0	app/models/fee.rb
+1	1	app/views/advocates/claims/_expense_fields.html.haml
+2	2	app/views/advocates/claims/_fee_fields.html.haml
+1	1	features/advocate_new_claim.feature
+25	3	features/step_definitions/advocate_new_claim_steps.rb
+8	8	spec/models/claim_spec.rb
+3	3	spec/models/claims/totals_spec.rb
+1	0	spec/models/fee_spec.rb
+
+--409919664--2015-05-20--Todd Tyree
+1	1	features/view_provider_evidence.feature
+
+--b71f26cef--2015-05-20--Todd Tyree
+3	2	app/controllers/documents_controller.rb
+1	1	features/document_security.feature
+1	1	features/step_definitions/document_steps.rb
+9	2	features/step_definitions/sign_in_steps.rb
+
+--5aba86c60--2015-05-20--Todd Tyree
+--0641e8bc1--2015-05-20--Todd Tyree
+2	29	app/models/ability.rb
+3	2	features/document_security.feature
+4	0	features/step_definitions/common_steps.rb
+7	2	features/step_definitions/document_steps.rb
+
+--4e7b3b93e--2015-05-20--Todd Tyree
+2	2	app/controllers/documents_controller.rb
+
+--06b71b9fb--2015-05-19--Todd Tyree
+2	2	app/controllers/documents_controller.rb
+
+--6d58cd518--2015-05-19--Todd Tyree
+2	2	app/controllers/documents_controller.rb
+
+--230b18d87--2015-05-19--Todd Tyree
+--55956614c--2015-05-19--Todd Tyree
+--2f3323ae5--2015-05-19--Himal Mandalia
+3	3	app/views/advocates/claims/_expense_fields.html.haml
+2	2	app/views/advocates/claims/_fee_fields.html.haml
+
+--5fd93afba--2015-05-19--Himal Mandalia
+3	5	app/views/case_workers/claims/_evidence_list.html.haml
+1	0	features/step_definitions/view_provider_evidence_steps.rb
+
+--3a39df794--2015-05-19--Himal Mandalia
+5	6	app/views/advocates/admin/advocates/index.html.haml
+24	23	app/views/advocates/claims/_form.html.haml
+6	0	app/views/advocates/claims/_nav_tabs.html.haml
+5	5	app/views/advocates/claims/index.html.haml
+3	0	app/views/advocates/claims/new.html.haml
+2	0	app/views/case_workers/admin/case_workers/allocate.html.haml
+2	0	app/views/case_workers/admin/case_workers/edit.html.haml
+1	2	app/views/case_workers/admin/case_workers/index.html.haml
+2	0	app/views/case_workers/admin/case_workers/new.html.haml
+2	0	app/views/case_workers/admin/case_workers/show.html.haml
+9	0	app/views/case_workers/claims/_nav_tabs.html.haml
+1	9	app/views/case_workers/claims/index.html.haml
+3	0	app/views/case_workers/claims/show.html.haml
+
+--f2c5639b2--2015-05-19--Todd Tyree
+--b5d12ef4f--2015-05-19--Edward Andress
+--ba4c7075a--2015-05-19--Himal Mandalia
+1	1	app/views/pages/home.html.haml
+3	3	config/application.rb
+1	1	features/home_page.feature
+
+--a76e0ef23--2015-05-19--Himal Mandalia
+--3ea03178b--2015-05-19--Himal Mandalia
+--c6f1ade47--2015-05-19--Mark Ford
+14	1	app/assets/stylesheets/advocates/application.css.scss
+1	1	app/views/advocates/claims/index.html.haml
+
+--ab648d102--2015-05-19--Himal Mandalia
+4	0	app/views/advocates/claims/_claims.html.haml
+
+--66db91a96--2015-05-19--Himal Mandalia
+1	1	app/assets/stylesheets/claim-accordion.scss
+
+--78c600042--2015-05-18--jsugarman
+10	0	app/assets/javascripts/advocates/claims/{new_claim.js => dynamic-offence-list.js}
+0	0	app/assets/stylesheets/{new_claim.css.scss => dynamic-offence-list.scss}
+2	1	app/assets/stylesheets/imports.scss
+
+--674612716--2015-05-18--Todd Tyree
+4	0	features/advocate_claims_summary.feature
+5	4	features/step_definitions/claims_summary_steps.rb
+2	6	features/step_definitions/view_provider_evidence_steps.rb
+2	2	features/view_provider_evidence.feature
+
+--a629fc8e4--2015-05-18--Todd Tyree
+1	1	spec/controllers/case_workers/claims_controller_spec.rb
+
+--74bdf48f4--2015-05-18--Edward Andress
+--8196a2c87--2015-05-18--Mark Ford
+2	1	app/assets/stylesheets/advocates/application.css.scss
+43	0	app/assets/stylesheets/advocates/claim-form.scss
+23	26	app/views/advocates/claims/_defendant_fields.html.haml
+6	6	app/views/advocates/claims/_dynamic_offence_fields.html.haml
+18	12	app/views/advocates/claims/_expense_fields.html.haml
+12	8	app/views/advocates/claims/_fee_fields.html.haml
+98	95	app/views/advocates/claims/_form.html.haml
+
+--3d74b518f--2015-05-18--Todd Tyree
+1	1	features/document_security.feature
+3	1	features/step_definitions/document_steps.rb
+
+--69c73f2dd--2015-05-18--Eddie Andress
+2	3	features/documents.feature
+2	2	features/step_definitions/caseworker_claims_list_steps.rb
+1	7	features/step_definitions/document_steps.rb
+2	2	features/view_provider_evidence.feature
+11	0	spec/models/document_spec.rb
+
+--860bd916e--2015-05-18--Mark Ford
+32	1	app/assets/stylesheets/layout.scss
+7	3	app/views/advocates/claims/landing.html.haml
+
+--c026ba509--2015-05-18--Mark Ford
+7	0	app/assets/stylesheets/layout.scss
+6	5	app/views/layouts/_user.html.haml
+
+--bfa4930bc--2015-05-18--Todd Tyree
+--b53d9cf9a--2015-05-18--Todd Tyree
+1	0	app/models/advocate.rb
+2	1	app/models/document.rb
+7	0	db/migrate/20150518132415_alter_documents_add_advocate_id.rb
+3	1	db/schema.rb
+1	1	features/document_security.feature
+1	1	features/step_definitions/advocate_claims_list_steps.rb
+19	5	features/step_definitions/document_steps.rb
+1	0	spec/factories/documents.rb
+2	1	spec/models/advocate_spec.rb
+1	0	spec/models/document_spec.rb
+
+--16b001ef8--2015-05-18--Himal Mandalia
+4	0	app/views/advocates/claims/_claims.html.haml
+
+--74c2829c1--2015-05-18--Mark Ford
+18	0	app/assets/stylesheets/layout.scss
+16	0	app/views/devise/confirmations/new.html.erb
+5	0	app/views/devise/mailer/confirmation_instructions.html.erb
+8	0	app/views/devise/mailer/reset_password_instructions.html.erb
+7	0	app/views/devise/mailer/unlock_instructions.html.erb
+19	0	app/views/devise/passwords/edit.html.erb
+15	0	app/views/devise/passwords/new.html.erb
+27	0	app/views/devise/registrations/edit.html.erb
+17	0	app/views/devise/registrations/new.html.erb
+18	0	app/views/devise/sessions/new.html.erb
+25	0	app/views/devise/shared/_links.html.erb
+16	0	app/views/devise/unlocks/new.html.erb
+
+--715cdf612--2015-05-18--Himal Mandalia
+2	1	runtests.sh
+
+--6b8fe9077--2015-05-18--Mark Ford
+3	1	app/assets/stylesheets/advocates/application.css.scss
+26	0	app/assets/stylesheets/advocates/claims-table.scss
+18	18	app/assets/stylesheets/claim-accordion.scss
+13	0	app/assets/stylesheets/layout.scss
+3	3	app/views/advocates/claims/_claims.html.haml
+11	8	app/views/advocates/claims/_summary.html.haml
+26	27	app/views/advocates/claims/index.html.haml
+0	1	db/schema.rb
+
+--bf689ebcb--2015-05-18--Eddie Andress
+1	1	app/models/document.rb
+2	2	lib/tasks/claims.rake
+
+--32392c844--2015-05-18--Eddie Andress
+--fdb15f27f--2015-05-18--Edward Andress
+--3608d5264--2015-05-14--Eddie Andress
+1	0	Gemfile
+5	0	Gemfile.lock
+-	-	Users/eddieandress/Public/cbo_examples/000/000/001/shorter_lorem.png
+-	-	Users/eddieandress/Public/cbo_examples/000/000/002/shorter_lorem.png
+0	2	app/controllers/advocates/claims_controller.rb
+6	1	app/controllers/documents_controller.rb
+1	1	app/models/case_worker.rb
+22	0	app/models/document.rb
+2	1	features/documents.feature
+1	1	features/step_definitions/advocate_new_claim_steps.rb
+3	4	features/step_definitions/caseworker_claims_list_steps.rb
+7	1	features/step_definitions/document_steps.rb
+2	2	features/step_definitions/view_provider_evidence_steps.rb
+2	2	features/view_provider_evidence.feature
+7	3	lib/tasks/claims.rake
+1	0	spec/models/document_spec.rb
+
+--909f7c60e--2015-05-18--Himal Mandalia
+--b4c201255--2015-05-15--Ash Berlin
+4	4	docker/Dockerfile
+
+--4487517aa--2015-05-18--Mark Ford
+1	1	app/assets/stylesheets/claim-accordion.scss
+
+--f2591d642--2015-05-18--Himal Mandalia
+3	0	app/views/advocates/admin/advocates/index.html.haml
+4	0	app/views/advocates/claims/index.html.haml
+3	0	app/views/case_workers/admin/case_workers/index.html.haml
+4	0	app/views/case_workers/claims/index.html.haml
+
+--7a7db1614--2015-05-18--Todd Tyree
+--ca84ccb9d--2015-05-18--Edward Andress
+--89ac7dce1--2015-05-18--Mark Ford
+6	1	app/views/case_workers/claims/index.html.haml
+0	1	app/views/case_workers/claims/show.html.haml
+
+--5b977135c--2015-05-18--Himal Mandalia
+--923203f07--2015-05-18--Himal Mandalia
+2	0	app/views/advocates/claims/_claims.html.haml
+6	3	app/views/advocates/claims/summary.html.haml
+
+--8c7c48480--2015-05-18--Himal Mandalia
+--d6a9c1276--2015-05-15--jsugarman
+51	20	lib/tasks/claims.rake
+
+--3a3c68897--2015-05-15--Todd Tyree
+31	0	features/document_security.feature
+18	3	features/step_definitions/sign_in_steps.rb
+
+--1a6369758--2015-05-15--Edward Andress
+--0d4011fa1--2015-05-14--Stephen Strudwick
+4	5	app/controllers/advocates/claims_controller.rb
+3	0	app/models/claim.rb
+23	0	app/models/claims/summary.rb
+9	0	app/views/advocates/claims/_summary.html.haml
+3	0	app/views/advocates/claims/index.html.haml
+1	0	db/schema.rb
+27	0	features/advocate_claims_summary.feature
+16	0	features/step_definitions/claims_summary_steps.rb
+63	0	spec/models/claims/summary_spec.rb
+
+--65226e043--2015-05-15--Edward Andress
+--228cec19b--2015-05-15--Himal Mandalia
+1	0	app/controllers/advocates/claims_controller.rb
+2	2	app/controllers/application_controller.rb
+4	0	app/views/advocates/claims/landing.html.haml
+3	1	config/routes.rb
+2	2	features/sign_in.feature
+8	8	features/step_definitions/sign_in_steps.rb
+12	0	spec/controllers/advocates/claims_controller_spec.rb
+2	2	spec/controllers/application_controller_spec.rb
+
+--3a1062f37--2015-05-15--Himal Mandalia
+--580055d94--2015-05-15--Himal Mandalia
+2	1	app/controllers/case_workers/admin/case_workers_controller.rb
+1	1	app/controllers/case_workers/claims_controller.rb
+2	0	app/models/claims/state_machine.rb
+2	2	features/step_definitions/caseworker_claims_list_steps.rb
+1	1	spec/controllers/case_workers/admin/case_workers_controller_spec.rb
+3	3	spec/controllers/case_workers/claims_controller_spec.rb
+
+--3f56973c4--2015-05-15--Mark Ford
+26	42	app/views/layouts/advocate.html.haml
+
+--9254956b5--2015-05-15--Mark Ford
+26	43	app/views/layouts/application.html.haml
+26	36	app/views/layouts/case_worker.html.haml
+
+--3ed5fb899--2015-05-15--Todd Tyree
+57	96	Guardfile
+2	0	config/cucumber.yml
+
+--2250bb288--2015-05-15--Todd Tyree
+57	96	Guardfile
+2	0	config/cucumber.yml
+
+--1876e4a6c--2015-05-15--jsugarman
+1	1	db/seeds/advocates.rb
+26	9	lib/tasks/claims.rake
+
+--46d8c6a3a--2015-05-15--Mark Ford
+19	19	app/assets/stylesheets/claim-accordion.scss
+11	11	app/assets/stylesheets/claims-list.scss
+0	2	app/assets/stylesheets/fonts.scss
+19	57	app/assets/stylesheets/layout.scss
+2	2	app/assets/stylesheets/list-controls.scss
+7	7	app/assets/stylesheets/navigation.scss
+
+--3598e4733--2015-05-15--Himal Mandalia
+4	0	app/models/claim.rb
+1	1	app/views/case_workers/admin/case_workers/allocate.html.haml
+10	0	spec/models/claim_spec.rb
+
+--6a9d736eb--2015-05-15--Himal Mandalia
+1	1	app/models/advocate.rb
+
+--264255b36--2015-05-15--Ash Berlin
+2	1	runtests.sh
+
+--4929983ad--2015-05-15--Himal Mandalia
+--142c6159e--2015-05-15--Himal Mandalia
+--e6e0a33e3--2015-05-15--Ash Berlin
+2	0	.travis.yml
+1	6	runtests.sh
+
+--3f728a708--2015-05-15--jsugarman
+--18031b1bf--2015-05-15--Mark Ford
+5	1	Gemfile
+19	7	Gemfile.lock
+11	7	app/assets/stylesheets/imports.scss
+0	12	app/assets/stylesheets/typography.scss
+
+--67bebc4a5--2015-05-15--jsugarman
+5	0	app/models/claims/state_machine.rb
+1	1	app/views/advocates/claims/_claims.html.haml
+6	2	app/views/case_workers/claims/_claim.html.haml
+5	0	db/migrate/20150515082101_add_paid_at_to_claims.rb
+2	1	db/schema.rb
+1	0	spec/factories/claims.rb
+10	0	spec/models/claims/state_machine_spec.rb

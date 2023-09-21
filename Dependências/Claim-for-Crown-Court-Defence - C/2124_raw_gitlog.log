@@ -1,0 +1,10 @@
+--372183720--2015-04-24--Eddie Andress
+--b99ba86ce--2015-04-24--Eddie Andress
+1	0	Gemfile
+4	1	Gemfile.lock
+15	0	app/models/feature.rb
+1	0	config/routes.rb
+10	0	db/migrate/20150424102029_create_features.rb
+17	3	db/schema.rb
+
+--16409e574--2015-04-24--Edward Andress

@@ -1,0 +1,13 @@
+--36016858--2015-06-10--Alexander Bobin
+--0e441242--2015-06-10--Andrew White
+4	4	app/views/shared/_share_petition.html.erb
+
+--f0af10a7--2015-06-10--Andrew White
+--961b8c7d--2015-06-10--Murray Steele
+3	0	public/robots.txt
+
+--163e4573--2015-06-09--Andrew White
+1	0	app/assets/stylesheets/petitions/views/shared/_share-petition.scss
+12	0	app/views/shared/_share_petition.html.erb
+23	0	features/step_definitions/petition_steps.rb
+5	1	features/suzie_views_a_petition.feature

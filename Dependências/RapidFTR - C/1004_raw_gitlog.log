@@ -1,0 +1,115 @@
+--e5b15acf--2011-12-20--chrisgeorge
+--68ed8945--2011-12-13--John Hume
+12	14	app/controllers/password_recovery_requests_controller.rb
+0	2	app/models/password_recovery_request.rb
+0	0	app/views/password_recovery_requests/create.html.erb
+14	11	app/views/password_recovery_requests/new.html.erb
+10	39	features/password_recovery_request.feature
+16	9	spec/controllers/password_recovery_requests_controller_spec.rb
+
+--9488ca6a--2011-12-07--Yekkanti Kishore Kumar
+--d510227a--2011-12-07--Yekkanti Kishore Kumar
+25	5	app/controllers/password_recovery_requests_controller.rb
+7	2	spec/controllers/password_recovery_requests_controller_spec.rb
+
+--602ad3f9--2011-12-06--John Hume
+0	0	{features => capybara_features}/edit_form_section.feature
+4	0	capybara_features/step_definitions/basic_steps.rb
+8	0	capybara_features/step_definitions/form_section_steps.rb
+12	6	capybara_features/step_definitions/more_web_steps.rb
+
+--94e31319--2011-12-06--John Hume
+0	1	{features => capybara_features}/create_child_new_disabled_form_section.feature
+5	0	capybara_features/step_definitions/basic_steps.rb
+1	1	capybara_features/step_definitions/form_section_steps.rb
+
+--8e3c09fc--2011-12-06--chrisgeorge
+--557def84--2011-12-06--chrisgeorge
+--2a8258e7--2011-12-06--Jaco Pretorius
+7	1	app/controllers/children_controller.rb
+13	24	lib/export_generator.rb
+3	4	spec/controllers/children_controller_spec.rb
+4	4	spec/integration/export_generator_spec.rb
+13	9	spec/lib/export_generator_spec.rb
+
+--72c43993--2011-12-06--John Hume
+3	5	{features => capybara_features}/manage_forms.feature
+20	0	capybara_features/step_definitions/form_section_steps.rb
+5	2	capybara_features/support/hooks.rb
+
+--c7afbed3--2011-12-06--John Hume
+7	6	Gemfile.lock
+
+--64fff5e5--2011-12-02--Jaco Pretorius
+46	39	app/controllers/children_controller.rb
+
+--faa23d8b--2011-12-02--Jaco Pretorius
+7	2	app/controllers/children_controller.rb
+1	1	app/views/children/_order_by_box.html.erb
+1	1	app/views/children/index.html.erb
+53	1	features/view_child_records.feature
+
+--dda99ed0--2011-12-02--Jaco Pretorius
+6	1	app/controllers/children_controller.rb
+3	1	app/views/children/_order_by_box.html.erb
+1	1	app/views/children/index.html.erb
+1	0	features/step_definitions/basic_steps.rb
+52	0	features/view_child_records.feature
+
+--2062fefa--2011-12-02--Jaco Pretorius
+20	9	app/controllers/children_controller.rb
+1	1	app/helpers/children_helper.rb
+73	45	features/view_child_records.feature
+
+--d7762bf8--2011-12-02--Jaco Pretorius
+9	1	app/controllers/children_controller.rb
+1	1	app/views/children/_order_by_box.html.erb
+1	1	app/views/children/index.html.erb
+4	4	features/step_definitions/basic_steps.rb
+1	1	features/step_definitions/web_steps.rb
+41	2	features/view_child_records.feature
+
+--56eab3a4--2011-12-01--Meredith J. Hasson
+6	3	app/controllers/children_controller.rb
+6	1	app/helpers/children_helper.rb
+7	0	app/views/children/_order_by_box.html.erb
+3	0	app/views/children/index.html.erb
+25	1	features/view_child_records.feature
+27	0	public/stylesheets/core.css
+
+--3af2e3db--2011-12-01--Meredith J. Hasson
+4	0	app/controllers/children_controller.rb
+6	2	features/step_definitions/basic_steps.rb
+11	0	features/step_definitions/web_steps.rb
+13	1	features/view_child_records.feature
+
+--6c3aa908--2011-11-30--Meredith J. Hasson
+14	10	app/controllers/children_controller.rb
+5	0	app/helpers/children_helper.rb
+5	5	app/views/children/_filter_box.html.erb
+4	0	app/views/children/index.html.erb
+1	1	config/routes.rb
+1	1	features/view_child_records.feature
+25	0	public/stylesheets/core.css
+
+--d0827cb2--2011-11-30--Meredith J. Hasson
+11	1	app/controllers/children_controller.rb
+9	0	app/views/children/_filter_box.html.erb
+1	0	app/views/children/index.html.erb
+3	2	config/routes.rb
+3	1	features/step_definitions/basic_steps.rb
+70	0	features/view_child_records.feature
+
+--4f5aada1--2011-11-29--chrisgeorge
+--abd81abf--2011-10-11--Bruce Lee
+9	8	features/add_custom_field_to_form_section.feature
+1	1	features/edit_user_details.feature
+10	8	features/support/paths.rb
+13	11	lib/export_generator.rb
+0	1	spec/lib/export_generator_spec.rb
+
+--76b94f55--2011-10-11--Bruce Lee
+--a4bd6f15--2011-09-27--Bruce Lee
+1	1	app/controllers/children_controller.rb
+16	5	lib/export_generator.rb
+65	48	spec/lib/export_generator_spec.rb

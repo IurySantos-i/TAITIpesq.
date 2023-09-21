@@ -1,0 +1,85 @@
+--e4301c8cb--2014-03-03--Juho Makkonen
+--7bed93496--2014-03-03--Antti Virolainen
+--f43e52f87--2014-03-03--Antti Virolainen
+--d257f74d8--2014-03-03--Antti Virolainen
+8	7	CONTRIBUTING.md
+
+--cf9001e64--2014-03-03--Mikko Koski
+44	0	config/locales/ca.yml
+44	0	config/locales/cs.yml
+45	1	config/locales/de-bl.yml
+44	0	config/locales/de-rc.yml
+57	0	config/locales/de.yml
+3	3	config/locales/devise.es.yml
+45	1	config/locales/el.yml
+44	0	config/locales/en-at.yml
+44	0	config/locales/en-bd.yml
+44	0	config/locales/en-bf.yml
+44	0	config/locales/en-bl.yml
+44	0	config/locales/en-cf.yml
+44	0	config/locales/en-qr.yml
+44	0	config/locales/en-rc.yml
+44	0	config/locales/en-sb.yml
+44	0	config/locales/en-ul.yml
+44	0	config/locales/en-un.yml
+44	0	config/locales/en-vg.yml
+44	0	config/locales/es-ES.yml
+44	0	config/locales/es-rc.yml
+46	2	config/locales/es.yml
+21	26	config/locales/fi.yml
+44	0	config/locales/fr-at.yml
+44	0	config/locales/fr-bd.yml
+44	0	config/locales/fr-rc.yml
+62	5	config/locales/fr.yml
+44	0	config/locales/hr.yml
+44	0	config/locales/hu.yml
+44	0	config/locales/it.yml
+44	0	config/locales/lv.yml
+44	0	config/locales/nl.yml
+44	0	config/locales/pt-BR.yml
+44	0	config/locales/ro.yml
+44	0	config/locales/ru.yml
+44	0	config/locales/sv.yml
+44	0	config/locales/sw.yml
+44	0	config/locales/vi.yml
+44	0	config/locales/zh.yml
+
+--ade61f9cc--2014-03-03--Mikko Koski
+--39eae8c5b--2014-03-03--Mikko Koski
+2	2	CONTRIBUTING.md
+
+--6a21e3312--2014-03-03--Mikko Koski
+24	0	CONTRIBUTING.md
+
+--d5998f6f4--2014-03-03--Mikko Koski
+--b4d69dece--2014-03-03--Mikko Koski
+3	0	features/invitations/user_joins_invite_only_community.feature
+1	1	features/step_definitions/wait_steps.rb
+
+--53b1a94b1--2014-03-02--Antti Virolainen
+--152faf3c2--2014-03-02--Mikko Koski
+3	3	app/controllers/admin/communities_controller.rb
+
+--56c448d85--2014-03-02--Juho Makkonen
+1	1	app/controllers/admin/communities_controller.rb
+2	2	app/views/admin/communities/manage_members.haml
+1	0	config/locales/en.yml
+1	0	config/locales/fi.yml
+3	2	features/admin/manage_members/admin_lists_members.feature
+12	4	features/step_definitions/admin_manage_members_steps.rb
+
+--ee26953fa--2014-03-02--Mikko Koski
+1	1	app/controllers/community_memberships_controller.rb
+2	1	app/models/person.rb
+
+--4309bdb4d--2014-03-02--Antti Virolainen
+1	0	app/models/community.rb
+5	70	app/models/statistic.rb
+15	9	db/migrate/20140301074143_fill_community_id_for_old_conversations.rb
+1	2	db/schema.rb
+
+--a9ab2ec0a--2014-03-01--Mikko Koski
+--47ec571bb--2014-03-01--Antti Virolainen
+--042e0a651--2014-03-01--Antti Virolainen
+53	71	app/models/statistic.rb
+24	0	db/migrate/20140301074143_fill_community_id_for_old_conversations.rb

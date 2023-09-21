@@ -1,0 +1,4 @@
+entity,coupled,degree,average-revs
+app/views/layouts/advocate.html.haml,app/views/layouts/case_worker.html.haml,100,6
+app/views/layouts/application.html.haml,app/views/layouts/case_worker.html.haml,100,6
+app/views/layouts/advocate.html.haml,app/views/layouts/application.html.haml,100,6

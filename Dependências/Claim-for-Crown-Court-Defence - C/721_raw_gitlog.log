@@ -1,0 +1,154 @@
+--4b678a5e4--2016-04-19--Chris Hanes
+--5d083ec67--2016-04-19--Chris Hanes
+3	3	features/advocate_admin_trial_claim_edit_submit.feature
+2	2	features/advocate_claim_draft_edit_submit.feature
+3	3	features/advocate_contempt_claim_edit_submit.feature
+1	1	features/allocation.feature
+1	0	features/step_definitions/advocate_new_claim_steps.rb
+1	3	features/support/select2_helper.rb
+
+--2e672a50d--2016-04-18--Chris Hanes
+2	2	features/page_objects/claim_form_page.rb
+3	20	features/support/select2_helper.rb
+
+--41900b76c--2016-04-18--Chris Hanes
+1	1	features/advocate_admin_trial_claim_edit_submit.feature
+1	1	features/advocate_contempt_claim_edit_submit.feature
+1	1	features/allocation.feature
+18	10	features/support/select2_helper.rb
+
+--5378eeb97--2016-04-15--Chris Hanes
+1	1	app/form_builders/adp_form_builder.rb
+0	30	spec/form_builders/adp_form_builder_spec.rb
+
+--a34f81d6c--2016-04-15--Chris Hanes
+3	2	spec/form_builders/adp_form_builder_spec.rb
+
+--292d0af09--2016-04-15--Chris Hanes
+0	1	spec/form_builders/adp_form_builder_spec.rb
+
+--0975adb95--2016-04-15--Chris Hanes
+1	1	spec/form_builders/adp_form_builder_spec.rb
+
+--15e17a4bf--2016-04-15--Chris Hanes
+3	3	spec/form_builders/adp_form_builder_spec.rb
+
+--a113ebc58--2016-04-15--Chris Hanes
+1	1	app/views/external_users/claims/case_details/_fields.html.haml
+
+--d0f5bf75c--2016-04-15--Chris Hanes
+1	1	app/assets/javascripts/modules/external_users/claims/NewClaim.js
+
+--16eca9cee--2016-04-14--Chris Hanes
+11	4	app/assets/javascripts/modules/autocomplete.js
+1	1	app/assets/javascripts/modules/external_users/claims/NewClaim.js
+
+--3ee20ee8d--2016-04-15--Chris Hanes
+1	1	app/assets/javascripts/modules/autocomplete.js
+
+--55f8b5442--2016-04-15--Chris Hanes
+1	1	app/assets/javascripts/modules/autocomplete.js
+
+--7028198f6--2016-04-15--Chris Hanes
+1	3	app/assets/javascripts/application.js
+30	30	app/assets/javascripts/modules/autocomplete.js
+2	3	app/assets/javascripts/modules/external_users/claims/NewClaim.js
+0	13	app/assets/javascripts/modules/external_users/claims/Select2.js
+2	2	app/views/case_workers/admin/allocations/_allocation.html.haml
+1	1	app/views/case_workers/admin/allocations/_re_allocation.html.haml
+1	1	app/views/external_users/claims/case_details/_offence_id_select.html.haml
+1	1	app/views/external_users/claims/disbursements/_disbursement_fields.html.haml
+1	1	app/views/external_users/claims/fixed_fees/_fixed_fee_fields.html.haml
+1	1	app/views/external_users/claims/fixed_fees/litigators/_fields.html.haml
+1	1	app/views/external_users/claims/misc_fees/_misc_fee_fields.html.haml
+0	3	app/views/offences/index.js.erb
+
+--77ddbf6d1--2016-04-14--Chris Hanes
+2	1	app/assets/javascripts/application.js
+65	0	app/assets/javascripts/modules/autocomplete.js
+2	1	app/assets/javascripts/modules/external_users/claims/NewClaim.js
+1	0	app/assets/stylesheets/application.css.scss
+42	0	app/assets/stylesheets/moj/_autocomplete.scss
+1	1	app/form_builders/adp_form_builder.rb
+1	1	app/views/external_users/claims/case_details/_case_owner_select.html.haml
+5	5	app/views/external_users/claims/case_details/_fields.html.haml
+1	1	app/views/external_users/claims/case_details/_offence_select.html.haml
+1	1	app/views/external_users/claims/misc_fees/_misc_fee_fields.html.haml
+439	0	vendor/assets/javascripts/awesomplete.js
+
+--fa03fd350--2016-04-19--Chris Hanes
+3	3	features/advocate_admin_trial_claim_edit_submit.feature
+2	2	features/advocate_claim_draft_edit_submit.feature
+3	3	features/advocate_contempt_claim_edit_submit.feature
+1	1	features/allocation.feature
+1	0	features/step_definitions/advocate_new_claim_steps.rb
+1	3	features/support/select2_helper.rb
+
+--cb9d0644c--2016-04-18--Chris Hanes
+2	2	features/page_objects/claim_form_page.rb
+3	20	features/support/select2_helper.rb
+
+--3cf547f32--2016-04-18--Chris Hanes
+1	1	features/advocate_admin_trial_claim_edit_submit.feature
+1	1	features/advocate_contempt_claim_edit_submit.feature
+1	1	features/allocation.feature
+18	10	features/support/select2_helper.rb
+
+--e1fe2d38a--2016-04-15--Chris Hanes
+1	1	app/form_builders/adp_form_builder.rb
+0	30	spec/form_builders/adp_form_builder_spec.rb
+
+--66ebdc10c--2016-04-15--Chris Hanes
+3	2	spec/form_builders/adp_form_builder_spec.rb
+
+--e40c40ec8--2016-04-15--Chris Hanes
+0	1	spec/form_builders/adp_form_builder_spec.rb
+
+--d8f5091aa--2016-04-15--Chris Hanes
+1	1	spec/form_builders/adp_form_builder_spec.rb
+
+--5ed5bff12--2016-04-15--Chris Hanes
+3	3	spec/form_builders/adp_form_builder_spec.rb
+
+--0674feb18--2016-04-15--Chris Hanes
+1	1	app/views/external_users/claims/case_details/_fields.html.haml
+
+--d66f6c25a--2016-04-15--Chris Hanes
+1	1	app/assets/javascripts/modules/external_users/claims/NewClaim.js
+
+--0d4221083--2016-04-14--Chris Hanes
+11	4	app/assets/javascripts/modules/autocomplete.js
+1	1	app/assets/javascripts/modules/external_users/claims/NewClaim.js
+
+--4045ca7cc--2016-04-15--Chris Hanes
+1	1	app/assets/javascripts/modules/autocomplete.js
+
+--56537d971--2016-04-15--Chris Hanes
+1	1	app/assets/javascripts/modules/autocomplete.js
+
+--7b4e15cbf--2016-04-15--Chris Hanes
+1	3	app/assets/javascripts/application.js
+30	30	app/assets/javascripts/modules/autocomplete.js
+2	3	app/assets/javascripts/modules/external_users/claims/NewClaim.js
+0	13	app/assets/javascripts/modules/external_users/claims/Select2.js
+2	2	app/views/case_workers/admin/allocations/_allocation.html.haml
+1	1	app/views/case_workers/admin/allocations/_re_allocation.html.haml
+1	1	app/views/external_users/claims/case_details/_offence_id_select.html.haml
+1	1	app/views/external_users/claims/disbursements/_disbursement_fields.html.haml
+1	1	app/views/external_users/claims/fixed_fees/_fixed_fee_fields.html.haml
+1	1	app/views/external_users/claims/fixed_fees/litigators/_fields.html.haml
+1	1	app/views/external_users/claims/misc_fees/_misc_fee_fields.html.haml
+0	3	app/views/offences/index.js.erb
+
+--7804c5d97--2016-04-14--Chris Hanes
+2	1	app/assets/javascripts/application.js
+65	0	app/assets/javascripts/modules/autocomplete.js
+2	1	app/assets/javascripts/modules/external_users/claims/NewClaim.js
+1	0	app/assets/stylesheets/application.css.scss
+42	0	app/assets/stylesheets/moj/_autocomplete.scss
+1	1	app/form_builders/adp_form_builder.rb
+1	1	app/views/external_users/claims/case_details/_case_owner_select.html.haml
+4	4	app/views/external_users/claims/case_details/_fields.html.haml
+1	1	app/views/external_users/claims/case_details/_offence_select.html.haml
+1	1	app/views/external_users/claims/misc_fees/_misc_fee_fields.html.haml
+439	0	vendor/assets/javascripts/awesomplete.js

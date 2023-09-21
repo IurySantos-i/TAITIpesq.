@@ -1,0 +1,49 @@
+--a705a83e4--2011-07-29--Enigel
+--c6a005112--2011-07-29--Enigel
+--85be6f23b--2011-07-28--Enigel
+--c653bf5e6--2011-07-28--Enigel
+--48cec2b72--2011-07-28--Rebecca
+1	1	app/controllers/challenge_signups_controller.rb
+12	0	features/challenge_giftexchange.feature
+21	1	features/challenge_promptmeme.feature
+7	0	features/step_definitions/web_steps.rb
+4	0	features/support/paths.rb
+
+--6aab0a160--2011-07-28--Rebecca
+66	26	app/controllers/challenge_signups_controller.rb
+6	51	app/controllers/prompts_controller.rb
+1	1	app/views/challenge/prompt_meme/_challenge_requests.html.erb
+7	12	app/views/challenge/prompt_meme/_challenge_signups.html.erb
+
+--87a48b2bf--2011-07-27--Rebecca
+65	29	app/controllers/challenge_signups_controller.rb
+2	2	app/views/challenge/gift_exchange/_challenge_signups.html.erb
+3	0	config/initializers/mime_types.rb
+
+--6b4789317--2011-07-28--Enigel
+--73e8c8a6e--2011-07-11--Cesy
+39	0	features/step_definitions/work_search_steps.rb
+29	17	features/work_search.feature
+
+--1e4928c6c--2011-07-19--Cesy
+1	1	app/models/challenge_signup.rb
+1	1	app/models/prompt.rb
+
+--f623e849c--2011-07-16--Cesy
+1	1	app/models/challenge_signup.rb
+1	1	app/sweepers/challenge_signup_sweeper.rb
+0	52	app/sweepers/prompt_sweeper.rb
+1	2	app/views/challenge/prompt_meme/_challenge_signups.html.erb
+
+--3b7269bbb--2011-07-16--Cesy
+52	0	app/sweepers/prompt_sweeper.rb
+
+--3fbfaf71d--2011-07-23--maryann573
+1	0	app/views/users/change_email.html.erb
+1	0	app/views/users/change_password.html.erb
+
+--e7ff2221f--2011-07-20--Gabriele Schulz
+1	1	app/views/bookmarks/_bookmark_full_info.html.erb
+10	0	app/views/bookmarks/_series_bookmark.html.erb
+39	28	app/views/bookmarks/_work_bookmark.html.erb
+2	4	features/collection_anonymity.feature

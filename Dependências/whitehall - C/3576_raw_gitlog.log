@@ -1,0 +1,66 @@
+--9993726365--2013-03-08--Murray Steele
+--dcf361d413--2013-03-08--Tekin Suleyman
+27	15	lib/whitehall/exporters/document_mappings.rb
+32	0	test/unit/whitehall/exporters/document_mappings_test.rb
+
+--dcc0ef8396--2013-03-07--Tekin Suleyman
+11	2	lib/whitehall/uploader/speech_row.rb
+23	9	test/unit/uploader/speech_row_test.rb
+
+--2ca3254168--2013-03-07--Tekin Suleyman
+1	1	app/models/document_source.rb
+1	0	app/models/import.rb
+5	0	db/migrate/20130307174608_add_locale_to_document_source.rb
+3	2	db/schema.rb
+
+--a0c4613660--2013-03-08--Murray Steele
+--1ec168b133--2013-03-07--Tekin Suleyman
+3	0	app/models/import.rb
+63	25	test/unit/import_test.rb
+
+--eeca2d0b51--2013-03-08--Murray Steele
+4	0	app/models/world_location.rb
+4	0	app/models/world_location_type.rb
+1	1	app/views/admin/contacts/_form_fields.html.erb
+22	0	test/unit/world_location_test.rb
+4	0	test/unit/world_location_type_test.rb
+
+--a7cc4c22ea--2013-03-06--Matthew Ford
+2	0	test/functional/admin/case_studies_controller_test.rb
+
+--97ba38d770--2013-03-06--Matthew Ford
+2	0	app/models/case_study.rb
+2	0	app/views/admin/case_studies/_form.html.erb
+
+--d11ae2ca5f--2013-03-08--Bradley Wright
+1	1	config/locales/es-419.yml
+
+--612a643805--2013-03-08--Bradley Wright
+--18757eecdf--2013-03-07--Tekin Suleyman
+9	0	lib/whitehall/uploader/news_article_row.rb
+12	1	test/unit/uploader/news_article_row_test.rb
+
+--309778a83e--2013-03-07--Tekin Suleyman
+29	0	lib/whitehall/uploader/row.rb
+39	0	test/unit/uploader/row_test.rb
+
+--55f5ecc8a9--2013-03-07--Tekin Suleyman
+32	3	lib/whitehall/uploader/heading_validator.rb
+28	0	test/unit/uploader/heading_validator_test.rb
+
+--c56cfc148b--2013-03-07--Tekin Suleyman
+9	0	features/importing-new-editions.feature
+5	0	features/step_definitions/import_steps.rb
+
+--0cd6fd5789--2013-03-07--Murray Steele
+4	0	app/models/world_location_news_article.rb
+6	0	test/unit/world_location_news_article_test.rb
+
+--b7077fe6e0--2013-03-07--Murray Steele
+0	4	app/models/news_article.rb
+5	0	app/models/newsesque.rb
+24	0	test/unit/world_location_news_article_test.rb
+
+--827a3ecb92--2013-03-07--Murray Steele
+1	1	config/routes.rb
+5	0	test/integration/localised_routing_test.rb

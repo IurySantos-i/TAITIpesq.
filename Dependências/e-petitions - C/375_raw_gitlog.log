@@ -1,0 +1,78 @@
+--30ac3d90--2015-06-10--Murray Steele
+--7ac84462--2015-06-10--Murray Steele
+--fbad5658--2015-06-10--David Basalla
+7	7	app/lib/constituency_api.rb
+1	1	app/models/signature.rb
+4	4	spec/lib/constituency_api_spec.rb
+1	1	spec/models/signature_spec.rb
+
+--8f90740c--2015-06-09--David Basalla
+6	0	app/views/signatures/signed.html.erb
+
+--7773c362--2015-06-09--David Basalla
+25	8	app/lib/constituency_api.rb
+
+--e96eabba--2015-06-09--David Basalla
+3	5	features/step_definitions/signature_steps.rb
+103	0	spec/fixtures/constituency_api/N1.xml
+22	0	spec/fixtures/constituency_api/N11TY.xml
+22	0	spec/fixtures/constituency_api/N1C4QP.xml
+1	0	spec/fixtures/constituency_api/no_results.xml
+42	33	spec/lib/constituency_api_spec.rb
+
+--492a4e8d--2015-06-08--David Basalla
+17	0	features/step_definitions/petition_steps.rb
+3	0	features/suzie_signs_a_petition.feature
+
+--353a37c6--2015-06-10--Alexander Bobin
+--05f360a5--2015-06-10--Andrew White
+0	2	Gemfile
+0	3	Gemfile.lock
+3	5	features/step_definitions/time_steps.rb
+0	4	features/support/hooks.rb
+4	8	spec/lib/email_reminder_spec.rb
+
+--8908a9d2--2015-06-10--Otto Laitila
+2	1	app/helpers/search_helper.rb
+
+--4cc82f58--2015-06-10--Otto Laitila
+5	0	app/controllers/petitions_controller.rb
+6	0	features/step_definitions/inspection_steps.rb
+5	0	features/step_definitions/petition_steps.rb
+12	0	features/suzie_views_all_petitions.feature
+
+--f50041ad--2015-06-10--Otto Laitila
+1	1	app/decorators/petition_search.rb
+2	2	features/suzie_searches_by_free_text.feature
+
+--3dc8d8cf--2015-06-09--Otto Laitila
+33	0	app/assets/stylesheets/petitions/views/_shared.scss
+11	0	app/helpers/search_helper.rb
+3	1	app/views/search/_result_list_footer.html.erb
+
+--f388e972--2015-06-09--Otto Laitila
+23	0	app/assets/stylesheets/petitions/_icons.scss
+-	-	public/images/icons/icon_paginate-next-2x.png
+-	-	public/images/icons/icon_paginate-next.png
+-	-	public/images/icons/icon_paginate-previous-2x.png
+-	-	public/images/icons/icon_paginate-previous.png
+
+--c1b947bf--2015-06-09--Otto Laitila
+20	0	app/assets/stylesheets/petitions/views/_search.scss
+1	0	app/assets/stylesheets/site.scss
+0	10	app/helpers/application_helper.rb
+14	16	app/helpers/search_helper.rb
+25	39	app/views/archived/petitions/search.html.erb
+6	4	app/views/petitions/index.html.erb
+4	0	app/views/search/_filter_nav.html.erb
+0	2	app/views/search/_result_list_header.html.erb
+0	18	app/views/search/_result_tabs.html.erb
+7	13	app/views/search/_results.html.erb
+10	41	app/views/search/_results_table.html.erb
+2	1	app/views/search/search.html.erb
+3	4	features/joe_searches_for_an_archived_petition.feature
+2	6	features/step_definitions/inspection_steps.rb
+1	2	features/step_definitions/petition_steps.rb
+1	5	features/step_definitions/search_steps.rb
+40	109	features/suzie_searches_by_free_text.feature
+18	0	spec/helpers/search_helper_spec.rb

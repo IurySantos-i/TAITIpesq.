@@ -1,0 +1,99 @@
+--8fe9858403--2013-09-26--Bradley Wright
+--e6e9b1ef85--2013-09-26--Elliot Crosby-McCullough
+6	0	app/controllers/admin/detailed_guides_controller.rb
+1	1	app/views/admin/editions/_user_needs_fields.html.erb
+
+--1a78dbb6a1--2013-09-26--Elliot Crosby-McCullough
+7	8	app/assets/javascripts/admin/user_needs.js
+1	1	app/models/edition/user_needs.rb
+0	2	app/models/organisation.rb
+1	1	app/models/user_need.rb
+3	0	db/migrate/20130919121241_create_detailed_guide_user_needs.rb
+4	0	db/schema.rb
+
+--1cbda16931--2013-09-26--Elliot Crosby-McCullough
+0	1	Gemfile
+
+--8a02c9e7be--2013-09-24--Elliot Crosby-McCullough
+5	2	test/functional/admin/detailed_guides_controller_test/national_applicability_test.rb
+
+--c0c3ac22b5--2013-09-24--Elliot Crosby-McCullough
+8	0	app/assets/javascripts/admin/user_needs.js
+4	0	app/models/user_need.rb
+6	3	app/views/admin/editions/_user_needs_fields.html.erb
+
+--45de04ca9c--2013-09-24--Elliot Crosby-McCullough
+17	0	app/assets/javascripts/admin/user_needs.js
+5	0	app/assets/stylesheets/admin/user_needs.scss
+
+--f2158e6ac4--2013-09-23--Elliot Crosby-McCullough
+1	1	test/factories/user_needs.rb
+
+--9b52046086--2013-09-23--Elliot Crosby-McCullough
+1	1	app/models/organisation.rb
+
+--932fc6d00c--2013-09-23--Elliot Crosby-McCullough
+19	0	app/assets/stylesheets/admin/user_needs.scss
+1	0	app/helpers/admin/editions_helper.rb
+4	0	app/models/edition/user_needs.rb
+0	19	app/views/admin/detailed_guides/_form.html.erb
+23	0	app/views/admin/editions/_user_needs_fields.html.erb
+
+--a7ae2208de--2013-09-23--Elliot Crosby-McCullough
+1	1	app/assets/stylesheets/admin/user_needs.scss
+19	0	app/helpers/admin/editions_helper.rb
+2	2	app/models/edition/user_needs.rb
+2	0	app/models/organisation.rb
+4	0	app/models/user_need.rb
+13	6	app/views/admin/detailed_guides/_form.html.erb
+4	7	features/detailed-guide-user-need-capture.feature
+6	6	features/detailed-guides.feature
+7	2	features/step_definitions/detailed_guide_user_need_steps.rb
+1	0	test/factories/user_needs.rb
+10	0	test/unit/detailed_guide_test.rb
+
+--afa05e337c--2013-09-20--Elliot Crosby-McCullough
+1	0	app/assets/stylesheets/admin/base.scss
+13	0	app/assets/stylesheets/admin/user_needs.scss
+1	0	app/models/detailed_guide.rb
+22	0	app/models/edition/user_needs.rb
+4	0	app/models/edition_user_need.rb
+3	0	app/models/user_need.rb
+12	0	app/views/admin/detailed_guides/_form.html.erb
+22	0	db/migrate/20130919121241_create_detailed_guide_user_needs.rb
+16	0	db/schema.rb
+22	0	features/detailed-guide-user-need-capture.feature
+11	0	features/step_definitions/detailed_guide_steps.rb
+10	0	features/step_definitions/detailed_guide_user_need_steps.rb
+4	0	test/factories/detailed_guides.rb
+7	0	test/factories/user_needs.rb
+4	3	test/functional/admin/detailed_guides_controller_test.rb
+3	2	test/support/admin_edition_controller_test_helpers.rb
+
+--8d0f264912--2013-09-20--Elliot Crosby-McCullough
+1	0	Gemfile
+
+--82dae778f2--2013-09-26--Bradley Wright
+--06b7573859--2013-09-26--Tekin Suleyman
+--3bf541f472--2013-09-26--Tekin Suleyman
+19	0	db/data_migration/20130926091146_fix_broken_first_published_at_timestamps.rb
+
+--6e0ffb2435--2013-09-23--Matthew Ford
+1	4	app/models/unpublishing.rb
+1	1	test/unit/unpublishing_test.rb
+
+--6bb9fe1d85--2013-09-20--Matthew Ford
+1	1	app/models/unpublishing.rb
+
+--f002b82b85--2013-09-17--Matthew Ford
+1	1	app/controllers/admin/edition_workflow_controller.rb
+8	2	app/models/edition/publishing.rb
+17	0	app/models/unpublishing.rb
+1	1	test/functional/admin/edition_workflow_controller_test.rb
+18	8	test/unit/edition/publishing_test.rb
+1	1	test/unit/edition/searchable_test.rb
+2	2	test/unit/edition_test.rb
+1	1	test/unit/policy_search_index_observer_test.rb
+1	1	test/unit/supporting_page_search_index_observer_test.rb
+8	0	test/unit/unpublishing_test.rb
+1	0	test/unit/whitehall/exporters/document_mappings_test.rb

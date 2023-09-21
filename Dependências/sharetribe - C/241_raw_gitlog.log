@@ -1,0 +1,95 @@
+--50243779f--2018-08-15--Aivils Štoss
+--9a78ab94a--2018-08-15--Luis-RG
+23	0	CHANGELOG.md
+
+--295161637--2018-08-14--Vesa Vahermaa
+--8f162e3f3--2018-08-14--Schwerbelastung
+1	1	app/views/landing_page/_icon.erb
+
+--f09ec2325--2018-08-14--Schwerbelastung
+9	0	app/views/landing_page/_icon.erb
+
+--f109a692f--2018-08-10--Luis-RG
+6	6	config/locales/ru.yml
+
+--9fd668aae--2018-08-09--Aivils Štoss
+--b1acf0033--2018-08-08--Aivils Štoss
+9	2	app/assets/javascripts/kassi.js
+13	0	features/people/user_creates_a_new_account.feature
+
+--1792226a4--2018-08-07--Luis-RG
+5	5	app/assets/javascripts/locales/lv.json
+1	0	config/locales/ab.yml
+1	0	config/locales/ar.yml
+1	0	config/locales/bg.yml
+1	0	config/locales/bn-BD.yml
+1	0	config/locales/ca.yml
+1	0	config/locales/cs.yml
+1	0	config/locales/da-DK.yml
+1	0	config/locales/de.yml
+1	1	config/locales/devise.lv.yml
+1	0	config/locales/el.yml
+1	0	config/locales/en-AU.yml
+1	0	config/locales/en-GB.yml
+1	0	config/locales/en-NZ.yml
+1	0	config/locales/eo.yml
+1	0	config/locales/es-ES.yml
+1	0	config/locales/es.yml
+1	0	config/locales/et.yml
+1	0	config/locales/eu-ES.yml
+1	0	config/locales/fi.yml
+1	0	config/locales/fr-CA.yml
+1	0	config/locales/fr.yml
+1	0	config/locales/he-IL.yml
+1	0	config/locales/hi-IN.yml
+6	5	config/locales/hr.yml
+1	0	config/locales/hu.yml
+1	0	config/locales/hy-AM.yml
+1	0	config/locales/id.yml
+1	0	config/locales/is.yml
+1	0	config/locales/it.yml
+1	0	config/locales/ja.yml
+1	0	config/locales/ka.yml
+1	0	config/locales/km-KH.yml
+1	0	config/locales/ko.yml
+213	212	config/locales/lv.yml
+1	0	config/locales/mn.yml
+1	0	config/locales/ms-MY.yml
+1	0	config/locales/nb.yml
+1	0	config/locales/nl.yml
+1	0	config/locales/pl.yml
+1	0	config/locales/pt-BR.yml
+1	0	config/locales/pt-PT.yml
+1	0	config/locales/ro.yml
+1	0	config/locales/ru.yml
+1	0	config/locales/sk-SK.yml
+1	0	config/locales/sl.yml
+1	0	config/locales/sq-AL.yml
+1	0	config/locales/sr.yml
+2	1	config/locales/sv.yml
+1	0	config/locales/sw.yml
+1	0	config/locales/ta-IN.yml
+169	155	config/locales/th-TH.yml
+1	0	config/locales/ti.yml
+1	0	config/locales/tr-TR.yml
+1	0	config/locales/uk.yml
+1	0	config/locales/vi.yml
+1	0	config/locales/zh-HK.yml
+1	0	config/locales/zh-TW.yml
+1	0	config/locales/zh.yml
+
+--9d96cefd5--2018-07-30--Aivils Štoss
+14	5	app/assets/javascripts/kassi.js
+10	0	app/assets/stylesheets/main.scss
+1	1	app/models/custom_field_values/numeric_field_value.rb
+1	1	app/models/custom_field_values/text_field_value.rb
+16	15	app/views/people/show.haml
+3	2	app/views/settings/custom_fields/_checkbox.haml
+1	1	app/views/settings/custom_fields/_date_field.haml
+1	1	app/views/settings/custom_fields/_dropdown.haml
+1	1	app/views/settings/custom_fields/_numeric.haml
+2	1	app/views/settings/custom_fields/_text.haml
+17	0	features/settings/user_updates_profile_information.feature
+14	8	spec/models/numeric_field_value_spec.rb
+12	6	spec/models/text_field_value_spec.rb
+26	6	vendor/assets/javascripts/jquery.validate.js

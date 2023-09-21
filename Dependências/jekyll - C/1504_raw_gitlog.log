@@ -1,0 +1,48 @@
+--c8a715d09--2014-05-06--Parker Moore
+--79fb58713--2014-05-06--Parker Moore
+1	0	History.markdown
+
+--6f336c182--2014-05-06--Parker Moore
+--5bf409835--2014-05-06--Parker Moore
+1	0	History.markdown
+
+--0087143b8--2014-05-06--Parker Moore
+--3755437d0--2014-05-06--Parker Moore
+12	0	features/collections.feature
+1	1	lib/jekyll/site.rb
+
+--d002ebd37--2014-05-05--kzykbys
+1	0	site/docs/plugins.md
+
+--851d17e02--2014-05-05--Parker Moore
+1	0	History.markdown
+
+--cb22320ae--2014-05-04--Parker Moore
+1	0	History.markdown
+
+--d42ced5aa--2014-05-04--Parker Moore
+--fc98f06ed--2014-05-04--Parker Moore
+1	7	lib/jekyll/site.rb
+
+--54b74fafb--2014-05-04--Parker Moore
+9	0	lib/jekyll/document.rb
+1	0	lib/jekyll/site.rb
+
+--a2169bf0c--2014-05-04--Parker Moore
+8	2	lib/jekyll/site.rb
+
+--a0bbf7703--2014-04-27--Ben Balter
+9	4	lib/site_template/_config.yml
+9	9	lib/site_template/_includes/footer.html
+3	3	lib/site_template/_includes/head.html
+5	4	lib/site_template/_includes/header.html
+2	1	lib/site_template/{about/index.md => about.md}
+5	5	lib/site_template/feed.xml
+6	3	lib/site_template/index.html
+0	14	lib/site_template/projects/index.md
+
+--94ccd42c7--2014-05-05--TheTomThorogood
+8	0	site/docs/permalinks.md
+
+--f2849ac26--2014-05-05--TheTomThorogood
+1	0	lib/jekyll/post.rb

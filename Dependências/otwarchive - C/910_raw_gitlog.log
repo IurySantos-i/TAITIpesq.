@@ -1,0 +1,816 @@
+--5588a63be--2014-07-29--Cristina
+--c52308963--2014-07-29--Cristina
+--d6930060e--2014-07-29--Cristina
+--2861d4621--2014-07-27--Elz
+--357f9e42e--2014-07-27--Cristina
+--8ed0f4b67--2014-07-26--elz
+2	4	app/views/owned_tag_sets/_navigation.html.erb
+1	1	app/views/tag_set_nominations/confirm_destroy_multiple.html.erb
+1	1	config/routes.rb
+
+--2e5f7c2f5--2014-07-26--elz
+1	1	app/views/tag_set_nominations/confirm_destroy_multiple.html.erb
+
+--252aecdd1--2014-07-25--sarken
+--2afe8ec9d--2014-07-25--Scott D. Sullivan
+1	1	app/helpers/works_helper.rb
+
+--96f1caf9e--2014-07-24--Cristina
+--5b2042f74--2014-07-24--Cristina
+--4e5b6b135--2014-07-24--sarken
+7	7	app/helpers/tag_sets_helper.rb
+
+--899b8af26--2014-07-23--Scott D. Sullivan
+1	1	app/views/challenge_signups/_signup_form.html.erb
+
+--a0b479497--2014-07-23--Scott D. Sullivan
+1	1	app/views/challenge_signups/_signup_form.html.erb
+
+--a7ea4cadc--2014-07-23--Scott D. Sullivan
+1	1	app/views/challenge_signups/_signup_form.html.erb
+
+--97dc2d8a1--2014-07-21--Cristina
+--9aac889d7--2014-07-21--sarken
+4	2	features/other/subscriptions.feature
+
+--b0017d46f--2014-07-20--sarken
+8	2	app/views/subscriptions/index.html.erb
+
+--174b359da--2014-07-19--zz9pzza
+1	1	Gemfile
+
+--7c61736b2--2014-07-19--zz9pzza
+--9e15082b6--2014-07-19--Enigel
+4	11	app/controllers/serial_works_controller.rb
+
+--e0bf0e79f--2014-07-19--Cristina
+--d88c20398--2014-07-19--sarken
+--47cdeddb0--2014-07-19--sarken
+--e65a719ce--2014-07-19--Cristina
+--30a78ed8c--2014-07-19--Cristina
+--3677d6328--2014-07-15--Scott D. Sullivan
+2	2	features/tags_and_wrangling/tag_set.feature
+
+--b122fec68--2014-07-15--Scott D. Sullivan
+1	1	app/views/owned_tag_sets/confirm_delete.html.erb
+
+--875314775--2014-07-15--Cristina
+--8f21733fc--2014-07-15--Cristina
+--ff4362e33--2014-07-15--Cristina
+--f03b3e7e6--2014-07-15--Cristina
+--a5f71a559--2014-07-14--Elz
+--84d8b0f48--2014-07-14--zz9pzza
+18	1	lib/tasks/indexing.rake
+
+--c01a1a0bd--2014-07-13--sarken
+--946550a14--2014-07-13--Cristina
+--acd50e36d--2014-07-13--Cristina
+--0aaefd173--2014-07-13--james_
+0	1	app/views/layouts/barebones.html.erb
+
+--7bd6a7236--2014-07-13--zz9pzza
+--127dbd51e--2014-07-13--Cristina
+--6ff1ad754--2014-07-12--Scott D. Sullivan
+1	1	app/controllers/works_controller.rb
+
+--fa6d3ef05--2014-07-11--sarken
+--aa5983a8a--2014-07-11--Elz
+--e8595f309--2014-07-12--sarken
+1	1	app/controllers/subscriptions_controller.rb
+
+--8cba46a3e--2014-07-12--sarken
+5	14	app/controllers/subscriptions_controller.rb
+
+--615924994--2014-07-11--Scott D. Sullivan
+4	0	features/works/work_view.feature
+
+--187db2b01--2014-07-12--sarken
+--ec941cecb--2014-07-11--Scott D. Sullivan
+1	1	app/controllers/chapters_controller.rb
+6	2	features/works/work_view.feature
+
+--c6a2dcaa0--2014-07-11--Scott D. Sullivan
+3	3	app/models/work.rb
+17	0	features/collections/collectible.feature
+
+--1afe07c48--2014-07-11--Scott D. Sullivan
+1	1	app/controllers/chapters_controller.rb
+1	1	app/controllers/works_controller.rb
+
+--ecdfdc71e--2014-07-11--james_
+2	8	lib/tasks/indexing.rake
+
+--c333a41f5--2014-07-11--Cristina
+--366a387e1--2014-07-11--sarken
+0	4	public/stylesheets/site/2.0/11-group-listbox.css
+
+--d2b07cf18--2014-07-11--sarken
+1	1	features/works/work_search.feature
+
+--1e7da771f--2014-07-11--sarken
+1	1	app/controllers/subscriptions_controller.rb
+
+--7a4d6edad--2014-07-11--sarken
+6	3	app/views/subscriptions/index.html.erb
+
+--96f452256--2014-07-11--sarken
+2	0	app/controllers/subscriptions_controller.rb
+
+--c9452ffc1--2014-07-11--sarken
+50	23	features/other/subscriptions.feature
+
+--675725177--2014-07-11--sarken
+1	1	app/views/subscriptions/index.html.erb
+
+--531e460c4--2014-07-11--sarken
+11	8	app/controllers/subscriptions_controller.rb
+41	54	app/views/subscriptions/index.html.erb
+
+--a17340721--2014-07-10--Elz
+--5ae56c4bd--2014-07-10--Cristina
+--bde7b11de--2014-07-09--sarken
+1	1	app/views/works/_work_module.html.erb
+
+--ef7719558--2014-07-09--Cristina
+--255fdd1ac--2014-07-08--james_
+2	1	app/models/redis_search_index_queue.rb
+19	0	lib/tasks/indexing.rake
+
+--13b49984a--2014-07-08--sarken
+--7be74effb--2014-07-08--sarken
+1	1	config/config.yml
+
+--c643e4d44--2014-07-08--sarken
+1	1	app/helpers/search_helper.rb
+
+--8e23777c6--2014-07-06--sarken
+--a9013429b--2014-07-07--Cristina
+--026b0e7eb--2014-07-07--sarken
+2	2	features/works/work_create.feature
+
+--bf05eedbf--2014-07-07--Cristina
+--791352042--2014-07-06--Cristina
+--41a787732--2014-07-06--Scott D. Sullivan
+1	1	features/step_definitions/work_steps.rb
+
+--bacdc8734--2014-07-06--Scott D. Sullivan
+6	0	features/step_definitions/work_steps.rb
+6	0	features/works/work_view.feature
+
+--8726a753f--2014-07-06--Cristina
+--394bfbc11--2014-07-06--Scott D. Sullivan
+5	1	app/controllers/chapters_controller.rb
+
+--264c56d9d--2014-07-06--sarken
+1	1	app/views/tags/show.html.erb
+
+--3dcd5c85d--2014-07-06--Enigel
+330	327	features/gift_exchanges/challenge_giftexchange.feature
+3	3	features/support/paths.rb
+
+--1db35a73b--2014-07-06--Enigel
+8	4	app/views/challenge_signups/_show_offers.html.erb
+7	3	app/views/challenge_signups/_show_requests.html.erb
+29	22	features/gift_exchanges/challenge_giftexchange.feature
+3	1	features/support/paths.rb
+
+--30397e0d4--2014-07-05--zz9pzza
+--4754d886d--2014-07-05--zz9pzza
+--806221cb7--2014-07-05--Cristina
+--1805cc2ee--2014-07-05--sarken
+1	1	app/views/bookmarks/_filters.html.erb
+
+--b6580e7a8--2014-07-05--sarken
+--1d498928b--2014-07-05--sarken
+1	1	features/prompt_memes/challenge_promptmeme.feature
+
+--f5895d606--2014-07-05--sarken
+7	7	app/helpers/tag_sets_helper.rb
+
+--84c6b0de0--2014-07-05--sarken
+2	2	app/views/subscriptions/index.html.erb
+
+--4f21be493--2014-07-04--Cristina
+--a684254a9--2014-07-04--zz9pzza
+0	82	app/views/layouts/static.html.erb
+
+--98f9dbbbb--2014-07-04--Cristina
+--c1c10ce04--2014-07-04--sarken
+16	16	app/views/chapters/_chapter_form.html.erb
+0	2	app/views/chapters/edit.html.erb
+4	4	app/views/works/_standard_form.html.erb
+
+--d284bb04b--2014-07-04--sarken
+4	4	app/views/collection_profile/show.html.erb
+
+--ed5a89600--2014-07-04--sarken
+4	0	public/stylesheets/site/2.0/11-group-listbox.css
+
+--754eac71b--2014-07-04--sarken
+28	28	app/views/subscriptions/index.html.erb
+
+--6e36eff79--2014-07-04--sarken
+1	2	app/views/subscriptions/index.html.erb
+
+--0ce0ef994--2014-07-04--sarken
+--2607f49f9--2014-07-04--sarken
+--0ad409e6e--2014-07-04--sarken
+--211a9054d--2014-07-04--Scott D. Sullivan
+4	4	app/controllers/works_controller.rb
+0	1	features/collections/collectible.feature
+
+--1ac6b89cd--2014-07-04--Scott D. Sullivan
+--598b99020--2014-07-03--zz9pzza
+--7aa77711d--2014-07-03--zz9pzza
+0	3	Gemfile.lock
+
+--2a4cba558--2014-07-03--Cristina
+--c2404d05a--2014-07-03--Cristina
+--bed471106--2014-07-03--Cristina
+--f0cf0e7df--2014-07-03--Cristina
+--3da135c39--2014-07-03--Cristina
+--0ba6d0d51--2014-07-03--Cristina
+--25ff9ef9c--2014-07-03--Elz
+--3fccda332--2014-07-03--zz9pzza
+0	19	db/migrate/20130707160915_add_chapter_work_position_index.rb
+
+--4b58e24ee--2014-07-02--zz9pzza
+4	4	db/migrate/20130707160915_add_chapter_work_position_index.rb
+
+--597f68af0--2014-07-02--sarken
+18	8	app/helpers/tag_sets_helper.rb
+19	2	app/views/tag_set_nominations/_review.html.erb
+6	5	app/views/tag_set_nominations/_review_individual_nom.html.erb
+1	10	app/views/tag_set_nominations/_show_tag_status.html.erb
+
+--7c3ac6282--2014-07-02--sarken
+3	4	app/helpers/tag_sets_helper.rb
+
+--23eab57d6--2014-07-02--sarken
+3	4	app/helpers/tag_sets_helper.rb
+
+--220dd9a09--2014-07-02--sarken
+1	1	app/views/tags/show.html.erb
+
+--f103929d2--2014-07-02--sarken
+1	2	app/helpers/tag_sets_helper.rb
+
+--6858f229d--2014-07-02--sarken
+1	2	app/helpers/tag_sets_helper.rb
+
+--c874227a9--2014-07-02--sarken
+21	6	app/helpers/tag_sets_helper.rb
+
+--4bce1d76f--2014-07-02--sarken
+8	7	app/views/tag_set_nominations/_review_individual_nom.html.erb
+
+--04984512f--2014-07-02--sarken
+2	1	app/helpers/tag_sets_helper.rb
+19	2	app/views/tag_set_nominations/_review.html.erb
+12	12	app/views/tag_set_nominations/_review_individual_nom.html.erb
+1	4	app/views/tag_set_nominations/_show_tag_status.html.erb
+
+--ab7f7a768--2014-07-01--Elz
+0	0	db/migrate/{20130707160915_add_chapter_work_position_index => 20130707160915_add_chapter_work_position_index.rb}
+
+--535edf880--2014-07-01--sarken
+40	16	app/helpers/tag_sets_helper.rb
+4	10	app/views/tag_set_nominations/_show_tag_status.html.erb
+2	2	app/views/tag_set_nominations/edit.html.erb
+10	2	public/stylesheets/site/2.0/09-roles-states.css
+
+--73c06cb7b--2014-07-01--sarken
+8	8	app/views/tag_set_nominations/_show_by_tag_type.html.erb
+
+--9bf45bd2e--2014-07-01--sarken
+3	3	app/views/tag_set_nominations/_nomination_form.html.erb
+
+--55f1553ba--2014-07-01--sarken
+1	1	app/views/tags/show.html.erb
+
+--ac705f799--2014-07-01--sarken
+12	10	app/views/tag_set_nominations/show.html.erb
+
+--b88211393--2014-07-01--sarken
+1	1	app/views/tag_set_nominations/show.html.erb
+
+--20c52a646--2014-07-01--sarken
+1	1	app/models/tagset_models/owned_tag_set.rb
+
+--dca82d3ef--2014-07-01--sarken
+2	2	app/helpers/tags_helper.rb
+1	2	app/views/bookmarks/_filters.html.erb
+1	2	app/views/works/_filters.html.erb
+
+--6da56c93f--2014-06-30--zz9pzza
+--33e6d6a34--2014-06-30--zz9pzza
+--646d28bde--2014-06-30--sarken
+--e43f276ba--2014-06-30--sarken
+1	1	app/views/owned_tag_sets/_tag_set_form.html.erb
+
+--0c4585280--2014-06-30--Cristina
+--ed810c3c5--2014-06-30--sarken
+--bc7663b4f--2014-06-30--sarken
+0	2	features/support/paths.rb
+
+--b79101a72--2014-06-30--sarken
+0	10	features/collections/collection_static.feature
+
+--0a9a5501a--2014-06-30--Ariana
+10	13	features/cassette_library/cucumber_tags/work_import_special_characters_man_utf.yml
+
+--e2400e724--2014-06-30--sarken
+0	166	public/stylesheets/static.css
+
+--aec2092b8--2014-06-30--sarken
+0	1	app/controllers/collections_controller.rb
+0	4	app/controllers/comments_controller.rb
+0	21	app/controllers/static/base_controller.rb
+0	16	app/controllers/static/collections_controller.rb
+0	20	app/controllers/static/fandoms_controller.rb
+0	14	app/controllers/static/media_controller.rb
+0	21	app/controllers/static/restricted_works_controller.rb
+0	14	app/controllers/static/works_controller.rb
+0	1	app/controllers/works_controller.rb
+0	30	app/sweepers/static_sweeper.rb
+0	81	app/views/layouts/static.html.erb
+0	7	app/views/static/collections/show.html.erb
+0	46	app/views/static/fandoms/index.html.erb
+0	56	app/views/static/fandoms/show.html.erb
+0	52	app/views/static/restricted_works/index.html.erb
+0	26	app/views/static/works/show.html.erb
+0	12	config/routes.rb
+
+--a6ee6a472--2014-06-29--Ariana
+47	0	features/cassette_library/cucumber_tags/work_import_special_characters_auto_utf.yml
+51	0	features/cassette_library/cucumber_tags/work_import_special_characters_man_utf.yml
+
+--b715b70fb--2014-06-29--Ariana
+1	1	features/importing/work_import_da.feature
+0	1	features/importing/work_import_dw.feature
+1	2	features/importing/work_import_lj.feature
+0	18	features/step_definitions/generic_steps.rb
+
+--0594182c0--2014-06-29--zz9pzza
+3	3	Gemfile
+3	0	Gemfile.lock
+0	48	app/views/layouts/_footer.html.erb
+4	0	config/environments/development.rb
+5	0	config/environments/staging.rb
+
+--6edebac3e--2014-06-29--Cristina
+--342040bab--2014-06-29--Ariana
+--2faf53457--2014-06-29--Ariana
+1	1	features/importing/work_import_dw.feature
+1	1	features/other/invite_queue.feature
+3	3	features/other/preferences_edit_more.feature
+0	2	features/other/sanitizer.feature
+3	3	features/other/skin.feature
+5	6	features/prompt_memes/challenge_promptmeme.feature
+6	1	features/step_definitions/generic_steps.rb
+1	1	features/step_definitions/subscription_steps.rb
+3	5	features/step_definitions/web_steps.rb
+1	1	features/tags_and_wrangling/tag_set.feature
+1	1	features/users/user_dashboard.feature
+12	12	features/works/work_lock.feature
+
+--baf6b5e1c--2014-06-29--sarken
+--cf94fcdce--2014-06-29--sarken
+--5b868458f--2014-06-29--sarken
+3	2	app/views/bookmarks/_filters.html.erb
+
+--99833fa3d--2014-06-29--sarken
+6	6	app/views/challenge/shared/_challenge_meta.html.erb
+5	5	features/gift_exchanges/challenge_giftexchange.feature
+4	4	features/gift_exchanges/challenge_yuletide.feature
+1	1	features/step_definitions/challenge_promptmeme_steps.rb
+1	1	features/step_definitions/challenge_steps.rb
+
+--878d1ddf5--2014-06-29--sarken
+--aaaf72309--2014-06-29--sarken
+1	1	public/stylesheets/site/2.0/07-interactions.css
+
+--474466111--2014-06-29--sarken
+10	7	app/views/prompts/_prompt_form_tag_options.html.erb
+4	0	public/stylesheets/site/2.0/08-actions.css
+
+--ee82af652--2014-06-29--sarken
+3	2	features/gift_exchanges/challenge_yuletide.feature
+
+--1359831e0--2014-06-29--sarken
+--b966bfd20--2014-06-28--zz9pzza
+2	0	config/deploy/production.rb
+
+--452458dc5--2014-06-28--james_
+0	3	Gemfile
+
+--d808b7267--2014-06-28--james_
+1	1	config/initializers/rollout_init.rb
+1	2	config/redis.codeship.example
+1	1	config/redis.example
+1	1	config/redis.travis.example
+
+--6952a04ed--2014-06-28--james_
+0	1	config/initializers/rollout_init.rb
+0	3	config/redis.codeship.example
+0	4	config/redis.example
+0	2	config/redis.travis.example
+
+--1b283efa7--2014-06-28--james_
+0	4	config/initializers/monkeypatches/translate_string.rb
+
+--9f41ad3f2--2014-06-28--james_
+--774479c4c--2014-06-28--zz9pzza
+--6537e831b--2014-06-28--james_
+1	1	README.md
+5	5	app/views/menu/_menu_about.html.erb
+5	5	app/views/menu/_menu_browse.html.erb
+3	3	app/views/menu/_menu_fandoms.html.erb
+4	4	app/views/menu/_menu_search.html.erb
+2	8	config/initializers/monkeypatches/translate_string.rb
+
+--fda70c8d1--2014-06-28--james_
+--b822ca128--2014-06-28--Scott D. Sullivan
+2	2	features/works/work_edit.feature
+
+--9d830cf3e--2014-06-28--Scott D. Sullivan
+--a23d7d65c--2014-06-28--Scott D. Sullivan
+0	9	features/prompt_memes/challenge_promptmeme.feature
+
+--20bd8556d--2014-06-28--Scott D. Sullivan
+3	3	app/models/prompt.rb
+0	1	app/views/challenge_signups/_signup_form.html.erb
+7	7	features/gift_exchanges/challenge_yuletide.feature
+1	1	features/prompt_memes/challenge_promptmeme.feature
+
+--fd6f148a9--2014-06-28--Scott D. Sullivan
+1	12	app/controllers/works_controller.rb
+
+--31568cca9--2014-06-28--Scott D. Sullivan
+25	5	app/controllers/works_controller.rb
+20	1	features/collections/collectible.feature
+
+--22cf58905--2014-06-23--Scott D. Sullivan
+8	5	app/controllers/works_controller.rb
+
+--311bc10d5--2014-06-27--james_
+3	0	Gemfile
+3	0	Gemfile.lock
+1	0	config/initializers/rollout_init.rb
+3	0	config/redis.codeship.example
+4	0	config/redis.example
+2	0	config/redis.travis.example
+
+--dead6bc05--2014-06-27--Ariana
+--811896391--2014-06-26--james_
+--e9d8c6293--2014-06-26--Ariana
+--ae7c48ad8--2014-06-24--Ariana
+2	2	features/bookmarks/bookmark_create.feature
+2	2	features/bookmarks/bookmark_privacy.feature
+0	47	features/cassette_library/cucumber_tags/work_import_special_characters_auto_utf.yml
+0	48	features/cassette_library/cucumber_tags/work_import_special_characters_man_utf.yml
+2	2	features/collections/icon.feature
+1	1	features/gift_exchanges/challenge_giftexchange.feature
+9	11	features/importing/work_import_dw.feature
+10	13	features/importing/work_import_lj.feature
+1	0	features/other/autocomplete.feature
+1	1	features/other/invite_queue.feature
+1	1	features/other/series_lock.feature
+23	24	features/step_definitions/generic_steps.rb
+3	2	features/tags_and_wrangling/tag_wrangling.feature
+10	7	features/tags_and_wrangling/tag_wrangling_characters.feature
+13	8	features/tags_and_wrangling/tag_wrangling_fandoms.feature
+12	7	features/tags_and_wrangling/tag_wrangling_freeforms.feature
+11	6	features/tags_and_wrangling/tag_wrangling_relationships.feature
+1	0	features/users/authenticate_users.feature
+2	1	features/works/work_create.feature
+2	1	features/works/work_delete.feature
+
+--e5685e491--2014-06-23--james_
+11	11	app/views/layouts/_footer.html.erb
+
+--f9231135a--2014-06-23--james_
+15	15	app/views/layouts/_footer.html.erb
+4	4	app/views/menu/_menu_about.html.erb
+4	4	app/views/menu/_menu_browse.html.erb
+2	2	app/views/menu/_menu_fandoms.html.erb
+4	4	app/views/menu/_menu_search.html.erb
+
+--76564f29a--2014-06-22--Ariana
+1	1	features/bookmarks/bookmark_create.feature
+1	1	features/gift_exchanges/challenge_giftexchange.feature
+1	1	features/importing/work_import_da.feature
+1	1	features/importing/work_import_lj.feature
+1	1	features/other/invite_queue.feature
+5	5	features/other/skin.feature
+2	2	features/prompt_memes/challenge_promptmeme.feature
+2	2	features/step_definitions/autocomplete_steps.rb
+6	4	features/step_definitions/generic_steps.rb
+1	1	features/step_definitions/subscription_steps.rb
+1	1	features/tags_and_wrangling/tag_set.feature
+5	5	features/tags_and_wrangling/tag_wrangling_characters.feature
+8	8	features/tags_and_wrangling/tag_wrangling_fandoms.feature
+5	5	features/tags_and_wrangling/tag_wrangling_freeforms.feature
+5	5	features/tags_and_wrangling/tag_wrangling_relationships.feature
+1	1	features/works/work_create.feature
+1	1	features/works/work_delete.feature
+
+--c47ea9461--2014-06-19--Scott D. Sullivan
+--24c38b70d--2014-06-19--Scott D. Sullivan
+--2d8488fc9--2014-06-19--Scott D. Sullivan
+--7717e0e81--2014-06-18--Scott D. Sullivan
+1	1	app/controllers/chapters_controller.rb
+
+--71bd531bf--2014-06-18--Scott D. Sullivan
+1	1	app/controllers/chapters_controller.rb
+
+--7594dca2d--2014-04-16--Scott D. Sullivan
+1	1	app/controllers/chapters_controller.rb
+
+--d3aecac44--2014-04-16--Scott D. Sullivan
+0	1	features/works/work_view.feature
+
+--32ee51e86--2013-05-09--Scott D. Sullivan
+4	0	features/step_definitions/work_steps.rb
+8	0	features/works/work_view.feature
+
+--ba668b903--2013-03-04--Scott D. Sullivan
+5	1	app/controllers/chapters_controller.rb
+
+--65e16459c--2014-06-14--sarken
+1	1	app/views/prompts/_prompt_form_tag_options.html.erb
+
+--fd93970eb--2014-06-14--sarken
+3	3	app/views/prompts/_prompt_form_tag_options.html.erb
+
+--34c885db5--2014-06-14--sarken
+--a6aeb4977--2014-06-13--james_
+1	1	config/initializers/monkeypatches/translate_string.rb
+
+--4d587d20f--2014-06-12--sarken
+9	8	app/views/prompts/_prompt_form_tag_options.html.erb
+
+--7101a29e9--2014-06-11--sarken
+--849503693--2014-06-11--sarken
+--04b7a5024--2014-06-09--james_
+1	1	config/initializers/phrase.rb
+
+--5beb73238--2014-06-09--sarken
+1	1	app/views/owned_tag_sets/_tag_set_blurb.html.erb
+
+--378819898--2014-06-09--sarken
+--7373c2710--2014-06-09--sarken
+6	6	app/views/owned_tag_sets/_navigation.html.erb
+12	12	app/views/owned_tag_sets/_tag_set_association_fields.html.erb
+4	4	app/views/owned_tag_sets/_tag_set_associations_remove.html.erb
+21	21	app/views/owned_tag_sets/_tag_set_blurb.html.erb
+2	2	app/views/owned_tag_sets/_tag_set_form.html.erb
+50	47	app/views/owned_tag_sets/_tag_set_form_management.html.erb
+20	20	app/views/owned_tag_sets/batch_load.html.erb
+1	1	app/views/owned_tag_sets/edit.html.erb
+43	43	app/views/owned_tag_sets/index.html.erb
+1	1	app/views/owned_tag_sets/new.html.erb
+
+--fad173939--2014-06-08--sarken
+1	1	app/views/owned_tag_sets/show.html.erb
+
+--1e033f34f--2014-06-09--sarken
+--a95c9be3f--2014-06-08--Scott D. Sullivan
+1	1	app/helpers/works_helper.rb
+
+--1bd74c1ec--2014-06-08--Scott D. Sullivan
+--56c4dd580--2014-06-08--james_
+--c124a726e--2014-06-06--james_
+2	2	config/initializers/monkeypatches/translate_string.rb
+
+--6a8a12e21--2014-05-18--sarken
+9	4	app/views/collection_profile/show.html.erb
+2	2	app/views/collections/_collection_blurb.html.erb
+4	0	public/stylesheets/site/2.0/13-group-blurb.css
+
+--c3d384ca1--2013-09-25--sarken
+17	1	features/works/work_create.feature
+
+--47c00d4b5--2013-09-25--sarken
+6	0	features/collections/collection_anonymity.feature
+
+--9c0fe544b--2013-09-25--sarken
+1	0	features/prompt_memes/challenge_promptmeme_posting_fills.feature
+
+--75ecd8cd1--2013-09-25--sarken
+1	0	features/step_definitions/work_related_steps.rb
+
+--adce7066c--2013-09-25--sarken
+2	0	features/works/work_create.feature
+
+--74aab2db0--2013-09-25--sarken
+1	2	features/works/work_create.feature
+1	2	features/works/work_delete.feature
+
+--b57344057--2013-09-02--sarken
+6	3	app/controllers/works_controller.rb
+1	1	app/helpers/works_helper.rb
+
+--b46620e9d--2014-04-21--zz9pzza
+--426a5c0e1--2014-04-21--James Beal
+--29bd4f701--2014-04-21--James Beal
+--993b2547a--2014-04-21--James Beal
+1	1	README.md
+
+--92544d587--2014-04-14--Scott D. Sullivan
+--9e7324990--2014-04-14--Scott D. Sullivan
+2	9	features/prompt_memes/challenge_promptmeme.feature
+
+--fff55ac95--2014-04-14--Scott D. Sullivan
+--0e77e557b--2014-04-14--Scott D. Sullivan
+2	2	app/views/owned_tag_sets/confirm_delete.html.erb
+
+--0452066e2--2014-04-14--Scott D. Sullivan
+--f344169c3--2014-03-22--elz
+--693ada994--2014-03-15--james_
+1	1	app/views/layouts/home.html.erb
+
+--1d8c134ca--2014-03-15--james_
+1	7	app/views/layouts/home.html.erb
+
+--b983155a2--2014-03-15--james_
+1	7	app/views/layouts/application.html.erb
+1	6	app/views/layouts/barebones.html.erb
+1	6	app/views/layouts/session.html.erb
+1	6	app/views/layouts/static.html.erb
+
+--d7d28c2f3--2014-03-15--james_
+7	0	app/views/layouts/_phraseapp.html.erb
+
+--37c33d9f9--2014-03-06--sarken
+3	7	app/views/works/_filters.html.erb
+
+--0f17abf13--2014-03-06--sarken
+8	3	app/views/works/_filters.html.erb
+9	5	app/views/works/_search_form.html.erb
+
+--4cbdb5935--2014-03-05--james_
+5	1	config/initializers/phrase.rb
+
+--f295a6141--2014-03-04--james_
+3	0	Gemfile
+6	0	Gemfile.lock
+6	0	app/views/layouts/application.html.erb
+6	0	app/views/layouts/barebones.html.erb
+6	0	app/views/layouts/home.html.erb
+6	0	app/views/layouts/session.html.erb
+6	0	app/views/layouts/static.html.erb
+21	0	config/initializers/phrase.rb
+
+--7d9e7236e--2014-03-02--Elz
+--db5326199--2014-03-02--james_
+2	1	config/initializers/monkeypatches/translate_string.rb
+
+--d17bc8a79--2014-03-01--james_
+14	14	app/views/layouts/_footer.html.erb
+5	5	app/views/menu/_menu_about.html.erb
+5	5	app/views/menu/_menu_browse.html.erb
+3	3	app/views/menu/_menu_fandoms.html.erb
+4	4	app/views/menu/_menu_search.html.erb
+6	1	config/initializers/monkeypatches/translate_string.rb
+
+--3ac574f6b--2014-02-04--sarken
+1	1	features/tags_and_wrangling/tag_wrangling_freeforms.feature
+
+--e2778853d--2014-02-04--sarken
+1	1	app/views/prompts/_prompt_form_tag_options.html.erb
+
+--6cec240a4--2014-02-04--sarken
+3	5	app/views/works/_work_form_pseuds.html.erb
+
+--5f08c18ac--2014-02-04--sarken
+1	1	app/views/owned_tag_sets/_tag_set_associations_remove.html.erb
+
+--a4921b5cf--2014-02-04--sarken
+1	1	app/helpers/application_helper.rb
+
+--a331ac3e6--2014-02-04--sarken
+1	1	features/gift_exchanges/challenge_yuletide.feature
+17	11	public/stylesheets/site/2.0/07-interactions.css
+
+--776376a9b--2014-02-04--sarken
+27	31	app/views/tags/edit.html.erb
+2	2	app/views/works/_standard_form.html.erb
+
+--8337b2cdc--2014-02-04--sarken
+3	5	app/views/collectibles/_collectible_form.html.erb
+1	1	app/views/owned_tag_sets/_internal_tag_set_fields.html.erb
+3	5	app/views/owned_tag_sets/_tag_set_associations_remove.html.erb
+3	5	app/views/prompt_restrictions/_prompt_restriction_form.html.erb
+74	76	app/views/prompts/_prompt_form_tag_options.html.erb
+9	11	app/views/skins/_form.html.erb
+3	3	app/views/works/_work_form_pseuds.html.erb
+
+--f247805c2--2014-02-04--sarken
+17	22	app/helpers/application_helper.rb
+7	4	public/stylesheets/site/2.0/11-group-listbox.css
+1	1	public/stylesheets/site/2.0/31-role-ie7.css
+
+--a983f2b4b--2013-11-01--Stephanie
+16	1	app/controllers/serial_works_controller.rb
+
+--0200f8775--2013-10-29--Stephanie
+1	1	db/migrate/20130707160714_remove_duplicate_indexes.rb
+
+--b213e1b39--2013-10-29--Stephanie
+0	2	db/migrate/20130707160714_remove_duplicate_indexes.rb
+
+--37168da18--2013-10-29--Stephanie
+3	3	db/migrate/20130707160915_add_chapter_work_position_index
+
+--511c363a1--2013-10-27--Scott D. Sullivan
+2	3	app/views/owned_tag_sets/_navigation.html.erb
+1	1	app/views/owned_tag_sets/confirm_delete.html.erb
+1	1	app/views/tag_set_nominations/confirm_delete.html.erb
+1	1	app/views/tag_set_nominations/confirm_destroy_multiple.html.erb
+1	2	app/views/tag_set_nominations/show.html.erb
+2	2	config/routes.rb
+17	1	features/tags_and_wrangling/tag_set.feature
+5	1	features/tags_and_wrangling/tag_set_delete.feature
+
+--e5d735040--2013-10-26--Scott D. Sullivan
+1	1	app/views/owned_tag_sets/confirm_delete.html.erb
+2	2	app/views/tag_set_nominations/confirm_delete.html.erb
+2	2	app/views/tag_set_nominations/confirm_destroy_multiple.html.erb
+
+--9996569ae--2013-10-25--Scott D. Sullivan
+4	20	app/controllers/owned_tag_sets_controller.rb
+
+--1cfb700aa--2013-02-23--Scott D. Sullivan
+17	1	app/controllers/owned_tag_sets_controller.rb
+1	1	app/controllers/tag_set_nominations_controller.rb
+4	2	app/views/owned_tag_sets/_navigation.html.erb
+1	1	app/views/tag_set_nominations/confirm_destroy_multiple.html.erb
+
+--cbbc0ee88--2013-02-23--Scott D. Sullivan
+4	0	app/controllers/tag_set_nominations_controller.rb
+1	1	app/views/owned_tag_sets/_navigation.html.erb
+12	0	app/views/tag_set_nominations/confirm_destroy_multiple.html.erb
+1	0	config/routes.rb
+
+--70653e986--2013-02-22--Scott D. Sullivan
+2	2	app/views/owned_tag_sets/confirm_delete.html.erb
+12	0	app/views/tag_set_nominations/confirm_delete.html.erb
+1	1	app/views/tag_set_nominations/show.html.erb
+3	0	config/routes.rb
+
+--0a2228feb--2013-02-22--Scott D. Sullivan
+8	3	app/controllers/owned_tag_sets_controller.rb
+5	5	app/views/owned_tag_sets/confirm_delete.html.erb
+3	4	config/routes.rb
+
+--d0505c654--2013-02-17--Scott D. Sullivan
+4	0	app/controllers/owned_tag_sets_controller.rb
+1	3	app/views/owned_tag_sets/_navigation.html.erb
+12	0	app/views/owned_tag_sets/confirm_delete.html.erb
+2	0	config/routes.rb
+
+--ae7216c8c--2013-09-25--sarken
+1	1	app/views/tag_set_nominations/show.html.erb
+
+--45ec2e7d2--2013-09-25--sarken
+6	3	app/views/tag_set_nominations/show.html.erb
+
+--15bae12cf--2013-09-25--sarken
+8	7	app/views/tag_set_nominations/show.html.erb
+
+--12ff84af3--2013-09-15--Stephanie
+20	0	db/migrate/20130707160714_remove_duplicate_indexes.rb
+
+--b679686a7--2013-09-15--Stephanie
+19	0	db/migrate/20130707160915_add_chapter_work_position_index
+
+--f01c91415--2013-02-02--Scott D. Sullivan
+14	0	features/challenges/challenge_promptmeme.feature
+
+--d0603c795--2013-02-02--Scott D. Sullivan
+8	0	app/views/prompts/_prompt_controls.html.erb
+
+--f53677211--2012-07-14--Scott D. Sullivan
+1	1	app/helpers/works_helper.rb
+
+--9a309be5b--2012-07-14--Scott D. Sullivan
+1	1	app/helpers/works_helper.rb
+
+--b8bd74e10--2013-08-15--sarken
+--b398d5901--2013-08-15--sarken
+1	1	app/views/owned_tag_sets/_show_tags_in_single_list.html.erb
+
+--094cd01fc--2013-08-15--sarken
+36	33	app/views/owned_tag_sets/show.html.erb
+
+--559a9d2bc--2013-06-16--Scott D. Sullivan
+7	0	features/challenges/challenge_promptmeme.feature
+
+--f6522e985--2013-02-16--Scott D. Sullivan
+3	3	app/models/prompt.rb
+6	1	app/views/challenge_signups/_signup_form.html.erb
+
+--9234f0b7c--2013-02-24--Lalith Vipulananthan
+15	6	app/controllers/subscriptions_controller.rb
+55	15	app/views/subscriptions/index.html.erb

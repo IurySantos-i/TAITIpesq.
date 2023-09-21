@@ -1,0 +1,162 @@
+--e3a9b043a--2014-05-09--Sampo Toiva
+--a375dbc87--2014-05-09--Sampo Toiva
+3	3	config/config.example.yml
+0	1	config/initializers/devise.rb
+
+--606486bd3--2014-05-09--Sampo Toiva
+1	0	config/routes.rb
+
+--2d9c5b726--2014-05-09--Mikko Koski
+--185687d95--2014-05-08--Mikko Koski
+1	4	Gemfile
+2	9	Gemfile.lock
+1	1	app/controllers/application_controller.rb
+3	3	app/controllers/superadmin/communities_controller.rb
+
+--646fc791e--2014-05-08--Mikko Koski
+1	1	Gemfile
+2	2	Gemfile.lock
+
+--e99b5a7f0--2014-05-08--Sampo Toiva
+9	13	app/views/admin/communities/integrations.haml
+2	2	config/locales/en.yml
+2	2	config/locales/fi.yml
+
+--643b58ccd--2014-05-07--Mikko Koski
+2	0	config/locales/ab.yml
+2	0	config/locales/ca.yml
+2	0	config/locales/cs.yml
+2	0	config/locales/da-DK.yml
+2	0	config/locales/de-bl.yml
+2	0	config/locales/de-rc.yml
+2	0	config/locales/de.yml
+2	0	config/locales/el.yml
+2	0	config/locales/en-at.yml
+2	0	config/locales/en-bd.yml
+2	0	config/locales/en-bf.yml
+2	0	config/locales/en-bl.yml
+2	0	config/locales/en-cf.yml
+2	0	config/locales/en-qr.yml
+2	0	config/locales/en-rc.yml
+2	0	config/locales/en-sb.yml
+2	0	config/locales/en-ul.yml
+2	0	config/locales/en-un.yml
+2	0	config/locales/en-vg.yml
+2	0	config/locales/es-ES.yml
+2	0	config/locales/es-rc.yml
+3	1	config/locales/es.yml
+1	1	config/locales/fi.yml
+2	0	config/locales/fr-at.yml
+2	0	config/locales/fr-bd.yml
+2	0	config/locales/fr-rc.yml
+3	1	config/locales/fr.yml
+2	0	config/locales/hr.yml
+2	0	config/locales/hu.yml
+2	0	config/locales/it.yml
+2	0	config/locales/lv.yml
+2	0	config/locales/nl.yml
+2	0	config/locales/pt-BR.yml
+2	0	config/locales/ro.yml
+2	0	config/locales/ru.yml
+2	0	config/locales/sv.yml
+2	0	config/locales/sw.yml
+2	0	config/locales/vi.yml
+2	0	config/locales/zh.yml
+
+--619ed5d02--2014-05-06--Mikko Koski
+--4d1e5a648--2014-05-06--Mikko Koski
+2	1	app/mailers/person_mailer.rb
+
+--772e5088d--2014-05-06--Mikko Koski
+1	0	app/controllers/contact_requests_controller.rb
+10	0	app/mailers/person_mailer.rb
+
+--fd0072b40--2014-05-05--Mikko Koski
+0	1	app/models/category.rb
+
+--2812cd330--2014-05-05--Mikko Koski
+1	1	lib/mercury/authentication.rb
+
+--1d0de30ae--2014-05-05--Mikko Koski
+--4328b9cc2--2014-05-05--Mikko Koski
+11	2	db/structure.sql
+
+--83e58c405--2014-04-25--Mikko Koski
+3	3	features/admin/custom_fields/admin_removes_custom_field.feature
+1	1	features/step_definitions/listing_steps.rb
+
+--41a3d5739--2014-04-25--Mikko Koski
+9	0	db/migrate/20140425111235_remove_status_from_conversation.rb
+4	2	db/structure.sql
+
+--d2e9f7d8f--2014-04-25--Mikko Koski
+13	1	db/migrate/20140425081001_remove_unnecessary_categories.rb
+
+--6fb53c094--2014-04-25--Mikko Koski
+7	0	db/migrate/20140425081001_remove_unnecessary_categories.rb
+
+--ff317e664--2014-04-25--Mikko Koski
+9	0	db/migrate/20140425080603_remove_community_categories.rb
+4	10	db/structure.sql
+
+--aba9bb3eb--2014-04-25--Mikko Koski
+9	0	db/migrate/20140425080731_remove_name_column_from_categories.rb
+1	1	db/structure.sql
+0	4	spec/factories.rb
+1	1	test/helper_modules.rb
+
+--451dca7d6--2014-04-25--Mikko Koski
+10	0	db/migrate/20140425080207_remove_share_types.rb
+326	362	db/structure.sql
+
+--201fc73e2--2014-05-04--Mikko Koski
+--967d7f0f7--2014-05-03--Mikko Koski
+1	1	config/locales/en.yml
+
+--4d6c25c88--2014-05-03--Mikko Koski
+0	1	app/controllers/contact_requests_controller.rb
+0	10	app/mailers/person_mailer.rb
+
+--04e6761b4--2014-05-02--Mikko Koski
+0	1	app/controllers/superadmin/communities_controller.rb
+
+--34a360c35--2014-05-02--Mikko Koski
+--fb056fe17--2014-05-02--Mikko Koski
+1	1	app/views/superadmin/communities/new.haml
+
+--ab0aa07eb--2014-05-01--Mikko Koski
+7	0	app/controllers/application_controller.rb
+69	0	app/controllers/superadmin/communities_controller.rb
+1	0	app/models/transaction_types/rent.rb
+1	0	app/views/superadmin/communities/index.haml
+32	0	app/views/superadmin/communities/new.haml
+31	26	config/routes.rb
+
+--5a4dd6878--2014-05-01--Mikko Koski
+4	0	Gemfile
+9	0	Gemfile.lock
+
+--33163bc80--2014-04-30--Sampo Toiva
+15	0	app/views/admin/communities/integrations.haml
+4	0	config/locales/en.yml
+4	0	config/locales/fi.yml
+12	4	features/admin/integrations/admin_manages_integration_details.feature
+8	0	features/step_definitions/admin_integrates_services_steps.rb
+
+--4cacb60ad--2014-04-30--Sampo Toiva
+2	2	app/controllers/sessions_controller.rb
+1	1	app/helpers/application_helper.rb
+5	0	config/config.example.yml
+
+--f1e0efb75--2014-04-29--Sampo Toiva
+0	5	config/config.example.yml
+
+--022f1ce28--2014-04-29--Sampo Toiva
+8	3	app/controllers/sessions_controller.rb
+1	1	app/helpers/application_helper.rb
+1	5	app/models/community.rb
+5	10	config/initializers/devise.rb
+0	21	config/initializers/omniauth.rb
+
+--8f66ef9fc--2014-04-29--Sampo Toiva
+26	26	config/routes.rb

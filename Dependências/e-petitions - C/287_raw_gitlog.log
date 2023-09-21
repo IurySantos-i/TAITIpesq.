@@ -1,0 +1,160 @@
+--85e901ef--2015-06-29--Alexander Bobin
+--4a71c385--2015-06-29--Murray Steele
+--6a9c0f58--2015-06-28--Andrew White
+2	2	app/views/application/_messages.html.erb
+2	2	app/views/feedback/thanks.html.erb
+0	1	app/views/layouts/application.html.erb
+4	6	app/views/petitions/moderation_info.html.erb
+0	2	app/views/petitions/resend_confirmation_email.html.erb
+3	5	app/views/signatures/unsubscribe/already_unsubscribed.html.erb
+3	5	app/views/signatures/unsubscribe/failed_to_unsubscribe.html.erb
+3	5	app/views/signatures/unsubscribe/successfully_unsubscribed.html.erb
+1	3	app/views/sponsors/sponsored.html.erb
+1	3	app/views/sponsors/thank_you.html.erb
+
+--9647d37f--2015-06-28--Andrew White
+0	0	app/views/{layouts => application}/_analytics.html.erb
+0	0	app/views/{shared => application}/_footer.html.erb
+0	0	app/views/{shared => application}/_header.html.erb
+0	0	app/views/{shared => application}/_messages.html.erb
+0	0	app/views/{shared => application}/_notification.html.erb
+0	0	app/views/{shared => application}/_os.html.erb
+0	0	app/views/{shared => application}/_share_petition.html.erb
+0	0	app/views/{shared => application}/_social_meta.html.erb
+6	6	app/views/layouts/application.html.erb
+1	1	app/views/petitions/_open_petition_show.html.erb
+1	1	app/views/petitions/check_results.html.erb
+1	1	app/views/petitions/thank_you.html.erb
+1	1	app/views/signatures/signed.html.erb
+1	1	app/views/signatures/thank_you.html.erb
+
+--6467d417--2015-06-28--Andrew White
+4	0	app/helpers/application_helper.rb
+3	1	app/views/layouts/application.html.erb
+0	4	app/views/petitions/check.html.erb
+0	4	app/views/petitions/new.html.erb
+46	0	spec/helpers/application_helper_spec.rb
+
+--0c0e1eee--2015-06-28--Andrew White
+7	0	app/controllers/pages_controller.rb
+0	4	app/controllers/static_pages_controller.rb
+1	1	app/helpers/application_helper.rb
+0	0	app/views/{static_pages => pages}/help.html.erb
+0	0	app/views/{static_pages/home.html.erb => pages/index.html.erb}
+2	2	config/locales/page_titles.en-GB.yml
+2	2	config/routes.rb
+3	3	spec/controllers/{static_pages_controller_spec.rb => pages_controller_spec.rb}
+3	3	spec/helpers/application_helper_spec.rb
+4	4	spec/helpers/page_title_helper_spec.rb
+
+--09046997--2015-06-28--Andrew White
+0	3	app/controllers/static_pages_controller.rb
+4	1	app/helpers/home_helper.rb
+38	40	app/models/petition.rb
+1	1	app/views/petitions/_trending_petition.html.erb
+3	3	app/views/static_pages/home.html.erb
+1	1	features/step_definitions/trending_steps.rb
+5	5	features/suzie_signs_a_petition.feature
+0	7	spec/controllers/static_pages_controller_spec.rb
+1	1	spec/factories.rb
+13	13	spec/models/petition_spec.rb
+
+--1a1e9e6a--2015-06-27--Andrew White
+4	0	app/helpers/application_helper.rb
+4	1	app/views/shared/_header.html.erb
+0	4	app/views/static_pages/home.html.erb
+27	0	spec/helpers/application_helper_spec.rb
+
+--b641e208--2015-06-27--Andrew White
+61	0	app/helpers/page_title_helper.rb
+2	0	app/models/archived_petition.rb
+0	1	app/views/archived/petitions/index.html.erb
+0	2	app/views/archived/petitions/show.html.erb
+1	2	app/views/feedback/index.html.erb
+0	1	app/views/feedback/thanks.html.erb
+1	2	app/views/layouts/application.html.erb
+0	1	app/views/local_petitions/index.html.erb
+0	1	app/views/petitions/check.html.erb
+0	2	app/views/petitions/check_results.html.erb
+0	2	app/views/petitions/create/_replay_email_ui.html.erb
+0	2	app/views/petitions/create/_replay_petition_ui.html.erb
+0	1	app/views/petitions/index.html.erb
+0	1	app/views/petitions/moderation_info.html.erb
+0	4	app/views/petitions/new.html.erb
+0	2	app/views/petitions/resend_confirmation_email.html.erb
+0	2	app/views/petitions/show.html.erb
+0	2	app/views/petitions/thank_you.html.erb
+0	2	app/views/signatures/new.html.erb
+0	1	app/views/signatures/signed.html.erb
+0	1	app/views/signatures/thank_you.html.erb
+0	1	app/views/signatures/unsubscribe/already_unsubscribed.html.erb
+0	1	app/views/signatures/unsubscribe/failed_to_unsubscribe.html.erb
+0	1	app/views/signatures/unsubscribe/successfully_unsubscribed.html.erb
+0	1	app/views/sponsors/show.html.erb
+0	1	app/views/sponsors/sponsored.html.erb
+0	1	app/views/sponsors/thank_you.html.erb
+0	2	app/views/static_pages/help.html.erb
+33	0	config/locales/page_titles.en-GB.yml
+94	0	spec/helpers/page_title_helper_spec.rb
+
+--95c9b9b2--2015-06-27--Andrew White
+0	9	app/helpers/application_helper.rb
+
+--23ce997a--2015-06-29--Andrew White
+1	1	.travis.yml
+
+--ec6e5e2b--2015-06-29--Andrew White
+1	0	.travis.yml
+
+--4477f6f8--2015-06-29--Murray Steele
+--ceec25b0--2015-06-25--Henry Hadlow
+4	0	app/assets/stylesheets/petitions/views/_petition-show.scss
+13	34	app/assets/stylesheets/petitions/views/_shared.scss
+1	1	app/views/petitions/_closed_petition_show.html.erb
+2	1	app/views/petitions/_debate_threshold.html.erb
+1	1	app/views/petitions/_open_petition_show.html.erb
+1	0	app/views/petitions/_response_threshold.html.erb
+1	1	app/views/petitions/_threshold_details.html.erb
+
+--95200667--2015-06-26--David Basalla
+1	1	app/views/admin_mailer/threshold_email_reminder.html.erb
+1	1	app/views/admin_mailer/threshold_email_reminder.text.erb
+
+--4ea946e0--2015-06-26--David Basalla
+1	1	app/controllers/admin/petitions_controller.rb
+2	0	app/models/petition.rb
+4	1	config/locales/petitions.en-GB.yml
+0	13	spec/controllers/admin/petitions_controller_spec.rb
+
+--7dfa6636--2015-06-24--David Basalla
+53	14	features/admin/all_petitions.feature
+16	0	features/step_definitions/petition_steps.rb
+
+--4bdb01ac--2015-06-25--David Basalla
+3	4	features/suzie_searches_by_free_text.feature
+8	8	spec/factories.rb
+
+--9784dae0--2015-06-24--David Basalla
+0	4	app/controllers/admin/petitions_controller.rb
+1	2	app/controllers/concerns/authentication.rb
+0	12	app/views/admin/petitions/threshold.html.erb
+0	8	app/views/admin/shared/_admin_nav.html.erb
+2	2	app/views/admin_mailer/threshold_email_reminder.html.erb
+2	2	app/views/admin_mailer/threshold_email_reminder.text.erb
+0	3	config/routes.rb
+2	4	features/admin/admin_access.feature
+0	72	features/admin/threshold.feature
+0	3	features/support/paths.rb
+0	12	spec/controllers/admin/petitions_controller_spec.rb
+0	4	spec/routing/admin/petitions_spec.rb
+
+--6385ca67--2015-06-24--David Basalla
+0	11	app/controllers/admin/todolist_controller.rb
+0	7	app/views/admin/shared/_admin_nav.html.erb
+0	28	app/views/admin/todolist/index.html.erb
+0	2	config/routes.rb
+1	3	features/admin/admin_access.feature
+1	1	features/admin/notes.feature
+0	50	features/admin/todolist.feature
+0	3	features/support/paths.rb
+0	79	spec/controllers/admin/todolist_controller_spec.rb

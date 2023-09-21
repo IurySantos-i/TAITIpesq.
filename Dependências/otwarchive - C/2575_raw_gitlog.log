@@ -1,0 +1,11 @@
+--74c2d9628--2011-06-14--pixel
+--de7d523b0--2011-06-14--pixel
+--abea26367--2011-06-13--Cesy
+3	3	app/views/challenge_signups/_signup_controls.html.erb
+10	2	features/challenge_promptmeme.feature
+0	1	features/step_definitions/challenge_steps.rb
+
+--87a2e1524--2011-06-12--Cesy
+4	4	app/views/challenge_signups/_signup_controls.html.erb
+4	4	app/views/prompts/_prompt_controls.html.erb
+24	1	features/challenge_promptmeme.feature

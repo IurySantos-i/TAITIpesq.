@@ -1,0 +1,88 @@
+--772053284--2015-09-07--jsugarman
+--ab1bc9cf8--2015-09-07--jsugarman
+31	0	features/cassettes/Advocate_new_claim/Add_fees_with_dates_attended_then_remove_fee/_2_basic_.yml
+6	8	spec/models/json_document_importer_spec.rb
+
+--41f17df3d--2015-09-07--jsugarman
+1	1	app/assets/javascripts/advocates/claims/trial_fields_display.js
+3	4	app/models/claim.rb
+17	0	app/validators/base_claim_validator.rb
+22	33	app/validators/claim_textfield_validator.rb
+2	2	app/views/advocates/claims/_form.html.haml
+8	8	db/seeds/case_types.rb
+62	0	features/cassettes/Advocate_new_claim/Add_fees_with_dates_attended_then_remove_fee/_2_basic_.yml
+93	0	features/cassettes/Trial_detail_visibility_by_case_type/Case_types_for_which_trial_details_should_or_should_not_be_visible_on_a_new_claim.yml
+23	23	features/trial_details_visibility_by_case_type.feature
+4	4	spec/api/v1/claims/claim_spec.rb
+2	2	spec/factories/case_types.rb
+10	1	spec/factories/claims.rb
+29	26	spec/models/claim_spec.rb
+2	3	spec/models/json_document_importer_spec.rb
+59	16	spec/validators/claim_textfield_validator_spec.rb
+
+--11445d5b5--2015-09-07--Himal Mandalia
+--aeb5b8fbe--2015-09-07--Stephen Richards
+0	1	features/step_definitions/advocate_new_claim_steps.rb
+
+--a5e870494--2015-09-07--Stephen Richards
+62	0	features/cassettes/Advocate_new_claim/Add_fees_with_dates_attended_then_remove_fee/_2_basic_.yml
+4	4	features/trial_details_visibility_by_case_type.feature
+
+--3a842ff0b--2015-09-07--Stephen Richards
+1	1	app/assets/javascripts/advocates/claims/trial_fields_display.js
+124	0	features/cassettes/Advocate_new_claim/Add_fees_with_dates_attended_then_remove_fee/_2_basic_.yml
+11	1	features/step_definitions/advocate_new_claim_steps.rb
+
+--a5a13518e--2015-09-07--Stephen Richards
+17	6	app/validators/claim_date_validator.rb
+9	4	spec/factories/claims.rb
+15	6	spec/validators/claim_date_validator_spec.rb
+
+--6de85ee94--2015-09-07--Stephen Richards
+20	9	app/validators/claim_date_validator.rb
+1	1	spec/factories/claims.rb
+50	6	spec/validators/claim_date_validator_spec.rb
+
+--6b365f3bd--2015-09-07--jsugarman
+124	0	features/cassettes/Advocate_new_claim/Add_fees_with_dates_attended_then_remove_fee/_2_basic_.yml
+3	3	features/step_definitions/advocate_new_claim_steps.rb
+1	1	features/unhappy_paths.feature
+2	4	lib/api_test_client.rb
+1	1	lib/tasks/claims.rake
+
+--543066913--2015-09-07--Joel Sugarman
+--329f01104--2015-09-07--Stephen Richards
+1	1	lib/tasks/claims.rake
+4	4	spec/factories/claims.rb
+5	5	spec/validators/claim_date_validator_spec.rb
+
+--829ddc442--2015-09-07--Stephen Richards
+--fc88e024d--2015-09-04--Edward Andress
+7	0	app/interfaces/api/custom_validations/date_format.rb
+16	0	app/interfaces/api/extract_date.rb
+32	20	app/interfaces/api/v1/advocates/claim.rb
+9	4	app/interfaces/api/v1/advocates/date_attended.rb
+5	2	app/interfaces/api/v1/advocates/defendant.rb
+5	2	app/interfaces/api/v1/advocates/representation_order.rb
+0	1	app/interfaces/api/v1/advocates/root.rb
+1	1	app/interfaces/api/v1/api_helper.rb
+14	2	spec/api/v1/claims/claim_spec.rb
+10	11	spec/api/v1/claims/date_attended_spec.rb
+10	2	spec/api/v1/claims/defendant_spec.rb
+9	9	spec/api/v1/claims/dropdown_data_spec.rb
+3	3	spec/api/v1/claims/expense_spec.rb
+9	1	spec/api/v1/claims/representation_order_spec.rb
+
+--d44c9ccdb--2015-09-04--Edward Andress
+--4c1285945--2015-09-04--jsugarman
+0	4	app/interfaces/api/v1/advocates/defendant.rb
+6	7	app/interfaces/api/v1/api_helper.rb
+9	0	spec/api/v1/claims/date_attended_spec.rb
+1	1	spec/api/v1/claims/defendant_spec.rb
+9	0	spec/api/v1/claims/expense_spec.rb
+9	0	spec/api/v1/claims/fee_spec.rb
+
+--2e3a4c654--2015-09-01--jsugarman
+4	0	app/interfaces/api/v1/advocates/defendant.rb
+6	0	app/interfaces/api/v1/api_helper.rb
+10	0	spec/api/v1/claims/defendant_spec.rb

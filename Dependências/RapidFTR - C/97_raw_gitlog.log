@@ -1,0 +1,12 @@
+--32edb7e9--2014-09-02--andreweskeclarke
+--9aca9032--2014-09-02--andreweskeclarke
+1	1	spec/models/enquiry_spec.rb
+
+--8d3f244d--2014-09-02--andreweskeclarke
+0	1	app/models/enquiry.rb
+0	1	config/locales/ar.yml
+0	1	config/locales/en.yml
+0	7	spec/controllers/api/enquiries_controller_spec.rb
+1	13	spec/models/enquiry_spec.rb
+
+--b21dad29--2014-09-02--andreweskeclarke

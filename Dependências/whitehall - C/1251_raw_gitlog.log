@@ -1,0 +1,13 @@
+--09bc11988b--2016-12-05--Steve Laing
+--8bd84d52ed--2016-12-05--Paul Hayes
+--616ee10786--2016-12-02--Steve Laing
+2	0	db/data_migration/20161202164222_unpublish_publication_as_redirect.rb
+
+--b4ff36a2ce--2016-12-02--Paul Hayes
+19	7	app/views/consultations/show.html.erb
+6	0	features/consultations.feature
+15	0	features/step_definitions/consultation_steps.rb
+5	0	test/factories/consultations.rb
+
+--c916ad6ef8--2016-12-02--Paul Hayes
+2	2	app/assets/stylesheets/frontend/views/_consultations.scss

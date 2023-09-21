@@ -1,0 +1,23 @@
+--3ad557526--2013-10-17--Cristina
+--1058e2679--2013-10-17--Cristina
+--38c1452f7--2013-10-16--Cristina
+--75e9af5df--2013-10-16--tuff_ghost
+1	13	app/models/skin.rb
+1	13	app/models/work_skin.rb
+6	6	config/config.yml
+27	1	features/other/skin.feature
+16	11	lib/css_cleaner.rb
+21	3	public/help/skins-creating.html
+
+--3e3ecd44a--2013-10-15--james_
+4	0	Gemfile.lock
+
+--599ea7610--2013-10-04--james_
+6	4	config/initializers/copycopter.rb
+
+--6b20a3de0--2013-10-04--james_
+1	2	Gemfile
+5	0	config/initializers/copycopter.rb
+
+--615612ed9--2013-03-04--Lalith Vipulananthan
+20	12	app/models/challenge_models/prompt_meme.rb

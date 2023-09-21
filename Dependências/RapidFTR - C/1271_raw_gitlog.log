@@ -1,0 +1,66 @@
+--b06bbdb9--2010-08-24--Tom Elkin
+--742cab40--2010-08-21--John D. Hume
+1	1	app/controllers/admin_controller.rb
+3	1	app/controllers/checks_authentication.rb
+1	1	app/controllers/fields_controller.rb
+1	1	app/controllers/form_section_controller.rb
+1	1	app/controllers/users_controller.rb
+1	1	spec/controllers/checks_authentication_spec.rb
+
+--f16f09c5--2010-08-21--John D. Hume
+2	2	app/controllers/admin_controller.rb
+1	0	app/controllers/application_controller.rb
+6	3	app/controllers/checks_authentication.rb
+2	0	app/controllers/fields_controller.rb
+3	0	app/controllers/form_section_controller.rb
+0	1	app/controllers/users_controller.rb
+3	3	features/add_custom_field_to_form_section.feature
+3	3	features/add_suggested_field_to_form_sections.feature
+20	0	features/admin_access.feature
+1	1	features/admin_page_link.feature
+4	4	features/create_and_view_form_sections.feature
+1	1	features/create_new_form.feature
+1	1	features/manage_forms.feature
+4	4	features/reorder_fields.feature
+5	0	features/step_definitions/more_web_steps.rb
+4	1	spec/controllers/attachments_controller_spec.rb
+1	0	spec/controllers/checks_authentication_spec.rb
+3	1	spec/controllers/children_controller_spec.rb
+1	0	spec/controllers/fields_controller_spec.rb
+3	0	spec/controllers/form_section_controller_spec.rb
+3	1	spec/controllers/histories_controller_spec.rb
+3	1	spec/controllers/publish_form_section_controller_spec.rb
+3	1	spec/controllers/users_controller_spec.rb
+5	38	spec/spec_helper.rb
+9	0	spec/support/fake_login.rb
+0	7	spec/support/logged_in.rb
+
+--6db4f0d7--2010-08-21--John D. Hume
+1	6	config/cucumber.yml
+
+--505dfdf6--2010-08-21--Tom Elkin
+29	2	public/APITest/spec/unit/api-spec.js
+
+--dd805b74--2010-08-18--Tom Elkin
+3	1	public/APITest/spec/{dom.html => api-example-usage.html}
+0	0	public/APITest/spec/unit/{spec.js => api-spec.js}
+
+--c2567df0--2010-08-18--Tom Elkin
+7	7	public/APITest/spec/dom.html
+
+--82915836--2010-08-15--John D. Hume
+2	2	app/controllers/application_controller.rb
+15	3	app/controllers/checks_authentication.rb
+5	0	app/controllers/users_controller.rb
+4	0	app/models/session.rb
+4	0	app/models/user.rb
+2	0	app/views/shared/status_403.html.erb
+66	70	features/create_and_view_user.feature
+2	2	features/edit_user_details.feature
+13	1	features/step_definitions/basic_steps.rb
+5	1	features/step_definitions/more_web_steps.rb
+1	1	lib/{auth_failure.rb => authentication_failure.rb}
+5	0	lib/authorization_failure.rb
+37	7	spec/controllers/checks_authentication_spec.rb
+6	0	spec/controllers/users_controller_spec.rb
+18	0	spec/models/session_spec.rb

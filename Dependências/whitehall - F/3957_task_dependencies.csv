@@ -1,7 +1,0 @@
-entity,coupled,degree,average-revs
-app/assets/stylesheets/frontend/helpers/_filter.scss,app/views/documents/_filter_form.html.erb,78,12
-app/assets/stylesheets/frontend/views/_publications.scss,app/views/documents/_filter_form.html.erb,66,9
-app/assets/javascripts/application/document_filter.js,app/assets/stylesheets/frontend/helpers/_filter.scss,64,16
-app/assets/javascripts/application/document_filter.js,app/assets/stylesheets/frontend/views/_publications.scss,61,13
-app/assets/javascripts/application/document_filter.js,app/views/documents/_filter_form.html.erb,61,13
-app/assets/stylesheets/frontend/helpers/_filter.scss,app/assets/stylesheets/frontend/views/_publications.scss,52,12

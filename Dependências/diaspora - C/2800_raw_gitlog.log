@@ -1,0 +1,91 @@
+--60b08b9b0--2011-02-09--Nicolas Berens
+--41d21c78e--2011-02-08--zhitomirskiyi
+1	1	app/views/services/_remote_friend.html.haml
+
+--6be63b88f--2011-02-08--zhitomirskiyi
+8	1	app/views/services/_remote_friend.html.haml
+19	6	spec/models/services/facebook_spec.rb
+
+--80117d8ab--2011-02-08--danielvincent
+23	0	app/views/layouts/application.mobile.haml
+
+--eecf1d5d8--2011-02-08--zhitomirskiyi
+1	1	app/views/users/getting_started/_step_2.html.haml
+1	1	config/locales/diaspora/en.yml
+2	2	features/accepts_invitation.feature
+0	1	features/connects_users.feature
+6	18	features/signs_up.feature
+1	0	public/stylesheets/sass/application.sass
+
+--4e96d11cd--2011-02-07--zhitomirskiyi
+22	10	app/controllers/aspects_controller.rb
+1	1	app/controllers/invitations_controller.rb
+4	4	app/controllers/services_controller.rb
+16	12	app/controllers/users_controller.rb
+21	21	app/views/invitations/new.html.haml
+7	32	app/views/people/_aspect_list.haml
+10	8	app/views/people/_share_with_pane.html.haml
+31	19	app/views/services/_remote_friend.html.haml
+8	3	app/views/shared/_invitations.haml
+22	46	app/views/users/getting_started.html.haml
+3	10	app/views/users/getting_started/_step_1.html.haml
+14	3	app/views/users/getting_started/_step_2.html.haml
+14	16	app/views/users/getting_started/_step_3.html.haml
+0	39	app/views/users/getting_started/_step_4.html.haml
+4	17	config/locales/diaspora/en.yml
+9	11	features/accepts_invitation.feature
+40	6	public/stylesheets/sass/application.sass
+8	0	spec/controllers/aspects_controller_spec.rb
+
+--d147da1b4--2011-02-04--zhitomirskiyi
+1	1	app/controllers/services_controller.rb
+6	3	app/controllers/users_controller.rb
+13	1	app/models/services/facebook.rb
+1	1	app/views/services/_remote_friend.html.haml
+2	2	app/views/users/getting_started.html.haml
+12	13	app/views/users/getting_started/_step_3.html.haml
+7	1	app/views/users/getting_started/_step_4.html.haml
+1	1	config/locales/diaspora/en.yml
+36	7	spec/models/services/facebook_spec.rb
+
+--df4ebb286--2011-02-03--zhitomirskiyi
+12	1	app/controllers/aspects_controller.rb
+4	1	app/controllers/users_controller.rb
+9	0	app/views/aspects/_aspect_list_item.haml
+8	1	app/views/people/_person.html.haml
+21	10	app/views/people/_share_with_pane.html.haml
+8	0	app/views/services/_finder.html.haml
+19	32	app/views/services/_remote_friend.html.haml
+1	4	app/views/services/finder.html.haml
+14	48	app/views/users/getting_started/_step_3.html.haml
+11	3	features/accepts_invitation.feature
+21	4	features/connects_users.feature
+-	-	public/images/icons/monotone_add_plus.png
+5	0	public/javascripts/contact-list.js
+
+--a39818408--2011-02-03--zhitomirskiyi
+6	6	app/views/users/getting_started.html.haml
+10	3	app/views/users/getting_started/_step_1.html.haml
+3	58	app/views/users/getting_started/_step_2.html.haml
+51	3	app/views/users/getting_started/_step_3.html.haml
+2	2	config/locales/diaspora/en.yml
+6	6	features/signs_up.feature
+
+--724117742--2011-02-08--zhitomirskiyi
+1	1	app/views/people/_profile_sidebar.html.haml
+2	0	config/locales/diaspora/en.yml
+4	0	config/locales/javascript/javascript.en.yml
+2	1	public/javascripts/contact-list.js
+
+--a06ba9105--2011-02-08--zhitomirskiyi
+1	1	app/models/aspect.rb
+6	0	spec/models/aspect_spec.rb
+
+--a649d18cd--2011-02-08--maxwell
+2	3	app/models/post.rb
+30	1	spec/intergration/receiving_spec.rb
+2	6	spec/lib/postzord/dispatch_spec.rb
+12	0	spec/spec_helper.rb
+
+--024ecc175--2011-02-08--Nicolas Berens
+1	1	app/views/users/edit.html.haml

@@ -1,0 +1,99 @@
+--bd0eebdb0--2014-09-24--Parker Moore
+--3319c0ab5--2014-09-24--Parker Moore
+1	0	History.markdown
+
+--dc0add15a--2014-09-24--Parker Moore
+--6f585e5da--2014-09-24--Parker Moore
+1	0	History.markdown
+
+--0c32f389b--2014-09-24--Parker Moore
+--8990d7199--2014-09-22--Parker Moore
+1	1	jekyll.gemspec
+
+--e6f89074d--2014-09-22--Parker Moore
+2	2	lib/jekyll/converters/markdown/redcarpet_parser.rb
+
+--633c9be95--2014-09-22--Parker Moore
+1	0	History.markdown
+
+--14c58213c--2014-09-22--Parker Moore
+--f2689ddf8--2014-09-22--Parker Moore
+--a5a8be97d--2014-09-22--Parker Moore
+13	11	site/_docs/github-pages.md
+
+--e013c16ba--2014-09-22--Philipp Rudloff
+1	1	lib/site_template/css/main.scss
+
+--52c76b5d9--2014-09-21--Parker Moore
+1	0	History.markdown
+
+--e68a584a2--2014-09-21--Parker Moore
+--bc9699e42--2014-09-21--Parker Moore
+1	0	History.markdown
+
+--951fa8981--2014-09-21--Parker Moore
+--6a06a627f--2014-09-21--Ruslan Korolev
+9	0	site/_docs/configuration.md
+
+--a7eeeda99--2014-09-19--Parker Moore
+6	7	site/_docs/github-pages.md
+
+--0f008c02d--2014-09-19--Parker Moore
+26	0	site/_docs/github-pages.md
+
+--3086ea303--2014-09-19--Parker Moore
+1	0	History.markdown
+
+--2efe14d65--2014-09-19--Parker Moore
+--c03dadbe2--2014-09-19--Tom Thorogood
+1	0	site/_docs/plugins.md
+
+--9efb68f95--2014-09-17--Parker Moore
+3	0	History.markdown
+
+--2c9f6b0bd--2014-09-17--Parker Moore
+--84ce5c358--2014-09-17--Parker Moore
+1	0	History.markdown
+
+--bfe83cdec--2014-09-17--Parker Moore
+--51ebd6916--2014-09-16--Parker Moore
+1	0	History.markdown
+
+--c11edf527--2014-09-16--Parker Moore
+--a3f833657--2014-09-17--snrbrnjna
+1	0	site/_docs/plugins.md
+
+--36baf435b--2014-09-16--Parker Moore
+1	1	History.markdown
+
+--1416e0e0c--2014-09-16--Parker Moore
+1	0	History.markdown
+
+--c789a93bc--2014-09-16--Parker Moore
+--121a06a9e--2014-09-16--Ruslan Korolev
+5	0	test/test_new_command.rb
+
+--24d13fcc5--2014-09-14--Parker Moore
+1	0	History.markdown
+
+--bf1a2320e--2014-09-14--Parker Moore
+--fdf58c5ce--2014-09-14--Pat Hawks
+1	1	lib/jekyll/post.rb
+
+--5445a1bea--2014-09-14--Pat Hawks
+10	0	features/permalinks.feature
+
+--566eb6ef3--2014-09-14--Igor Kapkov
+1	1	lib/site_template/_posts/0000-00-00-welcome-to-jekyll.markdown.erb
+
+--bf8cc236e--2014-09-12--Charles Baynham
+1	1	site/_docs/collections.md
+
+--960a91833--2014-09-10--Pat Hawks
+6	6	site/_sass/_style.scss
+
+--99b5569ff--2014-09-09--Pat Hawks
+1	1	site/_docs/index.md
+3	3	site/_docs/templates.md
+1	1	site/_docs/variables.md
+1	1	site/index.html

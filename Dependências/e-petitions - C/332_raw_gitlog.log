@@ -1,0 +1,65 @@
+--8814ab41--2015-06-19--Murray Steele
+--e5a2d1aa--2015-06-19--Andrew White
+17	0	app/helpers/petition_helper.rb
+30	7	app/models/petition.rb
+1	1	app/models/signature.rb
+2	2	app/views/search/petitions/_petition_result_for_facet_all.html.erb
+3	0	app/views/search/petitions/_petition_result_for_facet_awaiting_response.html.erb
+2	2	app/views/search/petitions/_petition_result_for_facet_closed.html.erb
+2	2	app/views/search/petitions/_petition_result_for_facet_open.html.erb
+1	1	app/views/search/petitions/_petition_result_for_facet_rejected.html.erb
+2	2	app/views/search/petitions/_petition_result_for_facet_with_debate_outcome.html.erb
+2	2	app/views/search/petitions/_petition_result_for_facet_with_response.html.erb
+0	1	app/views/search/petitions/shared/_petition_action_link.html.erb
+0	3	app/views/search/petitions/shared/_signature_count.html.erb
+7	1	config/locales/petitions.en-GB.yml
+8	0	db/migrate/20150619075903_add_response_threshold_reached_at_to_petition.rb
+11	1	db/structure.sql
+12	0	features/step_definitions/petition_steps.rb
+14	1	features/suzie_views_all_petitions.feature
+8	0	spec/factories.rb
+55	0	spec/helpers/petition_helper_spec.rb
+120	0	spec/models/petition_spec.rb
+
+--1af390c2--2015-06-19--Andrew White
+6	6	lib/tasks/import.rake
+
+--71790090--2015-06-12--Andrew White
+8	11	spec/controllers/admin/petitions_controller_spec.rb
+2	7	spec/controllers/admin/profile_controller_spec.rb
+18	16	spec/models/petition_spec.rb
+
+--4cae9a06--2015-06-12--Andrew White
+10	11	app/models/petition.rb
+11	5	app/models/signature.rb
+0	4	config/schedule.rb
+8	0	db/migrate/20150618233548_add_validated_at_to_signatures.rb
+8	0	db/migrate/20150618233718_add_last_signed_at_to_petitions.rb
+22	2	db/structure.sql
+0	1	features/admin/threshold.feature
+0	1	features/sam_signs_a_petition_with_suzies_email_address.feature
+0	1	features/step_definitions/constituency_search_steps.rb
+7	9	features/step_definitions/petition_steps.rb
+0	2	features/step_definitions/signature_steps.rb
+0	3	features/suzie_searches_by_free_text.feature
+0	2	features/suzie_signs_a_petition.feature
+0	1	features/suzie_unsubscribes_from_petition_updates.feature
+0	3	lib/tasks/data-generator.rake
+47	11	spec/controllers/admin/petitions_controller_spec.rb
+10	0	spec/factories.rb
+46	33	spec/models/petition_spec.rb
+64	19	spec/models/signature_spec.rb
+
+--4d34cc81--2015-06-09--Andrew White
+0	1	app/controllers/signatures_controller.rb
+5	0	app/controllers/sponsors_controller.rb
+4	4	app/models/petition.rb
+11	0	spec/controllers/sponsors_controller_spec.rb
+9	9	spec/models/petition_spec.rb
+
+--40b04724--2015-06-09--Andrew White
+25	16	app/controllers/sponsors_controller.rb
+17	20	app/models/petition.rb
+8	0	app/models/site.rb
+42	0	spec/models/petition_spec.rb
+24	0	spec/models/site_spec.rb

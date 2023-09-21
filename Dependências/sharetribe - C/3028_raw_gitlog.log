@@ -1,0 +1,32 @@
+--3165a2b42--2010-07-29--Juho Makkonen
+--b123445f1--2010-07-28--Juho Makkonen
+14	4	app/controllers/listings_controller.rb
+18	1	app/helpers/listings_helper.rb
+48	3	app/models/listing.rb
+8	2	app/stylesheets/style.scss
+1	1	app/views/layouts/application.haml
+7	0	app/views/listings/_help_texts.haml
+1	1	app/views/listings/_listing_description.haml
+28	0	app/views/listings/_listing_form_content.haml
+3	3	app/views/listings/_listing_send_button.haml
+16	0	app/views/listings/_listing_share_type.haml
+4	5	app/views/listings/_listing_title.haml
+2	0	app/views/listings/_share_type.en.haml
+2	0	app/views/listings/_share_type.fi.haml
+2	33	app/views/listings/new.haml
+1	0	app/views/listings/new.js.erb
+2	0	app/views/listings/show.haml
+19	4	config/locales/en.yml
+19	8	config/locales/fi.yml
+5	1	config/routes.rb
+9	0	db/migrate/20100727102551_add_transaction_type_to_listing.rb
+9	0	db/migrate/20100727103659_rename_transaction_type_to_share_type.rb
+2	1	db/schema.rb
+1	0	features/user_creates_a_new_request.feature
+-	-	public/images/error_arrow.png
+41	8	public/javascripts/kassi.js
+8	2	public/stylesheets/compiled/style.css
+57	2	spec/models/listing_spec.rb
+
+--47588d45f--2010-07-28--Antti Virolainen
+1	1	app/models/person.rb

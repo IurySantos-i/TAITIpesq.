@@ -1,0 +1,2 @@
+entity,coupled,degree,average-revs
+features/admin/statistics_and_info/admin_views_transactions.feature,features/step_definitions/admin_transaction_steps.rb,76,7

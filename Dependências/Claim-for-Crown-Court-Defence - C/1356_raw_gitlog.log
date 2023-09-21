@@ -1,0 +1,65 @@
+--69006eddb--2015-10-09--jsugarman
+--056401eea--2015-10-09--jsugarman
+0	2	app/interfaces/api/v1/advocates/defendant.rb
+1	1	app/models/defendant.rb
+0	1	spec/controllers/advocates/claims_controller_spec.rb
+0	1	spec/examples/cms_exported_claim.json
+0	1	spec/examples/invalid_cms_exported_claim.json
+0	1	spec/examples/json_schema_fail.json
+0	4	spec/examples/multiple_cms_export_with_errors.json
+0	4	spec/examples/multiple_cms_export_with_errors_2.json
+0	2	spec/examples/multiple_cms_exported_claims.json
+0	1	spec/factories/defendants.rb
+0	2	spec/models/claim_spec.rb
+1	1	spec/models/json_document_importer_spec.rb
+
+--4aaf6a68b--2015-10-09--jsugarman
+1	2	app/models/claims/search.rb
+1	1	app/models/defendant.rb
+0	4	app/views/advocates/claims/_defendant_fields.html.haml
+0	1	config/locales/en.yml
+7	9	features/advocate_claims_list.feature
+2	4	features/step_definitions/advocate_claims_list_steps.rb
+1	2	lib/api_test_client.rb
+2	2	spec/models/claim_spec.rb
+2	2	spec/models/defendant_spec.rb
+7	3	spec/presenters/claim_presenter_spec.rb
+
+--80177823c--2015-10-09--Edward Andress
+--81a41a7a8--2015-10-09--Himal Mandalia
+--cfb0d0df3--2015-10-09--Himal Mandalia
+1	1	app/services/claim_reporter.rb
+1	1	spec/services/claim_reporter_spec.rb
+
+--1ae85c28e--2015-10-08--Edward Andress
+3	3	features/step_definitions/advocate_new_claim_steps.rb
+2	2	features/step_definitions/api_documentation_steps.rb
+1	1	features/step_definitions/cracked_trial_steps.rb
+8	8	features/step_definitions/sign_in_steps.rb
+
+--b45dce492--2015-10-08--Edward Andress
+7	7	app/views/shared/_evidence_list.html.haml
+16	16	app/views/shared/_summary.html.haml
+4	4	app/views/shared/_vat_summary.html.haml
+27	0	config/locales/en.yml
+
+--df933a2c3--2015-10-08--Edward Andress
+32	67	app/views/shared/_claim.html.haml
+5	0	config/locales/en.yml
+
+--25478802c--2015-10-08--Edward Andress
+0	4	app/views/shared/_claim.html.haml
+
+--07818aeae--2015-10-08--Edward Andress
+1	1	app/views/advocates/certifications/new.html.haml
+6	6	app/views/advocates/claims/_form.html.haml
+2	2	app/views/advocates/claims/_json_document_importer.haml
+2	1	app/views/advocates/claims/_representation_order_fields.html.haml
+2	2	app/views/advocates/claims/archived.html.haml
+2	2	app/views/advocates/claims/authorised.html.haml
+2	2	app/views/advocates/claims/index.html.haml
+8	8	app/views/case_workers/admin/case_workers/index.html.haml
+1	1	app/views/case_workers/claims/archived.html.haml
+1	1	app/views/case_workers/claims/index.html.haml
+7	7	app/views/devise/shared/_links.html.haml
+70	30	config/locales/en.yml

@@ -1,0 +1,52 @@
+--5089bdab--2010-11-29--Kai Ramuenke
+--c235b4a9--2010-11-25--Timothy Cochran
+0	4	app/controllers/fields_controller.rb
+2	6	spec/controllers/fields_controller_spec.rb
+
+--c8b7269a--2010-11-25--Timothy Cochran
+4	4	app/controllers/fields_controller.rb
+15	0	app/controllers/form_section_controller.rb
+7	1	app/models/form_section.rb
+0	0	app/views/{fields => form_section}/_delete_button.html.erb
+0	0	app/views/{fields => form_section}/_direction_button.html.erb
+56	0	app/views/form_section/edit.html.erb
+1	6	app/views/form_section/index.html.erb
+5	5	features/add_custom_field_to_form_section.feature
+4	4	features/add_suggested_field_to_form_sections.feature
+2	2	features/admin_access.feature
+4	4	features/create_custom_fields.feature
+1	1	features/delete_field_from_forms_section.feature
+21	0	features/edit_form_section.feature
+4	4	features/reorder_fields.feature
+7	6	features/step_definitions/basic_steps.rb
+5	6	features/step_definitions/form_section_steps.rb
+5	2	features/support/paths.rb
+3	1	public/stylesheets/core.css
+3	3	spec/controllers/fields_controller_spec.rb
+24	0	spec/controllers/form_section_controller_spec.rb
+0	4	spec/models/form_section_spec.rb
+0	30	spec/views/Fields/index.html.erb_spec.rb
+0	8	spec/views/formsections/index.html.erb_spec.rb
+
+--59646732--2010-11-25--Kai Ramuenke
+5	1	app/controllers/fields_controller.rb
+5	0	app/models/form_section.rb
+1	1	app/views/children/_form_section.html.erb
+2	2	app/views/fields/index.html.erb
+7	1	features/disable_enable_form_fields.feature
+21	7	spec/controllers/fields_controller_spec.rb
+13	1	spec/models/form_section_spec.rb
+
+--f4a9fac8--2010-11-25--Kai Ramuenke
+7	0	app/controllers/fields_controller.rb
+1	0	app/models/field.rb
+5	1	app/models/form_section.rb
+36	13	app/views/fields/index.html.erb
+1	0	config/routes.rb
+12	0	features/disable_enable_form_fields.feature
+9	3	features/step_definitions/basic_steps.rb
+4	4	features/step_definitions/form_section_steps.rb
+18	3	spec/controllers/fields_controller_spec.rb
+10	0	spec/models/field_spec.rb
+12	0	spec/models/form_section_spec.rb
+1	0	spec/views/Fields/index.html.erb_spec.rb

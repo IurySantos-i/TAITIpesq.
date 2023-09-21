@@ -1,0 +1,21 @@
+--53757f7b6--2015-09-10--Himal Mandalia
+--cf8194296--2015-09-10--Himal Mandalia
+--8836f57cf--2015-09-10--jsugarman
+11	9	app/controllers/advocates/claims_controller.rb
+1	1	app/views/advocates/claims/_claims.html.haml
+11	0	features/advocate_edit_claim.feature
+62	0	features/cassettes/Advocate_new_claim/Add_fees_with_dates_attended_then_remove_fee/_5_fixed_.yml
+8	0	features/step_definitions/advocate_edit_claim_steps.rb
+
+--1b7a30e92--2015-09-09--Alistair Laing
+--b24f47dc2--2015-09-09--Alistair Laing
+--956174e96--2015-09-09--Alistair Laing
+--a0df917dd--2015-09-09--Alistair Laing
+1	1	app/views/advocates/claims/show.html.haml
+
+--5b91d5b17--2015-09-09--Alistair Laing
+24	12	app/assets/stylesheets/claim-accordion.scss
+
+--0f7a898dc--2015-09-09--Alistair Laing
+12	0	app/assets/images/accordion-closed.svg
+12	0	app/assets/images/accordion-open.svg

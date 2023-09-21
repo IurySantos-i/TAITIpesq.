@@ -1,0 +1,3 @@
+entity,coupled,degree,average-revs
+CONTRIBUTING.md,site/docs/contributing.md,92,7
+features/create_sites.feature,features/step_definitions/jekyll_steps.rb,55,9

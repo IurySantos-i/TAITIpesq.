@@ -1,0 +1,22 @@
+--c92b14bf--2010-02-24--Babitha
+--50f748c5--2010-02-24--cgeorge
+2	1	app/models/child.rb
+13	0	spec/models/child_spec.rb
+
+--c49fc601--2010-02-24--cgeorge
+16	4	app/models/child.rb
+65	2	spec/models/child_spec.rb
+
+--79e134dc--2010-02-24--cgeorge
+11	10	app/models/child.rb
+2	2	spec/models/child_spec.rb
+
+--d9982119--2010-02-24--cgeorge
+16	6	app/models/child.rb
+40	3	spec/models/child_spec.rb
+
+--1674ae00--2010-02-23--Babitha
+7	0	app/models/field.rb
+1	2	app/models/templates.rb
+4	0	app/views/children/_check_box.html.erb
+4	4	features/create_child_record.feature

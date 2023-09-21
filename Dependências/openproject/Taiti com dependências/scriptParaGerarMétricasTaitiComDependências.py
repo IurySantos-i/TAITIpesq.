@@ -30,7 +30,7 @@ def intersection(lst1, lst2):
     lst3 = [value for value in lst1 if value in lst2]
     return lst3
 
-path_of_the_directory = r"F:\Pesquisa TAITI\Dependências\openproject\Taiti com dependências"
+path_of_the_directory = r"F:\Pesquisa TAITI\Dependências\sharetribe"
 degreeofdependence= 30
 df = pd.read_csv('https___github.com_sharetribe_sharetribe.csv',engine="python", sep=';')
 
@@ -76,7 +76,6 @@ for filename in sorted(os.listdir(path_of_the_directory), key = natural_keys):
     if filename.endswith('.csv') and not filename.startswith("http"):
 
         df1 = pd.read_csv(filename, engine="python", sep=',')
-        df1.drop(df1[df1['degree'] > degreeofdependence ].index, inplace = True)
 
         weaklogicaldependence=df1['coupled'].tolist()
 
@@ -97,6 +96,8 @@ for filename in sorted(os.listdir(path_of_the_directory), key = natural_keys):
         testIwithDepstemp = Union(Final, Taiti)
 
         depstemp = [x for x in testIwithDepstemp if x not in Taiti]
+        if depstemp == []:
+            depstemp = ""
 
         precisionTemp = len(intersection(Taiti,Changed))/len(Taiti)
 

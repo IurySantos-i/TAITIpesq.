@@ -1,0 +1,16 @@
+--9b279b28a--2018-07-19--Aivils Štoss
+--c9f6d3457--2018-07-19--Aivils Štoss
+--d02e683b5--2018-07-17--Aivils Štoss
+3	0	app/views/people/show.haml
+11	0	features/settings/user_updates_profile_information.feature
+2	1	features/step_definitions/person_custom_field_steps.rb
+6	0	features/step_definitions/web_steps.rb
+
+--441979e96--2018-07-13--Aivils Štoss
+8	1	app/assets/stylesheets/partials/_admin.scss
+2	0	app/view_utils/icon_map.rb
+5	0	app/views/admin/communities/edit_look_and_feel.haml
+9	0	app/views/layouts/_filename.haml
+1	1	app/views/layouts/_style_overrides.haml
+1	0	app/views/settings/show.haml
+1	0	config/locales/en.yml

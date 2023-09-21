@@ -1,0 +1,75 @@
+--3f8eb7de8--2014-01-15--Antti Virolainen
+--c12cf1a9f--2014-01-15--Antti Virolainen
+--0b47f9749--2014-01-15--Antti Virolainen
+8	2	config/locales/ca.yml
+7	1	config/locales/de-bl.yml
+7	1	config/locales/de-rc.yml
+8	2	config/locales/de.yml
+7	1	config/locales/el.yml
+7	1	config/locales/en-at.yml
+7	1	config/locales/en-bd.yml
+7	1	config/locales/en-bf.yml
+7	1	config/locales/en-bl.yml
+7	1	config/locales/en-cf.yml
+7	1	config/locales/en-qr.yml
+7	1	config/locales/en-rc.yml
+7	1	config/locales/en-sb.yml
+7	1	config/locales/en-ul.yml
+7	1	config/locales/en-un.yml
+7	1	config/locales/en-vg.yml
+7	1	config/locales/es-ES.yml
+7	1	config/locales/es-rc.yml
+7	1	config/locales/es.yml
+7	4	config/locales/fi.yml
+7	1	config/locales/fr-at.yml
+7	1	config/locales/fr-bd.yml
+7	1	config/locales/fr-rc.yml
+7	1	config/locales/fr.yml
+7	1	config/locales/hr.yml
+7	1	config/locales/hu.yml
+63	57	config/locales/it.yml
+7	1	config/locales/lv.yml
+7	1	config/locales/nl.yml
+7	1	config/locales/pt-BR.yml
+7	1	config/locales/ro.yml
+7	1	config/locales/ru.yml
+7	1	config/locales/sv.yml
+7	1	config/locales/sw.yml
+7	1	config/locales/vi.yml
+7	1	config/locales/zh.yml
+
+--11bc3312f--2014-01-15--Antti Virolainen
+3	2	app/views/listings/form/_custom_fields.haml
+
+--9bdcc63a8--2014-01-15--Antti Virolainen
+1	0	app/models/custom_field_name.rb
+147	0	features/listings/user_filters_listings_by_custom_fields.feature
+10	0	features/step_definitions/listing_steps.rb
+7	1	spec/factories.rb
+
+--9c7151d85--2014-01-15--Mikko Koski
+80	65	app/assets/javascripts/custom_fields.js
+2	5	app/assets/javascripts/kassi.js
+2	1	app/views/admin/custom_fields/add_option.js.erb
+1	1	app/views/admin/custom_fields/edit.haml
+1	1	app/views/admin/custom_fields/index.haml
+
+--cc0bc148b--2014-01-15--Mikko Koski
+4	10	app/assets/stylesheets/views/admin/_custom_fields.css.scss
+24	23	app/views/admin/custom_fields/_new_option.haml
+1	1	app/views/admin/custom_fields/edit.haml
+2	0	app/views/admin/custom_fields/form/_field_options.haml
+
+--7242d066e--2014-01-15--Mikko Koski
+75	22	app/assets/javascripts/custom_fields.js
+1	1	app/views/admin/custom_fields/_listed_custom_field.haml
+5	3	app/views/admin/custom_fields/_new_option.haml
+1	0	app/views/admin/custom_fields/edit.haml
+1	1	app/views/admin/custom_fields/form/_field_options.haml
+1	1	app/views/admin/custom_fields/index.haml
+1	1	app/views/homepage/_custom_filters.haml
+0	1	app/views/listings/form/_javascripts.haml
+
+--1ced5d77e--2014-01-15--Mikko Koski
+6	16	app/assets/stylesheets/views/admin/_custom_fields.css.scss
+7	3	app/views/admin/custom_fields/_new_option.haml

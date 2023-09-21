@@ -1,0 +1,26 @@
+--2c81b8aa8--2013-07-10--Antti Virolainen
+--7a4b63b3d--2013-07-10--Antti Virolainen
+1	0	Gemfile
+17	0	Gemfile.lock
+4	0	config/environments/production.rb
+1	0	config/robots.txt
+2	0	config/routes.rb
+22	0	lib/rack_middleware/robots_generator.rb
+0	5	public/robots.txt
+
+--e9bd40c1e--2013-07-10--Kusti
+1	1	app/assets/stylesheets/application.scss.erb
+14	21	app/views/people/_testimonial.haml
+0	11	app/views/person_mailer/community_updates.html.haml
+0	14	config/locales/en.yml
+0	2	config/locales/fi.yml
+
+--bb80ec7e8--2013-07-09--Kusti
+0	1	app/views/listings/new.js.erb
+1	0	features/people/user_creates_a_new_account.feature
+
+--229946251--2013-07-09--Antti Virolainen
+2	2	lib/rack_middleware/custom_domain_cookie.rb
+
+--af495ad71--2013-07-08--Antti Virolainen
+1	1	lib/rack_middleware/custom_domain_cookie.rb

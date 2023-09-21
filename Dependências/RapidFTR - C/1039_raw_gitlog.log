@@ -1,0 +1,160 @@
+--76150874--2011-09-13--Jennifer Smith
+--986fdf1c--2011-09-13--chrisgeorge
+4	4	capybara_features/step_definitions/export_file_steps.rb
+
+--1153b07b--2011-08-30--Aravind SV
+1	1	Gemfile
+7	11	Gemfile.lock
+2	2	capybara_features/step_definitions/export_file_steps.rb
+
+--779d3733--2011-09-06--chrisgeorge
+--23ac8a1e--2011-09-06--jennifersmith
+--060c93fd--2011-09-06--chrisgeorge
+--68efc41b--2011-09-06--chrisgeorge
+--349fdd0d--2011-09-06--Jennifer Smith
+3	3	public/javascripts/application.js
+
+--4e84cf0a--2011-08-31--Noppanit Charassinvichai
+6	6	public/javascripts/application.js
+
+--5955c182--2011-09-06--chrisgeorge
+1	13	capybara_features/step_definitions/child_record_toolbar_steps.rb
+
+--3de2cab6--2011-09-06--chrisgeorge
+--aa88a35e--2011-09-06--chrisgeorge
+1	1	capybara_features/hide_child_record_form_fields.feature
+0	48	features/hide_child_record_form_fields.feature
+
+--80b0c58f--2011-09-06--chrisgeorge
+--1aa85c0e--2011-09-06--chrisgeorge
+--de2f4019--2011-09-06--chrisgeorge
+--d3202707--2011-09-05--iliasbartolini
+1	0	app/controllers/advanced_search_controller.rb
+5	5	app/controllers/children_controller.rb
+3	1	app/controllers/contact_information_controller.rb
+1	0	app/controllers/fields_controller.rb
+3	0	app/controllers/form_section_controller.rb
+3	1	app/controllers/users_controller.rb
+1	1	app/views/admin/index.html.erb
+1	1	app/views/children/index.html.erb
+0	2	app/views/contact_information/edit.html.erb
+0	1	app/views/contact_information/show.html.erb
+0	1	app/views/fields/new.html.erb
+0	1	app/views/form_section/edit.html.erb
+1	3	app/views/form_section/index.html.erb
+0	2	app/views/form_section/new.html.erb
+1	1	app/views/home/index.html.erb
+2	2	app/views/layouts/application.html.erb
+0	2	app/views/users/edit.html.erb
+0	2	app/views/users/new.html.erb
+4	4	features/add_custom_field_to_form_section.feature
+1	1	features/add_suggested_field_to_form_sections.feature
+3	3	features/child_record_validations.feature
+1	1	features/create_child_new_disabled_form_section.feature
+4	4	features/create_child_record.feature
+5	5	features/create_new_form.feature
+1	1	features/edit_child_record.feature
+2	2	features/hide_child_record_form_fields.feature
+1	1	features/home_page_link.feature
+2	2	features/manage_forms.feature
+1	1	features/user_disable.feature
+1	1	features/view_child_record_log.feature
+2	2	spec/controllers/fields_controller_spec.rb
+3	3	spec/controllers/users_controller_spec.rb
+
+--481199ea--2011-09-05--Minno
+2	2	app/models/child.rb
+19	0	features/edit_child_record.feature
+
+--61b1e656--2011-09-05--Minno
+--ceea4e58--2011-09-02--Cesar Henrique Vortmann
+1	1	app/views/children/_show_child_toolbar.erb
+4	4	features/step_definitions/basic_steps.rb
+
+--38163ada--2011-09-02--Cesar Henrique Vortmann
+10	6	features/step_definitions/basic_steps.rb
+
+--f4441ee9--2011-09-01--Cesar Henrique Vortmann
+106	105	features/add_custom_field_to_form_section.feature
+
+--9e4d4093--2011-09-01--Cesar Henrique Vortmann
+1	0	app/views/fields/choose.html.erb
+6	0	features/add_custom_field_to_form_section.feature
+
+--92419d8f--2011-08-30--Jean D'Amore
+1	1	app/views/children/show.html.erb
+2	1	public/stylesheets/core.css
+
+--57b477f4--2011-08-30--Jean D'Amore
+--9149e544--2011-08-30--Jean D'Amore
+6	8	app/views/children/show.html.erb
+29	0	capybara_features/reunited_child_record.feature
+13	0	capybara_features/step_definitions/basic_steps.rb
+11	16	capybara_features/step_definitions/child_record_toolbar_steps.rb
+15	0	capybara_features/support/steps_helper.rb
+-	-	public/images/icon-reunited.jpg
+-	-	public/images/reunited-frame.jpg
+10	10	public/stylesheets/core.css
+
+--84ac6dcc--2011-08-26--Jean D'Amore
+4	0	app/helpers/children_helper.rb
+8	2	app/views/children/show.html.erb
+-	-	public/images/reunited-bkg.jpg
+15	2	public/stylesheets/core.css
+
+--600152f0--2011-08-26--Jean D'Amore
+2	1	app/views/children/_mark_as.html.erb
+8	4	app/views/children/_show_child_toolbar.erb
+4	1	app/views/children/show.html.erb
+29	0	capybara_features/step_definitions/child_record_toolbar_steps.rb
+7	0	capybara_features/step_definitions/children_setup_steps.rb
+24	0	capybara_features/view_child_record_toolbar.feature
+0	8	features/step_definitions/basic_steps.rb
+-	-	public/images/icon-reunited.gif
+2	1	public/stylesheets/core.css
+
+--fd692ba8--2011-08-30--Jean D'Amore
+0	71	features/pdf_export.feature
+
+--4647aba6--2011-08-29--Noppanit Charassinvichai
+8	0	app/helpers/application_helper.rb
+7	6	app/views/layouts/application.html.erb
+
+--b5e8e6a4--2011-08-26--Jean D'Amore
+1	2	capybara_features/step_definitions/search_steps.rb
+
+--bb463974--2011-08-26--Jean D'Amore
+47	0	capybara_features/hide_child_record_form_fields.feature
+71	0	capybara_features/pdf_export.feature
+29	0	capybara_features/step_definitions/basic_steps.rb
+4	4	capybara_features/step_definitions/export_file_steps.rb
+
+--0f2fec55--2011-08-26--Jean D'Amore
+--65030d5b--2011-08-26--Jean D'Amore
+4	0	app/helpers/children_helper.rb
+8	2	app/views/children/show.html.erb
+-	-	public/images/reunited-bkg.jpg
+15	2	public/stylesheets/core.css
+
+--e8d1f680--2011-08-26--Jean D'Amore
+2	1	app/views/children/_mark_as.html.erb
+8	4	app/views/children/_show_child_toolbar.erb
+4	1	app/views/children/show.html.erb
+29	0	capybara_features/step_definitions/child_record_toolbar_steps.rb
+7	0	capybara_features/step_definitions/children_setup_steps.rb
+24	0	capybara_features/view_child_record_toolbar.feature
+0	8	features/step_definitions/basic_steps.rb
+-	-	public/images/icon-reunited.gif
+2	1	public/stylesheets/core.css
+
+--3b8b4410--2011-08-22--Minno
+--1f75bf5b--2011-08-16--chrisgeorge
+--3e3e6631--2011-08-15--Minno
+9	7	app/views/children/_check_boxes.html.erb
+7	4	app/views/children/_date_field.html.erb
+7	4	app/views/children/_numeric_field.html.erb
+6	4	app/views/children/_photo_upload_box.html.erb
+7	4	app/views/children/_select_box.html.erb
+7	4	app/views/children/_text_field.html.erb
+6	4	app/views/children/_textarea.html.erb
+2	1	public/stylesheets/core.css

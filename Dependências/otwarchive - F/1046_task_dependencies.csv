@@ -1,7 +1,0 @@
-entity,coupled,degree,average-revs
-app/views/tag_wranglings/index.html.erb,app/views/tags/wrangle.html.erb,82,9
-app/controllers/tag_wranglings_controller.rb,app/controllers/tags_controller.rb,76,7
-app/controllers/tag_wranglings_controller.rb,app/views/tags/wrangle.html.erb,62,8
-app/views/comments/_commentable.html.erb,app/views/layouts/_javascripts.html.erb,58,9
-app/views/home/_tos.html.erb,app/views/home/tos_faq.html.erb,56,16
-app/views/comments/_commentable.html.erb,app/views/works/_work_header_navigation.html.erb,52,10

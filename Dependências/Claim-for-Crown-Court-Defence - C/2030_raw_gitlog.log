@@ -1,0 +1,21 @@
+--bfc50b8bc--2015-05-21--Todd Tyree
+--9d444469f--2015-05-20--Todd Tyree
+8	2	app/controllers/documents_controller.rb
+
+--219ba6fed--2015-05-20--Himal Mandalia
+0	3	app/views/advocates/claims/summary.html.haml
+
+--6b0c66c16--2015-05-20--Todd Tyree
+2	2	app/controllers/documents_controller.rb
+
+--aa375fd1e--2015-05-20--Himal Mandalia
+5	2	app/controllers/advocates/claims_controller.rb
+2	2	app/models/claim.rb
+1	0	app/models/fee.rb
+1	1	app/views/advocates/claims/_expense_fields.html.haml
+2	2	app/views/advocates/claims/_fee_fields.html.haml
+1	1	features/advocate_new_claim.feature
+25	3	features/step_definitions/advocate_new_claim_steps.rb
+8	8	spec/models/claim_spec.rb
+3	3	spec/models/claims/totals_spec.rb
+1	0	spec/models/fee_spec.rb

@@ -1,0 +1,12 @@
+--7160a7c12--2014-03-02--Antti Virolainen
+--dd893ead5--2014-03-02--Antti Virolainen
+1	1	app/views/feedbacks/new.haml
+6	4	features/communities/user_is_banned_from_community.feature
+10	4	features/step_definitions/admin_manage_members_steps.rb
+2	0	features/support/paths.rb
+
+--03aed6c33--2014-03-02--Sampo Toiva
+--ddaaf94f6--2014-03-02--Sampo Toiva
+2	2	app/views/admin/communities/manage_members.haml
+5	5	features/admin/manage_members/admin_lists_members.feature
+10	5	features/step_definitions/user_steps.rb

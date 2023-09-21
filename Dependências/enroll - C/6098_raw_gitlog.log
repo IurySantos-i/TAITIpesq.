@@ -1,0 +1,27 @@
+--119e085e90--2015-05-17--Ken Lu
+--7997f8140b--2015-05-17--Ken Lu
+1	0	app/assets/javascripts/application.js
+3	0	app/helpers/employers/employer_helper.rb
+4	4	app/views/employers/family/_address_fields.html.erb
+1	1	app/views/shared/_benefit_group_assignment_fields.html.erb
+
+--203ec3aed9--2015-05-17--Kevin Wei
+10	2	app/views/exchanges/hbx_profiles/show.html.erb
+1	1	config/routes.rb
+
+--7dd9e4692a--2015-05-17--Sean Carley
+9	8	features/step_definitions/integration_steps.rb
+
+--ccff1fbeeb--2015-05-17--Sean Carley
+2	2	features/integration/employee_sign_up.feature
+
+--74123c7c70--2015-05-17--Sean Carley
+8	8	config/routes.rb
+
+--56c5a3969d--2015-05-17--Trey Evans
+8	0	config/initializers/pipeline.rb
+
+--cc7b70b9b3--2015-05-17--Trey Evans
+70	53	lib/tasks/load_people.rake
+15	1	lib/tasks/load_plans.rake
+13	0	lib/tasks/run_production_import.rake

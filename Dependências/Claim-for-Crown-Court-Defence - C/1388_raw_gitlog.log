@@ -1,0 +1,89 @@
+--9df851c1e--2015-10-05--jsugarman
+--cab92ec1f--2015-10-05--jsugarman
+2	4	features/step_definitions/caseworker_claims_list_steps.rb
+
+--2b0ec26ce--2015-10-05--jsugarman
+1	1	app/models/claims/state_machine.rb
+36	30	features/caseworker_admin_claims_list.feature
+22	22	features/caseworker_claims_list.feature
+57	44	features/step_definitions/caseworker_claims_list_steps.rb
+1	1	features/step_definitions/claim_status_steps.rb
+1	1	features/step_definitions/shared/sign_in_steps.rb
+16	0	features/step_definitions/sign_in_steps.rb
+1	1	features/step_definitions/view_claim_evidence_steps.rb
+
+--6a648ebd4--2015-10-05--Joel Sugarman
+--e92510848--2015-10-05--jsugarman
+1	1	app/controllers/case_workers/claims_controller.rb
+9	8	app/models/claims/state_machine.rb
+
+--12536fecb--2015-10-05--Joel Sugarman
+--491d5f8dc--2015-10-05--Himal Mandalia
+1	1	config/initializers/devise.rb
+
+--f46dbb5fa--2015-10-05--Alistair Laing
+1	1	app/views/grape_swagger_rails/application/index.html.erb
+1	1	app/views/layouts/advocate.html.haml
+1	1	app/views/layouts/application.html.haml
+1	1	app/views/layouts/case_worker.html.haml
+
+--984219c38--2015-10-05--jsugarman
+0	1	app/assets/stylesheets/advocates/application.css.scss
+1	0	app/assets/stylesheets/case_workers/application.css.scss
+0	1	app/assets/stylesheets/{advocates => }/claims-table.scss
+1	0	app/assets/stylesheets/imports.scss
+2	3	app/views/case_workers/claims/_claims.html.haml
+1	1	app/views/case_workers/claims/_claims_list.html.haml
+7	3	config/locales/en.yml
+
+--977389e67--2015-10-05--jsugarman
+1	1	app/views/advocates/claims/_claims.html.haml
+6	6	app/views/case_workers/claims/_claims.html.haml
+7	1	config/locales/en.yml
+
+--ecf2b9118--2015-10-05--jsugarman
+11	9	app/controllers/case_workers/claims_controller.rb
+6	0	app/views/case_workers/claims/_claims.html.haml
+15	0	app/views/case_workers/claims/_claims_list.html.haml
+2	1	app/views/case_workers/claims/_search_form.html.haml
+1	15	app/views/case_workers/claims/archived.html.haml
+1	15	app/views/case_workers/claims/index.html.haml
+
+--4453f476f--2015-10-05--Joel Sugarman
+--684ff4be6--2015-10-05--Himal Mandalia
+2	2	app/validators/date_attended_validator.rb
+
+--5a170b54b--2015-10-05--Himal Mandalia
+--267c44eb9--2015-10-05--Himal Mandalia
+--b307d7633--2015-10-05--Himal Mandalia
+--b6d136d2f--2015-10-04--jsugarman
+9010	9304	db/data.yml
+5	8	lib/demo_data/basic_fee_generator.rb
+0	2	lib/demo_data/expense_generator.rb
+
+--a8e2dafa6--2015-10-04--jsugarman
+8408	8734	db/data.yml
+
+--97e24ec84--2015-10-04--jsugarman
+19	4	app/controllers/case_workers/claims_controller.rb
+2	2	app/models/ability.rb
+19	17	app/models/claims/state_machine.rb
+2	1	app/views/advocates/claims/archived.html.haml
+2	1	app/views/advocates/claims/authorised.html.haml
+1	1	app/views/advocates/claims/confirmation.html.haml
+1	1	app/views/advocates/claims/edit.html.haml
+1	1	app/views/advocates/claims/new.html.haml
+1	1	app/views/advocates/claims/outstanding.html.haml
+18	0	app/views/case_workers/claims/archived.html.haml
+1	1	app/views/case_workers/claims/index.html.haml
+2	0	app/views/layouts/_primary_navigation.html.haml
+4	4	config/routes.rb
+
+--2bbfbd82b--2015-10-03--Alistair Laing
+--bca7bd7a6--2015-10-03--Alistair Laing
+14	13	app/views/advocates/claims/_cracked_trial_fields.html.haml
+36	30	app/views/advocates/claims/_form.html.haml
+
+--d66f24bf5--2015-10-02--Edward Andress
+13	0	app/presenters/expense_presenter.rb
+17	12	app/views/shared/_summary.html.haml

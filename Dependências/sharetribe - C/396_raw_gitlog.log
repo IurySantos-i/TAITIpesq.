@@ -1,0 +1,186 @@
+--1d1f90e36--2017-11-01--Valdis Pornieks
+--4e4944b1b--2017-11-01--Valdis Pornieks
+--c0974521e--2017-11-01--Valdis Pornieks
+--39b5b1b49--2017-11-01--Valdis Pornieks
+--a3cdfd519--2017-11-01--Valdis Pornieks
+--415ae72c3--2017-11-01--Valdis Pornieks
+--fc283000d--2017-09-19--Nikolai
+7	1	app/models/listing_image.rb
+
+--6ee4aca85--2017-11-01--Valdis Pornieks
+--8c1e351a8--2017-10-31--Valdis Pornieks
+8	6	app/controllers/listings_controller.rb
+6	1	app/presenters/listing_presenter.rb
+1	0	config/locales/en.yml
+24	0	features/admin/listing_shapes/admin_deletes_listing_shapes.feature
+1	1	features/listings/user_closes_a_listing.feature
+
+--ef1679a47--2017-10-31--Thomas Malbaux
+1	1	app/views/transaction_mailer/payment_receipt_to_buyer.html.haml
+1	1	app/views/transaction_mailer/payment_receipt_to_seller.html.haml
+
+--c3b709737--2017-10-31--Valdis Pornieks
+--b30173936--2017-10-26--Aivils Štoss
+1	0	app/controllers/people_controller.rb
+1	0	app/views/settings/notifications.haml
+30	1	features/settings/user_changes_notification_settings.feature
+4	2	features/support/paths.rb
+
+--38e2d52c5--2017-10-27--Valdis Pornieks
+6	6	app/views/listings/new.haml
+
+--815e21de0--2017-10-26--Aivils Štoss
+1	0	app/assets/javascripts/application.js
+19	10	app/assets/javascripts/stripe_form.js
+2	0	app/controllers/payment_settings_controller.rb
+5	2	app/services/stripe_service/api/stripe_api_wrapper.rb
+1	1	app/services/stripe_service/store/stripe_account.rb
+19	0	app/views/payment_settings/_personal_id_number.haml
+9	17	app/views/payment_settings/_stripe_wizard.haml
+8	1	config/locales/en.yml
+1	0	features/support/feature_tests/page/user_settings_payments.rb
+111	0	vendor/assets/javascripts/social-insurance-number.js
+
+--62acafa8e--2017-10-26--Thomas Malbaux
+10	0	config/locales/ab.yml
+10	0	config/locales/ar.yml
+10	0	config/locales/bg.yml
+10	0	config/locales/bn-BD.yml
+10	0	config/locales/ca.yml
+10	0	config/locales/cs.yml
+10	0	config/locales/da-DK.yml
+13	3	config/locales/de.yml
+10	0	config/locales/el.yml
+10	0	config/locales/en-AU.yml
+10	0	config/locales/en-GB.yml
+10	0	config/locales/en-NZ.yml
+31	15	config/locales/es-ES.yml
+10	0	config/locales/es.yml
+10	0	config/locales/et.yml
+10	0	config/locales/eu-ES.yml
+10	0	config/locales/fi.yml
+10	0	config/locales/fr-CA.yml
+13	3	config/locales/fr.yml
+10	0	config/locales/he-IL.yml
+10	0	config/locales/hi-IN.yml
+10	0	config/locales/hr.yml
+10	0	config/locales/hu.yml
+10	0	config/locales/hy-AM.yml
+10	0	config/locales/id.yml
+10	0	config/locales/is.yml
+10	0	config/locales/it.yml
+10	0	config/locales/ja.yml
+10	0	config/locales/ka.yml
+10	0	config/locales/km-KH.yml
+10	0	config/locales/lv.yml
+10	0	config/locales/mn.yml
+10	0	config/locales/ms-MY.yml
+10	0	config/locales/nb.yml
+13	1	config/locales/nl.yml
+10	0	config/locales/pl.yml
+10	0	config/locales/pt-BR.yml
+10	0	config/locales/pt-PT.yml
+10	0	config/locales/ro.yml
+10	0	config/locales/ru.yml
+10	0	config/locales/sk-SK.yml
+10	0	config/locales/sl.yml
+10	0	config/locales/sq-AL.yml
+10	0	config/locales/sr.yml
+10	0	config/locales/sv.yml
+10	0	config/locales/sw.yml
+10	0	config/locales/ta-IN.yml
+10	0	config/locales/th-TH.yml
+10	0	config/locales/ti.yml
+10	0	config/locales/tr-TR.yml
+10	0	config/locales/uk.yml
+10	0	config/locales/vi.yml
+10	0	config/locales/zh-HK.yml
+10	0	config/locales/zh-TW.yml
+10	0	config/locales/zh.yml
+
+--bdb42eab5--2017-10-26--Thomas Malbaux
+--57fba6f7c--2017-10-26--Thomas Malbaux
+--ac9f10f39--2017-10-25--Valdis Pornieks
+9	0	app/models/listing.rb
+9	0	app/models/person.rb
+
+--b40177a35--2017-10-25--Aivils Štoss
+1	1	app/models/listing_shape.rb
+45	0	spec/models/listing_shape_spec.rb
+
+--472199da5--2017-10-25--Valdis Pornieks
+--2d5e2bf23--2017-10-24--Aivils Štoss
+1	1	app/view_utils/listing_shape_templates.rb
+75	0	features/admin/listing_shapes/admin_creates_listing_shapes.feature
+18	0	features/admin/listing_shapes/admin_deletes_listing_shapes.feature
+20	0	features/admin/listing_shapes/admin_edits_listing_shapes.feature
+7	0	features/step_definitions/admin_listing_shape_steps.rb
+4	0	features/support/paths.rb
+2	2	spec/factories.rb
+
+--d32af25db--2017-10-24--Aivils Štoss
+2	0	.gitignore
+1	4	app/models/community.rb
+2	3	app/models/listing_shape.rb
+1	1	app/presenters/listing_presenter.rb
+2	2	app/view_utils/listing_shape_templates.rb
+
+--e67be24df--2017-10-24--Mikko Koski
+3	0	app/views/landing_page/_icon.erb
+
+--bd0ccfe00--2017-10-23--Thomas Malbaux
+--b454cf82d--2017-10-23--Thomas Malbaux
+--577b5f061--2017-10-23--Thomas Malbaux
+77	73	config/locales/es-ES.yml
+1	1	config/locales/fr.yml
+
+--03755a3e5--2017-10-23--Thomas Malbaux
+--c6e63eeba--2017-10-23--Thomas Malbaux
+--f9b08952e--2017-10-20--Thomas Malbaux
+--2b9657036--2017-10-20--Thomas Malbaux
+--fef2dc458--2017-10-20--Thomas Malbaux
+1	1	README.md
+
+--8b1e663b6--2017-10-20--Thomas Malbaux
+3	3	config/locales/onboarding/es-ES.yml
+
+--738f1a59d--2017-09-18--Nikolai
+31	12	app/controllers/people_controller.rb
+1	1	app/models/person.rb
+1	0	config/locales/en.yml
+
+--99b0cf2d7--2017-10-19--Aivils Štoss
+4	0	app/assets/stylesheets/partials/_paypal_account_connected.scss
+35	10	app/controllers/admin/payment_preferences_controller.rb
+1	1	app/views/admin/payment_preferences/_general_prefs_form.haml
+47	16	app/views/admin/payment_preferences/_payment_settings.haml
+1	1	app/views/admin/payment_preferences/_prefs_form.haml
+1	1	app/views/admin/payment_preferences/_stripe_form.haml
+9	0	config/locales/en.yml
+10	2	config/routes.rb
+34	0	features/admin/payment_preferences/admin_enable_disable_payment.feature
+48	0	features/step_definitions/community_steps.rb
+4	2	features/support/paths.rb
+17	12	spec/factories.rb
+
+--8783b995d--2017-09-18--Nikolai
+10	0	app/assets/stylesheets/views/admin/_communities.scss
+9	0	app/controllers/admin/community_memberships_controller.rb
+14	2	app/views/admin/community_memberships/index.haml
+4	0	config/locales/en.yml
+
+--5086d662e--2017-10-20--Aivils Štoss
+5	2	app/services/marketplace_service/available_currencies.rb
+34	0	spec/services/marketplace_service/available_currencies_spec.rb
+
+--653b2c9b0--2017-09-18--Nikolai
+1	1	app/controllers/listing_images_controller.rb
+
+--47d02b967--2017-09-16--Nikolai
+9	0	app/controllers/admin/communities_controller.rb
+4	0	app/services/email_service/api/addresses.rb
+5	0	app/services/email_service/store/address.rb
+65	4	app/views/admin/communities/edit_welcome_email.haml
+6	0	config/locales/en.yml
+18	2	features/admin/admin_edits_welcome_email.feature
+5	0	features/step_definitions/debug_steps.rb

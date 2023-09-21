@@ -1,9 +1,0 @@
---f61841e92--2015-05-28--Himal Mandalia
---01c8bc173--2015-05-28--Edward Andress
---9c4c14973--2015-05-28--jsugarman
-0	1	app/models/claim.rb
-0	4	app/views/advocates/claims/_form.html.haml
-0	1	features/step_definitions/advocate_new_claim_steps.rb
-0	1	spec/controllers/advocates/claims_controller_spec.rb
-0	1	spec/factories/claims.rb
-0	1	spec/models/claim_spec.rb

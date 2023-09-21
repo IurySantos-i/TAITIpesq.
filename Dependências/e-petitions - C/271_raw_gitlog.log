@@ -1,0 +1,32 @@
+--068284f8--2015-07-01--alanth
+--059309b0--2015-07-01--Pete Herlihy
+3	3	features/charlie_creates_a_petition.feature
+
+--f31ec4a0--2015-07-01--Pete Herlihy
+5	5	app/models/staged/validations/signer_details.rb
+
+--f3ebd465--2015-07-01--Alexander Bobin
+--5acdcc94--2015-07-01--Alexander Bobin
+--4f758f66--2015-07-01--Pete Herlihy
+3	3	app/models/staged/validations/petition_details.rb
+
+--4ca0bc2f--2015-07-01--Pete Herlihy
+1	1	app/models/petition.rb
+
+--4830c44f--2015-07-01--Pete Herlihy
+1	1	spec/controllers/admin/government_response_controller_spec.rb
+
+--72fdf93f--2015-07-01--Pete Herlihy
+1	1	app/controllers/admin/government_response_controller.rb
+
+--d39e5f18--2015-07-01--Pete Herlihy
+1	1	features/step_definitions/moderation_steps.rb
+
+--6978e560--2015-07-01--Pete Herlihy
+1	0	features/step_definitions/moderation_steps.rb
+
+--3db4a00b--2015-07-01--Pete Herlihy
+3	3	features/admin/admin_access.feature
+
+--3902efdc--2015-07-01--Pete Herlihy
+1	1	app/controllers/concerns/authentication.rb

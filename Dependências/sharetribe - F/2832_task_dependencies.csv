@@ -1,3 +1,0 @@
-entity,coupled,degree,average-revs
-app/controllers/api/api_controller.rb,config/routes.rb,76,7
-app/controllers/api/api_controller.rb,app/controllers/api/listings_controller.rb,66,8

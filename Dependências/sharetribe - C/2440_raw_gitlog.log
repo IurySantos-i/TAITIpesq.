@@ -1,0 +1,88 @@
+--12a0f784c--2013-11-27--Mikko Koski
+--91a91c4b2--2013-11-27--Mikko Koski
+4	6	config/locales/ca.yml
+4	6	config/locales/de-bl.yml
+4	6	config/locales/de-rc.yml
+4	6	config/locales/de.yml
+2	2	config/locales/devise.fr.yml
+20	4	config/locales/el.yml
+4	6	config/locales/en-at.yml
+8	10	config/locales/en-bd.yml
+4	6	config/locales/en-bf.yml
+4	6	config/locales/en-bl.yml
+4	6	config/locales/en-cf.yml
+4	6	config/locales/en-qr.yml
+4	6	config/locales/en-rc.yml
+4	6	config/locales/en-sb.yml
+4	6	config/locales/en-ul.yml
+4	6	config/locales/en-un.yml
+4	6	config/locales/en-vg.yml
+6	9	config/locales/en.yml
+20	4	config/locales/es-ES.yml
+4	6	config/locales/es-rc.yml
+20	4	config/locales/es.yml
+1	1	config/locales/faq/faq.fr.yml
+7	10	config/locales/fi.yml
+4	6	config/locales/fr-at.yml
+8	10	config/locales/fr-bd.yml
+4	6	config/locales/fr-rc.yml
+28	12	config/locales/fr.yml
+4	6	config/locales/hr.yml
+4	6	config/locales/hu.yml
+4	6	config/locales/it.yml
+4	6	config/locales/lv.yml
+20	4	config/locales/nl.yml
+4	6	config/locales/pt-BR.yml
+4	6	config/locales/ro.yml
+20	4	config/locales/ru.yml
+4	6	config/locales/sv.yml
+4	6	config/locales/sw.yml
+4	6	config/locales/vi.yml
+4	6	config/locales/zh.yml
+
+--62a15eeab--2013-11-27--Mikko Koski
+--03e10621b--2013-11-27--Juho Makkonen
+2	7	app/views/people/_help_texts.haml
+0	8	features/communities/user_views_terms.feature
+
+--ed66613ac--2013-11-27--Juho Makkonen
+1	1	app/models/community_customization.rb
+
+--310bd3a4a--2013-11-27--Mikko Koski
+1	1	app/views/infos/localized_terms/terms.fi.haml
+
+--0929a0065--2013-11-26--Juho Makkonen
+1	1	app/views/people/show.haml
+5	0	db/migrate/20131126184439_add_storefront_label_to_community_customizations.rb
+2	1	db/schema.rb
+
+--be983291c--2013-11-26--Mikko Koski
+--7e54f05a2--2013-11-26--Juho Makkonen
+0	9	app/controllers/admin/communities_controller.rb
+0	20	app/controllers/infos_controller.rb
+20	0	app/controllers/mercury_update_controller.rb
+1	1	app/helpers/application_helper.rb
+0	3	app/views/admin/communities/_default_welcome_email.haml
+1	1	app/views/admin/communities/edit_welcome_email.haml
+7	7	app/views/infos/_terms_content.haml
+2	9	app/views/infos/about.haml
+3	3	app/views/infos/how_to_use.haml
+67	0	app/views/infos/localized_privacy_policy/privacy_policy.en.haml
+67	0	app/views/infos/localized_privacy_policy/privacy_policy.fi.haml
+0	0	app/views/infos/localized_terms/{_terms.en.haml => terms.en.haml}
+0	0	app/views/infos/localized_terms/{_terms.fi.haml => terms.fi.haml}
+7	1	app/views/infos/privacy.haml
+8	0	app/views/layouts/_mercury_editable_page.haml
+0	3	config/locales/en.yml
+1	3	config/routes.rb
+6	0	db/migrate/20131126113141_add_terms_page_content_and_privacy_page_content_to_community_customizations.rb
+5	0	db/migrate/20131126131750_change_how_to_use_to_how_to_use_page_content_in_community_customizations.rb
+6	0	db/migrate/20131126134024_add_terms_change_allowed_and_privacy_policy_change_allowed_to_communities.rb
+8	4	db/schema.rb
+
+--6f25e3dba--2013-11-26--Juho Makkonen
+17	0	app/views/infos/_terms_content.haml
+28	0	app/views/infos/localized_terms/_terms.en.haml
+28	0	app/views/infos/localized_terms/_terms.fi.haml
+1	3	app/views/infos/terms.haml
+1	17	app/views/people/help_texts/_terms.haml

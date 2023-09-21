@@ -1,0 +1,43 @@
+--1a715c2dd--2016-03-01--Himal Mandalia
+--c845cfff5--2016-03-01--Himal Mandalia
+--092e61c55--2016-03-01--jsugarman
+15	0	db/migrate/20160301122625_modify_trial_cracked_at_third_data.rb
+1	1	db/schema.rb
+
+--854ec5ec2--2016-03-01--Himal Mandalia
+3	3	config/unicorn.rb
+
+--8b1b761d3--2016-02-29--jsugarman
+6	2	app/validators/claim/base_claim_validator.rb
+2	2	app/views/external_users/claims/case_details/_cracked_trial_fields.html.haml
+5	1	config/locales/error_messages.en.yml
+17	1	features/cracked_trial.feature
+12	0	features/step_definitions/cracked_trial_steps.rb
+13	0	features/step_definitions/shared/general_form_steps.rb
+37	8	spec/validators/claim/base_claim_validator_spec.rb
+
+--bc5a50d6d--2016-03-01--Edward Andress
+--9208478d0--2016-03-01--Edward Andress
+--d6f24d857--2016-03-01--Himal Mandalia
+1	1	Gemfile
+32	32	Gemfile.lock
+
+--73974299d--2016-03-01--Himal Mandalia
+5	0	spec/models/claims/financial_summary_spec.rb
+
+--4517fa395--2016-02-29--jsugarman
+1	1	app/validators/claim/base_claim_validator.rb
+4	0	config/locales/error_messages.en.yml
+
+--f84c9f4ae--2016-02-29--Himal Mandalia
+0	23	app/services/input_event_mapper.rb
+
+--0d554cfa0--2016-02-29--Himal Mandalia
+5	6	app/models/claims/financial_summary.rb
+23	0	app/services/input_event_mapper.rb
+1	1	app/views/external_users/claims/authorised.html.haml
+1	1	app/views/external_users/claims/outstanding.html.haml
+
+--6aa0db0ce--2016-02-29--Alistair Laing
+9	8	app/views/external_users/claims/authorised.html.haml
+1	1	app/views/external_users/claims/outstanding.html.haml

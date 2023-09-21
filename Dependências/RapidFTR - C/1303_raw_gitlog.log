@@ -1,0 +1,32 @@
+--c5a215bb--2010-03-18--cgeorge
+--ae22879d--2010-03-18--Pete Hodgson
+1	1	features/step_definitions/pdf_steps.rb
+
+--69ae8e89--2010-03-18--Pete Hodgson
+20	0	app/controllers/application_controller.rb
+3	0	app/controllers/children_controller.rb
+2	0	app/views/shared/status_400.html.erb
+8	0	features/pdf_export.feature
+17	0	lib/error_response.rb
+
+--8c2b9470--2010-03-18--Pete Hodgson
+5	1	app/controllers/application_controller.rb
+5	1	app/controllers/children_controller.rb
+1	0	app/views/children/show.html.erb
+2	0	config/initializers/mime_types.rb
+12	4	features/pdf_export.feature
+4	0	lib/pdf_generator.rb
+
+--35ad905b--2010-03-17--Tom Elkin
+0	89	spec/views/child/_form.html.erb_spec.rb
+99	0	spec/views/child/_form_section.html.erb_spec.rb
+29	0	spec/views/child/edit.html.erb_spec.rb
+99	0	spec/views/child/form_section.html.erb_spec.rb
+14	47	spec/views/child/new.html.erb_spec.rb
+1	14	spec/views/child/show.html.erb_spec.rb
+
+--d86b3502--2010-03-17--cgeorge
+8	0	app/helpers/histories_helper.rb
+3	0	app/views/histories/_photo_record.html.erb
+6	3	app/views/histories/show.html.erb
+3	3	features/view_child_record_log.feature

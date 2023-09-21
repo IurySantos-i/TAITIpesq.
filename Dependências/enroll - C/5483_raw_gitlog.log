@@ -1,0 +1,21 @@
+--f0d98a8cd5--2015-07-23--Raghuram
+--8e51341254--2015-07-23--Raghuram
+1	0	app/views/employers/plan_years/search_reference_plan.js.erb
+2	0	app/views/shared/_benefit_group_fields.html.erb
+
+--b8eadae3ce--2015-07-23--Ken Lu
+2	0	features/employers/create_employer.feature
+20	0	features/step_definitions/employers_steps.rb
+
+--58a4b2f677--2015-07-23--Sean Carley
+0	1	app/views/insured/plan_shoppings/_plan_details.html.erb
+2	0	app/views/shared/_signup_progress.html.haml
+2	4	features/integration/employee_sign_up.feature
+10	15	features/step_definitions/integration_steps.rb
+34	0	spec/views/insured/plan_shoppings/_plan_details.html.erb_spec.rb
+77	0	spec/views/shared/_signup_progress.html.haml_spec.rb
+
+--322c06b34e--2015-07-20--Raghuram
+3	2	app/views/broker_agencies/broker_roles/_new_broker_agency_form.html.erb
+26	11	features/brokers/create_broker_agency_profiles.feature
+37	16	features/step_definitions/brokers_steps.rb

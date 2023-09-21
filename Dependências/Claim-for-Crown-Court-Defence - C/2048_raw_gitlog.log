@@ -1,0 +1,126 @@
+--8c7c48480--2015-05-18--Himal Mandalia
+--1a6369758--2015-05-15--Edward Andress
+--0d4011fa1--2015-05-14--Stephen Strudwick
+4	5	app/controllers/advocates/claims_controller.rb
+3	0	app/models/claim.rb
+23	0	app/models/claims/summary.rb
+9	0	app/views/advocates/claims/_summary.html.haml
+3	0	app/views/advocates/claims/index.html.haml
+1	0	db/schema.rb
+27	0	features/advocate_claims_summary.feature
+16	0	features/step_definitions/claims_summary_steps.rb
+63	0	spec/models/claims/summary_spec.rb
+
+--65226e043--2015-05-15--Edward Andress
+--228cec19b--2015-05-15--Himal Mandalia
+1	0	app/controllers/advocates/claims_controller.rb
+2	2	app/controllers/application_controller.rb
+4	0	app/views/advocates/claims/landing.html.haml
+3	1	config/routes.rb
+2	2	features/sign_in.feature
+8	8	features/step_definitions/sign_in_steps.rb
+12	0	spec/controllers/advocates/claims_controller_spec.rb
+2	2	spec/controllers/application_controller_spec.rb
+
+--3a1062f37--2015-05-15--Himal Mandalia
+--580055d94--2015-05-15--Himal Mandalia
+2	1	app/controllers/case_workers/admin/case_workers_controller.rb
+1	1	app/controllers/case_workers/claims_controller.rb
+2	0	app/models/claims/state_machine.rb
+2	2	features/step_definitions/caseworker_claims_list_steps.rb
+1	1	spec/controllers/case_workers/admin/case_workers_controller_spec.rb
+3	3	spec/controllers/case_workers/claims_controller_spec.rb
+
+--2250bb288--2015-05-15--Todd Tyree
+57	96	Guardfile
+2	0	config/cucumber.yml
+
+--3598e4733--2015-05-15--Himal Mandalia
+4	0	app/models/claim.rb
+1	1	app/views/case_workers/admin/case_workers/allocate.html.haml
+10	0	spec/models/claim_spec.rb
+
+--6a9d736eb--2015-05-15--Himal Mandalia
+1	1	app/models/advocate.rb
+
+--264255b36--2015-05-15--Ash Berlin
+2	1	runtests.sh
+
+--4929983ad--2015-05-15--Himal Mandalia
+--142c6159e--2015-05-15--Himal Mandalia
+--e6e0a33e3--2015-05-15--Ash Berlin
+2	0	.travis.yml
+1	6	runtests.sh
+
+--3f728a708--2015-05-15--jsugarman
+--67bebc4a5--2015-05-15--jsugarman
+5	0	app/models/claims/state_machine.rb
+1	1	app/views/advocates/claims/_claims.html.haml
+6	2	app/views/case_workers/claims/_claim.html.haml
+5	0	db/migrate/20150515082101_add_paid_at_to_claims.rb
+2	1	db/schema.rb
+1	0	spec/factories/claims.rb
+10	0	spec/models/claims/state_machine_spec.rb
+
+--e09bd9115--2015-05-15--Stephen Strudwick
+--d4284ad84--2015-05-14--Ash Berlin
+0	0	docker/{rails => }/Dockerfile
+0	22	docker/assets/Dockerfile
+0	11	docker/rails/start_docker.sh
+0	0	docker/{rails => }/run.sh
+
+--8f1dadf47--2015-05-15--Himal Mandalia
+--e20e0de92--2015-05-14--jsugarman
+1	0	spec/factories/claims.rb
+
+--124d4c4f8--2015-05-14--Joel Sugarman
+--b6f98534d--2015-05-14--Eddie Andress
+--03f700430--2015-05-14--Eddie Andress
+-	-	Users/eddieandress/Public/cbo_examples/000/000/001/shorter_lorem.png
+-	-	Users/eddieandress/Public/cbo_examples/000/000/002/shorter_lorem.png
+
+--9b6a2afbf--2015-05-14--Himal Mandalia
+1	1	app/views/advocates/claims/_claims.html.haml
+6	0	db/migrate/20150514153916_add_cms_number_to_claims.rb
+3	1	db/schema.rb
+
+--b0e555393--2015-05-14--Stephen Strudwick
+--7cb2e5254--2015-05-14--Himal Mandalia
+--2c8c931ab--2015-05-14--Himal Mandalia
+1	0	app/controllers/advocates/claims_controller.rb
+4	0	app/views/advocates/claims/index.html.haml
+7	6	features/advocate_claims_list.feature
+8	0	spec/controllers/advocates/claims_controller_spec.rb
+
+--b44c48f82--2015-05-14--Himal Mandalia
+10	26	features/advocate_claims_list.feature
+
+--af231225d--2015-05-14--jsugarman
+--17daf5776--2015-05-14--Himal Mandalia
+1	0	app/controllers/advocates/claims_controller.rb
+4	0	app/views/advocates/claims/index.html.haml
+8	2	features/advocate_claims_list.feature
+1	11	features/step_definitions/advocate_claims_list_steps.rb
+9	2	spec/controllers/advocates/claims_controller_spec.rb
+
+--d85722532--2015-05-14--jsugarman
+2	4	app/views/layouts/advocate.html.haml
+2	3	app/views/layouts/application.html.haml
+2	3	app/views/layouts/case_worker.html.haml
+4	2	docker/rails/run.sh
+22	9	lib/tasks/claims.rake
+
+--8e7a40b76--2015-05-14--Edward Andress
+--f3bd980b8--2015-05-14--Himal Mandalia
+--356291ad9--2015-05-14--Himal Mandalia
+3	1	docker/rails/run.sh
+
+--db63699ad--2015-05-14--Himal Mandalia
+--e1da53c49--2015-05-14--Himal Mandalia
+3	3	docker/rails/run.sh
+
+--c91129174--2015-05-14--Himal Mandalia
+7	5	app/views/advocates/claims/_claims.html.haml
+
+--afb21d149--2015-05-14--Himal Mandalia
+4	4	app/views/advocates/claims/index.html.haml

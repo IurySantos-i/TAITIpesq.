@@ -1,0 +1,121 @@
+--5d7d29506--2013-08-27--Jonne Haß
+--2919c7c73--2013-08-27--Jonne Haß
+1	1	Changelog.md
+1	1	config/defaults.yml
+
+--38f01b9cd--2013-08-27--Jonne Haß
+1	1	config/locales/diaspora/en.yml
+
+--c5c20926b--2013-08-26--Jonne Haß
+--3899e383e--2013-08-26--flaburgan
+1	0	Changelog.md
+1	1	app/assets/stylesheets/ui.css.scss
+
+--5f518fec0--2013-08-26--Jonne Haß
+--324b09a72--2013-08-15--Steffen van Bergerem
+1	0	Changelog.md
+13	0	app/assets/javascripts/app/views/help_view.js
+2	1	app/assets/stylesheets/application.css.sass
+82	0	app/assets/stylesheets/help.css.scss
+1	0	app/assets/templates/header_tpl.jst.hbs
+2	0	app/controllers/help_controller.rb
+16	0	app/views/help/_faq_nav.haml
+2	0	app/views/help/_help_nav.haml
+35	0	app/views/help/account_and_data_management.html.haml
+59	0	app/views/help/aspects.html.haml
+29	0	app/views/help/getting_help.html.haml
+31	0	app/views/help/mentions.html.haml
+31	0	app/views/help/miscellaneous.html.haml
+27	0	app/views/help/pods.html.haml
+60	0	app/views/help/posts_and_posting.html.haml
+31	0	app/views/help/private_posts.html.haml
+27	0	app/views/help/private_profiles.html.haml
+35	0	app/views/help/public_posts.html.haml
+31	0	app/views/help/public_profiles.html.haml
+23	0	app/views/help/resharing_posts.html.haml
+41	0	app/views/help/sharing.html.haml
+35	0	app/views/help/tags.html.haml
+189	0	config/locales/diaspora/en.yml
+1	0	config/locales/javascript/javascript.en.yml
+19	0	config/routes.rb
+
+--748b38434--2013-08-26--Jonne Haß
+1	0	config/locale_settings.yml
+4	3	config/locales/cldr/plurals.rb
+
+--5238004ef--2013-08-26--Jonne Haß
+89	12	config/locales/devise/devise.bs.yml
+2	0	config/locales/devise/devise.cs.yml
+1	0	config/locales/devise/devise.de.yml
+1	0	config/locales/devise/devise.es-AR.yml
+1	0	config/locales/devise/devise.fr.yml
+1	0	config/locales/devise/devise.hu.yml
+14	0	config/locales/devise/devise.ja.yml
+1	0	config/locales/devise/devise.sv.yml
+1072	0	config/locales/diaspora/bs.yml
+28	0	config/locales/diaspora/cs.yml
+61	39	config/locales/diaspora/da.yml
+7	0	config/locales/diaspora/de.yml
+4	0	config/locales/diaspora/de_formal.yml
+2	0	config/locales/diaspora/el.yml
+31	25	config/locales/diaspora/eo.yml
+10	4	config/locales/diaspora/es-AR.yml
+40	0	config/locales/diaspora/es-BO.yml
+6	0	config/locales/diaspora/es-MX.yml
+6	0	config/locales/diaspora/es.yml
+7	1	config/locales/diaspora/fr.yml
+6	0	config/locales/diaspora/hu.yml
+11	6	config/locales/diaspora/ia.yml
+3	0	config/locales/diaspora/it.yml
+188	2	config/locales/diaspora/ja.yml
+34	0	config/locales/diaspora/ml.yml
+10	4	config/locales/diaspora/nb.yml
+7	0	config/locales/diaspora/nn.yml
+6	0	config/locales/diaspora/pl.yml
+7	2	config/locales/diaspora/pt-BR.yml
+6	0	config/locales/diaspora/pt-PT.yml
+5	0	config/locales/diaspora/ru.yml
+5	2	config/locales/diaspora/sk.yml
+11	5	config/locales/diaspora/sv.yml
+15	1	config/locales/diaspora/vi.yml
+5	0	config/locales/diaspora/zh-TW.yml
+157	0	config/locales/javascript/javascript.bs.yml
+8	0	config/locales/javascript/javascript.cs.yml
+3	1	config/locales/javascript/javascript.de.yml
+1	1	config/locales/javascript/javascript.de_formal.yml
+2	0	config/locales/javascript/javascript.el.yml
+1	1	config/locales/javascript/javascript.en_1337.yml
+14	0	config/locales/javascript/javascript.eo.yml
+1	0	config/locales/javascript/javascript.es-AR.yml
+3	0	config/locales/javascript/javascript.es-MX.yml
+3	0	config/locales/javascript/javascript.es.yml
+3	1	config/locales/javascript/javascript.fr.yml
+1	0	config/locales/javascript/javascript.hu.yml
+2	0	config/locales/javascript/javascript.ia.yml
+64	1	config/locales/javascript/javascript.ja.yml
+3	0	config/locales/javascript/javascript.ml.yml
+4	0	config/locales/javascript/javascript.nb.yml
+7	0	config/locales/javascript/javascript.pl.yml
+2	0	config/locales/javascript/javascript.pt-BR.yml
+2	0	config/locales/javascript/javascript.pt-PT.yml
+2	0	config/locales/javascript/javascript.ru.yml
+2	1	config/locales/javascript/javascript.sv.yml
+21	0	config/locales/javascript/javascript.vi.yml
+2	0	config/locales/javascript/javascript.zh-TW.yml
+
+--1067d6a73--2013-08-26--Jonne Haß
+1	1	app/views/shared/_right_sections.html.haml
+
+--f9a399056--2013-08-20--Jonne Haß
+1	0	Changelog.md
+7	1	app/controllers/photos_controller.rb
+1	1	app/views/photos/_index.html.haml
+1	1	app/views/photos/_photo.haml
+2	2	app/views/photos/show.mobile.haml
+1	1	app/views/shared/_photo_area.mobile.haml
+2	2	config/routes.rb
+8	3	features/multiphoto_mobile.feature
+13	4	spec/controllers/photos_controller_spec.rb
+
+--d3053ec1e--2013-06-28--Jonne Haß
+--fe9485dcc--2013-05-20--Dennis Schubert

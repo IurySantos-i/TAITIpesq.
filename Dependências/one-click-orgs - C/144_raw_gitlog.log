@@ -1,0 +1,21 @@
+--6942d0e9--2011-09-03--Alex Muller
+--db4ed537--2011-08-18--Chris Mear
+3	6	app/controllers/application_controller.rb
+14	0	features/company_running/authorisation.feature
+8	0	features/step_definitions/authentication_steps.rb
+4	0	features/step_definitions/company_member_steps.rb
+1	1	spec/support/controller_spec_helper.rb
+
+--a5394098--2011-06-04--Alex Muller
+0	14	app/views/layouts/setup.html.haml
+0	11	public/stylesheets/one_click.css
+0	12	public/stylesheets/sass/one_click.sass
+
+--6659ddad--2011-06-04--Alex Muller
+2	2	app/views/welcome/index.html.haml
+
+--e1ceca04--2011-06-04--Alex Muller
+4	3	public/javascripts/application.js
+
+--787e699c--2011-06-04--Alex Muller
+1	1	public/javascripts/application.js

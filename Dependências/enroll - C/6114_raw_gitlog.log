@@ -1,0 +1,45 @@
+--77c090e5ae--2015-05-14--vinner
+--22a7d7e2ae--2015-05-14--vinner
+1	1	app/controllers/employers/family_controller.rb
+1	1	app/views/employers/employer_profiles/my_account/_home_tab.html.erb
+1	1	app/views/shared/_benefit_group_fields.html.erb
+1	1	app/views/shared/_census_dependent_fields.html.erb
+2	2	db/seedfiles/broker_agencies_seed.rb
+19	21	features/employers/create_employer.feature
+54	23	features/step_definitions/employers_steps.rb
+
+--42e6466f3a--2015-05-14--Trey Evans
+--e9fc00d3a1--2015-05-14--Kevin Wei
+6	0	app/controllers/broker_agencies/broker_profiles_controller.rb
+0	0	app/views/broker_agencies/broker_profiles/new.html.haml
+2	2	config/routes.rb
+
+--864113cf91--2015-05-14--Kevin Wei
+0	1	app/views/welcome/index.html.erb
+
+--30eb424d5f--2015-05-14--Kevin Wei
+1	1	app/controllers/hbx/hbx_controller.rb
+1	1	spec/controllers/hbx_controller_spec.rb
+
+--d7b8eeef74--2015-05-14--Trey Evans
+0	51	app/views/insured/plan_shoppings/_plans.html.erb
+51	1	app/views/insured/plan_shoppings/show.html.erb
+
+--77670535aa--2015-05-14--Kevin Wei
+1	1	app/controllers/{ => hbx}/hbx_controller.rb
+0	0	app/views/hbx/{ => hbx}/welcome.html.haml
+4	5	config/routes.rb
+1	1	spec/controllers/hbx_controller_spec.rb
+
+--78d979cf32--2015-05-14--Trey Evans
+1	1	app/controllers/group_selection_controller.rb
+18	4	app/controllers/{ => insured}/plan_shoppings_controller.rb
+0	0	app/views/{plan_shopping => insured/plan_shoppings}/_detail_modal.html.erb
+1	1	app/views/{plan_shopping => insured/plan_shoppings}/_plan_details.html.erb
+0	0	app/views/{plan_shopping => insured/plan_shoppings}/_plan_filters.html.erb
+3	3	app/views/{plan_shopping => insured/plan_shoppings}/_plans.html.erb
+1	0	app/views/insured/plan_shoppings/show.html.erb
+2	2	app/views/{plan_shopping => insured/plan_shoppings}/thankyou.html.erb
+0	1	app/views/people/select_plan.html.erb
+17	18	config/routes.rb
+2	2	features/step_definitions/integration_steps.rb

@@ -1,0 +1,49 @@
+--1b1cae70c--2012-10-09--Antti Virolainen
+--c457495c0--2012-10-09--Antti Virolainen
+6	0	RELEASE_NOTES.md
+1	1	VERSION
+
+--1b2014911--2012-10-09--Antti Virolainen
+1	1	app/models/person.rb
+1	1	app/models/testimonial.rb
+
+--0b98e87a2--2012-10-09--Antti Virolainen
+--337e3c995--2012-10-09--Antti Virolainen
+84	74	app/models/person.rb
+
+--04dd907c2--2012-10-08--Antti Virolainen
+1	7	app/mailers/person_mailer.rb
+150	0	app/models/person.rb
+
+--72f152942--2012-10-07--Antti Virolainen
+1	1	app/models/listing.rb
+
+--4c17a1f13--2012-10-07--Antti Virolainen
+--389789008--2012-10-07--Antti Virolainen
+1	1	features/sessions/facebook_connect.feature
+
+--1ef9cf0bc--2012-10-07--Antti Virolainen
+7	7	app/controllers/api/tokens_controller.rb
+2	2	features/step_definitions/user_steps.rb
+21	2	spec/controllers/api/tokens_controller_spec.rb
+1	1	spec/controllers/sessions_controller_spec.rb
+
+--d2a4fbb2e--2012-10-07--Antti Virolainen
+4	0	app/helpers/application_helper.rb
+2	2	app/views/homepage/sign_in.haml
+1	1	app/views/sessions/_new.haml
+6	1	app/views/settings/account.haml
+4	0	config/locales/en.yml
+4	0	config/locales/fi.yml
+2	2	public/javascripts/kassi.js
+
+--c391ab05b--2012-10-07--Antti Virolainen
+2	2	app/controllers/sessions_controller.rb
+14	2	app/models/person.rb
+2	2	app/views/sessions/_new.haml
+2	2	config/initializers/devise.rb
+
+--0f2f31c81--2012-10-06--Antti Virolainen
+--147500618--2012-10-06--Antti Virolainen
+--d7b6e3cca--2012-10-06--Antti Virolainen
+--21aa351da--2012-09-26--Kusti

@@ -1,0 +1,17 @@
+entity,coupled,degree,average-revs
+app/controllers/children_controller.rb,spec/controllers/children_controller_spec.rb,90,11
+features/step_definitions/search_steps.rb,spec/routing/children_routing_spec.rb,85,7
+spec/controllers/children_controller_spec.rb,spec/routing/children_routing_spec.rb,80,10
+features/pdf_export.feature,spec/routing/children_routing_spec.rb,75,8
+app/views/children/_summary_row.html.erb,app/views/children/search.html.erb,72,11
+config/routes.rb,spec/routing/children_routing_spec.rb,70,9
+app/controllers/children_controller.rb,app/views/children/search.html.erb,66,12
+app/controllers/children_controller.rb,spec/routing/children_routing_spec.rb,66,9
+features/step_definitions/search_steps.rb,spec/controllers/children_controller_spec.rb,66,9
+app/controllers/children_controller.rb,config/routes.rb,63,10
+app/views/children/search.html.erb,spec/controllers/children_controller_spec.rb,61,13
+features/pdf_export.feature,spec/controllers/children_controller_spec.rb,60,10
+config/routes.rb,spec/controllers/children_controller_spec.rb,57,11
+app/views/children/search.html.erb,features/pdf_export.feature,54,11
+app/views/children/search.html.erb,spec/routing/children_routing_spec.rb,54,11
+app/views/children/search.html.erb,config/routes.rb,52,12

@@ -1,0 +1,1387 @@
+--7a8d6a66e--2013-09-28--Elz
+--b9d09c832--2013-09-28--Elz
+--dccf0cafc--2013-09-28--Elz
+--94d254d54--2013-09-28--elz
+--c6831130a--2013-09-28--Elz
+--9ef8cab74--2013-09-26--shalott
+--c92e40136--2013-09-25--sarken
+27	0	features/works/chapter_edit.feature
+47	2	features/works/work_drafts.feature
+
+--9c7ba9722--2013-09-24--sarken
+98	99	app/views/chapters/_chapter_form.html.erb
+
+--d03328adc--2013-09-24--sarken
+2	0	app/views/chapters/_chapter_form.html.erb
+
+--d703982b9--2012-11-30--sarken
+16	18	app/views/chapters/_chapter_form.html.erb
+8	11	app/views/chapters/preview.html.erb
+1	1	app/views/works/_standard_form.html.erb
+1	1	app/views/works/preview.html.erb
+
+--3689d527b--2012-11-30--sarken
+3	0	app/views/chapters/_chapter_form.html.erb
+
+--a98ab6088--2012-11-30--sarken
+1	1	app/views/works/_standard_form.html.erb
+
+--7c2fc9079--2012-11-29--sarken
+8	5	app/views/works/_standard_form.html.erb
+1	1	app/views/works/drafts.html.erb
+8	8	app/views/works/preview.html.erb
+
+--c389a763f--2013-09-24--sarken
+1	1	app/views/share/_share.html.erb
+
+--5dc047a7b--2013-09-24--sarken
+1	1	app/views/share/_share.html.erb
+
+--bffea41e2--2013-09-24--shalott
+--3d2ca28a5--2013-09-24--Elz
+--4a489a4e3--2013-09-24--Elz
+--170645557--2013-09-24--Elz
+--22be1378d--2013-09-23--Cristina
+--9b8208826--2013-09-23--Cristina
+--7d7070f89--2013-09-23--Cristina
+--c2111b447--2013-09-23--Cristina
+--f4ecb609a--2013-09-22--Scott D. Sullivan
+0	0	features/{other => collections}/icon.feature
+
+--a0f7d042b--2013-09-22--Cristina
+--7ff8695d5--2013-09-22--Scott D. Sullivan
+0	1	features/step_definitions/collection_steps.rb
+
+--e2cedcd64--2013-09-22--Scott D. Sullivan
+2	2	features/step_definitions/skin_steps.rb
+
+--69625a904--2013-09-22--Scott D. Sullivan
+4	4	app/models/story_parser.rb
+197	1417	features/cassette_library/cucumber_tags/import_da_fic.yml
+196	1575	features/cassette_library/cucumber_tags/import_da_title_link.yml
+25	27	features/importing/work_import_da.feature
+
+--48e58ad73--2013-09-22--Scott D. Sullivan
+3	2	features/step_definitions/challenge_steps.rb
+
+--ce4fde1ab--2013-09-21--Ariana
+48	44	app/views/preferences/index.html.erb
+
+--5e9b03acc--2013-09-21--Elz
+--4d368bd1d--2013-09-21--elz
+8	0	config/deploy/production.rb
+
+--6c2469c5c--2013-09-20--Elz
+--027f69aa6--2013-09-18--Enigel
+2	0	app/helpers/inbox_helper.rb
+81	65	app/views/inbox/show.html.erb
+
+--876d927b9--2013-09-15--Elz
+--d273a8f63--2013-09-15--Elz
+--d3fa149f0--2013-09-15--elz
+1	1	app/models/external_work.rb
+1	1	app/models/work.rb
+
+--faf44a8c4--2013-09-13--Elz
+--3f2971515--2013-09-13--Elz
+--418aee38c--2013-09-13--sarken
+1	1	app/views/bookmarks/_filters.html.erb
+
+--29ce0b6da--2013-09-12--shalott
+3	0	app/controllers/tag_set_associations_controller.rb
+8	5	app/views/tag_set_associations/index.html.erb
+12	3	features/step_definitions/tag_set_steps.rb
+17	3	features/tags_and_wrangling/tag_set.feature
+
+--2be5aa77e--2013-09-12--Enigel
+8	3	app/controllers/tags_controller.rb
+7	0	app/models/tag.rb
+0	8	app/models/unsorted_tag.rb
+
+--4d9ba9d23--2013-09-12--sarken
+2	2	public/status/simple_status.html
+
+--643b36537--2013-09-12--sarken
+41	10	public/javascripts/jquery.timeago.js
+1	0	public/javascripts/jquery.timeago.min.js
+28	58	public/status/index.html
+0	193	public/status/jquery.timeago.js
+8	8	public/status/simple_status.html
+
+--c3fc64094--2013-09-12--sarken
+1	1	app/views/users/_legal.html.erb
+
+--07f42a2f4--2013-09-10--Elz
+--ca78c1d1c--2013-09-10--elz
+3	0	config/environments/production.rb
+3	0	config/environments/staging.rb
+
+--fc86383cf--2013-09-10--Cristina
+--c26f522ca--2013-09-10--Cristina
+--fdec8d296--2013-09-10--Ariana
+2	1	public/help/collection-preferences.html
+
+--968f5b7d6--2013-09-10--Ariana
+1	1	public/help/skins-basics.html
+
+--773801acf--2013-09-10--Cristina
+--3016e3061--2013-09-09--Scott D. Sullivan
+1	1	app/helpers/application_helper.rb
+
+--3019225b5--2013-09-09--Scott D. Sullivan
+1	1	public/help/html-help.html
+
+--96fe0f9ab--2013-09-09--Scott D. Sullivan
+1	1	app/helpers/application_helper.rb
+1	3	config/initializers/gem-plugin_config/sanitizer_config.rb
+1	1	public/help/html-help.html
+
+--5e230b45f--2013-09-08--Scott D. Sullivan
+1	0	public/javascripts/mce_editor.js
+
+--8b1ac7a3b--2013-09-08--Scott D. Sullivan
+0	1	public/javascripts/mce_editor.js
+
+--1318369eb--2013-09-08--Scott D. Sullivan
+1	1	public/javascripts/mce_editor.js
+
+--0caa43b21--2013-05-28--Scott D. Sullivan
+8	6	spec/lib/html_cleaner_spec.rb
+
+--a2f7ccd63--2013-05-27--Scott D. Sullivan
+7	1	spec/lib/html_cleaner_spec.rb
+
+--831e57db9--2013-05-27--Scott D. Sullivan
+6	0	spec/lib/html_cleaner_spec.rb
+
+--e2c3a2a78--2013-02-28--Scott D. Sullivan
+2	7	app/models/collection.rb
+0	1	config/initializers/gem-plugin_config/sanitizer_config.rb
+
+--c798abe20--2013-02-28--Scott D. Sullivan
+1	1	app/helpers/application_helper.rb
+2	0	config/initializers/gem-plugin_config/sanitizer_config.rb
+3	2	public/javascripts/mce_editor.js
+
+--a25ca907c--2013-02-28--Scott D. Sullivan
+1	1	app/helpers/application_helper.rb
+1	0	config/initializers/gem-plugin_config/sanitizer_config.rb
+2	2	public/javascripts/mce_editor.js
+
+--8e8673489--2013-02-28--Scott D. Sullivan
+1	1	app/models/collection.rb
+
+--f4fc2e7db--2013-02-28--Scott D. Sullivan
+6	1	app/models/collection.rb
+
+--b99c1292b--2013-09-08--shalott
+0	0	features/{other => collections}/collectible.feature
+2	1	features/other/orphan_work.feature
+1	2	features/step_definitions/autocomplete_steps.rb
+1	0	features/step_definitions/collection_steps.rb
+4	4	features/step_definitions/generic_steps.rb
+
+--9edbd04eb--2013-09-08--Cristina
+--253aaf43a--2013-09-08--Elz
+--a4fcd26fa--2013-09-08--Scott D. Sullivan
+2	1	app/controllers/owned_tag_sets_controller.rb
+
+--9426fe950--2013-09-08--Scott D. Sullivan
+1	1	app/controllers/owned_tag_sets_controller.rb
+
+--6eb5458a2--2013-09-08--Elz
+--6a649f16c--2013-09-08--Scott D. Sullivan
+1	1	app/views/collection_profile/show.html.erb
+
+--187623154--2013-09-07--Elz
+--6ddc44818--2013-09-07--Scott D. Sullivan
+1	0	features/other/orphan_work.feature
+3	3	features/other/reading.feature
+1	1	features/step_definitions/generic_steps.rb
+0	1	features/step_definitions/icon_steps.rb
+1	1	features/step_definitions/skin_steps.rb
+
+--1ef37c82a--2013-09-07--Elz
+--ec46ae887--2013-09-07--shalott
+5	5	features/challenges/challenge_giftexchange.feature
+1	1	features/tags_and_wrangling/tag_search.feature
+
+--f81d65c21--2013-09-07--Elz
+--0008bf9e7--2013-09-07--Elz
+--1ef5842b5--2013-09-07--shalott
+1	1	app/views/prompts/_prompt_form.html.erb
+18	0	features/challenges/challenge_giftexchange.feature
+
+--22a02c980--2013-09-06--Elz
+--328c17661--2013-09-06--Elz
+--dc940d326--2013-09-06--shalott
+2	2	app/views/tag_set_nominations/_review_individual_nom.html.erb
+5	3	features/tags_and_wrangling/tag_set.feature
+
+--7ce852770--2013-09-06--shalott
+26	1	features/step_definitions/tag_set_steps.rb
+19	0	features/tags_and_wrangling/tag_set.feature
+
+--7f9e94459--2013-09-06--shalott
+2	0	app/controllers/tag_set_nominations_controller.rb
+8	6	app/views/tag_set_nominations/_review_individual_nom.html.erb
+
+--4bfd76fb2--2013-09-06--shalott
+0	8	app/models/tagset_models/tag_set_association.rb
+11	0	features/tags_and_wrangling/tag_set.feature
+
+--95018a51c--2013-09-06--shalott
+4	0	features/step_definitions/generic_steps.rb
+69	0	features/step_definitions/tag_set_steps.rb
+64	3	features/tags_and_wrangling/tag_set.feature
+
+--12e786487--2013-09-06--shalott
+--9d60523b4--2013-09-06--shalott
+--9abc4b689--2013-09-06--sarken
+37	36	app/views/feedbacks/new.html.erb
+
+--aae5f5137--2013-09-05--sarken
+17	15	app/views/fandoms/unassigned.html.erb
+
+--2ae753f5c--2013-09-04--james_
+193	0	public/status/jquery.timeago.js
+
+--3e8903140--2013-09-03--Scott D. Sullivan
+8	8	app/views/collection_profile/show.html.erb
+
+--b83b6ec59--2013-09-03--Scott D. Sullivan
+5	7	app/helpers/challenge_helper.rb
+
+--9689b4620--2013-09-03--Scott D. Sullivan
+13	1	app/helpers/challenge_helper.rb
+10	17	app/views/collection_profile/show.html.erb
+
+--efa560a38--2013-09-03--Scott D. Sullivan
+16	14	app/views/collection_profile/show.html.erb
+
+--0bc99fabf--2013-09-03--Scott D. Sullivan
+8	1	app/views/collection_profile/show.html.erb
+9	0	features/challenges/challenge_giftexchange.feature
+
+--170fe6636--2013-06-15--Scott D. Sullivan
+19	0	features/challenges/challenge_giftexchange.feature
+
+--d9ffe50b9--2013-02-10--Scott D. Sullivan
+8	0	app/views/collection_profile/show.html.erb
+
+--b5b65c83a--2013-09-03--Scott D. Sullivan
+1	1	features/works/work_drafts.feature
+
+--9c6abd65c--2013-09-04--sarken
+2	0	app/controllers/tag_set_nominations_controller.rb
+
+--48264ffdc--2013-09-03--sarken
+--62f585ec1--2013-09-03--Ariana
+1	1	public/help/collection-moderated.html
+2	2	public/help/collection-preferences.html
+4	4	public/help/display-preferences.html
+1	1	public/help/filters-info.html
+4	4	public/help/privacy-preferences.html
+2	2	public/help/statistics-preferences.html
+5	5	public/help/tagset-about.html
+2	2	public/help/warning-help.html
+1	1	public/help/work-search-date-help.html
+
+--0be8af190--2013-06-08--Scott D. Sullivan
+1	1	app/controllers/chapters_controller.rb
+1	1	features/works/work_drafts.feature
+
+--78d989a43--2013-06-08--Scott D. Sullivan
+1	1	app/controllers/chapters_controller.rb
+18	0	features/works/work_drafts.feature
+
+--135eac34b--2013-03-10--Scott D. Sullivan
+5	6	app/views/works/drafts.html.erb
+
+--d1d055c8a--2012-07-07--Scott D. Sullivan
+4	4	app/views/works/drafts.html.erb
+
+--61475e5d1--2012-06-27--Scott D. Sullivan
+1	1	app/controllers/works_controller.rb
+1	1	app/models/work.rb
+7	7	app/views/works/drafts.html.erb
+
+--0de2c47db--2013-08-27--sarken
+1	1	app/views/share/_share.html.erb
+
+--72b0dd166--2013-08-27--sarken
+1	5	app/views/share/_share.html.erb
+
+--ad54d8c90--2013-08-26--sarken
+2	2	app/helpers/share_helper.rb
+1	1	app/views/bookmarks/index.html.erb
+1	1	app/views/share/_share.html.erb
+
+--c7b4cd624--2013-08-26--sarken
+3	3	app/helpers/share_helper.rb
+1	7	app/views/share/_share.html.erb
+
+--dc7a80aaf--2013-08-26--sarken
+0	1	app/helpers/share_helper.rb
+
+--f509e840e--2013-08-26--sarken
+1	1	app/views/bookmarks/index.html.erb
+1	1	app/views/works/show.html.erb
+
+--9294e8b6a--2013-08-26--sarken
+2	6	app/views/share/_share.html.erb
+
+--2136fd5a3--2013-08-26--sarken
+3	9	app/views/share/_share.html.erb
+
+--234a8978d--2013-08-26--sarken
+1	1	app/views/share/_share.html.erb
+
+--a912cbabb--2013-08-26--sarken
+2	2	app/views/share/_share.html.erb
+
+--a5dbd11ac--2013-07-01--sarken
+2	2	app/helpers/share_helper.rb
+2	2	app/views/share/_share.html.erb
+
+--6a72550e8--2013-06-30--sarken
+3	7	app/helpers/share_helper.rb
+
+--5ba5575b9--2013-06-30--sarken
+12	0	app/helpers/share_helper.rb
+3	1	app/views/share/_share.html.erb
+
+--e6fc06e4f--2013-06-30--sarken
+5	0	app/views/bookmarks/index.html.erb
+53	0	app/views/share/_share.html.erb
+5	0	app/views/works/show.html.erb
+
+--cb54c4afa--2013-04-21--sarken
+0	6	app/helpers/share_helper.rb
+1	1	app/views/bookmarks/_bookmark_owner_navigation.html.erb
+1	1	app/views/works/_work_header_navigation.html.erb
+
+--a0c903219--2013-04-15--sarken
+2	2	app/helpers/share_helper.rb
+0	97	app/helpers/works_helper.rb
+
+--43e4814f7--2013-04-14--sarken
+100	0	app/helpers/share_helper.rb
+1	13	app/views/bookmarks/_bookmark_owner_navigation.html.erb
+1	22	app/views/works/_work_header_navigation.html.erb
+
+--7ba6d8b74--2013-09-02--shalott
+--85e16434a--2013-09-02--Cristina
+--8dd4125a6--2013-09-02--Lalith Vipulananthan
+0	8	app/controllers/works_controller.rb
+
+--67ec4be63--2013-09-02--Lalith Vipulananthan
+--cd5cd3004--2013-09-02--Lalith Vipulananthan
+1	1	app/controllers/works_controller.rb
+
+--00389e9ca--2013-09-02--Lalith Vipulananthan
+41	39	app/controllers/works_controller.rb
+
+--89c03c137--2013-09-02--Lalith Vipulananthan
+2	2	app/controllers/works_controller.rb
+
+--ad1f3ed65--2013-09-02--Cristina
+--05242a847--2013-09-02--elz
+1	8	app/models/tagging.rb
+
+--d72d62816--2013-09-01--sarken
+--ba3914a6c--2013-09-01--Cristina
+--b8a043ece--2013-09-01--Cristina
+--5a4832197--2013-09-01--Cristina
+--b0a3b179a--2013-09-01--Cristina
+--5040b8712--2013-09-01--Cristina
+--17ee206ab--2013-09-01--Cristina
+--f734c3d2a--2013-09-01--Cristina
+--d20a21790--2013-09-01--Cristina
+--92ab54b13--2013-09-01--Cristina
+--ef42d24b3--2013-09-01--Cristina
+--5a5532941--2013-09-01--Cristina
+--9c154343c--2013-09-01--elz
+1	1	app/views/comments/_commentable.html.erb
+
+--a2eccb8f7--2013-09-01--elz
+1	5	features/step_definitions/archivist_steps.rb
+
+--696370ed8--2013-09-01--elz
+1	1	app/views/user_mailer/claim_notification.html.erb
+
+--fdf6c3b7a--2013-09-01--elz
+4	4	features/step_definitions/tag_steps.rb
+
+--d793d446c--2013-09-01--elz
+1	1	config/cucumber.yml
+
+--8f7a19eb2--2013-08-30--Elz
+--899fa20be--2013-08-30--Elz
+--6ffb3df38--2013-08-29--Elz
+--d39ea03ce--2013-08-29--elz
+1	1	app/models/bookmark.rb
+
+--fe8ddadaf--2013-08-26--Elz
+--f03dbb8aa--2013-08-26--elz
+2	30	app/controllers/errors_controller.rb
+
+--efae8c6a7--2013-08-24--Scott D. Sullivan
+6	6	features/challenges/challenge_yuletide.feature
+
+--baee2c0ce--2013-08-24--Elz
+--60ec3a7cb--2013-08-24--Cristina
+--8872520b1--2013-08-24--elz
+1	1	app/views/chapters/_chapter.html.erb
+
+--4de1adab7--2013-08-19--Enigel
+1	1	app/controllers/owned_tag_sets_controller.rb
+1	1	app/models/tagset_models/owned_tag_set.rb
+
+--b6363a424--2013-08-13--Elz
+--31b1e0b4b--2013-08-13--Cristina
+--3b2e126b8--2013-08-13--elz
+1	1	app/views/user_mailer/claim_notification.html.erb
+1	1	app/views/user_mailer/invitation_to_claim.html.erb
+
+--a8b894b11--2013-08-12--Enigel
+2	2	app/models/user.rb
+
+--e5b9bc7e7--2013-08-12--Cristina
+--54f729ee7--2013-08-11--Elz
+--8505d1b77--2013-08-11--Enigel
+2	2	app/views/opendoors/tools/index.html.erb
+
+--f30f12f58--2013-08-11--Cristina
+--4fcb78e2e--2013-08-11--Cristina
+--9f83388bd--2013-08-11--Cristina
+--29548bf8b--2013-08-11--elz
+1	1	app/views/owned_tag_sets/index.html.erb
+
+--f2ac0d3b9--2013-08-08--Ariana
+19	22	app/views/user_mailer/invitation_to_claim.html.erb
+20	16	app/views/user_mailer/invitation_to_claim.text.erb
+
+--9c637f7f7--2013-08-07--Ariana
+27	49	app/views/user_mailer/claim_notification.html.erb
+18	16	app/views/user_mailer/claim_notification.text.erb
+
+--5cb46e2e2--2013-08-06--sarken
+1	1	public/javascripts/application.js
+
+--d315026fe--2013-08-05--Scott D. Sullivan
+0	1	app/models/collection_item.rb
+
+--d6e085d20--2013-08-05--Scott D. Sullivan
+4	3	app/mailers/collection_mailer.rb
+3	2	app/models/collection_item.rb
+12	12	app/views/collection_mailer/item_added_notification.html.erb
+14	9	app/views/collection_mailer/item_added_notification.text.erb
+19	1	features/collections/collection_notification.feature
+
+--302fb5e91--2013-08-02--Elz
+--6fb1c6be2--2013-08-02--elz
+22	3	app/models/work.rb
+
+--4bb08c1c1--2013-08-02--Elz
+--e29644d17--2013-08-02--elz
+2	0	app/models/collection_item.rb
+
+--916325303--2013-08-02--Elz
+--9646e653a--2013-08-02--Elz
+--a8bec4a5c--2013-08-02--Elz
+--5e088b808--2013-07-23--Cristina
+1	1	app/models/tagset_models/owned_tag_set.rb
+
+--e34bbee54--2013-07-22--Cristina
+2	8	app/models/work_skin.rb
+
+--b96b6005d--2013-07-22--Cristina
+1	1	app/views/works/_filters.html.erb
+
+--ee4cb84fc--2013-07-21--Elz
+--7da2d7e94--2013-07-21--Cristina
+1	1	app/views/unsorted_tags/index.html.erb
+
+--d919bc511--2013-07-20--Elz
+--c588a9a47--2013-07-20--Elz
+--71a7da435--2013-07-20--Elz
+--cf2f863ed--2013-07-20--Elz
+--cf35b0b8f--2013-07-20--Elz
+--4caa3143b--2013-07-17--Scott D. Sullivan
+3	1	app/views/admin/_admin_options.html.erb
+
+--28b0f7131--2013-07-17--sarken
+1	1	app/views/stats/index.html.erb
+
+--9e71d9b81--2013-07-17--sarken
+2	2	app/views/skins/_skin_top_navigation.html.erb
+
+--2f7c0d4c6--2013-07-16--Scott D. Sullivan
+1	1	app/views/admin/_admin_options.html.erb
+
+--c70c48d08--2013-07-13--Scott D. Sullivan
+0	1	features/other/preferences_edit.feature
+
+--146f49c18--2013-07-13--Scott D. Sullivan
+1	1	app/views/comment_mailer/comment_notification.text.erb
+1	1	features/importing/work_import_da.feature
+7	7	features/other/add_comment.feature
+10	6	features/other/preferences_edit.feature
+4	4	features/other/series.feature
+1	1	features/other/skin.feature
+
+--9b119580a--2013-07-13--Scott D. Sullivan
+2	2	features/other/banner_login.feature
+3	0	features/other/invite_queue.feature
+1	1	features/other/languages.feature
+4	0	features/step_definitions/admin_steps.rb
+18	0	features/support/database_cleaner.rb
+21	10	features/support/env.rb
+
+--34c738f32--2013-07-11--Scott D. Sullivan
+0	1	features/collections/collection_create.feature
+0	1	features/other/admin_tasks.feature
+0	1	features/other/reading.feature
+0	1	features/other/series.feature
+0	1	features/step_definitions/banner_steps.rb
+0	1	features/step_definitions/kudos_steps.rb
+0	1	features/tags_and_wrangling/tag_wrangling_relationships.feature
+
+--a788a7f97--2013-07-11--Scott D. Sullivan
+1417	180	features/cassette_library/cucumber_tags/import_da_fic.yml
+1575	180	features/cassette_library/cucumber_tags/import_da_title_link.yml
+
+--7adc4808e--2013-07-11--Scott D. Sullivan
+180	1406	features/cassette_library/cucumber_tags/import_da_fic.yml
+115	111	features/cassette_library/cucumber_tags/import_da_title_link.yml
+1	1	features/other/ToS_links.feature
+15	17	features/other/preferences_edit.feature
+3	4	features/other/pseud_dashboard.feature
+1	1	features/other/pseuds.feature
+39	39	features/other/pseuds_special_characters.feature
+5	4	features/other/reading.feature
+9	8	features/other/series.feature
+1	1	features/other/series_lock.feature
+2	2	features/other/skin.feature
+
+--04a1c1e86--2013-07-08--Scott D. Sullivan
+1	0	features/other/admin_tasks.feature
+6	3	features/other/bookmark_create.feature
+17	17	features/other/comments_redirect.feature
+4	4	features/other/kudos.feature
+13	13	features/other/preferences_edit.feature
+1	0	features/step_definitions/banner_steps.rb
+1	0	features/step_definitions/kudos_steps.rb
+0	36	lib/tasks/specific_tests.rake
+
+--a2a302756--2013-07-08--Scott D. Sullivan
+1	1	features/step_definitions/autocomplete_steps.rb
+1	0	features/step_definitions/email_steps.rb
+1	1	features/step_definitions/tag_steps.rb
+8	9	features/tags_and_wrangling/tag_comment.feature
+1	4	features/tags_and_wrangling/tag_set_delete.feature
+7	4	features/tags_and_wrangling/tag_wrangling_characters.feature
+8	12	features/tags_and_wrangling/tag_wrangling_fandoms.feature
+
+--4e48bc864--2013-07-07--Scott D. Sullivan
+1	0	features/collections/collection_create.feature
+1	1	features/step_definitions/generic_steps.rb
+1	0	features/tags_and_wrangling/tag_wrangling_fandoms.feature
+2	2	features/tags_and_wrangling/tag_wrangling_freeforms.feature
+22	20	features/tags_and_wrangling/tag_wrangling_relationships.feature
+
+--f6143d4d9--2013-07-07--Scott D. Sullivan
+2	2	features/step_definitions/generic_steps.rb
+2	12	features/step_definitions/web_steps.rb
+0	1	features/tags_and_wrangling/tag_comment.feature
+1	1	features/works/work_create.feature
+1	1	features/works/work_delete.feature
+1	1	features/works/work_related.feature
+9	9	features/works/work_search.feature
+
+--ee1a1fcc2--2013-07-07--Scott D. Sullivan
+3	4	features/collections/collection_navigation.feature
+
+--df9fe4adb--2013-07-07--Scott D. Sullivan
+--cfe3468e4--2013-07-07--Scott D. Sullivan
+1	1	app/views/challenge_requests/index.html.erb
+1	1	app/views/challenge_signups/index.html.erb
+8	8	features/challenges/challenge_promptmeme.feature
+1	1	features/step_definitions/challenge_steps.rb
+1	6	features/step_definitions/generic_steps.rb
+9	7	features/step_definitions/tag_set_steps.rb
+1	1	lib/collectible.rb
+
+--889f977ad--2013-07-06--Scott D. Sullivan
+3	3	features/tags_and_wrangling/tag_cloud.feature
+4	2	features/tags_and_wrangling/tag_comment.feature
+
+--4bb51d2b8--2013-07-06--Scott D. Sullivan
+2	2	features/challenges/challenge_promptmeme.feature
+7	7	features/other/add_comment.feature
+1	1	features/other/admin_post.feature
+1	1	features/tags_and_wrangling/tag_cloud.feature
+
+--f8e58f5b5--2013-06-29--Scott D. Sullivan
+1	1	.travis.yml
+
+--ee9abeb12--2013-06-29--Scott D. Sullivan
+290	309	features/cassette_library/cucumber_tags/import_da_fic.yml
+176	1605	features/cassette_library/cucumber_tags/import_da_title_link.yml
+0	13	features/importing/lastfailing.rdoc
+2	2	features/step_definitions/generic_steps.rb
+2	2	features/users/authenticate_users.feature
+
+--50195d93e--2013-06-29--Scott D. Sullivan
+1	1	features/step_definitions/autocomplete_steps.rb
+9	9	features/step_definitions/generic_steps.rb
+16	0	features/tags_and_wrangling/tag_set_delete.feature
+
+--7014d387c--2013-06-29--Scott D. Sullivan
+7	1	features/support/env.rb
+
+--05c7a72f2--2013-06-29--Scott D. Sullivan
+1	1	.travis.yml
+
+--9babd216f--2013-07-07--elz
+--5bdae3303--2013-07-07--elz
+--625e60328--2013-07-07--elz
+15	0	db/migrate/20130707160814_revert_filter_taggings_primary_key.rb
+
+--4b2bcfa21--2013-07-07--elz
+2	0	app/models/filter_tagging.rb
+2	2	db/migrate/20120131225520_filter_tagging_primary_key.rb
+
+--6bde3ee5b--2013-07-07--Elz
+--70152699c--2013-07-07--elz
+7	2	app/models/work.rb
+
+--a0759ccdf--2013-07-07--Elz
+--9e4b69aef--2013-07-06--Scott D. Sullivan
+3	3	features/tags_and_wrangling/tag_cloud.feature
+4	2	features/tags_and_wrangling/tag_comment.feature
+
+--497ded662--2013-07-06--Scott D. Sullivan
+--675e79bb1--2013-07-06--elz
+1	1	app/models/user.rb
+
+--026483e7a--2013-07-06--elz
+2	2	app/models/series.rb
+
+--918fe9e83--2013-07-06--elz
+8	11	app/controllers/series_controller.rb
+3	8	app/models/series.rb
+60	14	app/models/user.rb
+2	2	app/views/series/index.html.erb
+
+--acecf5e46--2013-07-06--Scott D. Sullivan
+2	2	features/challenges/challenge_promptmeme.feature
+7	7	features/other/add_comment.feature
+1	1	features/other/admin_post.feature
+1	1	features/tags_and_wrangling/tag_cloud.feature
+
+--8fe1a85e7--2013-06-29--Scott D. Sullivan
+1	1	.travis.yml
+
+--641a4da1b--2013-06-29--Scott D. Sullivan
+290	309	features/cassette_library/cucumber_tags/import_da_fic.yml
+176	1605	features/cassette_library/cucumber_tags/import_da_title_link.yml
+0	13	features/importing/lastfailing.rdoc
+2	2	features/step_definitions/generic_steps.rb
+2	2	features/users/authenticate_users.feature
+
+--f4c26826d--2013-06-29--Scott D. Sullivan
+1	1	features/step_definitions/autocomplete_steps.rb
+9	9	features/step_definitions/generic_steps.rb
+16	0	features/tags_and_wrangling/tag_set_delete.feature
+
+--540c2573c--2013-06-29--Scott D. Sullivan
+7	1	features/support/env.rb
+
+--9bb03c00e--2013-06-29--Scott D. Sullivan
+1	1	.travis.yml
+
+--18894e4ad--2013-07-06--Elz
+--37b787ebc--2013-07-06--elz
+1	1	app/controllers/tags_controller.rb
+
+--41de1a6de--2013-06-30--Elz
+--345b0b419--2013-06-30--elz
+2	2	Gemfile
+8	5	Gemfile.lock
+
+--9e84ad748--2013-06-30--Elz
+--b0304dbff--2013-06-30--elz
+1	1	Gemfile
+6	6	Gemfile.lock
+
+--81140359a--2013-06-30--elz
+3	0	config/application.rb
+0	31	config/initializers/monkeypatches/show_exceptions.rb
+7	0	config/routes.rb
+
+--b666d86b5--2013-06-29--Elz
+--b36dbefde--2013-06-28--elz
+2	2	features/step_definitions/pickle_steps.rb
+
+--e30a95b82--2013-06-28--elz
+4	1	Gemfile
+5	7	Gemfile.lock
+
+--ccba4677b--2013-06-28--elz
+4	4	features/step_definitions/fixtures_steps.rb
+
+--9b2d547e3--2013-06-28--elz
+3	1	app/models/user.rb
+3	3	spec/models/series_spec.rb
+0	1	spec/models/skin_parent_spec.rb
+3	3	spec/models/subscription_spec.rb
+0	1	spec/models/tag_set_nomination_spec.rb
+
+--0c11052d3--2013-06-28--elz
+1	2	Gemfile
+0	1	Gemfile.lock
+47	47	features/support/env.rb
+17	5	lib/tasks/cucumber.rake
+
+--0b306a8df--2013-06-27--elz
+0	1	config/environments/development.rb
+
+--8342ffe66--2013-06-27--elz
+--99eeec254--2013-06-26--Elz
+--25b9fcfff--2013-06-26--Elz
+--cc2e90dee--2013-06-26--Elz
+--9dc4e7696--2013-06-26--elz
+1	1	config/environments/production.rb
+1	1	config/environments/staging.rb
+
+--d90293638--2013-06-26--elz
+1	0	config/config.yml
+1	1	config/environments/production.rb
+1	1	config/environments/staging.rb
+
+--eae7d4819--2013-06-24--james_
+148	16	public/status/index.html
+
+--a13ee4f40--2013-06-24--james_
+1	1	public/status/index.html
+15	1	public/status/simple_status.html
+
+--62b49768a--2013-06-24--james_
+18	8	public/status/simple_status.html
+
+--b71b4541e--2013-06-24--Scott D. Sullivan
+3	3	app/views/home/_tos.html.erb
+3	3	app/views/home/tos_faq.html.erb
+
+--d0b7218ef--2013-06-24--Scott D. Sullivan
+1	1	app/views/home/_tos.html.erb
+
+--1921f0b15--2013-06-23--Elz
+--fb4caaf2e--2013-06-23--elz
+52	55	app/controllers/redirect_controller.rb
+
+--5696cbea3--2013-06-21--elz
+6	0	config/deploy.rb
+
+--1ecb2fcdb--2013-06-21--Elz
+--6c0dd29f4--2013-06-21--elz
+1	0	config/config.yml
+4	12	config/initializers/gem-plugin_config/tire.rb
+
+--55cbf96cc--2013-06-20--Elz
+--9b394cccc--2013-06-21--Scott D. Sullivan
+1	1	.travis.yml
+1	1	Gemfile
+2	2	Gemfile.lock
+5	5	app/models/story_parser.rb
+1	1	app/views/kudo_mailer/batch_kudo_notification.text.erb
+4279	1640	features/cassette_library/cucumber_tags/archivist_import.yml
+19	9	features/cassette_library/cucumber_tags/bookmark_fandom_error.yml
+19	9	features/cassette_library/cucumber_tags/bookmark_url_error.yml
+0	609	features/cassette_library/cucumber_tags/import_da.yml
+1435	1066	features/cassette_library/cucumber_tags/import_da_fic.yml
+1619	175	features/cassette_library/cucumber_tags/import_da_title_link.yml
+153	63	features/cassette_library/cucumber_tags/import_dw.yml
+316	260	features/cassette_library/cucumber_tags/import_dw_comm.yml
+302	125	features/cassette_library/cucumber_tags/import_dw_multi_chapter.yml
+166	77	features/cassette_library/cucumber_tags/import_dw_tables.yml
+154	64	features/cassette_library/cucumber_tags/import_dw_tables_no_backdate.yml
+0	424	features/cassette_library/cucumber_tags/import_ffn.yml
+0	803	features/cassette_library/cucumber_tags/import_ffn_multi_chapter.yml
+292	145	features/cassette_library/cucumber_tags/import_lj.yml
+588	296	features/cassette_library/cucumber_tags/import_lj_multi_chapter.yml
+293	146	features/cassette_library/cucumber_tags/import_lj_no_backdate.yml
+316	169	features/cassette_library/cucumber_tags/import_lj_tables.yml
+299	153	features/cassette_library/cucumber_tags/import_lj_underscores.yml
+213	193	features/cassette_library/cucumber_tags/import_yt.yml
+102	82	features/cassette_library/cucumber_tags/import_yt_no_notes.yml
+217	197	features/cassette_library/cucumber_tags/import_yt_ny.yml
+32	18	features/cassette_library/cucumber_tags/work_external_language.yml
+43	31	features/cassette_library/cucumber_tags/work_external_parent.yml
+0	264	features/cassette_library/cucumber_tags/work_import_errors.yml
+960	765	features/cassette_library/cucumber_tags/work_import_minimal_valid.yml
+167	149	features/cassette_library/cucumber_tags/work_import_multi_tags_backdate.yml
+7644	5667	features/cassette_library/cucumber_tags/work_import_nul_character.yml
+29	17	features/cassette_library/cucumber_tags/work_import_special_characters_auto_utf.yml
+30	18	features/cassette_library/cucumber_tags/work_import_special_characters_man_utf.yml
+242	91	features/cassette_library/cucumber_tags/work_import_tags.yml
+13	0	features/importing/lastfailing.rdoc
+2	1	features/importing/work_import_da.feature
+4	4	features/other/archivist.feature
+1	1	features/other/bookmark_create.feature
+2	1	features/step_definitions/autocomplete_steps.rb
+1	0	features/step_definitions/external_work_steps.rb
+7	1	features/step_definitions/work_steps.rb
+0	61	features/support/env.rb.save
+8	5	features/support/vcr.rb
+24	25	features/tags_and_wrangling/tag_search.feature
+
+--6809f477d--2013-06-16--Elz
+--ff079f2d7--2013-06-16--Scott D. Sullivan
+1	1	Gemfile
+2	2	Gemfile.lock
+
+--0b44e0256--2013-06-16--elz
+--1b7632d5d--2013-06-16--Elz
+--7b4c7fd3d--2013-06-16--james_
+3	3	public/status/index.html
+
+--3f9a0d4be--2013-06-16--james_
+1186	0	public/status/jquery-ui.css
+
+--a8545df79--2013-06-16--Elz
+--fda7757cf--2013-06-14--james_
+1	1	config/initializers/gem-plugin_config/tire.rb
+
+--a81f86b6d--2013-06-13--Elz
+--3274675d0--2013-06-13--Scott D. Sullivan
+1	1	app/views/home/_tos.html.erb
+
+--28ff07146--2013-03-11--Scott D. Sullivan
+1	1	app/views/home/_tos.html.erb
+
+--8585e2473--2013-06-13--elz
+1	1	app/controllers/comments_controller.rb
+
+--af8b7878e--2013-02-18--elz
+0	1	app/controllers/comments_controller.rb
+
+--c33dd17d5--2013-02-18--elz
+1	1	app/controllers/abuse_reports_controller.rb
+5	5	app/controllers/admin/admin_invitations_controller.rb
+22	22	app/controllers/admin/admin_users_controller.rb
+2	2	app/controllers/admin/settings_controller.rb
+2	2	app/controllers/admin/skins_controller.rb
+2	2	app/controllers/admin/user_creations_controller.rb
+2	2	app/controllers/admin_posts_controller.rb
+3	3	app/controllers/admin_sessions_controller.rb
+13	9	app/controllers/application_controller.rb
+3	3	app/controllers/archive_faqs_controller.rb
+1	1	app/controllers/autocomplete_controller.rb
+3	3	app/controllers/bookmarks_controller.rb
+4	4	app/controllers/challenge/gift_exchange_controller.rb
+4	4	app/controllers/challenge/prompt_meme_controller.rb
+21	21	app/controllers/challenge_assignments_controller.rb
+11	11	app/controllers/challenge_claims_controller.rb
+2	2	app/controllers/challenge_requests_controller.rb
+13	13	app/controllers/challenge_signups_controller.rb
+2	2	app/controllers/challenges_controller.rb
+10	10	app/controllers/chapters_controller.rb
+11	11	app/controllers/collection_items_controller.rb
+11	11	app/controllers/collection_participants_controller.rb
+1	1	app/controllers/collection_profile_controller.rb
+8	8	app/controllers/collections_controller.rb
+9	9	app/controllers/comments_controller.rb
+4	4	app/controllers/devmode_controller.rb
+4	4	app/controllers/downloads_controller.rb
+10	10	app/controllers/external_authors_controller.rb
+3	3	app/controllers/external_works_controller.rb
+1	1	app/controllers/fandoms_controller.rb
+2	2	app/controllers/feedbacks_controller.rb
+1	1	app/controllers/gifts_controller.rb
+1	1	app/controllers/inbox_controller.rb
+7	7	app/controllers/invitations_controller.rb
+6	6	app/controllers/invite_requests_controller.rb
+2	2	app/controllers/known_issues_controller.rb
+4	4	app/controllers/kudos_controller.rb
+1	1	app/controllers/languages_controller.rb
+2	2	app/controllers/locales_controller.rb
+5	5	app/controllers/opendoors/external_authors_controller.rb
+4	4	app/controllers/opendoors/tools_controller.rb
+3	3	app/controllers/orphans_controller.rb
+8	8	app/controllers/owned_tag_sets_controller.rb
+3	3	app/controllers/passwords_controller.rb
+9	9	app/controllers/potential_matches_controller.rb
+2	2	app/controllers/preferences_controller.rb
+1	1	app/controllers/profile_controller.rb
+12	12	app/controllers/prompts_controller.rb
+9	9	app/controllers/pseuds_controller.rb
+3	3	app/controllers/readings_controller.rb
+55	55	app/controllers/redirect_controller.rb
+8	8	app/controllers/related_works_controller.rb
+8	8	app/controllers/series_controller.rb
+14	14	app/controllers/skins_controller.rb
+2	2	app/controllers/static/collections_controller.rb
+2	2	app/controllers/subscriptions_controller.rb
+3	3	app/controllers/tag_set_associations_controller.rb
+19	19	app/controllers/tag_set_nominations_controller.rb
+1	1	app/controllers/tag_wranglers_controller.rb
+5	5	app/controllers/tag_wranglings_controller.rb
+10	10	app/controllers/tags_controller.rb
+2	2	app/controllers/translation_notes_controller.rb
+4	4	app/controllers/translations_controller.rb
+2	2	app/controllers/translators_controller.rb
+7	7	app/controllers/user_invite_requests_controller.rb
+3	3	app/controllers/user_sessions_controller.rb
+26	26	app/controllers/users_controller.rb
+36	36	app/controllers/works_controller.rb
+2	2	app/helpers/application_helper.rb
+2	2	doc/app/ApplicationHelper.html
+1	1	doc/app/CollectionItemsController.html
+1	1	doc/app/ExternalAuthorsController.html
+1	1	doc/app/PromptsController.html
+3	3	doc/app/UserInviteRequestsController.html
+1	1	doc/app/js/search_index.js
+
+--f7a1e9eaa--2013-06-13--Elz
+--33a911e37--2013-06-13--Elz
+--6d2e6b71c--2013-06-13--Elz
+--c9875d62f--2013-06-13--Elz
+--1f33c05bb--2013-06-13--elz
+0	45	public/maintenance_servers.html
+0	0	public/{maintenance.html => nomaintenance.html}
+
+--c00ff7b1f--2013-06-10--elz
+1	0	Gemfile
+3	0	Gemfile.lock
+21	171	config/deploy.rb
+9	12	config/deploy/production.rb
+10	9	config/deploy/staging.rb
+
+--6cdb83c05--2013-06-10--Elz
+--c0f59b843--2013-05-29--Scott D. Sullivan
+17	0	features/collections/collection_navigation.feature
+4	0	features/step_definitions/web_steps.rb
+
+--9cbda7ca2--2013-03-01--Scott D. Sullivan
+1	1	app/controllers/fandoms_controller.rb
+
+--529bcf570--2013-05-26--Elz
+--0eb4ce14e--2013-05-26--james_
+3	2	config/initializers/gem-plugin_config/tire.rb
+
+--d73fee0f9--2013-05-25--james_
+7	3	config/initializers/gem-plugin_config/tire.rb
+
+--78dea3852--2013-05-21--Scott D. Sullivan
+0	2	features/other/kudos.feature
+
+--bfc7470ca--2013-05-21--Scott D. Sullivan
+0	1	features/step_definitions/fixtures_steps.rb
+
+--b854948e5--2013-05-21--sarken
+1	1	app/views/home/tos_faq.html.erb
+
+--755f03c61--2013-05-20--Scott D. Sullivan
+1	1	app/views/user_mailer/invitation_to_claim.html.erb
+1	1	features/other/bookmark_create.feature
+1	0	features/other/bookmark_search.feature
+
+--060b3e60f--2013-05-17--Scott D. Sullivan
+4	5	features/works/work_delete.feature
+
+--105b81d6e--2013-05-17--Scott D. Sullivan
+4	4	features/step_definitions/work_search_steps.rb
+1	0	features/works/work_dates_edit.feature
+1	1	features/works/work_delete.feature
+6	2	features/works/work_download.feature
+2	0	features/works/work_edit.feature
+11	10	features/works/work_search.feature
+
+--1c745c410--2013-05-17--Scott D. Sullivan
+1	0	features/tags_and_wrangling/tag_wrangling_special.feature
+
+--1882d9732--2013-05-17--Scott D. Sullivan
+1	1	app/views/user_mailer/challenge_assignment_notification.html.erb
+1	1	app/views/user_mailer/recipient_notification.html.erb
+1	1	app/views/user_mailer/recipient_notification.text.erb
+2	2	features/challenges/challenge_giftexchange.feature
+1	1	features/challenges/challenge_yuletide.feature
+9	1	features/step_definitions/email_steps.rb
+
+--69c42c0c9--2013-05-13--Scott D. Sullivan
+1	1	features/importing/work_import_errors.feature
+
+--3031bb9bc--2013-05-13--Scott D. Sullivan
+1	1	features/importing/work_import_errors.feature
+
+--94e3ea598--2013-05-13--Scott D. Sullivan
+1	1	features/step_definitions/user_steps.rb
+18	24	features/works/work_dates_edit.feature
+9	19	public/help/backdating-help.html
+
+--aa39f60d9--2013-05-12--Scott D. Sullivan
+1	1	app/views/user_mailer/recipient_notification.html.erb
+1	1	features/challenges/challenge_yuletide.feature
+2	2	features/other/archivist.feature
+1	2	features/step_definitions/collection_steps.rb
+6	1	features/step_definitions/email_steps.rb
+0	1	features/step_definitions/external_work_steps.rb
+6	6	features/tags_and_wrangling/tag_wrangling.feature
+
+--dad51d2cd--2013-05-11--elz
+2	0	app/controllers/downloads_controller.rb
+42	7	app/models/external_work.rb
+50	15	app/models/work.rb
+
+--fa5297590--2013-05-11--elz
+3	3	features/step_definitions/admin_steps.rb
+1	1	features/step_definitions/autocomplete_steps.rb
+2	2	features/step_definitions/pickle_steps.rb
+1	1	features/step_definitions/profile_steps.rb
+1	1	features/step_definitions/tag_steps.rb
+5	5	features/step_definitions/user_steps.rb
+130	132	features/support/factories.rb
+2	2	spec/controllers/autocomplete_controller_spec.rb
+7	7	spec/controllers/works_controller_spec.rb
+1	1	spec/helpers/works_helper_spec.rb
+56	0	spec/lib/autocomplete_source_spec.rb
+3	3	spec/lib/collectible_spec.rb
+23	23	spec/lib/works_owner_spec.rb
+2	2	spec/models/challenge_assignment_spec.rb
+1	1	spec/models/chapter_spec.rb
+1	1	spec/models/collection_spec.rb
+1	1	spec/models/gift_exchange_spec.rb
+9	0	spec/models/gift_spec.rb
+1	1	spec/models/series_spec.rb
+1	1	spec/models/stat_counter_spec.rb
+4	4	spec/models/subscription_spec.rb
+1	1	spec/models/tag_set_nomination_spec.rb
+29	29	spec/models/tag_spec.rb
+1	1	spec/models/unsorted_tag_spec.rb
+16	16	spec/models/user_spec.rb
+4	4	spec/models/work_search_spec.rb
+9	9	spec/models/work_spec.rb
+4	4	spec/requests/comments_spec.rb
+1	1	spec/support/login_macros.rb
+
+--73e92b738--2013-05-11--elz
+8	6	config/initializers/monkeypatches/override_default_form_field_sizes.rb
+0	4	config/initializers/monkeypatches/paperclip.rb
+1	1	config/initializers/monkeypatches/textarea_convert_html_to_newlines.rb
+
+--11a2cf815--2013-05-11--elz
+10	19	Gemfile
+200	187	Gemfile.lock
+0	1	vendor/plugins/action_mailer_tls/README
+0	1	vendor/plugins/action_mailer_tls/init.rb
+0	58	vendor/plugins/action_mailer_tls/lib/smtp_tls.rb
+0	23	vendor/plugins/acts_as_list/README
+0	3	vendor/plugins/acts_as_list/init.rb
+0	257	vendor/plugins/acts_as_list/lib/active_record/acts/list.rb
+0	332	vendor/plugins/acts_as_list/test/list_test.rb
+0	20	vendor/plugins/akismetor/MIT_LICENSE
+0	37	vendor/plugins/akismetor/README
+0	0	vendor/plugins/akismetor/init.rb
+0	46	vendor/plugins/akismetor/lib/akismetor.rb
+0	20	vendor/plugins/faker/MIT-LICENSE
+0	13	vendor/plugins/faker/README
+0	22	vendor/plugins/faker/Rakefile
+0	1	vendor/plugins/faker/init.rb
+0	1	vendor/plugins/faker/install.rb
+0	9	vendor/plugins/faker/lib/extensions/array.rb
+0	6	vendor/plugins/faker/lib/extensions/object.rb
+0	26	vendor/plugins/faker/lib/faker.rb
+0	76	vendor/plugins/faker/lib/faker/address.rb
+0	39	vendor/plugins/faker/lib/faker/company.rb
+0	37	vendor/plugins/faker/lib/faker/internet.rb
+0	34	vendor/plugins/faker/lib/faker/lorem.rb
+0	38	vendor/plugins/faker/lib/faker/name.rb
+0	33	vendor/plugins/faker/lib/faker/phone_number.rb
+0	9	vendor/plugins/faker/lib/faker/version.rb
+0	53	vendor/plugins/faker/test/faker_test.rb
+0	1	vendor/plugins/faker/uninstall.rb
+0	640	vendor/plugins/fixture_replacement2/CHANGELOG
+0	384	vendor/plugins/fixture_replacement2/README
+0	92	vendor/plugins/fixture_replacement2/Rakefile
+0	4	vendor/plugins/fixture_replacement2/TODO
+0	51	vendor/plugins/fixture_replacement2/etc/bug_reports/2007_09_28_linoj.txt
+0	6	vendor/plugins/fixture_replacement2/etc/google_analytics
+0	26	vendor/plugins/fixture_replacement2/etc/patches/2007_09_14_default_model_name_with_arguments.diff
+0	396	vendor/plugins/fixture_replacement2/etc/patches/2007_10_14_active_record_specs.diff
+0	26	vendor/plugins/fixture_replacement2/etc/patches/2007_10_14_protected_attributes.diff
+0	79	vendor/plugins/fixture_replacement2/etc/patches/2007_10_14_send_patch.diff
+0	13	vendor/plugins/fixture_replacement2/etc/patches/2007_10_14_spelling_error_in_comments.diff
+0	212	vendor/plugins/fixture_replacement2/etc/patches/2007_10_17_protected_attributes_second_go.diff
+0	137	vendor/plugins/fixture_replacement2/etc/patches/2007_10_18_README.diff
+0	12	vendor/plugins/fixture_replacement2/etc/patches/2007_10_19_readme_tweak.diff
+0	12	vendor/plugins/fixture_replacement2/etc/patches/2007_10_19_silence_migration.diff
+0	38	vendor/plugins/fixture_replacement2/etc/patches/2007_10_25_changed_classify_to_camelize.diff
+0	13	vendor/plugins/fixture_replacement2/etc/patches/2007_11_20_fixture_replacement_generator_should_not_reload_environment_or_boot.patch
+0	104	vendor/plugins/fixture_replacement2/etc/patches/2007_11_20_string_random_refactor_and_extension.patch
+0	108	vendor/plugins/fixture_replacement2/etc/patches/2007_11_20_string_random_refactor_and_extension_v2.patch
+0	9	vendor/plugins/fixture_replacement2/generators/USAGE
+0	20	vendor/plugins/fixture_replacement2/generators/fixture_replacement/fixture_replacement_generator.rb
+0	11	vendor/plugins/fixture_replacement2/generators/fixture_replacement/templates/example_data.erb
+0	1	vendor/plugins/fixture_replacement2/init.rb
+0	38	vendor/plugins/fixture_replacement2/lib/fixture_replacement.rb
+0	57	vendor/plugins/fixture_replacement2/lib/fixture_replacement/class_methods.rb
+0	62	vendor/plugins/fixture_replacement2/lib/fixture_replacement/controller/active_record_factory.rb
+0	110	vendor/plugins/fixture_replacement2/lib/fixture_replacement/controller/attribute_collection.rb
+0	29	vendor/plugins/fixture_replacement2/lib/fixture_replacement/controller/class_factory.rb
+0	11	vendor/plugins/fixture_replacement2/lib/fixture_replacement/controller/delayed_evaluation_proc.rb
+0	55	vendor/plugins/fixture_replacement2/lib/fixture_replacement/controller/method_generator.rb
+0	3	vendor/plugins/fixture_replacement2/lib/fixture_replacement/extensions/ostruct.rb
+0	10	vendor/plugins/fixture_replacement2/lib/fixture_replacement/extensions/string.rb
+0	9	vendor/plugins/fixture_replacement2/lib/fixture_replacement/fixture_replacement.rb
+0	72	vendor/plugins/fixture_replacement2/spec/fixture_replacement/attribues_for_spec.rb
+0	137	vendor/plugins/fixture_replacement2/spec/fixture_replacement/controller/attribute_collection_spec.rb
+0	83	vendor/plugins/fixture_replacement2/spec/fixture_replacement/controller/method_generator/attr_protected_attributes_spec.rb
+0	63	vendor/plugins/fixture_replacement2/spec/fixture_replacement/controller/method_generator/default_method_spec.rb
+0	41	vendor/plugins/fixture_replacement2/spec/fixture_replacement/controller/method_generator/evaluation_loading_spec.rb
+0	59	vendor/plugins/fixture_replacement2/spec/fixture_replacement/controller/method_generator/fixture_replacement_spec.rb
+0	134	vendor/plugins/fixture_replacement2/spec/fixture_replacement/controller/method_generator/generate_create_method_spec.rb
+0	144	vendor/plugins/fixture_replacement2/spec/fixture_replacement/controller/method_generator/generate_new_method_spec.rb
+0	29	vendor/plugins/fixture_replacement2/spec/fixture_replacement/controller/method_generator/method_generator_spec.rb
+0	10	vendor/plugins/fixture_replacement2/spec/fixture_replacement/delayed_evaluation_proc_spec.rb
+0	7	vendor/plugins/fixture_replacement2/spec/fixture_replacement/extensions/open_struct_to_hash_spec.rb
+0	20	vendor/plugins/fixture_replacement2/spec/fixture_replacement/extensions/string_spec.rb
+0	27	vendor/plugins/fixture_replacement2/spec/fixture_replacement/fixture_replace_defaults_file_spec.rb
+0	93	vendor/plugins/fixture_replacement2/spec/fixture_replacement/fixture_replacement_include_spec.rb
+0	36	vendor/plugins/fixture_replacement2/spec/fixture_replacement/fixtures/classes.rb
+0	80	vendor/plugins/fixture_replacement2/spec/fixture_replacement/integration/attributes_from_spec_without_block.rb
+0	81	vendor/plugins/fixture_replacement2/spec/fixture_replacement/integration/has_and_belongs_to_many_spec.rb
+0	60	vendor/plugins/fixture_replacement2/spec/fixture_replacement/regressions/2007_12_06_send_bug_spec.rb
+0	38	vendor/plugins/fixture_replacement2/spec/fixture_replacement/regressions/2008_01_11_evaluation_of_caller_spec.rb
+0	94	vendor/plugins/fixture_replacement2/spec/fixture_replacement/regressions/2008_01_21_random_string_with_sti_spec.rb
+0	19	vendor/plugins/fixture_replacement2/spec/fixture_replacement/require_spec.rb
+0	1	vendor/plugins/fixture_replacement2/spec/spec.opts
+0	19	vendor/plugins/fixture_replacement2/spec/spec_helper.rb
+0	88	vendor/plugins/fixture_replacement2/spec/spec_helpers.rb
+0	19	vendor/plugins/fixture_replacement2/test/test_helper.rb
+0	84	vendor/plugins/fixture_replacement2/test/unit/user_test.rb
+0	20	vendor/plugins/project_search/MIT-LICENSE
+0	55	vendor/plugins/project_search/README.rdoc
+0	7	vendor/plugins/project_search/install.rb
+0	127	vendor/plugins/project_search/lib/project_search.rb
+0	7	vendor/plugins/project_search/script/find
+0	2	vendor/plugins/project_search/uninstall.rb
+0	20	vendor/plugins/rails_indexes/MIT-LICENSE
+0	46	vendor/plugins/rails_indexes/README.textile
+0	23	vendor/plugins/rails_indexes/Rakefile
+0	299	vendor/plugins/rails_indexes/lib/indexer.rb
+0	18	vendor/plugins/rails_indexes/lib/tasks/indexer.rake
+0	8	vendor/plugins/rails_indexes/test/fixtures/app/controllers/users_controller.rb
+0	5	vendor/plugins/rails_indexes/test/fixtures/app/models/address.rb
+0	11	vendor/plugins/rails_indexes/test/fixtures/app/models/company.rb
+0	4	vendor/plugins/rails_indexes/test/fixtures/app/models/country.rb
+0	3	vendor/plugins/rails_indexes/test/fixtures/app/models/freelancer.rb
+0	10	vendor/plugins/rails_indexes/test/fixtures/app/models/gift.rb
+0	3	vendor/plugins/rails_indexes/test/fixtures/app/models/god.rb
+0	16	vendor/plugins/rails_indexes/test/fixtures/app/models/user.rb
+0	9	vendor/plugins/rails_indexes/test/fixtures/app/sweepers/user_sweeper.rb
+0	46	vendor/plugins/rails_indexes/test/fixtures/schema.rb
+0	83	vendor/plugins/rails_indexes/test/rails_indexes_test.rb
+0	30	vendor/plugins/rails_indexes/test/test_helper.rb
+0	17	vendor/plugins/transactional_migrations/CHANGELOG
+0	20	vendor/plugins/transactional_migrations/MIT-LICENSE
+0	15	vendor/plugins/transactional_migrations/README
+0	5	vendor/plugins/transactional_migrations/about.yml
+0	1	vendor/plugins/transactional_migrations/init.rb
+0	15	vendor/plugins/transactional_migrations/lib/red_hill_consulting/transactional_migrations/active_record/connection_adapters/schema_statements.rb
+0	19	vendor/plugins/transactional_migrations/lib/red_hill_consulting/transactional_migrations/active_record/migration.rb
+0	2	vendor/plugins/transactional_migrations/lib/transactional_migrations.rb
+
+--27067a6f7--2013-05-09--tuff_ghost
+6	3	app/models/work.rb
+170	53	features/other/gift.feature
+12	2	features/step_definitions/email_steps.rb
+7	0	features/step_definitions/gift_steps.rb
+
+--a563e31d4--2013-05-08--elz
+17	16	lib/tasks/mass_import.rake
+
+--d75a91906--2013-05-08--elz
+--d1a2aed17--2013-05-08--Elz
+--1cc151836--2013-05-08--Elz
+--6f14e1d89--2013-05-04--Scott D. Sullivan
+11	0	features/other/admin_tasks.feature
+
+--486cc7232--2013-01-04--Scott D. Sullivan
+2	0	app/models/admin_setting.rb
+
+--b3923a700--2013-05-04--Scott D. Sullivan
+2	2	app/views/user_mailer/invitation_to_claim.html.erb
+2	2	app/views/user_mailer/invitation_to_claim.text.erb
+
+--da229d37a--2013-05-04--Scott D. Sullivan
+2	2	app/views/user_mailer/claim_notification.html.erb
+2	2	app/views/user_mailer/claim_notification.text.erb
+
+--e8da1039b--2013-05-01--Scott D. Sullivan
+11	0	features/other/autocomplete.feature
+
+--63bb71822--2013-03-09--Scott D. Sullivan
+1	1	app/controllers/autocomplete_controller.rb
+
+--10b56b881--2013-05-01--Scott D. Sullivan
+9	0	features/challenges/challenge_promptmeme.feature
+
+--7efa8dac1--2013-02-16--Scott D. Sullivan
+0	1	app/views/prompts/_prompt_form.html.erb
+
+--8c598bffb--2013-02-16--Scott D. Sullivan
+1	1	app/controllers/challenge_signups_controller.rb
+2	1	app/views/prompts/_prompt_form.html.erb
+
+--2a4f19a8f--2013-04-24--sarken
+43	61	app/views/home/index.html.erb
+0	20	public/javascripts/jquery.tweet/LICENSE.txt
+0	62	public/javascripts/jquery.tweet/accounts.js
+0	1	public/javascripts/jquery.tweet/accounts.min.js
+0	259	public/javascripts/jquery.tweet/jquery.tweet.js
+0	1	public/javascripts/jquery.tweet/jquery.tweet.min.js
+0	3	public/maintenance.html
+1	35	public/stylesheets/site/2.0/16-zone-system.css
+
+--689d7ca20--2013-04-21--Elz
+--535af6bb1--2013-04-21--Cristina
+5	0	app/controllers/home_controller.rb
+22	0	app/views/home/diversity_statement.html.erb
+1	0	app/views/layouts/_footer.html.erb
+1	0	config/routes.rb
+
+--587f989b7--2013-04-14--Ariana
+--7030795c3--2012-08-05--Ariana
+0	8	db/migrate/20120522091841_rename_font_size.rb
+
+--24aeb9236--2012-06-01--Ariana
+18	21	app/views/preferences/index.html.erb
+16	0	public/help/collection-preferences.html
+15	0	public/help/comment-preferences.html
+24	0	public/help/display-preferences.html
+13	0	public/help/misc-preferences.html
+28	0	public/help/privacy-preferences.html
+12	0	public/help/statistics-preferences.html
+
+--57cd7cc2a--2012-06-01--Ariana
+8	0	db/migrate/20120522091841_rename_font_size.rb
+
+--d872b7e32--2013-04-14--Scott D. Sullivan
+2	0	README.md
+
+--d56cf4c70--2013-04-12--Scott D. Sullivan
+36	0	.travis.yml
+5	0	config/database.travis.yml
+19	16	config/initializers/gem-plugin_config/redis.rb
+18	12	config/initializers/gem-plugin_config/resque.rb
+1	0	config/redis.travis.example
+
+--70ab6ad1d--2013-04-06--sarken
+1	1	public/javascripts/application.js
+
+--90618bc0a--2013-04-06--sarken
+1	1	app/views/bookmarks/_bookmark_owner_navigation.html.erb
+1	1	app/views/works/_work_header_navigation.html.erb
+1	1	public/javascripts/application.js
+
+--8d12bb6ec--2013-04-06--sarken
+1	7	app/views/bookmarks/_bookmark_owner_navigation.html.erb
+3	9	app/views/works/_work_header_navigation.html.erb
+3	0	public/javascripts/application.js
+
+--112bb3981--2013-03-30--sarken
+1	1	public/stylesheets/site/2.0/09-roles-states.css
+1	1	public/stylesheets/site/2.0/10-types-groups.css
+
+--692579a37--2013-03-26--sarken
+1	1	app/views/admin/settings/index.html.erb
+
+--8cfc5484e--2013-03-07--sarken
+1	1	app/controllers/fandoms_controller.rb
+1	1	app/views/fandoms/unassigned.html.erb
+
+--d878c9341--2013-03-07--sarken
+0	8	app/views/fandoms/unassigned.html.erb
+
+--af8061b89--2013-03-07--sarken
+1	1	app/controllers/fandoms_controller.rb
+5	3	app/views/fandoms/unassigned.html.erb
+
+--9d3fb2f48--2013-03-06--sarken
+1	1	app/helpers/application_helper.rb
+
+--0c4e288fa--2013-03-06--sarken
+12	9	app/views/fandoms/unassigned.html.erb
+
+--e64df7cd4--2013-03-05--tuff_ghost
+5	4	app/controllers/works_controller.rb
+17	7	app/views/works/_adult.html.erb
+
+--f706df891--2013-03-03--James Beal
+162	0	public/javascripts/jquery.timeago.js
+36	0	public/status/24_hour.html
+36	0	public/status/3_hour.html
+75	0	public/status/index.html
+55	0	public/status/simple_status.html
+
+--b75fa76b1--2013-02-28--Scott D. Sullivan
+6	2	app/views/owned_tag_sets/index.html.erb
+
+--ce8f0bc39--2013-02-22--Lalith Vipulananthan
+26	26	app/controllers/works_controller.rb
+
+--d7202be59--2013-02-14--sarken
+1	1	public/help/work-search-results-help.html
+
+--4838d82bd--2013-01-06--Ariana
+1	4	app/views/preferences/index.html.erb
+0	11	public/help/disable-share-buttons.html
+
+--159593971--2013-01-04--sarken
+3	3	app/controllers/works_controller.rb
+
+--93f00d7ff--2013-01-03--tuff_ghost
+11	6	app/models/work_skin.rb
+28	31	lib/css_cleaner.rb
+
+--046ef85e7--2012-11-23--tuff_ghost
+6	0	lib/css_cleaner.rb
+4	2	public/stylesheets/site/2.0/21-userstuff.css
+
+--2cbb1a493--2012-12-17--Scott D. Sullivan
+12	12	app/views/home/tos_faq.html.erb
+
+--1efec8786--2012-12-17--Scott D. Sullivan
+1	1	app/views/home/tos_faq.html.erb
+
+--d5fdef2d5--2012-12-17--Scott D. Sullivan
+83	83	app/views/home/_tos.html.erb
+77	40	app/views/home/tos_faq.html.erb
+
+--40ff22cdc--2012-12-09--look_closer
+22	21	app/views/chapters/_chapter_form.html.erb
+36	35	app/views/works/_standard_form.html.erb
+
+--3cded1b14--2012-09-16--Rebecca
+1	1	app/controllers/downloads_controller.rb
+
+--52ad71e3f--2012-08-06--Annie Lin
+1	1	app/views/users/_legal.html.erb
+
+--d4feb8347--2012-08-05--Ariana
+0	8	db/migrate/20120522091841_rename_font_size.rb
+
+--5e2c58521--2012-06-01--Ariana
+23	18	app/views/preferences/index.html.erb
+16	0	public/help/collection-preferences.html
+15	0	public/help/comment-preferences.html
+24	0	public/help/display-preferences.html
+13	0	public/help/misc-preferences.html
+28	0	public/help/privacy-preferences.html
+12	0	public/help/statistics-preferences.html
+
+--126b4d1a4--2012-06-01--Ariana
+8	0	db/migrate/20120522091841_rename_font_size.rb

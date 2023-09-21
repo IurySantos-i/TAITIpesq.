@@ -1,0 +1,255 @@
+--c578433045--2013-02-26--David Heath
+--1f4fd02223--2013-02-26--Tekin Suleyman
+1	1	app/controllers/admin/contacts_controller.rb
+1	1	app/controllers/admin/social_media_accounts_controller.rb
+1	1	app/controllers/corporate_information_pages_controller.rb
+
+--97cd42dcd7--2013-02-26--Tekin Suleyman
+3	3	app/controllers/admin/contacts_controller.rb
+5	5	test/functional/admin/contacts_controller_test.rb
+
+--1b0ee30431--2013-02-26--Tekin Suleyman
+2	2	test/functional/admin/corporate_information_pages_controller_test.rb
+
+--511ce11846--2013-02-26--Bradley Wright
+2	0	db/data_migration/20130226114348_migrate_topical_event_urls.rb
+
+--86a64e3bbf--2013-02-26--David Heath
+-	-	app/assets/images/organisation_default_news/originals/office-of-the-advocate-general-for-scotland.jpg
+-	-	app/assets/images/organisation_default_news/s300_office-of-the-advocate-general-for-scotland.jpg
+
+--373522fb8b--2013-02-26--David Heath
+11	0	db/data_migration/20130226111458_ensure_all_detailed_guidance_category_descriptions_end_with_full_stop.rb
+
+--0a414c9f48--2013-02-26--Tekin Suleyman
+6	6	app/controllers/admin/contacts_controller.rb
+8	8	app/controllers/admin/corporate_information_pages_controller.rb
+8	8	app/controllers/admin/social_media_accounts_controller.rb
+8	8	app/controllers/corporate_information_pages_controller.rb
+3	7	test/functional/admin/corporate_information_pages_controller_test.rb
+
+--da4708667d--2013-02-26--Tekin Suleyman
+1	1	app/views/documents/unpublished.html.erb
+3	3	features/step_definitions/unpublishing_published_documents_steps.rb
+
+--9704d9ba5a--2013-02-26--David Heath
+11	0	db/data_migration/20130226105732_add_hmrc_detailed_guidance_category.rb
+
+--f0b65833cb--2013-02-26--Edd Sowden
+--f49f11415d--2013-02-26--Tekin Suleyman
+1	1	test/functional/admin/corporate_information_pages_controller_test.rb
+
+--d1d4640e5f--2013-02-26--Tekin Suleyman
+0	20	app/views/admin/worldwide_organisations/social_media_accounts.html.erb
+
+--0a8d509790--2013-02-26--Bradley Wright
+0	16	db/data_migration/20130225142023_add_detailed_guidance_categories_for_dcms.rb
+
+--3af17aca06--2013-02-26--Tekin Suleyman
+6	2	app/helpers/admin/tabbed_nav_helper.rb
+5	6	app/views/admin/contacts/index.html.erb
+18	19	app/views/admin/corporate_information_pages/index.html.erb
+30	30	app/views/admin/groups/index.html.erb
+2	3	app/views/admin/organisations/about.html.erb
+8	9	app/views/admin/organisations/document_series.html.erb
+23	24	app/views/admin/organisations/documents.html.erb
+14	14	app/views/admin/organisations/people.html.erb
+46	47	app/views/admin/organisations/show.html.erb
+2	3	app/views/admin/social_media_accounts/index.html.erb
+2	3	app/views/admin/worldwide_organisations/offices.html.erb
+19	19	app/views/admin/worldwide_organisations/show.html.erb
+2	4	app/views/admin/worldwide_organisations/social_media_accounts.html.erb
+8	6	test/functional/admin/contacts_controller_test.rb
+3	0	test/functional/admin/social_media_accounts_controller_test.rb
+
+--c8f764e6fd--2013-02-26--Tekin Suleyman
+3	3	app/controllers/admin/contacts_controller.rb
+3	3	app/controllers/admin/social_media_accounts_controller.rb
+
+--d8b6a5c976--2013-02-26--Tekin Suleyman
+1	0	config/routes.rb
+
+--833289b7a4--2013-02-26--Tekin Suleyman
+1	1	db/schema.rb
+
+--18a9e12bff--2013-02-25--Tekin Suleyman
+2	3	app/helpers/admin/organisation_helper.rb
+2	2	app/helpers/admin/tabbed_nav_helper.rb
+2	4	app/helpers/admin/worldwide_organisations_helper.rb
+1	1	app/views/admin/groups/index.html.erb
+1	1	app/views/admin/organisations/about.html.erb
+1	1	app/views/admin/organisations/document_series.html.erb
+1	1	app/views/admin/organisations/documents.html.erb
+1	1	app/views/admin/organisations/people.html.erb
+1	1	app/views/admin/organisations/show.html.erb
+1	1	app/views/admin/worldwide_organisations/offices.html.erb
+1	1	app/views/admin/worldwide_organisations/show.html.erb
+1	1	app/views/admin/worldwide_organisations/social_media_accounts.html.erb
+
+--aa8d73a378--2013-02-25--Tekin Suleyman
+6	0	app/helpers/corporate_information_pages_helper.rb
+2	1	app/helpers/organisation_helper.rb
+5	0	app/models/worldwide_organisation.rb
+2	4	app/views/corporate_information_pages/show.html.erb
+41	0	app/views/worldwide_organisations/_corporate_information.html.erb
+22	0	app/views/worldwide_organisations/_header.html.erb
+5	14	app/views/worldwide_organisations/show.html.erb
+4	2	config/routes.rb
+5	1	features/administering-worldwide-organisations.feature
+19	0	features/step_definitions/corporate_information_page_steps.rb
+1	1	features/step_definitions/worldwide_organisation_steps.rb
+21	0	test/unit/worldwide_organisation_test.rb
+
+--bd23d00699--2013-02-25--Tekin Suleyman
+12	1	app/controllers/admin/organisations_controller.rb
+4	2	app/controllers/corporate_information_pages_controller.rb
+15	0	app/helpers/admin/organisation_helper.rb
+28	0	app/helpers/admin/tabbed_nav_helper.rb
+4	18	app/helpers/admin/worldwide_organisations_helper.rb
+1	1	app/views/admin/contacts/index.html.erb
+1	1	app/views/admin/corporate_information_pages/index.html.erb
+1	1	app/views/admin/groups/_form.html.erb
+46	0	app/views/admin/groups/index.html.erb
+17	0	app/views/admin/organisations/about.html.erb
+25	0	app/views/admin/organisations/document_series.html.erb
+28	6	app/views/admin/organisations/documents.html.erb
+28	0	app/views/admin/organisations/people.html.erb
+49	13	app/views/admin/organisations/show.html.erb
+0	3	app/views/admin/organisations/tabs/_about_us.html.erb
+0	6	app/views/admin/organisations/tabs/_contacts.html.erb
+0	23	app/views/admin/organisations/tabs/_corporate_information_pages.html.erb
+0	46	app/views/admin/organisations/tabs/_details.html.erb
+0	12	app/views/admin/organisations/tabs/_document_series.html.erb
+0	29	app/views/admin/organisations/tabs/_documents.html.erb
+0	33	app/views/admin/organisations/tabs/_groups.html.erb
+0	14	app/views/admin/organisations/tabs/_navigation.html.erb
+0	7	app/views/admin/organisations/tabs/_people.html.erb
+0	8	app/views/admin/organisations/tabs/_social_media_accounts.html.erb
+1	1	app/views/admin/social_media_accounts/index.html.erb
+4	3	config/routes.rb
+1	1	db/migrate/20130221151634_add_polymorphic_columns_to_corporate_information_pages.rb
+1	1	features/administering-corporate-information-pages.feature
+1	0	features/step_definitions/corporate_information_page_steps.rb
+1	0	features/step_definitions/document_series_steps.rb
+1	1	lib/whitehall/exporters/document_mappings.rb
+3	3	test/functional/admin/contacts_controller_test.rb
+1	1	test/functional/admin/corporate_information_pages_controller_test.rb
+15	106	test/functional/admin/organisations_controller_test.rb
+4	4	test/functional/admin/social_media_accounts_controller_test.rb
+2	2	test/functional/corporate_information_pages_controller_test.rb
+
+--df4c9b56aa--2013-02-25--Tekin Suleyman
+13	17	app/controllers/admin/social_media_accounts_controller.rb
+0	12	app/helpers/admin/social_media_accounts_helper.rb
+4	2	app/views/admin/organisations/tabs/_social_media_accounts.html.erb
+7	9	app/views/admin/social_media_accounts/_form.html.erb
+7	0	app/views/admin/social_media_accounts/_social_media_account.html.erb
+0	13	app/views/admin/social_media_accounts/_social_media_account_list.erb
+1	1	app/views/admin/social_media_accounts/edit.html.erb
+21	0	app/views/admin/social_media_accounts/index.html.erb
+2	1	config/routes.rb
+24	12	test/functional/admin/social_media_accounts_controller_test.rb
+
+--e3840e53e4--2013-02-25--Tekin Suleyman
+10	0	test/functional/admin/contacts_controller_test.rb
+
+--0c47f04b46--2013-02-25--Tekin Suleyman
+11	11	app/controllers/admin/contacts_controller.rb
+0	12	app/helpers/admin/contacts_helper.rb
+2	2	app/views/admin/contacts/_contact.html.erb
+2	4	app/views/admin/contacts/_form.html.erb
+1	1	app/views/admin/contacts/edit.html.erb
+9	19	app/views/admin/contacts/index.html.erb
+2	2	app/views/admin/contacts/new.html.erb
+1	0	config/routes.rb
+12	12	test/functional/admin/contacts_controller_test.rb
+
+--5a24a87e44--2013-02-25--Tekin Suleyman
+8	8	test/functional/admin/corporate_information_pages_controller_test.rb
+
+--3d7990c0fb--2013-02-25--Tekin Suleyman
+3	10	app/controllers/admin/contacts_controller.rb
+
+--f69ba75132--2013-02-25--Tekin Suleyman
+9	10	app/controllers/admin/organisations_controller.rb
+
+--7a09c2b94c--2013-02-25--Tekin Suleyman
+2	5	app/controllers/admin/organisations_controller.rb
+
+--9aa57bd4e8--2013-02-25--Tekin Suleyman
+4	0	app/controllers/admin/corporate_information_pages_controller.rb
+2	1	app/helpers/admin/worldwide_organisations_helper.rb
+38	0	app/views/admin/corporate_information_pages/index.html.erb
+10	0	test/functional/admin/corporate_information_pages_controller_test.rb
+
+--4f97d667ab--2013-02-25--Tekin Suleyman
+4	4	app/helpers/admin/worldwide_organisations_helper.rb
+1	1	app/views/admin/worldwide_organisations/offices.html.erb
+1	1	app/views/admin/worldwide_organisations/show.html.erb
+1	1	app/views/admin/worldwide_organisations/social_media_accounts.html.erb
+
+--864fee14ba--2013-02-25--Tekin Suleyman
+7	5	app/controllers/admin/corporate_information_pages_controller.rb
+
+--4c702906c3--2013-02-22--Tekin Suleyman
+5	5	app/controllers/admin/corporate_information_pages_controller.rb
+1	1	app/models/corporate_information_page_type.rb
+1	0	config/routes.rb
+22	11	test/functional/admin/corporate_information_pages_controller_test.rb
+
+--d338d09e2c--2013-02-22--Tekin Suleyman
+5	0	app/models/worldwide_organisation.rb
+8	0	test/unit/worldwide_organisation_test.rb
+
+--54b20c9ed0--2013-02-22--Tekin Suleyman
+3	7	app/controllers/admin/corporate_information_pages_controller.rb
+
+--3be3ef4acc--2013-02-21--Tekin Suleyman
+6	1	app/controllers/admin/corporate_information_pages_controller.rb
+13	1	app/controllers/corporate_information_pages_controller.rb
+2	2	app/models/corporate_information_page.rb
+1	1	app/models/organisation.rb
+1	1	app/views/admin/corporate_information_pages/_form.html.erb
+2	2	app/views/admin/corporate_information_pages/edit.html.erb
+2	2	app/views/admin/corporate_information_pages/new.html.erb
+1	1	config/routes.rb
+9	0	db/migrate/20130221151634_add_polymorphic_columns_to_corporate_information_pages.rb
+3	2	db/schema.rb
+1	1	lib/whitehall/exporters/document_mappings.rb
+2	2	test/factories/{corporate_information_page.rb => corporate_information_pages.rb}
+10	11	test/functional/admin/corporate_information_pages_controller_test.rb
+2	3	test/functional/corporate_information_pages_controller_test.rb
+
+--0b1ca1ec5b--2013-02-25--Matthew Ford
+12	11	app/views/detailed_guides/show.html.erb
+
+--871d9f132c--2013-02-22--Matthew Ford
+2	6	app/assets/stylesheets/frontend/views/_document-series.scss
+23	0	app/views/document_series/_editions_table.html.erb
+16	122	app/views/document_series/show.html.erb
+
+--b7a9073243--2013-02-21--Matthew Ford
+7	1	app/controllers/document_series_controller.rb
+6	0	app/helpers/document_series_helper.rb
+1	0	app/models/case_study.rb
+1	0	app/models/detailed_guide.rb
+20	4	app/models/document_series.rb
+1	0	app/models/news_article.rb
+0	1	app/models/publication.rb
+1	4	app/models/publicationesque.rb
+1	0	app/models/speech.rb
+6	0	app/presenters/announcement_filter_json_presenter.rb
+1	0	app/views/admin/case_studies/_form.html.erb
+1	0	app/views/admin/consultations/_form.html.erb
+2	0	app/views/admin/detailed_guides/_form.html.erb
+1	0	app/views/admin/news_articles/_form.html.erb
+1	0	app/views/admin/speeches/_form.html.erb
+5	0	app/views/announcements/index.html.erb
+11	0	app/views/detailed_guides/show.html.erb
+162	39	app/views/document_series/show.html.erb
+1	0	test/functional/admin/case_studies_controller_test.rb
+1	0	test/functional/admin/consultations_controller_test.rb
+1	0	test/functional/admin/detailed_guides_controller_test.rb
+1	0	test/functional/admin/news_articles_controller_test.rb
+1	0	test/functional/admin/speeches_controller_test.rb
+0	6	test/unit/presenters/publicationesque_presenter_test.rb

@@ -1,0 +1,452 @@
+--600eed816b--2013-02-07--Chris Parsons
+--c2492a3fc4--2013-02-07--Bradley Wright
+--f258b168f4--2013-02-07--Chris Roos
+1	1	app/helpers/admin/sidebar_helper.rb
+1	1	app/models/edition/audit_trail.rb
+1	1	app/views/admin/editions/edit.html.erb
+1	1	app/views/admin/editions/show.html.erb
+48	48	test/unit/edition/audit_trail_test.rb
+
+--73272e6d08--2013-02-07--Chris Roos
+3	3	app/models/edition.rb
+2	2	app/models/edition/audit_trail.rb
+
+--fa7e613e41--2013-02-07--Murray Steele
+0	1	test/unit/edition/validation_test.rb
+
+--670bec8232--2013-02-07--Edd Sowden
+6	1	app/controllers/ministerial_roles_controller.rb
+3	0	test/functional/ministerial_roles_controller_test.rb
+
+--a78b7e60d9--2013-02-07--Murray Steele
+24	6	app/models/edition/organisations.rb
+16	0	test/unit/edition/validation_test.rb
+
+--eb30ff4434--2013-02-07--Murray Steele
+14	0	app/models/edition/organisations.rb
+15	0	test/unit/edition/organisations_test.rb
+13	0	test/unit/edition/validation_test.rb
+
+--6c0861d6fa--2013-02-07--Edd Sowden
+1	0	app/assets/stylesheets/frontend/base.scss
+7	0	app/assets/stylesheets/frontend/views/_classifications.scss
+1	1	app/views/classifications/_list.html.erb
+8	4	app/views/classifications/index.html.erb
+
+--aa09a5f101--2013-02-07--David Heath
+14	0	db/migrate/20130207115522_remove_country_from_contacts_with_blank_address.rb
+1	1	db/schema.rb
+
+--038070c302--2013-02-07--David Heath
+4	1	app/views/organisations/show.html.erb
+
+--f6f0565982--2013-02-07--Chris Roos
+--c3ce34fae7--2013-02-07--Chris Roos
+1	11	app/helpers/admin/audit_trail_helper.rb
+2	15	app/models/edition/audit_trail.rb
+9	9	test/unit/edition/audit_trail_test.rb
+1	1	test/unit/edition/scheduled_publishing_test.rb
+
+--f7ed43c148--2013-02-07--Chris Roos
+0	4	app/helpers/admin/audit_trail_helper.rb
+
+--61356ce45a--2013-02-07--Chris Roos
+0	2	app/models/edition/audit_trail.rb
+
+--c520873a8f--2013-02-07--Chris Roos
+1	1	app/helpers/admin/audit_trail_helper.rb
+2	2	app/models/edition/audit_trail.rb
+18	18	test/unit/edition/audit_trail_test.rb
+1	1	test/unit/edition/scheduled_publishing_test.rb
+
+--e401164108--2013-02-07--Edd Sowden
+1	1	app/views/documents/_filter_selections.mustache
+
+--c61725cc5d--2013-02-07--Edd Sowden
+0	414	app/assets/stylesheets/frontend/views/_worldwide_offices.scss
+
+--540987c76d--2013-02-07--Murray Steele
+--ba1e6ba852--2013-02-07--Edd Sowden
+5	5	app/views/classifications/index.html.erb
+
+--bd35dda081--2013-02-07--Tom Ward
+1	1	app/views/admin/world_locations/edit.html.erb
+1	1	app/views/world_locations/show.html.erb
+5	0	db/migrate/20130207090657_rename_world_location_description_to_mission_statement.rb
+2	2	db/schema.rb
+3	3	test/functional/admin/world_locations_controller_test.rb
+8	8	test/functional/world_locations_controller_test.rb
+1	1	test/unit/world_location_test.rb
+
+--943d764b81--2013-02-05--Chris Roos
+8	3	app/models/publication.rb
+
+--dc424135c8--2013-02-05--russell thorn
+2	2	app/views/classifications/index.html.erb
+
+--e0c186eeaf--2013-02-05--Bradley Wright
+--d8e48c42ed--2013-02-05--russell thorn
+17	17	app/views/classifications/index.html.erb
+
+--3557730538--2013-02-05--Bradley Wright
+--8c19f1a1ce--2013-02-05--Bradley Wright
+1	1	app/helpers/application_helper.rb
+
+--88c3b858ba--2013-02-05--Edd Sowden
+8	2	app/assets/javascripts/application/document_filter.js
+1	1	app/helpers/application_helper.rb
+5	1	app/views/documents/_filter_results.html.erb
+4	0	app/views/documents/_filter_selections.mustache
+2	0	config/initializers/formats.rb
+14	2	test/javascripts/unit/document_filter_test.js
+
+--3497128bf3--2013-02-05--Bradley Wright
+--27b500875a--2013-02-05--David Heath
+1	1	app/views/ministerial_roles/index.html.erb
+
+--0ae4c3361b--2013-02-05--David Heath
+2	3	db/schema.rb
+
+--4a1c637365--2013-02-05--David Heath
+25	0	app/helpers/contacts_helper.rb
+18	1	app/models/contact.rb
+4	0	app/models/world_location.rb
+10	10	app/views/admin/contacts/_contact_list.html.erb
+17	3	app/views/admin/contacts/_form.html.erb
+1	0	app/views/admin/contacts/edit.html.erb
+3	1	app/views/admin/contacts/new.html.erb
+0	0	app/views/admin/contacts/show.html.erb
+2	0	app/views/admin/social_media_accounts/edit.html.erb
+1	0	app/views/admin/social_media_accounts/new.html.erb
+0	2	app/views/admin/worldwide_offices/_form.html.erb
+14	19	app/views/organisations/show.html.erb
+3	7	app/views/worldwide_offices/show.html.erb
+1	0	db/migrate/20130111164523_make_contacts_polymorphic.rb
+32	0	db/migrate/20130123162802_additional_contacts_fields.rb
+13	0	db/pending_migration_cleanups/20130123164907_cleanup_additional_contact_fields.rb
+5	0	db/pending_migration_cleanups/20130205115223_cleanup_contact_organisation_association_after_making_polymorphic.rb
+7	0	db/pending_migration_cleanups/README.txt
+9	0	db/schema.rb
+5	4	features/step_definitions/organisation_steps.rb
+7	4	features/step_definitions/worldwide_office_steps.rb
+8	4	features/support/env.rb
+7	8	features/worldwide-offices.feature
+6	4	lib/whitehall/form_builder.rb
+1	1	test/factories/contacts.rb
+8	8	test/functional/admin/contacts_controller_test.rb
+1	1	test/support/admin_edition_attachable_controller_test_helpers.rb
+3	3	test/support/admin_edition_controller_test_helpers.rb
+50	1	test/unit/contact_test.rb
+
+--4ae4f2a60b--2013-02-05--russell thorn
+11	0	app/assets/stylesheets/frontend/views/_topical-events.scss
+12	7	app/views/classifications/index.html.erb
+7	2	app/views/topical_events/show.html.erb
+
+--be33ad2a4c--2013-02-05--Murray Steele
+2	0	app/helpers/consultations_helper.rb
+7	7	app/models/consultation.rb
+13	0	features/importing-new-editions.feature
+25	2	features/step_definitions/import_steps.rb
+43	8	test/unit/consultation_test.rb
+8	0	test/unit/uploader/consultation_row_test.rb
+
+--737718af9a--2013-02-05--Murray Steele
+3	2	app/models/speech.rb
+16	1	features/importing-new-editions.feature
+18	1	features/step_definitions/import_steps.rb
+6	1	lib/whitehall/uploader/speech_row.rb
+14	5	test/unit/speech_test.rb
+36	7	test/unit/uploader/speech_row_test.rb
+
+--62e00bea19--2013-02-05--Murray Steele
+1	0	app/models/news_article.rb
+11	1	features/importing-new-editions.feature
+17	1	features/step_definitions/import_steps.rb
+1	0	features/support/document_helper.rb
+1	0	test/factories/news_articles.rb
+10	0	test/unit/news_article_test.rb
+5	0	test/unit/uploader/news_article_row_test.rb
+
+--2b9ed78614--2013-02-05--Murray Steele
+8	0	app/helpers/admin/editions_helper.rb
+2	2	app/models/publication.rb
+1	1	app/views/admin/publications/_edition.html.erb
+12	3	features/importing-new-editions.feature
+16	0	features/step_definitions/import_steps.rb
+15	5	test/unit/publication_test.rb
+10	0	test/unit/uploader/publication_row_test.rb
+
+--f0447d5093--2013-02-05--David Heath
+14	11	test/functional/organisations_controller_test.rb
+1	17	test/support/model_helpers.rb
+0	34	test/unit/models/contacts_test.rb
+25	2	test/unit/organisation_test.rb
+0	2	test/unit/worldwide_office_test.rb
+
+--c08981033c--2013-02-05--David Heath
+1	1	app/helpers/application_helper.rb
+2	0	test/unit/helpers/application_helper_test.rb
+
+--58a0e373a8--2013-01-23--David Heath
+1	1	app/controllers/admin/worldwide_offices_controller.rb
+2	1	app/helpers/admin/worldwide_offices_helper.rb
+1	1	app/models/organisation.rb
+1	2	app/models/worldwide_office.rb
+1	1	app/views/admin/social_media_accounts/_social_media_account_list.erb
+22	0	app/views/admin/worldwide_offices/social_media_accounts.html.erb
+1	0	config/routes.rb
+1	2	test/functional/admin/organisations_controller_test.rb
+
+--1838cd6b4c--2013-01-23--David Heath
+3	1	app/helpers/admin/definition_list_helper.rb
+2	2	app/views/admin/contacts/_contact_list.html.erb
+0	2	app/views/admin/organisations/_form.html.erb
+2	0	app/views/admin/organisations/show.html.erb
+1	1	app/views/admin/organisations/tabs/_contacts.html.erb
+6	0	app/views/admin/organisations/tabs/_social_media_accounts.html.erb
+0	12	app/views/admin/shared/_social_media_accounts.html.erb
+6	12	app/views/admin/social_media_accounts/_social_media_account_list.erb
+0	8	lib/whitehall/models/social_media.rb
+
+--524eea9c73--2013-01-23--David Heath
+62	0	app/controllers/admin/social_media_accounts_controller.rb
+12	0	app/helpers/admin/social_media_accounts_helper.rb
+16	0	app/views/admin/social_media_accounts/_form.html.erb
+19	0	app/views/admin/social_media_accounts/_social_media_account_list.erb
+4	0	app/views/admin/social_media_accounts/edit.html.erb
+3	0	app/views/admin/social_media_accounts/new.html.erb
+1	0	config/routes.rb
+40	0	test/functional/admin/social_media_accounts_controller_test.rb
+
+--22f9c49346--2013-01-23--David Heath
+8	36	app/controllers/admin/worldwide_offices_controller.rb
+9	3	test/functional/admin/worldwide_offices_controller_test.rb
+
+--554fbaa9ed--2013-01-22--David Heath
+67	0	test/functional/admin/contacts_controller_test.rb
+
+--6727f1c8c8--2013-01-22--David Heath
+3	3	app/controllers/admin/worldwide_offices_controller.rb
+4	0	app/helpers/admin/url_helper.rb
+0	3	app/views/admin/worldwide_offices/show.html.erb
+1	0	app/views/layouts/admin.html.erb
+
+--72839c816e--2013-01-22--David Heath
+11	0	app/controllers/admin/contacts_controller.rb
+1	1	app/views/admin/contacts/_form.html.erb
+
+--398651e498--2013-01-22--David Heath
+0	11	app/views/admin/shared/_contacts.html.erb
+0	16	app/views/admin/shared/_contacts_form.html.erb
+
+--fdf4f798e2--2013-01-22--David Heath
+15	4	app/controllers/admin/contacts_controller.rb
+5	1	app/controllers/admin/worldwide_offices_controller.rb
+12	0	app/helpers/admin/contacts_helper.rb
+16	0	app/helpers/admin/icon_helper.rb
+25	0	app/helpers/admin/worldwide_offices_helper.rb
+1	1	app/models/worldwide_office.rb
+2	1	app/views/admin/contacts/_contact_list.html.erb
+1	1	app/views/admin/contacts/_form.html.erb
+1	1	app/views/admin/organisations/tabs/_contacts.html.erb
+0	1	app/views/admin/worldwide_offices/_form.html.erb
+22	0	app/views/admin/worldwide_offices/contacts.html.erb
+1	2	app/views/admin/worldwide_offices/index.html.erb
+24	0	app/views/admin/worldwide_offices/show.html.erb
+8	10	features/step_definitions/worldwide_office_steps.rb
+
+--5abf5b6b39--2013-01-21--David Heath
+29	2	app/controllers/admin/contacts_controller.rb
+1	2	app/views/admin/contacts/_contact_list.html.erb
+3	1	app/views/admin/contacts/_form.html.erb
+2	2	app/views/admin/contacts/edit.html.erb
+1	1	app/views/admin/contacts/new.html.erb
+3	0	app/views/admin/organisations/tabs/_contacts.html.erb
+5	0	config/routes.rb
+9	0	features/administering-organisations.feature
+29	0	features/step_definitions/organisation_steps.rb
+
+--7fccbc6eec--2013-01-18--David Heath
+21	16	app/assets/javascripts/admin/organisation_contact_form.js
+24	0	app/controllers/admin/contacts_controller.rb
+1	8	app/controllers/admin/organisations_controller.rb
+26	0	app/helpers/admin/definition_list_helper.rb
+2	1	app/models/organisation.rb
+20	0	app/views/admin/contacts/_contact_list.html.erb
+21	0	app/views/admin/contacts/_form.html.erb
+4	0	app/views/admin/contacts/edit.html.erb
+25	0	app/views/admin/contacts/index.html.erb
+3	0	app/views/admin/contacts/new.html.erb
+0	0	app/views/admin/contacts/show.html.erb
+0	1	app/views/admin/organisations/_form.html.erb
+0	3	app/views/admin/organisations/show.html.erb
+1	12	app/views/admin/organisations/tabs/_contacts.html.erb
+4	0	app/views/admin/organisations/tabs/_details.html.erb
+1	1	config/routes.rb
+0	23	lib/whitehall/models/contacts.rb
+0	1	test/functional/admin/organisations_controller_test.rb
+
+--6bcdc0bacf--2013-01-18--David Heath
+1	0	app/assets/stylesheets/admin/base.scss
+3	0	app/assets/stylesheets/admin/lists.scss
+
+--f5954bea67--2013-01-18--David Heath
+0	15	app/assets/stylesheets/admin/forms.scss
+1	1	app/views/admin/fatality_notices/_form.html.erb
+1	1	app/views/admin/topical_events/_logo.html.erb
+
+--d2e0ef4179--2013-01-18--David Heath
+164	0	db/migrate/20130117162714_add_iso2_to_world_locations.csv
+24	0	db/migrate/20130117162714_add_iso2_to_world_locations.rb
+11	0	db/migrate/20130117162735_add_united_kingdom_as_world_location.rb
+3	0	db/schema.rb
+
+--c8c83cb4e6--2013-01-16--David Heath
+25	1	features/step_definitions/worldwide_office_steps.rb
+9	1	features/worldwide-offices.feature
+
+--45d39e8c32--2013-01-16--David Heath
+3	0	app/models/worldwide_office.rb
+4	0	app/models/worldwide_office_world_location.rb
+11	0	db/migrate/20130116175347_associate_worldwide_offices_with_world_locations.rb
+10	0	db/schema.rb
+11	1	test/unit/worldwide_office_test.rb
+
+--991ceacd35--2013-01-16--David Heath
+0	1	features/step_definitions/worldwide_office_steps.rb
+2	2	features/worldwide-offices.feature
+
+--2defcb5b53--2013-01-16--David Heath
+2	2	features/step_definitions/worldwide_office_steps.rb
+
+--bc819735c8--2013-01-16--David Heath
+1	1	db/migrate/20130109163112_create_worldwide_offices.rb
+1	1	db/schema.rb
+
+--081295bf25--2013-01-11--Chris Parsons
+3	2	app/assets/stylesheets/frontend/views/_worldwide_offices.scss
+10	3	app/controllers/admin/worldwide_offices_controller.rb
+39	3	app/views/worldwide_offices/show.html.erb
+20	0	features/step_definitions/worldwide_office_steps.rb
+5	1	features/worldwide-offices.feature
+
+--f92c5df5b0--2013-01-11--Chris Parsons
+2	2	app/models/contact.rb
+1	0	app/models/worldwide_office.rb
+12	0	db/migrate/20130111164523_make_contacts_polymorphic.rb
+2	0	db/schema.rb
+1	1	lib/whitehall/models/contacts.rb
+2	94	test/functional/admin/organisations_controller_test.rb
+1	0	test/functional/admin/worldwide_offices_controller_test.rb
+64	0	test/support/admin_controller_test_helpers.rb
+8	0	test/support/model_helpers.rb
+45	0	test/unit/models/contacts_test.rb
+1	42	test/unit/organisation_test.rb
+1	0	test/unit/worldwide_office_test.rb
+
+--6855cf5ee2--2013-01-11--Chris Parsons
+1	17	app/models/organisation.rb
+23	0	lib/whitehall/models/contacts.rb
+
+--cb81fc7b9a--2013-01-11--Chris Parsons
+10	18	app/controllers/admin/organisations_controller.rb
+1	11	app/views/admin/organisations/_form.html.erb
+11	0	app/views/admin/shared/_contacts.html.erb
+0	0	app/views/admin/{organisations => shared}/_contacts_form.html.erb
+1	0	app/views/admin/worldwide_offices/_form.html.erb
+15	0	lib/whitehall/controllers/contacts.rb
+
+--4bef8cca61--2013-01-11--Chris Parsons
+0	1	features/worldwide-offices.feature
+
+--dccf14069d--2013-01-11--Chris Parsons
+1	1	app/views/topical_events/show.html.erb
+
+--8b0c2f8aab--2013-01-11--Chris Parsons
+8	8	app/controllers/admin/organisations_controller.rb
+27	4	app/controllers/admin/worldwide_offices_controller.rb
+6	1	app/models/worldwide_office.rb
+4	1	app/views/admin/worldwide_offices/_form.html.erb
+13	4	app/views/worldwide_offices/_header.html.erb
+3	0	features/step_definitions/social_media_steps.rb
+15	1	features/step_definitions/worldwide_office_steps.rb
+10	1	features/worldwide-offices.feature
+1	0	test/functional/admin/worldwide_offices_controller_test.rb
+1	0	test/unit/worldwide_office_test.rb
+
+--cc31dbe192--2013-01-11--Chris Parsons
+28	9	test/support/{document_behaviour.rb => model_helpers.rb}
+4	7	test/test_helper.rb
+1	1	test/unit/case_study_test.rb
+1	1	test/unit/consultation_test.rb
+1	1	test/unit/detailed_guide_test.rb
+1	1	test/unit/fatality_notice_test.rb
+1	1	test/unit/international_priority_test.rb
+10	0	test/unit/models/social_media_test.rb
+1	1	test/unit/news_article_test.rb
+1	7	test/unit/organisation_test.rb
+1	1	test/unit/policy_test.rb
+1	1	test/unit/publication_test.rb
+1	1	test/unit/speech_test.rb
+2	2	test/unit/statistical_data_set_test.rb
+
+--7b5b3d1846--2013-01-11--Chris Parsons
+1	0	test/factories/organisations.rb
+1	135	test/functional/admin/organisations_controller_test.rb
+112	0	test/support/admin_controller_test_helpers.rb
+3	3	test/support/admin_edition_attachable_controller_test_helpers.rb
+15	15	test/support/admin_edition_controller_test_helpers.rb
+2	2	test/support/admin_edition_world_locations_behaviour.rb
+2	1	test/test_helper.rb
+
+--2dec1e669b--2013-01-11--Chris Parsons
+1	2	app/models/organisation.rb
+3	12	app/views/admin/organisations/_form.html.erb
+12	0	app/views/admin/shared/_social_media_accounts.html.erb
+8	0	lib/whitehall/models/social_media.rb
+
+--96a30f9479--2013-01-11--Chris Parsons
+13	20	app/controllers/admin/organisations_controller.rb
+17	0	lib/whitehall/controllers/social_media.rb
+
+--d24001d657--2013-01-10--Chris Parsons
+2	0	app/models/worldwide_office.rb
+6	0	test/unit/worldwide_office_test.rb
+
+--1de280f0a3--2013-01-10--Chris Parsons
+1	0	app/assets/stylesheets/frontend/base.scss
+415	0	app/assets/stylesheets/frontend/views/_worldwide_offices.scss
+33	0	app/controllers/admin/worldwide_offices_controller.rb
+10	0	app/controllers/worldwide_offices_controller.rb
+6	0	app/models/worldwide_office.rb
+10	0	app/views/admin/worldwide_offices/_form.html.erb
+18	0	app/views/admin/worldwide_offices/_sidebar.html.erb
+11	0	app/views/admin/worldwide_offices/edit.html.erb
+32	0	app/views/admin/worldwide_offices/index.html.erb
+12	0	app/views/admin/worldwide_offices/new.html.erb
+7	0	app/views/worldwide_offices/_header.html.erb
+31	0	app/views/worldwide_offices/show.html.erb
+3	0	config/routes.rb
+16	0	db/migrate/20130109163112_create_worldwide_offices.rb
+13	0	db/schema.rb
+39	0	features/step_definitions/worldwide_office_steps.rb
+6	3	features/worldwide-offices.feature
+7	0	test/factories/worldwide_offices.rb
+59	0	test/functional/admin/worldwide_offices_controller_test.rb
+14	0	test/functional/worldwide_offices_controller_test.rb
+10	0	test/unit/worldwide_office_test.rb
+
+--5724b54f3a--2013-01-10--Chris Parsons
+17	0	app/helpers/logo_helper.rb
+0	16	app/helpers/organisation_helper.rb
+1	1	app/views/detailed_guides/show.html.erb
+2	2	app/views/organisations/_header.html.erb
+2	2	app/views/organisations/_organisations_logo_list.html.erb
+1	1	app/views/organisations/index.html.erb
+1	1	app/views/topical_events/show.html.erb
+8	0	test/unit/helpers/logo_helper_test.rb
+0	9	test/unit/helpers/organisation_helper_test.rb
+
+--43e612653e--2013-01-09--Chris Parsons
+26	0	features/worldwide-offices.feature

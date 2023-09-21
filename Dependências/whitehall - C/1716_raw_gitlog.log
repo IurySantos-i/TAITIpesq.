@@ -1,0 +1,532 @@
+--d2d0ee3694--2015-07-02--Paul Hayes
+--b9daaa42cb--2015-07-01--Matt Bostock
+--5f551c4215--2015-06-30--Alex Tomlins
+5	4	app/uploaders/attachment_uploader.rb
+
+--25295eeee3--2015-06-29--Paul Hayes
+8	8	app/assets/stylesheets/vendor/chosen-bootstrap.scss
+
+--e1830480bc--2015-06-26--Paul Hayes
+15	11	app/views/admin/featured_policies/_feature_list.html.erb
+2	2	app/views/admin/featured_policies/_policy_list.html.erb
+9	15	app/views/admin/featured_policies/index.html.erb
+
+--1519190825--2015-06-25--Paul Hayes
+4	0	app/assets/stylesheets/admin/govspeak_help.scss
+
+--7106b8252b--2015-06-23--Paul Hayes
+1	1	app/assets/stylesheets/admin.scss
+474	0	app/assets/stylesheets/vendor/chosen-bootstrap.scss
+0	430	app/assets/stylesheets/vendor/chosen.scss
+1	1	app/views/admin/classifications/_form.html.erb
+1	1	app/views/admin/contacts/_contact_type_details_form.html.erb
+1	1	app/views/admin/contacts/_form_fields.html.erb
+1	1	app/views/admin/corporate_information_pages/_standard_fields.html.erb
+3	3	app/views/admin/detailed_guides/_form.html.erb
+1	1	app/views/admin/editions/_appointment_fields.html.erb
+1	1	app/views/admin/editions/_document_collection_fields.html.erb
+5	5	app/views/admin/editions/_filter_options.html.erb
+1	1	app/views/admin/editions/_inline_attachments_info.html.erb
+1	1	app/views/admin/editions/_operational_field_fields.html.erb
+35	26	app/views/admin/editions/_organisation_fields.html.erb
+1	1	app/views/admin/editions/_policy_group_fields.html.erb
+1	1	app/views/admin/editions/_publication_type_fields.html.erb
+2	2	app/views/admin/editions/_specialist_sector_fields.html.erb
+1	1	app/views/admin/editions/_speed_tagging.html.erb
+1	1	app/views/admin/editions/_statistical_data_set_fields.html.erb
+1	1	app/views/admin/editions/_topic_fields.html.erb
+1	1	app/views/admin/editions/_topical_event_fields.html.erb
+1	1	app/views/admin/editions/_world_location_fields.html.erb
+1	1	app/views/admin/editions/_worldwide_organisation_fields.html.erb
+1	1	app/views/admin/editions/_worldwide_priority_fields.html.erb
+1	1	app/views/admin/groups/_form.html.erb
+2	2	app/views/admin/historical_accounts/_form.html.erb
+1	1	app/views/admin/imports/new.html.erb
+1	1	app/views/admin/news_articles/_news_article_type_fields.html.erb
+9	9	app/views/admin/organisations/_form.html.erb
+1	1	app/views/admin/role_appointments/_form.html.erb
+2	2	app/views/admin/roles/_form.html.erb
+1	1	app/views/admin/shared/_policy_fields.html.erb
+1	1	app/views/admin/social_media_accounts/_form.html.erb
+1	1	app/views/admin/speeches/_delivered_by_fields.html.erb
+1	1	app/views/admin/speeches/_speech_type_fields.html.erb
+2	2	app/views/admin/statistics_announcements/_form.html.erb
+1	1	app/views/admin/topical_events/_custom_form_fields.html.erb
+1	1	app/views/admin/users/edit.html.erb
+1	1	app/views/admin/worldwide_offices/_form.html.erb
+2	2	app/views/admin/worldwide_organisations/_form.html.erb
+
+--b443711495--2015-06-22--Paul Hayes
+2	6	app/assets/stylesheets/admin/govspeak_help.scss
+
+--319ea97948--2015-06-22--Paul Hayes
+5	15	app/assets/stylesheets/admin/document.scss
+5	3	app/views/admin/attachments/_hoc_reference_fields.html.erb
+2	2	app/views/admin/attachments/_reference_fields.html.erb
+4	3	app/views/admin/bulk_uploads/new.html.erb
+
+--52de908994--2015-06-22--Paul Hayes
+1	1	app/assets/javascripts/admin/views/editions/_form.js
+7	5	app/views/admin/editions/_first_published_at.html.erb
+
+--8c7108724f--2015-06-22--Paul Hayes
+1	1	app/views/admin/editions/_first_published_at.html.erb
+1	1	app/views/admin/editions/_history_state.html.erb
+1	1	app/views/admin/statistics_announcements/show.html.erb
+
+--d6a1cdee9e--2015-06-22--Paul Hayes
+2	2	app/views/admin/imports/error_list.html.erb
+4	2	app/views/admin/imports/index.html.erb
+2	2	app/views/admin/imports/new.html.erb
+
+--912e487293--2015-06-22--Paul Hayes
+7	11	app/assets/stylesheets/admin/views/_document_collection_groups.scss
+1	1	app/views/admin/document_collection_groups/_collection_document.html.erb
+34	31	app/views/admin/document_collection_groups/index.html.erb
+1	1	test/functional/admin/document_collection_groups_controller_test.rb
+
+--432e098c3e--2015-06-19--Paul Hayes
+1	1	app/assets/stylesheets/admin/govspeak_help.scss
+1	1	app/assets/stylesheets/admin/helpers/bootstrap/_button_dropdown.scss
+1	1	app/assets/stylesheets/admin/organisation.scss
+1	1	app/assets/stylesheets/admin/sortable.scss
+
+--f97d244aaf--2015-06-19--Paul Hayes
+1	1	app/views/admin/editions/_speed_tagging.html.erb
+
+--28e25af2ce--2015-06-19--Paul Hayes
+2	2	app/views/admin/imports/index.html.erb
+
+--7477d960df--2015-06-19--Paul Hayes
+3	3	app/assets/javascripts/admin/multiple_file_upload.js
+1	1	app/views/admin/editions/_image_fields.html.erb
+2	2	test/javascripts/unit/multiple_file_upload_test.js
+
+--7c16e23e83--2015-06-19--Paul Hayes
+2	2	features/governments.feature
+
+--6eab5630c2--2015-06-17--Paul Hayes
+1	1	app/views/admin/fatality_notices/_form.html.erb
+3	36	lib/whitehall/form_builder.rb
+17	47	test/unit/whitehall/form_builder_test.rb
+
+--30de7284f3--2015-06-16--Paul Hayes
+1	1	app/assets/stylesheets/admin/helpers/_document_finder.scss
+2	2	app/helpers/admin/edition_actions_helper.rb
+2	2	app/views/admin/about_pages/show.html.erb
+1	1	app/views/admin/classifications/show.html.erb
+4	4	app/views/admin/contacts/_contact.html.erb
+1	1	app/views/admin/contacts/index.html.erb
+3	3	app/views/admin/document_collection_groups/index.html.erb
+2	2	app/views/admin/editions/_edition_view_edit_buttons.html.erb
+2	2	app/views/admin/editions/_show_metadata.html.erb
+1	1	app/views/admin/feature_lists/_current_feature_list.html.erb
+1	1	app/views/admin/find_in_admin_bookmarklet/ie.html.erb
+1	1	app/views/admin/find_in_admin_bookmarklet/other.html.erb
+1	1	app/views/admin/governments/prepare_to_close.html.erb
+1	1	app/views/admin/imports/index.html.erb
+1	1	app/views/admin/imports/show.html.erb
+1	1	app/views/admin/organisations/show.html.erb
+2	2	app/views/admin/people/show.html.erb
+1	1	app/views/admin/promotional_features/index.html.erb
+1	1	app/views/admin/promotional_features/show.html.erb
+2	2	app/views/admin/shared/bootstrap/_button_dropdown.html.erb
+1	1	app/views/admin/social_media_accounts/_social_media_account.html.erb
+1	1	app/views/admin/social_media_accounts/index.html.erb
+2	2	app/views/admin/statistics_announcements/cancel.html.erb
+2	2	app/views/admin/statistics_announcements/cancel_reason.html.erb
+1	1	app/views/admin/statistics_announcements/index.html.erb
+1	1	app/views/admin/take_part_pages/index.html.erb
+1	1	app/views/admin/world_locations/show.html.erb
+1	1	app/views/admin/worldwide_offices/index.html.erb
+1	1	app/views/admin/worldwide_organisations/show.html.erb
+3	3	lib/whitehall/form_builder.rb
+
+--ce68ceeb30--2015-06-16--Paul Hayes
+1	1	app/views/admin/document_collection_groups/index.html.erb
+
+--8c65820d8c--2015-06-16--Paul Hayes
+1	1	app/views/admin/editions/_show_metadata.html.erb
+1	1	app/views/admin/editions/diff.html.erb
+1	1	app/views/admin/editions/edit.html.erb
+1	1	app/views/admin/imports/index.html.erb
+2	2	app/views/admin/organisations/_organisation_editions.html.erb
+
+--e8043547c6--2015-06-16--Paul Hayes
+0	11	app/assets/stylesheets/admin/document.scss
+0	3	app/assets/stylesheets/admin/views/_editions-index.scss
+5	6	app/views/admin/about_pages/_form.html.erb
+2	2	app/views/admin/attachments/index.html.erb
+2	2	app/views/admin/bulk_uploads/new.html.erb
+2	2	app/views/admin/bulk_uploads/set_titles.html.erb
+3	3	app/views/admin/document_collection_groups/delete.html.erb
+5	6	app/views/admin/document_collection_groups/edit.html.erb
+5	6	app/views/admin/document_collection_groups/new.html.erb
+5	5	app/views/admin/edition_organisations/edit.html.erb
+5	5	app/views/admin/edition_translations/edit.html.erb
+14	20	app/views/admin/editions/_speed_tagging.html.erb
+4	4	app/views/admin/editions/confirm_export.html.erb
+5	11	app/views/admin/editions/forbidden.html.erb
+16	14	app/views/admin/editorial_remarks/new.html.erb
+27	25	app/views/admin/fact_check_requests/edit.html.erb
+19	17	app/views/admin/fact_check_requests/show.html.erb
+8	14	app/views/admin/imports/new.html.erb
+6	7	app/views/admin/responses/edit.html.erb
+9	10	app/views/admin/responses/show.html.erb
+1	1	test/functional/admin/edition_translations_controller_test.rb
+
+--b2d5f6fd24--2015-06-16--Paul Hayes
+1	3	app/views/admin/case_studies/_required_fields_for_imported_editions.html.erb
+1	3	app/views/admin/consultations/_required_fields_for_imported_editions.html.erb
+2	4	app/views/admin/news_articles/_required_fields_for_imported_editions.html.erb
+2	4	app/views/admin/publications/_required_fields_for_imported_editions.html.erb
+3	3	app/views/admin/speeches/_required_fields_for_imported_editions.html.erb
+1	3	app/views/admin/statistical_data_sets/_required_fields_for_imported_editions.html.erb
+
+--a216f84661--2015-06-16--Paul Hayes
+25	27	app/views/admin/find_in_admin_bookmarklet/ie.html.erb
+7	8	app/views/admin/find_in_admin_bookmarklet/index.html.erb
+12	14	app/views/admin/find_in_admin_bookmarklet/other.html.erb
+
+--885fdc2719--2015-06-16--Paul Hayes
+1	1	app/views/admin/promotional_feature_items/_form.html.erb
+10	13	app/views/admin/promotional_feature_items/_form_fields.html.erb
+2	2	app/views/admin/promotional_feature_items/_promotional_feature_item.html.erb
+3	3	app/views/admin/promotional_features/_form.html.erb
+2	2	app/views/admin/promotional_features/_promotional_feature.html.erb
+1	1	app/views/admin/promotional_features/edit.html.erb
+27	28	app/views/admin/promotional_features/index.html.erb
+2	2	app/views/admin/users/show.html.erb
+
+--ad313075fa--2015-06-16--Paul Hayes
+2	2	app/views/admin/sitewide_settings/edit.html.erb
+3	3	app/views/admin/sitewide_settings/index.html.erb
+
+--4aa8bbeacd--2015-06-16--Paul Hayes
+7	16	app/views/admin/get_involved/index.html.erb
+5	5	app/views/admin/take_part_pages/_form.html.erb
+29	38	app/views/admin/take_part_pages/index.html.erb
+
+--07c89467cf--2015-06-16--Paul Hayes
+5	5	app/views/admin/cabinet_ministers/show.html.erb
+
+--c61b9898ad--2015-06-16--Paul Hayes
+2	2	app/views/admin/operational_fields/edit.html.erb
+1	1	app/views/admin/operational_fields/index.html.erb
+2	2	app/views/admin/operational_fields/new.html.erb
+
+--3227458cab--2015-06-16--Paul Hayes
+0	4	app/assets/stylesheets/admin/document.scss
+8	1	app/views/admin/feature_lists/_feature_list.html.erb
+12	8	app/views/admin/world_location_translations/edit.html.erb
+44	48	app/views/admin/world_location_translations/index.html.erb
+6	4	app/views/admin/world_locations/edit.html.erb
+10	18	app/views/admin/world_locations/features.html.erb
+14	20	app/views/admin/world_locations/show.html.erb
+1	1	test/functional/admin/world_location_translations_controller_test.rb
+
+--468aa945ea--2015-06-16--Paul Hayes
+5	8	app/views/admin/access_and_opening_times/edit.html.erb
+1	1	app/views/admin/editions/_search_results.html.erb
+28	32	app/views/admin/worldwide_offices/_form.html.erb
+10	10	app/views/admin/worldwide_offices/_worldwide_office.html.erb
+51	55	app/views/admin/worldwide_offices/index.html.erb
+18	26	app/views/admin/worldwide_organisations/access_info.html.erb
+5	6	app/views/admin/worldwide_organisations/edit.html.erb
+1	1	app/views/admin/worldwide_organisations/index.html.erb
+5	6	app/views/admin/worldwide_organisations/new.html.erb
+31	38	app/views/admin/worldwide_organisations/show.html.erb
+12	11	app/views/admin/worldwide_organisations_translations/edit.html.erb
+44	45	app/views/admin/worldwide_organisations_translations/index.html.erb
+1	1	test/functional/admin/worldwide_organisations_translations_controller_test.rb
+
+--2ba866ea77--2015-06-16--Paul Hayes
+15	11	app/views/admin/topical_events/_custom_form_fields.html.erb
+
+--e84bc96aa2--2015-06-16--Paul Hayes
+31	24	app/views/admin/classification_featurings/_classification_featuring.html.erb
+3	3	app/views/admin/classification_featurings/_featurable_offsite_links.html.erb
+3	3	app/views/admin/classification_featurings/_featured_documents.html.erb
+12	17	app/views/admin/classification_featurings/index.html.erb
+7	7	app/views/admin/classification_featurings/new.html.erb
+
+--f2796138c5--2015-06-15--Paul Hayes
+34	25	app/views/admin/historical_accounts/_form.html.erb
+2	2	app/views/admin/historical_accounts/_historical_account.html.erb
+29	32	app/views/admin/historical_accounts/index.html.erb
+3	1	app/views/admin/people/_form.html.erb
+5	6	app/views/admin/people/edit.html.erb
+1	1	app/views/admin/people/index.html.erb
+5	6	app/views/admin/people/new.html.erb
+32	36	app/views/admin/people/show.html.erb
+10	6	app/views/admin/person_translations/edit.html.erb
+42	43	app/views/admin/person_translations/index.html.erb
+1	1	test/functional/admin/person_translations_controller_test.rb
+
+--2499bd722e--2015-06-15--Paul Hayes
+12	4	app/views/admin/role_appointments/_form.html.erb
+30	28	app/views/admin/role_appointments/edit.html.erb
+12	11	app/views/admin/role_appointments/new.html.erb
+11	7	app/views/admin/role_translations/edit.html.erb
+31	25	app/views/admin/role_translations/index.html.erb
+24	12	app/views/admin/roles/_form.html.erb
+14	15	app/views/admin/roles/edit.html.erb
+1	1	app/views/admin/roles/index.html.erb
+5	6	app/views/admin/roles/new.html.erb
+1	1	test/functional/admin/role_translations_controller_test.rb
+
+--57ec67271b--2015-06-15--Paul Hayes
+7	8	app/views/admin/attachments/edit.html.erb
+8	8	app/views/admin/attachments/new.html.erb
+
+--d165005797--2015-06-15--Paul Hayes
+5	6	app/views/admin/policy_groups/edit.html.erb
+1	1	app/views/admin/policy_groups/index.html.erb
+5	6	app/views/admin/policy_groups/new.html.erb
+
+--6c02a072ed--2015-06-15--Paul Hayes
+0	6	app/assets/stylesheets/admin-ie6.scss
+0	9	app/assets/stylesheets/admin/forms.scss
+0	26	app/assets/stylesheets/admin/views/_editions-index.scss
+0	1	app/views/layouts/admin.html.erb
+
+--9cd7e08bf5--2015-06-15--Paul Hayes
+15	13	app/views/admin/financial_reports/edit.html.erb
+33	27	app/views/admin/financial_reports/index.html.erb
+14	12	app/views/admin/financial_reports/new.html.erb
+
+--65cfb41aa3--2015-06-15--Paul Hayes
+12	8	app/views/admin/organisation_translations/edit.html.erb
+37	32	app/views/admin/organisation_translations/index.html.erb
+1	1	test/functional/admin/organisation_translations_controller_test.rb
+
+--391cb0b479--2015-06-15--Paul Hayes
+3	3	app/helpers/admin/organisation_helper.rb
+62	68	app/views/admin/organisations/people.html.erb
+
+--f641ba08b4--2015-06-15--Paul Hayes
+1	1	app/views/admin/groups/_form.html.erb
+5	6	app/views/admin/groups/edit.html.erb
+40	48	app/views/admin/groups/index.html.erb
+6	6	app/views/admin/groups/new.html.erb
+
+--19dbc8f717--2015-06-15--Paul Hayes
+16	14	app/views/admin/social_media_accounts/_form.html.erb
+2	2	app/views/admin/social_media_accounts/_social_media_account.html.erb
+12	19	app/views/admin/social_media_accounts/index.html.erb
+
+--5979522f69--2015-06-15--Paul Hayes
+3	3	app/helpers/admin/icon_helper.rb
+3	3	app/views/admin/contact_translations/_form.html.erb
+8	8	app/views/admin/contacts/_contact.html.erb
+6	8	app/views/admin/contacts/_contact_type_details_form.html.erb
+3	5	app/views/admin/contacts/_embed_details_for_form.html.erb
+26	24	app/views/admin/contacts/_form.html.erb
+15	18	app/views/admin/contacts/_form_fields.html.erb
+4	6	app/views/admin/contacts/index.html.erb
+
+--0c100d0f76--2015-06-15--Paul Hayes
+26	21	app/views/admin/organisations/_form.html.erb
+6	5	app/views/admin/organisations/edit.html.erb
+1	1	app/views/admin/organisations/index.html.erb
+5	6	app/views/admin/organisations/new.html.erb
+80	86	app/views/admin/organisations/show.html.erb
+
+--3e2e503f80--2015-06-15--Paul Hayes
+25	15	app/views/admin/offsite_links/_form.html.erb
+1	1	app/views/admin/offsite_links/new.html.erb
+
+--4c9b7cffad--2015-06-15--Paul Hayes
+1	1	app/assets/javascripts/admin/sortable.js
+7	37	app/assets/stylesheets/admin/forms.scss
+49	36	app/views/admin/feature_lists/_current_feature_list.html.erb
+1	2	app/views/admin/feature_lists/_featurable_editions.html.erb
+3	3	app/views/admin/feature_lists/_featurable_offsite_links.html.erb
+3	4	app/views/admin/feature_lists/_featurable_topical_events.html.erb
+17	18	app/views/admin/feature_lists/_feature_list.html.erb
+12	10	app/views/admin/features/new.html.erb
+8	16	app/views/admin/organisations/features.html.erb
+
+--3b0fe55a7f--2015-06-12--Paul Hayes
+2	4	app/assets/stylesheets/admin/govuk_admin_template/emulate/_forms.scss
+0	5	app/assets/stylesheets/admin/helpers/_statistics_announcements.scss
+0	5	app/assets/stylesheets/admin/views/editions/_filter_options.scss
+2	2	app/views/admin/statistics_announcement_date_changes/new.html.erb
+5	3	app/views/admin/statistics_announcements/_document_linker.html.erb
+3	3	app/views/admin/statistics_announcements/_document_status.html.erb
+7	9	app/views/admin/statistics_announcements/_form.html.erb
+10	7	app/views/admin/statistics_announcements/_release_date.html.erb
+12	5	app/views/admin/statistics_announcements/cancel.html.erb
+1	1	app/views/admin/statistics_announcements/cancel_reason.html.erb
+15	14	app/views/admin/statistics_announcements/index.html.erb
+1	1	app/views/admin/statistics_announcements/new.html.erb
+74	72	app/views/admin/statistics_announcements/show.html.erb
+1	1	lib/whitehall/form_builder.rb
+
+--d50f41542a--2015-06-12--Paul Hayes
+1	7	app/assets/stylesheets/admin/base.scss
+0	145	app/assets/stylesheets/admin/govuk_admin_template/_base.scss
+0	53	app/assets/stylesheets/admin/govuk_admin_template/_mixins.scss
+0	25	app/assets/stylesheets/admin/govuk_admin_template/_tables.scss
+0	18	app/assets/stylesheets/admin/govuk_admin_template/_theme.scss
+0	64	app/assets/stylesheets/admin/govuk_admin_template/emulate/_forms.scss
+0	4	app/controllers/admin/style_guide_controller.rb
+0	177	app/views/admin/style_guide/index.html.erb
+0	2	config/routes.rb
+
+--66102497d5--2015-06-12--Paul Hayes
+8	6	app/assets/javascripts/admin/views/editions/_form.js
+0	4	app/assets/stylesheets/admin/forms.scss
+
+--8ae55c5c36--2015-06-12--Paul Hayes
+1	1	app/helpers/admin/audit_trail_helper.rb
+1	1	app/helpers/application_helper.rb
+3	3	app/views/admin/classifications/_form.html.erb
+12	4	app/views/admin/consultations/_date_fields.html.erb
+1	1	app/views/admin/editions/_image_fields.html.erb
+7	3	app/views/admin/editions/_locale_fields.html.erb
+3	3	app/views/admin/editions/_organisation_fields.html.erb
+2	2	app/views/admin/editions/_publication_type_fields.html.erb
+7	8	app/views/admin/editions/new.html.erb
+2	2	app/views/admin/news_articles/_news_article_type_fields.html.erb
+5	3	app/views/admin/speeches/_delivered_by_fields.html.erb
+7	3	app/views/admin/speeches/_delivered_on_fields.html.erb
+2	2	app/views/admin/speeches/_speech_type_fields.html.erb
+
+--af3d52be60--2015-06-12--Paul Hayes
+7	5	lib/whitehall/form_builder.rb
+
+--092c500885--2015-06-12--Paul Hayes
+3	3	app/assets/javascripts/admin/modules/words_to_avoid_alerter.js
+1	0	app/assets/stylesheets/admin/base.scss
+26	0	app/assets/stylesheets/admin/helpers/_words_to_avoid_highlighter.scss
+
+--edd36a6a63--2015-06-11--Paul Hayes
+0	16	app/assets/stylesheets/admin/forms.scss
+21	16	app/views/admin/editions/_first_published_at.html.erb
+
+--84da286d68--2015-06-11--Paul Hayes
+0	26	app/assets/stylesheets/admin/helpers/_broken_links_report.scss
+1	1	app/views/admin/editions/_govspeak_help.html.erb
+1	1	app/views/admin/links_reports/_form.html.erb
+7	7	app/views/admin/links_reports/_links_report.html.erb
+
+--e58aff82e5--2015-06-11--Paul Hayes
+26	0	app/assets/javascripts/admin/modules/linked_modal.js
+1	2	app/helpers/admin/edition_actions_helper.rb
+36	13	app/views/admin/edition_workflow/_force_publish_modal.html.erb
+1	1	app/views/admin/editions/show.html.erb
+2	2	features/support/document_helper.rb
+1	1	test/unit/helpers/admin/edition_actions_helper_test.rb
+
+--902be95d81--2015-06-11--Paul Hayes
+10	7	app/views/admin/edition_unpublishing/edit.html.erb
+82	81	app/views/admin/edition_workflow/confirm_unpublish.html.erb
+
+--9a89eff216--2015-06-10--Paul Hayes
+4	2	app/views/admin/corporate_information_pages/_standard_fields.html.erb
+11	20	app/views/admin/corporate_information_pages/index.html.erb
+5	5	app/views/admin/corporate_information_pages/new.html.erb
+3	3	app/views/admin/editions/_inline_attachments_info.html.erb
+1	1	app/views/admin/editions/_search_results.html.erb
+2	2	app/views/admin/feature_lists/_featurable_editions.html.erb
+
+--ec8170de78--2015-06-10--Paul Hayes
+1	1	app/assets/stylesheets/admin/document.scss
+3	3	app/views/admin/attachments/_attachments.html.erb
+1	1	app/views/admin/attachments/index.html.erb
+2	2	test/functional/admin/attachments_controller_test.rb
+
+--22b150d8fb--2015-06-09--Paul Hayes
+1	1	app/assets/javascripts/admin/views/editions/_form.js
+1	1	app/helpers/admin/tabbed_nav_helper.rb
+12	8	app/views/admin/editions/_change_notes.html.erb
+8	6	app/views/admin/editions/_scheduled_publication_fields.html.erb
+5	5	app/views/admin/editions/edit.html.erb
+
+--2b3fa7e6ff--2015-06-09--Paul Hayes
+13	7	lib/whitehall/form_builder.rb
+
+--d7696b7793--2015-06-09--Paul Hayes
+0	34	app/assets/stylesheets/admin/views/_edition_show.scss
+2	2	app/helpers/admin/audit_trail_helper.rb
+3	3	app/helpers/admin/edition_actions_helper.rb
+1	1	app/helpers/admin/sidebar_helper.rb
+1	1	app/helpers/application_helper.rb
+1	1	app/views/admin/edition_audit_trail/index.html.erb
+1	1	app/views/admin/edition_translations/edit.html.erb
+1	2	app/views/admin/editions/_alerts.html.erb
+2	2	app/views/admin/editions/_appointment_fields.html.erb
+1	2	app/views/admin/editions/_history_state.html.erb
+2	2	app/views/admin/editions/_show_attachments.html.erb
+39	27	app/views/admin/editions/_show_metadata.html.erb
+1	1	app/views/admin/editions/edit.html.erb
+8	9	app/views/admin/editions/show.html.erb
+1	1	app/views/admin/links_reports/_form.html.erb
+20	14	app/views/admin/shared/_translation_modal.html.erb
+1	1	app/views/admin/supporting_pages/_extra_metadata.html.erb
+1	1	test/functional/admin/consultations_controller_test.rb
+1	1	test/functional/admin/document_collections_controller_test.rb
+1	1	test/functional/admin/fatality_notices_controller_test.rb
+1	1	test/functional/admin/generic_editions_controller_tests/rejecting_documents_test.rb
+1	1	test/functional/admin/news_articles_controller_test.rb
+
+--eff332e0c3--2015-06-08--Paul Hayes
+2	3	app/assets/stylesheets/admin/views/editions/_filter_options.scss
+4	4	app/views/admin/editions/_filter_options.html.erb
+8	8	app/views/admin/editions/_search_results.html.erb
+4	3	app/views/admin/editions/index.html.erb
+
+--b5666a3fa7--2015-06-08--Paul Hayes
+1	1	Gemfile
+2	2	Gemfile.lock
+
+--5bcb3507f7--2015-06-08--Paul Hayes
+1	13	app/assets/stylesheets/admin/helpers/_document_list.scss
+6	6	app/views/admin/dashboard/_document_table.html.erb
+7	7	app/views/admin/dashboard/index.html.erb
+
+--8cb8cea713--2015-06-08--Paul Hayes
+-	-	app/assets/images/admin/header-crown.png
+3	32	app/assets/stylesheets/admin/environment.scss
+1	2	app/assets/stylesheets/admin/global/_js-hidden.scss
+18	32	app/assets/stylesheets/admin/layout.scss
+1	1	app/helpers/admin/edition_actions_helper.rb
+76	50	app/views/layouts/admin.html.erb
+
+--818112beb8--2015-06-08--Paul Hayes
+1	1	app/assets/javascripts/common/duplicate_fields.js
+0	4	app/assets/stylesheets/admin/classifications.scss
+1	1	app/views/admin/classifications/_form.html.erb
+6	12	app/views/admin/classifications/_tab_wrapper.html.erb
+5	6	app/views/admin/classifications/edit.html.erb
+1	1	app/views/admin/classifications/index.html.erb
+6	4	app/views/admin/classifications/new.html.erb
+1	1	app/views/admin/classifications/show.html.erb
+3	3	app/views/admin/shared/_featured_link_fields.html.erb
+3	3	features/step_definitions/organisation_steps.rb
+1	1	features/step_definitions/topic_steps.rb
+
+--da9e5d005c--2015-06-08--Paul Hayes
+1	1	lib/whitehall/form_builder.rb
+
+--8f39a92a09--2015-06-08--Paul Hayes
+0	9	app/assets/stylesheets/admin/forms.scss
+
+--6878832128--2015-06-08--Paul Hayes
+0	5	config/initializers/govuk_admin_template.rb
+0	11	lib/govuk_admin_template.rb
+
+--6bac4cdca2--2015-06-08--Paul Hayes
+30	20	lib/whitehall/form_builder.rb
+17	21	test/unit/whitehall/form_builder_test.rb
+
+--0dd8ff4c15--2015-06-05--Paul Hayes
+0	3	app/assets/javascripts/admin.js
+1	2	app/assets/javascripts/all.js
+1	5	app/assets/stylesheets/admin.scss
+87	100	app/views/layouts/admin.html.erb
+
+--3e08dba899--2015-06-05--Paul Hayes
+1	2	Gemfile
+11	4	Gemfile.lock

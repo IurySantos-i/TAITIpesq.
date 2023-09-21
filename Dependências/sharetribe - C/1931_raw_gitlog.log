@@ -1,0 +1,22 @@
+--025eeb218--2014-08-12--Olli Vanhapiha
+--e5d5c6279--2014-08-12--Mikko Koski
+--cecfd4f94--2014-08-12--Olli Vanhapiha
+1	1	config/locales/en.yml
+4	4	features/admin/statistics_and_info/admin_views_transactions.feature
+
+--371c4a220--2014-08-12--Antti Virolainen
+21	17	config/locales/fr.yml
+
+--ea0a71ed7--2014-08-12--Antti Virolainen
+2	2	config/locales/en.yml
+
+--4be299de1--2014-08-12--Olli Vanhapiha
+13	12	app/helpers/application_helper.rb
+
+--34f06502d--2014-08-12--Olli Vanhapiha
+2	2	app/helpers/application_helper.rb
+
+--5aae844eb--2014-08-12--Olli Vanhapiha
+1	1	app/views/admin/community_transactions/index.haml
+2	1	features/admin/statistics_and_info/admin_views_transactions.feature
+4	1	features/step_definitions/admin_transaction_steps.rb

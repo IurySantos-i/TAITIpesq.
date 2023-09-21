@@ -1,0 +1,91 @@
+--f64a0b9608--2012-12-07--Chris Parsons
+--801a578072--2012-12-07--Edd Sowden
+2	0	test/functional/operational_fields_controller_test.rb
+
+--d242df5f46--2012-12-07--Chris Parsons
+0	1	app/models/fatality_notice.rb
+
+--833aebe7cc--2012-12-07--Chris Parsons
+2	2	app/controllers/admin/organisations_controller.rb
+1	1	app/controllers/organisations_controller.rb
+8	0	app/helpers/organisation_helper.rb
+17	0	app/models/chief_scientific_advisor_role.rb
+3	13	app/models/organisation.rb
+1	0	app/models/role.rb
+2	1	app/presenters/role_type_presenter.rb
+3	3	app/views/admin/organisations/_form.html.erb
+1	1	app/views/organisations/show.html.erb
+1	1	app/views/people/_person.html.erb
+9	2	features/administering-roles.feature
+7	1	features/step_definitions/organisation_steps.rb
+5	0	features/viewing-organisations.feature
+5	0	test/factories/chief_scientific_advisor_roles.rb
+15	2	test/functional/admin/organisations_controller_test.rb
+2	2	test/functional/organisations_controller_test.rb
+2	1	test/functional/role_type_presenter_test.rb
+15	0	test/unit/chief_scientific_advisor_test.rb
+10	4	test/unit/organisation_test.rb
+
+--d5abac6962--2012-12-07--Edd Sowden
+59	0	app/assets/javascripts/admin/duplicate_fields.js
+3	0	app/assets/javascripts/admin/on_ready.js
+4	2	app/views/admin/fatality_notices/_form.html.erb
+44	0	test/javascripts/unit/duplicate_fields_test.js
+
+--bd1357394a--2012-12-07--Alex Torrance
+15	13	app/views/people/_person.html.erb
+4	3	features/step_definitions/organisation_steps.rb
+1	1	features/step_definitions/role_steps.rb
+
+--57b47e1c5f--2012-12-07--Bradley Wright
+11	0	db/data_migration/20121207135120_agobis_mainstream_categories.csv
+20	0	db/data_migration/20121207135120_agobis_mainstream_categories.rb
+
+--c07e9eb830--2012-12-07--David Heath
+6	2	app/models/import.rb
+8	4	test/unit/import_test.rb
+
+--56e7b0b9fc--2012-12-07--Bradley Wright
+1	1	db/data_migration/20121207114446_delete_beta_bis_content.rb
+
+--a22d8f1aa9--2012-12-07--Bradley Wright
+1	0	db/data_migration/20121207114446_delete_beta_bis_content.rb
+
+--fbb6a00cef--2012-12-07--Bradley Wright
+2530	0	db/data_migration/20121207114446_delete_beta_bis_content.csv
+28	0	db/data_migration/20121207114446_delete_beta_bis_content.rb
+
+--188cd36121--2012-12-07--Edd Sowden
+35	23	app/assets/stylesheets/frontend/views/_operational-field.scss
+2	2	app/views/operational_fields/show.html.erb
+
+--ab89195e9e--2012-12-07--Edd Sowden
+2	2	app/assets/stylesheets/frontend/views/_operational-field.scss
+1	1	app/views/operational_fields/index.html.erb
+1	1	app/views/operational_fields/show.html.erb
+
+--8eb9bdef71--2012-12-07--Bradley Wright
+10	0	app/models/fatality_notice.rb
+8	0	test/unit/fatality_notice_test.rb
+
+--ca54352365--2012-12-06--Bradley Wright
+2	2	app/views/operational_fields/show.html.erb
+1	1	test/functional/operational_fields_controller_test.rb
+
+--8bc89e94b5--2012-12-06--Bradley Wright
+10	14	app/views/operational_fields/show.html.erb
+
+--18d5786dfc--2012-12-06--Bradley Wright
+20	14	app/views/operational_fields/show.html.erb
+22	0	test/functional/operational_fields_controller_test.rb
+
+--34fbea4836--2012-12-06--Bradley Wright
+18	0	app/controllers/admin/fatality_notices_controller.rb
+5	0	app/models/fatality_notice.rb
+4	0	app/models/fatality_notice_casualty.rb
+7	0	app/views/admin/fatality_notices/_form.html.erb
+8	0	db/migrate/20121206120659_add_fatality_notice_casualties.rb
+6	1	db/schema.rb
+5	0	test/factories/fatality_notice_casualties.rb
+44	0	test/functional/admin/fatality_notices_controller_test.rb
+8	0	test/unit/fatality_notice_casualties_test.rb

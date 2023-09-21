@@ -1,0 +1,224 @@
+--21631e1fc9--2013-10-31--David Heath
+--557f52f587--2013-10-31--russell thorn
+11	0	app/assets/stylesheets/frontend/views/_organisations.scss
+
+--2f667e299f--2013-10-29--Tekin Suleyman
+0	4	app/models/announcement.rb
+0	4	app/models/edition.rb
+1	5	app/models/policy.rb
+1	5	app/models/publicationesque.rb
+6	0	lib/whitehall/gov_uk_delivery.rb
+19	8	lib/whitehall/gov_uk_delivery/notifier.rb
+16	3	test/unit/whitehall/gov_uk_delivery/notifier_test.rb
+
+--987bf29d89--2013-10-28--Tekin Suleyman
+2	2	app/controllers/admin/edition_workflow_controller.rb
+0	30	app/services/edition/author_notifier.rb
+0	26	app/services/edition/editorial_remarker.rb
+0	27	app/services/edition/search_indexer.rb
+3	8	app/services/edition_force_publisher.rb
+11	11	app/services/edition_publisher.rb
+17	0	app/services/edition_service_coordinator.rb
+28	0	app/services/service_listeners/author_notifier.rb
+9	0	app/services/service_listeners/editorial_remarker.rb
+20	0	app/services/service_listeners/search_indexer.rb
+2	2	app/views/admin/editions/show.html.erb
+1	1	app/workers/edition_publishing_worker.rb
+5	0	config/initializers/edition_services.rb
+1	1	db/data_migration/20131024093412_fix_documents_with_multiple_published_editions.rb
+4	3	features/{force-publishing-policies.feature => force-publishing-editions.feature}
+6	0	features/step_definitions/force_publishing_steps.rb
+1	1	features/step_definitions/viewing_published_statistical_data_sets_steps.rb
+1	1	features/step_definitions/worldwide_priority_steps.rb
+0	9	features/support/document_helper.rb
+1	1	lib/force_publisher.rb
+4	0	lib/whitehall.rb
+2	7	lib/whitehall/gov_uk_delivery/notifier.rb
+4	4	test/functional/publications_controller_test.rb
+2	2	test/integration/gov_uk_delivery_test.rb
+1	1	test/unit/data_hygiene/extra_published_editions_repairer_test.rb
+4	4	test/unit/edition/publishing_test.rb
+0	33	test/unit/edition/scheduled_publishing_test.rb
+2	2	test/unit/edition/searchable_test.rb
+3	62	test/unit/edition/workflow_test.rb
+2	2	test/unit/edition_test.rb
+1	1	test/unit/helpers/admin/admin_govspeak_helper_test.rb
+1	1	test/unit/helpers/govspeak_helper_link_rewriting_test.rb
+1	1	test/unit/import_test.rb
+3	20	test/unit/services/edition_force_publisher_test.rb
+26	52	test/unit/services/edition_publisher_test.rb
+61	0	test/unit/services/edition_service_coordinator_test.rb
+5	5	test/unit/services/{edition => listeners}/author_notifier_test.rb
+6	8	test/unit/services/{edition => listeners}/editorial_remarker_test.rb
+11	11	test/unit/services/{edition => listeners}/search_indexer_test.rb
+9	14	test/unit/whitehall/gov_uk_delivery/notifier_test.rb
+
+--8ffa85923f--2013-10-25--Tekin Suleyman
+5	1	app/controllers/admin/edition_workflow_controller.rb
+7	5	app/services/edition/{force_publish_logger.rb => editorial_remarker.rb}
+3	15	app/services/edition_force_publisher.rb
+16	4	app/services/edition_publisher.rb
+1	1	app/views/admin/editions/show.html.erb
+1	1	features/support/document_helper.rb
+1	1	lib/force_publisher.rb
+1	1	test/test_helper.rb
+1	1	test/unit/editorial_remark_test.rb
+30	0	test/unit/services/edition/editorial_remarker_test.rb
+0	16	test/unit/services/edition/force_publish_logger_test.rb
+11	39	test/unit/services/edition_force_publisher_test.rb
+4	0	test/unit/services/edition_publisher_test.rb
+
+--85c248e796--2013-10-23--Tekin Suleyman
+24	0	app/services/edition/force_publish_logger.rb
+7	18	app/services/edition_force_publisher.rb
+5	1	app/services/edition_publisher.rb
+16	0	test/unit/services/edition/force_publish_logger_test.rb
+9	10	test/unit/services/edition_force_publisher_test.rb
+
+--c902ba0d4c--2013-10-23--Tekin Suleyman
+22	4	app/services/edition/author_notifier.rb
+19	8	app/services/edition/search_indexer.rb
+
+--034d73b170--2013-10-23--Tekin Suleyman
+3	7	app/models/edition/workflow.rb
+
+--7a16f92c33--2013-10-23--Tekin Suleyman
+0	4	app/models/policy_search_index_observer.rb
+4	0	app/services/edition/search_indexer.rb
+0	7	test/unit/policy_search_index_observer_test.rb
+6	0	test/unit/services/edition/search_indexer_test.rb
+
+--3771504c12--2013-10-23--Tekin Suleyman
+0	4	app/models/supporting_page_search_index_observer.rb
+7	1	app/services/edition/search_indexer.rb
+12	2	test/unit/services/edition/search_indexer_test.rb
+0	11	test/unit/supporting_page_search_index_observer_test.rb
+
+--8c616732ba--2013-10-23--Tekin Suleyman
+1	2	app/models/edition.rb
+6	0	app/services/edition/search_indexer.rb
+1	1	app/services/edition_publisher.rb
+0	27	test/unit/edition_test.rb
+18	0	test/unit/services/edition/search_indexer_test.rb
+4	0	test/unit/services/edition_force_publisher_test.rb
+4	1	test/unit/services/edition_publisher_test.rb
+
+--4be6a4bc4f--2013-10-22--Tekin Suleyman
+0	0	app/{models => services}/edition_force_publisher.rb
+0	0	app/{models => services}/edition_publisher.rb
+0	0	test/{ => unit}/services/edition/author_notifier_test.rb
+0	0	test/unit/{ => services}/edition_force_publisher_test.rb
+0	0	test/unit/{ => services}/edition_publisher_test.rb
+
+--b1006ee4a5--2013-10-22--Tekin Suleyman
+2	3	app/models/edition/workflow.rb
+0	6	test/unit/edition/workflow_test.rb
+
+--555eab8041--2013-10-22--Tekin Suleyman
+1	2	lib/force_publisher.rb
+30	80	test/unit/force_publication_attempt_test.rb
+
+--00e482615d--2013-10-22--Tekin Suleyman
+2	0	app/models/edition_force_publisher.rb
+8	2	test/unit/edition_force_publisher_test.rb
+
+--91eadd8e08--2013-10-22--Tekin Suleyman
+0	154	lib/data_hygiene/document_attachment_repairer.rb
+0	30	lib/tasks/attachment_repair.rake
+0	232	test/unit/data_hygiene/document_attachment_repairer_test.rb
+
+--f6f145cc0f--2013-10-22--Tekin Suleyman
+4	1	app/models/announcement.rb
+4	0	app/models/edition.rb
+0	8	app/models/edition/gov_uk_delivery.rb
+1	1	app/models/edition_publisher.rb
+4	1	app/models/policy.rb
+4	1	app/models/publicationesque.rb
+7	0	lib/whitehall/gov_uk_delivery/notifier.rb
+2	2	test/integration/gov_uk_delivery_test.rb
+0	46	test/unit/edition/gov_uk_delivery_test.rb
+4	0	test/unit/edition_force_publisher_test.rb
+5	0	test/unit/edition_publisher_test.rb
+16	1	test/unit/whitehall/gov_uk_delivery/notifier_test.rb
+
+--85b35b8111--2013-10-22--Tekin Suleyman
+1	9	app/controllers/admin/edition_workflow_controller.rb
+7	4	app/models/edition_force_publisher.rb
+10	6	app/models/edition_publisher.rb
+12	0	app/services/edition/author_notifier.rb
+1	1	app/views/admin/editions/show.html.erb
+1	0	config/application.rb
+1	1	lib/data_hygiene/document_attachment_repairer.rb
+1	1	lib/force_publisher.rb
+1	26	test/functional/admin/edition_workflow_controller_test.rb
+37	0	test/services/edition/author_notifier_test.rb
+22	0	test/unit/edition_force_publisher_test.rb
+18	6	test/unit/edition_publisher_test.rb
+
+--361b852c21--2013-10-22--Tekin Suleyman
+2	2	app/models/edition_force_publisher.rb
+4	2	app/models/edition_publisher.rb
+34	8	test/unit/edition_publisher_test.rb
+
+--2649b8c3f9--2013-10-11--Tekin Suleyman
+6	5	app/controllers/admin/edition_workflow_controller.rb
+1	0	app/models/edition.rb
+1	0	app/models/edition/gov_uk_delivery.rb
+10	57	app/models/edition/publishing.rb
+2	2	app/models/edition/workflow.rb
+35	0	app/models/edition_force_publisher.rb
+40	0	app/models/edition_publisher.rb
+2	2	app/views/admin/editions/show.html.erb
+3	2	app/workers/edition_publishing_worker.rb
+1	1	features/step_definitions/viewing_published_statistical_data_sets_steps.rb
+1	1	features/step_definitions/worldwide_priority_steps.rb
+9	0	features/support/document_helper.rb
+3	2	lib/data_hygiene/document_attachment_repairer.rb
+1	1	lib/data_hygiene/extra_published_editions_repairer.rb
+5	3	lib/force_publisher.rb
+2	2	test/functional/admin/edition_workflow_controller_test.rb
+1	1	test/functional/admin/editions_controller_test.rb
+2	2	test/functional/admin/generic_editions_controller_tests/translation_test.rb
+1	1	test/functional/case_studies_controller_test.rb
+5	5	test/functional/documents_controller_test.rb
+1	1	test/functional/fatality_notices_controller_test.rb
+1	1	test/functional/home_controller_test.rb
+1	1	test/functional/news_articles_controller_test.rb
+4	4	test/functional/publications_controller_test.rb
+1	1	test/functional/world_location_news_articles_controller_test.rb
+8	0	test/test_helper.rb
+1	4	test/unit/attachable_test.rb
+1	1	test/unit/classification_test.rb
+10	10	test/unit/data_hygiene/extra_published_editions_repairer_test.rb
+2	2	test/unit/document_test.rb
+1	1	test/unit/edition/creating_draft_test.rb
+1	1	test/unit/edition/gov_uk_delivery_test.rb
+1	1	test/unit/edition/identifiable_test.rb
+3	3	test/unit/edition/organisations_test.rb
+18	163	test/unit/edition/publishing_test.rb
+10	4	test/unit/edition/scheduled_publishing_test.rb
+3	3	test/unit/edition/searchable_test.rb
+2	2	test/unit/edition/topical_events_test.rb
+1	1	test/unit/edition/topics_test.rb
+1	1	test/unit/edition/translatable_test.rb
+5	5	test/unit/edition/workflow_test.rb
+1	1	test/unit/edition/worldwide_organisations_test.rb
+1	1	test/unit/edition/worldwide_priorities_test.rb
+43	0	test/unit/edition_force_publisher_test.rb
+87	0	test/unit/edition_publisher_test.rb
+2	2	test/unit/edition_publishing_worker_test.rb
+9	10	test/unit/edition_test.rb
+1	1	test/unit/feature_list_test.rb
+2	2	test/unit/featured_item_test.rb
+1	1	test/unit/helpers/admin/admin_govspeak_helper_test.rb
+1	1	test/unit/helpers/govspeak_helper_link_rewriting_test.rb
+4	4	test/unit/import_test.rb
+1	1	test/unit/models/organisation_test.rb
+1	2	test/unit/policy_search_index_observer_test.rb
+1	1	test/unit/policy_test.rb
+2	3	test/unit/supporting_page_search_index_observer_test.rb
+2	2	test/unit/whitehall/gov_uk_delivery/gov_uk_delivery_end_point_test.rb
+2	2	test/unit/whitehall/slugging_test.rb
+
+--77467ada80--2013-10-22--Tekin Suleyman
+4	8	app/controllers/admin/preview_controller.rb

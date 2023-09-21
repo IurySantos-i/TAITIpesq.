@@ -1,0 +1,7 @@
+entity,coupled,degree,average-revs
+app/models/bookmark.rb,app/models/tag.rb,63,10
+app/controllers/bookmarks_controller.rb,app/models/bookmark.rb,62,8
+app/controllers/works_controller.rb,app/models/work.rb,60,15
+app/models/work.rb,lib/tasks/after_tasks.rake,48,13
+app/models/tag.rb,app/models/work.rb,44,14
+app/models/bookmark.rb,app/models/work.rb,40,15

@@ -1,0 +1,38 @@
+--76afc641d--2015-07-29--jsugarman
+--38d9bb3c3--2015-07-28--jsugarman
+5	2	app/assets/javascripts/advocates/claims/fee_section_display.js
+0	3	app/assets/javascripts/application.js
+3	3	app/controllers/advocates/claims_controller.rb
+0	2	app/interfaces/api/v1/advocates/fee.rb
+2	4	app/models/claim.rb
+6	22	app/models/fee.rb
+6	8	app/models/fee_type.rb
+2	2	app/models/scheme.rb
+1	5	app/views/advocates/claims/_basic_fee_fields.html.haml
+1	1	app/views/advocates/claims/_date_attended_fields.html.haml
+1	3	app/views/advocates/claims/_fixed_fee_fields.html.haml
+5	12	app/views/advocates/claims/_form.html.haml
+1	3	app/views/advocates/claims/_misc_fee_fields.html.haml
+0	4	app/views/shared/_summary.html.haml
+1	3	config/locales/en.yml
+5	0	db/migrate/20150728103353_remove_quantity_modifier_from_fee_types.rb
+5	0	db/migrate/20150728104047_remove_rate_from_fees.rb
+1	3	db/schema.rb
+2	2	db/seeds/fee_types.rb
+1	11	features/advocate_new_claim.feature
+19	25	features/step_definitions/advocate_new_claim_steps.rb
+6	6	lib/assets/data/fee_types.csv
+17	17	lib/tasks/claims.rake
+2	2	spec/api/v1/claims/fee_spec.rb
+11	15	spec/controllers/advocates/claims_controller_spec.rb
+6	7	spec/factories/fee_types.rb
+1	5	spec/factories/fees.rb
+2	2	spec/factories/schemes.rb
+16	16	spec/models/claim_spec.rb
+8	8	spec/models/claims/totals_spec.rb
+5	59	spec/models/fee_spec.rb
+6	8	spec/models/fee_type_spec.rb
+2	2	spec/models/scheme_spec.rb
+1	9	spec/presenters/fee_presenter_spec.rb
+
+--e0e01d5a7--2015-07-28--Edward Andress

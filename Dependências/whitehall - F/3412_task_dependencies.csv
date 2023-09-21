@@ -1,4 +1,0 @@
-entity,coupled,degree,average-revs
-Gemfile,Gemfile.lock,90,6
-app/models/email_signup.rb,test/unit/email_signup_test.rb,77,9
-app/controllers/email_signups_controller.rb,app/models/email_signup.rb,57,11

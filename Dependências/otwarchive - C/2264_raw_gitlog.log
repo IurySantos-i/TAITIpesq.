@@ -1,0 +1,9 @@
+--9bbef8574--2012-02-24--shalott
+--37697cb04--2012-02-25--Sidra
+1	1	doc/app/CommentsController.html
+1	1	doc/app/OrphansController.html
+228	228	doc/app/created.rid
+
+--871a6c557--2012-02-22--sarken
+5	4	app/views/user_mailer/invitation.html.erb
+2	0	features/invite_queue.feature

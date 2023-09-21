@@ -1,0 +1,356 @@
+--e9df45c91--2011-03-04--Antti Virolainen
+--30478fec2--2011-03-04--Juho Makkonen
+1	1	app/helpers/listings_helper.rb
+2	2	app/views/people/not_member.haml
+
+--cb2229247--2011-03-04--Juho Makkonen
+1	1	app/models/listing.rb
+2	2	config/locales/en.yml
+2	2	config/locales/fi.yml
+
+--aef700887--2011-03-04--Juho Makkonen
+--6fe6385fd--2011-03-04--Juho Makkonen
+1	1	app/views/homepage/index.haml
+
+--fbbae8fb7--2011-03-03--Antti Virolainen
+0	3	app/mailers/person_mailer.rb
+31	0	lib/tasks/kassi.rake
+
+--f1cb80328--2011-03-03--Juho Makkonen
+--a79eea578--2011-03-03--Juho Makkonen
+1	1	app/controllers/homepage_controller.rb
+0	0	app/views/homepage/{_welcome_text.en.haml => _welcome_text_aalto.en.haml}
+0	0	app/views/homepage/{_welcome_text.fi.haml => _welcome_text_aalto.fi.haml}
+8	0	app/views/homepage/_welcome_text_ospn.haml
+1	1	app/views/homepage/index.haml
+2	4	app/views/infos/about.en.haml
+2	4	app/views/infos/about.fi.haml
+4	1	app/views/layouts/_notifications.haml
+1	1	config/locales/en.yml
+1	1	config/locales/fi.yml
+
+--7862784b1--2011-03-03--Antti Virolainen
+15	0	app/mailers/person_mailer.rb
+
+--1ab19dd45--2011-03-03--Antti Virolainen
+3	2	config/config.example.yml
+
+--72576744c--2011-03-03--Antti Virolainen
+4	4	app/controllers/application_controller.rb
+1	1	app/controllers/people_controller.rb
+2	3	app/controllers/sessions_controller.rb
+9	0	app/helpers/application_helper.rb
+0	1	spec/controllers/sessions_controller_spec.rb
+
+--3f47a9ba6--2011-03-03--Antti Virolainen
+2	1	app/controllers/application_controller.rb
+
+--9169554af--2011-03-02--Antti Virolainen
+1	0	Gemfile
+2	0	Gemfile.lock
+4	1	config/deploy.rb
+2	0	config/environments/test.rb
+0	1	config/initializers/hoptoad.rb
+
+--7bf1c4dcd--2011-02-22--Juho Makkonen
+--c481d292b--2011-02-22--Juho Makkonen
+1	0	Gemfile.lock
+5	0	app/controllers/application_controller.rb
+2	2	app/controllers/badges_controller.rb
+7	7	app/controllers/people_controller.rb
+1	1	app/controllers/testimonials_controller.rb
+28	2	app/stylesheets/style.scss
+14	0	app/views/people/not_member.haml
+4	0	config/locales/en.yml
+4	0	config/locales/fi.yml
+1	0	config/routes.rb
+-	-	public/images/kaapo/kaapo_confused.png
+30	0	public/stylesheets/compiled/style.css
+
+--d126cb0af--2011-02-22--Antti Virolainen
+11	4	app/controllers/application_controller.rb
+2	0	config/config.example.yml
+0	1	features/dashboard/user_views_dashboard.feature
+
+--fba40b463--2011-02-22--Antti Virolainen
+13	1	app/controllers/application_controller.rb
+1	0	features/people/user_creates_a_new_account.feature
+
+--07c1e3e5e--2011-02-21--Antti Virolainen
+1	0	Gemfile.lock
+13	1	app/controllers/application_controller.rb
+1	1	app/views/people/new.haml
+
+--2a9a313d2--2011-02-21--Juho Makkonen
+--60a76c268--2011-02-21--Juho Makkonen
+1	1	app/controllers/application_controller.rb
+5	1	app/helpers/listings_helper.rb
+3	3	app/views/dashboard/index.haml
+2	1	config/locales/en.yml
+1	1	config/locales/fi.yml
+3	2	config/routes.rb
+1	0	features/dashboard/user_views_dashboard.feature
+
+--d519808be--2011-02-21--Juho Makkonen
+1	1	app/controllers/listings_controller.rb
+1	1	app/views/homepage/_welcome_text.en.haml
+1	1	public/javascripts/kassi.js
+
+--7fccf7bb5--2011-02-17--Antti Virolainen
+1	0	Gemfile
+4	6	Gemfile.lock
+
+--9ff98d3bb--2011-02-17--Antti Virolainen
+2	3	spec/controllers/application_controller_spec.rb
+3	1	spec/controllers/sessions_controller_spec.rb
+
+--a75a4e384--2010-12-20--Antti Virolainen
+0	5	spec/spec_helper.rb
+6	0	test/helper_modules.rb
+9	1	test/performance/browsing_test.rb
+
+--702472762--2011-02-16--Antti Virolainen
+3	3	Gemfile
+52	41	Gemfile.lock
+
+--f1e88bad2--2011-02-16--Antti Virolainen
+2	1	features/settings/user_changes_email_address.feature
+10	0	features/step_definitions/user_steps.rb
+
+--a39ae8601--2011-02-15--Antti Virolainen
+7	7	spec/mailers/person_mailer_spec.rb
+
+--8ab1d8657--2011-02-15--Antti Virolainen
+3	5	Gemfile
+5	33	Gemfile.lock
+8	6	features/step_definitions/sms_steps.rb
+
+--b970eb9e2--2011-02-15--Antti Virolainen
+0	2	spec/helpers/locations_helper_spec.rb
+1	1	spec/models/cached_ressi_event_spec.rb
+1	1	spec/models/ressi_event_spec.rb
+
+--5a73179cf--2011-02-15--Antti Virolainen
+2	1	spec/helpers/locations_helper_spec.rb
+
+--7c2b2f2e8--2011-01-24--Juho Makkonen
+2	2	public/javascripts/kassi.js
+
+--23a4d757b--2011-01-24--Juho Makkonen
+4	4	public/javascripts/kassi.js
+
+--a51c3a731--2010-12-15--Antti Virolainen
+1	0	app/controllers/application_controller.rb
+
+--91dd13b60--2010-12-13--Antti Virolainen
+1	1	config/locales/en.yml
+1	1	config/locales/fi.yml
+
+--d1ccc1dd5--2010-12-12--Antti Virolainen
+13	0	app/helpers/application_helper.rb
+3	2	app/models/listing.rb
+6	0	config/config.example.yml
+6	2	spec/models/listing_spec.rb
+
+--63ffe11c7--2010-12-12--Antti Virolainen
+48	22	app/helpers/sms_helper.rb
+2	2	config/locales/en.yml
+2	2	config/locales/fi.yml
+1	9	spec/controllers/sms_controller_spec.rb
+82	2	spec/helpers/sms_helper_spec.rb
+
+--a4b36b583--2010-12-10--Antti Virolainen
+5	3	app/controllers/sms_controller.rb
+1	1	app/models/listing.rb
+2	0	config/locales/en.yml
+2	0	config/locales/fi.yml
+
+--4738f1ed1--2010-12-09--Antti Virolainen
+6	0	config/deploy.rb
+
+--05bc89970--2011-02-16--Juho Makkonen
+1	1	app/views/dashboard/index.haml
+1	2	app/views/person_mailer/contact_request_notification.html.haml
+18	0	features/dashboard/user_sends_contact_request.feature
+19	0	features/dashboard/user_views_dashboard.feature
+22	3	features/listings/user_browses_listings.feature
+10	0	features/support/hooks.rb
+
+--7ecebe56d--2011-02-16--Juho Makkonen
+--e99a181d8--2011-02-16--Juho Makkonen
+1	1	app/controllers/comments_controller.rb
+1	1	app/controllers/listings_controller.rb
+1	0	app/controllers/terms_controller.rb
+1	0	app/models/contact_request.rb
+2	2	app/models/listing.rb
+1	1	app/stylesheets/style.scss
+2	2	config/locales/fi.yml
+27	16	features/homepage/user_views_homepage.feature
+1	1	features/listings/user_browses_listings.feature
+2	2	features/listings/user_creates_a_new_listing.feature
+2	2	features/listings/user_edits_his_own_listing.feature
+1	1	features/people/user_views_profile_page.feature
+1	1	features/step_definitions/general_steps.rb
+21	17	features/step_definitions/listing_steps.rb
+1	1	features/support/env.rb
+10	0	features/support/hooks.rb
+1	1	public/stylesheets/compiled/style.css
+8	3	spec/factories.rb
+6	1	spec/fixtures/communities.yml
+0	15	spec/helpers/contact_requests_helper_spec.rb
+0	15	spec/helpers/dashboard_helper_spec.rb
+8	1	spec/mailers/person_mailer_spec.rb
+2	0	spec/models/community_spec.rb
+9	1	spec/models/contact_request_spec.rb
+
+--671ddf8c8--2011-01-24--Juho Makkonen
+2	2	features/listings/user_creates_a_new_listing.feature
+1	1	features/listings/user_edits_his_own_listing.feature
+
+--474322f31--2011-01-24--Juho Makkonen
+2	2	public/javascripts/kassi.js
+
+--161f9b5f9--2011-01-24--Juho Makkonen
+4	4	public/javascripts/kassi.js
+
+--a482b5157--2011-01-20--Juho Makkonen
+1	1	app/models/listing.rb
+
+--c71b8bbd6--2010-12-21--Juho Makkonen
+21	8	app/models/listing.rb
+1	1	app/views/people/_profile_listings.haml
+
+--631144f9f--2010-12-21--Juho Makkonen
+2	2	app/controllers/application_controller.rb
+1	1	app/controllers/conversations_controller.rb
+2	2	app/controllers/homepage_controller.rb
+1	1	app/controllers/listings_controller.rb
+2	1	app/controllers/people_controller.rb
+3	4	app/controllers/search_controller.rb
+16	15	app/models/listing.rb
+1	1	app/views/listings/form/_visibility.haml
+1	1	app/views/people/_profile_listings.haml
+2	2	config/locales/fi.yml
+
+--9a7f06bdc--2010-12-17--Juho Makkonen
+33	12	app/models/listing.rb
+1	1	app/views/homepage/_recent_listing.haml
+3	0	features/step_definitions/user_steps.rb
+9	0	spec/fixtures/community_memberships.yml
+1	1	spec/fixtures/people.yml
+1	1	test/performance/browsing_test.rb
+
+--d13c1e204--2010-12-17--Antti Virolainen
+2	2	app/controllers/sessions_controller.rb
+3	0	spec/controllers/application_controller_spec.rb
+3	1	spec/controllers/sessions_controller_spec.rb
+5	0	spec/spec_helper.rb
+
+--d5364beab--2010-12-17--Juho Makkonen
+--38f9503af--2010-12-17--Juho Makkonen
+2	2	app/models/listing.rb
+
+--0f4218b79--2010-12-16--Antti Virolainen
+5	2	config/config.example.yml
+1	0	features/support/env.rb
+
+--d5aa362df--2010-12-16--Antti Virolainen
+1	0	Gemfile
+6	0	Gemfile.lock
+1	1	app/controllers/application_controller.rb
+1	0	features/homepage/user_views_homepage.feature
+63	0	features/step_definitions/email_steps.rb
+8	1	features/step_definitions/general_steps.rb
+100	0	features/step_definitions/pickle_steps.rb
+21	0	features/support/email.rb
+2	0	features/support/env.rb
+30	3	features/support/paths.rb
+26	0	features/support/pickle.rb
+4	0	spec/fixtures/communities.yml
+
+--36684d6a6--2010-12-16--Juho Makkonen
+3	1	app/models/community.rb
+1	1	app/models/community_membership.rb
+18	4	app/models/listing.rb
+2	1	app/views/listings/form/_visibility.haml
+2	1	config/locales/fi.yml
+12	0	db/migrate/20101216150725_create_table_communities_listings.rb
+9	0	db/migrate/20101216151447_change_listing_visiblity_kassi_users_to_communities.rb
+9	0	db/migrate/20101216152952_change_member_id_to_person_id_in_community_memberships.rb
+7	2	db/schema.rb
+1	1	spec/factories.rb
+
+--8951308c4--2010-12-16--Juho Makkonen
+4	1	app/controllers/contact_requests_controller.rb
+10	1	app/mailers/person_mailer.rb
+10	0	app/views/person_mailer/contact_request_notification.html.haml
+
+--212f2cbe4--2010-12-15--Antti Virolainen
+1	0	app/controllers/application_controller.rb
+
+--9269bfa71--2010-12-15--Juho Makkonen
+7	4	app/controllers/application_controller.rb
+9	0	app/controllers/contact_requests_controller.rb
+7	0	app/controllers/dashboard_controller.rb
+1	1	app/controllers/homepage_controller.rb
+2	0	app/helpers/contact_requests_helper.rb
+2	0	app/helpers/dashboard_helper.rb
+16	0	app/helpers/url_helper.rb
+2	0	app/models/contact_request.rb
+177	0	app/stylesheets/style_dashboard.scss
+63	0	app/views/dashboard/index.haml
+17	0	app/views/layouts/dashboard.haml
+20	1	config/locales/en.yml
+20	1	config/locales/fi.yml
+12	2	config/routes.rb
+13	0	db/migrate/20101213152125_create_contact_requests.rb
+7	1	db/schema.rb
+5	0	lib/subdomain.rb
+-	-	public/images/dashboard/background.png
+-	-	public/images/dashboard/kaapo_big.png
+-	-	public/images/dashboard/speech_bubble_arrow.png
+4	0	public/javascripts/kassi_dashboard.js
+137	0	public/stylesheets/compiled/style_dashboard.css
+5	0	spec/controllers/contact_requests_controller_spec.rb
+5	0	spec/controllers/dashboard_controller_spec.rb
+15	0	spec/helpers/contact_requests_helper_spec.rb
+15	0	spec/helpers/dashboard_helper_spec.rb
+5	0	spec/models/contact_request_spec.rb
+
+--05e24c0bc--2010-12-13--Antti Virolainen
+1	1	config/locales/en.yml
+1	1	config/locales/fi.yml
+
+--9d7e324d0--2010-12-12--Antti Virolainen
+13	0	app/helpers/application_helper.rb
+3	2	app/models/listing.rb
+6	0	config/config.example.yml
+6	2	spec/models/listing_spec.rb
+
+--798607f70--2010-12-12--Antti Virolainen
+48	22	app/helpers/sms_helper.rb
+2	2	config/locales/en.yml
+2	2	config/locales/fi.yml
+1	9	spec/controllers/sms_controller_spec.rb
+82	2	spec/helpers/sms_helper_spec.rb
+
+--d59f4cd6b--2010-12-10--Antti Virolainen
+5	3	app/controllers/sms_controller.rb
+1	1	app/models/listing.rb
+2	0	config/locales/en.yml
+2	0	config/locales/fi.yml
+
+--2e9e34aeb--2010-12-09--Antti Virolainen
+6	0	config/deploy.rb
+
+--1ae2745ae--2010-12-03--Juho Makkonen
+10	1	app/controllers/application_controller.rb
+10	0	app/models/community.rb
+6	0	app/models/community_membership.rb
+2	0	app/models/person.rb
+14	0	db/migrate/20101203115308_create_communities.rb
+15	0	db/migrate/20101203115634_create_community_memberships.rb
+16	1	db/schema.rb
+11	0	spec/factories.rb
+13	0	spec/models/community_membership_spec.rb
+33	0	spec/models/community_spec.rb

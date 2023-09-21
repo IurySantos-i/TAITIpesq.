@@ -1,0 +1,79 @@
+--3c25f29027--2014-03-07--David Heath
+--b3a8863f37--2014-03-07--Tekin Suleyman
+--7edbf248c2--2014-03-07--Alex Tomlins
+1	1	app/controllers/html_attachments_controller.rb
+1	0	app/models/attachable.rb
+12	2	test/functional/html_attachments_controller_test.rb
+12	0	test/unit/attachable_test.rb
+
+--8a21c8e441--2014-03-07--Dominic Baggott
+--da727b3047--2014-03-07--Dominic Baggott
+1	1	app/controllers/latest_controller.rb
+6	6	test/functional/latest_controller_test.rb
+
+--bdf8e38742--2014-03-06--Dominic Baggott
+6	0	app/controllers/latest_controller.rb
+7	0	test/functional/latest_controller_test.rb
+
+--88f4d1480e--2014-03-06--Dominic Baggott
+10	0	app/helpers/application_helper.rb
+
+--0f5ca91679--2014-03-06--Dominic Baggott
+1	4	app/views/documents/_recently_changed_documents.html.erb
+
+--a6a0843e0b--2014-03-06--Dominic Baggott
+3	1	app/controllers/latest_controller.rb
+26	0	app/presenters/latest_document_presenter.rb
+13	15	app/views/latest/index.html.erb
+
+--fb29220b34--2014-03-06--Dominic Baggott
+3	2	app/views/latest/index.html.erb
+
+--e5059dea5f--2014-03-05--Dominic Baggott
+3	1	app/views/latest/index.html.erb
+
+--4de43ec508--2014-03-07--Dominic Baggott
+41	1	app/controllers/latest_controller.rb
+39	0	app/views/latest/index.html.erb
+67	0	test/functional/latest_controller_test.rb
+
+--3f8b0b4e5b--2014-03-05--Dominic Baggott
+4	0	app/models/organisation.rb
+4	0	app/models/world_location.rb
+
+--39eab8ac47--2014-03-05--Dominic Baggott
+64	0	app/models/latest_documents_filter.rb
+144	0	test/unit/models/latest_documents_filter_test.rb
+
+--0be7939bc7--2014-03-07--Dominic Baggott
+6	0	app/controllers/latest_controller.rb
+1	0	app/views/latest/index.html.erb
+2	0	config/routes.rb
+
+--973c67ff6e--2014-03-07--Dominic Baggott
+1	1	app/views/organisations/_featured_items.html.erb
+2	1	app/views/topical_events/show.html.erb
+2	1	app/views/topics/show.html.erb
+2	2	app/views/world_locations/show.html.erb
+
+--b40b3c9124--2014-02-19--Dominic Baggott
+2	2	app/views/organisations/_featured_items.html.erb
+1	1	app/views/organisations/show-executive-office.html.erb
+2	2	app/views/shared/_recently_updated.html.erb
+
+--5ff4938e90--2014-02-18--Dominic Baggott
+18	0	features/latest-documents.feature
+38	0	features/step_definitions/latest_document_steps.rb
+9	0	features/step_definitions/topical_event_steps.rb
+19	0	features/support/topical_events_helper.rb
+
+--0f0b026118--2014-03-07--Tekin Suleyman
+0	0	db/{pending_migration_cleanups => migrate}/20131106145807_remove_old_supporting_pages_table.rb
+0	13	db/schema.rb
+
+--a228148afb--2014-03-06--Tekin Suleyman
+0	2	lib/whitehall.rb
+
+--80f353bf48--2014-03-06--Alex Tomlins
+12	1	app/models/html_attachment.rb
+19	0	test/unit/html_attachment_test.rb

@@ -1,0 +1,70 @@
+--441fdefcf7--2012-05-29--Jenkins
+--b68ac56694--2012-05-29--Tom Ward
+12	0	app/controllers/admin/edition_workflow_controller.rb
+20	3	app/mailers/notifications.rb
+7	0	app/views/notifications/edition_published.text.erb
+7	0	app/views/notifications/edition_rejected.text.erb
+1	0	features/publishing-policies.feature
+1	0	features/rejecting-submitted-policies.feature
+16	0	features/step_definitions/policy_steps.rb
+5	0	test/factories/users.rb
+36	1	test/functional/admin/edition_workflow_controller_test.rb
+
+--6a69553355--2012-05-29--Tom Ward
+12	12	test/functional/notifications_test.rb
+
+--da92786bf7--2012-05-29--Jenkins
+--0ac7ced54e--2012-05-29--Jenkins
+--3b17fc2ee3--2012-05-29--Jenkins
+--bd80446dd8--2012-05-29--Jenkins
+--ff21597f96--2012-05-29--Jenkins
+--a973a4c24f--2012-05-29--Jenkins
+--4ad9dfd145--2012-05-29--Jenkins
+--c249f2ba3a--2012-05-29--Jenkins
+--fef99637fc--2012-05-29--Jenkins
+--f28ad694b4--2012-05-29--Jenkins
+--48633d998c--2012-05-29--Jenkins
+--6f7247b7ba--2012-05-29--Jenkins
+--29e81afea5--2012-05-29--Jenkins
+--d2b0349168--2012-05-29--Jenkins
+--59d519c8c0--2012-05-29--Jenkins
+--9fc6d413d0--2012-05-29--Jenkins
+--abea091811--2012-05-29--Jenkins
+--1a7f5c9387--2012-05-29--Jenkins
+--9aaa51364c--2012-05-29--Jenkins
+--416b6301e4--2012-05-28--Jenkins
+--7867bbbec1--2012-05-28--Jenkins
+--c67ba42858--2012-05-28--Jenkins
+--9b5428cee2--2012-05-28--Jenkins
+--620b77b502--2012-05-28--Jenkins
+--790d541862--2012-05-28--Jenkins
+--6f8c2c3933--2012-05-28--Jenkins
+--7ca4f2be5a--2012-05-28--Jenkins
+--a78e956158--2012-05-28--Jenkins
+--5fa5889a35--2012-05-28--Jenkins
+--8251455f9f--2012-05-28--Jenkins
+--8070b200f6--2012-05-28--Jenkins
+--95982dbd93--2012-05-28--Jenkins
+--87578068f3--2012-05-28--Jenkins
+--581e5c417a--2012-05-28--Jenkins
+--067322226a--2012-05-28--Jenkins
+--750ffc7bcc--2012-05-28--Jenkins
+--05e5a91193--2012-05-28--Jenkins
+--47a70514f6--2012-05-28--Jenkins
+--e4e7a5b64e--2012-05-28--Jenkins
+--c8d85ef46a--2012-05-28--Jenkins
+--155e0b7174--2012-05-28--Jenkins
+--0e146a9d8b--2012-05-28--Jenkins
+--398f37ef9f--2012-05-25--Jenkins
+--6c8f6899fb--2012-05-25--Jenkins
+--23981cb6df--2012-05-25--Jenkins
+--905d26fe21--2012-05-25--Jenkins
+--f518f8c082--2012-05-25--Jenkins
+--104ff6b233--2012-05-25--Jenkins
+--834635d385--2012-05-25--Jenkins
+--c1308c3004--2012-05-25--Jenkins
+--c3c67115f7--2012-05-24--Tom Ward
+23	0	20120524151543_ensure_documents_can_only_belong_to_a_single_organisation.rb
+8	1	app/models/speech.rb
+2	2	test/functional/organisations_controller_test.rb
+10	0	test/unit/speech_test.rb

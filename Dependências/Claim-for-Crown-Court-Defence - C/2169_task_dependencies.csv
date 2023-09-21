@@ -1,0 +1,2 @@
+entity,coupled,degree,average-revs
+app/controllers/api/advocates/claims_controller.rb,spec/controllers/api/advocates/claims_controller_spec.rb,58,12

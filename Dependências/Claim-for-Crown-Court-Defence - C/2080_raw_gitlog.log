@@ -1,0 +1,12 @@
+--c05a587ac--2015-05-13--Todd Tyree
+--fced13f43--2015-05-13--Stephen Strudwick
+--e072e401e--2015-05-13--Himal Mandalia
+5	4	app/views/advocates/claims/index.html.haml
+12	0	features/advocate_claims_list.feature
+27	2	features/step_definitions/advocate_claims_list_steps.rb
+
+--98d56d259--2015-05-13--Todd Tyree
+2	0	app/models/advocate.rb
+2	0	app/models/case_worker.rb
+11	0	app/models/claim.rb
+2	0	app/models/fee.rb

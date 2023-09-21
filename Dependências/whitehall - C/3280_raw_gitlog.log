@@ -1,0 +1,148 @@
+--a87ad7f989--2013-05-10--Matthew Ford
+--517e83cd7a--2013-05-10--Murray Steele
+--eeaa375c96--2013-05-10--Matthew Ford
+11	0	db/data_migration/20130510134629_add_summary_to_doc_series.rb
+
+--99e6df6caa--2013-05-10--Murray Steele
+5	3	script/create_missing_partner_topics.rb
+
+--da60f19d8b--2013-05-09--Matthew Ford
+7	7	config/locales/zh.yml
+
+--c91eb94835--2013-05-09--Murray Steele
+1	2	features/step_definitions/organisation_steps.rb
+2	4	features/viewing-organisations.feature
+
+--99b187406e--2013-05-09--Murray Steele
+5	0	config/locales/ar.yml
+5	0	config/locales/az.yml
+5	0	config/locales/be.yml
+5	0	config/locales/bg.yml
+5	0	config/locales/bn.yml
+5	0	config/locales/cs.yml
+5	0	config/locales/cy.yml
+5	0	config/locales/de.yml
+5	0	config/locales/dr.yml
+5	0	config/locales/el.yml
+5	0	config/locales/es-419.yml
+5	0	config/locales/es.yml
+5	0	config/locales/fa.yml
+5	0	config/locales/fr.yml
+5	0	config/locales/he.yml
+5	0	config/locales/hi.yml
+5	0	config/locales/hu.yml
+5	0	config/locales/hy.yml
+5	0	config/locales/id.yml
+5	0	config/locales/it.yml
+5	0	config/locales/ja.yml
+5	0	config/locales/ka.yml
+5	0	config/locales/ko.yml
+5	0	config/locales/lt.yml
+5	0	config/locales/lv.yml
+5	0	config/locales/ms.yml
+5	0	config/locales/pl.yml
+5	0	config/locales/ps.yml
+5	0	config/locales/pt.yml
+5	0	config/locales/ro.yml
+5	0	config/locales/ru.yml
+5	0	config/locales/si.yml
+5	0	config/locales/sk.yml
+5	0	config/locales/so.yml
+5	0	config/locales/sq.yml
+5	0	config/locales/sr.yml
+5	0	config/locales/sw.yml
+5	0	config/locales/ta.yml
+5	0	config/locales/th.yml
+5	0	config/locales/tk.yml
+5	0	config/locales/tr.yml
+5	0	config/locales/uk.yml
+5	0	config/locales/ur.yml
+5	0	config/locales/uz.yml
+5	0	config/locales/vi.yml
+5	0	config/locales/zh-hk.yml
+5	0	config/locales/zh-tw.yml
+5	0	config/locales/zh.yml
+
+--b071a671d5--2013-05-09--Murray Steele
+1	1	Gemfile
+5	5	Gemfile.lock
+
+--c7dafb7488--2013-05-09--Murray Steele
+--3b2847954a--2013-05-09--Murray Steele
+37	0	app/assets/stylesheets/frontend/views/_organisations.scss
+
+--dce7d5ad20--2013-05-09--Murray Steele
+0	12	app/views/organisations/_corporate_information.html.erb
+13	15	app/views/organisations/show.html.erb
+5	0	config/locales/en.yml
+
+--e55d4bf045--2013-05-08--Murray Steele
+1	1	app/views/organisations/show-executive-office.html.erb
+1	1	app/views/organisations/show.html.erb
+
+--26b8e4f467--2013-05-03--Murray Steele
+1	0	app/views/admin/worldwide_offices/_worldwide_office.html.erb
+
+--61eda28c23--2013-05-03--Murray Steele
+2	1	features/managing-contact-details-on-homepages.feature
+16	0	features/step_definitions/contact_and_office_featuring_steps.rb
+
+--ac03a33af8--2013-05-03--Murray Steele
+11	3	app/views/organisations/_corporate_information.html.erb
+9	0	app/views/organisations/show.html.erb
+
+--440acc46f2--2013-05-03--Murray Steele
+1	0	app/controllers/organisations_controller.rb
+3	0	app/models/organisation.rb
+10	0	app/views/admin/contacts/index.html.erb
+15	2	app/views/organisations/show.html.erb
+2	2	features/step_definitions/contact_and_office_featuring_steps.rb
+14	0	test/unit/organisation_test.rb
+
+--302853876b--2013-05-03--Murray Steele
+1	1	app/views/organisations/show-executive-office.html.erb
+
+--854ad89894--2013-05-03--Murray Steele
+11	0	app/helpers/admin/organisation_helper.rb
+6	0	app/models/organisation.rb
+7	5	app/views/admin/contacts/_contact.html.erb
+6	2	app/views/admin/contacts/_form.html.erb
+24	2	test/unit/organisation_test.rb
+
+--d278438a54--2013-05-03--Murray Steele
+19	1	app/models/contact.rb
+19	0	app/models/contact_type.rb
+1	0	app/views/admin/contacts/_contact.html.erb
+10	0	app/views/admin/contacts/_contact_type_details_form.html.erb
+1	0	app/views/admin/contacts/_form.html.erb
+1	0	app/views/admin/worldwide_offices/_form.html.erb
+1	0	app/views/admin/worldwide_offices/_worldwide_office.html.erb
+8	0	db/migrate/20130502095719_add_contact_type_to_contacts.rb
+2	0	db/schema.rb
+1	1	features/step_definitions/contact_and_office_featuring_steps.rb
+3	1	features/support/contact_helper.rb
+1	0	test/factories/contacts.rb
+40	17	test/functional/admin/contacts_controller_test.rb
+74	17	test/functional/admin/worldwide_offices_controller_test.rb
+1	0	test/support/organisation_controller_test_helpers.rb
+5	0	test/unit/contact_test.rb
+8	0	test/unit/contact_type_test.rb
+
+--01db5a74bb--2013-05-03--Murray Steele
+8	0	features/managing-contact-details-on-homepages.feature
+26	0	features/step_definitions/contact_and_office_featuring_steps.rb
+4	1	features/support/contact_helper.rb
+
+--8b16b812e1--2013-05-03--Murray Steele
+1	1	features/administering-worldwide-organisations.feature
+3	17	features/step_definitions/contact_and_office_featuring_steps.rb
+1	3	features/step_definitions/organisation_steps.rb
+5	10	features/step_definitions/worldwide_organisation_steps.rb
+24	0	features/support/contact_helper.rb
+
+--d41dac2628--2013-05-09--Matthew Ford
+5	0	test/unit/whitehall/slugging_test.rb
+
+--3855eb1ff9--2013-05-08--Matthew Ford
+5	1	app/models/edition.rb
+13	0	test/unit/whitehall/slugging_test.rb

@@ -1,0 +1,66 @@
+--6693ff7655--2016-11-24--Murray Steele
+--9338f41a31--2016-11-24--Tijmen Brommet
+--ebb25a0c0a--2016-11-24--Graham Pengelly
+--8cbc3519e1--2016-11-24--David Silva
+--aaff0474b0--2016-11-24--Tijmen Brommet
+2	1	lib/finders/statistical_data_sets.json
+
+--2fc61193b7--2016-11-24--Tijmen Brommet
+1	1	lib/finders/statistical_data_sets.json
+
+--6eb6677290--2016-11-24--Tijmen Brommet
+--8bf62be066--2016-11-24--Ruben Arakelyan
+--3233b821af--2016-11-24--Graham Pengelly
+--fb39a361dd--2016-11-23--David Silva
+5	0	app/presenters/embassy_presenter.rb
+
+--b4f579489e--2016-11-23--Ruben Arakelyan
+0	4	app/controllers/policy_groups_controller.rb
+0	31	app/views/policy_groups/index.html.erb
+1	1	config/routes.rb
+0	5	features/policy-groups.feature
+0	12	features/step_definitions/policy_group_steps.rb
+
+--da9f9ed032--2016-11-23--Murray Steele
+11	1	app/helpers/world_location_helper.rb
+6	0	features/step_definitions/world_location_steps.rb
+4	0	features/support/selectors.rb
+17	0	features/world-locations.feature
+
+--bcf2ff27ab--2016-11-23--Ruben Arakelyan
+--2f6a2c031c--2016-11-23--Ruben Arakelyan
+--107e0f8114--2016-11-23--Tijmen Brommet
+--20e9c3ea75--2016-11-21--Katie Smith
+29	0	lib/finders/statistical_data_sets.json
+
+--c623a2ec77--2016-11-23--Matteo Grassotti
+--a0013b0bf9--2016-11-23--Ruben Arakelyan
+1	27	app/models/organisation.rb
+1	1	app/workers/publishing_api_services_and_information_worker.rb
+1	1	lib/tasks/publish_services_and_information_pages.rake
+3	3	test/unit/workers/publishing_api_services_and_information_worker_test.rb
+
+--d2da6978f6--2016-11-22--Ruben Arakelyan
+1	6	app/controllers/worldwide_organisations_controller.rb
+0	31	app/views/worldwide_organisations/index.html.erb
+1	1	config/routes.rb
+0	21	features/step_definitions/worldwide_organisation_steps.rb
+0	6	features/worldwide-organisations.feature
+
+--1ee67e4091--2016-11-22--Graham Pengelly
+11	18	app/workers/publishing_api_document_republishing_worker.rb
+2	2	test/unit/workers/publishing_api_document_republishing_worker_test.rb
+
+--059352fb47--2016-11-22--Graham Pengelly
+25	5	app/workers/publishing_api_html_attachments_worker.rb
+103	3	test/unit/workers/publishing_api_html_attachments_worker_test.rb
+
+--02246224d9--2016-11-22--Christopher Baines
+1	1	jenkins.sh
+
+--710cf2554a--2016-11-21--Matteo Grassotti
+5	1	app/presenters/publishing_api/publication_presenter.rb
+8	0	test/unit/presenters/publishing_api/publication_presenter_test.rb
+
+--9125eafebe--2016-11-21--Graham Pengelly
+10	0	db/data_migration/20161121164046_update_html_attachment_content_ids.rb

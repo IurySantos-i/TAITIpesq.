@@ -1,0 +1,210 @@
+--ddb00baf--2015-06-16--Murray Steele
+--01c117e5--2015-06-16--Alexander Bobin
+--9f1fc6da--2015-06-16--Otto Laitila
+2	2	app/models/petition.rb
+1	0	features/step_definitions/petition_steps.rb
+16	10	spec/models/petition_spec.rb
+
+--ba5f44b7--2015-06-12--Otto Laitila
+6	0	app/models/petition.rb
+19	0	spec/models/petition_spec.rb
+
+--89416819--2015-06-12--Otto Laitila
+4	0	app/models/petition.rb
+1	0	config/locales/petitions.en-GB.yml
+10	0	features/step_definitions/petition_steps.rb
+12	0	features/suzie_views_all_petitions.feature
+12	0	spec/models/petition_spec.rb
+
+--ef207d66--2015-06-12--Otto Laitila
+5	0	db/migrate/20150615131623_add_parliament_response_at_to_petitions.rb
+4	1	db/structure.sql
+
+--4b428b81--2015-06-16--Murray Steele
+--aa2b741c--2015-06-12--Paula Stepinska
+0	4	app/models/staged/petition_creator/replay_petition.rb
+12	12	app/models/staged/petition_creator/stages.rb
+1	1	app/views/petitions/create/_petition_details_ui.html.erb
+23	17	features/charlie_creates_a_petition.feature
+30	30	spec/models/staged/petition_creator_spec.rb
+
+--cd56b2b5--2015-06-16--Murray Steele
+--1f9f7ed3--2015-06-12--David Basalla
+3	0	app/views/admin/petitions/edit_response.html.erb
+11	2	app/views/petitions/show.html.erb
+
+--dc887bdc--2015-06-12--David Basalla
+13	5	app/controllers/admin/petitions_controller.rb
+
+--0bce26ae--2015-06-12--David Basalla
+8	1	app/models/petition.rb
+
+--9a0f23f0--2015-06-12--David Basalla
+5	0	db/migrate/20150612111204_add_petition_summary_to_petition.rb
+4	1	db/structure.sql
+
+--258694cf--2015-06-12--David Basalla
+28	23	spec/models/petition_spec.rb
+
+--b1dcbdbd--2015-06-12--David Basalla
+4	4	spec/controllers/admin/petitions_controller_spec.rb
+4	0	spec/factories.rb
+39	3	spec/models/petition_spec.rb
+
+--9a12fb6f--2015-06-12--David Basalla
+4	1	features/admin/threshold.feature
+1	0	features/step_definitions/moderation_steps.rb
+5	0	features/step_definitions/petition_steps.rb
+6	0	features/step_definitions/threshold_steps.rb
+9	0	features/suzie_views_a_petition.feature
+
+--7b8badfd--2015-06-16--Alexander Bobin
+--edad9024--2015-06-15--David Basalla
+12	12	spec/controllers/signatures_controller_spec.rb
+
+--03257b55--2015-06-15--David Basalla
+18	1	spec/controllers/signatures_controller_spec.rb
+
+--d3880ae8--2015-06-10--David Basalla
+11	4	app/controllers/signatures_controller.rb
+
+--7e2d0f72--2015-06-10--David Basalla
+9	0	features/laura_signs_charlies_petition_as_a_sponsor.feature
+16	1	features/step_definitions/sponsor_steps.rb
+
+--b2efd9eb--2015-06-12--Murray Steele
+4	0	app/views/local_petitions/index.html.erb
+2	1	features/freya_searches_for_petitions_by_constituency.feature
+9	3	features/step_definitions/constituency_search_steps.rb
+
+--55935d3c--2015-06-10--Murray Steele
+8	0	spec/fixtures/constituency_api/no_mps.xml
+7	0	spec/lib/constituency_api_spec.rb
+
+--5266fc1e--2015-06-10--Murray Steele
+15	11	app/views/local_petitions/index.html.erb
+
+--5c13417c--2015-06-10--Murray Steele
+1	0	app/controllers/local_petitions_controller.rb
+13	0	app/views/local_petitions/index.html.erb
+8	0	config/locales/petitions.en-GB.yml
+11	0	spec/controllers/local_petitions_controller_spec.rb
+
+--5d75710c--2015-06-10--Murray Steele
+6	5	features/freya_searches_for_petitions_by_constituency.feature
+19	2	features/step_definitions/constituency_search_steps.rb
+1	0	features/step_definitions/petition_steps.rb
+
+--028310d1--2015-06-10--Murray Steele
+8	0	app/models/constituency_petition_journal.rb
+13	0	app/models/petition.rb
+60	0	spec/models/petition_spec.rb
+
+--496a4bad--2015-06-10--Murray Steele
+5	0	app/models/constituency_petition_journal.rb
+7	2	app/models/signature.rb
+1	1	features/step_definitions/constituency_search_steps.rb
+50	0	spec/models/constituency_petition_journal_spec.rb
+11	0	spec/models/signature_spec.rb
+
+--f161bea9--2015-06-10--Murray Steele
+11	0	app/models/constituency_petition_journal.rb
+69	0	spec/models/constituency_petition_journal_spec.rb
+
+--9cb96cfa--2015-06-10--Murray Steele
+8	0	app/models/constituency_petition_journal.rb
+13	0	db/migrate/20150610091149_create_constituency_petition_journals.rb
+57	0	db/structure.sql
+6	0	spec/factories.rb
+24	0	spec/models/constituency_petition_journal_spec.rb
+
+--34445202--2015-06-09--Murray Steele
+1	1	features/step_definitions/signature_steps.rb
+2	2	features/step_definitions/sponsor_steps.rb
+
+--1ec3a633--2015-06-09--Murray Steele
+1	0	app/controllers/petitions_controller.rb
+1	0	app/controllers/signatures_controller.rb
+1	0	app/controllers/sponsors_controller.rb
+5	0	app/models/signature.rb
+15	1	spec/controllers/petitions_controller_spec.rb
+14	3	spec/controllers/signatures_controller_spec.rb
+10	0	spec/controllers/sponsors_controller_spec.rb
+18	0	spec/models/signature_spec.rb
+
+--3beb5c6a--2015-06-09--Murray Steele
+4	0	app/models/signature.rb
+38	6	spec/models/signature_spec.rb
+32	0	spec/support/constituency_api_helpers.rb
+
+--26cf1760--2015-06-09--Murray Steele
+2	19	features/step_definitions/constituency_search_steps.rb
+3	5	features/step_definitions/signature_steps.rb
+3	0	features/support/constituency_api.rb
+7	40	spec/controllers/local_petitions_controller_spec.rb
+2	9	spec/controllers/signatures_controller_spec.rb
+1	0	spec/factories.rb
+43	0	spec/support/constituency_api_helpers.rb
+
+--48999d03--2015-06-09--Murray Steele
+23	0	app/controllers/local_petitions_controller.rb
+7	0	app/views/local_petitions/_search.html.erb
+4	0	app/views/local_petitions/constituency_lookup_failed.html.erb
+3	0	app/views/local_petitions/index.html.erb
+3	0	app/views/local_petitions/no_postcode_provided.html.erb
+1	7	app/views/static_pages/home.html.erb
+116	0	spec/controllers/local_petitions_controller_spec.rb
+
+--404a646d--2015-06-09--Murray Steele
+6	6	app/lib/constituency_api.rb
+3	1	app/models/signature.rb
+5	0	lib/postcode_sanitizer.rb
+1	1	spec/lib/constituency_api_spec.rb
+19	0	spec/lib/postcode_sanitizer_spec.rb
+
+--3b62718e--2015-06-09--Murray Steele
+5	5	app/views/static_pages/home.html.erb
+
+--2c70ed80--2015-06-09--Murray Steele
+4	0	app/controllers/local_petitions_controller.rb
+0	0	app/views/local_petitions/index.html.erb
+3	0	features/support/paths.rb
+
+--5e5704a0--2015-06-09--Murray Steele
+2	0	app/controllers/local_petitions_controller.rb
+1	0	config/routes.rb
+7	0	spec/routing/local_petitions_spec.rb
+
+--24b3cf5b--2015-06-09--Murray Steele
+1	0	app/models/signature.rb
+5	0	db/migrate/20150609111042_add_constituency_id_to_signatures.rb
+4	1	db/structure.sql
+1	0	spec/models/signature_spec.rb
+
+--f003930d--2015-06-09--Murray Steele
+13	1	app/views/static_pages/home.html.erb
+4	1	features/step_definitions/constituency_search_steps.rb
+4	2	features/step_definitions/search_steps.rb
+7	15	features/suzie_searches_by_free_text.feature
+
+--d27c4f3a--2015-06-09--Murray Steele
+35	0	features/freya_searches_for_petitions_by_constituency.feature
+76	0	features/step_definitions/constituency_search_steps.rb
+13	0	features/step_definitions/petition_steps.rb
+2	0	spec/factories.rb
+
+--a33b193c--2015-06-09--Murray Steele
+5	5	app/lib/constituency_api.rb
+9	9	spec/lib/constituency_api_spec.rb
+
+--6a9a1d75--2015-06-15--Andrew White
+2	2	lib/tasks/data-generator.rake
+
+--a25dfbff--2015-06-15--Murray Steele
+--8970f0ba--2015-06-15--Murray Steele
+--dd56a863--2015-06-15--Pete Herlihy
+1	1	app/views/signatures/create/_signer_ui.html.erb
+
+--724f79ec--2015-06-15--Otto Laitila
+1	1	app/models/petition.rb
+2	2	features/suzie_views_all_petitions.feature

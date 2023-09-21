@@ -1,0 +1,53 @@
+--7fe2b9e9--2015-06-26--Murray Steele
+--78681ebe--2015-06-25--Pete Herlihy
+--cb9c6599--2015-06-25--Paula Stepinska
+2	0	app/views/archived/petitions/index.html.erb
+0	4	app/views/petitions/index.html.erb
+12	9	app/views/petitions/search/_filter_nav.html.erb
+2	3	features/joe_views_all_archived_petitions.feature
+
+--5a9fd843--2015-06-25--Paula Stepinska
+1	1	app/views/archived/petitions/index.html.erb
+3	0	app/views/petitions/search/_result_list_footer.html.erb
+1	3	app/views/petitions/search/_results.html.erb
+4	4	spec/helpers/search_helper_spec.rb
+
+--80ed2fd4--2015-06-25--Paula Stepinska
+5	5	app/controllers/archived/petitions_controller.rb
+1	0	app/models/archived_petition.rb
+11	11	app/views/archived/petitions/index.html.erb
+0	27	app/views/archived/petitions/search.html.erb
+1	3	config/routes.rb
+3	4	features/joe_searches_for_an_archived_petition.feature
+0	10	spec/routing/archived/petitions_spec.rb
+
+--6a9b7075--2015-06-24--Paula Stepinska
+6	0	app/assets/stylesheets/petitions/views/_search.scss
+4	0	app/assets/stylesheets/petitions/views/_shared.scss
+1	1	app/controllers/archived/petitions_controller.rb
+24	14	app/views/archived/petitions/index.html.erb
+9	16	app/views/archived/petitions/search.html.erb
+30	33	app/views/archived/petitions/show.html.erb
+4	0	app/views/petitions/index.html.erb
+0	0	app/views/petitions/search/_result_list_footer.html.erb
+
+--c0c143a0--2015-06-24--Paula Stepinska
+1	0	app/controllers/archived/petitions_controller.rb
+4	0	app/models/archived_petition.rb
+12	0	spec/models/archived_petition_spec.rb
+
+--b8ebc933--2015-06-24--Paula Stepinska
+3	3	features/joe_searches_for_an_archived_petition.feature
+25	0	features/joe_views_all_archived_petitions.feature
+3	3	features/joe_views_an_archived_petition.feature
+8	0	features/step_definitions/inspection_steps.rb
+
+--4d2386f6--2015-06-24--Murray Steele
+1	0	app/assets/javascripts/admin.js
+5	0	app/assets/javascripts/autosubmit_selects.js
+2	2	app/views/admin/petitions/index.html.erb
+1	1	app/views/layouts/admin.html.erb
+1	1	config/initializers/assets.rb
+1	1	features/admin/all_petitions.feature
+5	2	features/step_definitions/inspection_steps.rb
+1	2	features/step_definitions/moderation_steps.rb

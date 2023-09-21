@@ -1,0 +1,42 @@
+--4d1f52825--2015-08-05--jsugarman
+--7a3c252c9--2015-08-05--Joel Sugarman
+--9b4aed3a1--2015-08-05--Himal Mandalia
+0	2	app/controllers/advocates/claims_controller.rb
+1	6	app/controllers/application_controller.rb
+2	2	app/models/ability.rb
+0	8	app/views/advocates/claims/landing.html.haml
+0	2	config/locales/en.yml
+0	2	config/routes.rb
+1	1	features/sign_in.feature
+0	4	features/step_definitions/sign_in_steps.rb
+2	2	features/step_definitions/view_claim_evidence_steps.rb
+0	12	spec/controllers/advocates/claims_controller_spec.rb
+1	1	spec/controllers/application_controller_spec.rb
+2	2	spec/models/ability_spec.rb
+
+--821825ff4--2015-08-05--Himal Mandalia
+3	1	app/interfaces/api/v1/advocates/date_attended.rb
+3	1	app/interfaces/api/v1/advocates/defendant.rb
+3	1	app/interfaces/api/v1/advocates/expense.rb
+3	1	app/interfaces/api/v1/advocates/fee.rb
+3	1	app/interfaces/api/v1/advocates/representation_order.rb
+15	7	spec/api/v1/claims/date_attended_spec.rb
+14	6	spec/api/v1/claims/defendant_spec.rb
+15	6	spec/api/v1/claims/expense_spec.rb
+17	8	spec/api/v1/claims/fee_spec.rb
+18	9	spec/api/v1/claims/representation_order_spec.rb
+
+--b52b764a4--2015-08-04--Himal Mandalia
+16	15	app/interfaces/api/v1/advocates/claim.rb
+3	3	app/interfaces/api/v1/advocates/date_attended.rb
+4	4	app/interfaces/api/v1/advocates/defendant.rb
+4	4	app/interfaces/api/v1/advocates/expense.rb
+3	3	app/interfaces/api/v1/advocates/fee.rb
+3	8	app/interfaces/api/v1/advocates/representation_order.rb
+1	1	spec/api/v1/claims/claim_spec.rb
+1	1	spec/api/v1/claims/date_attended_spec.rb
+13	15	spec/api/v1/claims/defendant_spec.rb
+4	4	spec/api/v1/claims/expense_spec.rb
+4	4	spec/api/v1/claims/fee_spec.rb
+4	2	spec/api/v1/claims/representation_order_spec.rb
+0	1	spec/factories/claims.rb

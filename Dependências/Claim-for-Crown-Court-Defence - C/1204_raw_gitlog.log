@@ -1,0 +1,63 @@
+--659a70617--2015-11-24--Edward Andress
+--34be1fc65--2015-11-24--Edward Andress
+--edd729737--2015-11-24--Alistair Laing
+--e1853dd24--2015-11-24--jsugarman
+3	3	app/views/super_admins/advocates/index.html.haml
+1	1	app/views/super_admins/chambers/_form.html.haml
+4	0	config/locales/en.yml
+
+--b35d5ef93--2015-11-24--Himal Mandalia
+0	1	app/views/messages/show_control.js.erb
+
+--3168a2180--2015-11-24--Himal Mandalia
+1	1	app/assets/javascripts/modules/Messaging.js
+1	0	app/controllers/advocates/claims_controller.rb
+1	0	app/controllers/case_workers/claims_controller.rb
+12	0	app/controllers/concerns/message_controls_display.rb
+0	12	app/controllers/messages_controller.rb
+5	5	app/models/ability.rb
+1	1	app/views/shared/_messages.html.haml
+1	0	app/views/shared/show_message_controls.js.erb
+3	2	config/routes.rb
+6	7	spec/models/ability_spec.rb
+
+--d408a3d8f--2015-11-23--Alistair Laing
+1	1	app/views/shared/_messages.html.haml
+2	0	features/claim_messages.feature
+
+--49c51659d--2015-11-23--Alistair Laing
+1	1	app/assets/javascripts/modules/Messaging.js
+36	45	features/claim_messages.feature
+0	46	features/claim_redetermination.feature
+9	4	features/step_definitions/claim_messages_steps.rb
+0	9	features/step_definitions/claim_redetermination_steps.rb
+6	1	features/step_definitions/shared/claim_steps.rb
+2	0	spec/models/ability_spec.rb
+
+--f262eeb13--2015-11-20--Alistair Laing
+2	2	app/assets/javascripts/modules/Messaging.js
+2	3	app/controllers/messages_controller.rb
+5	5	app/views/shared/_message_controls.html.haml
+1	1	app/views/shared/_messages.html.haml
+1	4	config/routes.rb
+4	3	features/step_definitions/claim_messages_steps.rb
+
+--ce09e6b05--2015-11-17--Alistair Laing
+22	9	app/assets/javascripts/modules/Messaging.js
+13	0	app/controllers/messages_controller.rb
+1	1	app/models/ability.rb
+1	0	app/views/messages/show_control.js.erb
+28	0	app/views/shared/_message_controls.html.haml
+3	29	app/views/shared/_messages.html.haml
+4	0	config/routes.rb
+122	0	features/claim_messages.feature
+1	1	features/step_definitions/advocate_claims_list_steps.rb
+49	10	features/step_definitions/claim_messages_steps.rb
+7	0	features/step_definitions/shared/claim_steps.rb
+13	0	features/step_definitions/shared/navigation_in_app_steps.rb
+
+--1b1d8de20--2015-11-20--Tyom Semonov
+27	22	ux/user-journey-advocates.gv
+-	-	ux/user-journey-advocates.pdf
+5	2	ux/user-journey-caseworkers.gv
+-	-	ux/user-journey-caseworkers.pdf

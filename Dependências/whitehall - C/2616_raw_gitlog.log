@@ -1,0 +1,495 @@
+--23a852659c--2013-12-18--Dominic Baggott
+--afe2faf514--2013-12-18--Tekin Suleyman
+--467fb47c4c--2013-12-18--Tekin Suleyman
+--955175082a--2013-12-18--Will Tomlins
+1	3	app/assets/javascripts/common/proxifier.js
+
+--e957750f38--2013-12-18--Will Tomlins
+8	3	app/assets/javascripts/admin/views/editions/index.js
+13	13	test/javascripts/unit/admin/views/editions/index_test.js
+
+--e042a61e9f--2013-12-18--Dominic Baggott
+12	5	app/controllers/documents_controller.rb
+4	0	app/controllers/permissions_checker.rb
+0	4	app/controllers/supporting_pages_controller.rb
+22	2	test/support/document_controller_test_helpers.rb
+
+--88df352cc6--2013-12-18--David Heath
+1	1	app/helpers/admin/audit_trail_helper.rb
+
+--cc714f3839--2013-12-18--Dominic Baggott
+1	1	app/controllers/ministerial_roles_controller.rb
+0	6	app/models/edition/ministers.rb
+0	13	test/unit/edition_test.rb
+
+--f180fd2148--2013-12-17--Will Tomlins
+33	0	STYLEGUIDE.md
+12	9	app/assets/javascripts/admin/views/editions/index.js
+24	0	app/assets/javascripts/common/proxifier.js
+6	5	test/javascripts/unit/admin/views/editions/index_test.js
+44	0	test/javascripts/unit/common/proxifier_test.js
+
+--69a4671cf4--2013-12-17--Will Tomlins
+61	12	app/assets/javascripts/admin/views/editions/index.js
+5	1	app/controllers/admin/editions_controller.rb
+86	0	app/views/admin/editions/_search_results.html.erb
+3	88	app/views/admin/editions/index.html.erb
+7	0	test/functional/admin/editions_controller_test.rb
+82	0	test/javascripts/unit/admin/views/editions/index_test.js
+
+--e8e4dd7566--2013-12-12--Will Tomlins
+1	1	app/views/admin/editions/_filter_options.html.erb
+18	0	features/admin-filtering-documents.feature
+11	0	features/step_definitions/document_steps.rb
+
+--e3d264ad51--2013-12-12--Will Tomlins
+1	1	app/assets/javascripts/admin/views/editions/index.js
+24	26	app/assets/stylesheets/admin/views/_editions-index.scss
+7	0	app/controllers/admin/editions_controller.rb
+0	18	app/helpers/admin/editions_helper.rb
+46	79	app/views/admin/editions/_filter_options.html.erb
+5	3	features/support/edition_filtering_helper.rb
+10	0	test/functional/admin/editions_controller_test.rb
+
+--aff29432d0--2013-12-18--Dominic Baggott
+--a16a068abf--2013-12-18--Dominic Baggott
+10	13	app/controllers/admin/attachments_controller.rb
+
+--65186b04db--2013-12-18--Bradley Wright
+0	1	config/initializers/edition_services.rb
+
+--aa1dbd9c13--2013-12-18--Dominic Baggott
+17	11	app/controllers/admin/attachments_controller.rb
+
+--4159e0ce18--2013-12-18--Dominic Baggott
+1	1	app/controllers/admin/attachments_controller.rb
+2	3	app/views/admin/attachments/index.html.erb
+
+--94d78e4464--2013-12-18--Dominic Baggott
+37	25	app/controllers/admin/attachments_controller.rb
+1	1	app/views/admin/attachments/edit.html.erb
+7	7	app/views/admin/attachments/index.html.erb
+1	1	app/views/admin/attachments/new.html.erb
+
+--44bfaa193a--2013-12-18--layam
+--2e288ade48--2013-12-16--Tekin Suleyman
+10	8	test/integration/duplicate_attachment_cleanup_test.rb
+5	5	test/unit/attachable_test.rb
+3	3	test/unit/bulk_upload_test.rb
+10	9	test/unit/data_hygiene/dup_filename_attachment_fixer_test.rb
+
+--9ad60b704e--2013-12-16--Tekin Suleyman
+11	0	app/models/attachment.rb
+2	2	app/views/admin/attachments/edit.html.erb
+1	1	app/views/admin/attachments/index.html.erb
+2	2	app/views/admin/attachments/new.html.erb
+8	0	test/unit/attachment_test.rb
+
+--6dee8ca683--2013-12-17--David Heath
+1	1	app/helpers/admin/tabbed_nav_helper.rb
+
+--b43715e6f6--2013-12-17--David Heath
+1	1	app/views/admin/dashboard/index.html.erb
+1	1	config/routes.rb
+
+--3a329872c1--2013-12-17--David Heath
+-	-	app/assets/images/find_in_admin_bookmarklet_instructions/1.png
+-	-	app/assets/images/find_in_admin_bookmarklet_instructions/2.png
+-	-	app/assets/images/find_in_admin_bookmarklet_instructions/3.png
+-	-	app/assets/images/find_in_admin_bookmarklet_instructions/4.png
+-	-	app/assets/images/find_in_admin_bookmarklet_instructions/5.png
+-	-	app/assets/images/find_in_admin_bookmarklet_instructions/6.png
+-	-	app/assets/images/find_in_admin_bookmarklet_instructions/7.png
+11	0	app/controllers/admin/find_in_admin_bookmarklet_controller.rb
+0	16	app/views/admin/dashboard/find_in_admin_bookmarklet.html.erb
+0	0	app/views/admin/{dashboard/_find_in_admin.erb => find_in_admin_bookmarklet/_bookmarklet.erb}
+43	0	app/views/admin/find_in_admin_bookmarklet/ie.html.erb
+15	0	app/views/admin/find_in_admin_bookmarklet/index.html.erb
+24	0	app/views/admin/find_in_admin_bookmarklet/other.html.erb
+3	1	config/routes.rb
+
+--36f308b8db--2013-12-17--Tekin Suleyman
+--d9f2b0af73--2013-12-17--Tekin Suleyman
+1	1	app/models/attachment.rb
+
+--6fe537678c--2013-12-17--Dominic Baggott
+2	2	app/controllers/admin/corporate_information_pages_controller.rb
+1	1	app/controllers/admin/corporate_information_pages_translations_controller.rb
+3	0	app/controllers/corporate_information_pages_controller.rb
+1	0	app/helpers/translation_helper.rb
+0	4	app/models/corporate_information_page.rb
+5	0	app/presenters/use_slug_as_param.rb
+1	1	app/views/corporate_information_pages/show.html.erb
+2	2	app/views/organisations/_corporate_information.html.erb
+2	0	app/views/worldwide_organisations/_corporate_information.html.erb
+1	1	lib/whitehall/exporters/redirector_document_mappings.rb
+1	1	test/functional/admin/corporate_information_pages_translations_controller_test.rb
+3	3	test/functional/corporate_information_pages_controller_test.rb
+1	1	test/functional/organisations_controller_test.rb
+1	6	test/unit/corporate_information_page_test.rb
+4	4	test/unit/whitehall/exporters/redirector_document_mappings_test.rb
+
+--bfebffae3b--2013-12-17--Tekin Suleyman
+--93a9480473--2013-12-17--Dominic Baggott
+5	0	features/corporate-information-pages.feature
+15	0	features/step_definitions/corporate_information_page_steps.rb
+8	0	features/support/attachment_helper.rb
+26	0	features/support/corporate_information_page_helper.rb
+1	5	features/support/policy_advisory_group_helper.rb
+
+--f93f9b0864--2013-12-17--Dominic Baggott
+--8697a9d2ad--2013-12-17--Dominic Baggott
+1	1	app/controllers/html_attachments_controller.rb
+8	0	test/functional/html_attachments_controller_test.rb
+
+--53cb854b6a--2013-12-17--Dominic Baggott
+1	1	app/controllers/admin/editions_controller.rb
+
+--9a5467f0b1--2013-12-16--Dominic Baggott
+19	3	app/models/unpublishing.rb
+28	3	test/unit/unpublishing_test.rb
+
+--a310692527--2013-12-17--Tekin Suleyman
+1	0	lib/data_hygiene/duplicate_attachment_finder.rb
+
+--f9c15f035a--2013-12-17--David Heath
+--2f25ebdc71--2013-12-17--David Heath
+--471320e465--2013-12-17--David Heath
+12	7	app/views/admin/dashboard/_find_in_admin.erb
+
+--1d27a0ad8d--2013-12-17--David Heath
+1	1	app/views/admin/dashboard/find_in_admin_bookmarklet.html.erb
+
+--1406b53835--2013-12-17--Dominic Baggott
+--c076bf444e--2013-12-17--Elliot Crosby-McCullough
+--d8671bc4fb--2013-12-17--Tekin Suleyman
+2	0	app/controllers/topical_events_controller.rb
+18	0	test/functional/topical_events_controller_test.rb
+
+--bebd2922f2--2013-12-17--Dominic Baggott
+1	1	app/models/unpublishing.rb
+3	3	test/unit/unpublishing_test.rb
+
+--2b64b4ecff--2013-12-16--Dominic Baggott
+6	7	test/functional/html_attachments_controller_test.rb
+
+--79f0f4722a--2013-12-16--Dominic Baggott
+8	6	test/functional/html_attachments_controller_test.rb
+
+--71a6a67702--2013-12-17--David Heath
+--45b434f5cb--2013-12-17--Tekin Suleyman
+4	4	test/unit/data_hygiene/dup_filename_attachment_fixer_test.rb
+
+--e8772ee34b--2013-12-16--David Heath
+16	0	app/views/admin/dashboard/find_in_admin_bookmarklet.html.erb
+1	25	app/views/admin/dashboard/index.html.erb
+1	0	config/routes.rb
+
+--3ba142c5a0--2013-12-16--Jamie Cobbett
+3	1	lib/whitehall/exporters/mappings.rb
+9	0	test/unit/whitehall/exporters/mappings_test.rb
+
+--1c4765f403--2013-12-11--Jamie Cobbett
+5	3	lib/whitehall/exporters/mappings.rb
+
+--bb3739be86--2013-12-11--Jamie Cobbett
+4	0	config/schedule.rb
+21	0	lib/tasks/export.rake
+
+--86fec4c061--2013-12-11--Jamie Cobbett
+15	21	test/unit/whitehall/exporters/mappings_test.rb
+
+--785ce8090c--2013-12-11--Jamie Cobbett
+12	4	lib/whitehall/exporters/mappings.rb
+13	0	test/unit/whitehall/exporters/mappings_test.rb
+
+--bbe5694ccd--2013-12-11--Jamie Cobbett
+7	9	lib/whitehall/exporters/mappings.rb
+11	0	test/unit/whitehall/exporters/mappings_test.rb
+
+--cc80d02955--2013-12-11--Jamie Cobbett
+16	0	test/unit/whitehall/exporters/mappings_test.rb
+
+--c6d63e78c7--2013-12-11--Jamie Cobbett
+1	1	lib/whitehall/exporters/mappings.rb
+15	0	test/unit/whitehall/exporters/mappings_test.rb
+
+--27314c7d01--2013-12-10--Jamie Cobbett
+4	2	lib/whitehall/exporters/mappings.rb
+33	1	test/unit/whitehall/exporters/mappings_test.rb
+
+--89a124ca66--2013-12-10--Jamie Cobbett
+4	4	lib/whitehall/exporters/mappings.rb
+
+--2e87a3d1a4--2013-12-10--Jamie Cobbett
+4	2	lib/whitehall/exporters/mappings.rb
+8	0	test/unit/whitehall/exporters/mappings_test.rb
+
+--50a4b4868d--2013-12-10--Jamie Cobbett
+6	0	lib/whitehall/exporters/mappings.rb
+8	0	test/unit/whitehall/exporters/mappings_test.rb
+
+--885d1f2fe8--2013-12-10--Jamie Cobbett
+45	0	lib/whitehall/exporters/mappings.rb
+69	0	test/unit/whitehall/exporters/mappings_test.rb
+
+--19a75ca2ad--2013-12-10--Jamie Cobbett
+1	1	lib/tasks/export.rake
+2	2	lib/whitehall/exporters/{document_mappings.rb => redirector_document_mappings.rb}
+2	2	test/unit/whitehall/exporters/{document_mappings_test.rb => redirector_document_mappings_test.rb}
+
+--8c0a055003--2013-12-16--David Heath
+--4670450097--2013-12-16--Jamie Cobbett
+5	1	lib/whitehall/exporters/document_mappings.rb
+9	0	test/unit/whitehall/exporters/document_mappings_test.rb
+
+--4d6812b622--2013-12-16--Tekin Suleyman
+11	15	test/unit/bulk_upload_test.rb
+
+--875aaac8a3--2013-12-13--Tekin Suleyman
+11	0	db/data_migration/20131213165330_rename_non_edition_duplicate_attachment_files.rb
+19	0	lib/data_hygiene/duplicate_attachment_finder.rb
+
+--6479bf86d1--2013-12-13--Tekin Suleyman
+40	0	db/data_migration/20131211155648_rename_edition_duplicate_attachment_files.rb
+
+--501ff68a86--2013-12-13--Tekin Suleyman
+1	1	app/models/attachment.rb
+
+--9f2f864756--2013-12-12--Tekin Suleyman
+58	0	lib/data_hygiene/duplicate_attachment_finder.rb
+
+--95e47a85a4--2013-12-12--Tekin Suleyman
+70	0	lib/data_hygiene/duplicate_attachment_fixer.rb
+-	-	test/fixtures/whitepaper-1.pdf
+56	0	test/integration/duplicate_attachment_cleanup_test.rb
+8	0	test/test_helper.rb
+76	0	test/unit/data_hygiene/dup_filename_attachment_fixer_test.rb
+
+--37f3d02221--2013-12-16--Tekin Suleyman
+--77f5efc678--2013-12-16--David Heath
+12	1	lib/tasks/router.rake
+
+--f7d5e32e95--2013-12-16--Dominic Baggott
+0	37	app/controllers/admin/attachment_action_param_handler.rb
+
+--2ef8d8c7e3--2013-12-16--Tekin Suleyman
+1	1	app/views/admin/organisations/show.html.erb
+
+--f972a8e6b0--2013-12-13--Dominic Baggott
+5	3	app/views/admin/attachments/index.html.erb
+
+--eec531d2fa--2013-12-13--Dominic Baggott
+5	0	app/controllers/admin/attachments_controller.rb
+4	0	app/models/attachable.rb
+4	0	app/models/consultation.rb
+4	0	app/models/publication.rb
+5	3	app/views/admin/attachments/index.html.erb
+28	22	test/functional/admin/attachments_controller_test.rb
+
+--d32266c19b--2013-12-13--Dominic Baggott
+3	6	features/policy-advisory-groups.feature
+5	15	features/step_definitions/policy_advisory_group_steps.rb
+1	0	features/support/attachment_helper.rb
+0	10	features/support/document_helper.rb
+25	0	features/support/policy_advisory_group_helper.rb
+
+--eb7a3f09d5--2013-12-13--Dominic Baggott
+1	10	app/controllers/admin/policy_advisory_groups_controller.rb
+
+--6350867cb8--2013-12-13--Dominic Baggott
+2	2	app/views/admin/attachments/index.html.erb
+
+--6910da6022--2013-12-13--Dominic Baggott
+2	2	features/step_definitions/consultation_steps.rb
+0	4	features/support/document_helper.rb
+
+--246f2bff4b--2013-12-12--Dominic Baggott
+0	48	app/views/admin/shared/_attachment_fields.html.erb
+
+--e7a7b50326--2013-12-12--Dominic Baggott
+0	6	app/models/attachable.rb
+0	142	test/functional/admin/corporate_information_pages_controller_test.rb
+0	22	test/functional/admin/publications_controller_test.rb
+0	31	test/unit/attachable_test.rb
+
+--20848f61a0--2013-12-12--Dominic Baggott
+2	0	app/controllers/admin/attachments_controller.rb
+7	0	app/helpers/admin/tabbed_nav_helper.rb
+23	11	app/views/admin/policy_advisory_groups/_form.html.erb
+5	1	config/routes.rb
+1	0	test/functional/admin/attachments_controller_test.rb
+
+--6710e72599--2013-12-12--Dominic Baggott
+9	4	app/helpers/admin/attachable_helper.rb
+3	2	app/views/admin/attachments/index.html.erb
+0	2	test/functional/admin/attachments_controller_test.rb
+
+--876335900a--2013-12-11--Dominic Baggott
+80	89	test/functional/admin/attachments_controller_test.rb
+
+--fdfa1f33ff--2013-12-12--Dominic Baggott
+4	8	test/factories/responses.rb
+5	0	test/unit/consultation_outcome_test.rb
+5	0	test/unit/consultation_public_feedback_test.rb
+0	2	test/unit/response_test.rb
+
+--247f6cc6dd--2013-12-12--Dominic Baggott
+10	0	app/controllers/admin/attachments_controller.rb
+9	12	app/controllers/admin/base_controller.rb
+0	9	app/helpers/admin/attachable_helper.rb
+12	0	test/functional/admin/attachments_controller_test.rb
+
+--dde26cfdb6--2013-12-11--Dominic Baggott
+0	13	app/controllers/admin/corporate_information_pages_controller.rb
+0	94	test/functional/admin/corporate_information_pages_controller_test.rb
+
+--89178d4eda--2013-12-11--Dominic Baggott
+17	0	app/views/admin/attachments/_markdown_codes.html.erb
+10	1	app/views/admin/corporate_information_pages/_form.html.erb
+1	16	app/views/admin/editions/_inline_attachments_info.html.erb
+
+--691e369811--2013-12-11--Dominic Baggott
+7	0	app/helpers/admin/tabbed_nav_helper.rb
+13	10	app/views/admin/corporate_information_pages/edit.html.erb
+
+--48e657e29f--2013-12-11--Dominic Baggott
+2	0	app/controllers/admin/attachments_controller.rb
+5	0	config/routes.rb
+16	2	test/functional/admin/attachments_controller_test.rb
+
+--4f94730d19--2013-12-13--Ben Firshman
+--d89aeb7686--2013-12-13--russell thorn
+5	1	app/assets/stylesheets/frontend/views/_organisations.scss
+1	1	app/views/organisations/show.html.erb
+
+--920257e524--2013-12-13--Dominic Baggott
+--02c85ff969--2013-12-10--Will Tomlins
+59	0	app/views/admin/dashboard/_find_in_admin.erb
+25	0	app/views/admin/dashboard/index.html.erb
+
+--e8586ef53d--2013-12-13--Ben Firshman
+1	1	app/controllers/topics_controller.rb
+4	0	app/models/classification.rb
+9	0	test/functional/topics_controller_test.rb
+12	0	test/unit/classification_test.rb
+
+--a496b42a67--2013-12-12--Ben Firshman
+6	2	app/controllers/organisations_controller.rb
+9	0	test/functional/organisations_controller_test.rb
+
+--8e2e796e1f--2013-12-11--Ben Firshman
+1	1	app/controllers/documents_controller.rb
+5	0	app/models/edition/organisations.rb
+1	1	test/factories/organisations.rb
+2	2	test/support/document_controller_test_helpers.rb
+9	0	test/unit/edition/organisations_test.rb
+
+--6fdfabc061--2013-12-11--Ben Firshman
+1	0	app/controllers/policies_controller.rb
+1	0	app/controllers/worldwide_priorities_controller.rb
+
+--f9976a7a97--2013-12-11--Ben Firshman
+0	1	app/controllers/case_studies_controller.rb
+0	1	app/controllers/consultations_controller.rb
+0	1	app/controllers/detailed_guides_controller.rb
+0	1	app/controllers/document_collections_controller.rb
+2	1	app/controllers/documents_controller.rb
+0	1	app/controllers/fatality_notices_controller.rb
+0	1	app/controllers/news_articles_controller.rb
+0	1	app/controllers/policies_controller.rb
+0	1	app/controllers/publications_controller.rb
+0	1	app/controllers/speeches_controller.rb
+0	1	app/controllers/statistical_data_sets_controller.rb
+0	1	app/controllers/world_location_news_articles_controller.rb
+0	1	app/controllers/worldwide_priorities_controller.rb
+
+--26c37d48f4--2013-12-13--Tekin Suleyman
+3	0	app/views/organisations/_corporate_information.html.erb
+1	0	config/locales/ar.yml
+1	0	config/locales/az.yml
+1	0	config/locales/be.yml
+1	0	config/locales/bg.yml
+1	0	config/locales/bn.yml
+1	0	config/locales/cs.yml
+1	0	config/locales/cy.yml
+1	0	config/locales/de.yml
+1	0	config/locales/dr.yml
+1	0	config/locales/el.yml
+1	0	config/locales/en.yml
+1	0	config/locales/es-419.yml
+1	0	config/locales/es.yml
+1	0	config/locales/fa.yml
+1	0	config/locales/fr.yml
+1	0	config/locales/he.yml
+1	0	config/locales/hi.yml
+1	0	config/locales/hu.yml
+1	0	config/locales/hy.yml
+1	0	config/locales/id.yml
+1	0	config/locales/it.yml
+1	0	config/locales/ja.yml
+1	0	config/locales/ka.yml
+1	0	config/locales/ko.yml
+1	0	config/locales/lt.yml
+1	0	config/locales/lv.yml
+1	0	config/locales/ms.yml
+1	0	config/locales/pl.yml
+1	0	config/locales/ps.yml
+1	0	config/locales/pt.yml
+1	0	config/locales/ro.yml
+1	0	config/locales/ru.yml
+1	0	config/locales/si.yml
+1	0	config/locales/sk.yml
+1	0	config/locales/so.yml
+1	0	config/locales/sq.yml
+1	0	config/locales/sr.yml
+1	0	config/locales/sw.yml
+1	0	config/locales/ta.yml
+1	0	config/locales/th.yml
+1	0	config/locales/tk.yml
+1	0	config/locales/tr.yml
+1	0	config/locales/uk.yml
+1	0	config/locales/ur.yml
+1	0	config/locales/uz.yml
+1	0	config/locales/vi.yml
+1	0	config/locales/zh-hk.yml
+1	0	config/locales/zh-tw.yml
+1	0	config/locales/zh.yml
+
+--b790457b7f--2013-12-13--Tekin Suleyman
+3	0	app/views/admin/organisations/_form.html.erb
+2	1	app/views/admin/organisations/show.html.erb
+
+--7972f6a0f3--2013-12-13--Tekin Suleyman
+1	1	app/views/organisations/show.html.erb
+
+--df9a6ab2f5--2013-12-13--Tekin Suleyman
+1	0	app/models/organisation.rb
+5	0	db/migrate/20131212172829_add_organisation_chart_to_organisations.rb
+2	1	db/schema.rb
+
+--f0f42f9045--2013-12-11--layam
+--0bc50a63cf--2013-12-11--Tekin Suleyman
+--6e1caaba9b--2013-12-11--Elliot Crosby-McCullough
+59	0	db/data_migration/20131211101524_dcms_fix.rb
+
+--658716f24b--2013-12-11--Will Tomlins
+0	13	app/assets/javascripts/admin/edition_select_filter.js
+22	0	app/assets/javascripts/admin/views/editions/index.js
+2	2	app/views/admin/editions/_filter_options.html.erb
+2	0	app/views/admin/editions/index.html.erb
+
+--76f2861822--2013-12-06--Will Tomlins
+1	1	app/models/document_collection_group_membership.rb
+6	0	db/data_migration/20131206142442_remove_any_supporting_pages_from_document_collections.rb
+5	0	test/unit/models/document_collection_group_membership_test.rb
+
+--4abc131ae1--2013-12-06--Will Tomlins
+10	12	app/controllers/admin/document_collection_group_memberships_controller.rb
+4	0	app/models/document.rb
+1	0	app/models/document_collection_group.rb
+14	0	app/models/document_collection_group_membership.rb
+6	0	test/factories/document_collection_group_membership.rb
+4	6	test/functional/admin/document_collection_group_memberships_controller_test.rb
+4	0	test/unit/document_test.rb
+13	0	test/unit/models/document_collection_group_membership_test.rb

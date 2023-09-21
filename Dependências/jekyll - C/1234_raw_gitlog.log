@@ -1,0 +1,20 @@
+--6723db815--2014-10-20--Parker Moore
+--996db6912--2014-10-20--Parker Moore
+2	0	History.markdown
+
+--c77d06446--2014-10-20--Parker Moore
+--68c0e8f84--2014-10-20--Glauco Custódio
+1	1	lib/jekyll/utils.rb
+1	1	site/_docs/plugins.md
+
+--4b4a46579--2014-10-18--Parker Moore
+0	1	History.markdown
+
+--c95f4c0f5--2014-10-18--Parker Moore
+--078b2785e--2014-10-18--Parker Moore
+2	2	features/permalinks.feature
+1	1	lib/jekyll/post.rb
+1	1	test/test_post.rb
+
+--1d726a87b--2014-10-18--Frederic Hemberger
+4	3	site/_docs/permalinks.md

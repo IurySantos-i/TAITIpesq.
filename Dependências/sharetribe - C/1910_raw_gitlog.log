@@ -1,0 +1,441 @@
+--05a528a60--2014-08-28--Mikko Koski
+--a79b0ec9b--2014-08-22--Antti Virolainen
+1	0	config/locales/ab.yml
+1	0	config/locales/ca.yml
+1	0	config/locales/cs.yml
+1	0	config/locales/da-DK.yml
+1	0	config/locales/de-bl.yml
+1	0	config/locales/de-rc.yml
+1	0	config/locales/de.yml
+1	0	config/locales/el.yml
+1	0	config/locales/en-at.yml
+1	0	config/locales/en-bd.yml
+1	0	config/locales/en-bf.yml
+1	0	config/locales/en-bl.yml
+1	0	config/locales/en-cf.yml
+1	0	config/locales/en-qr.yml
+1	0	config/locales/en-rc.yml
+1	0	config/locales/en-sb.yml
+1	0	config/locales/en-ul.yml
+1	0	config/locales/en-un.yml
+1	0	config/locales/en-vg.yml
+1	0	config/locales/es-ES.yml
+1	0	config/locales/es-rc.yml
+1	0	config/locales/es.yml
+1	0	config/locales/fi.yml
+1	0	config/locales/fr-at.yml
+1	0	config/locales/fr-bd.yml
+1	0	config/locales/fr-rc.yml
+38	37	config/locales/fr.yml
+1	0	config/locales/hr.yml
+1	0	config/locales/hu.yml
+1	0	config/locales/it.yml
+1	0	config/locales/lv.yml
+1	0	config/locales/nl.yml
+1	0	config/locales/pt-BR.yml
+1	0	config/locales/ro.yml
+1	0	config/locales/ru.yml
+1	0	config/locales/sv.yml
+1	0	config/locales/sw.yml
+1	0	config/locales/vi.yml
+1	0	config/locales/zh.yml
+1	0	public/404.ca.html
+1	0	public/404.de-bl.html
+1	0	public/404.de-rc.html
+1	0	public/404.de.html
+1	0	public/404.el.html
+1	0	public/404.en-at.html
+1	0	public/404.en-bd.html
+1	0	public/404.en-bf.html
+1	0	public/404.en-bl.html
+1	0	public/404.en-cf.html
+1	0	public/404.en-qr.html
+1	0	public/404.en-rc.html
+1	0	public/404.en-sb.html
+1	0	public/404.en-ul.html
+1	0	public/404.en-un.html
+1	0	public/404.en-vg.html
+1	0	public/404.en.html
+1	0	public/404.es-ES.html
+1	0	public/404.es-rc.html
+1	0	public/404.es.html
+1	0	public/404.fi.html
+1	0	public/404.fr-at.html
+1	0	public/404.fr-bd.html
+1	0	public/404.fr-rc.html
+1	0	public/404.fr.html
+1	0	public/404.hr.html
+1	0	public/404.html
+1	0	public/404.it.html
+1	0	public/404.nl.html
+1	0	public/404.pt-BR.html
+1	0	public/404.ro.html
+1	0	public/404.ru.html
+1	0	public/404.sv.html
+1	0	public/404.sw.html
+1	0	public/404.vi.html
+1	0	public/404.zh.html
+1	0	public/500.ca.html
+1	0	public/500.de-bl.html
+1	0	public/500.de-rc.html
+1	0	public/500.de.html
+1	0	public/500.el.html
+1	0	public/500.en-at.html
+1	0	public/500.en-bd.html
+1	0	public/500.en-bf.html
+1	0	public/500.en-bl.html
+1	0	public/500.en-cf.html
+1	0	public/500.en-qr.html
+1	0	public/500.en-rc.html
+1	0	public/500.en-sb.html
+1	0	public/500.en-ul.html
+1	0	public/500.en-un.html
+1	0	public/500.en-vg.html
+1	0	public/500.en.html
+1	0	public/500.es-ES.html
+1	0	public/500.es-rc.html
+1	0	public/500.es.html
+1	0	public/500.fi.html
+1	0	public/500.fr-at.html
+1	0	public/500.fr-bd.html
+1	0	public/500.fr-rc.html
+1	0	public/500.fr.html
+1	0	public/500.hr.html
+1	0	public/500.html
+1	0	public/500.it.html
+1	0	public/500.nl.html
+1	0	public/500.pt-BR.html
+1	0	public/500.ro.html
+1	0	public/500.ru.html
+1	0	public/500.sv.html
+1	0	public/500.sw.html
+1	0	public/500.vi.html
+1	0	public/500.zh.html
+
+--327fd494b--2014-08-22--Antti Virolainen
+--5f7ea096d--2014-08-22--Mikko Koski
+1	1	features/conversations/booking_transaction_process.feature
+13	4	features/step_definitions/listing_steps.rb
+
+--6185e072a--2014-08-22--Mikko Koski
+10	0	app/controllers/admin/community_customizations_controller.rb
+
+--f1182ec75--2014-08-22--Mikko Koski
+3	3	app/controllers/admin/community_customizations_controller.rb
+1	1	app/views/admin/community_customizations/edit_details.haml
+1	1	app/views/listing_conversations/_transaction_agreement_checkbox.haml
+
+--6bd4df9f1--2014-08-22--Mikko Koski
+1	0	features/conversations/booking_transaction_process.feature
+1	0	features/conversations/preauthorization.feature
+4	4	features/step_definitions/listing_steps.rb
+
+--3104660c9--2014-08-22--Olli Vanhapiha
+1	0	config/locales/ab.yml
+1	0	config/locales/ca.yml
+1	0	config/locales/cs.yml
+1	0	config/locales/da-DK.yml
+1	0	config/locales/de-bl.yml
+1	0	config/locales/de-rc.yml
+1	0	config/locales/de.yml
+1	0	config/locales/el.yml
+1	0	config/locales/en-at.yml
+1	0	config/locales/en-bd.yml
+1	0	config/locales/en-bf.yml
+1	0	config/locales/en-bl.yml
+1	0	config/locales/en-cf.yml
+1	0	config/locales/en-qr.yml
+1	0	config/locales/en-rc.yml
+1	0	config/locales/en-sb.yml
+1	0	config/locales/en-ul.yml
+1	0	config/locales/en-un.yml
+1	0	config/locales/en-vg.yml
+1	1	config/locales/en.yml
+1	0	config/locales/es-ES.yml
+1	0	config/locales/es-rc.yml
+1	0	config/locales/es.yml
+1	0	config/locales/fi.yml
+1	0	config/locales/fr-at.yml
+1	0	config/locales/fr-bd.yml
+1	0	config/locales/fr-rc.yml
+2	1	config/locales/fr.yml
+1	0	config/locales/hr.yml
+1	0	config/locales/hu.yml
+1	0	config/locales/it.yml
+1	0	config/locales/lv.yml
+1	0	config/locales/nl.yml
+1	0	config/locales/pt-BR.yml
+1	0	config/locales/ro.yml
+1	0	config/locales/ru.yml
+1	0	config/locales/sv.yml
+1	0	config/locales/sw.yml
+1	0	config/locales/vi.yml
+1	0	config/locales/zh.yml
+
+--05df026b3--2014-08-22--Olli Vanhapiha
+--ad660ff33--2014-08-22--Mikko Koski
+1	1	config/locales/en.yml
+
+--733ee4f73--2014-08-22--Olli Vanhapiha
+15	0	config/initializers/money.rb
+
+--ea46af568--2014-08-22--Mikko Koski
+10	0	app/controllers/listing_conversations_controller.rb
+1	0	config/locales/en.yml
+
+--261d2c253--2014-08-22--sktoiva
+--502c47e21--2014-08-22--Mikko Koski
+3	2	app/views/layouts/_global-header.haml
+
+--754544ff8--2014-08-22--Mikko Koski
+--b682452a1--2014-08-22--Mikko Koski
+19	6	app/controllers/errors_controller.rb
+
+--22d3264f1--2014-08-15--Mikko Koski
+1	1	Gemfile
+3	3	Gemfile.lock
+11	0	app/controllers/errors_controller.rb
+2	2	app/controllers/feedbacks_controller.rb
+3	1	app/mailers/person_mailer.rb
+1	0	app/views/errors/_error_layout.haml
+6	0	app/views/person_mailer/new_feedback.html.haml
+1	0	config/application.rb
+1	1	config/routes.rb
+
+--cdca42626--2014-08-21--Mikko Koski
+1	1	config/locales/en.yml
+
+--96c0c6698--2014-08-21--Mikko Koski
+1	2	app/controllers/admin/community_customizations_controller.rb
+
+--3de307439--2014-08-21--Mikko Koski
+1	2	app/assets/javascripts/admin/community_customizations.js
+4	4	app/helpers/communities_helper.rb
+
+--eb659c4db--2014-08-21--Mikko Koski
+1	1	app/controllers/listing_conversations_controller.rb
+3	3	features/admin/admin_edits_community_details.feature
+
+--faa073d19--2014-08-21--Mikko Koski
+2	2	config/locales/en.yml
+
+--2a19ec0a3--2014-08-21--Mikko Koski
+0	1	app/assets/javascripts/kassi.js
+
+--3402fa108--2014-08-21--Mikko Koski
+0	5	app/models/community.rb
+
+--deed1842d--2014-08-21--Mikko Koski
+--e57cc67b3--2014-08-21--Mikko Koski
+1	1	app/controllers/admin/communities_controller.rb
+1	1	app/views/admin/communities/braintree_payment_gateway.haml
+
+--70e7f32e9--2014-08-21--Mikko Koski
+10	2	app/controllers/admin/communities_controller.rb
+34	26	app/views/admin/communities/braintree_payment_gateway.haml
+1	0	config/locales/en.yml
+
+--bf37b28bf--2014-08-20--Vesa Luusua
+2	1	config/locales/ab.yml
+2	1	config/locales/ca.yml
+2	1	config/locales/cs.yml
+2	1	config/locales/da-DK.yml
+2	1	config/locales/de-bl.yml
+2	1	config/locales/de-rc.yml
+2	1	config/locales/de.yml
+2	1	config/locales/el.yml
+2	1	config/locales/en-at.yml
+2	1	config/locales/en-bd.yml
+2	1	config/locales/en-bf.yml
+2	1	config/locales/en-bl.yml
+2	1	config/locales/en-cf.yml
+2	1	config/locales/en-qr.yml
+2	1	config/locales/en-rc.yml
+2	1	config/locales/en-sb.yml
+2	1	config/locales/en-ul.yml
+2	1	config/locales/en-un.yml
+2	1	config/locales/en-vg.yml
+9	9	config/locales/en.yml
+2	1	config/locales/es-ES.yml
+2	1	config/locales/es-rc.yml
+2	1	config/locales/es.yml
+2	1	config/locales/fr-at.yml
+2	1	config/locales/fr-bd.yml
+2	1	config/locales/fr-rc.yml
+2	1	config/locales/fr.yml
+2	1	config/locales/hr.yml
+2	1	config/locales/hu.yml
+2	1	config/locales/it.yml
+2	1	config/locales/lv.yml
+2	1	config/locales/nl.yml
+2	1	config/locales/pt-BR.yml
+2	1	config/locales/ro.yml
+2	1	config/locales/ru.yml
+2	1	config/locales/sv.yml
+2	1	config/locales/sw.yml
+2	1	config/locales/vi.yml
+2	1	config/locales/zh.yml
+
+--393438fc5--2014-08-20--Vesa Luusua
+--c86e5f012--2014-08-20--Vesa Luusua
+5	5	app/views/listings/_listing_actions.haml
+
+--f7709e5b7--2014-08-20--Vesa Luusua
+5	1	app/controllers/admin/community_customizations_controller.rb
+1	1	app/views/admin/community_customizations/edit_details.haml
+5	0	db/migrate/20140820132249_add_transaction_agreement_in_use_to_community.rb
+4	1	db/structure.sql
+
+--7e1367eda--2014-08-20--Vesa Luusua
+25	0	app/assets/javascripts/admin/community_customizations.js
+1	0	app/assets/javascripts/application.js
+16	0	app/assets/stylesheets/views/admin/_communities.scss
+2	4	app/assets/stylesheets/views/admin/_custom_fields.css.scss
+6	0	app/helpers/communities_helper.rb
+2	2	app/views/admin/community_customizations/_locale_input_fields.haml
+3	3	app/views/admin/community_customizations/_locale_input_textarea.haml
+2	2	app/views/admin/community_customizations/edit_details.haml
+
+--cce76d5ca--2014-08-20--Mikko Koski
+20	1	app/helpers/listing_conversation_helper.rb
+2	1	config/locales/en.yml
+2	1	config/locales/fi.yml
+
+--5d4fcfc77--2014-08-20--Mikko Koski
+3	2	app/helpers/communities_helper.rb
+2	0	app/views/admin/community_customizations/_locale_input_textarea.haml
+0	2	app/views/admin/community_customizations/edit_details.haml
+6	0	config/locales/en.yml
+6	0	config/locales/fi.yml
+
+--99eedae62--2014-08-20--Olli Vanhapiha
+1	1	config/locales/fi.yml
+7	3	config/locales/pt-BR.yml
+
+--931b589c7--2014-08-20--sktoiva
+--4ef92a04a--2014-08-20--Sampo Toiva
+1	1	app/models/participation.rb
+
+--b976bb3a6--2014-08-20--Olli Vanhapiha
+--def2fe1ec--2014-08-20--Mikko Koski
+5	0	app/controllers/listing_conversations_controller.rb
+
+--9f204e876--2014-08-20--Mikko Koski
+0	1	app/views/listing_conversations/_agreement_lightbox.haml
+2	1	app/views/listing_conversations/_transaction_agreement_checkbox.haml
+
+--733216b4e--2014-08-20--Mikko Koski
+3	0	app/controllers/admin/community_customizations_controller.rb
+9	8	app/views/admin/community_customizations/edit_details.haml
+
+--15d432c9f--2014-08-20--Mikko Koski
+19	17	app/helpers/communities_helper.rb
+1	7	app/views/admin/community_customizations/edit_details.haml
+
+--37b47a280--2014-08-20--Mikko Koski
+21	23	app/controllers/admin/community_customizations_controller.rb
+5	5	app/helpers/communities_helper.rb
+2	2	app/views/admin/community_customizations/_locale_input_fields.haml
+2	2	app/views/admin/community_customizations/_locale_input_textarea.haml
+9	7	app/views/admin/community_customizations/edit_details.haml
+
+--cbe7cdbb8--2014-08-20--Olli Vanhapiha
+1	1	config/locales/en.yml
+1	1	config/locales/fi.yml
+1	1	features/admin/statistics_and_info/admin_views_transactions.feature
+
+--6b7f5c52a--2014-08-20--Olli Vanhapiha
+10	2	app/controllers/admin/community_transactions_controller.rb
+11	9	app/views/admin/community_transactions/index.haml
+1	1	db/structure.sql
+1	0	features/admin/statistics_and_info/admin_views_transactions.feature
+
+--f3aec9b20--2014-08-20--Mikko Koski
+3	12	app/models/community_customization.rb
+5	0	db/migrate/20140819134039_add_transaction_agreement_label_to_community_customization.rb
+7	0	db/migrate/20140819134055_add_transaction_agreement_content_to_community_customization.rb
+7	1	db/structure.sql
+
+--8aa46f026--2014-08-19--Vesa Luusua
+2	2	app/helpers/communities_helper.rb
+
+--1ae26727d--2014-08-19--Vesa Luusua
+54	6	app/helpers/communities_helper.rb
+13	9	app/views/admin/community_customizations/_locale_input_fields.haml
+10	9	app/views/admin/community_customizations/_locale_input_textarea.haml
+3	17	app/views/admin/community_customizations/edit_details.haml
+
+--3d045049b--2014-08-19--sktoiva
+--352b361b9--2014-08-19--Vesa Luusua
+4	2	app/assets/stylesheets/views/admin/_custom_fields.css.scss
+4	0	app/controllers/admin/community_customizations_controller.rb
+17	0	app/helpers/communities_helper.rb
+9	0	app/views/admin/community_customizations/_locale_input_fields.haml
+9	0	app/views/admin/community_customizations/_locale_input_textarea.haml
+11	0	app/views/admin/community_customizations/edit_details.haml
+
+--452ca12d6--2014-08-19--Sampo Toiva
+0	4	app/models/conversation.rb
+
+--9803989dd--2014-08-19--Sampo Toiva
+1	1	app/views/layouts/_global-header.haml
+
+--4f770062c--2014-08-19--Sampo Toiva
+28	43	app/views/layouts/_global-header.haml
+10	0	app/views/layouts/_header_anchors.haml
+6	0	app/views/layouts/_header_right_visible_tablet.haml
+
+--2ec44dda5--2014-08-19--Sampo Toiva
+1	1	app/models/transaction_transition.rb
+42	41	app/views/layouts/_global-header.haml
+
+--38d6ad78d--2014-08-19--Sampo Toiva
+13	7	app/models/conversation.rb
+1	1	app/views/layouts/_global-header.haml
+
+--5d213561e--2014-08-19--Sampo Toiva
+31	33	db/structure.sql
+
+--34d3d06f7--2014-08-18--Sampo Toiva
+0	17	app/models/person.rb
+0	2	app/views/layouts/_messages_badge.haml
+
+--ee5bc5b59--2014-08-18--Sampo Toiva
+1	1	app/controllers/conversations_controller.rb
+10	10	app/models/conversation.rb
+1	1	app/models/listing_conversation.rb
+1	1	app/views/layouts/_global-header.haml
+
+--0fda036e7--2014-08-18--Sampo Toiva
+3	1	app/controllers/conversations_controller.rb
+4	0	app/models/conversation.rb
+
+--d908ab691--2014-08-19--Mikko Koski
+30	12	app/assets/javascripts/kassi.js
+1	1	app/views/listing_conversations/preauthorize.haml
+
+--25904d5d0--2014-08-19--Mikko Koski
+1	6	app/views/listing_conversations/_agreement_lightbox.haml
+2	2	app/views/listing_conversations/_transaction_agreement_checkbox.haml
+
+--1df6da915--2014-08-19--Mikko Koski
+1	1	app/views/listing_conversations/_agreement_lightbox.haml
+
+--60305edd4--2014-08-19--Mikko Koski
+10	0	app/views/listing_conversations/_transaction_agreement_checkbox.haml
+1	10	app/views/listing_conversations/preauthorize.haml
+2	0	config/locales/en.yml
+2	0	config/locales/fi.yml
+
+--7c609c223--2014-08-19--Mikko Koski
+2	0	app/assets/javascripts/kassi.js
+5	0	app/models/community.rb
+6	1	app/models/community_customization.rb
+6	0	app/views/listing_conversations/_agreement_lightbox.haml
+12	8	app/views/listing_conversations/preauthorize.haml
+
+--97c43a663--2014-08-19--Mikko Koski
+7	0	app/assets/javascripts/kassi.js
+5	0	app/models/community_customization.rb
+2	0	app/models/listing_conversation.rb
+11	3	app/views/listing_conversations/preauthorize.haml

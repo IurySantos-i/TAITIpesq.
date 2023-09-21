@@ -1,0 +1,55 @@
+--0daa6a2368--2015-04-21--Paul Hayes
+--1e327c94f9--2015-04-21--David Singleton
+--f825ef8ca0--2015-04-21--Paul Hayes
+2	2	features/organisations.feature
+
+--5800f00c5d--2015-04-21--Paul Hayes
+0	5	config/initializers/organisations_transition_visualisation_feature_flag.rb
+2	0	lib/whitehall.rb
+
+--af85d2483d--2015-04-21--Paul Hayes
+1	10	app/helpers/organisation_helper.rb
+1	2	app/views/organisations/_index_section.html.erb
+7	14	app/views/organisations/index.html.erb
+0	19	test/unit/helpers/organisation_helper_test.rb
+
+--f463f2980f--2015-04-21--Paul Hayes
+1	1	app/views/organisations/_index_item_plain.html.erb
+1	3	app/views/organisations/_index_section.html.erb
+2	4	app/views/organisations/index.html.erb
+
+--02dad92b7a--2015-04-21--Paul Hayes
+0	12	app/presenters/organisations_index_presenter.rb
+0	19	test/unit/presenters/organisations_index_presenter_test.rb
+
+--926bc2cb15--2015-04-21--Paul Hayes
+0	10	app/assets/javascripts/application/filter-list-items.js
+
+--70e80e0f26--2015-04-21--Paul Hayes
+0	2	app/assets/stylesheets/frontend/base.scss
+0	12	app/assets/stylesheets/frontend/helpers/_horizontal-percent-bar.scss
+0	31	app/assets/stylesheets/frontend/views/organisations/_transition_state_visualisation.scss
+0	8	app/helpers/visualisations_helper.rb
+0	1	app/views/organisations/_index_section.html.erb
+0	5	app/views/organisations/_transition_state_visualisation.html.erb
+2	4	features/organisations.feature
+0	16	features/step_definitions/organisation_steps.rb
+0	9	test/unit/helpers/visualisations_helper_test.rb
+
+--d52f22844a--2015-04-21--David Singleton
+1	8	app/assets/stylesheets/frontend/views/_get-involved.scss
+0	18	app/assets/stylesheets/frontend/views/_how-gov-works.scss
+1	76	app/views/home/get_involved.html.erb
+11	8	app/views/home/how_government_works.html.erb
+
+--0ee0fcf065--2015-04-21--Vinay Patel
+--7b3fd5e012--2015-04-21--David Singleton
+--26a03783c6--2015-04-21--David Singleton
+75	0	lib/collection_data_reporter.rb
+5	0	lib/tasks/reporting.rake
+
+--46f73f2c30--2015-04-20--Vinay Patel
+5	5	app/helpers/public_document_routes_helper.rb
+1	1	app/views/admin/editions/_edition_view_edit_buttons.html.erb
+4	0	config/initializers/case_study_preview_host.rb
+1	0	lib/whitehall.rb

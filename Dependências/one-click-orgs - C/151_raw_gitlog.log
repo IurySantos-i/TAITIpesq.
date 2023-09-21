@@ -1,0 +1,168 @@
+--7b388e63--2011-08-18--Chris Mear
+--29702a92--2011-08-08--Chris Mear
+1	0	features/step_definitions/proposal_steps.rb
+
+--898007cd--2011-08-18--Chris Mear
+1	1	Gemfile
+4	4	Gemfile.lock
+
+--c054f737--2011-08-14--Chris Mear
+1	1	HACKING.md
+
+--673db760--2011-08-17--Chris Mear
+0	10	spec/helpers/global_helpers_spec.rb.aside
+
+--42d777f3--2011-08-12--Chris Mear
+4	0	app/views/constitutions/company/show.html.haml
+
+--4e6eb69c--2011-08-12--Chris Mear
+1	1	app/models/company.rb
+2	2	spec/models/company_spec.rb
+
+--9a241c63--2011-08-12--Chris Mear
+1	1	app/mailers/members_mailer.rb
+1	1	app/models/director.rb
+0	0	app/views/members_mailer/{new_director_notification.text.erb => notify_new_director.text.erb}
+
+--89687b41--2011-08-12--Chris Mear
+1	0	app/controllers/directors_controller.rb
+9	9	app/mailers/members_mailer.rb
+6	0	app/models/director.rb
+8	0	app/views/members_mailer/notify_director_stand_down.text.erb
+5	0	features/company_running/standing_down_director.feature
+5	0	features/step_definitions/director_steps.rb
+1	1	features/step_definitions/email_steps.rb
+1	1	spec/controllers/directors_controller_spec.rb
+
+--97645349--2011-08-12--Chris Mear
+5	0	features/company_running/adding_a_director.feature
+12	0	features/step_definitions/director_steps.rb
+8	0	features/step_definitions/email_steps.rb
+
+--b6302738--2011-08-12--Chris Mear
+1	1	app/mailers/members_mailer.rb
+6	1	app/views/members_mailer/new_director_notification.text.erb
+
+--9bbefc1e--2011-08-11--Chris Mear
+4	2	app/models/member.rb
+19	0	features/company_running/accepting_an_invitation.feature
+5	0	features/step_definitions/email_steps.rb
+6	0	features/step_definitions/user_steps.rb
+
+--92bec1fa--2011-08-09--Chris Mear
+--40b404b1--2011-08-09--Chris Mear
+1	2	features/company_running/adding_a_director.feature
+5	0	features/step_definitions/email_steps.rb
+
+--3046df92--2011-08-09--Chris Mear
+1	0	app/controllers/directors_controller.rb
+1	1	spec/controllers/directors_controller_spec.rb
+
+--80d2ece0--2011-08-09--Chris Mear
+8	0	app/models/association.rb
+4	0	app/models/company.rb
+1	5	app/models/member.rb
+4	0	app/models/organisation.rb
+
+--77028a70--2011-08-09--Chris Mear
+10	0	app/mailers/members_mailer.rb
+10	0	app/views/members_mailer/welcome_new_director.text.erb
+
+--d3a40e16--2011-08-09--Chris Mear
+2	2	app/controllers/directors_controller.rb
+4	4	app/models/director.rb
+
+--38381f0e--2011-08-09--Chris Mear
+--54b613d0--2011-08-08--Chris Mear
+19	0	features/company_running/commenting_on_a_proposal.feature
+23	0	features/company_running/making_a_proposal.feature
+19	0	features/company_running/making_decisions.feature
+19	0	features/company_running/voting.feature
+4	0	features/step_definitions/company_steps.rb
+3	0	spec/support/blueprints.rb
+
+--9efa27b8--2011-08-08--Chris Mear
+1	0	app/controllers/one_click_controller.rb
+2	0	spec/controllers/one_click_controller_spec.rb
+
+--8a836a73--2011-08-08--Chris Mear
+2	2	app/controllers/one_click_controller.rb
+6	0	app/views/one_click/company/dashboard.html.haml
+2	0	spec/controllers/one_click_controller_spec.rb
+2	0	spec/views/one_click/dashboard.html.haml_spec.rb
+
+--7a9f55ff--2011-08-08--Chris Mear
+3	2	app/controllers/one_click_controller.rb
+27	0	app/views/one_click/_open_proposals.html.haml
+1	27	app/views/one_click/association/dashboard.html.haml
+2	0	app/views/one_click/company/dashboard.html.haml
+4	1	spec/controllers/one_click_controller_spec.rb
+3	1	spec/views/one_click/dashboard.html.haml_spec.rb
+
+--dde75d6b--2011-08-08--Chris Mear
+15	11	app/models/ability.rb
+
+--e5d2927f--2011-08-08--Chris Mear
+4	1	app/models/company.rb
+
+--23283d81--2011-08-08--Chris Mear
+42	0	app/models/association.rb
+4	0	app/models/company.rb
+4	0	app/models/organisation.rb
+1	39	app/models/proposal.rb
+
+--bf820fed--2011-08-08--Chris Mear
+5	0	app/models/association.rb
+4	0	app/models/company.rb
+1	2	app/models/member.rb
+4	0	app/models/organisation.rb
+
+--f3287a68--2011-08-08--Chris Mear
+1	2	spec/support/blueprints.rb
+
+--aa02855a--2011-08-08--Chris Mear
+4	4	app/views/members/company/index.html.haml
+2	2	app/views/one_click/company/dashboard.html.haml
+2	1	public/stylesheets/ie.css
+6	1	public/stylesheets/one_click.css
+2	1	public/stylesheets/sass/ie.sass
+6	1	public/stylesheets/sass/one_click.sass
+
+--c69088ec--2011-08-08--Chris Mear
+0	6	public/stylesheets/one_click.css
+0	6	public/stylesheets/sass/one_click.sass
+
+--d669337d--2011-08-08--Chris Mear
+26	22	app/views/members/company/index.html.haml
+17	14	app/views/one_click/company/dashboard.html.haml
+
+--b35898d0--2011-08-08--Chris Mear
+2	2	app/views/one_click/association/dashboard.html.haml
+11	25	public/javascripts/application.js
+
+--403cb0be--2011-08-08--Chris Mear
+4	3	public/javascripts/application.js
+
+--4d31075e--2011-08-08--Chris Mear
+1	1	app/views/one_click/association/dashboard.html.haml
+3	16	public/javascripts/application.js
+7	3	public/stylesheets/one_click.css
+5	2	public/stylesheets/sass/one_click.sass
+
+--875803ee--2011-08-08--Chris Mear
+0	10	public/javascripts/application.js
+
+--be58c2fe--2011-08-08--Chris Mear
+1	0	Gemfile
+4	0	Gemfile.lock
+1	1	app/views/layouts/application.html.haml
+1	1	app/views/layouts/setup.html.haml
+1	1	app/views/layouts/welcome.html.haml
+1	0	config/application.rb
+8925	143	public/javascripts/jquery.js
+18	0	public/javascripts/jquery.min.js
+336	0	public/javascripts/jquery_ujs.js
+0	127	public/javascripts/rails.js
+
+--b5144a8b--2011-08-08--Chris Mear
+1	0	features/step_definitions/proposal_steps.rb

@@ -1,0 +1,111 @@
+--7b016472--2011-05-15--Jen Smith
+--62e8a9ab--2011-05-09--Peter Murray
+1	1	app/helpers/children_helper.rb
+3	1	app/models/child.rb
+1	2	features/manage_forms.feature
+0	13	lib/rapid_ftr/form_section_setup.rb
+
+--2c603a3a--2011-04-25--Jen Smith
+1	0	app/views/children/new.html.erb
+4	0	spec/views/child/new.html.erb_spec.rb
+
+--3af33ce3--2011-04-22--Jen Smith
+3	2	features/api_create_child.feature
+
+--af6c9b07--2011-04-18--Jen Smith
+1	1	app/models/child.rb
+3	0	app/views/children/show.html.erb
+29	1	spec/views/child/show.html.erb_spec.rb
+
+--9e13a9ce--2011-04-06--Jen Smith
+1	0	app/models/child.rb
+7	0	spec/models/child_spec.rb
+
+--f8c6c482--2011-03-28--Jen Smith
+12	0	app/models/child.rb
+4	0	spec/models/child_spec.rb
+
+--b449a367--2011-03-28--Jen Smith
+1	1	app/models/child.rb
+12	0	features/api_create_child.feature
+17	8	spec/models/child_spec.rb
+
+--d8d4b7b0--2011-03-28--Jen Smith
+12	0	features/step_definitions/api_steps.rb
+
+--11df6702--2011-05-03--chrisgeorge
+0	2	public/javascripts/form_section.js
+
+--00f19a35--2011-04-20--Jang-Soo Lee
+0	15	features/reorder_fields.feature
+4	2	public/javascripts/form_section.js
+
+--f48e4728--2011-04-19--Jang-Soo Lee
+3	6	app/views/form_section/_delete_button.html.erb
+4	0	app/views/form_section/edit.html.erb
+1	1	features/delete_field_from_forms_section.feature
+21	12	public/javascripts/form_section.js
+
+--34e10d40--2011-04-04--Jang-Soo Lee
+2	6	app/views/form_section/_direction_button.html.erb
+58	49	app/views/form_section/edit.html.erb
+3	3	app/views/form_section/index.html.erb
+2	2	features/step_definitions/form_section_steps.rb
+33	7	public/javascripts/form_section.js
+
+--7897a5bd--2011-05-03--Peter Murray
+2	7	app/models/child.rb
+0	1	app/models/field.rb
+0	3	app/views/histories/_flag_change.erb
+5	0	app/views/histories/_flag_message_change.erb
+7	1	app/views/histories/show.html.erb
+2	1	features/manage_forms.feature
+13	0	lib/rapid_ftr/form_section_setup.rb
+1	1	spec/controllers/children_controller_spec.rb
+
+--60148a51--2011-05-03--Peter Murray
+1	1	app/helpers/children_helper.rb
+5	6	app/models/child.rb
+2	2	app/views/children/_show_child_toolbar.erb
+3	0	app/views/children/_summary_row.html.erb
+4	4	app/views/histories/_flag_change.erb
+14	13	features/flag_child_record.feature
+14	4	features/step_definitions/basic_steps.rb
+1	1	public/stylesheets/core.css
+
+--2472a9cf--2011-05-02--Peter Murray
+4	3	app/helpers/children_helper.rb
+7	4	app/models/child.rb
+1	1	app/views/children/edit.html.erb
+1	1	app/views/children/show.html.erb
+4	1	app/views/histories/_flag_change.erb
+1	0	app/views/histories/show.html.erb
+18	1	features/flag_child_record.feature
+1	1	features/step_definitions/basic_steps.rb
+-	-	public/images/icon-flag.gif
+2	1	public/stylesheets/core.css
+
+--06caf3e0--2011-05-02--Peter Murray
+4	0	app/helpers/children_helper.rb
+6	1	app/models/child.rb
+1	1	app/models/field.rb
+1	1	app/views/children/edit.html.erb
+1	1	app/views/children/show.html.erb
+7	0	app/views/histories/_flag_change.erb
+7	0	app/views/histories/show.html.erb
+1	1	features/flag_child_record.feature
+7	2	features/step_definitions/basic_steps.rb
+1	1	lib/rapid_ftr/form_section_setup.rb
+13	13	spec/controllers/children_controller_spec.rb
+
+--f9657b41--2011-05-02--Peter Murray
+1	0	app/models/child.rb
+1	0	app/models/field.rb
+19	2	app/views/children/_show_child_toolbar.erb
+3	0	app/views/children/edit.html.erb
+9	3	app/views/children/show.html.erb
+19	0	features/flag_child_record.feature
+16	1	features/step_definitions/basic_steps.rb
+-	-	public/images/icon-flag.gif
+8	0	public/stylesheets/core.css
+25	0	spec/controllers/children_controller_spec.rb

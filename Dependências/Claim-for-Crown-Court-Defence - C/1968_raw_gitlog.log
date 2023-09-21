@@ -1,0 +1,32 @@
+--e7742334f--2015-06-02--Himal Mandalia
+--182c01e43--2015-06-02--Himal Mandalia
+--f27790771--2015-06-02--jsugarman
+0	2	app/views/case_workers/claims/index.html.haml
+5	5	features/caseworker_claims_list.feature
+5	10	features/step_definitions/caseworker_claims_list_steps.rb
+
+--60c3684e4--2015-06-02--Stephen Richards
+--1f60dd0ae--2015-06-01--Edward Andress
+--710b8faa7--2015-06-01--Himal Mandalia
+1	1	db/seeds/advocates.rb
+2	2	db/seeds/case_workers.rb
+
+--fa297d08a--2015-06-01--jsugarman
+--2d287e002--2015-06-01--jsugarman
+8	3	lib/tasks/claims.rake
+
+--71bde7f22--2015-06-01--jsugarman
+--3dfaec747--2015-06-01--jsugarman
+--2f6d483c9--2015-06-01--Eddie Andress
+3	2	app/views/advocates/claims/_claims.html.haml
+
+--1eb83638c--2015-06-01--Eddie Andress
+3	2	app/views/advocates/claims/_claims.html.haml
+15	3	features/advocate_claims_list.feature
+13	1	features/step_definitions/advocate_claims_list_steps.rb
+
+--59c0ffc13--2015-06-01--jsugarman
+--3925121ea--2015-06-01--jsugarman
+9	3	lib/tasks/claims.rake
+9	1	spec/factories/advocates.rb
+10	1	spec/factories/claims.rb

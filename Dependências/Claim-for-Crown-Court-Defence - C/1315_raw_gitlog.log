@@ -1,0 +1,59 @@
+--e528064bc--2015-10-15--Stephen Richards
+--d62de3bc7--2015-10-15--Stephen Richards
+0	1	app/controllers/advocates/claims_controller.rb
+0	1	app/controllers/case_workers/claims_controller.rb
+13	0	app/presenters/claim_presenter.rb
+5	26	app/views/shared/_claim_status.html.haml
+27	0	app/views/shared/_determinations_form.html.haml
+17	0	app/views/shared/_determinations_table.html.haml
+0	19327	db/data.yml
+17	5	features/claim_status.feature
+16	0	features/step_definitions/claim_status_steps.rb
+22	0	spec/presenters/claim_presenter_spec.rb
+
+--83e4bc27a--2015-10-14--Edward Andress
+--8a3ddc752--2015-10-14--jsugarman
+27	27	app/views/pages/tandcs.haml
+
+--efd7f8e75--2015-10-14--Stephen Richards
+--0f071f47f--2015-10-14--Himal Mandalia
+--5041462da--2015-10-14--Himal Mandalia
+--658067a82--2015-10-14--Himal Mandalia
+8	0	app/models/claim.rb
+35	0	spec/models/claim_spec.rb
+16	4	spec/models/claims/financial_summary_spec.rb
+
+--99747846f--2015-10-13--jsugarman
+11158	12043	db/data.yml
+
+--c614251e7--2015-10-13--jsugarman
+0	1	app/controllers/advocates/claims_controller.rb
+1	0	app/models/claim.rb
+10	0	app/models/claim_intention.rb
+0	1	app/models/defendant.rb
+5	0	db/migrate/20151013153042_remove_middle_name_from_defendants.rb
+1	2	db/schema.rb
+10	0	spec/factories/claim_intentions.rb
+1	0	spec/factories/claims.rb
+0	1	spec/factories/defendants.rb
+10	0	spec/models/claim_intention_spec.rb
+1	0	spec/models/claim_spec.rb
+0	1	spec/models/defendant_spec.rb
+
+--c641f3a6f--2015-10-13--Edward Andress
+20	0	app/models/json_document_importer.rb
+67	0	spec/examples/cms_export_with_nulls.json
+9	0	spec/models/json_document_importer_spec.rb
+
+--a5c7ef7c6--2015-10-13--Alistair Laing
+--6a248b044--2015-10-13--jsugarman
+6	0	app/assets/stylesheets/claims-table.scss
+6	8	app/views/shared/_summary.html.haml
+
+--f09b3298e--2015-10-13--jsugarman
+6	3	app/views/shared/_summary.html.haml
+
+--8d9b53ce5--2015-10-13--Joel Sugarman
+--68105e993--2015-10-12--Edward Andress
+5	2	app/views/advocates/admin/advocates/_form.html.haml
+1	1	app/views/advocates/admin/advocates/index.html.haml

@@ -1,0 +1,113 @@
+--794d40291d--2013-03-26--Bradley Wright
+--2bb8e74706--2013-03-26--Bradley Wright
+--c7f02c9687--2013-03-26--Bradley Wright
+--21f63ce9ec--2013-03-26--Murray Steele
+2	2	db/migrate/20130315145202_create_feature_lists.rb
+
+--75c0bd9658--2013-03-25--Murray Steele
+11	0	db/data_migration/20130325165754_reindex_news_articles.rb
+
+--f38342576e--2013-03-26--Murray Steele
+--8abec355d0--2013-03-26--Murray Steele
+10	0	app/models/mainstream_link.rb
+9	4	app/views/admin/shared/_mainstream_link_fields.html.erb
+1	1	app/views/organisations/_header.html.erb
+1	1	app/views/world_locations/show.html.erb
+20	0	test/functional/organisations_controller_test.rb
+22	0	test/functional/world_locations_controller_test.rb
+11	0	test/unit/mainstream_link_test.rb
+
+--5619e2d871--2013-03-26--Murray Steele
+37	0	db/data_migration/20130326121805_force_to_draft_ho_imports.rb
+
+--c0e55f68f4--2013-03-26--David Heath
+1	2	app/views/admin/feature_lists/_current_feature_list.html.erb
+1	1	features/step_definitions/world_location_steps.rb
+
+--0fdc54fc8d--2013-03-26--David Heath
+1	1	app/controllers/admin/world_locations_controller.rb
+
+--322af51085--2013-03-26--David Heath
+2	2	app/views/admin/worldwide_organisations/index.html.erb
+
+--e74e175fbc--2013-03-26--David Heath
+2	5	app/views/admin/world_locations/_world_location_table.html.erb
+
+--333da232ce--2013-03-26--David Heath
+1	1	app/controllers/admin/features_controller.rb
+
+--1284800cb2--2013-03-26--David Heath
+2	1	app/models/feature.rb
+
+--b736ba801b--2013-03-26--Tekin Suleyman
+13	0	features/importing-new-editions.feature
+17	0	features/step_definitions/import_steps.rb
+17	1	lib/whitehall/uploader/publication_row.rb
+32	2	test/unit/uploader/publication_row_test.rb
+
+--4846e03d1a--2013-03-26--Murray Steele
+8	2	app/assets/javascripts/application/document_filter.js
+
+--54437bc740--2013-03-25--Murray Steele
+1	1	app/models/news_article_type.rb
+2	2	test/unit/news_article_type_test.rb
+
+--7effc82b69--2013-03-25--Murray Steele
+7	7	config/locales/ar.yml
+3	3	config/locales/az.yml
+5	5	config/locales/be.yml
+3	3	config/locales/bg.yml
+3	3	config/locales/bn.yml
+5	4	config/locales/cs.yml
+7	7	config/locales/cy.yml
+3	3	config/locales/de.yml
+3	3	config/locales/dr.yml
+3	3	config/locales/el.yml
+3	3	config/locales/en.yml
+3	3	config/locales/es-419.yml
+3	3	config/locales/es.yml
+3	3	config/locales/fa.yml
+3	3	config/locales/fr.yml
+5	5	config/locales/he.yml
+3	3	config/locales/hi.yml
+3	3	config/locales/hu.yml
+3	3	config/locales/hy.yml
+3	3	config/locales/id.yml
+3	3	config/locales/it.yml
+3	3	config/locales/ja.yml
+3	3	config/locales/ka.yml
+3	3	config/locales/ko.yml
+4	4	config/locales/lt.yml
+3	3	config/locales/lv.yml
+3	3	config/locales/ms.yml
+5	5	config/locales/pl.yml
+3	3	config/locales/ps.yml
+3	3	config/locales/pt.yml
+4	4	config/locales/ro.yml
+5	5	config/locales/ru.yml
+3	3	config/locales/si.yml
+4	4	config/locales/sk.yml
+3	3	config/locales/so.yml
+3	3	config/locales/sq.yml
+5	5	config/locales/sr.yml
+3	3	config/locales/sw.yml
+3	3	config/locales/ta.yml
+3	3	config/locales/th.yml
+3	3	config/locales/tk.yml
+3	3	config/locales/tr.yml
+5	5	config/locales/uk.yml
+3	3	config/locales/ur.yml
+3	3	config/locales/uz.yml
+3	3	config/locales/vi.yml
+3	3	config/locales/zh.yml
+
+--3b9f627a26--2013-03-25--Murray Steele
+1	1	app/models/news_article_type.rb
+1	1	features/importing-new-editions.feature
+1	1	lib/whitehall/announcement_filter_option.rb
+1	1	test/functional/admin/news_articles_controller_test.rb
+1	1	test/unit/helpers/document_filter_helper_test.rb
+1	1	test/unit/news_article_type_test.rb
+1	1	test/unit/presenters/announcement_presenter_test.rb
+2	2	test/unit/uploader/news_article_row_test.rb
+2	2	test/unit/whitehall/document_filter/rummager_test.rb

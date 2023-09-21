@@ -1,0 +1,124 @@
+--d9c01f02f1--2013-08-07--Tekin Suleyman
+--2424192f00--2013-08-07--Tekin Suleyman
+0	2	features/topic-assigment.feature
+
+--7fb15f5b0d--2013-08-06--Bradley Wright
+--f104c2140d--2013-08-06--Ben Firshman
+8	6	app/assets/stylesheets/frontend/global/_links.scss
+
+--89529be55e--2013-08-06--Ben Firshman
+6	1	app/assets/stylesheets/frontend/base.scss
+5	0	app/assets/stylesheets/frontend/global/_js-hidden.scss
+25	0	app/assets/stylesheets/frontend/global/_links.scss
+0	17	app/assets/stylesheets/frontend/helpers/_global.scss
+0	26	app/assets/stylesheets/frontend/reset/_reset.scss
+
+--910dc2a3e1--2013-08-06--russell thorn
+1	1	app/assets/stylesheets/frontend/helpers/_worldwide-organisation-header.scss
+
+--6631af7924--2013-08-06--Bradley Wright
+6	0	db/data_migration/20130806142118_add_lost_passports_service.rb
+
+--c99a199152--2013-08-06--Graham Ashton
+--3025579ee5--2013-08-05--Elliot Hughes
+10	0	test/factories/financial_reports.rb
+56	0	test/functional/admin/financial_reports_controller_test.rb
+4	0	test/unit/financial_report_test.rb
+
+--d236b52089--2013-08-01--Elliot Hughes
+39	0	app/controllers/admin/financial_reports_controller.rb
+2	1	app/helpers/admin/organisation_helper.rb
+18	0	app/views/admin/financial_reports/edit.html.erb
+30	0	app/views/admin/financial_reports/index.html.erb
+18	0	app/views/admin/financial_reports/new.html.erb
+1	0	config/routes.rb
+5	0	test/functional/admin/financial_reports_controller_test.rb
+
+--77565c6e48--2013-08-05--Elliot Hughes
+8	1	app/models/financial_report.rb
+
+--ca576695f6--2013-08-03--Graham Ashton
+2	1	app/controllers/announcements_controller.rb
+2	1	app/controllers/publications_controller.rb
+6	2	lib/whitehall/decorators/delegate_instance_methods_of.rb
+20	7	lib/whitehall/document_filter/mysql.rb
+
+--cc7aec0d0f--2013-08-03--Graham Ashton
+18	4	app/controllers/topics_controller.rb
+
+--9e8bea14de--2013-08-03--Graham Ashton
+32	0	features/step_definitions/topic_assigment_steps.rb
+20	0	features/support/chzn_helpers.rb
+19	0	features/topic-assigment.feature
+
+--354df06954--2013-08-03--Graham Ashton
+54	0	app/assets/javascripts/admin/edition_publishing.js
+
+--e4ffc5158b--2013-08-03--Graham Ashton
+2	2	app/controllers/admin/editions_controller.rb
+7	0	app/controllers/admin/policies_controller.rb
+5	0	app/presenters/topic_presenter.rb
+3	1	config/routes.rb
+8	0	test/functional/admin/policies_controller_test.rb
+
+--2579d8b8c7--2013-08-02--Graham Ashton
+1	0	app/views/admin/consultations/_form.html.erb
+4	2	app/views/admin/editions/_topic_fields.html.erb
+1	0	app/views/admin/fatality_notices/_form.html.erb
+1	0	app/views/admin/news_articles/_form.html.erb
+1	0	app/views/admin/publications/_form.html.erb
+1	0	app/views/admin/speeches/_form.html.erb
+1	0	app/views/admin/statistical_data_sets/_form.html.erb
+1	0	app/views/admin/world_location_news_articles/_form.html.erb
+
+--0f81cf753c--2013-08-02--Graham Ashton
+29	0	lib/tasks/topics.rake
+
+--bcab47f778--2013-08-05--Graham Ashton
+0	6	test/functional/api/detailed_guides_controller_test.rb
+0	6	test/functional/api/world_locations_controller_test.rb
+0	6	test/functional/api/worldwide_organisations_controller_test.rb
+4	0	test/test_helper.rb
+
+--ec8a4b1536--2013-08-01--Graham Ashton
+39	0	app/models/edition/related_policies.rb
+16	1	app/models/edition/topics.rb
+11	0	test/unit/edition/topics_test.rb
+
+--cd90da6511--2013-08-01--Graham Ashton
+7	5	test/unit/edition/topics_test.rb
+
+--a72833ac40--2013-08-01--Graham Ashton
+37	25	test/functional/topics_controller_test.rb
+
+--97c4d04e23--2013-08-01--Graham Ashton
+5	4	app/helpers/cache_control_helper.rb
+
+--ab5acfe861--2013-08-01--Graham Ashton
+2	1	test/functional/topics_controller_test.rb
+
+--70f3dec4a0--2013-07-31--Graham Ashton
+1	0	app/models/announcement.rb
+1	40	app/models/edition/related_policies.rb
+1	2	app/models/edition/topics.rb
+1	0	app/models/publicationesque.rb
+0	18	test/unit/edition/related_policies_test.rb
+1	1	test/unit/edition/topics_test.rb
+3	3	test/unit/news_article_test.rb
+9	44	test/unit/publication_test.rb
+7	12	test/unit/whitehall/document_filter/mysql_test.rb
+
+--fbd93f747d--2013-08-05--Bradley Wright
+--7468bb669c--2013-08-05--russell thorn
+45	1	app/assets/stylesheets/frontend/views/_organisations.scss
+2	1	app/views/groups/show.html.erb
+4	2	app/views/organisations/_header.html.erb
+4	2	app/views/organisations/about.html.erb
+1	1	app/views/organisations/show.html.erb
+
+--58d4d6ec27--2013-07-31--russell thorn
+6	0	app/assets/stylesheets/frontend/views/_organisations.scss
+4	0	app/views/organisations/about.html.erb
+
+--0c240a5654--2013-08-05--russell thorn
+1	1	app/assets/stylesheets/frontend/views/_organisations.scss

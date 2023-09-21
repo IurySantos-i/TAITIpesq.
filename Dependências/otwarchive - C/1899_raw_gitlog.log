@@ -1,0 +1,14 @@
+--f1b033763--2012-10-13--Elz
+--aa7863edf--2012-10-13--elz
+1	1	app/models/external_work.rb
+5	0	app/models/series.rb
+8	0	lib/tasks/after_tasks.rake
+
+--0fd7886b3--2012-10-12--elz
+1	1	app/models/bookmark_search.rb
+1	1	app/models/work_search.rb
+
+--7a4aca10b--2012-10-12--elz
+3	3	app/models/bookmark_search.rb
+
+--034188b54--2012-10-12--Elz

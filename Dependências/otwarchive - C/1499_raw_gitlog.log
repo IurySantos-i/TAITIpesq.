@@ -1,0 +1,16 @@
+--09badc9e6--2013-10-15--Cristina
+--957c7de0d--2013-10-15--Cristina
+--9735e4efd--2013-10-15--tuff_ghost
+16	34	app/controllers/chapters_controller.rb
+7	38	app/controllers/works_controller.rb
+95	91	app/models/work.rb
+20	4	features/step_definitions/work_steps.rb
+63	13	features/works/chapter_edit.feature
+12	23	features/works/work_dates_edit.feature
+17	6	features/works/work_edit.feature
+
+--314294146--2012-11-11--sarken
+0	1	app/views/inbox/show.html.erb
+
+--b19272c35--2012-11-11--sarken
+39	26	app/views/inbox/show.html.erb

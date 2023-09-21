@@ -1,0 +1,13 @@
+--cec6d14b9--2015-10-08--Joel Sugarman
+--a53d15b9a--2015-10-08--Joel Sugarman
+--5b8e9708f--2015-10-08--Alistair Laing
+2	2	app/views/grape_swagger_rails/application/index.html.erb
+4	4	app/views/layouts/_primary_navigation.html.haml
+2	2	features/caseworker_admin_claims_list.feature
+16	16	features/step_definitions/sign_in_steps.rb
+
+--01f8faf28--2015-10-08--Himal Mandalia
+1	1	app/views/advocates/claims/_form.html.haml
+
+--9ecb3d0bd--2015-10-07--Alistair Laing
+1	1	config/locales/en.yml

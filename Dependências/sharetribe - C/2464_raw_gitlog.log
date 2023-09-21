@@ -1,0 +1,55 @@
+--38c31c16e--2013-11-19--Mikko Koski
+--3e5d724c4--2013-11-19--Antti Virolainen
+--a06322a47--2013-11-19--Antti Virolainen
+1	1	features/step_definitions/organization_steps.rb
+
+--5d4690336--2013-11-19--Antti Virolainen
+4	2	app/views/person_mailer/payment_settings_reminder.html.haml
+1	1	config/locales/en.yml
+1	1	config/locales/fi.yml
+1	1	config/locales/organizations/fi.yml
+0	1	features/organizations/user_creates_a_new_listing_with_payment.feature
+
+--d6bbe759e--2013-11-18--Mikko Koski
+8	1	app/controllers/listings_controller.rb
+
+--3151d1aa4--2013-11-18--Mikko Koski
+5	0	config/locales/fi.yml
+
+--52e87b7d1--2013-11-18--Mikko Koski
+9	9	app/controllers/listings_controller.rb
+13	0	app/mailers/person_mailer.rb
+2	1	app/views/layouts/email.html.haml
+11	0	app/views/person_mailer/payment_settings_reminder.html.haml
+5	0	config/locales/en.yml
+5	2	features/organizations/user_creates_a_new_listing_with_payment.feature
+1	1	features/step_definitions/email_steps.rb
+7	0	features/step_definitions/organization_steps.rb
+11	0	spec/mailers/person_mailer_spec.rb
+
+--ec53f0cb0--2013-11-15--Mikko Koski
+1	12	features/listings/user_creates_a_new_listing.feature
+21	0	features/organizations/user_creates_a_new_listing_with_payment.feature
+17	0	features/step_definitions/listing_steps.rb
+
+--e2132074a--2013-11-18--Mikko Koski
+1	1	lib/tasks/deploy.rake
+
+--f6d37fb2d--2013-11-17--Antti Virolainen
+--18dae4c05--2013-11-17--Antti Virolainen
+--2fb1b37ef--2013-11-17--Antti Virolainen
+--e3bbb4ca2--2013-11-14--Mikko Koski
+4	0	app/assets/stylesheets/main.css.scss
+
+--36a8464a6--2013-11-12--Antti Virolainen
+1	1	app/views/layouts/_head.haml
+
+--fd45ab836--2013-11-12--Antti Virolainen
+1	1	config/locales/el.yml
+
+--ff3664702--2013-11-12--Antti Virolainen
+1	2	lib/tasks/deploy.rake
+
+--226d16f64--2013-11-12--Antti Virolainen
+1	1	communities/default/terms/terms.en-bd.haml
+24	24	config/locales/el.yml

@@ -1,0 +1,52 @@
+--d0774d37--2016-07-20--squiggy
+--d46e80f2--2016-07-19--vivian
+59	0	spec/controllers/action_page_controller_spec.rb
+
+--6282e7c1--2016-07-19--vivian
+13	1	features/action_page/{affiliation.feature => local_petition.feature}
+10	0	features/action_page/petition.feature
+0	13	features/action_page/show_all_signatures.feature
+5	2	features/step_definitions/action_page_steps.rb
+2	2	features/step_definitions/user_steps.rb
+2	2	features/users/achieve_petition_goal.feature
+
+--bb5d671b--2016-07-18--vivian
+0	1	app/controllers/admin/action_pages_controller.rb
+0	15	app/controllers/petition_controller.rb
+3	3	app/views/action_page/show.html.erb
+0	4	app/views/admin/action_pages/_panel_settings.html.erb
+1	1	app/views/tools/_petition.html.erb
+0	6	config/routes.rb
+5	0	db/migrate/20160719204420_remove_show_all_signatures_from_petition.rb
+1	2	db/schema.rb
+0	5	features/step_definitions/action_page_steps.rb
+0	9	spec/factories/petitions.rb
+
+--44fa35b4--2016-07-18--vivian
+25	14	app/controllers/action_page_controller.rb
+2	2	app/controllers/petition_controller.rb
+23	1	app/models/petition.rb
+1	1	app/models/signature.rb
+2	2	app/views/tools/_signatures.html.erb
+1	1	config/routes.rb
+
+--a300e682--2016-07-18--vivian
+1	1	app/controllers/action_page_controller.rb
+1	1	app/controllers/admin/institutions_controller.rb
+3	0	app/models/institution.rb
+6	0	db/migrate/20160718225646_add_slug_to_institution.rb
+4	1	db/schema.rb
+
+--de7968cf--2016-07-18--vivian
+9	1	app/controllers/action_page_controller.rb
+1	0	config/routes.rb
+
+--033046ed--2016-07-18--squiggy
+--9dadd234--2016-07-18--vivian
+4	3	Gemfile
+3	3	Gemfile.lock
+1	0	app/assets/javascripts/application.js
+19	0	app/assets/javascripts/application/tools/petition.js
+43	0	app/assets/stylesheets/action_page.css.scss
+3	0	app/assets/stylesheets/application.css.scss
+3	3	app/views/affiliations/_affiliation_fields.html.erb

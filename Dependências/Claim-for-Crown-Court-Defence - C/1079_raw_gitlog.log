@@ -1,0 +1,38 @@
+--dcc5a7edd--2016-01-25--Alistair Laing
+--e192584ad--2016-01-25--jsugarman
+1	1	app/assets/stylesheets/claim-detail.scss
+1	1	app/views/shared/_claim.html.haml
+
+--dc4ac819a--2016-01-25--Joel Sugarman
+--b37397b88--2016-01-23--jsugarman
+12	11	app/views/shared/_claim.html.haml
+1	1	features/claim_detail.feature
+0	3	features/claim_messages.feature
+4	2	features/step_definitions/claim_details_steps.rb
+1	1	features/step_definitions/claim_messages_steps.rb
+1	1	spec/factories/certification_types.rb
+0	1	spec/factories/certifications.rb
+16	8	spec/factories/claims.rb
+
+--175230655--2016-01-22--jsugarman
+8	0	app/assets/stylesheets/claim-detail.scss
+0	1	app/validators/claim_textfield_validator.rb
+19	4	app/views/shared/_claim.html.haml
+3	0	config/locales/en.yml
+10	0	features/claim_detail.feature
+17	0	features/step_definitions/claim_details_steps.rb
+
+--02a0a6ab4--2016-01-22--jsugarman
+9	13	lib/demo_data/claim_generator.rb
+8	1	spec/factories/certification_types.rb
+2	2	spec/factories/certifications.rb
+
+--3059f5514--2016-01-22--Himal Mandalia
+2	1	app/models/feedback.rb
+1	1	app/views/feedback/new.html.haml
+
+--d7d037a9f--2016-01-22--Himal Mandalia
+2	2	app/controllers/application_controller.rb
+1	1	app/controllers/feedback_controller.rb
+14	0	app/controllers/sessions_controller.rb
+1	0	db/schema.rb

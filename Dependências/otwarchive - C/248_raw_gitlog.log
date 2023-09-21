@@ -1,0 +1,225 @@
+--7fbe29c93--2016-03-04--zz9pzza
+--f5afde764--2016-03-04--zz9pzza
+--33cd4f940--2016-03-04--zz9pzza
+--7ad636c33--2016-03-04--zz9pzza
+--4845b9a5e--2016-03-03--sarken
+--2043dced2--2016-03-03--sarken
+--76826c60e--2016-03-02--zz9pzza
+--96e3445c7--2016-03-02--zz9pzza
+--84b371a55--2016-03-02--zz9pzza
+--1637ed9f4--2016-03-02--zz9pzza
+--4e6853e47--2016-03-02--sarken
+--a610057a3--2016-03-02--zz9pzza
+0	23	features/comments_and_kudos/kudos.feature
+
+--2542f51f4--2016-03-01--sarken
+--648c6b9b9--2016-03-01--sarken
+--853c7469e--2016-03-01--zz9pzza
+23	0	features/comments_and_kudos/kudos.feature
+
+--8f52f810b--2016-03-01--zz9pzza
+2	0	app/models/kudo.rb
+
+--a69898bd7--2016-03-01--zz9pzza
+1	1	Gemfile
+26	26	Gemfile.lock
+
+--725a9815b--2016-03-01--zz9pzza
+13	0	app/controllers/collections_controller.rb
+
+--ef9a306e8--2016-02-29--zz9pzza
+--457ea8582--2016-02-29--zz9pzza
+5	7	Gemfile.lock
+
+--fbe81b5ee--2016-02-28--Ariana
+1	1	features/step_definitions/work_steps.rb
+
+--dbccf899d--2016-02-28--Ariana
+0	1	app/views/works/_work_header_navigation.html.erb
+1	3	features/step_definitions/work_steps.rb
+
+--cb1691edb--2016-02-28--zz9pzza
+--1f520e8b0--2016-02-28--zz9pzza
+--a0033bc7b--2016-02-28--zz9pzza
+--7951b4551--2016-02-28--zz9pzza
+--e9781b66a--2016-02-26--zz9pzza
+--82ef8ff6d--2016-02-26--zz9pzza
+--e9fe04fd3--2016-02-26--zz9pzza
+--b8da7de0d--2016-02-26--zz9pzza
+--5bb7ce2d9--2016-02-26--zz9pzza
+--40605a3fb--2016-02-26--zz9pzza
+--9a79e82fb--2016-02-26--zz9pzza
+1	1	app/views/home/tos_faq.html.erb
+
+--834d2abf8--2016-02-25--zz9pzza
+--ebf6c3de8--2016-02-25--zz9pzza
+1	1	app/views/home/_tos.html.erb
+1	7	app/views/home/tos_faq.html.erb
+
+--810079620--2016-02-24--Ariana
+1	0	features/importing/work_import_dw.feature
+1	0	features/importing/work_import_lj.feature
+7	1	features/step_definitions/preferences_steps.rb
+
+--78d2c78dd--2016-02-23--Ariana
+1	0	app/models/story_parser.rb
+18	0	spec/models/story_parser_spec.rb
+
+--fd4b10378--2016-02-21--Cesy Avon
+2	4	features/comments_and_kudos/add_comment.feature
+6	0	features/step_definitions/comment_steps.rb
+
+--721693c0c--2016-02-20--Cesy Avon
+1	1	features/importing/work_import_errors.feature
+
+--9238a13b0--2016-02-20--Cesy Avon
+1	1	features/importing/work_import_errors.feature
+
+--52706408c--2016-02-19--zz9pzza
+1	1	app/models/work.rb
+
+--5f4fdea93--2016-02-19--zz9pzza
+1	2	app/models/tag.rb
+6	4	app/models/work.rb
+
+--2e0bc8efa--2016-02-19--zz9pzza
+3	2	app/models/tag.rb
+9	1	app/models/work.rb
+
+--7d8882148--2016-02-19--zz9pzza
+2	2	app/models/tag.rb
+
+--3b0945a16--2016-02-19--zz9pzza
+1	1	app/models/tag.rb
+
+--bfac21b38--2016-02-18--zz9pzza
+1	1	app/models/tag.rb
+
+--f2be1020b--2016-02-18--zz9pzza
+11	0	app/models/tag.rb
+14	4	app/models/work.rb
+1	1	app/views/works/_work_module.html.erb
+
+--ec4cba909--2016-02-17--zz9pzza
+8	1	app/models/chapter.rb
+10	2	app/models/work.rb
+15	0	lib/work_chapter_count_caching.rb
+
+--b158d2856--2016-02-12--sarken
+6	4	app/views/pseuds/index.html.erb
+
+--df55ac6df--2016-02-12--sarken
+2	0	app/views/gifts/index.html.erb
+
+--09481a009--2016-02-04--Cesy Avon
+3	3	features/importing/work_import_errors.feature
+
+--2cfcaba7a--2016-02-01--sarken
+--eac02a1d9--2016-01-31--Cesy Avon
+1	1	features/step_definitions/work_steps.rb
+
+--b358bfefc--2016-01-30--Cesy Avon
+4	1	features/step_definitions/work_steps.rb
+
+--7481649b8--2016-01-30--Cesy Avon
+2	1	features/comments_and_kudos/comments_pagination.feature
+
+--27904f700--2016-01-29--Cesy Avon
+24	2	features/comments_and_kudos/comments_pagination.feature
+
+--315418add--2016-01-29--Cesy Avon
+23	4	features/comments_and_kudos/add_comment.feature
+
+--d882a3a1e--2016-01-17--james_
+1	1	app/controllers/challenge_signups_controller.rb
+
+--5470d8b64--2016-01-17--james_
+1	1	Gemfile.lock
+
+--a9a5cf5c6--2016-01-17--james_
+1	1	Gemfile.lock
+
+--8b08fb365--2016-01-16--Cesy Avon
+3	50	config/locales/en-GB.yml
+0	219	config/locales/en.yml
+
+--70285cd4b--2016-01-10--james_
+1	1	Gemfile.lock
+
+--7945db28b--2016-01-10--james_
+7	5	Gemfile.lock
+
+--a33523356--2016-01-10--james_
+1	1	Gemfile.lock
+
+--40b7f08d0--2016-01-10--james_
+1	1	Gemfile.lock
+
+--dcace2d44--2016-01-05--Cesy Avon
+2	3	config/locales/en-GB.yml
+2	3	config/locales/en.yml
+
+--afe8a37c8--2016-01-05--Cesy Avon
+1	1	config/locales/en-GB.yml
+2	3	config/locales/en-US.yml
+1	1	config/locales/en.yml
+
+--581c36008--2016-01-05--Cesy Avon
+5	0	config/locales/en-US.yml
+
+--69303b0a4--2016-01-04--Cesy Avon
+51	3	config/locales/en-GB.yml
+7	2	config/locales/en-US.yml
+235	14	config/locales/en.yml
+
+--4dc5e1a06--2016-01-04--Cesy Avon
+1	1	app/mailers/user_mailer.rb
+3	5	app/views/user_mailer/abuse_report.html.erb
+3	3	app/views/user_mailer/abuse_report.text.erb
+5	0	config/locales/en.yml
+
+--73fcd74a3--2016-01-04--Cesy
+2	0	app/mailers/kudo_mailer.rb
+1	1	app/views/kudo_mailer/batch_kudo_notification.html.erb
+1	1	app/views/kudo_mailer/batch_kudo_notification.text.erb
+6	2	config/locales/en.yml
+
+--e061262b2--2016-01-02--sarken
+1	1	app/views/fandoms/unassigned.html.erb
+
+--41414f9ce--2016-01-02--sarken
+1	1	app/views/fandoms/unassigned.html.erb
+
+--3d43a7ef4--2016-01-02--sarken
+23	5	app/views/fandoms/unassigned.html.erb
+1	1	public/stylesheets/site/2.0/25-role-handheld.css
+
+--48350f172--2015-12-30--Cesy Avon
+2	2	app/controllers/collections_controller.rb
+
+--f6f0738d9--2015-10-22--sarken
+5	3	app/views/languages/index.html.erb
+4	0	public/stylesheets/site/2.0/08-actions.css
+
+--a25cde6ce--2015-10-22--sarken
+17	19	app/views/languages/index.html.erb
+
+--a985e1c44--2015-10-22--sarken
+0	3	config/config.yml
+
+--9f00c1e19--2015-10-22--sarken
+34	12	app/views/languages/_form.html.erb
+1	1	app/views/languages/edit.html.erb
+0	1	app/views/languages/index.html.erb
+1	1	app/views/languages/new.html.erb
+
+--b0cb76979--2015-10-18--elz
+5	0	app/controllers/feedbacks_controller.rb
+17	3	app/controllers/languages_controller.rb
+1	1	app/views/feedbacks/new.html.erb
+17	0	app/views/languages/_form.html.erb
+3	0	app/views/languages/edit.html.erb
+1	1	app/views/languages/index.html.erb
+1	14	app/views/languages/new.html.erb
+9	0	app/views/languages/show.html.erb
+5	0	db/migrate/20151018165632_add_support_available_to_languages.rb

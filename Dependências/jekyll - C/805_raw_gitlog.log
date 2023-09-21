@@ -1,0 +1,91 @@
+--ec25ddee1--2015-12-25--Parker Moore
+--3effae59d--2015-12-24--Parker Moore
+2	1	History.markdown
+
+--9ab232fd7--2015-12-24--Parker Moore
+--b2b634e76--2015-12-24--Parker Moore
+2	7	lib/jekyll/drops/collection_drop.rb
+3	10	lib/jekyll/drops/document_drop.rb
+1	3	lib/jekyll/drops/site_drop.rb
+5	8	lib/jekyll/drops/url_drop.rb
+
+--fcce0d548--2015-12-24--Parker Moore
+9	5	lib/jekyll/document.rb
+
+--d070a7771--2015-12-24--Parker Moore
+6	2	lib/jekyll/url.rb
+7	6	lib/jekyll/utils.rb
+18	0	test/test_url.rb
+
+--bff1726a5--2015-12-24--Parker Moore
+1	0	lib/jekyll.rb
+2	1	lib/jekyll/drops/immutable_drop.rb
+
+--6a72d4a98--2015-12-22--Parker Moore
+1	1	features/post_data.feature
+
+--cd2688ab6--2015-12-22--Parker Moore
+1	2	test/test_excerpt.rb
+1	1	test/test_page.rb
+
+--9bb59e999--2015-12-22--Parker Moore
+3	3	features/post_data.feature
+
+--30ceda52e--2015-12-22--Parker Moore
+3	3	features/hooks.feature
+
+--659f0869e--2015-12-22--Parker Moore
+7	6	features/collections.feature
+
+--233589e15--2015-12-22--Parker Moore
+1	1	lib/jekyll/document.rb
+
+--532bb9e9c--2015-12-22--Parker Moore
+1	1	lib/jekyll/drops/collection_drop.rb
+1	7	lib/jekyll/drops/document_drop.rb
+3	10	lib/jekyll/drops/site_drop.rb
+6	1	lib/jekyll/drops/unified_payload_drop.rb
+
+--bbbe6479e--2015-12-22--Alfred Xing
+1	0	History.markdown
+
+--9288c8185--2015-12-22--Alfred Xing
+--4935e85f7--2015-12-21--Parker Moore
+6	1	lib/jekyll/drops/collection_drop.rb
+
+--03488b1cd--2015-12-21--Parker Moore
+2	14	lib/jekyll/drops/document_drop.rb
+
+--ebe3c1060--2015-12-21--Parker Moore
+1	1	lib/jekyll/drops/collection_drop.rb
+3	2	lib/jekyll/drops/document_drop.rb
+2	2	lib/jekyll/drops/immutable_drop.rb
+1	1	lib/jekyll/drops/mutable_drop.rb
+9	1	lib/jekyll/drops/site_drop.rb
+
+--b9721024b--2015-12-22--Samuel Wright
+1	1	site/_docs/pages.md
+
+--82c3ee365--2015-12-21--Parker Moore
+1	0	lib/jekyll.rb
+1	8	lib/jekyll/collection.rb
+5	10	lib/jekyll/convertible.rb
+2	40	lib/jekyll/document.rb
+22	0	lib/jekyll/drops/collection_drop.rb
+50	0	lib/jekyll/drops/document_drop.rb
+29	0	lib/jekyll/drops/immutable_drop.rb
+21	0	lib/jekyll/drops/jekyll_drop.rb
+28	0	lib/jekyll/drops/mutable_drop.rb
+38	0	lib/jekyll/drops/site_drop.rb
+24	0	lib/jekyll/drops/unified_payload_drop.rb
+52	0	lib/jekyll/drops/url_drop.rb
+3	5	lib/jekyll/page.rb
+12	19	lib/jekyll/renderer.rb
+1	19	lib/jekyll/site.rb
+14	0	lib/jekyll/url.rb
+
+--cc6335436--2015-12-21--Samuel Wright
+8	3	site/_docs/pages.md
+
+--37517c9a3--2015-12-20--midnightSuyama
+1	0	site/_docs/plugins.md

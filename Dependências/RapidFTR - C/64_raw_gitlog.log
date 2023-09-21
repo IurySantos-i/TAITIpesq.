@@ -1,0 +1,126 @@
+--0e8656da--2014-09-25--andreweskeclarke
+--8800c1bc--2014-09-25--andreweskeclarke
+1	1	app/views/shared/_field_display_audio.html.erb
+4	2	features/step_definitions/more_web_steps.rb
+
+--f880080a--2014-09-24--Kisitu Augustine
+0	1	app/views/shared/_audio_player.html.erb
+0	4	app/views/shared/_field_display_audio.html.erb
+
+--4c066338--2014-09-24--Kisitu Augustine
+15	25	spec/views/shared/_sidebar.html.erb_spec.rb
+
+--f8848000--2014-09-24--Kisitu Augustine
+1	1	app/views/shared/_sidebar.html.erb
+18	1	spec/views/shared/_sidebar.html.erb_spec.rb
+
+--9d000cd5--2014-09-24--Kisitu Augustine
+20	33	features/enquiry_attachments.feature
+
+--4a0bc0db--2014-09-24--Tom Clement Oketch
+--9fe8d88b--2014-09-24--Kisitu Augustine
+8	0	app/controllers/application_controller.rb
+5	5	app/helpers/children_helper.rb
+15	14	app/helpers/record_helper.rb
+1	0	app/models/base_model.rb
+0	2	app/models/child.rb
+6	0	app/models/user.rb
+1	1	app/views/child_histories/index.html.erb
+1	1	app/views/enquiry_histories/index.html.erb
+1	1	app/views/shared/_field_display_photo.html.erb
+2	2	app/views/shared/_sidebar.html.erb
+2	2	app/views/shared/histories/_audio_history_change.html.erb
+2	2	app/views/shared/histories/_photo_history_change.html.erb
+5	4	features/enquiry_attachments.feature
+10	4	features/step_definitions/enquiry_attachment_steps.rb
+0	0	features/untitled
+12	0	spec/controllers/application_controller_spec.rb
+1	1	spec/controllers/users_controller_spec.rb
+160	1	spec/models/base_model_spec.rb
+0	152	spec/models/child_spec.rb
+
+--ef948340--2014-09-24--Tom Oketch
+8	3	app/helpers/children_helper.rb
+1	1	app/views/enquiries/show.html.erb
+2	1	config/locales/en.yml
+3	3	spec/helpers/children_helper_spec.rb
+
+--e70546ca--2014-09-24--Tom Clement Oketch
+--9f57a977--2014-09-23--Alex Anderson
+0	2	app/controllers/users_controller.rb
+
+--050d9aa4--2014-09-23--Tom Clement Oketch
+--87eaec77--2014-09-23--Kisitu Augustine
+8	13	app/controllers/media_controller.rb
+5	13	app/helpers/children_helper.rb
+3	3	app/helpers/enquiries_helper.rb
+1	1	app/views/children/edit_photo.html.erb
+5	2	app/views/shared/_field_display_photo.html.erb
+12	6	app/views/shared/_sidebar.html.erb
+15	16	config/routes.rb
+1	1	features/child_record_functionality.feature
+2	2	features/edit_an_existing_photo.feature
+3	4	features/step_definitions/enquiry_attachment_steps.rb
+2	0	features/step_definitions/more_web_steps.rb
+3	3	features/step_definitions/photo_thumbnail_steps.rb
+4	4	features/upload_a_childs_attachment_file.feature
+10	11	spec/controllers/media_controller_spec.rb
+2	2	spec/helpers/children_helper_spec.rb
+32	21	spec/routing/media_routing_spec.rb
+1	1	spec/views/children/edit.html.erb_spec.rb
+2	4	spec/views/children/show.html.erb_spec.rb
+5	6	spec/views/enquiries/show.html.erb_spec.rb
+1	1	spec/views/search/search.html.erb_spec.rb
+49	0	spec/views/shared/_sidebar.html.erb_spec.rb
+
+--fde3f997--2014-09-23--Tom Oketch
+41	31	lib/rapid_ftr/enquiries_form_section_setup.rb
+
+--f48f3790--2014-09-23--Tom Oketch
+8	8	lib/rapid_ftr/children_form_section_setup.rb
+2	2	lib/rapid_ftr/follow_up_form_section_setup.rb
+
+--ce7b414f--2014-09-23--Kisitu Augustine
+109	0	features/enquiry_attachments.feature
+25	0	features/step_definitions/enquiry_attachment_steps.rb
+
+--93e506ef--2014-09-23--Kisitu Augustine
+15	2	app/helpers/children_helper.rb
+1	1	app/views/children/show.html.erb
+1	0	app/views/enquiries/show.html.erb
+2	2	app/views/shared/_field_display_audio.html.erb
+9	5	app/views/shared/_sidebar.html.erb
+1	0	config/routes.rb
+4	4	spec/views/children/edit.html.erb_spec.rb
+15	0	spec/views/enquiries/show.html.erb_spec.rb
+
+--91c5ae21--2014-09-23--Kisitu Augustine
+4	0	app/models/base_model.rb
+0	4	app/models/child.rb
+
+--405e7e66--2014-09-22--andreweskeclarke
+--a804d9bc--2014-09-22--andreweskeclarke
+--78ef0ea1--2014-09-22--andreweskeclarke
+2	0	docker/runit/couchdb/check
+2	0	docker/runit/solr/check
+3	1	docker/runit/worker/run
+5	0	script/delayed_job
+
+--e12202ac--2014-09-22--Kisitu Augustine
+--aa1e9d6f--2014-09-21--andreweskeclarke
+--80cf06f7--2014-09-21--andreweskeclarke
+1	3	Dockerfile
+0	2	docker/boot/start_workers.sh
+5	0	docker/runit/worker/run
+
+--a64c7dda--2014-09-18--Alex Anderson
+2	6	app/controllers/users_controller.rb
+5	3	app/models/user.rb
+23	4	app/views/users/contact.html.erb
+
+--459ec58f--2014-09-18--Alex Anderson
+13	1	app/controllers/users_controller.rb
+1	1	app/models/user.rb
+5	0	app/views/users/_editable_user.html.erb
+20	0	app/views/users/contact.html.erb
+5	0	app/views/users/show.html.erb

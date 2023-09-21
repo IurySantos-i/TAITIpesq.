@@ -1,0 +1,471 @@
+--027833af8f--2014-05-01--Tekin Suleyman
+--3e9ac8678b--2014-05-01--Tekin Suleyman
+1	1	app/controllers/corporate_information_pages_controller.rb
+
+--2b6204344a--2014-04-30--Alex Tomlins
+--8ba60ca737--2014-04-30--Tekin Suleyman
+1	1	app/workers/import_row_worker.rb
+1	1	test/support/csv_sample_helpers.rb
+26	0	test/unit/workers/import_row_worker_test.rb
+
+--4839e8fb82--2014-04-30--David Thompson
+--75b48e4127--2014-04-30--Alex Tomlins
+1	1	test/unit/scheduled_editions_publisher_test.rb
+
+--309a4c329e--2014-04-30--Alex Tomlins
+2	5	lib/whitehall/wait.rb
+29	19	test/unit/whitehall/wait_test.rb
+
+--b977cd4222--2014-04-30--Daniel Roseman
+2	2	app/controllers/corporate_information_pages_controller.rb
+
+--c7e32c265f--2014-04-29--Aaron Keogh
+--62a27cef30--2014-04-29--Camille Baldock
+1	1	app/views/topics/show.html.erb
+
+--86fcd7a055--2014-04-29--Daniel Roseman
+1	1	app/controllers/admin/corporate_information_pages_controller.rb
+
+--1d285f2913--2014-04-29--Daniel Roseman
+4	0	app/models/corporate_information_page.rb
+
+--73105afe5c--2014-04-29--Camille Baldock
+1	1	app/views/admin/topics/_topic.html.erb
+
+--af1fd77f24--2014-04-29--Tekin Suleyman
+1	1	db/migrate/20140320144645_convert_corporate_information_pages_to_editions.rb
+10	3	lib/data_hygiene/convert_corporate_information_pages.rb
+
+--f6a181ca6f--2014-04-29--Edd Sowden
+--6ea1ecdc07--2014-04-29--Camille Baldock
+2	2	app/views/histories/10_downing_street.html.erb
+
+--30780b7de4--2014-04-28--Daniel Roseman
+6	61	db/migrate/20140320144645_convert_corporate_information_pages_to_editions.rb
+69	0	lib/data_hygiene/convert_corporate_information_pages.rb
+47	0	test/unit/data_hygiene/convert_corporate_information_pages_test.rb
+
+--179cf11895--2014-04-28--Daniel Roseman
+1	1	test/functional/admin/corporate_information_pages_controller_test.rb
+
+--9aa181fa6d--2014-04-28--Daniel Roseman
+33	39	db/migrate/20140320144645_convert_corporate_information_pages_to_editions.rb
+
+--de7d1900c4--2014-04-25--Tekin Suleyman
+6	4	app/models/corporate_information_page.rb
+
+--61f68802af--2014-04-25--Tekin Suleyman
+0	6	app/controllers/admin/corporate_information_pages_controller.rb
+5	0	app/models/corporate_information_page.rb
+8	0	test/unit/corporate_information_page_test.rb
+
+--f1f1651d13--2014-04-24--Edd Sowden
+--8062e760c4--2014-04-24--Elliot Crosby-McCullough
+4	0	app/presenters/promotional_feature_item_presenter.rb
+4	1	app/views/admin/promotional_feature_items/_promotional_feature_item.html.erb
+6	0	test/unit/presenters/promotional_feature_item_presenter_test.rb
+
+--e21c6a50ec--2014-04-23--Edd Sowden
+--cb6dd36a4d--2014-04-23--Alex Tomlins
+--f46209b2f3--2014-04-23--Alex Tomlins
+1	0	app/views/admin/policy_groups/new.html.erb
+
+--3e3cdf5075--2014-04-23--Dominic Baggott
+--eb29af4131--2014-04-23--danielroseman
+--e9fab4bf86--2014-04-23--Alex Tomlins
+1	0	app/views/admin/policy_groups/index.html.erb
+
+--d79f6d76a9--2014-04-23--Vinay Patel
+5	1	app/models/edition/images.rb
+23	0	test/unit/edition/images_test.rb
+
+--0202897217--2014-04-23--Daniel Roseman
+1	1	app/helpers/admin/editions_helper.rb
+
+--c3712ee099--2014-04-22--Camille Baldock
+1	2	app/controllers/admin/detailed_guides_controller.rb
+1	0	app/controllers/admin/editions_controller.rb
+1	0	app/controllers/detailed_guides_controller.rb
+2	0	app/models/detailed_guide.rb
+0	1	app/models/edition/related_policies.rb
+3	2	app/views/admin/detailed_guides/_form.html.erb
+1	0	test/functional/admin/detailed_guides_controller_test.rb
+
+--84aede2a98--2014-04-17--Elliot Crosby-McCullough
+--b4a3f3397b--2014-04-17--Edd Sowden
+1	1	app/assets/stylesheets/frontend/helpers/_organisation-news.scss
+1	1	app/views/organisations/_featured_items.html.erb
+
+--51862be389--2014-04-17--Daniel Roseman
+6	6	test/functional/admin/corporate_information_pages_controller_test.rb
+
+--68b9594280--2014-04-17--Daniel Roseman
+1	16	app/helpers/admin/edition_actions_helper.rb
+8	8	lib/whitehall.rb
+
+--df5d507f2b--2014-04-17--Daniel Roseman
+2	2	app/controllers/corporate_information_pages_controller.rb
+
+--0438b64c15--2014-04-17--Daniel Roseman
+13	40	app/controllers/admin/corporate_information_pages_controller.rb
+
+--b8a4d9d90c--2014-04-17--Daniel Roseman
+5	1	app/controllers/admin/editions_controller.rb
+
+--d878ecc0e1--2014-04-17--Elliot Crosby-McCullough
+--99ae3c0440--2014-04-17--Edd Sowden
+1	0	app/views/organisations/_featured_items.html.erb
+
+--3dbc6b741e--2014-04-17--Daniel Roseman
+0	16	app/helpers/admin/edition_routes_helper.rb
+7	3	app/helpers/admin/editions_helper.rb
+
+--6a3fad7dac--2014-04-17--Edd Sowden
+18	0	app/assets/stylesheets/frontend/helpers/_organisation-news.scss
+1	0	app/controllers/organisations_controller.rb
+17	7	app/views/organisations/_featured_items.html.erb
+4	3	app/views/organisations/show.html.erb
+2	1	app/views/shared/_featured.html.erb
+
+--eb3905ba56--2014-04-17--Edd Sowden
+1	2	app/views/organisations/_featured_items.html.erb
+
+--97106d5af7--2014-04-17--Edd Sowden
+12	1	app/assets/stylesheets/frontend/helpers/_featured-services-and-guidance.scss
+1	1	app/views/organisations/show.html.erb
+
+--0c1ee68b4d--2014-04-17--Edd Sowden
+2	2	app/views/organisations/show.html.erb
+
+--fc1478f23c--2014-04-16--Richard Boulton
+--b33dc9ea53--2014-04-16--Daniel Roseman
+4	1	lib/whitehall/form_builder.rb
+
+--9e9e93572e--2014-04-16--Will Tomlins
+2	2	app/workers/search_index_add_worker.rb
+
+--d0e29d6087--2014-04-16--GrouchPotato
+--3e41044301--2014-04-16--russell thorn
+2	2	app/views/organisations/_alternate_style_top_tasks.html.erb
+
+--fbeadbbc41--2014-04-16--Will Tomlins
+5	1	app/workers/search_index_add_worker.rb
+4	2	test/unit/workers/search_index_add_worker_test.rb
+
+--7ceef9d887--2014-04-15--Alex Tomlins
+--b39810c6f5--2014-04-15--Tekin Suleyman
+6	2	app/controllers/application_controller.rb
+14	0	test/functional/people_controller_test.rb
+7	0	test/functional/world_locations_controller_test.rb
+5	5	test/functional/worldwide_organisations_controller_test.rb
+
+--fb445eec61--2014-04-15--Tekin Suleyman
+--811e9860a2--2014-04-14--Dominic Baggott
+--6d0904eaea--2014-04-11--Elliot Crosby-McCullough
+1	1	Gemfile
+2	2	Gemfile.lock
+6	0	app/models/registerable_edition.rb
+17	0	test/unit/registerable_edition_test.rb
+
+--eaf755d24b--2014-04-14--Dominic Baggott
+--da887c89a3--2014-04-14--Edd Sowden
+--4276532fe3--2014-04-11--Tekin Suleyman
+--2c00982c2d--2014-04-11--Edd Sowden
+16	10	app/assets/javascripts/common/duplicate_fields.js
+24	0	test/javascripts/unit/duplicate_fields_test.js
+
+--54c71c6932--2014-04-11--Elliot Crosby-McCullough
+0	4	app/models/promotional_feature_item.rb
+0	1	app/views/admin/promotional_feature_items/_form_fields.html.erb
+0	16	test/unit/promotional_feature_item_test.rb
+8	8	test/unit/whitehall/form_builder_test.rb
+
+--6b4cfdf810--2014-04-11--Alex Tomlins
+0	25	app/services/service_listeners/router_registrar.rb
+1	0	app/workers/router_add_route_worker.rb
+1	0	app/workers/router_delete_route_worker.rb
+0	1	config/initializers/edition_services.rb
+0	29	test/unit/services/listeners/router_registrar_test.rb
+
+--f24f929cdb--2014-04-11--Alex Tomlins
+12	0	app/models/registerable_edition.rb
+14	0	test/unit/registerable_edition_test.rb
+
+--6a306c6365--2014-04-11--Elliot Crosby-McCullough
+1	1	app/controllers/admin/promotional_feature_items_controller.rb
+7	2	test/functional/admin/promotional_feature_items_controller_test.rb
+
+--5b44f42e75--2014-04-11--Elliot Crosby-McCullough
+1	1	features/executive-office-promotional-features.feature
+
+--4e6d0ddaaf--2014-04-10--Bradley Wright
+--528f0f5f60--2014-04-09--Will Tomlins
+6	2	app/assets/javascripts/application/modules/remote_search_filter.js
+20	14	test/javascripts/unit/application/modules/remote_search_filter_test.js
+
+--e707b65d70--2014-04-09--Dominic Baggott
+--0afaaaa800--2014-04-09--Elliot Crosby-McCullough
+2	0	app/assets/stylesheets/frontend/base.scss
+23	0	app/assets/stylesheets/frontend/helpers/_featured-links.scss
+5	0	app/assets/stylesheets/frontend/helpers/_featured-services-and-guidance.scss
+0	24	app/assets/stylesheets/frontend/helpers/_headings.scss
+2	1	app/controllers/admin/organisations_controller.rb
+20	0	app/models/featured_link.rb
+9	0	app/models/featured_services_and_guidance.rb
+10	0	app/models/has_featured_links.rb
+0	8	app/models/has_top_tasks.rb
+3	1	app/models/organisation.rb
+1	10	app/models/top_task.rb
+2	1	app/models/topic.rb
+2	1	app/models/world_location.rb
+2	2	app/views/admin/classifications/show.html.erb
+5	1	app/views/admin/organisations/_form.html.erb
+13	0	app/views/admin/organisations/show.html.erb
+24	0	app/views/admin/shared/_featured_link_fields.html.erb
+0	20	app/views/admin/shared/_top_tasks_fields.html.erb
+1	1	app/views/admin/topics/_custom_form_fields.html
+1	1	app/views/admin/world_locations/edit.html.erb
+1	1	app/views/organisations/_header.html.erb
+18	0	app/views/organisations/show.html.erb
+5	0	app/views/shared/_featured_links.html.erb
+0	5	app/views/shared/_top_tasks.html.erb
+1	1	app/views/topics/show.html.erb
+1	1	app/views/world_locations/show.html.erb
+15	0	db/migrate/20140409111430_add_featured_services_and_guidance.rb
+10	1	db/schema.rb
+6	0	features/organisations.feature
+18	0	features/step_definitions/organisation_steps.rb
+6	0	test/factories/feature_services_and_guidance.rb
+25	0	test/unit/featured_services_and_guidance_test.rb
+
+--0d94d5ee5a--2014-04-09--Bradley Wright
+--bbb5c6c628--2014-04-09--Elliot Crosby-McCullough
+2	2	app/views/admin/organisations/show.html.erb
+
+--b1110cb136--2014-04-09--Elliot Crosby-McCullough
+1	1	app/models/organisation.rb
+1	1	app/models/world_location.rb
+
+--c1546bad03--2014-04-09--Tekin Suleyman
+--179e0a0e67--2014-04-09--Will Tomlins
+1	1	app/assets/stylesheets/frontend/base.scss
+1	1	app/assets/stylesheets/frontend/helpers/{_meta.scss => _metadata-list.scss}
+1	1	app/views/documents/_metadata.html.erb
+1	1	app/views/ministerial_roles/show.html.erb
+2	2	app/views/statistics_announcements/show.html.erb
+1	1	app/views/topical_events/show.html.erb
+1	1	app/views/topics/show.html.erb
+
+--fea31881c2--2014-04-09--Edd Sowden
+--94821c4875--2014-04-08--Will Tomlins
+1	0	app/assets/stylesheets/frontend/base.scss
+201	201	app/assets/stylesheets/shared/helpers/_magna-charta.scss
+
+--5f0131cca1--2014-04-08--Stuart Gale
+1	0	db/data_migration/20140408_set_policy_state_to_deleted.rb
+
+--d94842e64a--2014-04-08--Daniel Roseman
+4	0	app/helpers/admin/edition_routes_helper.rb
+
+--fe75d5f434--2014-04-08--Daniel Roseman
+2	4	test/functional/admin/corporate_information_pages_controller_test.rb
+
+--67b1ef8141--2014-04-08--Daniel Roseman
+3	2	app/controllers/admin/corporate_information_pages_controller.rb
+6	7	app/models/corporate_information_page.rb
+
+--0cf08cc5d8--2014-04-08--Daniel Roseman
+0	1	app/views/admin/corporate_information_pages/_form.html.erb
+2	2	app/views/admin/corporate_information_pages/_standard_fields.html.erb
+
+--d9bda61b5a--2014-04-08--Daniel Roseman
+5	3	features/corporate-information-pages.feature
+28	19	features/step_definitions/corporate_information_page_steps.rb
+3	1	features/support/corporate_information_page_helper.rb
+1	1	features/support/document_helper.rb
+2	0	features/worldwide-organisations.feature
+
+--659fe2d229--2014-04-08--Daniel Roseman
+1	9	app/controllers/admin/corporate_information_pages_controller.rb
+1	1	app/controllers/admin/editions_controller.rb
+4	0	app/helpers/admin/edition_routes_helper.rb
+
+--1dc6f3a986--2014-04-08--Daniel Roseman
+8	0	app/models/corporate_information_page_type.rb
+
+--a638b4444b--2014-04-04--Daniel Roseman
+1	1	test/integration/upload_access_test.rb
+
+--7232589841--2014-04-04--Daniel Roseman
+0	1	app/models/corporate_information_page.rb
+
+--3c882f27fe--2014-04-04--David Thompson
+4	0	app/controllers/admin/corporate_information_pages_controller.rb
+10	10	test/functional/admin/corporate_information_pages_controller_test.rb
+
+--c3d0208aed--2014-04-04--Daniel Roseman
+4	4	test/functional/corporate_information_pages_controller_test.rb
+
+--bbc182d969--2014-04-04--Daniel Roseman
+2	1	test/functional/admin/editions_controller_test.rb
+
+--d66a2a05c8--2014-04-04--Daniel Roseman
+1	1	app/controllers/admin/corporate_information_pages_controller.rb
+
+--5b6f09baf6--2014-04-04--Daniel Roseman
+0	64	app/controllers/admin/corporate_information_pages_translations_controller.rb
+0	192	test/functional/admin/corporate_information_pages_translations_controller_test.rb
+
+--3789df98dc--2014-04-04--David Thompson
+6	0	app/controllers/admin/corporate_information_pages_controller.rb
+13	1	app/helpers/admin/edition_routes_helper.rb
+1	5	app/helpers/admin/editions_helper.rb
+
+--2799141ace--2014-04-04--David Thompson
+12	12	test/functional/admin/corporate_information_pages_controller_test.rb
+
+--76d9838d94--2014-04-04--David Thompson
+4	1	test/functional/admin/corporate_information_pages_controller_test.rb
+
+--51544b9f1d--2014-04-03--Daniel Roseman
+1	1	app/models/organisation.rb
+1	1	app/models/worldwide_organisation.rb
+2	2	test/unit/models/organisation_test.rb
+1	1	test/unit/worldwide_organisation_test.rb
+
+--0ab5f18d35--2014-04-03--Daniel Roseman
+8	0	app/helpers/govspeak_helper.rb
+
+--b60c898c53--2014-04-03--Daniel Roseman
+1	1	test/unit/helpers/govspeak_helper_link_rewriting_test.rb
+
+--0a8fa4fc15--2014-04-03--Daniel Roseman
+2	0	test/factories/corporate_information_pages.rb
+
+--258aabbb1c--2014-04-03--Daniel Roseman
+2	2	test/unit/corporate_information_page_search_index_observer_test.rb
+
+--650415b9ce--2014-04-03--Daniel Roseman
+1	20	test/unit/attachment_visibility_test.rb
+
+--b663f8fa5e--2014-04-03--Daniel Roseman
+2	14	app/models/attachment_visibility.rb
+
+--5b97d909bb--2014-04-03--Daniel Roseman
+1	0	app/models/corporate_information_page.rb
+
+--de3fb8e956--2014-04-03--Daniel Roseman
+3	2	test/factories/corporate_information_pages.rb
+30	46	test/unit/corporate_information_page_test.rb
+
+--7c05cdd5ea--2014-04-02--Daniel Roseman
+1	1	app/models/corporate_information_page.rb
+
+--5c1dc7954d--2014-04-02--Daniel Roseman
+8	2	db/migrate/20140320144645_convert_corporate_information_pages_to_editions.rb
+
+--9039f165ea--2014-04-02--Daniel Roseman
+6	0	app/models/corporate_information_page.rb
+5	1	app/models/edition.rb
+
+--1c029693ab--2014-04-02--Daniel Roseman
+2	2	app/models/corporate_information_page.rb
+
+--1e1010ef7d--2014-04-02--Daniel Roseman
+0	1	lib/whitehall.rb
+
+--b48b45c531--2014-04-01--Daniel Roseman
+0	1	app/controllers/corporate_information_pages_controller.rb
+
+--d7a3b5bd39--2014-04-01--Daniel Roseman
+1	23	app/models/corporate_information_page.rb
+
+--8b4c761263--2014-04-01--Daniel Roseman
+7	18	app/models/corporate_information_page.rb
+5	1	app/models/edition.rb
+
+--ffd254a843--2014-04-01--Daniel Roseman
+4	0	app/models/corporate_information_page.rb
+34	15	db/migrate/20140320144645_convert_corporate_information_pages_to_editions.rb
+
+--29536c9af1--2014-03-31--Daniel Roseman
+13	14	app/helpers/public_document_routes_helper.rb
+
+--54316390f9--2014-03-28--Daniel Roseman
+5	3	app/controllers/corporate_information_pages_controller.rb
+
+--ae38dac784--2014-03-28--Daniel Roseman
+5	2	app/controllers/admin/corporate_information_pages_controller.rb
+0	5	app/models/admin/edition_filter.rb
+
+--6f497feb0f--2014-03-28--Daniel Roseman
+3	3	app/helpers/admin/edition_routes_helper.rb
+4	10	app/models/corporate_information_page.rb
+6	1	app/models/worldwide_organisation.rb
+
+--2e1d8c85e8--2014-03-28--Daniel Roseman
+2	2	app/controllers/admin/corporate_information_pages_controller.rb
+16	3	app/models/corporate_information_page.rb
+6	0	app/models/organisation.rb
+
+--655bca9b41--2014-03-27--Daniel Roseman
+7	1	app/controllers/admin/corporate_information_pages_controller.rb
+4	22	app/views/admin/corporate_information_pages/index.html.erb
+
+--37e0707ee7--2014-03-27--Daniel Roseman
+2	1	app/helpers/admin/edition_actions_helper.rb
+9	0	app/models/admin/edition_filter.rb
+7	3	app/views/admin/editions/_search_results.html.erb
+2	1	lib/whitehall.rb
+
+--9891f6cd81--2014-03-27--Daniel Roseman
+0	4	app/models/corporate_information_page.rb
+
+--d6c33cb348--2014-03-26--Daniel Roseman
+18	31	app/controllers/admin/corporate_information_pages_controller.rb
+1	0	app/controllers/admin/editions_controller.rb
+14	1	app/helpers/admin/edition_routes_helper.rb
+29	5	app/helpers/admin/editions_helper.rb
+14	4	app/helpers/public_document_routes_helper.rb
+23	2	app/models/corporate_information_page.rb
+6	1	app/models/edition.rb
+6	24	app/views/admin/corporate_information_pages/_form.html.erb
+21	0	app/views/admin/corporate_information_pages/_standard_fields.html.erb
+0	29	app/views/admin/corporate_information_pages/edit.html.erb
+1	1	app/views/admin/corporate_information_pages/index.html.erb
+8	12	app/views/admin/corporate_information_pages/new.html.erb
+2	2	app/views/admin/editions/edit.html.erb
+
+--4029582ed2--2014-03-24--Daniel Roseman
+3	6	db/migrate/20140320144645_convert_corporate_information_pages_to_editions.rb
+
+--40d55d1d33--2014-03-21--Daniel Roseman
+1	1	app/models/corporate_information_page.rb
+12	13	db/migrate/20140320144645_convert_corporate_information_pages_to_editions.rb
+
+--955d0c8ffc--2014-03-20--Daniel Roseman
+8	3	app/controllers/corporate_information_pages_controller.rb
+
+--ef38b0bb5b--2014-03-20--Daniel Roseman
+46	29	app/models/corporate_information_page.rb
+1	1	app/models/organisation.rb
+1	1	app/models/worldwide_organisation.rb
+5	0	db/migrate/20140320133815_add_corporate_information_page_type_id_to_editions.rb
+79	0	db/migrate/20140320144645_convert_corporate_information_pages_to_editions.rb
+1	0	db/schema.rb
+
+--b574bb1e6d--2014-04-08--Will Tomlins
+3	0	db/data_migration/20140408103631_reindex_consultations.rb
+
+--307a11d34c--2014-04-08--Will Tomlins
+7	5	app/assets/javascripts/application/modules/remote_search_filter.js
+
+--892eef201f--2014-04-04--Will Tomlins
+8	0	app/models/consultation.rb
+42	0	test/unit/consultation_test.rb
+
+--20dbb2c014--2014-04-04--Will Tomlins
+12	0	app/models/attachable.rb
+0	13	app/models/publicationesque.rb
+28	0	test/unit/attachable_test.rb
+0	30	test/unit/publication_test.rb

@@ -1,0 +1,12 @@
+--ccd1e13f5--2015-05-26--Edward Andress
+--61910ad40--2015-05-26--Himal Mandalia
+--3f36db366--2015-05-23--Himal Mandalia
+1	1	app/models/case_worker.rb
+1	1	app/views/case_workers/admin/case_workers/index.html.haml
+9	1	features/claim_allocation.feature
+19	0	features/step_definitions/claim_allocation_steps.rb
+
+--16f601caf--2015-05-22--Mark Ford
+2	0	app/assets/stylesheets/admin.scss
+15	28	app/views/advocates/admin/advocates/_form.html.haml
+6	5	app/views/advocates/admin/advocates/index.html.haml

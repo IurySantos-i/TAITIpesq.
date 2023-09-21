@@ -1,0 +1,123 @@
+--1e4edfa9be--2013-03-19--Matthew Ford
+--3c1c7fad50--2013-03-19--Matthew Ford
+10	0	app/views/admin/editions/_document_preview.html.erb
+
+--142cf3172a--2013-03-19--russell thorn
+1	1	app/views/home/history.html.erb
+
+--ffe1a29613--2013-03-19--russell thorn
+1	1	app/assets/stylesheets/frontend/views/_history.scss
+
+--6e6abb5a36--2013-03-14--Tekin Suleyman
+2	2	app/assets/stylesheets/frontend/base.scss
+43	0	app/assets/stylesheets/frontend/helpers/_activity-nav.scss
+1	47	app/assets/stylesheets/frontend/views/_policies.scss
+12	1	app/assets/stylesheets/frontend/views/{_priority.scss => _worldwide_priorities.scss}
+11	1	app/controllers/worldwide_priorities_controller.rb
+1	1	app/views/policies/_policy_navigation.html.erb
+8	0	app/views/worldwide_priorities/_navigation.html.erb
+20	0	app/views/worldwide_priorities/activity.html.erb
+15	22	app/views/worldwide_priorities/show.html.erb
+6	1	config/routes.rb
+11	0	features/step_definitions/worldwide_priority_steps.rb
+13	1	features/viewing-published-worldwide-priorities.feature
+0	7	features/world-location-news.feature
+6	6	test/functional/policies_controller_test.rb
+4	4	test/functional/supporting_pages_controller_test.rb
+31	21	test/functional/worldwide_priorities_controller_test.rb
+
+--f071e9cc62--2013-03-19--Edd Sowden
+--0fb4456691--2013-03-19--russell thorn
+1	1	app/views/world_locations/index.html.erb
+
+--b6a20300fa--2013-03-19--Edd Sowden
+--d6e00053db--2013-03-19--russell thorn
+2	2	app/assets/stylesheets/frontend/views/_history.scss
+1	1	app/views/home/history.html.erb
+
+--f4ff324ca6--2013-03-13--Tekin Suleyman
+1	0	app/models/policy.rb
+1	0	app/views/admin/policies/_form.html.erb
+6	0	features/editing-draft-policies.feature
+7	0	features/step_definitions/policy_steps.rb
+5	1	test/unit/policy_test.rb
+
+--8766a4d6de--2013-03-13--Tekin Suleyman
+2	2	app/models/edition/related_documents.rb
+2	2	test/unit/edition/related_policies_test.rb
+
+--d41def302f--2013-03-18--russell thorn
+14	0	app/assets/stylesheets/frontend/helpers/_index-list.scss
+0	16	app/assets/stylesheets/frontend/helpers/_page-header.scss
+
+--0ad89537dd--2013-03-18--russell thorn
+-	-	app/assets/images/history/government-buildings.jpg
+-	-	app/assets/images/history/historical-documents.jpg
+-	-	app/assets/images/history/horse-guards-vintage.jpg
+
+--1941677b4f--2013-03-18--russell thorn
+17	0	app/assets/stylesheets/frontend/helpers/_page-header.scss
+0	16	app/assets/stylesheets/frontend/views/_organisations.scss
+
+--5449f7ee71--2013-03-18--russell thorn
+0	14	app/assets/stylesheets/frontend/helpers/_page-header.scss
+16	0	app/assets/stylesheets/frontend/views/_organisations.scss
+
+--956aa953c7--2013-03-18--russell thorn
+14	0	app/assets/stylesheets/frontend/helpers/_page-header.scss
+0	16	app/assets/stylesheets/frontend/views/_organisations.scss
+
+--12f91f1373--2013-03-15--russell thorn
+1	1	app/views/classifications/index.html.erb
+1	1	app/views/organisations/index.html.erb
+1	1	app/views/world_locations/index.html.erb
+
+--85e016e8e6--2013-03-06--russell thorn
+6	0	app/assets/stylesheets/frontend/helpers/_index-list.scss
+8	0	app/assets/stylesheets/frontend/views/_organisations.scss
+1	1	app/views/classifications/index.html.erb
+1	1	app/views/organisations/index.html.erb
+1	2	app/views/world_locations/index.html.erb
+
+--1efd1a840f--2013-03-01--russell thorn
+0	1	app/assets/stylesheets/frontend/base.scss
+0	7	app/assets/stylesheets/frontend/views/_classifications.scss
+0	2	app/assets/stylesheets/frontend/views/_organisations.scss
+1	2	app/views/classifications/index.html.erb
+3	2	app/views/organisations/index.html.erb
+5	7	app/views/world_locations/index.html.erb
+
+--532b5ecb42--2013-03-18--russell thorn
+6	6	app/views/home/history.html.erb
+
+--84c9605084--2013-03-14--russell thorn
+-	-	app/assets/images/history/government-buildings.jpg
+
+--55d07105c8--2013-03-13--russell thorn
+8	2	app/assets/stylesheets/frontend/views/_history.scss
+13	12	app/views/home/history.html.erb
+
+--ab7dee09c7--2013-03-13--russell thorn
+-	-	app/assets/images/history/historical-documents.jpg
+-	-	app/assets/images/history/horse-guards-vintage.jpg
+
+--9ec2afa29f--2013-03-12--russell thorn
+17	18	app/views/home/history.html.erb
+
+--f1c451a428--2013-03-08--russell thorn
+10	3	app/assets/stylesheets/frontend/views/_history.scss
+1	1	app/views/home/history.html.erb
+
+--f6aa12a363--2013-03-07--russell thorn
+1	1	app/assets/stylesheets/frontend/views/_history.scss
+26	27	app/views/home/history.html.erb
+
+--fca6ce5648--2013-03-05--russell thorn
+-	-	app/assets/images/history/government-buildings.jpg
+-	-	app/assets/images/history/historical-documents.jpg
+-	-	app/assets/images/history/horse-guards-vintage.jpg
+1	0	app/assets/stylesheets/frontend/base.scss
+156	0	app/assets/stylesheets/frontend/views/_history.scss
+3	0	app/controllers/home_controller.rb
+134	0	app/views/home/history.html.erb
+1	0	config/routes.rb

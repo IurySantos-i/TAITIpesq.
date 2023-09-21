@@ -1,9 +1,0 @@
---4a2f1d75--2012-03-06--chrisgeorge
---530a5b8f--2012-03-06--chrisgeorge
-24	25	{features => capybara_features}/edit_user_details.feature
-12	0	capybara_features/step_definitions/basic_steps.rb
-14	0	capybara_features/step_definitions/more_web_steps.rb
-
---1798e6c5--2012-02-18--Mark T
-5	1	app/models/user.rb
-2	1	features/edit_user_details.feature

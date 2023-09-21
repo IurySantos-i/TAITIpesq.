@@ -1,0 +1,4 @@
+entity,coupled,degree,average-revs
+app/assets/stylesheets/publisher_blueprint.css.scss,app/views/publisher/_publisher_blueprint.html.haml,92,7
+app/assets/javascripts/app/views/publisher_view.js,app/views/publisher/_publisher_blueprint.html.haml,80,8
+app/assets/javascripts/app/views/publisher_view.js,app/assets/stylesheets/publisher_blueprint.css.scss,71,7

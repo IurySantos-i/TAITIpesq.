@@ -1,0 +1,57 @@
+--36080af85--2014-01-09--Juho Makkonen
+--356bb90f6--2014-01-09--Juho Makkonen
+3	3	app/controllers/admin/custom_fields_controller.rb
+1	0	app/controllers/homepage_controller.rb
+1	1	app/helpers/custom_fields_helper.rb
+1	1	app/models/custom_field.rb
+3	3	app/models/{dropdown_field.rb => custom_fields/dropdown.rb}
+1	1	app/views/admin/custom_fields/index.haml
+14	0	app/views/homepage/_custom_filters.haml
+9	0	app/views/homepage/_search_bar.haml
+9	30	app/views/homepage/index.haml
+2	0	config/locales/en.yml
+2	0	config/locales/fi.yml
+12	6	spec/factories.rb
+9	9	spec/models/dropdown_field_spec.rb
+
+--4dd7cf57e--2014-01-09--Antti Virolainen
+8	6	app/assets/javascripts/googlemaps.js
+1	0	app/controllers/listings_controller.rb
+0	2	app/models/listing.rb
+3	1	app/views/homepage/_map.haml
+
+--bc2495a8c--2014-01-09--Mikko Koski
+1	1	app/views/admin/custom_fields/_new_option.haml
+
+--cdeb647ce--2014-01-09--Mikko Koski
+9	0	app/controllers/admin/custom_fields_controller.rb
+9	4	app/helpers/application_helper.rb
+5	0	db/migrate/20140109143257_add_custom_fields_allowed_to_community.rb
+2	1	db/schema.rb
+
+--6c8ca3226--2014-01-09--Mikko Koski
+1	1	app/models/custom_field_value.rb
+1	1	features/admin/admin_remove_custom_field.feature
+1	2	features/settings/user_changes_email_address.feature
+3	0	features/step_definitions/admin_steps.rb
+2	2	features/step_definitions/web_steps.rb
+11	0	features/support/hooks.rb
+3	3	spec/models/custom_field_value_spec.rb
+
+--8c4721374--2014-01-09--Juho Makkonen
+3	2	app/models/listing.rb
+6	6	db/schema.rb
+
+--9a2a7d31c--2014-01-09--Juho Makkonen
+--511f403e0--2014-01-09--Juho Makkonen
+20	2	app/assets/stylesheets/views/admin/_custom_fields.css.scss
+1	0	app/controllers/admin/custom_fields_controller.rb
+31	1	app/controllers/homepage_controller.rb
+2	0	app/models/community.rb
+4	0	app/models/custom_field.rb
+4	0	app/models/listing.rb
+17	1	app/views/homepage/index.haml
+5	0	db/migrate/20140109093432_add_community_id_to_custom_fields.rb
+2	1	db/schema.rb
+25	0	spec/controllers/homepage_controller_spec.rb
+14	3	spec/factories.rb

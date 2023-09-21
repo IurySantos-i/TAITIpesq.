@@ -1,0 +1,10 @@
+--0d6dae957--2015-08-14--Edward Andress
+--edf393561--2015-08-14--Edward Andress
+--335926b27--2015-08-14--Himal Mandalia
+9	2	spec/controllers/heartbeat_controller_spec.rb
+
+--54e3fdc44--2015-08-14--Himal Mandalia
+37	0	app/controllers/heartbeat_controller.rb
+0	16	app/controllers/ping_controller.rb
+3	1	config/routes.rb
+82	0	spec/controllers/heartbeat_controller_spec.rb

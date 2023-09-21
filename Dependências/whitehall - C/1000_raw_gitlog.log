@@ -1,0 +1,83 @@
+--ba745b2e19--2017-05-17--David Basalla
+--f8a5cf4b98--2017-05-16--Brendan Butler
+--895e4a6812--2017-05-12--David Henry
+153	0	db/data_migration/20170511131236_resend_statistics_announcements_to_rummager.rb
+
+--17a514b0d4--2017-05-16--Ruben Arakelyan
+--edbf7c7bdc--2017-05-16--Ruben Arakelyan
+2	0	app/models/worldwide_office.rb
+6	0	app/models/worldwide_office_worldwide_service.rb
+13	0	app/models/worldwide_service.rb
+20	0	app/models/worldwide_service_type.rb
+13	1	app/presenters/api/worldwide_organisation_presenter.rb
+22	0	app/views/admin/worldwide_offices/_form.html.erb
+3	0	db/data_migration/20140403114042_rename_marriage_worldwide_service.rb
+0	6	db/migrate/20170511082208_remove_worldwide_services.rb
+15	1	db/schema.rb
+19	1	features/step_definitions/worldwide_organisation_steps.rb
+3	1	features/worldwide-organisations.feature
+6	0	test/factories/worldwide_office_worldwide_services.rb
+6	0	test/factories/worldwide_services.rb
+35	0	test/functional/admin/worldwide_offices_controller_test.rb
+15	0	test/unit/presenters/api/worldwide_organisation_presenter_test.rb
+9	0	test/unit/worldwide_office_worldwide_service_test.rb
+14	0	test/unit/worldwide_service_test.rb
+13	0	test/unit/worldwide_service_type_test.rb
+
+--752e346bf9--2017-05-15--Graham Pengelly
+--61055579af--2017-05-15--Graham Pengelly
+--3a54d9cc80--2017-05-15--David Basalla
+1	1	app/views/admin/editions/_locale_fields.html.erb
+1	1	test/javascripts/unit/admin/views/editions/_form_test.js
+
+--b216eaeeb4--2017-05-15--Graham Pengelly
+16	4	lib/sync_checker/formats/corporate_information_page_check.rb
+
+--bae6e4baa1--2017-05-15--Graham Pengelly
+10	8	app/presenters/publishing_api/corporate_information_page_presenter.rb
+30	0	test/unit/presenters/publishing_api/corporate_information_page_presenter_test.rb
+
+--675ff6bd1a--2017-05-15--Ruben Arakelyan
+--038f50f112--2017-05-11--Graham Pengelly
+16	1	lib/whitehall/document_filter/rummager.rb
+14	3	test/unit/whitehall/document_filter/rummager_test.rb
+
+--2e08948b2f--2017-05-12--Graham Pengelly
+4	0	app/models/news_article_type.rb
+11	0	test/unit/news_article_type_test.rb
+
+--d30f14babe--2017-05-12--David Basalla
+33	0	app/assets/javascripts/admin/views/editions/_form.js
+1	1	app/views/admin/editions/_locale_fields.html.erb
+74	0	test/javascripts/unit/admin/views/editions/_form_test.js
+
+--7bcaaa11ab--2017-05-12--David Basalla
+87	66	test/javascripts/unit/admin/views/editions/_form_test.js
+
+--10e83da7ad--2017-05-11--David Basalla
+7	0	app/models/news_article.rb
+20	0	test/unit/news_article_test.rb
+
+--2a3101b349--2017-05-11--David Basalla
+16	16	features/step_definitions/news_article_steps.rb
+
+--cddc4f86c9--2017-05-11--David Basalla
+0	1	app/helpers/admin/editions_helper.rb
+4	0	app/models/news_article.rb
+1	0	app/views/admin/editions/_standard_fields.html.erb
+26	0	features/news-article.feature
+44	0	features/step_definitions/news_article_steps.rb
+9	0	features/support/news_article_helper.rb
+1	1	test/unit/edition/translatable_test.rb
+
+--b1a198ec27--2017-05-10--David Basalla
+17	27	app/assets/javascripts/admin/views/editions/_form.js
+7	2	app/views/admin/editions/_locale_fields.html.erb
+29	26	test/javascripts/unit/admin/views/editions/_form_test.js
+
+--b94d97b893--2017-05-11--Ruben Arakelyan
+1	1	test/functional/admin/classification_featurings_controller_test.rb
+
+--283923be17--2017-05-11--Ruben Arakelyan
+3	3	Gemfile
+23	13	Gemfile.lock

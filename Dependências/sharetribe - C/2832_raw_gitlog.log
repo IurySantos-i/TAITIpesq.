@@ -1,0 +1,197 @@
+--419ccb946--2012-07-04--Antti Virolainen
+--f2e23bd4a--2012-07-04--Kusti
+2	2	features/testimonials/user_views_testimonials.feature
+
+--b208bf4c1--2012-07-04--Kusti
+4	1	app/helpers/badges_helper.rb
+7	7	app/helpers/people_helper.rb
+25	5	app/models/person.rb
+16	16	app/stylesheets/style.scss
+1	1	app/views/conversations/_message.haml
+1	1	app/views/conversations/_received_conversation.haml
+1	1	app/views/conversations/_sent_conversation.haml
+2	1	app/views/listings/_comment.haml
+1	1	app/views/listings/_help_texts.haml
+1	1	app/views/listings/show.haml
+1	1	app/views/people/_badge_description.haml
+6	9	app/views/people/_profile_feedback.haml
+6	4	app/views/people/show.haml
+5	3	app/views/testimonials/_testimonial.haml
+10	8	app/views/testimonials/index.haml
+7	3	config/locales/en.yml
+7	3	config/locales/fi.yml
+13	0	db/migrate/20120704072606_edit_community_defaults.rb
+4	4	db/schema.rb
+0	55	features/badges/user_views_badges.feature
+1	1	features/news_items/user_views_news_items.feature
+17	7	features/people/user_views_profile_page.feature
+0	24	public/javascripts/kassi.js
+1	0	public/javascripts/kassi_dashboard.js
+24	0	public/javascripts/sharetribe_common.js
+19	19	public/stylesheets/compiled/style.css
+7	7	public/stylesheets/uniform.kassi.css
+3	0	spec/fixtures/communities.yml
+
+--0e7ddc12b--2012-07-04--Kusti
+2	2	features/settings/user_updates_profile_information.feature
+0	1	public/javascripts/kassi.js
+
+--6d03c652a--2012-07-01--Antti Virolainen
+8	7	app/controllers/api/listings_controller.rb
+9	1	app/views/api/listings/index.json.rabl
+30	4	spec/controllers/api/listings_controller_spec.rb
+
+--de27da324--2012-07-01--Antti Virolainen
+14	0	app/controllers/api/listings_controller.rb
+10	0	app/views/api/people/show.json.rabl
+
+--41c8b742f--2012-06-28--Antti Virolainen
+23	7	app/controllers/api/listings_controller.rb
+2	0	app/views/api/comments/show.json.rabl
+2	0	app/views/api/listings/create.json.rabl
+38	1	app/views/api/listings/show.json.rabl
+2	0	app/views/api/locations/show.json.rabl
+17	0	db/migrate/20120628121713_remove_unused_columns_from_listings.rb
+1	6	db/schema.rb
+78	16	spec/controllers/api/listings_controller_spec.rb
+1	1	spec/controllers/api/people_controller_spec.rb
+
+--6898ead5f--2012-06-27--Antti Virolainen
+5	2	app/views/api/people/show.json.rabl
+3	0	config/initializers/rabl_config.rb
+
+--7a8cb9b3f--2012-06-27--Antti Virolainen
+7	0	app/controllers/api/people_controller.rb
+2	0	app/views/api/communities/show.json.rabl
+5	0	app/views/api/people/show.json.rabl
+6	1	app/views/api/tokens/create.json.rabl
+1	0	config/routes.rb
+20	0	spec/controllers/api/people_controller_spec.rb
+16	0	spec/controllers/api/tokens_controller_spec.rb
+
+--0363e8b0f--2012-06-27--Antti Virolainen
+2	1	app/controllers/api/api_controller.rb
+
+--bac63effc--2012-06-27--Antti Virolainen
+1	1	communities/default/register_details/register_details.es.haml
+1	1	communities/default/register_details/register_details.ru.haml
+19	14	config/locales/ca.yml
+5	0	config/locales/de.yml
+11	6	config/locales/el.yml
+5	0	config/locales/es-ES.yml
+6	1	config/locales/es.yml
+30	0	config/locales/faq/faq.de.yml
+5	0	config/locales/fr.yml
+5	0	config/locales/it.yml
+5	0	config/locales/nl.yml
+5	0	config/locales/ro.yml
+6	1	config/locales/ru.yml
+5	0	config/locales/sw.yml
+5	0	config/locales/zh.yml
+
+--4b0f1f44d--2012-06-27--Antti Virolainen
+1	1	LICENSE
+1	1	communities/default/register_details/register_details.en.haml
+1	1	communities/default/register_details/register_details.fi.haml
+1	1	communities/kallio/frontpage_sidebar/frontpage_sidebar.en.haml
+1	1	communities/kallio/frontpage_sidebar/frontpage_sidebar.fi.haml
+1	1	communities/pikkuhuopalahti/frontpage_sidebar/frontpage_sidebar.en.haml
+1	1	communities/pikkuhuopalahti/frontpage_sidebar/frontpage_sidebar.fi.haml
+1	1	communities/pitajanmaki/frontpage_sidebar/frontpage_sidebar.en.haml
+1	1	communities/pitajanmaki/frontpage_sidebar/frontpage_sidebar.fi.haml
+
+--b3033721b--2012-06-27--Antti Virolainen
+1	6	app/controllers/api/api_controller.rb
+8	3	app/controllers/api/listings_controller.rb
+1	2	app/views/api/listings/show.json.rabl
+1	1	config/routes.rb
+70	0	spec/controllers/api/listings_controller_spec.rb
+
+--679651d1c--2012-06-25--Antti Virolainen
+2	0	app/controllers/api/api_controller.rb
+1	1	app/controllers/api/tokens_controller.rb
+0	0	app/views/api/tokens/{index.json.rabl => create.json.rabl}
+1	1	config/routes.rb
+
+--dbc336ceb--2012-06-25--Antti Virolainen
+1	1	app/controllers/api/tokens_controller.rb
+1	1	app/controllers/people_controller.rb
+
+--b257f5281--2012-06-25--Antti Virolainen
+10	0	app/controllers/api/api_controller.rb
+2	2	app/controllers/api/listings_controller.rb
+36	0	app/controllers/api/tokens_controller.rb
+2	2	app/models/person.rb
+2	0	app/views/api/tokens/index.json.rabl
+2	2	config/initializers/devise.rb
+1	1	config/routes.rb
+9	0	db/migrate/20120625211426_add_authentication_token_to_people.rb
+24	23	db/schema.rb
+
+--d49f7fbe5--2012-06-25--Antti Virolainen
+2	0	app/controllers/application_controller.rb
+
+--e4f85256d--2012-06-25--Antti Virolainen
+3	1	Gemfile
+6	2	Gemfile.lock
+7	0	app/controllers/api/api_controller.rb
+8	2	app/controllers/api/listings_controller.rb
+2	0	app/views/api/listings/index.json.rabl
+3	0	app/views/api/listings/show.json.rabl
+1	1	config/routes.rb
+
+--f6f9bdc68--2012-06-25--Antti Virolainen
+7	1	app/controllers/api/api_controller.rb
+1	1	app/controllers/api/listings_controller.rb
+5	1	config/config.example.yml
+0	2	config/initializers/mime_types.rb
+
+--fc8fd5ffe--2012-06-24--Antti Virolainen
+30	0	app/controllers/api/api_controller.rb
+17	0	app/controllers/api/listings_controller.rb
+2	0	app/controllers/dashboard_controller.rb
+2	0	config/initializers/mime_types.rb
+7	0	config/routes.rb
+
+--478b3769f--2012-06-22--Antti Virolainen
+1	0	communities/urv/logo_text/logo_text.haml
+
+--01ec83945--2012-06-22--Antti Virolainen
+21	8	app/controllers/people_controller.rb
+9	0	app/helpers/people_helper.rb
+8	3	features/step_definitions/user_steps.rb
+64	39	spec/controllers/people_controller_spec.rb
+
+--bb3a32e57--2012-06-21--Antti Virolainen
+3	3	app/views/listings/show.haml
+
+--37951aa97--2012-06-21--Antti Virolainen
+1	1	app/helpers/application_helper.rb
+7	7	app/views/listings/show.haml
+
+--d302f88c2--2012-06-21--Antti Virolainen
+1	0	communities/urv/logo_text/logo_text.haml
+
+--16b4bcfc7--2012-06-20--Kusti
+2	0	app/stylesheets/style.scss
+1	1	app/views/conversations/show.haml
+2	1	app/views/layouts/_notifications.haml
+1	1	app/views/layouts/application.haml
+2	2	app/views/layouts/private.haml
+1	1	app/views/listings/_comment_form.haml
+24	37	public/javascripts/kassi.js
+4	18	public/javascripts/sharetribe_common.js
+3	0	public/stylesheets/compiled/style.css
+
+--32870dabb--2012-06-20--Kusti
+1	1	app/stylesheets/style.scss
+5	1	app/views/homepage/_invitation_form.haml
+7	6	app/views/homepage/index.haml
+5	3	app/views/invitations/create.js.erb
+1	1	app/views/layouts/application.haml
+1	1	app/views/people/show.haml
+13	12	features/invitations/user_invites_another_user.feature
+1076	0	public/javascripts/jquery.form.js
+25	28	public/javascripts/kassi.js
+43	12	public/javascripts/sharetribe_common.js
+1	1	public/stylesheets/compiled/style.css

@@ -1,0 +1,10 @@
+entity,coupled,degree,average-revs
+Gemfile,Gemfile.lock,90,6
+app/models/admin.rb,app/models/user.rb,71,7
+app/models/question.rb,db/migrate/20120730213945_doc_faq_rework.rb,58,17
+app/views/archive_faqs/_archive_faq_form.html.erb,app/views/archive_faqs/_question_answer_fields.html.erb,52,21
+app/controllers/archive_faqs_controller.rb,app/views/archive_faqs/_archive_faq_form.html.erb,40,28
+app/views/archive_faqs/_archive_faq_form.html.erb,app/views/archive_faqs/edit.html.erb,40,15
+app/views/archive_faqs/index.html.erb,app/views/archive_faqs/show.html.erb,36,17
+app/views/archive_faqs/_archive_faq_form.html.erb,app/views/archive_faqs/index.html.erb,33,18
+app/models/archive_faq.rb,app/views/archive_faqs/_archive_faq_form.html.erb,31,19

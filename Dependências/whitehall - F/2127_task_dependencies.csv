@@ -1,3 +1,0 @@
-entity,coupled,degree,average-revs
-app/helpers/admin/taggable_content_helper.rb,test/unit/helpers/admin/taggable_content_helper_test.rb,92,13
-app/helpers/application_helper.rb,test/unit/helpers/application_helper_test.rb,83,6

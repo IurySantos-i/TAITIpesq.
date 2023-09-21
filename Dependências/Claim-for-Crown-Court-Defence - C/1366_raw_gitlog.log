@@ -1,0 +1,9 @@
+--88d0f764a--2015-10-08--Himal Mandalia
+--ff2f6d895--2015-10-08--Edward Andress
+--462f04635--2015-10-08--jsugarman
+2	0	features/sign_in.feature
+5	0	features/step_definitions/shared_steps.rb
+
+--2115ede49--2015-10-08--Alistair Laing
+--b80fd4a52--2015-10-08--Alistair Laing
+3	3	config/locales/devise.en.yml

@@ -1,0 +1,146 @@
+--92ba47f005--2012-09-11--Chris Roos
+--7c99017e6e--2012-09-10--James Adam
+2	2	test/support/controller_test_helpers.rb
+
+--cb7b6aa25a--2012-09-10--James Adam
+8	4	app/presenters/api/specialist_guide_presenter.rb
+
+--c9b34539a9--2012-09-10--James Adam
+17	6	app/helpers/govspeak_helper.rb
+1	1	app/presenters/api/specialist_guide_presenter.rb
+3	3	test/functional/api/specialist_guide_presenter_test.rb
+12	0	test/unit/helpers/govspeak_helper_test.rb
+
+--94fb5400d9--2012-09-10--James Adam
+4	3	app/controllers/api/specialist_guides_controller.rb
+2	0	app/presenters/api/specialist_guide_presenter.rb
+8	0	test/functional/api/specialist_guide_presenter_test.rb
+1	0	test/functional/api/specialist_guides_controller_test.rb
+
+--ea0350e6e4--2012-09-10--James Adam
+5	1	app/presenters/api/specialist_guide_presenter.rb
+1	0	test/functional/api/specialist_guide_presenter_test.rb
+
+--8dedbcdf93--2012-09-10--James Adam
+2	2	app/presenters/api/specialist_guide_presenter.rb
+2	2	test/functional/api/specialist_guide_presenter_test.rb
+
+--ce5e54b90f--2012-09-10--James Adam
+1	0	app/presenters/api/specialist_guide_presenter.rb
+4	0	test/functional/api/specialist_guide_presenter_test.rb
+
+--54319c1353--2012-09-10--James Adam
+1	0	app/presenters/api/specialist_guide_presenter.rb
+4	0	test/functional/api/specialist_guide_presenter_test.rb
+
+--8d8fedcc2e--2012-09-10--James Adam
+2	1	features/administering-corporate-information-pages.feature
+
+--9935ca55ee--2012-09-10--Bradley Wright
+10	1	app/controllers/public_facing_controller.rb
+3	0	config/environment.rb
+9	1	test/functional/public_facing_controller_test.rb
+
+--f6a36365b6--2012-09-10--James Adam
+1	1	app/presenters/api/specialist_guide_presenter.rb
+2	2	test/functional/api/specialist_guide_presenter_test.rb
+2	2	test/functional/api/specialist_guides_controller_test.rb
+1	1	test/functional/people_controller_test.rb
+2	2	test/support/model_stubbing_helpers.rb
+
+--8872677560--2012-09-10--James Mead
+3	0	app/assets/stylesheets/frontend/helpers/_document-series.scss
+
+--b54ee9a6e0--2012-09-10--James Mead
+1	18	app/assets/stylesheets/frontend/helpers/_document-series.scss
+20	0	app/assets/stylesheets/frontend/views/_publications.scss
+
+--ee3680738a--2012-09-10--James Mead
+2	0	app/views/admin/document_series/show.html.erb
+3	0	app/views/document_series/show.html.erb
+28	4	test/functional/admin/document_series_controller_test.rb
+16	0	test/functional/document_series_controller_test.rb
+
+--e1cc115d2d--2012-09-07--Bradley Wright
+1	0	app/views/admin/document_series/_form.html.erb
+5	0	db/migrate/20120907132752_add_description_to_document_series.rb
+2	1	db/schema.rb
+
+--77e046cb37--2012-09-10--James Adam
+13	1	app/validators/safe_html_validator.rb
+
+--9b3ba8fe70--2012-09-06--Chris Roos
+0	16	app/helpers/admin/edition_actions_helper.rb
+0	3	app/views/admin/editions/_navigation.html.erb
+0	7	features/editing-draft-consultation-responses.feature
+0	9	features/publishing-consultation-responses.feature
+0	23	features/step_definitions/consultation_response_steps.rb
+
+--361d09958e--2012-09-06--Chris Roos
+3	9	app/models/response.rb
+14	0	test/unit/response_test.rb
+
+--1865740621--2012-09-06--Chris Roos
+1	1	app/views/admin/consultation_responses/_form.html.erb
+2	17	app/views/admin/consultations/_form.html.erb
+1	1	app/views/admin/editions/_attachment_fields.html.erb
+1	1	app/views/admin/publications/_form.html.erb
+1	1	app/views/admin/specialist_guides/_form.html.erb
+1	1	app/views/admin/supporting_pages/_form.html.erb
+4	0	test/functional/admin/consultations_controller_test.rb
+
+--f2ccbe0e0f--2012-09-06--Chris Roos
+18	0	app/controllers/admin/consultations_controller.rb
+23	0	app/views/admin/consultations/_form.html.erb
+19	0	app/views/admin/editions/show.html.erb
+248	0	test/functional/admin/consultations_controller_test.rb
+
+--8e3f33cce4--2012-09-06--Chris Roos
+1	0	app/models/consultation_response_attachment.rb
+3	1	app/models/response.rb
+13	0	test/unit/response_test.rb
+
+--8bbdeea069--2012-09-06--Chris Roos
+14	1	app/models/response.rb
+6	1	test/unit/response_test.rb
+
+--9c7f1ea721--2012-09-06--Chris Roos
+0	4	app/models/consultation_response_attachment.rb
+0	2	test/factories/consultation_response_attachments.rb
+4	4	test/unit/consultation_response_attachment_test.rb
+2	2	test/unit/response_test.rb
+
+--0a5b52604b--2012-09-06--Chris Roos
+4	0	app/models/consultation_response_attachment.rb
+2	0	test/factories/consultation_response_attachments.rb
+4	4	test/unit/consultation_response_attachment_test.rb
+2	2	test/unit/response_test.rb
+
+--c15da8ce20--2012-09-06--Chris Roos
+1	1	app/models/consultation.rb
+18	0	test/unit/consultation_test.rb
+
+--9b41b9d1ff--2012-09-06--Chris Roos
+1	1	test/functional/admin/consultations_controller_test.rb
+
+--346748d024--2012-09-05--Chris Roos
+8	0	app/models/consultation.rb
+1	0	app/models/response.rb
+17	0	test/unit/consultation_test.rb
+
+--f6efbe8b18--2012-09-05--Chris Roos
+4	0	app/models/consultation_response_attachment.rb
+2	0	app/models/response.rb
+13	0	db/migrate/20120905141431_add_consultation_response_attachments.rb
+7	0	db/schema.rb
+4	0	test/factories/consultation_response_attachments.rb
+4	0	test/factories/responses.rb
+24	0	test/unit/consultation_response_attachment_test.rb
+39	0	test/unit/response_test.rb
+
+--a3160edfc3--2012-09-05--Chris Roos
+3	0	app/models/consultation.rb
+2	0	app/models/response.rb
+13	0	db/migrate/20120905133536_add_consultation_responses.rb
+7	0	db/schema.rb
+29	0	test/unit/consultation_test.rb

@@ -1,4 +1,0 @@
-entity,coupled,degree,average-revs
-app/lib/constituency_api.rb,spec/lib/constituency_api_spec.rb,100,6
-app/lib/constituency_api.rb,app/models/signature.rb,83,6
-app/models/signature.rb,spec/lib/constituency_api_spec.rb,83,6

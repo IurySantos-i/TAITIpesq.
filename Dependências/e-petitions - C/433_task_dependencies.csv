@@ -1,0 +1,6 @@
+entity,coupled,degree,average-revs
+app/helpers/petition_helper.rb,app/views/petitions/create/_your_details_ui.html.erb,83,6
+app/controllers/petitions_controller.rb,app/models/staged_petition_creator.rb,80,8
+app/views/petitions/create/_submit_ui.html.erb,app/views/petitions/create/_your_details_ui.html.erb,80,8
+app/helpers/petition_helper.rb,app/views/petitions/create/_submit_ui.html.erb,66,8
+app/models/staged_petition_creator.rb,app/views/petitions/create/_submit_ui.html.erb,55,9

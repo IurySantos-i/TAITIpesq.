@@ -1,0 +1,25 @@
+--398dcae7--2015-06-04--Andrew White
+--0a8abd44--2015-06-04--Andrew White
+--52d293a9--2015-06-04--Henry Hadlow
+1	1	app/controllers/static_pages_controller.rb
+1	1	app/views/archived/petitions/index.html.erb
+1	1	app/views/petitions/show.html.erb
+0	4	app/views/shared/_footer.html.erb
+0	1	config/routes.rb
+0	3	features/support/paths.rb
+
+--ad5a7e1d--2015-06-04--David Basalla
+4	3	app/lib/constituency_api.rb
+1	6	app/views/petitions/create/_replay_petition_ui.html.erb
+1	2	features/charlie_creates_a_petition.feature
+10	0	spec/lib/constituency_api_spec.rb
+
+--0f885fef--2015-06-04--Henry Hadlow
+1	1	app/assets/stylesheets/govuk_frontend_toolkit/_grid_layout.scss
+3	0	app/assets/stylesheets/petitions/_panels.scss
+19	5	app/assets/stylesheets/petitions/_typography.scss
+1	1	app/assets/stylesheets/site.scss
+
+--0066b6be--2015-06-04--Henry Hadlow
+106	176	app/views/static_pages/help.html.erb
+0	111	app/views/static_pages/how_it_works.html.erb

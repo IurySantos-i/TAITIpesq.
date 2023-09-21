@@ -1,0 +1,269 @@
+--720d8d49--2015-06-11--Andrew White
+--a68777a3--2015-06-10--Alexander Bobin
+--1cc9d852--2015-06-10--Henry Hadlow
+212	99	public/images/icons/icon.ai
+
+--0cb5f820--2015-06-10--Alexander Bobin
+--161a609a--2015-06-10--Alexander Bobin
+12	1	app/assets/stylesheets/petitions/views/shared/_share-petition.scss
+-	-	public/images/icons/{icon_share-facebook-2x .png => icon_share-facebook-2x.png}
+
+--af11cd24--2015-06-10--Alexander Bobin
+12	12	app/assets/stylesheets/petitions/_icons.scss
+
+--a7884703--2015-06-10--Murray Steele
+--7d0c4d21--2015-06-10--Murray Steele
+--e83ad6e3--2015-06-09--Paula Stepinska
+2	2	app/controllers/admin/petitions_controller.rb
+7	2	app/controllers/admin/todolist_controller.rb
+2	0	app/models/petition.rb
+6	0	app/views/admin/petitions/_petition_details.html.erb
+12	4	app/views/admin/todolist/index.html.erb
+4	0	public/stylesheets/admin.css
+12	18	spec/controllers/admin/todolist_controller_spec.rb
+
+--30ac3d90--2015-06-10--Murray Steele
+--7ac84462--2015-06-10--Murray Steele
+--1b513e00--2015-06-10--Andrew White
+0	1	Gemfile
+0	4	Gemfile.lock
+0	24	app/models/admin_user.rb
+0	24	app/models/petition.rb
+0	19	app/models/signature.rb
+0	11	app/models/sponsor.rb
+0	12	app/models/system_setting.rb
+0	24	spec/models/admin_user_spec.rb
+0	25	spec/models/petition_spec.rb
+0	19	spec/models/signature_spec.rb
+0	11	spec/models/sponsor_spec.rb
+0	12	spec/models/system_setting_spec.rb
+
+--39ad83a3--2015-06-10--Andrew White
+0	1	Gemfile
+0	3	Gemfile.lock
+28	17	spec/models/petition_spec.rb
+2	1	spec/models/signature_spec.rb
+
+--fbad5658--2015-06-10--David Basalla
+7	7	app/lib/constituency_api.rb
+1	1	app/models/signature.rb
+4	4	spec/lib/constituency_api_spec.rb
+1	1	spec/models/signature_spec.rb
+
+--8f90740c--2015-06-09--David Basalla
+6	0	app/views/signatures/signed.html.erb
+
+--7773c362--2015-06-09--David Basalla
+25	8	app/lib/constituency_api.rb
+
+--e96eabba--2015-06-09--David Basalla
+3	5	features/step_definitions/signature_steps.rb
+103	0	spec/fixtures/constituency_api/N1.xml
+22	0	spec/fixtures/constituency_api/N11TY.xml
+22	0	spec/fixtures/constituency_api/N1C4QP.xml
+1	0	spec/fixtures/constituency_api/no_results.xml
+42	33	spec/lib/constituency_api_spec.rb
+
+--492a4e8d--2015-06-08--David Basalla
+17	0	features/step_definitions/petition_steps.rb
+3	0	features/suzie_signs_a_petition.feature
+
+--353a37c6--2015-06-10--Alexander Bobin
+--05f360a5--2015-06-10--Andrew White
+0	2	Gemfile
+0	3	Gemfile.lock
+3	5	features/step_definitions/time_steps.rb
+0	4	features/support/hooks.rb
+4	8	spec/lib/email_reminder_spec.rb
+
+--8908a9d2--2015-06-10--Otto Laitila
+2	1	app/helpers/search_helper.rb
+
+--4cc82f58--2015-06-10--Otto Laitila
+5	0	app/controllers/petitions_controller.rb
+6	0	features/step_definitions/inspection_steps.rb
+5	0	features/step_definitions/petition_steps.rb
+12	0	features/suzie_views_all_petitions.feature
+
+--f50041ad--2015-06-10--Otto Laitila
+1	1	app/decorators/petition_search.rb
+2	2	features/suzie_searches_by_free_text.feature
+
+--3dc8d8cf--2015-06-09--Otto Laitila
+33	0	app/assets/stylesheets/petitions/views/_shared.scss
+11	0	app/helpers/search_helper.rb
+3	1	app/views/search/_result_list_footer.html.erb
+
+--f388e972--2015-06-09--Otto Laitila
+23	0	app/assets/stylesheets/petitions/_icons.scss
+-	-	public/images/icons/icon_paginate-next-2x.png
+-	-	public/images/icons/icon_paginate-next.png
+-	-	public/images/icons/icon_paginate-previous-2x.png
+-	-	public/images/icons/icon_paginate-previous.png
+
+--c1b947bf--2015-06-09--Otto Laitila
+20	0	app/assets/stylesheets/petitions/views/_search.scss
+1	0	app/assets/stylesheets/site.scss
+0	10	app/helpers/application_helper.rb
+14	16	app/helpers/search_helper.rb
+25	39	app/views/archived/petitions/search.html.erb
+6	4	app/views/petitions/index.html.erb
+4	0	app/views/search/_filter_nav.html.erb
+0	2	app/views/search/_result_list_header.html.erb
+0	18	app/views/search/_result_tabs.html.erb
+7	13	app/views/search/_results.html.erb
+10	41	app/views/search/_results_table.html.erb
+2	1	app/views/search/search.html.erb
+3	4	features/joe_searches_for_an_archived_petition.feature
+2	6	features/step_definitions/inspection_steps.rb
+1	2	features/step_definitions/petition_steps.rb
+1	5	features/step_definitions/search_steps.rb
+40	109	features/suzie_searches_by_free_text.feature
+18	0	spec/helpers/search_helper_spec.rb
+
+--ab5d5d54--2015-06-10--Andrew White
+2	3	app/controllers/signatures_controller.rb
+
+--5f7d49a9--2015-06-10--Murray Steele
+--36016858--2015-06-10--Alexander Bobin
+--0e441242--2015-06-10--Andrew White
+4	4	app/views/shared/_share_petition.html.erb
+
+--8fe16fb5--2015-06-10--Andrew White
+0	1	Gemfile
+0	3	Gemfile.lock
+
+--f0af10a7--2015-06-10--Andrew White
+--961b8c7d--2015-06-10--Murray Steele
+3	0	public/robots.txt
+
+--163e4573--2015-06-09--Andrew White
+1	0	app/assets/stylesheets/petitions/views/shared/_share-petition.scss
+12	0	app/views/shared/_share_petition.html.erb
+23	0	features/step_definitions/petition_steps.rb
+5	1	features/suzie_views_a_petition.feature
+
+--59d7592a--2015-06-09--Paula Stepinska
+2	0	app/models/concerns/state.rb
+10	2	app/models/petition.rb
+
+--79f578c4--2015-06-09--Andrew White
+--8c8cefc5--2015-06-09--Andrew White
+2	10	app/models/petition.rb
+0	4	app/models/signature.rb
+0	26	spec/models/petition_spec.rb
+0	28	spec/models/signature_spec.rb
+
+--1e6ad766--2015-06-09--Andrew White
+0	10	app/views/api/petitions/index.json.rabl
+0	3	app/views/api/petitions/show.json.rabl
+0	4	config/routes.rb
+0	26	lib/json_renderer.rb
+1	10	lib/tasks/epets.rake
+0	1	public/api/petitions.json
+0	1	public/api/petitions/38.json
+0	34	spec/lib/render_json_spec.rb
+0	43	spec/views/api/petitions/index.json.rabl_spec.rb
+0	26	spec/views/api/petitions/show.json.rabl_spec.rb
+
+--27fc9af7--2015-06-05--Alexander Bobin
+16	16	app/assets/stylesheets/petitions/_icons.scss
+0	22	app/assets/stylesheets/petitions/views/_petition-show.scss
+2	0	app/assets/stylesheets/petitions/views/_shared.scss
+26	0	app/assets/stylesheets/petitions/views/shared/_share-petition.scss
+8	2	app/views/shared/_share_petition.html.erb
+
+--4fac3c23--2015-06-05--Alexander Bobin
+7	1	app/assets/stylesheets/petitions/_forms.scss
+0	5	app/assets/stylesheets/petitions/views/_home.scss
+2	2	app/assets/stylesheets/petitions/views/_petition-show.scss
+14	0	app/assets/stylesheets/petitions/views/_shared.scss
+3	12	app/views/petitions/show.html.erb
+1	1	app/views/shared/_about_petitions.html.erb
+10	0	app/views/shared/_share_petition.html.erb
+23	15	app/views/signatures/signed.html.erb
+0	16	app/views/signatures/verify.html.erb
+2	2	app/views/static_pages/home.html.erb
+
+--7db06094--2015-06-05--Alexander Bobin
+20	0	app/assets/stylesheets/petitions/views/_shared.scss
+4	0	app/views/shared/_notification.html.erb
+6	11	app/views/signatures/thank_you.html.erb
+3	4	features/step_definitions/signature_steps.rb
+5	5	features/suzie_signs_a_petition.feature
+
+--075acbc3--2015-06-04--Otto Laitila
+1	1	app/assets/stylesheets/petitions/_footer.scss
+16	0	app/assets/stylesheets/petitions/_forms.scss
+12	0	app/assets/stylesheets/petitions/_helpers.scss
+10	0	app/assets/stylesheets/petitions/views/_shared.scss
+3	0	app/assets/stylesheets/petitions/views/_sign.scss
+3	0	app/assets/stylesheets/site.scss
+5	7	app/helpers/form_helper.rb
+2	2	app/views/signatures/_email.html.erb
+18	21	app/views/signatures/_form.html.erb
+10	9	app/views/signatures/create/_replay_email_ui.html.erb
+8	13	app/views/signatures/create/_signer_ui.html.erb
+0	6	app/views/signatures/new.html.erb
+1	1	config/initializers/assets.rb
+0	2	features/laura_signs_charlies_petition_as_a_sponsor.feature
+1	1	features/step_definitions/error_steps.rb
+1	2	features/step_definitions/signature_steps.rb
+12	14	features/suzie_signs_a_petition.feature
+
+--45a8d052--2015-06-05--Alexander Bobin
+5	4	app/assets/stylesheets/govuk_elements/forms/_form-block-labels.scss
+88	31	app/assets/stylesheets/govuk_elements/forms/_form-validation.scss
+
+--8d44c5e3--2015-06-09--Pete Herlihy
+--adb0e3c2--2015-06-09--Paula Stepinska
+31	18	features/admin/todolist.feature
+5	1	features/step_definitions/moderation_steps.rb
+10	0	features/step_definitions/petition_steps.rb
+
+--44d9e637--2015-06-09--Pete Herlihy
+2	2	spec/controllers/sponsors_controller_spec.rb
+
+--2fb51e58--2015-06-09--Andrew White
+--5746df50--2015-06-09--Pete Herlihy
+2	2	features/step_definitions/sponsor_steps.rb
+
+--a3f655ba--2015-06-09--Alexander Bobin
+--2c482fd0--2015-06-09--Pete Herlihy
+1	1	features/laura_signs_charlies_petition_as_a_sponsor.feature
+
+--42feea6a--2015-06-09--Pete Herlihy
+1	3	app/controllers/sponsors_controller.rb
+
+--c6cfac9a--2015-06-08--Murray Steele
+1	7	lib/health_check.rb
+0	6	spec/lib/health_check_spec.rb
+
+--ddada0a9--2015-06-08--Murray Steele
+1	5	lib/health_check.rb
+1	7	spec/lib/health_check_spec.rb
+
+--b77fd150--2015-05-29--Murray Steele
+11	1	lib/health_check.rb
+11	0	spec/lib/health_check_spec.rb
+
+--84e6afe6--2015-05-29--Murray Steele
+3	0	config/initializers/health_check.rb
+86	0	lib/health_check.rb
+21	0	lib/health_check_middleware.rb
+73	0	spec/lib/health_check_middleware_spec.rb
+96	0	spec/lib/health_check_spec.rb
+
+--b25bf3e8--2015-06-08--Andrew White
+16	0	app/assets/stylesheets/petitions/_header.scss
+11	0	app/controllers/application_controller.rb
+6	0	app/views/layouts/application.html.erb
+19	0	features/joe_sees_cookie_message.feature
+12	0	features/step_definitions/common_steps.rb
+4	0	features/support/hooks.rb
+
+--7688062a--2015-06-08--Andrew White
+--08dff4c0--2015-06-08--Andrew White
+0	5	db/migrate/20150601153013_rename_encrypted_email_column.rb
+2	2	db/migrate/20150602200239_initial_schema.rb
+0	2	db/structure.sql

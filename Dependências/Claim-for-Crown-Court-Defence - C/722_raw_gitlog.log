@@ -1,0 +1,236 @@
+--4b678a5e4--2016-04-19--Chris Hanes
+--5d083ec67--2016-04-19--Chris Hanes
+3	3	features/advocate_admin_trial_claim_edit_submit.feature
+2	2	features/advocate_claim_draft_edit_submit.feature
+3	3	features/advocate_contempt_claim_edit_submit.feature
+1	1	features/allocation.feature
+1	0	features/step_definitions/advocate_new_claim_steps.rb
+1	3	features/support/select2_helper.rb
+
+--2e672a50d--2016-04-18--Chris Hanes
+2	2	features/page_objects/claim_form_page.rb
+3	20	features/support/select2_helper.rb
+
+--41900b76c--2016-04-18--Chris Hanes
+1	1	features/advocate_admin_trial_claim_edit_submit.feature
+1	1	features/advocate_contempt_claim_edit_submit.feature
+1	1	features/allocation.feature
+18	10	features/support/select2_helper.rb
+
+--5378eeb97--2016-04-15--Chris Hanes
+1	1	app/form_builders/adp_form_builder.rb
+0	30	spec/form_builders/adp_form_builder_spec.rb
+
+--a34f81d6c--2016-04-15--Chris Hanes
+3	2	spec/form_builders/adp_form_builder_spec.rb
+
+--292d0af09--2016-04-15--Chris Hanes
+0	1	spec/form_builders/adp_form_builder_spec.rb
+
+--0975adb95--2016-04-15--Chris Hanes
+1	1	spec/form_builders/adp_form_builder_spec.rb
+
+--15e17a4bf--2016-04-15--Chris Hanes
+3	3	spec/form_builders/adp_form_builder_spec.rb
+
+--a113ebc58--2016-04-15--Chris Hanes
+1	1	app/views/external_users/claims/case_details/_fields.html.haml
+
+--d0f5bf75c--2016-04-15--Chris Hanes
+1	1	app/assets/javascripts/modules/external_users/claims/NewClaim.js
+
+--16eca9cee--2016-04-14--Chris Hanes
+11	4	app/assets/javascripts/modules/autocomplete.js
+1	1	app/assets/javascripts/modules/external_users/claims/NewClaim.js
+
+--3ee20ee8d--2016-04-15--Chris Hanes
+1	1	app/assets/javascripts/modules/autocomplete.js
+
+--55f8b5442--2016-04-15--Chris Hanes
+1	1	app/assets/javascripts/modules/autocomplete.js
+
+--7028198f6--2016-04-15--Chris Hanes
+1	3	app/assets/javascripts/application.js
+30	30	app/assets/javascripts/modules/autocomplete.js
+2	3	app/assets/javascripts/modules/external_users/claims/NewClaim.js
+0	13	app/assets/javascripts/modules/external_users/claims/Select2.js
+2	2	app/views/case_workers/admin/allocations/_allocation.html.haml
+1	1	app/views/case_workers/admin/allocations/_re_allocation.html.haml
+1	1	app/views/external_users/claims/case_details/_offence_id_select.html.haml
+1	1	app/views/external_users/claims/disbursements/_disbursement_fields.html.haml
+1	1	app/views/external_users/claims/fixed_fees/_fixed_fee_fields.html.haml
+1	1	app/views/external_users/claims/fixed_fees/litigators/_fields.html.haml
+1	1	app/views/external_users/claims/misc_fees/_misc_fee_fields.html.haml
+0	3	app/views/offences/index.js.erb
+
+--77ddbf6d1--2016-04-14--Chris Hanes
+2	1	app/assets/javascripts/application.js
+65	0	app/assets/javascripts/modules/autocomplete.js
+2	1	app/assets/javascripts/modules/external_users/claims/NewClaim.js
+1	0	app/assets/stylesheets/application.css.scss
+42	0	app/assets/stylesheets/moj/_autocomplete.scss
+1	1	app/form_builders/adp_form_builder.rb
+1	1	app/views/external_users/claims/case_details/_case_owner_select.html.haml
+5	5	app/views/external_users/claims/case_details/_fields.html.haml
+1	1	app/views/external_users/claims/case_details/_offence_select.html.haml
+1	1	app/views/external_users/claims/misc_fees/_misc_fee_fields.html.haml
+439	0	vendor/assets/javascripts/awesomplete.js
+
+--fa03fd350--2016-04-19--Chris Hanes
+3	3	features/advocate_admin_trial_claim_edit_submit.feature
+2	2	features/advocate_claim_draft_edit_submit.feature
+3	3	features/advocate_contempt_claim_edit_submit.feature
+1	1	features/allocation.feature
+1	0	features/step_definitions/advocate_new_claim_steps.rb
+1	3	features/support/select2_helper.rb
+
+--8bfe434d0--2016-04-19--Stephen Richards
+--1836aab1f--2016-04-18--Himal Mandalia
+2	1	runtests.sh
+
+--300a5e5e0--2016-04-19--Himal Mandalia
+--a8c036151--2016-04-19--Jesus Laiz
+4	1	lib/assets/data/supplier_numbers.yml
+
+--3655b3d5e--2016-04-18--Jesus Laiz
+1	1	app/models/supplier_number.rb
+13	1	app/validators/claim/litigator_claim_validator.rb
+4	0	config/locales/error_messages.en.yml
+3	0	lib/assets/data/supplier_numbers.yml
+1	1	spec/factories/claim/litigator_claims.rb
+5	0	spec/validators/claim/litigator_claim_validator_spec.rb
+
+--676bd84d5--2016-04-18--Himal Mandalia
+--3b263cb65--2016-04-18--Stephen Richards
+1	0	lib/tasks/migrate.rake
+
+--d49698dce--2016-04-15--Stephen Richards
+4	0	app/models/fee/base_fee.rb
+40	0	app/models/fee/interim_fee.rb
+30	0	app/models/fee/interim_fee_type.rb
+10	0	app/validators/base_validator.rb
+34	0	app/validators/fee/interim_fee_validator.rb
+5	0	db/migrate/20160418123747_add_disbursement_type_id_to_fees.rb
+2	1	db/schema.rb
+93	0	db/seeds/fee_types_before.txt
+6	0	lib/assets/data/fee_types.csv
+6	1	lib/tasks/migrate.rake
+17	0	spec/factories/fee_types.rb
+19	0	spec/factories/fees.rb
+56	0	spec/models/fee/interim_fee_spec.rb
+1	1	spec/validators/{ => fee}/base_fee_validator_spec.rb
+93	0	spec/validators/fee/interim_fee_validator_spec.rb
+1	1	spec/validators/{ => fee}/misc_fee_validator_spec.rb
+0	0	spec/validators/{ => fee}/warrant_fee_validator_spec.rb
+
+--ec55e8025--2016-04-18--Himal Mandalia
+--cb9d0644c--2016-04-18--Chris Hanes
+2	2	features/page_objects/claim_form_page.rb
+3	20	features/support/select2_helper.rb
+
+--3cf547f32--2016-04-18--Chris Hanes
+1	1	features/advocate_admin_trial_claim_edit_submit.feature
+1	1	features/advocate_contempt_claim_edit_submit.feature
+1	1	features/allocation.feature
+18	10	features/support/select2_helper.rb
+
+--e1fe2d38a--2016-04-15--Chris Hanes
+1	1	app/form_builders/adp_form_builder.rb
+0	30	spec/form_builders/adp_form_builder_spec.rb
+
+--66ebdc10c--2016-04-15--Chris Hanes
+3	2	spec/form_builders/adp_form_builder_spec.rb
+
+--e40c40ec8--2016-04-15--Chris Hanes
+0	1	spec/form_builders/adp_form_builder_spec.rb
+
+--d8f5091aa--2016-04-15--Chris Hanes
+1	1	spec/form_builders/adp_form_builder_spec.rb
+
+--5ed5bff12--2016-04-15--Chris Hanes
+3	3	spec/form_builders/adp_form_builder_spec.rb
+
+--0674feb18--2016-04-15--Chris Hanes
+1	1	app/views/external_users/claims/case_details/_fields.html.haml
+
+--d66f6c25a--2016-04-15--Chris Hanes
+1	1	app/assets/javascripts/modules/external_users/claims/NewClaim.js
+
+--891f6322d--2016-04-18--Jesus Laiz
+--0d4221083--2016-04-14--Chris Hanes
+11	4	app/assets/javascripts/modules/autocomplete.js
+1	1	app/assets/javascripts/modules/external_users/claims/NewClaim.js
+
+--f0cfc75a5--2016-04-18--Jesus Laiz
+1	1	app/models/provider.rb
+1	1	app/validators/claim/litigator_claim_validator.rb
+9	0	db/seeds/supplier_numbers.rb
+24	0	lib/assets/data/supplier_numbers.yml
+6	1	lib/tasks/migrate.rake
+
+--4045ca7cc--2016-04-15--Chris Hanes
+1	1	app/assets/javascripts/modules/autocomplete.js
+
+--56537d971--2016-04-15--Chris Hanes
+1	1	app/assets/javascripts/modules/autocomplete.js
+
+--7b4e15cbf--2016-04-15--Chris Hanes
+1	3	app/assets/javascripts/application.js
+30	30	app/assets/javascripts/modules/autocomplete.js
+2	3	app/assets/javascripts/modules/external_users/claims/NewClaim.js
+0	13	app/assets/javascripts/modules/external_users/claims/Select2.js
+2	2	app/views/case_workers/admin/allocations/_allocation.html.haml
+1	1	app/views/case_workers/admin/allocations/_re_allocation.html.haml
+1	1	app/views/external_users/claims/case_details/_offence_id_select.html.haml
+1	1	app/views/external_users/claims/disbursements/_disbursement_fields.html.haml
+1	1	app/views/external_users/claims/fixed_fees/_fixed_fee_fields.html.haml
+1	1	app/views/external_users/claims/fixed_fees/litigators/_fields.html.haml
+1	1	app/views/external_users/claims/misc_fees/_misc_fee_fields.html.haml
+0	3	app/views/offences/index.js.erb
+
+--7804c5d97--2016-04-14--Chris Hanes
+2	1	app/assets/javascripts/application.js
+65	0	app/assets/javascripts/modules/autocomplete.js
+2	1	app/assets/javascripts/modules/external_users/claims/NewClaim.js
+1	0	app/assets/stylesheets/application.css.scss
+42	0	app/assets/stylesheets/moj/_autocomplete.scss
+1	1	app/form_builders/adp_form_builder.rb
+1	1	app/views/external_users/claims/case_details/_case_owner_select.html.haml
+4	4	app/views/external_users/claims/case_details/_fields.html.haml
+1	1	app/views/external_users/claims/case_details/_offence_select.html.haml
+1	1	app/views/external_users/claims/misc_fees/_misc_fee_fields.html.haml
+439	0	vendor/assets/javascripts/awesomplete.js
+
+--2d38fa090--2016-04-18--Jesus Laiz
+1	0	app/controllers/external_users/claims_controller.rb
+10	0	app/models/claim/advocate_claim.rb
+4	3	app/models/claim/base_claim.rb
+5	0	app/models/claim/litigator_claim.rb
+3	1	app/models/external_user.rb
+1	1	app/models/provider.rb
+19	0	app/models/supplier_number.rb
+4	0	app/validators/claim/advocate_claim_validator.rb
+5	4	app/validators/claim/base_claim_validator.rb
+5	0	app/validators/claim/litigator_claim_validator.rb
+1	1	app/views/external_users/claims/case_details/_fields.html.haml
+6	0	app/views/external_users/claims/supplier_number/_fields.html.haml
+2	0	app/views/external_users/litigators/claims/_form.html.haml
+3	0	config/locales/en.yml
+11	0	config/locales/error_messages.en.yml
+8	0	db/migrate/20160415103043_create_supplier_numbers.rb
+5	0	db/migrate/20160415120945_add_supplier_number_to_claims.rb
+7	1	db/schema.rb
+6	0	db/seed_helper.rb
+9	4	lib/demo_data/demo_seeds/external_users.rb
+2	2	lib/demo_data/litigator_claim_generator.rb
+5	0	spec/controllers/external_users/litigators/claims_controller_spec.rb
+1	7	spec/factories/claim/litigator_claims.rb
+15	4	spec/factories/providers.rb
+15	0	spec/factories/supplier_numbers.rb
+1	20	spec/models/claim/advocate_claim_spec.rb
+1	0	spec/models/claim/base_claim_spec.rb
+15	17	spec/models/claim/litigator_claim_spec.rb
+0	7	spec/models/provider_spec.rb
+14	0	spec/models/supplier_number_spec.rb
+7	0	spec/validators/claim/advocate_claim_validator_spec.rb
+7	0	spec/validators/claim/litigator_claim_validator_spec.rb

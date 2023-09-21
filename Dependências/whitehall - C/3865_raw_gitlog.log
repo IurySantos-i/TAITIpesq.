@@ -1,0 +1,327 @@
+--2591bdaca3--2012-12-12--Bradley Wright
+--1374133fbf--2012-12-12--Chris Parsons
+1	1	lib/whitehall/extra_quote_remover.rb
+3	7	test/unit/whitehall/extra_quote_remover_test.rb
+
+--2a8077bedf--2012-12-12--Bradley Wright
+1	1	lib/whitehall/extra_quote_remover.rb
+15	0	test/unit/whitehall/extra_quote_remover_test.rb
+
+--09538834b2--2012-12-12--russell thorn
+1	1	app/views/organisations/_corporate_information.html.erb
+12	10	app/views/organisations/show.html.erb
+
+--ce739cf8b9--2012-12-12--Edd Sowden
+3	0	app/assets/stylesheets/frontend/views/_organisations.scss
+
+--861ae2cf7d--2012-12-12--russell thorn
+1	1	app/views/people/_announcment_list.html.erb
+
+--bd782a283f--2012-12-12--Bradley Wright
+--d2254d11e0--2012-12-11--Chris Parsons
+46	0	db/data_migration/20121211154304_reverse_double_encodings.rb
+
+--648d4c3039--2012-12-11--Bradley Wright
+36	0	script/dump_all_documents.rb
+
+--58a99c0f5b--2012-12-11--Matthew Ford
+1	2	app/models/document_source.rb
+
+--99c39de90e--2012-12-11--Matthew Ford
+0	6	app/views/admin/document_sources/_form.html.erb
+0	11	app/views/admin/document_sources/edit.html.erb
+0	11	app/views/admin/document_sources/new.html.erb
+12	7	app/views/admin/editions/show.html.erb
+
+--642004a902--2012-12-11--Murray Steele
+1	1	db/migrate/20121211144215_add_unique_index_on_url_to_document_sources.rb
+
+--47ce34112f--2012-12-11--Matthew Ford
+1	1	test/integration/statistical_data_set_import_test.rb
+
+--9d2c09bb03--2012-12-11--Matthew Ford
+4	0	app/controllers/admin/base_controller.rb
+1	0	app/controllers/admin/document_sources_controller.rb
+0	3	app/controllers/admin/imports_controller.rb
+1	1	test/functional/admin/document_sources_controller_test.rb
+
+--4021025d6a--2012-12-11--Murray Steele
+1	1	features/document-sources.feature
+8	9	features/step_definitions/document_sources_steps.rb
+
+--ddfeadf381--2012-12-11--Murray Steele
+3	1	features/step_definitions/session_steps.rb
+
+--039204746e--2012-12-11--Murray Steele
+3	5	app/controllers/admin/document_sources_controller.rb
+28	64	test/functional/admin/document_sources_controller_test.rb
+
+--c4ee3c48c2--2012-12-11--russell thorn
+10	2	app/views/people/_announcment_list.html.erb
+
+--9af22013fc--2012-12-11--Matthew Ford
+1	0	app/models/document_source.rb
+12	8	app/views/admin/editions/show.html.erb
+
+--5bd6dd061d--2012-12-11--Matthew Ford
+7	26	app/controllers/admin/document_sources_controller.rb
+4	20	app/views/admin/editions/show.html.erb
+
+--f75a3a1c18--2012-12-11--Edd Sowden
+1	0	app/assets/stylesheets/frontend/base.scss
+30	0	app/assets/stylesheets/frontend/helpers/_corporate-information.scss
+4	36	app/assets/stylesheets/frontend/views/_organisations.scss
+50	0	app/views/organisations/_corporate_information.html.erb
+16	54	app/views/organisations/about.html.erb
+2	43	app/views/organisations/show.html.erb
+
+--f1780104bc--2012-12-11--russell thorn
+2	0	app/views/admin/editions/_govspeak_help.html.erb
+
+--911dafabb9--2012-12-11--Murray Steele
+10	8	app/views/admin/editions/show.html.erb
+2	1	features/document-sources.feature
+6	0	features/step_definitions/document_sources_steps.rb
+
+--fc5d2a4066--2012-12-11--Murray Steele
+8	8	app/controllers/admin/document_sources_controller.rb
+1	1	app/models/document.rb
+2	2	app/views/admin/editions/show.html.erb
+1	1	features/step_definitions/document_sources_steps.rb
+7	7	test/functional/admin/document_sources_controller_test.rb
+
+--8ef9aa613e--2012-12-11--Murray Steele
+1	1	app/models/document_source.rb
+6	0	db/migrate/20121211144215_add_unique_index_on_url_to_document_sources.rb
+3	2	db/schema.rb
+6	0	test/unit/document_source_test.rb
+
+--9d2ca2a12d--2012-12-11--Edd Sowden
+1	10	app/assets/stylesheets/frontend/styleguide/_typography.scss
+
+--b913b55e89--2012-12-11--Bradley Wright
+11	0	db/data_migration/20121211135511_detailed_guidance_categories_for_fco_and_mod.csv
+20	0	db/data_migration/20121211135511_detailed_guidance_categories_for_fco_and_mod.rb
+
+--f1d5ee42b9--2012-12-11--Bradley Wright
+--51bf3fbbd5--2012-12-11--Edd Sowden
+2	2	app/views/documents/_filter_form.html.erb
+
+--a1b3b13db7--2012-12-11--Edd Sowden
+1	1	app/views/home/how_government_works.html.erb
+
+--9f50f6556f--2012-12-11--Edd Sowden
+20	5	app/views/home/how_government_works.html.erb
+
+--1b380d3c00--2012-12-11--Edd Sowden
+0	2	app/assets/stylesheets/frontend/helpers/_heading-block.scss
+
+--6f6c956923--2012-12-11--Edd Sowden
+0	39	app/views/documents/_title.html.erb
+0	1	app/views/supporting_pages/_title.html.erb
+
+--c17afaf57d--2012-12-11--Murray Steele
+18	0	app/controllers/admin/document_sources_controller.rb
+11	0	app/views/admin/document_sources/edit.html.erb
+9	2	app/views/admin/editions/show.html.erb
+1	1	config/routes.rb
+15	1	features/document-sources.feature
+23	2	features/step_definitions/document_sources_steps.rb
+53	1	test/functional/admin/document_sources_controller_test.rb
+
+--9cd29839ef--2012-12-11--Chris Parsons
+1	1	test/support/admin_edition_controller_test_helpers.rb
+
+--53d4195830--2012-12-11--russell thorn
+3	3	app/views/organisations/show.html.erb
+
+--86626a8714--2012-12-11--russell thorn
+2	0	app/helpers/filter_routes_helper.rb
+6	6	app/views/organisations/about.html.erb
+3	3	app/views/organisations/show.html.erb
+4	0	test/unit/helpers/filter_routes_helper_test.rb
+
+--f0dfab6595--2012-12-11--Chris Parsons
+4	0	app/models/speech.rb
+3	3	app/views/documents/_header.html.erb
+8	0	test/unit/speech_test.rb
+
+--30f683de9d--2012-12-11--Chris Parsons
+5	1	app/helpers/application_helper.rb
+11	1	app/models/person.rb
+1	1	app/presenters/person_presenter.rb
+1	1	app/views/admin/speeches/_form.html.erb
+15	4	test/unit/helpers/application_helper_test.rb
+4	0	test/unit/person_test.rb
+
+--ce70cd6cc9--2012-12-11--David Heath
+1	0	Gemfile
+4	0	Gemfile.lock
+1	1	config/database.yml
+12	0	jenkins-parallel.sh
+
+--370503dc8b--2012-12-11--Bradley Wright
+--656391e5d0--2012-12-11--russell thorn
+4	4	app/models/corporate_information_page_type.rb
+
+--e8f5ca6574--2012-12-11--Murray Steele
+1	0	test/factories/document_sources.rb
+10	0	test/unit/document_source_test.rb
+
+--54b01450d7--2012-12-11--Murray Steele
+22	0	app/controllers/admin/document_sources_controller.rb
+2	0	app/models/document_source.rb
+6	0	app/views/admin/document_sources/_form.html.erb
+11	0	app/views/admin/document_sources/new.html.erb
+13	9	app/views/admin/editions/show.html.erb
+1	0	config/routes.rb
+10	3	features/document-sources.feature
+8	0	features/step_definitions/document_sources_steps.rb
+46	0	test/functional/admin/document_sources_controller_test.rb
+
+--4edbc4032c--2012-12-11--Chris Parsons
+1	0	app/helpers/application_helper.rb
+20	0	test/unit/helpers/application_helper_test.rb
+
+--6be26e2fed--2012-12-11--Edd Sowden
+7	4	app/assets/stylesheets/frontend/helpers/_govspeak.scss
+
+--97359bc44b--2012-12-11--Edd Sowden
+-	-	app/assets/images/fatality-notice-crest.png
+2	1	app/assets/stylesheets/frontend/base.scss
+7	0	app/assets/stylesheets/frontend/views/_fatality-notices.scss
+0	1	app/models/fatality_notice.rb
+3	6	app/views/fatality_notices/_document_sidebar.html.erb
+2	0	app/views/fatality_notices/show.html.erb
+0	1	test/unit/fatality_notice_test.rb
+
+--5fd81c1655--2012-12-10--David Heath
+--5f770f9ece--2012-12-10--David Heath
+1	1	app/controllers/admin/corporate_information_pages_controller.rb
+1	1	app/controllers/corporate_information_pages_controller.rb
+6	1	app/models/corporate_information_page.rb
+8	2	test/unit/organisation_test.rb
+
+--7c939d0e4f--2012-12-10--russell thorn
+1	1	app/assets/stylesheets/frontend/views/_organisations.scss
+
+--10f633dbb4--2012-12-10--russell thorn
+0	1	app/assets/stylesheets/admin/layout.scss
+25	1	app/assets/stylesheets/frontend/views/_organisations.scss
+4	4	app/models/corporate_information_page_type.rb
+54	30	app/views/organisations/about.html.erb
+42	8	app/views/organisations/show.html.erb
+
+--9fa71375d7--2012-12-07--David Heath
+5	0	app/models/corporate_information_page.rb
+16	12	app/models/corporate_information_page_type.rb
+33	0	test/unit/corporate_information_page_test.rb
+
+--e6a84022be--2012-12-10--Murray Steele
+0	0	features/step_definitions/{document-sources_steps.rb => document_sources_steps.rb}
+
+--f5d64102c6--2012-12-10--Matthew Ford
+11	0	app/views/admin/editions/show.html.erb
+12	0	features/document-sources.feature
+11	0	features/step_definitions/document-sources_steps.rb
+
+--8e0460e344--2012-12-10--Edd Sowden
+17	17	app/views/organisations/show.html.erb
+
+--b0a3d1359b--2012-12-10--Edd Sowden
+1	0	app/controllers/home_controller.rb
+12	22	app/views/home/home.html.erb
+10	0	test/functional/home_controller_test.rb
+
+--7058ae7424--2012-12-10--Bradley Wright
+--a70b42d1ca--2012-12-10--Bradley Wright
+1	1	app/uploaders/attachment_uploader.rb
+2	2	test/unit/attachment_uploader_test.rb
+
+--dceb4a2bd5--2012-12-10--Edd Sowden
+0	32	app/helpers/application_helper.rb
+0	12	app/helpers/consultations_helper.rb
+0	9	app/helpers/detailed_guides_helper.rb
+0	14	app/helpers/organisation_helper.rb
+0	10	app/helpers/search_helper.rb
+0	23	test/unit/helpers/consultations_helper_test.rb
+
+--11055314f7--2012-12-10--Edd Sowden
+0	1	app/assets/javascripts/application.js
+0	16	app/assets/javascripts/application/heading_navigation.js
+0	29	app/assets/javascripts/application/search_filter.js
+0	23	app/assets/javascripts/application/split_into_pages.js
+0	13	app/assets/javascripts/application/utils.js
+0	42	test/javascripts/unit/heading_navigation_test.js
+0	41	test/javascripts/unit/split_into_pages_test.js
+
+--6b2c450491--2012-12-10--Edd Sowden
+0	17	app/views/announcements/_home_article.html.erb
+0	16	app/views/announcements/_news_article.html.erb
+0	18	app/views/announcements/_speech.html.erb
+0	1	app/views/supporting_pages/_page_title.html.erb
+
+--d46058a136--2012-12-10--Edd Sowden
+2	2	app/assets/stylesheets/frontend/views/_countries.scss
+2	2	app/views/countries/about.html.erb
+1	1	app/views/countries/show.html.erb
+
+--442178981b--2012-12-10--Edd Sowden
+0	1	app/assets/stylesheets/frontend/base.scss
+0	120	app/assets/stylesheets/frontend/helpers/_alphabetical-list.scss
+0	11	app/assets/stylesheets/frontend/views/_countries.scss
+0	8	app/assets/stylesheets/frontend/views/_operational-field.scss
+0	8	app/assets/stylesheets/frontend/views/_people.scss
+0	18	app/assets/stylesheets/frontend/views/_policies.scss
+1	12	app/assets/stylesheets/frontend/views/_statistical-data-sets.scss
+6	7	app/views/international_priorities/index.html.erb
+0	11	app/views/organisations/_grouped_list.html.erb
+0	12	app/views/policies/_grouped_list.html.erb
+2	2	app/views/statistical_data_sets/index.html.erb
+
+--66aec95a76--2012-12-10--Edd Sowden
+0	11	app/views/countries/_grouped_list.html.erb
+11	2	app/views/countries/index.html.erb
+0	18	app/views/international_priorities/_grouped_list.html.erb
+27	5	app/views/international_priorities/index.html.erb
+
+--1b30618ecc--2012-12-10--Edd Sowden
+0	10	app/views/documents/_document_li.html.erb
+0	6	app/views/documents/_policies.html.erb
+
+--080e98bc29--2012-12-10--Edd Sowden
+0	1	app/assets/stylesheets/frontend/base.scss
+0	55	app/assets/stylesheets/frontend/helpers/_simple-list.scss
+0	16	app/views/documents/_document_related.html.erb
+0	12	app/views/documents/_related_policies.html.erb
+0	6	app/views/documents/_topics.html.erb
+
+--95618bafab--2012-12-10--Edd Sowden
+0	49	app/assets/stylesheets/frontend/helpers/_browse.scss
+
+--5ae9282c7f--2012-12-10--Edd Sowden
+2	17	app/assets/stylesheets/frontend/reset/_govuk-overrides.scss
+
+--7e0964ad9e--2012-12-10--Edd Sowden
+3	4	app/assets/javascripts/application/on_ready.js
+
+--facb5ccd7b--2012-12-10--Edd Sowden
+0	24	app/assets/javascripts/application/add_toggle_link.js
+0	1	app/assets/javascripts/application/on_ready.js
+0	40	test/javascripts/unit/add_toggle_link_test.js
+
+--d40687785a--2012-12-10--Edd Sowden
+0	46	app/assets/javascripts/application/equal_height_helper.js
+0	1	app/assets/javascripts/application/on_ready.js
+0	71	test/javascripts/unit/equal_height_helper_test.js
+
+--1e6f81064c--2012-12-10--Edd Sowden
+0	1	app/assets/javascripts/admin/duplicate_fields.js
+
+--bd494684f7--2012-12-10--Edd Sowden
+0	526	app/assets/javascripts/application/dynamic_carousel.js
+0	14	app/assets/javascripts/application/on_ready.js
+0	1	app/assets/stylesheets/frontend/base.scss
+0	27	app/assets/stylesheets/frontend/helpers/_slider-controls.scss
+0	7	app/helpers/application_helper.rb
+1	1	app/views/shared/_hero_rotator.html.erb

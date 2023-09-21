@@ -1,0 +1,45 @@
+--439ea693a--2016-01-06--Dennis Schubert
+--ccd10d287--2016-01-06--Dennis Schubert
+--65a28fcde--2016-01-06--Dennis Schubert
+1	1	config/defaults.yml
+
+--40e780abc--2016-01-06--Dennis Schubert
+--812510b44--2016-01-03--Benjamin Neff
+49	15	spec/integration/federation/federation_helper.rb
+0	164	spec/integration/federation/federation_messages_generation.rb
+68	95	spec/integration/federation/receive_federation_messages_spec.rb
+51	36	spec/integration/federation/shared_receive_relayable.rb
+34	21	spec/integration/federation/shared_receive_retraction.rb
+69	69	spec/integration/federation/shared_receive_stream_items.rb
+
+--b6c7f004e--2015-12-21--cmrd Senya
+1	1	lib/diaspora/relayable.rb
+14	6	spec/integration/federation/federation_helper.rb
+164	0	spec/integration/federation/federation_messages_generation.rb
+145	97	spec/integration/federation/receive_federation_messages_spec.rb
+36	85	spec/integration/federation/shared_receive_relayable.rb
+18	37	spec/integration/federation/shared_receive_retraction.rb
+166	0	spec/integration/federation/shared_receive_stream_items.rb
+
+--2aaf45166--2015-12-23--cmrd Senya
+2	2	Gemfile
+8	8	Gemfile.lock
+
+--56f022f28--2015-12-22--cmrd Senya
+11	2	lib/postzord/receiver/public.rb
+
+--e54f87b7a--2015-12-11--cmrd Senya
+2	0	spec/spec_helper.rb
+
+--764a3fec1--2016-01-05--Jonne Haß
+--d025cc38d--2016-01-05--Jonne Haß
+0	3	config/locales/diaspora/en.yml
+
+--4f34ecafa--2016-01-03--Manuel Vögele
+0	7	app/assets/javascripts/app/pages/profile.js
+8	2	app/models/post.rb
+1	3	app/views/people/show.mobile.haml
+0	1	config/locales/diaspora/en.yml
+0	1	config/locales/javascript/javascript.en.yml
+3	0	features/desktop/blocks_user.feature
+7	0	lib/stream/person.rb

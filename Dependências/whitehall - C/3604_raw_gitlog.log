@@ -1,0 +1,349 @@
+--4f4c542a36--2013-03-05--Bradley Wright
+--39cb079ec0--2013-03-05--Bradley Wright
+22	0	db/data_migration/20130305132612_add_nio_categories.rb
+
+--8f0716cd15--2013-03-05--Edd Sowden
+4	3	app/assets/stylesheets/frontend/helpers/_recently_updated.scss
+0	3	app/assets/stylesheets/frontend/views/_organisations.scss
+1	1	config/locales/en.yml
+
+--da464f1d4e--2013-03-05--Edd Sowden
+1	1	app/assets/stylesheets/frontend/views/_worldwide_organisations.scss
+
+--e53d43ed23--2013-03-05--David Heath
+--dec3ffbfed--2013-03-05--David Heath
+1	0	Gemfile
+1	0	Gemfile.lock
+
+--89c395e7a9--2013-02-28--Murray Steele
+7	1	app/controllers/world_locations_controller.rb
+12	9	app/controllers/worldwide_organisations_controller.rb
+11	0	test/functional/world_locations_controller_test.rb
+6	0	test/functional/worldwide_organisations_controller_test.rb
+
+--0a6f3fdddc--2013-02-28--Murray Steele
+6	0	app/presenters/api/detailed_guide_presenter.rb
+5	0	app/presenters/api/world_location_presenter.rb
+6	0	app/presenters/api/worldwide_organisation_presenter.rb
+8	0	test/unit/presenters/api/detailed_guide_presenter_test.rb
+8	0	test/unit/presenters/api/world_location_presenter_test.rb
+8	0	test/unit/presenters/api/worldwide_organisation_presenter_test.rb
+
+--66eb06d463--2013-02-28--Murray Steele
+1	0	app/presenters/api/world_location_presenter.rb
+1	0	app/presenters/api/worldwide_organisation_presenter.rb
+5	0	test/unit/presenters/api/world_location_presenter_test.rb
+5	0	test/unit/presenters/api/worldwide_organisation_presenter_test.rb
+
+--63b7e044be--2013-02-28--Murray Steele
+26	0	app/controllers/api/world_locations_controller.rb
+34	0	app/controllers/api/worldwide_organisations_controller.rb
+2	1	config/routes.rb
+63	0	test/functional/api/world_locations_controller_test.rb
+81	0	test/functional/api/worldwide_organisations_controller_test.rb
+
+--59afc09bc5--2013-02-28--Murray Steele
+7	7	test/functional/api/detailed_guides_controller_test.rb
+
+--47a020cd5f--2013-02-28--Murray Steele
+87	0	app/presenters/api/worldwide_organisation_presenter.rb
+151	0	test/unit/presenters/api/worldwide_organisation_presenter_test.rb
+
+--dc81a99527--2013-02-27--Murray Steele
+1	0	lib/address_formatter.rb
+38	0	lib/address_formatter/json.rb
+135	0	test/unit/address_formatter/json_test.rb
+
+--8eab60c14f--2013-02-27--Murray Steele
+1	1	app/helpers/contacts_helper.rb
+1	1	config/initializers/address_formats.rb
+4	0	lib/address_formatter.rb
+61	0	lib/address_formatter/formatter.rb
+30	0	lib/address_formatter/h_card.rb
+15	0	lib/address_formatter/text.rb
+0	76	lib/h_card_address.rb
+21	16	test/unit/{h_card_address_test.rb => address_formatter/h_card_test.rb}
+160	0	test/unit/address_formatter/text_test.rb
+
+--113e6c9aa4--2013-02-27--Murray Steele
+1	0	config/initializers/address_formats.rb
+7	1	lib/h_card_address.rb
+39	16	test/unit/h_card_address_test.rb
+
+--b89150148e--2013-02-27--Murray Steele
+3	1	lib/h_card_address.rb
+9	0	test/unit/h_card_address_test.rb
+
+--7eff5fd280--2013-02-26--Murray Steele
+26	0	app/presenters/api/world_location_presenter.rb
+3	0	config/routes.rb
+60	0	test/unit/presenters/api/world_location_presenter_test.rb
+
+--8330a6650f--2013-02-26--Murray Steele
+8	0	app/presenters/api/page_presenter.rb
+35	0	test/unit/presenters/api/page_presenter_test.rb
+
+--4bfa6622c2--2013-02-26--Murray Steele
+6	3	app/controllers/api/responder.rb
+92	2	test/unit/api/responder_test.rb
+
+--e0a6cfecd4--2013-02-26--Murray Steele
+9	1	app/presenters/api/page_presenter.rb
+23	0	test/unit/presenters/api/page_presenter_test.rb
+
+--80b4c1238a--2013-02-26--Murray Steele
+2	56	app/presenters/api/detailed_guide_presenter.rb
+33	0	app/presenters/api/page_presenter.rb
+19	0	app/presenters/api/paginator.rb
+2	39	test/{functional => unit/presenters}/api/detailed_guide_presenter_test.rb
+0	0	test/{functional => unit/presenters}/api/mainstream_category_tag_presenter_test.rb
+38	0	test/unit/presenters/api/page_presenter_test.rb
+
+--a78952f5e3--2013-02-26--Murray Steele
+32	1	app/controllers/api/responder.rb
+95	0	test/unit/api/responder_test.rb
+
+--1f3af8d5fe--2013-03-05--Bradley Wright
+--36de015286--2013-03-05--Bradley Wright
+--79f792a2b2--2013-03-05--Tekin Suleyman
+0	1	app/models/publication_type.rb
+0	6	config/locales/ar.yml
+0	3	config/locales/az.yml
+0	3	config/locales/be.yml
+0	3	config/locales/bg.yml
+0	3	config/locales/bn.yml
+0	3	config/locales/cs.yml
+0	3	config/locales/de.yml
+0	3	config/locales/dr.yml
+0	3	config/locales/el.yml
+0	3	config/locales/en.yml
+0	3	config/locales/es.yml
+0	3	config/locales/fa.yml
+0	3	config/locales/fr.yml
+0	3	config/locales/he.yml
+0	3	config/locales/hi.yml
+0	3	config/locales/hu.yml
+0	3	config/locales/hy.yml
+0	3	config/locales/id.yml
+0	3	config/locales/it.yml
+0	3	config/locales/ja.yml
+0	3	config/locales/ka.yml
+0	3	config/locales/ko.yml
+0	3	config/locales/lt.yml
+0	3	config/locales/lv.yml
+0	3	config/locales/ms.yml
+0	3	config/locales/pl.yml
+0	3	config/locales/ps.yml
+0	3	config/locales/pt.yml
+0	3	config/locales/ro.yml
+0	3	config/locales/ru.yml
+0	3	config/locales/si.yml
+0	3	config/locales/sk.yml
+0	3	config/locales/so.yml
+0	3	config/locales/sq.yml
+0	3	config/locales/sr.yml
+0	3	config/locales/sw.yml
+0	3	config/locales/ta.yml
+0	3	config/locales/th.yml
+0	3	config/locales/tk.yml
+0	3	config/locales/tr.yml
+0	3	config/locales/uk.yml
+0	3	config/locales/ur.yml
+0	3	config/locales/uz.yml
+0	3	config/locales/vi.yml
+0	3	config/locales/zh.yml
+0	1	lib/whitehall/publication_filter_option.rb
+
+--dd073d9dd5--2013-03-05--Bradley Wright
+15	1	test/functional/api/detailed_guide_presenter_test.rb
+
+--65271c874a--2013-03-05--Tekin Suleyman
+0	18	features/step_definitions/person_steps.rb
+18	0	features/support/person_helper.rb
+
+--801d26cc1a--2013-03-04--James Mead
+0	4	app/assets/stylesheets/frontend/views/_people.scss
+
+--8489ab4ea6--2013-03-01--Chris Roos
+6	7	app/controllers/admin/worldwide_organisations_translations_controller.rb
+3	3	app/views/admin/worldwide_organisations_translations/index.html.erb
+
+--c4ef55cedc--2013-03-01--Chris Roos
+6	7	app/controllers/admin/world_location_translations_controller.rb
+3	3	app/views/admin/world_location_translations/index.html.erb
+
+--25fbf43a60--2013-03-01--Chris Roos
+6	7	app/controllers/admin/role_translations_controller.rb
+3	3	app/views/admin/role_translations/index.html.erb
+
+--2a6652449c--2013-03-01--Chris Roos
+6	7	app/controllers/admin/person_translations_controller.rb
+3	3	app/views/admin/person_translations/index.html.erb
+
+--66618196af--2013-03-01--Chris Roos
+4	1	lib/translatable_model.rb
+6	0	test/unit/translatable_model_test.rb
+
+--2cea662213--2013-03-01--Chris Roos
+0	10	test/unit/edition/translatable_test.rb
+6	0	test/unit/translatable_model_test.rb
+
+--8bc23f8806--2013-03-01--Chris Roos
+7	0	app/models/role.rb
+9	0	test/unit/role_test.rb
+
+--227edc1c4e--2013-03-01--Chris Roos
+7	0	app/models/person.rb
+7	0	test/unit/person_test.rb
+
+--1a895d3e5a--2013-03-01--Chris Roos
+1	1	config/routes.rb
+5	0	test/integration/localised_routing_test.rb
+2	1	test/support/model_stubbing_helpers.rb
+
+--2b3f6e264c--2013-03-01--Chris Roos
+4	0	config/environments/development.rb
+
+--aadcde4d54--2013-03-01--Chris Roos
+27	35	test/integration/localised_routing_test.rb
+
+--1bfaebedb8--2013-03-01--Chris Roos
+3	0	db/migrate/20120531114009_add_slug_to_people.rb
+
+--f2b997df7f--2013-02-28--James Mead
+10	10	test/unit/presenters/person_presenter_test.rb
+
+--a323ecab57--2013-02-28--James Mead
+8	2	lib/translatable_model.rb
+23	0	test/unit/translatable_model_test.rb
+
+--eb96f46073--2013-02-28--James Mead
+5	1	app/views/admin/roles/index.html.erb
+6	2	test/functional/admin/roles_controller_test.rb
+
+--4dd4669182--2013-02-28--James Mead
+50	0	app/controllers/admin/role_translations_controller.rb
+2	1	app/controllers/admin/roles_controller.rb
+3	0	app/models/role.rb
+12	0	app/presenters/person_presenter.rb
+12	0	app/views/admin/role_translations/edit.html.erb
+34	0	app/views/admin/role_translations/index.html.erb
+2	0	app/views/admin/roles/index.html.erb
+1	0	config/routes.rb
+13	0	db/migrate/20130227162331_create_role_translations.rb
+12	0	db/schema.rb
+11	0	features/administering-roles.feature
+31	0	features/step_definitions/role_steps.rb
+1	1	test/factories/roles.rb
+153	0	test/functional/admin/role_translations_controller_test.rb
+10	0	test/functional/admin/roles_controller_test.rb
+1	1	test/functional/people_controller_test.rb
+42	0	test/unit/presenters/person_presenter_test.rb
+2	1	test/unit/presenters/role_appointment_presenter_test.rb
+1	1	test/unit/presenters/role_presenter_test.rb
+4	4	test/unit/presenters/roles_presenter_test.rb
+7	0	test/unit/role_test.rb
+
+--9da4b1069c--2013-02-27--James Mead
+8	2	app/controllers/admin/person_translations_controller.rb
+
+--d8615a79fd--2013-02-27--James Mead
+5	0	app/controllers/admin/person_translations_controller.rb
+4	0	app/views/admin/person_translations/index.html.erb
+28	1	test/functional/admin/person_translations_controller_test.rb
+10	0	test/unit/person_test.rb
+
+--c1053ef2d7--2013-02-27--James Mead
+10	0	app/assets/stylesheets/frontend/views/_people.scss
+1	0	app/models/person.rb
+1	1	app/views/admin/person_translations/index.html.erb
+10	9	app/views/people/show.html.erb
+15	0	features/administering-people.feature
+47	0	features/step_definitions/person_steps.rb
+2	2	features/support/person_helper.rb
+1	0	test/functional/admin/person_translations_controller_test.rb
+
+--0efbf695ab--2013-02-27--James Mead
+3	3	test/functional/people_controller_test.rb
+13	0	test/support/model_stubbing_helpers.rb
+1	6	test/unit/presenters/person_presenter_test.rb
+1	1	test/unit/presenters/role_appointment_presenter_test.rb
+1	1	test/unit/presenters/role_presenter_test.rb
+2	2	test/unit/presenters/roles_presenter_test.rb
+
+--8ef439c551--2013-02-27--James Mead
+39	0	app/controllers/admin/person_translations_controller.rb
+2	0	app/models/person.rb
+2	0	app/views/admin/people/index.html.erb
+11	0	app/views/admin/person_translations/edit.html.erb
+30	0	app/views/admin/person_translations/index.html.erb
+3	1	config/routes.rb
+13	0	db/migrate/20130225131123_create_person_translations.rb
+11	0	db/schema.rb
+2	2	test/factories/people.rb
+12	4	test/functional/admin/people_controller_test.rb
+146	0	test/functional/admin/person_translations_controller_test.rb
+5	0	test/unit/presenters/person_presenter_test.rb
+
+--1114a72a7d--2013-03-05--Edd Sowden
+-	-	app/assets/images/organisation_default_news/originals/northern-ireland-office.jpg
+-	-	app/assets/images/organisation_default_news/s300_northern-ireland-office.jpg
+
+--48f9c7f5a8--2013-03-04--Bradley Wright
+1	0	test/functional/api/detailed_guide_presenter_test.rb
+
+--207526b0e0--2013-03-04--James Stewart
+16	1	app/presenters/api/detailed_guide_presenter.rb
+
+--adaa7e8f34--2013-03-04--David Heath
+4	0	app/models/import.rb
+1	1	app/views/admin/imports/index.html.erb
+10	6	app/views/admin/imports/show.html.erb
+
+--e078a62980--2013-03-04--David Heath
+5	5	lib/whitehall/uploader/detailed_guide_row.rb
+4	3	lib/whitehall/uploader/finders/slugged_model_finder.rb
+10	11	test/unit/uploader/finders/slugged_model_finder_test.rb
+
+--a3a7c6c765--2013-03-04--David Heath
+9	0	features/importing-new-editions.feature
+
+--2c9a1948c0--2013-03-04--David Heath
+3	2	app/models/import.rb
+18	0	features/importing-new-editions.feature
+4	0	features/step_definitions/document_series_steps.rb
+25	0	features/step_definitions/import_steps.rb
+4	0	features/step_definitions/topic_steps.rb
+154	0	lib/whitehall/uploader/detailed_guide_row.rb
+1	1	lib/whitehall/uploader/finders/slugged_model_finder.rb
+8	0	test/unit/import_test.rb
+177	0	test/unit/uploader/detailed_guide_row_test.rb
+
+--208f44786a--2013-03-04--David Heath
+2	2	lib/whitehall/uploader/finders/policies_finder.rb
+12	6	test/unit/uploader/finders/policies_finder_test.rb
+
+--ff06232614--2013-03-04--David Heath
+15	0	lib/whitehall/uploader/finders/slugged_model_finder.rb
+42	0	test/unit/uploader/finders/slugged_model_finder_test.rb
+
+--cf5a4a64d5--2013-03-04--David Heath
+3	4	test/unit/uploader/parsers/date_parser_test.rb
+
+--76806e282c--2013-03-04--David Heath
+10	5	app/models/import.rb
+2	2	lib/whitehall/uploader/consultation_row.rb
+2	2	lib/whitehall/uploader/fatality_notice_row.rb
+2	2	lib/whitehall/uploader/news_article_row.rb
+20	0	lib/whitehall/uploader/parsers/old_url_parser.rb
+2	2	lib/whitehall/uploader/publication_row.rb
+2	2	lib/whitehall/uploader/speech_row.rb
+2	2	lib/whitehall/uploader/statistical_data_set_row.rb
+30	4	test/unit/import_test.rb
+2	2	test/unit/uploader/consultation_row_test.rb
+2	2	test/unit/uploader/fatality_notice_row_test.rb
+2	2	test/unit/uploader/news_article_row_test.rb
+32	0	test/unit/uploader/parsers/old_url_parser_test.rb
+4	4	test/unit/uploader/publication_row_test.rb
+2	2	test/unit/uploader/speech_row_test.rb
+1	1	test/unit/uploader/statistical_data_set_row_test.rb

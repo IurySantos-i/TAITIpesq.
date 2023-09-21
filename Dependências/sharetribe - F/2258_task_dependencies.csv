@@ -1,3 +1,0 @@
-entity,coupled,degree,average-revs
-app/views/admin/categories/_listed_subcategory.haml,app/views/admin/categories/_listed_top_level_category.haml,77,9
-app/models/category.rb,app/views/admin/categories/_listed_top_level_category.haml,55,9

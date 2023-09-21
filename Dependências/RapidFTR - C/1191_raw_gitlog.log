@@ -1,0 +1,18 @@
+--cff39084--2010-12-28--Zubair Khan
+--2549fc51--2010-12-26--Timothy Cochran
+3	1	app/controllers/fields_controller.rb
+3	4	app/models/field.rb
+1	1	app/views/children/_form_section.html.erb
+1	1	app/views/fields/_basic_form.html.erb
+1	1	app/views/fields/_multiple_choice_form.html.erb
+2	2	app/views/form_section/edit.html.erb
+2	2	features/add_suggested_field_to_form_sections.feature
+28	0	features/edit_custom_fields.feature
+3	1	features/step_definitions/basic_steps.rb
+3	0	features/support/paths.rb
+5	10	spec/models/field_spec.rb
+
+--5846bbc1--2010-12-26--Jen Smith
+5	0	app/helpers/application_helper.rb
+1	1	app/views/children/index.html.erb
+10	5	features/manage_children.feature

@@ -1,0 +1,274 @@
+--fe75defcc--2015-10-01--Edward Andress
+--e9432f262--2015-09-29--Edward Andress
+1	1	app/interfaces/api/v1/advocates/claim.rb
+1	0	app/interfaces/api/v1/api_helper.rb
+2	2	app/models/claims/calculations.rb
+1	1	app/validators/base_claim_validator.rb
+0	2	app/validators/claim_sub_model_validator.rb
+18	2	app/validators/claim_textfield_validator.rb
+1	1	app/validators/date_attended_validator.rb
+1	3	config/initializers/active_model_errors.rb
+14576	13911	db/data.yml
+9	0	features/advocate_edit_claim.feature
+10	1	features/advocate_new_claim.feature
+5	1	features/step_definitions/advocate_edit_claim_steps.rb
+21	15	features/step_definitions/advocate_new_claim_steps.rb
+0	6	features/step_definitions/unhappy_paths_steps.rb
+1	1	features/unhappy_paths.feature
+1	1	spec/api/v1/claims/date_attended_spec.rb
+10	0	spec/controllers/advocates/claims_controller_spec.rb
+4	3	spec/factories/claims.rb
+9	5	spec/models/claim_spec.rb
+14	14	spec/models/claims/financial_summary_spec.rb
+12	14	spec/models/claims/totals_spec.rb
+8	2	spec/presenters/fee_presenter_spec.rb
+5	5	spec/validators/claim_date_validator_spec.rb
+2	2	spec/validators/claim_submodel_validation_spec.rb
+3	3	spec/validators/claim_textfield_validator_spec.rb
+
+--500dc050f--2015-10-01--Joel Sugarman
+--22ecd6736--2015-10-01--Himal Mandalia
+--b9203bb0b--2015-10-01--Himal Mandalia
+11	3	app/services/claim_reporter.rb
+48	0	spec/services/claim_reporter_spec.rb
+
+--301408b2a--2015-10-01--Himal Mandalia
+--c28da0b18--2015-10-01--jsugarman
+7	7	features/claim_status.feature
+
+--9d3840165--2015-10-01--jsugarman
+1	1	app/controllers/case_workers/claims_controller.rb
+2	2	app/validators/claim_textfield_validator.rb
+1	1	app/views/case_workers/claims/show.html.haml
+6	5	features/claim_status.feature
+9	0	features/step_definitions/claim_status_steps.rb
+3	3	spec/validators/claim_textfield_validator_spec.rb
+
+--e782328d0--2015-10-01--jsugarman
+1	1	app/models/claim.rb
+16	1	features/claim_status.feature
+2	2	features/step_definitions/caseworker_claims_list_steps.rb
+
+--f8c71b909--2015-10-01--Stephen Richards
+--3b1ab8d01--2015-10-01--Himal Mandalia
+--a3fe9c4b8--2015-09-30--jsugarman
+8403	8827	db/data.yml
+
+--21f9f1023--2015-09-30--jsugarman
+1	1	app/models/claim.rb
+1	1	app/models/claims/financial_summary.rb
+4	4	features/advocate_claims_financial_summary.feature
+7	7	features/advocate_claims_financial_summary_details.feature
+24	6	features/step_definitions/claims_financial_summary_steps.rb
+
+--9781ff097--2015-09-30--Alistair Laing
+0	7	app/views/case_workers/admin/allocations/new.html.haml
+3	2	app/views/layouts/_primary_navigation.html.haml
+
+--9e776dcde--2015-09-30--jsugarman
+1	1	app/models/claim.rb
+6	6	app/services/claim_reporter.rb
+4	4	app/views/geckoboard_api/widgets/claims.jbuilder
+2	2	features/claim_history.feature
+1	1	features/claim_redetermination.feature
+1	1	features/claim_status.feature
+3	3	features/step_definitions/claim_history_steps.rb
+1	1	spec/models/claim_spec.rb
+
+--5d3561160--2015-09-30--jsugarman
+--8b7522cc4--2015-09-30--Himal Mandalia
+--b11be703a--2015-09-30--jsugarman
+8347	8677	db/data.yml
+
+--c8a1f8ef4--2015-09-30--jsugarman
+10842	11899	db/data.yml
+
+--5b6ed24dd--2015-09-30--jsugarman
+1	2	lib/demo_data/document_generator.rb
+
+--07b60995d--2015-09-30--Joel Sugarman
+--641860531--2015-09-30--Himal Mandalia
+11	0	app/controllers/geckoboard_api/application_controller.rb
+5	0	app/controllers/geckoboard_api/widgets_controller.rb
+28	0	app/services/claim_reporter.rb
+16	0	app/views/geckoboard_api/widgets/claims.jbuilder
+4	0	config/routes.rb
+
+--60ffb84a9--2015-09-30--jsugarman
+10634	11622	db/data.yml
+1	2	lib/demo_data/document_generator.rb
+
+--8b5fc57e2--2015-09-30--jsugarman
+1	1	app/models/claim.rb
+1	1	features/step_definitions/claim_history_steps.rb
+1	1	features/step_definitions/claim_status_steps.rb
+1	1	spec/models/claim_spec.rb
+1	1	spec/models/message_spec.rb
+
+--d62c076a1--2015-09-30--jsugarman
+2	1	app/models/claim.rb
+2	0	app/models/user.rb
+5	0	db/migrate/20150930123017_rename_paid_at.rb
+2	2	db/schema.rb
+1	1	spec/factories/claims.rb
+2	0	spec/factories/users.rb
+1	1	spec/models/claim_spec.rb
+2	0	spec/models/user_spec.rb
+
+--58036b593--2015-09-30--jsugarman
+2	2	app/models/claim.rb
+4	4	app/models/claims/state_machine.rb
+2	2	features/step_definitions/advocate_claims_list_steps.rb
+6	6	lib/demo_data/claim_state_advancer.rb
+4	4	spec/factories/claims.rb
+7	7	spec/models/claim_spec.rb
+8	8	spec/models/claims/state_machine_spec.rb
+6	6	spec/validators/claim_textfield_validator_spec.rb
+
+--f2c71598b--2015-09-30--jsugarman
+1	1	app/assets/javascripts/amountassessed.js
+1	1	app/assets/stylesheets/statuses.scss
+8	8	app/models/claim.rb
+16	16	app/models/claims/state_machine.rb
+2	2	app/presenters/claim_presenter.rb
+1	1	app/validators/claim_textfield_validator.rb
+2	2	app/views/shared/_claim.html.haml
+2	2	config/locales/en.yml
+6	6	features/advocate_claims_list.feature
+4	4	features/caseworker_claims_list.feature
+2	2	features/claim_history.feature
+8	8	features/claim_redetermination.feature
+5	5	features/claim_status.feature
+4	4	features/step_definitions/advocate_claims_list_steps.rb
+4	4	features/step_definitions/claim_history_steps.rb
+1	1	features/step_definitions/claim_status_steps.rb
+7	7	lib/demo_data/claim_state_advancer.rb
+4	4	spec/controllers/advocates/claims_controller_spec.rb
+2	2	spec/factories/claims.rb
+35	35	spec/models/claim_spec.rb
+21	21	spec/models/claims/financial_summary_spec.rb
+13	13	spec/models/claims/state_machine_spec.rb
+3	3	spec/models/message_spec.rb
+6	6	spec/presenters/claim_presenter_spec.rb
+5	5	spec/validators/claim_textfield_validator_spec.rb
+
+--a231c59a3--2015-09-30--Himal Mandalia
+--c256f5685--2015-09-30--jsugarman
+2	5	app/assets/javascripts/adp_swagger_application.js
+
+--12407fa52--2015-09-30--jsugarman
+8	0	app/assets/javascripts/adp_swagger_application.js
+2	2	app/views/grape_swagger_rails/application/index.html.erb
+1	1	config/initializers/assets.rb
+
+--de1b068a1--2015-09-29--Alistair Laing
+--692e47ec4--2015-09-29--jsugarman
+-	-	app/assets/images/moj_logo_horizontal_36x246_for_swagger.png
+1	1	app/views/grape_swagger_rails/application/index.html.erb
+
+--d67b4ed72--2015-09-29--jsugarman
+78	71	app/views/grape_swagger_rails/application/index.html.erb
+
+--4e5a6b7a5--2015-09-29--Joel Sugarman
+--04e0cc425--2015-09-29--Stephen Richards
+1	1	app/controllers/application_controller.rb
+
+--e39d181bc--2015-09-29--Alistair Laing
+--e7c02111a--2015-09-29--Stephen Richards
+--f82a6b8d1--2015-09-29--Himal Mandalia
+1	1	app/views/advocates/claims/_form.html.haml
+
+--5fc0da94b--2015-09-29--jsugarman
+3	5	app/views/grape_swagger_rails/application/index.html.erb
+
+--3fb2a38e0--2015-09-29--jsugarman
+15	3	app/views/grape_swagger_rails/application/index.html.erb
+
+--5b73a6d1f--2015-09-29--Edward Andress
+--7c45ce4ef--2015-09-29--jsugarman
+30	4	app/views/grape_swagger_rails/application/index.html.erb
+
+--dcf428a91--2015-09-29--Alistair Laing
+5	3	app/assets/stylesheets/advocates/application.css.scss
+70	0	app/assets/stylesheets/advocates/dropzonejs.scss
+28	9	app/views/advocates/claims/_form.html.haml
+
+--3f21a9a22--2015-09-29--Alistair Laing
+1	0	app/assets/javascripts/advocates/claims/dropzone.js
+21	0	app/views/shared/_dropzone_js.html.haml
+
+--94d25c3b5--2015-09-29--Alistair Laing
+15	0	app/assets/images/icons/drag-drop-upload-hover-ico.svg
+15	0	app/assets/images/icons/drag-drop-upload-ico.svg
+
+--d66c06388--2015-09-29--Himal Mandalia
+0	1	app/models/claim.rb
+21	0	app/models/document.rb
+3	0	config/settings.yml
+6	0	features/claim_document_upload.feature
+8	0	features/step_definitions/claim_document_upload_steps.rb
+
+--f4b26e31a--2015-09-29--jsugarman
+0	6	app/assets/stylesheets/grape_swagger_rails/custom.css.scss
+38	4	app/views/grape_swagger_rails/application/index.html.erb
+0	74	app/views/grape_swagger_rails/application/index_backup.html.haml
+0	1	config/initializers/assets.rb
+
+--0bcb9cbea--2015-09-29--jsugarman
+48	4	app/views/grape_swagger_rails/application/index.html.erb
+0	4	app/views/grape_swagger_rails/application/index_backup.html.haml
+
+--ac2063f38--2015-09-29--Alistair Laing
+--9375fa0fc--2015-09-29--jsugarman
+37	4	app/views/grape_swagger_rails/application/index.html.erb
+4	0	app/views/grape_swagger_rails/application/index_backup.html.haml
+
+--fa8795b8f--2015-09-29--Edward Andress
+--784295ed3--2015-09-28--Alistair Laing
+5	0	app/assets/stylesheets/form.scss
+4	8	app/models/doc_type.rb
+6	12	app/views/advocates/claims/_evidence_checklist.html.haml
+3	3	features/step_definitions/advocate_new_claim_steps.rb
+2	2	spec/validators/claim_textfield_validator_spec.rb
+
+--913536563--2015-09-29--jsugarman
+6	0	app/assets/stylesheets/grape_swagger_rails/custom.css.scss
+108	0	app/views/grape_swagger_rails/application/index.html.erb
+74	0	app/views/grape_swagger_rails/application/index_backup.html.haml
+2	1	config/initializers/assets.rb
+
+--b831397c3--2015-09-28--Benedetto Lo Giudice
+1	0	README.md
+
+--ced81a8c4--2015-09-28--Himal Mandalia
+7	2	app/models/user.rb
+5	5	config/initializers/devise.rb
+6	0	db/migrate/20150928133144_add_lockable_to_users.rb
+3	1	db/schema.rb
+7	0	features/sign_in.feature
+26	0	features/step_definitions/sign_in_steps.rb
+
+--2ffb1aa0f--2015-09-28--Stephen Richards
+--cbf625c15--2015-09-28--Edward Andress
+--9ea7b757c--2015-09-28--Edward Andress
+--6e479d11c--2015-09-28--Joel Sugarman
+--bd50e89c0--2015-09-28--jsugarman
+0	7	app/validators/claim_date_validator.rb
+
+--76fd31e92--2015-09-28--jsugarman
+0	1	app/validators/claim_date_validator.rb
+
+--614ddf561--2015-09-28--jsugarman
+1	22	app/models/claim.rb
+0	4	app/validators/fee_validator.rb
+0	2	spec/validators/fee_validator_spec.rb
+
+--0ee574a44--2015-09-28--Stephen Richards
+1	1	app/controllers/application_controller.rb
+
+--ad6443df6--2015-09-28--Himal Mandalia
+1	1	config/environments/production.rb
+
+--ca340f054--2015-09-28--Himal Mandalia
+19	2	app/presenters/claim_presenter.rb
+2	2	spec/presenters/claim_presenter_spec.rb

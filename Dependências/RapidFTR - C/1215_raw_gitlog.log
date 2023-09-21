@@ -1,0 +1,50 @@
+--4afc10c7--2010-12-04--user
+--d3e84ffe--2010-12-04--Scott and Lawrence
+2	1	app/controllers/checks_authentication.rb
+0	0	features/{authentication.feature => api_authentication.feature}
+7	3	features/step_definitions/database_steps.rb
+11	0	features/webapp_authentication.feature
+
+--000a1926--2010-12-04--Francisco Trindade
+--58e19992--2010-12-04--Francisco Trindade
+14	0	app/models/child.rb
+0	9	app/views/children/_errors.html.erb
+1	1	app/views/children/_numeric_field.html.erb
+2	2	app/views/children/edit.html.erb
+2	2	app/views/children/new.html.erb
+0	1	app/views/layouts/application.html.erb
+12	0	features/create_child_record.feature
+0	48	public/javascripts/application.js
+0	16	public/javascripts/jquery.validate.min.js
+13	0	spec/models/child_spec.rb
+
+--8daef9fc--2010-12-04--Scott Robinson
+--962c3af2--2010-12-04--Scott Robinson
+12	4	app/views/fields/new_select_drop_down.html.erb
+1	1	app/views/form_section/edit.html.erb
+3	3	features/create_custom_fields.feature
+3	0	public/stylesheets/core.css
+
+--0f5f788d--2010-12-04--Francisco Trindade
+--2f35e723--2010-12-04--Francisco Trindade
+9	5	app/views/children/_errors.html.erb
+2	2	app/views/children/edit.html.erb
+1	5	app/views/children/new.html.erb
+
+--a517b6b3--2010-12-04--Francisco Trindade
+1	12	features/create_child_record.feature
+40	26	public/javascripts/application.js
+
+--b0fabf2b--2010-12-04--Francisco Trindade
+5	0	app/views/children/_errors.html.erb
+1	1	app/views/children/_numeric_field.html.erb
+7	2	app/views/children/new.html.erb
+1	0	app/views/layouts/application.html.erb
+11	0	features/create_child_record.feature
+7	1	features/step_definitions/basic_steps.rb
+34	0	public/javascripts/application.js
+16	0	public/javascripts/jquery.validate.min.js
+
+--b20aa825--2010-12-04--Scott Robinson
+5	1	app/views/form_section/edit.html.erb
+6	0	features/create_custom_fields.feature

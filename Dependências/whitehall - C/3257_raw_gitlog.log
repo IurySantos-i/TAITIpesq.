@@ -1,0 +1,100 @@
+--26028015a8--2013-05-24--Bradley Wright
+--48ed09b646--2013-05-24--Bradley Wright
+--0b8da1470e--2013-05-24--Bradley Wright
+--ca849a92ab--2013-05-24--David Heath
+6	0	app/models/edition/document_series.rb
+11	0	test/unit/edition/document_series_test.rb
+
+--dae22be601--2013-05-24--Edd Sowden
+2	1	app/assets/javascripts/admin/{autocomplete.js => autocomplete.js.erb}
+1	1	app/controllers/admin/suggestions_controller.rb
+
+--2a88626900--2013-05-23--Bradley Wright
+0	1	.gitignore
+1	0	.ruby-version
+
+--1c88d6c726--2013-05-23--Edd Sowden
+245	0	app/assets/javascripts/admin/autocomplete.js
+30	0	app/assets/stylesheets/admin/forms.scss
+18	0	app/controllers/admin/suggestions_controller.rb
+12	0	app/models/contact.rb
+2	0	config/routes.rb
+25	0	test/functional/admin/suggestions_controller_test.rb
+165	0	test/javascripts/unit/autocomplete_test.js
+
+--849f2de524--2013-05-17--Murray Steele
+1	0	config/locales/ar.yml
+1	0	config/locales/az.yml
+1	0	config/locales/be.yml
+1	0	config/locales/bg.yml
+1	0	config/locales/bn.yml
+1	0	config/locales/cs.yml
+1	0	config/locales/cy.yml
+1	0	config/locales/de.yml
+1	0	config/locales/dr.yml
+1	0	config/locales/el.yml
+1	0	config/locales/es-419.yml
+1	0	config/locales/es.yml
+1	0	config/locales/fa.yml
+1	0	config/locales/fr.yml
+1	0	config/locales/he.yml
+1	0	config/locales/hi.yml
+1	0	config/locales/hu.yml
+1	0	config/locales/hy.yml
+1	0	config/locales/id.yml
+1	0	config/locales/it.yml
+1	0	config/locales/ja.yml
+1	0	config/locales/ka.yml
+1	0	config/locales/ko.yml
+1	0	config/locales/lt.yml
+1	0	config/locales/lv.yml
+1	0	config/locales/ms.yml
+1	0	config/locales/pl.yml
+1	0	config/locales/ps.yml
+1	0	config/locales/pt.yml
+1	0	config/locales/ro.yml
+1	0	config/locales/ru.yml
+1	0	config/locales/si.yml
+1	0	config/locales/sk.yml
+1	0	config/locales/so.yml
+1	0	config/locales/sq.yml
+1	0	config/locales/sr.yml
+1	0	config/locales/sw.yml
+1	0	config/locales/ta.yml
+1	0	config/locales/th.yml
+1	0	config/locales/tk.yml
+1	0	config/locales/tr.yml
+1	0	config/locales/uk.yml
+1	0	config/locales/ur.yml
+1	0	config/locales/uz.yml
+1	0	config/locales/vi.yml
+1	0	config/locales/zh-hk.yml
+1	0	config/locales/zh-tw.yml
+1	0	config/locales/zh.yml
+
+--84cd2a6af8--2013-05-15--Murray Steele
+7	2	app/assets/stylesheets/frontend/views/_organisations.scss
+1	0	app/controllers/organisations_controller.rb
+12	0	app/views/mainstream_categories/_list_description.html.erb
+11	0	app/views/organisations/show.html.erb
+1	0	config/locales/en.yml
+
+--e7614eb283--2013-05-15--Murray Steele
+23	0	app/controllers/admin/organisations_controller.rb
+1	1	app/models/organisation.rb
+1	1	app/models/organisation_mainstream_category.rb
+12	0	app/views/admin/organisations/_form.html.erb
+33	0	test/functional/admin/organisations_controller_test.rb
+
+--b078553b5b--2013-05-15--Murray Steele
+4	0	app/models/organisation.rb
+7	0	app/models/organisation_mainstream_category.rb
+15	0	db/migrate/20130514152339_add_mainstream_categories_to_organisations.rb
+13	1	db/schema.rb
+7	0	test/factories/organisation_mainstream_categories.rb
+25	0	test/unit/organisation_mainstream_category_test.rb
+17	0	test/unit/organisation_test.rb
+
+--25d40a3e3e--2013-05-14--Murray Steele
+8	0	features/administering-organisations.feature
+41	0	features/step_definitions/mainstream_categories_on_orgs_steps.rb

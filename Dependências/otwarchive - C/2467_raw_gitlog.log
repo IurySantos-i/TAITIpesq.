@@ -1,0 +1,25 @@
+--697b5adfb--2011-09-04--Enigel
+--a1caca3f6--2011-09-04--Enigel
+--1330ad51b--2011-09-04--Cesy
+2	2	app/models/collection.rb
+1	1	app/views/challenge/gift_exchange/_gift_exchange_form.html.erb
+1	1	app/views/challenge/prompt_meme/_prompt_meme_form.html.erb
+20	0	features/challenge_promptmeme.feature
+18	0	features/step_definitions/challenge_steps.rb
+
+--505d52ce3--2011-09-04--Cesy
+2	2	app/models/collection.rb
+
+--4fed14d09--2011-09-03--Cesy
+2	2	app/views/challenge_signups/_promptmeme_signup_form.html.erb
+1	1	app/views/challenge_signups/_signup_form.html.erb
+
+--02286f2a8--2011-09-02--Cesy
+--2acb0aad1--2011-09-02--Cesy
+--087c56c75--2011-08-31--CristinaRO
+2	2	app/helpers/tags_helper.rb
+
+--27ed7f590--2011-08-28--Cesy
+--21fd46750--2011-08-28--CristinaRO
+1	4	Gemfile
+7	13	Gemfile.lock

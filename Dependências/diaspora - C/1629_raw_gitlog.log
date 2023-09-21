@@ -1,0 +1,63 @@
+--72e421b38--2013-09-04--Jonne Haß
+--d4e1cebe6--2013-09-04--Jonne Haß
+2	2	features/desktop/oembed.feature
+
+--78b31f529--2013-09-04--Jonne Haß
+4	4	Changelog.md
+
+--262925cc9--2013-09-04--Jonne Haß
+--e47e5bd3b--2013-08-31--sjain1107
+2	0	Changelog.md
+
+--b2ff1878e--2013-08-31--Florian Staudacher
+10	6	app/assets/javascripts/people.js
+
+--5ff05139a--2013-08-28--Florian Staudacher
+1	1	features/desktop/blocks_user.feature
+4	0	features/step_definitions/posts_steps.rb
+
+--5223a2d90--2013-08-23--sjain1107
+10	0	app/assets/javascripts/people.js
+2	1	app/assets/javascripts/profile.js
+2	4	app/assets/stylesheets/profile.css.scss
+9	8	app/views/people/_profile_sidebar.html.haml
+1	0	config/locales/diaspora/en.yml
+
+--306890445--2013-09-03--Florian Staudacher
+0	18	app/views/photos/_new_photo.haml
+0	2	app/views/shared/_publisher.html.haml
+
+--41c0880a9--2013-09-02--Florian Staudacher
+0	0	app/assets/javascripts/app/views/publisher/{aspect_selector.js => aspect_selector_view.js}
+0	0	app/assets/javascripts/app/views/publisher/{getting_started.js => getting_started_view.js}
+0	0	app/assets/javascripts/app/views/publisher/{services.js => services_view.js}
+7	5	app/assets/javascripts/app/views/publisher/{uploader.js => uploader_view.js}
+4	5	app/assets/javascripts/app/views/publisher_view.js
+0	1	app/views/shared/_publisher.html.haml
+130	0	spec/javascripts/app/views/publisher_view_spec.js
+
+--bedfacecf--2013-09-01--Florian Staudacher
+6	6	app/assets/javascripts/app/views/publisher_view.js
+43	91	spec/javascripts/app/views/publisher_view_spec.js
+
+--4da696253--2013-08-30--Florian Staudacher
+122	0	app/assets/javascripts/app/views/publisher/uploader.js
+16	4	app/assets/javascripts/app/views/publisher_view.js
+2	75	app/views/photos/_new_photo.haml
+
+--4090f134f--2013-08-30--Florian Staudacher
+0	0	app/assets/javascripts/app/views/publisher/{publisher_aspect_selector.js => aspect_selector.js}
+54	54	app/assets/javascripts/app/views/publisher/getting_started.js
+0	0	app/assets/javascripts/app/views/publisher/{publisher_services.js => services.js}
+13	2	app/assets/javascripts/app/views/publisher_view.js
+
+--9560a8ec6--2013-08-30--Florian Staudacher
+1	1	app/assets/javascripts/app/router.js
+0	83	app/assets/javascripts/app/views/publisher/aspects_selector.js
+87	0	app/assets/javascripts/app/views/publisher/publisher_aspect_selector.js
+0	0	app/assets/javascripts/app/views/publisher/{services.js => publisher_services.js}
+15	5	app/assets/javascripts/app/views/publisher_view.js
+
+--253ab23f5--2013-08-29--Florian Staudacher
+54	45	app/assets/javascripts/app/views/publisher/services.js
+11	9	app/assets/javascripts/app/views/publisher_view.js

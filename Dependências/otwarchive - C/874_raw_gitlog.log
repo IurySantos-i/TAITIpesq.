@@ -1,0 +1,182 @@
+--0953f1653--2014-08-21--zz9pzza
+--aa6d8c147--2014-08-21--ariana-paris
+--3355a914b--2014-08-21--ariana-paris
+--a9ff3d4d5--2014-08-21--zz9pzza
+--9f64685d8--2014-08-21--zz9pzza
+--92ec41bcc--2014-08-19--james_
+1	1	app/controllers/series_controller.rb
+
+--d165cebf8--2014-08-19--james_
+1	1	app/controllers/series_controller.rb
+
+--19d9e4fc4--2014-08-19--james_
+1	1	app/views/user_sessions/_greeting.html.erb
+
+--91562c94a--2014-08-19--james_
+1	0	.travis.yml
+6	0	script/check_syntax
+2	0	script/check_syntax_file
+
+--b9a9c1a39--2014-08-18--zz9pzza
+1	1	app/views/invitations/manage.html.erb
+
+--1fe1ad836--2014-08-18--zz9pzza
+4	4	app/views/tag_wranglings/_wrangler_dashboard.html.erb
+
+--4deb8649c--2014-08-18--zz9pzza
+1	1	app/views/admin/_admin_nav.html.erb
+
+--518afb8d7--2014-08-15--Elz
+--6b1292cb5--2014-08-14--Marie Markwell
+4	0	app/helpers/validation_helper.rb
+
+--34cb862c9--2014-08-14--Marie Markwell
+1	0	spec/helpers/validation_helper_spec.rb
+
+--4c705f16f--2014-08-14--Marie Markwell
+20	0	spec/helpers/validation_helper_spec.rb
+
+--c95d986cc--2014-08-14--Marie Markwell
+25	0	spec/helpers/validation_helper_spec.rb
+
+--ed1f46dae--2014-08-14--Elz
+--36a5982ab--2014-08-13--Ariana
+4	8	Gemfile.lock
+
+--887bfa1ce--2014-08-12--zz9pzza
+--8745cd80d--2014-08-12--zz9pzza
+--49f2060a1--2014-08-12--Scott D. Sullivan
+3	3	app/views/user_sessions/_passwd_small.html.erb
+15	0	features/other/admin_tasks.feature
+
+--533359dc4--2014-08-11--sarken
+0	1	app/views/chapters/edit.html.erb
+
+--c6d7adfdd--2014-08-10--Marie Markwell
+79	29	app/helpers/validation_helper.rb
+
+--d2e81ea4d--2014-08-10--Marie Markwell
+9	9	app/helpers/validation_helper.rb
+5	5	spec/helpers/validation_helper_spec.rb
+
+--c74063e70--2014-08-10--Marie Markwell
+3	3	app/helpers/validation_helper.rb
+1	1	spec/helpers/validation_helper_spec.rb
+
+--1b2210cb8--2014-08-10--Marie Markwell
+10	10	app/helpers/validation_helper.rb
+5	13	spec/helpers/validation_helper_spec.rb
+
+--49365654f--2014-08-10--Marie Markwell
+56	0	spec/helpers/validation_helper_spec.rb
+
+--ab7e74f39--2014-08-07--zz9pzza
+--9e0aae327--2014-08-07--Scott D. Sullivan
+1	1	app/views/admin/settings/index.html.erb
+4	4	features/other/admin_tasks.feature
+0	14	features/step_definitions/admin_steps.rb
+
+--ea735865b--2014-08-06--Ariana
+110	124	Gemfile.lock
+
+--7d947a389--2014-08-06--Ariana
+5	7	Gemfile
+129	110	Gemfile.lock
+
+--7daa6277f--2014-08-05--Ariana
+3	2	Gemfile
+7	9	Gemfile.lock
+1	0	config/initializers/gem-plugin_config/webmock.rb
+1	1	features/support/vcr.rb
+
+--17777a8f8--2014-08-05--Ariana
+1	0	features/other/invite_queue.feature
+
+--71b2ef982--2014-08-05--Ariana
+8	38	features/other/invite_queue.feature
+8	10	features/other/invite_request.feature
+2	13	features/users/user_create.feature
+
+--bac4b6c1a--2014-08-04--Ariana
+3	1	app/views/users/change_password.html.erb
+4	1	app/views/users/change_username.html.erb
+
+--89a82113e--2014-08-04--Ariana
+6	5	features/other/invite_queue.feature
+
+--f6b100ded--2014-08-04--Ariana
+63	68	features/other/invite_queue.feature
+12	12	features/step_definitions/user_steps.rb
+
+--df180681d--2014-08-03--Ariana
+15	22	app/models/user.rb
+18	10	app/views/users/_passwd.html.erb
+4	0	config/config.yml
+
+--b2909d3af--2014-08-03--zz9pzza
+0	8	spec/requests/series_spec.rb
+
+--21f9e1ec6--2014-08-02--zz9pzza
+3	7	spec/requests/series_spec.rb
+
+--6938e9e34--2014-08-02--zz9pzza
+2	2	spec/requests/series_spec.rb
+
+--7b11bb037--2014-08-02--zz9pzza
+2	2	spec/requests/series_spec.rb
+
+--57ac68f40--2014-07-31--james_
+0	3	app/controllers/bookmarks_controller.rb
+
+--40534151e--2014-07-31--james_
+3	0	app/controllers/bookmarks_controller.rb
+1	2	app/controllers/collections_controller.rb
+
+--bd94595df--2014-07-31--james_
+3	3	app/controllers/bookmarks_controller.rb
+3	3	app/controllers/series_controller.rb
+
+--b9866efcf--2014-07-31--james_
+6	0	app/controllers/bookmarks_controller.rb
+4	6	app/controllers/series_controller.rb
+
+--354b8ce08--2014-07-31--james_
+--c6c072078--2014-07-07--zz9pzza
+14	14	app/views/collections/_sidebar.html.erb
+
+--038c3733d--2014-07-07--zz9pzza
+4	4	app/views/admin/_admin_nav.html.erb
+
+--91cc944c1--2014-07-07--zz9pzza
+3	3	app/views/invitations/manage.html.erb
+4	4	app/views/tag_wranglings/_wrangler_dashboard.html.erb
+
+--fed7f815f--2014-07-06--zz9pzza
+2	4	app/helpers/application_helper.rb
+5	5	app/views/admin/_admin_nav.html.erb
+10	10	app/views/collections/_sidebar.html.erb
+6	6	app/views/invitations/manage.html.erb
+8	8	app/views/layouts/_header.html.erb
+2	2	app/views/menu/about.html.erb
+2	2	app/views/menu/browse.html.erb
+2	2	app/views/menu/fandoms.html.erb
+2	2	app/views/menu/search.html.erb
+7	7	app/views/tag_wranglings/_footer.html.erb
+10	10	app/views/tag_wranglings/_wrangler_dashboard.html.erb
+20	20	app/views/user_sessions/_greeting.html.erb
+4	4	app/views/works/_search_box.html.erb
+4	0	config/environments/development.rb
+3	0	config/initializers/monkeypatches/translate_string.rb
+
+--779ab1fa4--2014-07-02--zz9pzza
+1	1	README.md
+11	11	app/views/layouts/_footer.html.erb
+5	5	app/views/menu/_menu_about.html.erb
+5	5	app/views/menu/_menu_browse.html.erb
+3	3	app/views/menu/_menu_fandoms.html.erb
+4	4	app/views/menu/_menu_search.html.erb
+2	8	config/initializers/monkeypatches/translate_string.rb
+
+--55e7ead37--2014-07-02--zz9pzza
+--d37ae241f--2014-06-28--james_
+--4f22636e7--2014-06-28--james_

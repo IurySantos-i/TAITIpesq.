@@ -1,0 +1,52 @@
+--140227ca6--2011-11-01--shalott
+--5709ec023--2011-11-01--shalott
+--fabd2e226--2011-11-01--shalott
+--34770db20--2011-11-01--Cesy
+2	1	app/views/collections/_form.html.erb
+
+--2bd115f7f--2011-11-01--Cesy
+2	2	app/views/home/site_map.html.erb
+
+--3a2ab9cdf--2011-10-31--Enigel
+--8145be286--2011-10-30--Sidra
+1	0	.gitignore
+16	10	script/seed_dump.rb
+4	1	script/seed_restore.rb
+
+--cf531fcb5--2011-10-29--Sidra
+--e94cf5fa0--2011-10-28--Cesy
+3	1	app/views/challenge/prompt_meme/_challenge_sidebar.html.erb
+1	11	features/challenge_promptmeme.feature
+
+--acb83c5b8--2011-10-28--Cesy
+1	1	app/views/collections/_collection_blurb.html.erb
+
+--bd9381633--2011-09-28--Cesy
+1	1	features/challenge_promptmeme.feature
+
+--65e196b26--2011-09-25--Cesy
+1	1	app/views/collections/_collection_blurb.html.erb
+
+--af60ed986--2011-09-18--Cesy
+1	1	app/models/prompt.rb
+10	0	features/challenge_promptmeme.feature
+
+--f45c6da0f--2011-09-03--Cesy
+4	2	app/sweepers/challenge_signup_sweeper.rb
+3	0	app/views/challenge/prompt_meme/_challenge_meta.html.erb
+3	3	app/views/collections/_collection_blurb.html.erb
+1	1	app/views/collections/show.html.erb
+10	1	features/challenge_promptmeme.feature
+
+--7cfb61aaa--2011-09-03--Cesy
+1	1	app/models/prompt.rb
+4	0	app/views/collections/_collection_blurb.html.erb
+4	2	app/views/collections/show.html.erb
+9	1	features/challenge_promptmeme.feature
+
+--29754f481--2011-07-14--Cesy
+2	0	app/models/prompt.rb
+10	1	app/views/collections/show.html.erb
+
+--66b1f96d8--2011-10-28--Rebecca
+84	0	spec/models/chapter_spec.rb

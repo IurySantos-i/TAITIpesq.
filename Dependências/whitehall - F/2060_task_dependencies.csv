@@ -1,6 +1,0 @@
-entity,coupled,degree,average-revs
-app/models/admin/statistics_announcement_filter.rb,test/unit/admin/statistics_announcement_filter_test.rb,85,11
-app/controllers/admin/statistics_announcements_controller.rb,app/views/admin/statistics_announcements/index.html.erb,56,13
-app/views/admin/statistics_announcements/index.html.erb,features/step_definitions/admin_statistics_announcements_steps.rb,50,12
-app/views/admin/statistics_announcements/index.html.erb,test/unit/admin/statistics_announcement_filter_test.rb,42,14
-app/models/admin/statistics_announcement_filter.rb,app/views/admin/statistics_announcements/index.html.erb,41,15

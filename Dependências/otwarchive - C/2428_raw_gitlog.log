@@ -1,0 +1,13 @@
+--3a2ab9cdf--2011-10-31--Enigel
+--8145be286--2011-10-30--Sidra
+1	0	.gitignore
+16	10	script/seed_dump.rb
+4	1	script/seed_restore.rb
+
+--cf531fcb5--2011-10-29--Sidra
+--e94cf5fa0--2011-10-28--Cesy
+3	1	app/views/challenge/prompt_meme/_challenge_sidebar.html.erb
+1	11	features/challenge_promptmeme.feature
+
+--66b1f96d8--2011-10-28--Rebecca
+84	0	spec/models/chapter_spec.rb

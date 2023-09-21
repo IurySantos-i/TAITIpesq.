@@ -1,0 +1,38 @@
+--9968f3ae76--2017-02-10--Graham Pengelly
+--3977c39cdb--2017-02-10--Andrew Garner
+--c37c06eae6--2017-01-30--Andrew Garner
+0	1	app/assets/stylesheets/frontend/base.scss
+1	1	app/assets/stylesheets/frontend/helpers/_browse.scss
+0	134	app/assets/stylesheets/frontend/views/_consultations.scss
+0	12	app/controllers/consultations_controller.rb
+0	8	app/helpers/cache_control_helper.rb
+0	13	app/helpers/consultations_helper.rb
+0	9	app/views/consultations/_document_summary.html.erb
+0	172	app/views/consultations/show.html.erb
+2	9	features/consultations.feature
+7	33	features/step_definitions/consultation_steps.rb
+0	1	features/topical_events.feature
+0	105	test/functional/consultations_controller_test.rb
+0	1	test/integration/document_locale_param_canonicalisation_test.rb
+0	18	test/unit/helpers/cache_control_helper_test.rb
+0	34	test/unit/helpers/consultations_helper_test.rb
+
+--4634416a6e--2017-02-09--Graham Pengelly
+--e3b1dc46c5--2017-02-09--Graham Pengelly
+0	35	app/presenters/publishing_api/payload_builder/withdrawn_notice.rb
+0	45	test/unit/presenters/publishing_api/payload_builder/withdrawn_notice_test.rb
+
+--b1b8576a3f--2017-01-27--Graham Pengelly
+7	1	app/models/publication.rb
+3	1	app/presenters/publishing_api/publication_presenter.rb
+1	2	features/step_definitions/policy_steps.rb
+
+--13a0b38909--2017-01-27--Graham Pengelly
+2	2	test/unit/helpers/public_document_routes_helper_test.rb
+
+--6a81ff5aac--2017-01-25--Graham Pengelly
+1	1	lib/sync_checker/formats/publication_check.rb
+
+--6a0c04e93e--2017-01-25--Graham Pengelly
+4	0	app/models/publication.rb
+1	1	test/unit/presenters/publishing_api/publication_presenter_test.rb
