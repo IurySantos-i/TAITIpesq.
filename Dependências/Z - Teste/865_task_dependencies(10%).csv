@@ -1,0 +1,7 @@
+entity,coupled,degree,average-revs
+Gemfile,Gemfile.lock,97,22
+app/assets/stylesheets/colors.scss,app/views/streams/main_stream.html.haml,66,8
+app/assets/stylesheets/header.scss,app/assets/templates/header_tpl.jst.hbs,62,8
+app/assets/stylesheets/leftnavbar.scss,app/views/streams/main_stream.html.haml,58,9
+Gemfile,app/assets/javascripts/main.js,35,14
+Gemfile.lock,app/assets/javascripts/main.js,34,15

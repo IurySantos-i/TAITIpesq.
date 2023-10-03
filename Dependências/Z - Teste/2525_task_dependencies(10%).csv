@@ -1,0 +1,2 @@
+entity,coupled,degree,average-revs
+app/controllers/admins_controller.rb,app/views/admins/stats.html.haml,83,6

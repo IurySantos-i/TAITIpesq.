@@ -1,0 +1,5 @@
+entity,coupled,degree,average-revs
+app/views/users/getting_started.haml,public/stylesheets/sass/application.sass,69,13
+app/views/users/getting_started.haml,config/locales/diaspora/en.yml,48,13
+app/views/aspects/index.html.haml,public/stylesheets/sass/application.sass,47,11
+config/locales/diaspora/en.yml,public/stylesheets/sass/application.sass,44,14
