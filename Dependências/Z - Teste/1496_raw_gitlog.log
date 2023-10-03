@@ -1,0 +1,28 @@
+--ee3a9f9be--2014-04-12--Jason Robinson
+--6947a1945--2014-04-11--Jason Robinson
+--66c511197--2014-04-08--Jonne Haß
+--2311b761e--2014-04-08--Hincu Petru
+4	2	app/controllers/status_messages_controller.rb
+5	0	spec/controllers/status_messages_controller_spec.rb
+
+--63abe9055--2014-04-06--goobertron
+1	0	Changelog.md
+1	0	app/views/profiles/_edit.haml
+1	1	app/views/profiles/edit.haml
+1	1	app/views/profiles/edit.mobile.haml
+33	43	app/views/users/edit.html.haml
+36	41	app/views/users/edit.mobile.haml
+18	18	config/locales/diaspora/en.yml
+6	6	features/desktop/closes_account.feature
+3	3	features/desktop/edits_profile.feature
+2	2	features/mobile/edits_profile.feature
+8	0	features/step_definitions/custom_web_steps.rb
+4	0	features/support/application_cuke_helpers.rb
+
+--98057885a--2013-06-22--Jonne Haß
+6	0	Changelog.md
+3	0	Gemfile
+7	1	Gemfile.lock
+3	0	config/initializers/sidekiq.rb
+3	0	config/unicorn.rb
+1	1	lib/diaspora/guid.rb

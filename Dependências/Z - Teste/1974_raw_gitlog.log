@@ -1,0 +1,8 @@
+--d36209ae4--2012-06-20--Steven Hancock
+--b0e428b34--2012-06-18--Steven Hancock
+--82a47d0ba--2012-06-17--Zach Scott
+1	1	app/controllers/tags_controller.rb
+23	0	features/tags_and_comments.feature
+
+--a2f208b01--2012-06-16--Steven Hancock
+5	3	app/models/user.rb

@@ -1,0 +1,205 @@
+--8a8f8db9a--2011-07-02--danielgrippi
+--9ec905560--2011-07-02--danielgrippi
+3	3	app/views/layouts/_header.html.haml
+0	2	app/views/layouts/application.html.haml
+0	19	app/views/notifications/_overlay.html.haml
+1	0	config/locales/diaspora/en.yml
+9	2	public/javascripts/widgets/notifications-badge.js
+42	32	public/stylesheets/sass/application.sass
+
+--eb0fbe519--2011-07-02--Dan Hansen
+1	1	app/controllers/notifications_controller.rb
+21	3	public/javascripts/widgets/notifications-badge.js
+0	4	public/stylesheets/sass/application.sass
+
+--f16137748--2011-07-02--Raphael Sofaer
+4	4	app/controllers/aspects_controller.rb
+3	3	app/views/aspects/_selected_contacts.html.haml
+1	1	app/views/aspects/index.html.haml
+1	1	app/views/aspects/index.js.erb
+2	2	app/views/shared/_publisher.html.haml
+0	1	spec/factories.rb
+
+--24d84d775--2011-07-02--danielgrippi
+1	1	app/views/shared/_publisher.html.haml
+
+--689bde2e5--2011-07-02--danielgrippi
+1	1	app/views/shared/_publisher.html.haml
+0	11	app/views/shared/_reshare.haml
+0	3	app/views/shared/_stream_element.html.haml
+0	73	public/stylesheets/sass/application.sass
+
+--0b56ade46--2011-07-02--Dan Hansen
+3	1	public/javascripts/widgets/notifications-badge.js
+4	0	public/stylesheets/sass/application.sass
+
+--3941d562a--2011-07-02--Dan Hansen
+44	55	public/javascripts/widgets/notifications-badge.js
+
+--86c06c4d1--2011-07-02--Raphael Sofaer
+1	4	app/controllers/aspects_controller.rb
+
+--6b46d69b6--2011-07-02--Raphael Sofaer
+3	0	app/controllers/aspects_controller.rb
+
+--98799b397--2011-07-02--Raphael Sofaer
+18	14	features/accepts_invitation.feature
+
+--290fb1e7f--2011-07-02--Raphael Sofaer
+0	1	.travis.yml
+1	11	features/comments.feature
+9	0	features/step_definitions/user_steps.rb
+16	0	spec/factories.rb
+
+--7baeaebe5--2011-07-02--Raphael Sofaer
+0	3	app/controllers/aspects_controller.rb
+
+--a36bd9897--2011-07-02--Raphael Sofaer
+6	9	lib/tasks/cruise.rake
+
+--f4ca8898f--2011-07-02--Maxwell Salzberg
+5	1	config/initializers/resque.rb
+
+--2d9d9bd1a--2011-07-02--Maxwell Salzberg
+2	0	Gemfile
+4	0	Gemfile.lock
+0	11	app/models/jobs/base.rb
+1	1	app/models/jobs/delete_account.rb
+1	1	app/models/jobs/http_multi.rb
+1	1	app/models/jobs/http_post.rb
+1	1	app/models/jobs/invite_user_by_email.rb
+1	1	app/models/jobs/mail_also_commented.rb
+1	1	app/models/jobs/mail_comment_on_post.rb
+1	1	app/models/jobs/mail_liked.rb
+1	1	app/models/jobs/mail_mentioned.rb
+1	1	app/models/jobs/mail_private_message.rb
+1	1	app/models/jobs/mail_started_sharing.rb
+1	1	app/models/jobs/notify_local_users.rb
+1	1	app/models/jobs/post_to_service.rb
+1	1	app/models/jobs/process_photo.rb
+1	1	app/models/jobs/publish_to_hub.rb
+1	1	app/models/jobs/receive_local_batch.rb
+1	1	app/models/jobs/receive_salmon.rb
+1	1	app/models/jobs/resend_invitation.rb
+1	1	app/models/jobs/socket_webfinger.rb
+1	1	app/models/jobs/update_service_users.rb
+1	6	config/initializers/resque.rb
+2	2	spec/models/jobs/mail_mentioned_spec.rb
+1	1	spec/models/jobs/mail_private_message.rb
+4	4	spec/models/jobs/receive_local_batch_spec.rb
+1	1	spec/models/jobs/resend_invitation_spec.rb
+
+--696779d58--2011-07-02--Maxwell Salzberg
+0	2	Gemfile
+0	4	Gemfile.lock
+11	0	app/models/jobs/base.rb
+1	1	app/models/jobs/delete_account.rb
+1	1	app/models/jobs/http_multi.rb
+1	1	app/models/jobs/http_post.rb
+1	1	app/models/jobs/invite_user_by_email.rb
+1	1	app/models/jobs/mail_also_commented.rb
+1	1	app/models/jobs/mail_comment_on_post.rb
+1	1	app/models/jobs/mail_liked.rb
+1	1	app/models/jobs/mail_mentioned.rb
+1	1	app/models/jobs/mail_private_message.rb
+1	1	app/models/jobs/mail_started_sharing.rb
+1	1	app/models/jobs/notify_local_users.rb
+1	1	app/models/jobs/post_to_service.rb
+1	1	app/models/jobs/process_photo.rb
+1	1	app/models/jobs/publish_to_hub.rb
+1	1	app/models/jobs/receive_local_batch.rb
+1	1	app/models/jobs/receive_salmon.rb
+1	1	app/models/jobs/resend_invitation.rb
+1	1	app/models/jobs/socket_webfinger.rb
+1	1	app/models/jobs/update_service_users.rb
+6	1	config/initializers/resque.rb
+2	2	spec/models/jobs/mail_mentioned_spec.rb
+1	1	spec/models/jobs/mail_private_message.rb
+4	4	spec/models/jobs/receive_local_batch_spec.rb
+1	1	spec/models/jobs/resend_invitation_spec.rb
+
+--dd752d7dd--2011-07-02--Maxwell Salzberg
+2	0	Gemfile
+4	0	Gemfile.lock
+0	11	app/models/jobs/base.rb
+1	1	app/models/jobs/delete_account.rb
+1	1	app/models/jobs/http_multi.rb
+1	1	app/models/jobs/http_post.rb
+1	1	app/models/jobs/invite_user_by_email.rb
+1	1	app/models/jobs/mail_also_commented.rb
+1	1	app/models/jobs/mail_comment_on_post.rb
+1	1	app/models/jobs/mail_liked.rb
+1	1	app/models/jobs/mail_mentioned.rb
+1	1	app/models/jobs/mail_private_message.rb
+1	1	app/models/jobs/mail_started_sharing.rb
+1	1	app/models/jobs/notify_local_users.rb
+1	1	app/models/jobs/post_to_service.rb
+1	1	app/models/jobs/process_photo.rb
+1	1	app/models/jobs/publish_to_hub.rb
+1	1	app/models/jobs/receive_local_batch.rb
+1	1	app/models/jobs/receive_salmon.rb
+1	1	app/models/jobs/resend_invitation.rb
+1	1	app/models/jobs/socket_webfinger.rb
+1	1	app/models/jobs/update_service_users.rb
+1	6	config/initializers/resque.rb
+2	2	spec/models/jobs/mail_mentioned_spec.rb
+1	1	spec/models/jobs/mail_private_message.rb
+4	4	spec/models/jobs/receive_local_batch_spec.rb
+1	1	spec/models/jobs/resend_invitation_spec.rb
+
+--7f5527996--2011-07-02--Raphael Sofaer
+4	1	lib/tasks/cruise.rake
+
+--bc5d29bff--2011-07-02--Raphael Sofaer
+1	0	.travis.yml
+6	6	lib/tasks/cruise.rake
+
+--757b87e99--2011-07-02--Raphael Sofaer
+--64898c522--2011-07-02--mb-log
+1	1	app/views/people/show.html.haml
+
+--de8e750b0--2011-07-02--Raphael Sofaer
+2	0	.travis.yml
+1	4	lib/tasks/cruise.rake
+
+--3baf433b3--2011-07-02--Raphael Sofaer
+7	2	.travis.yml
+6	4	Gemfile
+17	6	lib/tasks/cruise.rake
+4	4	spec/controllers/aspects_controller_spec.rb
+1	1	spec/controllers/contacts_controller_spec.rb
+3	3	spec/controllers/publics_controller_spec.rb
+1	1	spec/controllers/status_messages_controller_spec.rb
+
+--ac832f160--2011-07-02--Raphael Sofaer
+1	1	.travis.yml
+1	1	config/database.yml.example
+
+--b48b182c7--2011-07-02--Dan Hansen & Daniel Grippi
+7	0	app/views/layouts/_header.html.haml
+10	1	public/javascripts/widgets/notifications-badge.js
+50	12	public/stylesheets/sass/application.sass
+
+--7ccaf54e7--2011-07-01--Raphael Sofaer
+3	2	.travis.yml
+
+--11e5057e5--2011-07-01--Raphael Sofaer
+1	1	features/infinite_scroll.feature
+2	1	features/manages_aspects.feature
+
+--49d905c71--2011-07-01--Raphael Sofaer
+2	2	app/views/aspects/_aspect_listings.haml
+3	3	app/views/aspects/index.html.haml
+6	0	config/locales/diaspora/en.yml
+
+--7a800a646--2011-07-01--Raphael Sofaer
+1	1	README.md
+
+--05688c2f4--2011-07-01--Dan Hansen
+6	0	app/controllers/notifications_controller.rb
+4	0	app/helpers/notifications_helper.rb
+2	0	app/views/layouts/_header.html.haml
+9	3	features/notifications.feature
+8	0	features/step_definitions/custom_web_steps.rb
+63	37	public/javascripts/widgets/notifications-badge.js
+11	1	public/stylesheets/sass/application.sass

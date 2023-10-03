@@ -1,0 +1,46 @@
+--70c2fda2c--2011-09-20--Jonne Hass
+--3a9d8f0f3--2011-09-19--Sarah Mei
+2	2	config/locales/diaspora/en.yml
+
+--2cebfa54c--2011-09-19--Ilya Zhitomirskiy
+2	1	app/views/tags/show.haml
+0	5	lib/diaspora/encryptable.rb
+3	12	spec/lib/diaspora/encryptable_spec.rb
+
+--352be4d0c--2011-09-19--Ilya Zhitomirskiy
+20	0	app/views/shared/_right_sections.html.haml
+10	1	config/locales/diaspora/en.yml
+-	-	public/images/icons/question.png
+
+--41abb5790--2011-09-19--Ilya Zhitomirskiy
+1	1	app/views/tags/show.haml
+
+--ed4b91249--2011-09-19--Ilya Zhitomirskiy
+1	0	app/controllers/tags_controller.rb
+17	0	app/helpers/publisher_helper.rb
+3	3	app/views/shared/_publisher.html.haml
+2	0	app/views/tags/show.haml
+6	0	features/follows_tags.feature
+
+--473642234--2011-09-19--Jonne Hass
+1	0	config/locale_settings.yml
+1	0	config/locales/cldr/nn_plurals.rb
+97	0	config/locales/devise/devise.nn.yml
+112	112	config/locales/diaspora/ar.yml
+842	0	config/locales/diaspora/nn.yml
+46	46	config/locales/diaspora/ru.yml
+7	7	config/locales/diaspora/zh-TW.yml
+54	0	config/locales/javascript/javascript.nn.yml
+
+--ff5919f43--2011-09-18--Jordi Mallach
+2	2	config/locales/diaspora/en.yml
+
+--1e7029ef2--2011-09-18--Jordi Mallach
+--d006ca985--2011-09-18--Jordi Mallach
+--5bd32af4b--2011-09-17--Jordi Mallach
+--98aa2a019--2011-09-17--Jordi Mallach
+85	33	config/locales/diaspora/ca.yml
+4	0	config/locales/javascript/javascript.ca.yml
+
+--021f704de--2011-09-17--Jordi Mallach
+1	1	config/locales/diaspora/en.yml

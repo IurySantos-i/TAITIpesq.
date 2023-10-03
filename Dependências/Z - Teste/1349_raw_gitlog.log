@@ -1,0 +1,21 @@
+--2c8bbd334--2014-11-07--Florian Staudacher
+--cd4502f47--2014-11-06--Jason Robinson
+--25e4e558c--2014-10-08--Steffen van Bergerem
+1	0	Changelog.md
+17	6	app/assets/javascripts/app/views/publisher_view.js
+1	0	app/views/status_messages/new.html.haml
+1	0	config/locales/javascript/javascript.en.yml
+3	1	features/desktop/connects_users.feature
+1	0	features/desktop/keyboard_navigation.feature
+2	3	features/desktop/mentions.feature
+2	0	features/desktop/mentions_from_profile_page.feature
+4	0	features/desktop/post_preview.feature
+4	1	features/desktop/posts_from_main_page.feature
+1	0	features/desktop/posts_from_profile_page.feature
+1	0	features/desktop/profile_photos.feature
+4	0	features/step_definitions/custom_web_steps.rb
+3	0	features/step_definitions/modal_steps.rb
+30	4	spec/javascripts/app/views/publisher_view_spec.js
+
+--1df8f0cf2--2014-10-04--Roy McKenzie
+1	1	app/views/layouts/application.html.haml

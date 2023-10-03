@@ -31,7 +31,7 @@ def intersection(lst1, lst2):
     return lst3
 
 path_of_the_directory = r"F:\Pesquisa TAITI\Dependências\sharetribe"
-degreeofdependence= 30
+
 df = pd.read_csv('https___github.com_sharetribe_sharetribe.csv',engine="python", sep=';')
 
 
@@ -43,6 +43,16 @@ f2= []
 precisiondeps = []
 recalldeps = []
 f2deps= []
+prodchangedfiles = []
+testIwithFilteredDeps = []
+filtereddeps = []
+changedprecision = []
+changedrecall = []
+changedf2= []
+changedprecisiondeps = []
+changedrecalldeps = []
+changedf2deps= []
+
 index=0
 
 for filename in sorted(os.listdir(path_of_the_directory), key = natural_keys):
@@ -53,6 +63,7 @@ for filename in sorted(os.listdir(path_of_the_directory), key = natural_keys):
 
             Changed= df.at[index,'Changed files'][1:-1].split(",")
             Changed = [x.strip(' ') for x in Changed]
+            filteredChanged =  [s for s in Changed if (s.startswith('app') or s.startswith('lib')) and (s.endswith('.erb') or s.endswith('.rb') or s.endswith('.html') or s.endswith('.haml'))]
 
             precisionTemp = len(intersection(Taiti,Changed))/len(Taiti)
             recallTemp = len(intersection(Taiti,Changed))/len(Changed)
@@ -88,8 +99,6 @@ for filename in sorted(os.listdir(path_of_the_directory), key = natural_keys):
         Taiti= [x.strip(' ') for x in Taiti]
         Changed= df.at[index,'Changed files'][1:-1].split(",")
         Changed = [x.strip(' ') for x in Changed]
-
-
 
         Final = Matchmaker(compare,Taiti)
 
@@ -128,6 +137,60 @@ for filename in sorted(os.listdir(path_of_the_directory), key = natural_keys):
         f2.append(f2Temp)
         f2deps.append(f2depsTemp)
 
+# Métricas com filtradas de acordo com a pasta e com a extensão
+
+        filteredChanged =  [s for s in Changed if (s.startswith('app') or s.startswith('lib')) and (s.endswith('.erb') or s.endswith('.rb') or s.endswith('.html') or s.endswith('.haml'))]
+        mask = df.coupled.str.contains(r"^(app|lib).*(\.erb|\.rb|\.html|\.haml)$")
+        compare_ = df1[mask]
+        weaklogicaldependencetemp=df1['coupled'].tolist()
+
+        stronglogicaldependencetemp=df1['entity'].tolist()
+
+        filteredcompare = list(zip(stronglogicaldependencetemp,  weaklogicaldependencetemp))
+
+        filteredFinal = Matchmaker(filteredcompare,Taiti)
+
+        filteredtestIwithDepstemp = Union(filteredFinal, Taiti)
+
+        filtereddepstemp = [x for x in filteredtestIwithDepstemp if x not in Taiti]
+        if filtereddepstemp == []:
+            filtereddepstemp = ""
+
+        filteredprecisionTemp = len(intersection(Taiti, filteredChanged))/len(Taiti)
+
+
+        filteredrecallTemp = len(intersection(Taiti, filteredChanged))/len( filteredChanged)
+
+        filteredprecisiondepsTemp = len(intersection(filteredtestIwithDepstemp, filteredChanged))/ len(filteredtestIwithDepstemp)
+
+
+        filteredrecalldepsTemp = len(intersection(filteredtestIwithDepstemp, filteredChanged))/ len( filteredChanged)
+
+
+
+        if (4* filteredprecisionTemp + filteredrecallTemp == 0):
+            filteredf2Temp = 0
+        else: filteredf2Temp = (5*filteredprecisionTemp*filteredrecallTemp)/ (4* filteredprecisionTemp + filteredrecallTemp)
+
+        if (4* filteredprecisiondepsTemp + filteredrecalldepsTemp == 0):
+            filteredf2depsTemp = 0
+        else: filteredf2depsTemp = (5*filteredprecisiondepsTemp*filteredrecalldepsTemp)/ (4* filteredprecisiondepsTemp + filteredrecalldepsTemp)
+
+        prodchangedfiles.append(filteredChanged)
+        testIwithFilteredDeps.append(filteredtestIwithDepstemp)
+        filtereddeps.append(filtereddepstemp)
+        changedprecision.append(filteredprecisionTemp)
+        changedrecall.append(filteredrecallTemp)
+        changedf2.append(filteredf2Temp)
+        changedprecisiondeps.append(filteredprecisiondepsTemp)
+        changedrecalldeps.append(filteredrecalldepsTemp)
+        changedf2deps.append(filteredf2depsTemp)
+
+
+
+
+
+
         print(filename)
         index = index+1
 
@@ -139,9 +202,23 @@ df['F2'] = f2
 df['PrecisionDeps'] = precisiondeps
 df['RecallDeps'] = recalldeps
 df['F2Deps'] = f2deps
+df['ProductionChangedFiles'] = prodchangedfiles
+df['TestIwithFilteredDeps'] = testIwithFilteredDeps
+df['FilteredDeps'] = filtereddeps
+df['ChangedPrecision'] = changedprecision
+df['ChangedRecall'] = changedrecall
+df['Changedf2'] = changedf2
+df['ChangedPrecisionDeps'] = changedprecisiondeps
+df['ChangedRecallDeps'] = changedrecalldeps
+df['Changedf2Deps'] = changedf2deps
 
 
-df.to_excel('TaitiWithdeps_sharetribe.xlsx', index=False)
+
+
+
+
+
+df.to_csv('TaitiWithdeps_sharetribe.csv', index=False)
 
 
 

@@ -1,0 +1,127 @@
+--691594e0f--2014-08-15--Jonne Haß
+--f82a5ba4d--2014-08-15--Jonne Haß
+--ae3dec016--2014-08-14--Steffen van Bergerem
+3	0	app/assets/javascripts/app/app.js
+0	3	app/assets/javascripts/app/views/notifications_view.js
+11	11	app/assets/javascripts/people.js
+
+--b085c98b6--2014-08-14--Błażej Pankowiak
+1	1	features/desktop/manages_aspects.feature
+2	2	features/step_definitions/aspects_steps.rb
+
+--7ff0776d5--2014-08-14--Błażej Pankowiak
+1	3	app/assets/stylesheets/aspects.css.scss
+1	0	app/assets/stylesheets/colors.css.scss
+
+--ede042f6c--2014-08-14--Błażej Pankowiak
+11	0	app/assets/stylesheets/aspects.css.scss
+6	4	app/views/aspects/new.haml
+
+--f08543616--2014-08-14--Błażej Pankowiak
+2	2	app/assets/javascripts/aspect-edit-pane.js
+28	12	app/assets/stylesheets/aspects.css.scss
+2	2	app/helpers/aspects_helper.rb
+3	3	app/views/aspects/edit.html.haml
+1	1	app/views/contacts/sharing.haml
+1	1	app/views/shared/_contact_list.html.haml
+
+--242430111--2014-08-07--Błażej Pankowiak
+41	0	app/assets/stylesheets/contacts.css.scss
+1	1	app/controllers/contacts_controller.rb
+21	20	app/views/contacts/spotlight.haml
+
+--19bcf103a--2014-08-07--Błażej Pankowiak
+16	0	app/assets/stylesheets/aspects.css.scss
+
+--64537f876--2014-08-07--Błażej Pankowiak
+4	0	app/assets/stylesheets/contacts.css.scss
+
+--d0cbde239--2014-08-07--Błażej Pankowiak
+15	1	app/assets/stylesheets/aspects.css.scss
+1	1	app/helpers/aspects_helper.rb
+1	1	app/helpers/contacts_helper.rb
+2	2	app/views/contacts/index.html.haml
+
+--0ad658f98--2014-08-07--Błażej Pankowiak
+57	0	app/assets/stylesheets/aspects.css.scss
+37	0	app/assets/stylesheets/contacts.css.scss
+3	0	app/assets/stylesheets/new-templates.css.scss
+2	0	app/controllers/contacts_controller.rb
+4	5	app/views/contacts/_aspect_listings.haml
+1	1	app/views/contacts/_contact.html.haml
+35	32	app/views/contacts/index.html.haml
+1	1	app/views/shared/_contact_sidebar.html.haml
+
+--7f3ff6bac--2014-08-14--Jonne Haß
+--5f8039480--2014-07-11--Pablo Cuadrado
+1	0	Changelog.md
+
+--a74a02929--2014-07-11--Pablo Cuadrado
+4	0	app/assets/stylesheets/new_styles/_settings.scss
+
+--83b168275--2014-07-11--Pablo Cuadrado
+9	0	app/assets/stylesheets/new_styles/_settings.scss
+4	3	app/views/profiles/_edit.haml
+
+--beb795e3b--2014-07-11--Pablo Cuadrado
+3	2	app/views/profiles/edit.haml
+3	2	app/views/users/edit.html.haml
+3	2	app/views/users/privacy_settings.html.haml
+
+--a6998c23b--2014-07-06--Pablo Cuadrado
+2	2	app/views/profiles/edit.haml
+2	2	app/views/services/index.html.haml
+3	3	app/views/users/edit.html.haml
+2	2	app/views/users/privacy_settings.html.haml
+
+--39ae80027--2014-06-28--Pablo Cuadrado
+3	2	app/views/profiles/_edit.haml
+
+--166281433--2014-06-28--Pablo Cuadrado
+7	6	app/views/profiles/edit.haml
+1	1	app/views/services/index.html.haml
+3	1	app/views/users/edit.html.haml
+4	3	app/views/users/privacy_settings.html.haml
+
+--9c5b9b876--2014-06-28--Pablo Cuadrado
+1	1	app/controllers/profiles_controller.rb
+1	1	app/controllers/services_controller.rb
+1	1	app/controllers/users_controller.rb
+
+--c6511c929--2014-06-28--Pablo Cuadrado
+3	0	app/controllers/services_controller.rb
+15	9	app/views/services/index.html.haml
+
+--261174787--2014-06-28--Pablo Cuadrado
+18	13	app/views/users/privacy_settings.html.haml
+
+--9e3488771--2014-06-28--Pablo Cuadrado
+17	15	app/assets/stylesheets/vendor/autoSuggest.css
+3	0	app/controllers/profiles_controller.rb
+2	0	app/views/photos/_new_profile_photo.haml
+23	23	app/views/profiles/_edit.haml
+10	7	app/views/profiles/_edit_public.haml
+16	10	app/views/profiles/edit.haml
+
+--855597541--2014-06-28--Pablo Cuadrado
+3	0	app/assets/stylesheets/new-templates.css.scss
+10	0	app/assets/stylesheets/new_styles/_base.scss
+4	0	app/assets/stylesheets/new_styles/_settings.scss
+3	0	app/controllers/users_controller.rb
+5	5	app/views/shared/_settings_nav.haml
+212	210	app/views/users/edit.html.haml
+
+--0bc83b93e--2014-08-13--Jonne Haß
+--66fcfcfcb--2014-08-07--op48
+13	18	app/assets/javascripts/app/views/publisher/poll_creator_view.js
+5	4	app/assets/javascripts/app/views/publisher_view.js
+2	2	app/assets/templates/poll_creator_tpl.jst.hbs
+2	2	config/locales/javascript/javascript.en.yml
+1	1	features/step_definitions/post_with_poll_steps.rb
+
+--aa11f7c26--2014-08-04--op48
+14	7	app/assets/javascripts/app/views/publisher/poll_creator_view.js
+7	0	app/assets/javascripts/app/views/publisher_view.js
+1	5	app/assets/templates/poll_creator_tpl.jst.hbs
+4	2	features/desktop/post_with_a_poll.feature
+13	2	features/step_definitions/post_with_poll_steps.rb

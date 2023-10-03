@@ -1,0 +1,21 @@
+--4ff4e222e--2011-07-27--Manuel Schölling
+--7b572bf40--2011-07-27--Ilyaaaaaaaaaaaaa Zhitomirskiy
+11	10	app/views/aspects/index.html.haml
+
+--73f962733--2011-07-26--Ilyaaaaaaaaaaaaa Zhitomirskiy
+19	21	app/views/aspects/index.html.haml
+
+--e8bde11a9--2011-07-26--Dan Hansen
+2	2	features/change_email.feature
+2	2	features/change_password.feature
+1	1	features/repost.feature
+
+--d94f806a5--2011-07-26--Dan Hansen
+4	2	public/javascripts/widgets/lightbox.js
+
+--d38862f91--2011-07-27--Manuel Schölling
+--ae0d655d5--2011-07-24--Manuel Schölling
+1	1	app/views/reshares/_reshare.haml
+
+--85fde3b7a--2011-07-24--Manuel Schölling
+1	1	app/views/reshares/_reshare.haml

@@ -1,0 +1,49 @@
+--cc585805a--2015-03-12--Jonne Haß
+--b757703fb--2015-03-12--Jonne Haß
+--af9d6ddab--2015-03-10--Steffen van Bergerem
+2	2	app/assets/stylesheets/stream_element.scss
+4	6	app/assets/templates/comment_tpl.jst.hbs
+1	1	app/assets/templates/header_tpl.jst.hbs
+3	5	app/assets/templates/likes-info_tpl.jst.hbs
+4	2	app/assets/templates/reshare_tpl.jst.hbs
+3	3	app/assets/templates/stream-element_tpl.jst.hbs
+1	1	features/step_definitions/hovercard_steps.rb
+
+--071510773--2015-03-10--Steffen van Bergerem
+0	31	app/assets/templates/stream-frame_tpl.jst.hbs
+
+--4f960fd34--2015-03-12--Steffen van Bergerem
+--7be56849d--2015-03-05--Marcelo Briones
+0	1	app/assets/stylesheets/header.scss
+8	8	app/assets/stylesheets/new_styles/_base.scss
+5	2	app/assets/stylesheets/new_styles/_settings.scss
+0	4	app/assets/stylesheets/notifications.scss
+0	3	app/assets/stylesheets/single-post-view.scss
+1	1	app/assets/templates/header_tpl.jst.hbs
+1	1	app/views/photos/_new_profile_photo.haml
+
+--b04a2638a--2014-03-31--goobertron
+1	0	app/assets/stylesheets/header.scss
+8	0	app/assets/stylesheets/new_styles/_base.scss
+4	0	app/assets/stylesheets/notifications.scss
+
+--cb30ffc36--2015-03-12--Steffen van Bergerem
+1	0	app/assets/javascripts/app/views/conversations_view.js
+1	1	app/assets/javascripts/app/views/photo_view.js
+2	2	app/assets/javascripts/app/views/single-post-viewer/single_post_comment_stream.js
+2	0	app/assets/javascripts/app/views/single-post-viewer/single_post_moderation.js
+0	2	app/assets/stylesheets/application.scss
+3	8	app/assets/stylesheets/conversations.scss
+33	13	app/assets/stylesheets/new_styles/_interactions.scss
+0	113	app/assets/stylesheets/new_styles/_landing.scss
+0	19	app/assets/stylesheets/photo.scss
+0	4	app/assets/stylesheets/rtl.scss
+1	19	app/assets/stylesheets/single-post-view.scss
+6	7	app/assets/stylesheets/stream_element.scss
+4	4	app/assets/templates/comment_tpl.jst.hbs
+10	10	app/assets/templates/photo_tpl.jst.hbs
+5	5	app/assets/templates/single-post-viewer/single-post-moderation_tpl.jst.hbs
+12	12	app/assets/templates/stream-element_tpl.jst.hbs
+16	15	app/views/conversations/_show.haml
+1	1	features/desktop/logged_out_browsing.feature
+2	2	features/step_definitions/custom_web_steps.rb

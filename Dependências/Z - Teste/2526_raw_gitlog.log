@@ -1,0 +1,288 @@
+--0180aebce--2011-08-16--Brian Wisti
+--6e248c2d5--2011-08-16--Brian Wisti
+3	1	app/helpers/markdownify_helper.rb
+1	1	app/views/status_messages/_status_message.haml
+20	10	lib/diaspora/markdownify.rb
+7	0	spec/helpers/markdownify_helper_spec.rb
+
+--25752e9f9--2011-08-16--Raphael Sofaer
+1	1	config/initializers/_splunk_logger.rb
+
+--1bd7e1314--2011-08-16--Raphael Sofaer
+1	1	features/signs_up.feature
+
+--1e5326160--2011-08-16--MrZYX
+1	1	config/locales/devise/devise.fr.yml
+40	40	config/locales/diaspora/cs.yml
+9	9	config/locales/diaspora/de.yml
+39	39	config/locales/diaspora/fr.yml
+3	3	config/locales/diaspora/it.yml
+3	3	config/locales/diaspora/ko.yml
+3	3	config/locales/javascript/javascript.fr.yml
+
+--2303686e3--2011-08-16--Brian Wisti
+1	0	Gemfile
+7	0	Gemfile.lock
+15	122	app/helpers/markdownify_helper.rb
+1	1	features/follows_tags.feature
+169	0	lib/diaspora/markdownify.rb
+3	0	public/stylesheets/sass/application.sass
+61	29	spec/helpers/markdownify_helper_spec.rb
+
+--a06f25b29--2011-08-16--Maxwell Salzberg
+--511517b3c--2011-08-15--danielgrippi
+51	28	app/models/invitation.rb
+28	4	app/models/user.rb
+0	26	spec/models/invitation_spec.rb
+36	0	spec/models/user_spec.rb
+
+--32ae21a21--2011-08-15--danielgrippi
+0	12	app/controllers/admins_controller.rb
+24	24	app/controllers/invitations_controller.rb
+0	1	app/controllers/registrations_controller.rb
+4	5	app/models/invitation.rb
+1	2	app/models/user.rb
+0	1	app/views/admins/user_search.html.haml
+0	1	config/routes.rb
+9	0	db/migrate/20110815210933_remove_invite_counter_from_user.rb
+1	2	db/schema.rb
+1	27	spec/controllers/admins_controller_spec.rb
+2	16	spec/controllers/invitations_controller_spec.rb
+7	3	spec/controllers/services_controller_spec.rb
+0	18	spec/models/invitation_spec.rb
+30	43	spec/models/user/invite_spec.rb
+
+--669cd8578--2011-08-15--danielgrippi
+1	1	app/controllers/invitations_controller.rb
+0	14	app/models/job/invite_user_by_email.rb
+16	0	app/models/job/mail/invite_user_by_email.rb
+2	2	spec/models/jobs/{ => mail}/invite_user_by_email_spec.rb
+
+--78aa6d094--2011-08-15--MrZYX
+2	2	config/locales/devise/devise.cs.yml
+9	9	config/locales/diaspora/bg.yml
+37	37	config/locales/diaspora/cs.yml
+3	3	config/locales/diaspora/es.yml
+2	2	config/locales/diaspora/fr.yml
+2	2	config/locales/diaspora/sk.yml
+11	11	config/locales/diaspora/zh-TW.yml
+3	3	config/locales/javascript/javascript.cs.yml
+1	1	config/locales/javascript/javascript.sk.yml
+
+--a9312daf6--2011-08-15--MrZYX
+1	1	config/locales/diaspora/ml.yml
+
+--e7f1c3d25--2011-08-15--Anish A
+295	123	config/locales/diaspora/ml.yml
+
+--2cea39672--2011-08-15--Anish A
+23	8	config/locales/javascript/javascript.ml.yml
+
+--a3ac384aa--2011-08-15--Anish A
+1	1	config/locales/devise/devise.ml.yml
+
+--a2f7fed8f--2011-08-14--Raphael Sofaer
+0	4	app/views/shared/_stream_element.html.haml
+5	3	public/javascripts/stream.js
+2	1	public/javascripts/web-socket-receiver.js
+
+--b7b20b241--2011-08-15--Andrej Kacian
+1	6	public/javascripts/web-socket-receiver.js
+
+--3f1e8f0b6--2011-08-14--Ilyaaaaaaaaaaaaa Zhitomirskiy
+8	5	app/views/layouts/application.mobile.haml
+
+--8dc1b7062--2011-08-15--Andrej Kacian
+5	0	app/views/shared/_stream_element.html.haml
+
+--ba11bb6d8--2011-08-14--Ilyaaaaaaaaaaaaa Zhitomirskiy
+5	1	app/controllers/invitations_controller.rb
+28	0	app/views/invitations/new.mobile.haml
+7	1	app/views/layouts/application.mobile.haml
+
+--657a9f96e--2011-08-14--Andrej Kacian
+16	15	app/views/tags/_followed_tags_listings.haml
+
+--4fe61892e--2011-08-14--Andrej Kacian
+5	0	app/views/tags/show.haml
+
+--7e59193e2--2011-08-13--MrZYX
+3	9	config/locales/diaspora/ar.yml
+3	9	config/locales/diaspora/bg.yml
+3	9	config/locales/diaspora/br.yml
+3	9	config/locales/diaspora/cs.yml
+3	9	config/locales/diaspora/cy.yml
+3	9	config/locales/diaspora/da.yml
+3	9	config/locales/diaspora/de.yml
+3	9	config/locales/diaspora/el.yml
+3	9	config/locales/diaspora/en_pirate.yml
+3	9	config/locales/diaspora/en_shaw.yml
+26	32	config/locales/diaspora/eo.yml
+3	9	config/locales/diaspora/es-AR.yml
+3	9	config/locales/diaspora/es-CL.yml
+13	19	config/locales/diaspora/es.yml
+3	9	config/locales/diaspora/eu.yml
+3	9	config/locales/diaspora/fi.yml
+3	9	config/locales/diaspora/fr.yml
+3	9	config/locales/diaspora/ga.yml
+3	9	config/locales/diaspora/he.yml
+3	9	config/locales/diaspora/hu.yml
+3	9	config/locales/diaspora/id.yml
+3	9	config/locales/diaspora/is.yml
+13	19	config/locales/diaspora/it.yml
+3	9	config/locales/diaspora/ja.yml
+11	17	config/locales/diaspora/ko.yml
+3	9	config/locales/diaspora/lt.yml
+3	9	config/locales/diaspora/mk.yml
+3	9	config/locales/diaspora/nb.yml
+3	9	config/locales/diaspora/nl.yml
+3	9	config/locales/diaspora/pa.yml
+3	9	config/locales/diaspora/pl.yml
+3	9	config/locales/diaspora/pt-BR.yml
+3	9	config/locales/diaspora/pt-PT.yml
+3	9	config/locales/diaspora/ro.yml
+3	9	config/locales/diaspora/ru.yml
+3	9	config/locales/diaspora/sk.yml
+3	9	config/locales/diaspora/sl.yml
+3	9	config/locales/diaspora/sv.yml
+3	9	config/locales/diaspora/tr.yml
+3	9	config/locales/diaspora/zh-CN.yml
+3	9	config/locales/diaspora/zh-TW.yml
+
+--d228f5055--2011-08-13--Raphael Sofaer
+-	-	public/images/ajax-loader_inverted.gif
+5	2	public/javascripts/contact-edit.js
+12	0	public/stylesheets/sass/ui.sass
+
+--3a1804482--2011-08-13--Raphael Sofaer
+13	2	app/controllers/people_controller.rb
+
+--f60ce932b--2011-08-13--Raphael Sofaer
+2	2	app/views/services/_remote_friend.html.haml
+1	0	config/locales/diaspora/en.yml
+
+--f0583de36--2011-08-13--Raphael Sofaer
+1	1	app/helpers/aspect_global_helper.rb
+2	1	app/helpers/services_helper.rb
+10	0	app/models/contact.rb
+1	1	app/models/services/facebook.rb
+21	13	app/views/services/_remote_friend.html.haml
+1	29	app/views/services/finder.html.haml
+
+--b85df7303--2011-08-13--Andrej Kacian
+1	0	app/views/conversations/show.js.erb
+
+--48282e340--2011-08-13--Andrej Kacian
+1	10	features/conversations.feature
+12	0	features/step_definitions/conversations_steps.rb
+
+--9c99331bb--2011-08-13--Andrej Kacian
+6	5	features/conversations.feature
+5	0	features/step_definitions/conversations_steps.rb
+
+--232620658--2011-08-12--Gonzalo Rodriguez
+2	0	app/controllers/conversations_controller.rb
+1	9	app/models/conversation.rb
+6	2	spec/controllers/conversation_visibilities_controller_spec.rb
+19	6	spec/controllers/conversations_controller_spec.rb
+6	2	spec/controllers/messages_controller_spec.rb
+6	2	spec/mailers/notifier_spec.rb
+7	3	spec/models/conversation_spec.rb
+12	4	spec/models/message_spec.rb
+6	2	spec/models/notifications/private_message_spec.rb
+
+--fe93fd5c9--2011-08-13--Andrej Kacian
+26	0	features/conversations.feature
+
+--1c5f61fb7--2011-08-12--danielgrippi
+0	2	app/helpers/aspect_global_helper.rb
+1	8	public/javascripts/contact-edit.js
+16	21	public/stylesheets/sass/ui.sass
+
+--565d71a0c--2011-08-12--Raphael Sofaer
+5	0	app/controllers/services_controller.rb
+10	2	spec/controllers/services_controller_spec.rb
+
+--75f3accd3--2011-08-12--danielgrippi
+10	2	app/controllers/services_controller.rb
+1	12	app/helpers/services_helper.rb
+3	3	app/views/aspect_memberships/_aspect_dropdown.html.haml
+1	1	app/views/aspects/_aspect_listings.haml
+0	4	app/views/services/_facebook_invite.html.haml
+0	8	app/views/services/_finder.html.haml
+11	6	app/views/services/finder.html.haml
+3	3	app/views/shared/_contact_list.html.haml
+2	2	app/views/shared/_contact_sidebar.html.haml
+44	24	public/javascripts/contact-edit.js
+4	4	public/javascripts/contact-list.js
+2	2	public/stylesheets/sass/application.sass
+
+--a8d37fb3f--2011-08-12--danielgrippi
+1	1	app/controllers/services_controller.rb
+44	22	app/views/services/finder.html.haml
+2	3	app/views/shared/_contact_sidebar.html.haml
+2	2	app/views/shared/_invitations.haml
+2	8	config/locales/diaspora/en.yml
+0	5	public/stylesheets/sass/application.sass
+
+--7b85dcec9--2011-08-12--danielgrippi
+7	10	app/views/shared/_invitations.haml
+1	1	app/views/shared/_right_sections.html.haml
+4	6	db/seeds.rb
+7	0	spec/factories.rb
+
+--38a896294--2011-08-12--Raphael Sofaer
+1	1	app/controllers/photos_controller.rb
+
+--3831c13a4--2011-08-12--Raphael Sofaer
+0	0	app/models/{jobs => job}/base.rb
+0	0	app/models/{jobs => job}/delete_account.rb
+0	0	app/models/{jobs => job}/http_multi.rb
+0	0	app/models/{jobs => job}/http_post.rb
+0	0	app/models/{jobs => job}/invite_user_by_email.rb
+0	0	app/models/{jobs => job}/mail/also_commented.rb
+0	0	app/models/{jobs => job}/mail/comment_on_post.rb
+0	0	app/models/{jobs => job}/mail/confirm_email.rb
+0	0	app/models/{jobs => job}/mail/liked.rb
+0	0	app/models/{jobs => job}/mail/mentioned.rb
+0	0	app/models/{jobs => job}/mail/private_message.rb
+0	0	app/models/{jobs => job}/mail/started_sharing.rb
+0	0	app/models/{jobs => job}/notify_local_users.rb
+0	0	app/models/{jobs => job}/post_to_service.rb
+0	0	app/models/{jobs => job}/process_photo.rb
+0	0	app/models/{jobs => job}/publish_to_hub.rb
+0	0	app/models/{jobs => job}/receive.rb
+0	0	app/models/{jobs => job}/receive_local_batch.rb
+0	0	app/models/{jobs => job}/receive_salmon.rb
+0	0	app/models/{jobs => job}/resend_invitation.rb
+0	0	app/models/{jobs => job}/socket_webfinger.rb
+0	0	app/models/{jobs => job}/update_service_users.rb
+0	3	config/initializers/resque.rb
+
+--abd576056--2011-08-12--Raphael Sofaer
+1	1	lib/tasks/backup.rake
+
+--8b743e7e3--2011-08-12--Raphael Sofaer
+1	1	app/models/post.rb
+2	5	app/models/reshare.rb
+6	0	lib/diaspora/user/querying.rb
+11	1	spec/models/reshare_spec.rb
+
+--31b55aef0--2011-08-12--Raphael Sofaer
+2	2	app/models/services/facebook.rb
+9	0	db/migrate/20110812175614_add_username_to_service_users.rb
+6	5	db/schema.rb
+
+--2f3e50481--2011-08-12--Andrej Kacian
+1	1	app/views/aspects/_aspect_listings.haml
+
+--1062cc5bf--2011-08-12--Andrej Kacian
+2	2	app/controllers/aspects_controller.rb
+1	1	app/views/aspects/index.js.erb
+
+--7e901d022--2011-08-12--danielgrippi
+0	2	app/views/layouts/application.html.haml
+0	1	config/locales/diaspora/en.yml
+
+--cd640e1ac--2011-08-12--Raphael Sofaer
+9	0	spec/controllers/posts_controller_spec.rb

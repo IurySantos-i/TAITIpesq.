@@ -1,0 +1,37 @@
+--1dee54293--2015-08-29--Jonne Haß
+--78e183738--2015-08-29--Jonne Haß
+--bf92a7441--2015-08-29--Jonne Haß
+1	6	Gemfile
+2	7	Gemfile.lock
+2	2	app/assets/javascripts/app/pages/contacts.js
+1	1	app/views/contacts/_aspect_listings.haml
+1	1	features/desktop/manages_aspects.feature
+15	18	features/step_definitions/aspects_steps.rb
+
+--1b8d61f44--2015-08-28--Steffen van Bergerem
+--3a5406a6e--2015-08-02--augier
+-	-	app/assets/images/fonts/diaspora-custom.ttf
+21	0	app/assets/images/fonts/svg-icons/compose_mobile.svg
+18	0	app/assets/images/fonts/svg-icons/mail_white.svg
+-	-	app/assets/images/mobile/compose_mobile.png
+-	-	app/assets/images/mobile/mail_white.png
+-	-	app/assets/images/mobile/menu.png
+-	-	app/assets/images/mobile/notifications_white.png
+-	-	app/assets/images/mobile/pencil_mobile_grey.png
+-	-	app/assets/images/mobile/pencil_mobile_grey_active.png
+1	1	app/assets/javascripts/mobile/mobile.js
+71	56	app/assets/stylesheets/mobile/header.scss
+7	2	app/assets/stylesheets/mobile/mobile.scss
+27	0	app/assets/stylesheets/new_styles/_typography.scss
+35	0	app/views/layouts/_drawer.mobile.haml
+35	0	app/views/layouts/_header.mobile.haml
+2	63	app/views/layouts/application.mobile.haml
+5	5	features/mobile/drawer.feature
+1	1	features/mobile/multiphoto.feature
+4	4	features/step_definitions/mobile_steps.rb
+
+--cdc6e9128--2015-08-28--Steffen van Bergerem
+--2ca963fad--2015-08-28--augier
+3	0	app/assets/stylesheets/conversations.scss
+1	1	app/views/conversations/_conversation.haml
+1	1	app/views/conversations/_conversation_subject.haml

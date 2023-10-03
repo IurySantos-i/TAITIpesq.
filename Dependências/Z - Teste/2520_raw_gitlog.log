@@ -1,0 +1,47 @@
+--8f78a2d97--2011-08-16--Brian Wisti
+--888ad0a31--2011-08-16--Brian Wisti
+1	0	lib/diaspora/markdownify.rb
+
+--805a9eb92--2011-08-16--Brian Wisti
+0	3	lib/diaspora/markdownify.rb
+
+--736b17988--2011-08-16--Brian Wisti
+4	1	app/helpers/markdownify_helper.rb
+
+--b87c7bb48--2011-08-16--Brian Wisti
+3	1	app/helpers/markdownify_helper.rb
+1	1	app/views/status_messages/_status_message.haml
+20	10	lib/diaspora/markdownify.rb
+7	0	spec/helpers/markdownify_helper_spec.rb
+
+--03127cd59--2011-08-16--Brian Wisti
+1	0	Gemfile
+7	0	Gemfile.lock
+15	122	app/helpers/markdownify_helper.rb
+1	1	features/follows_tags.feature
+169	0	lib/diaspora/markdownify.rb
+3	0	public/stylesheets/sass/application.sass
+61	29	spec/helpers/markdownify_helper_spec.rb
+
+--6b34a2611--2011-08-16--Brian Wisti
+4	1	app/helpers/markdownify_helper.rb
+
+--0b2ab9450--2011-08-16--Brian Wisti
+--ddf912d3a--2011-08-16--Brian Wisti
+3	3	db/seeds.rb
+
+--0180aebce--2011-08-16--Brian Wisti
+--6e248c2d5--2011-08-16--Brian Wisti
+3	1	app/helpers/markdownify_helper.rb
+1	1	app/views/status_messages/_status_message.haml
+20	10	lib/diaspora/markdownify.rb
+7	0	spec/helpers/markdownify_helper_spec.rb
+
+--2303686e3--2011-08-16--Brian Wisti
+1	0	Gemfile
+7	0	Gemfile.lock
+15	122	app/helpers/markdownify_helper.rb
+1	1	features/follows_tags.feature
+169	0	lib/diaspora/markdownify.rb
+3	0	public/stylesheets/sass/application.sass
+61	29	spec/helpers/markdownify_helper_spec.rb

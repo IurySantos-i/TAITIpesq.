@@ -1,0 +1,61 @@
+--dfb4c9c92--2011-09-29--Maxwell Salzberg
+--6ac0a4612--2011-09-29--Maxwell Salzberg
+1	1	app/views/aspects/_aspect_stream.haml
+1	1	app/views/aspects/index.html.haml
+4	0	lib/aspect_stream.rb
+3	0	spec/controllers/aspects_controller_spec.rb
+
+--0fbda5d07--2011-09-29--Uiri
+10	6	app/models/services/facebook.rb
+10	0	spec/models/services/facebook_spec.rb
+
+--9760033fa--2011-09-29--Maxwell Salzberg
+1	1	spec/lib/postzord/receiver/local_batch_spec.rb
+
+--45491f06d--2011-09-29--Maxwell Salzberg
+0	3	app/controllers/status_messages_controller.rb
+
+--cd2eb4292--2011-09-29--Maxwell Salzberg
+1	1	app/helpers/stream_helper.rb
+2	2	features/infinite_scroll.feature
+
+--6bda512c0--2011-09-29--Maxwell Salzberg
+0	2	features/follows_tags.feature
+1	1	features/mobile.feature
+
+--aa5d5b560--2011-09-29--Maxwell Salzberg
+5	1	app/controllers/status_messages_controller.rb
+0	0	app/views/status_messages/{new.haml => new.html.haml}
+
+--5c9670506--2011-09-29--Maxwell Salzberg
+1	1	Gemfile
+20	21	Gemfile.lock
+1	1	app/models/post_visibility.rb
+
+--772f69de2--2011-09-29--Maxwell Salzberg
+1	1	app/controllers/status_messages_controller.rb
+
+--44942036d--2011-09-29--Maxwell Salzberg
+4	4	app/models/post_visibility.rb
+7	2	spec/lib/postzord/receiver/local_batch_spec.rb
+
+--b27a8dd33--2011-09-29--Maxwell Salzberg
+5	5	app/views/shared/_right_sections.html.haml
+6	2	config/locales/diaspora/en.yml
+
+--f8a968bf5--2011-09-29--Maxwell Salzberg
+3	2	public/stylesheets/sass/application.sass
+
+--6b7352737--2011-09-29--danielgrippi
+1	9	config/assets.yml
+1	1	public/stylesheets/sass/_mixins.scss
+303	3	public/stylesheets/sass/mobile.scss
+
+--68f15a8a3--2011-09-29--Jonne Hass
+1	1	config/locales/diaspora/ca.yml
+
+--3aa3b9aea--2011-09-26--Uiri
+2	5	app/models/services/facebook.rb
+
+--82feff7fb--2011-09-26--Uiri
+9	1	app/models/services/facebook.rb
