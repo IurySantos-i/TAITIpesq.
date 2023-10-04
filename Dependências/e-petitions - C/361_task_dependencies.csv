@@ -1,0 +1,2 @@
+entity,coupled,degree,average-revs
+app/models/concerns/browseable.rb,spec/models/concerns/browseable_spec.rb,100,9

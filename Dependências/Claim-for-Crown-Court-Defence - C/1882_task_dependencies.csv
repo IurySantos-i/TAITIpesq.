@@ -1,0 +1,2 @@
+entity,coupled,degree,average-revs
+features/step_definitions/advocate_new_claim_steps.rb,spec/controllers/advocates/claims_controller_spec.rb,90,6

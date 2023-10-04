@@ -1,0 +1,7 @@
+entity,coupled,degree,average-revs
+test/unit/whitehall/authority/department_editor_test.rb,test/unit/whitehall/authority/department_writer_test.rb,100,6
+test/unit/whitehall/authority/department_editor_test.rb,test/unit/whitehall/authority/gds_editor_test.rb,100,6
+test/unit/whitehall/authority/department_writer_test.rb,test/unit/whitehall/authority/gds_editor_test.rb,100,6
+lib/whitehall/authority/rules/edition_rules.rb,test/unit/whitehall/authority/department_editor_test.rb,66,8
+lib/whitehall/authority/rules/edition_rules.rb,test/unit/whitehall/authority/gds_editor_test.rb,66,8
+lib/whitehall/authority/rules/edition_rules.rb,test/unit/whitehall/authority/department_writer_test.rb,66,8

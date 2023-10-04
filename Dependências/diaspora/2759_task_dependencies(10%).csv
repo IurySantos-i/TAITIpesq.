@@ -1,0 +1,2 @@
+entity,coupled,degree,average-revs
+app/models/status_message.rb,spec/models/status_message_spec.rb,71,7

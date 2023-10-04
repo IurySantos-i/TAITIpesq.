@@ -1,0 +1,4 @@
+entity,coupled,degree,average-revs
+app/models/claim.rb,spec/models/claim_spec.rb,94,9
+app/controllers/advocates/claims_controller.rb,spec/controllers/advocates/claims_controller_spec.rb,71,7
+app/controllers/case_workers/claims_controller.rb,app/views/shared/_claim_status.html.haml,58,9

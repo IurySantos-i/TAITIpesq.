@@ -30,13 +30,13 @@ def intersection(lst1, lst2):
     lst3 = [value for value in lst1 if value in lst2]
     return lst3
 
-repositorio = 'action-center-platform'
+repositorio = 'sequencescape'
 
 degrees = ['dencies.csv','(10%).csv']
 
-path_of_the_directory = r"D:\Taiti Pesquisa\Dependências\action-center-platform"
+path_of_the_directory = r"D:\Taiti Pesquisa\Dependências\sequencescape\Taiti_com_dependências"
 
-df = pd.read_csv('https___github.com_EFForg_action-center-platform.csv',engine="python", sep=';')
+df = pd.read_csv('ERRO-https___github.com_sanger_sequencescape.csv',engine="python", sep=';')
 
 
 

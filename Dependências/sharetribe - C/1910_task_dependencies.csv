@@ -1,0 +1,5 @@
+entity,coupled,degree,average-revs
+app/helpers/communities_helper.rb,app/views/admin/community_customizations/_locale_input_textarea.haml,76,7
+app/views/admin/community_customizations/_locale_input_textarea.haml,app/views/admin/community_customizations/edit_details.haml,71,7
+app/helpers/communities_helper.rb,app/views/admin/community_customizations/edit_details.haml,70,9
+app/controllers/admin/community_customizations_controller.rb,app/views/admin/community_customizations/edit_details.haml,62,8

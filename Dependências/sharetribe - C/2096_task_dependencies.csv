@@ -1,0 +1,4 @@
+entity,coupled,degree,average-revs
+config/locales/en.yml,config/locales/fi.yml,100,9
+app/views/admin/communities/integrations.haml,config/locales/fi.yml,73,10
+app/views/admin/communities/integrations.haml,config/locales/en.yml,73,10

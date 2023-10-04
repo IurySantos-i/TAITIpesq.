@@ -1,0 +1,32 @@
+  File "C:\Users\Marcos\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\parsers\python_parser.py", line 786, in _next_iter_line
+    line = next(self.data)
+_csv.Error: field larger than field limit (131072)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Taiti Pesquisa\Dependências\sequencescape\Taiti_com_dependências\scriptParaGerarMétricasTaitiComDependências.py", line 39, in <module>
+    df = pd.read_csv('ERRO-https___github.com_sanger_sequencescape.csv',engine="python", sep=';')
+  File "C:\Users\Marcos\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\util\_decorators.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Marcos\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\util\_decorators.py", line 331, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Marcos\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\parsers\readers.py", line 950, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\Marcos\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\parsers\readers.py", line 605, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\Marcos\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\parsers\readers.py", line 1442, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\Marcos\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\parsers\readers.py", line 1753, in _make_engine
+    return mapping[engine](f, **self.options)
+  File "C:\Users\Marcos\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\parsers\python_parser.py", line 145, in __init__
+    (index_names, self.orig_names, self.columns) = self._get_index_name(
+  File "C:\Users\Marcos\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\parsers\python_parser.py", line 927, in _get_index_name
+    line = self._next_line()
+  File "C:\Users\Marcos\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\parsers\python_parser.py", line 722, in _next_line
+    orig_line = self._next_iter_line(row_num=self.pos + 1)
+  File "C:\Users\Marcos\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\parsers\python_parser.py", line 815, in _next_iter_line
+    self._alert_malformed(msg, row_num)
+  File "C:\Users\Marcos\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\parsers\python_parser.py", line 765, in _alert_malformed
+    raise ParserError(msg)
+pandas.errors.ParserError: field larger than field limit (131072)

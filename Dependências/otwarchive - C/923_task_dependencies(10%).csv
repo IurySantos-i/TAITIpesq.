@@ -1,0 +1,10 @@
+entity,coupled,degree,average-revs
+Gemfile,Gemfile.lock,82,9
+features/works/work_create.feature,features/works/work_delete.feature,66,8
+app/controllers/tag_wranglings_controller.rb,app/controllers/tags_controller.rb,62,8
+app/views/tag_wranglings/index.html.erb,app/views/tags/wrangle.html.erb,60,12
+app/views/comments/_commentable.html.erb,app/views/layouts/_javascripts.html.erb,52,10
+app/views/home/_tos.html.erb,app/views/home/tos_faq.html.erb,51,18
+app/controllers/tag_wranglings_controller.rb,app/views/tags/wrangle.html.erb,45,11
+app/views/comments/_commentable.html.erb,app/views/works/_work_header_navigation.html.erb,40,13
+features/fixtures/stat_counters.yml,features/works/work_search.feature,26,19

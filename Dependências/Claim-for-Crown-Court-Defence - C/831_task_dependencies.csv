@@ -1,0 +1,9 @@
+entity,coupled,degree,average-revs
+app/controllers/external_users/advocates/claims_controller.rb,app/controllers/external_users/litigators/claims_controller.rb,90,6
+app/controllers/external_users/claims_controller.rb,spec/controllers/external_users/claims_controller_spec.rb,78,12
+app/controllers/external_users/advocates/claims_controller.rb,spec/controllers/external_users/claims_controller_spec.rb,62,8
+app/controllers/external_users/claims_controller.rb,config/routes.rb,60,10
+app/controllers/external_users/litigators/claims_controller.rb,spec/controllers/external_users/claims_controller_spec.rb,58,9
+app/controllers/external_users/advocates/claims_controller.rb,app/controllers/external_users/claims_controller.rb,58,9
+app/controllers/external_users/claims_controller.rb,features/step_definitions/litigator_new_claim_steps.rb,58,9
+app/controllers/external_users/claims_controller.rb,app/controllers/external_users/litigators/claims_controller.rb,55,9

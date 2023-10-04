@@ -1,0 +1,4 @@
+entity,coupled,degree,average-revs
+app/controllers/statistical_release_announcements_controller.rb,test/functional/statistical_release_announcements_controller_test.rb,100,5
+app/providers/frontend/statistical_release_announcement_provider.rb,test/unit/providers/frontend/statistical_release_announcement_provider_test.rb,90,6
+app/controllers/statistics_announcements_controller.rb,test/functional/statistics_announcements_controller_test.rb,83,6

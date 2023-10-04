@@ -2,7 +2,7 @@ import os
 import subprocess
 
 # specify the folder containing the raw git log files
-folder_path = "F:/Pesquisa TAITI/Dependências/allourideas"
+folder_path = "D:\Taiti Pesquisa\Dependências\sequencescape\Taiti_com_dependências"
 
 # loop through all files in the folder with "raw_gitlog.txt" extension
 for file in os.listdir(folder_path):

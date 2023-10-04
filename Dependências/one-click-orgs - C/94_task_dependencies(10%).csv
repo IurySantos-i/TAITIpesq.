@@ -1,0 +1,14 @@
+entity,coupled,degree,average-revs
+app/mailers/members_mailer.rb,features/step_definitions/email_steps.rb,76,7
+app/views/directors/coop/index.html.haml,spec/views/directors/coop/index.html.haml_spec.rb,71,7
+app/models/member.rb,db/schema.rb,62,8
+app/models/coop.rb,config/routes.rb,55,22
+db/schema.rb,spec/support/blueprints.rb,52,10
+app/models/coop.rb,spec/models/coop_spec.rb,43,19
+config/routes.rb,spec/models/coop_spec.rb,41,12
+app/assets/stylesheets/one_click.css.sass,app/models/coop.rb,32,22
+app/models/ability.rb,app/models/coop.rb,31,19
+app/models/coop.rb,features/step_definitions/coop_member_steps.rb,29,17
+app/models/coop.rb,features/support/paths.rb,28,18
+app/models/coop.rb,features/step_definitions/email_steps.rb,27,18
+app/controllers/members_controller.rb,app/models/coop.rb,27,18

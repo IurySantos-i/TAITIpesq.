@@ -1,0 +1,3 @@
+entity,coupled,degree,average-revs
+features/step_definitions/document_steps.rb,spec/models/document_spec.rb,71,7
+features/document_security.feature,features/step_definitions/document_steps.rb,62,8

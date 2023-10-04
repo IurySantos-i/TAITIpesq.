@@ -30,13 +30,13 @@ def intersection(lst1, lst2):
     lst3 = [value for value in lst1 if value in lst2]
     return lst3
 
-repositorio = 'action-center-platform'
+repositorio = 'diaspora'
 
 degrees = ['dencies.csv','(10%).csv']
 
-path_of_the_directory = r"D:\Taiti Pesquisa\Dependências\action-center-platform"
+path_of_the_directory = r"D:\Taiti Pesquisa\Dependências\diaspora"
 
-df = pd.read_csv('https___github.com_EFForg_action-center-platform.csv',engine="python", sep=';')
+df = pd.read_csv('https___github.com_diaspora_diaspora.csv',engine="python", sep=';')
 
 
 
@@ -108,15 +108,18 @@ for filename in sorted(os.listdir(path_of_the_directory), key = natural_keys):
 
             index = index+1
             print(filename)
+            continue
 
 
-    elif filename.endswith(degrees[0]) and not filename.startswith("http"):
+    if filename.endswith(degrees[0]) and not filename.startswith("http"):
 
-        df1 = pd.read_csv(filename, engine="python", sep=',')
+        df1 = pd.read_csv(filename, engine="python", sep=',', header=0)
+
+        stronglogicaldependence=df1['entity'].tolist()
 
         weaklogicaldependence=df1['coupled'].tolist()
 
-        stronglogicaldependence=df1['entity'].tolist()
+
 
         compare = list(zip(stronglogicaldependence,  weaklogicaldependence))
 
@@ -218,6 +221,7 @@ for filename in sorted(os.listdir(path_of_the_directory), key = natural_keys):
 
         print(filename)
         index = index+1
+        continue
 
 df['TestIWithDeps'] = testIwithDeps
 df['IsolatedDeps'] = deps
@@ -239,7 +243,7 @@ df['Changedf2Deps'] = changedf2deps
 
 
 
-df.to_csv('TaitiWithdeps_' + repositorio + degrees[0], index=False)
+df.to_csv('TaitiWithdeps_' + repositorio + '.csv', index=False)
 
 
 
@@ -264,7 +268,7 @@ changedf2deps= []
 index=0
 
 for filename in sorted(os.listdir(path_of_the_directory), key = natural_keys):
-    if filename.endswith(degrees[1]) and not filename.startswith("http") and (pd.read_csv(filename, sep=";")).values.tolist() == []:
+    if filename.endswith(degrees[1]) and not filename.startswith("http") and (pd.read_csv(filename, sep=",")).values.tolist() == []:
 
             Taiti= df.at[index,'TestI'][1:-1].split(",")
             Taiti = [x.strip(' ') for x in Taiti]
