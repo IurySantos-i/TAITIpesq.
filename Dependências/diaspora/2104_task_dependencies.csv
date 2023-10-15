@@ -1,9 +1,0 @@
-entity,coupled,degree,average-revs
-public/javascripts/app/models/status_message.js,spec/javascripts/app/forms/post_form_spec.js,85,7
-features/step_definitions/trumpeter_steps.rb,features/trumpeter.feature,76,13
-public/javascripts/app/pages/framer.js,spec/javascripts/app/pages/framer_spec.js,66,8
-features/step_definitions/trumpeter_steps.rb,spec/javascripts/app/forms/post_form_spec.js,55,9
-features/trumpeter.feature,public/javascripts/app/models/status_message.js,54,11
-features/trumpeter.feature,spec/javascripts/app/forms/post_form_spec.js,50,10
-features/step_definitions/trumpeter_steps.rb,public/javascripts/app/models/status_message.js,50,10
-features/trumpeter.feature,public/javascripts/app/templates/post-form.handlebars,43,12

@@ -1,4 +1,0 @@
-entity,coupled,degree,average-revs
-app/assets/javascripts/app/views/small_frame.js,app/assets/templates/small-frame.jst.hbs,66,9
-app/assets/javascripts/app/views/small_frame.js,app/assets/stylesheets/new_styles/_canvas.scss,56,16
-app/assets/stylesheets/new_styles/_canvas.scss,app/assets/templates/small-frame.jst.hbs,46,15

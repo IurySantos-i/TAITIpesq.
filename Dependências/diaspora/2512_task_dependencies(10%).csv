@@ -1,8 +1,0 @@
-entity,coupled,degree,average-revs
-app/views/notifications/index.html.haml,app/views/people/_relationship_action.haml,100,5
-app/controllers/admins_controller.rb,app/views/admins/stats.html.haml,76,7
-app/models/invitation.rb,spec/models/invitation_spec.rb,73,10
-app/models/invitation.rb,app/models/user.rb,70,10
-app/controllers/invitations_controller.rb,spec/models/invitation_spec.rb,55,9
-app/controllers/invitations_controller.rb,app/models/invitation.rb,52,12
-public/javascripts/contact-edit.js,public/stylesheets/sass/application.sass,50,10

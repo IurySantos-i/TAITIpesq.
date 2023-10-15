@@ -1,0 +1,35 @@
+--a54ad95e8--2011-08-18--Ilyaaaaaaaaaaaaa Zhitomirskiy
+--a407f1246--2011-08-18--Ilyaaaaaaaaaaaaa Zhitomirskiy
+1	1	app/controllers/people_controller.rb
+2	15	app/helpers/aspect_global_helper.rb
+21	0	app/views/aspect_memberships/_aspect_dropdown.html.haml
+6	0	app/views/aspect_memberships/_aspect_dropdown_list_item.haml
+1	1	app/views/aspects/_aspect_stream.haml
+1	1	app/views/aspects/create.js.erb
+1	1	app/views/aspects/index.mobile.haml
+1	1	app/views/contacts/sharing.haml
+1	1	app/views/notifications/index.html.haml
+0	1	app/views/people/_aspect_membership_dropdown.haml
+1	1	app/views/people/_relationship_action.haml
+1	1	app/views/people/_sub_header.html.haml
+2	2	app/views/services/_remote_friend.html.haml
+0	21	app/views/shared/_aspect_dropdown.html.haml
+6	1	app/views/shared/_publisher.html.haml
+3	3	app/views/status_messages/bookmarklet.html.haml
+2	2	app/views/status_messages/new.haml
+0	1	config/assets.yml
+8	8	config/locales/diaspora/en.yml
+1	2	features/posts.feature
+0	9	features/step_definitions/custom_web_steps.rb
+0	33	public/javascripts/aspects-dropdown.js
+25	4	public/javascripts/contact-edit.js
+10	38	public/javascripts/publisher.js
+3	11	public/stylesheets/sass/application.sass
+
+--60e9fd54e--2011-08-18--Raphael Sofaer
+2	0	Gemfile
+2	0	Gemfile.lock
+12	15	spec/integration/receiving_spec.rb
+
+--31584eed8--2011-08-18--Raphael Sofaer
+14	10	spec/models/user_spec.rb

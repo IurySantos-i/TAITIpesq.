@@ -36,7 +36,7 @@ degrees = ['dencies.csv','(10%).csv']
 
 path_of_the_directory = r"D:\Taiti Pesquisa\Dependências\openproject\Taiti com dependências"
 
-df = pd.read_csv('ERRO-https___github.com_opf_openproject.csv',engine="python", sep=';')
+df = pd.read_csv('ERRO-https___github.com_opf_openproject - Copia.csv',engine="python", sep=';')
 
 
 
@@ -61,7 +61,7 @@ changedf2deps= []
 index=0
 
 for filename in sorted(os.listdir(path_of_the_directory), key = natural_keys):
-    if filename.endswith(degrees[0]) and not filename.startswith("http") and (pd.read_csv(filename, sep=";")).values.tolist() == []:
+    if filename.endswith(degrees[0]) and not filename.startswith("ERRO") and (pd.read_csv(filename, sep=";")).values.tolist() == []:
 
             Taiti= df.at[index,'TestI'][1:-1].split(",")
             Taiti = [x.strip(' ') for x in Taiti]
@@ -110,7 +110,7 @@ for filename in sorted(os.listdir(path_of_the_directory), key = natural_keys):
             print(filename)
 
 
-    elif filename.endswith(degrees[0]) and not filename.startswith("http"):
+    elif filename.endswith(degrees[0]) and not filename.startswith("ERRO"):
 
         df1 = pd.read_csv(filename, engine="python", sep=',')
 

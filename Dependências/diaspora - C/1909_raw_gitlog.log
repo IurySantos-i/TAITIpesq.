@@ -1,0 +1,42 @@
+--e13099b36--2012-09-17--Jonne Haß
+--8193978fd--2012-09-17--Florian Staudacher
+6	0	app/assets/javascripts/app/views/publisher_view.js
+16	0	spec/javascripts/app/views/publisher_view_spec.js
+1	0	spec/javascripts/bookmarklet-spec.js
+
+--452de1b86--2012-09-17--Florian Staudacher
+1	1	app/views/status_messages/bookmarklet.html.haml
+8	5	app/views/status_messages/new.html.haml
+2	5	features/mentions_from_profile_page.feature
+10	2	features/step_definitions/custom_web_steps.rb
+2	2	features/support/publishing_cuke_helpers.rb
+3	3	spec/javascripts/app/views/publisher_view_spec.js
+1	1	spec/javascripts/bookmarklet-spec.js
+
+--200887ca4--2012-09-17--Florian Staudacher
+227	51	spec/javascripts/app/views/publisher_view_spec.js
+2	2	spec/javascripts/bookmarklet-spec.js
+0	177	spec/javascripts/publisher-spec.js
+
+--a3477b769--2012-09-17--Florian Staudacher
+0	0	{vendor => lib}/assets/javascripts/jquery.autoresize.js
+
+--ded404f57--2012-09-17--Jonne Haß
+1	0	.travis.yml
+5	8	README.md
+
+--1002fe088--2012-09-16--Florian Staudacher
+62	0	app/assets/javascripts/app/views/publisher/aspects_selector.js
+65	0	app/assets/javascripts/app/views/publisher/getting_started.js
+51	0	app/assets/javascripts/app/views/publisher/services.js
+11	151	app/assets/javascripts/app/views/publisher_view.js
+
+--948b84eca--2012-09-15--Florian Staudacher
+222	14	app/assets/javascripts/app/views/publisher_view.js
+1	1	app/assets/javascripts/aspects-dropdown.js
+1	1	app/assets/javascripts/home.js
+0	221	app/assets/javascripts/publisher.js
+3	3	app/views/photos/_new_photo.haml
+1	1	app/views/shared/_publisher.html.haml
+3	2	app/views/status_messages/bookmarklet.html.haml
+0	1	app/views/status_messages/new.html.haml

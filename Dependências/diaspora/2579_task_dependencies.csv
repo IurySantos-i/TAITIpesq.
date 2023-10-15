@@ -1,5 +1,0 @@
-entity,coupled,degree,average-revs
-app/views/shared/_stream_element.html.haml,features/repost.feature,71,7
-app/models/reshare.rb,spec/models/reshare_spec.rb,69,13
-app/models/reshare.rb,spec/multi_server/repost_spec.rb,45,11
-app/models/reshare.rb,app/views/shared/_stream_element.html.haml,40,13

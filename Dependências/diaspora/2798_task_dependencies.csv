@@ -1,4 +1,0 @@
-entity,coupled,degree,average-revs
-public/javascripts/publisher.js,spec/javascripts/publisher-spec.js,86,12
-app/models/status_message.rb,spec/models/status_message_spec.rb,83,6
-public/javascripts/jquery.autocomplete-custom.js,public/javascripts/publisher.js,52,10

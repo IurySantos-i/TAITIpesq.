@@ -1,0 +1,296 @@
+--3ce0806cb--2011-10-25--Pistos
+--dc742845c--2011-10-25--danielgrippi
+1	1	config/locales/diaspora/en.yml
+
+--f204910aa--2011-10-25--danielgrippi
+1	1	app/controllers/notifications_controller.rb
+4	1	app/views/layouts/_header.html.haml
+7	8	public/stylesheets/sass/application.sass
+
+--9fba69cd5--2011-10-25--danielgrippi
+6	13	app/controllers/people_controller.rb
+1	1	app/helpers/stream_helper.rb
+3	2	app/views/people/show.html.haml
+3	3	app/views/people/show.mobile.haml
+0	1	features/photos.feature
+0	1	lib/stream/mention.rb
+25	0	lib/stream/person.rb
+11	21	spec/controllers/people_controller_spec.rb
+1	1	spec/lib/stream/followed_tag_spec.rb
+1	1	spec/lib/stream/mention_spec.rb
+1	2	spec/lib/stream/multi_spec.rb
+12	0	spec/lib/stream/person_spec.rb
+1	0	spec/lib/stream/public_spec.rb
+0	1	spec/lib/stream/tag_spec.rb
+
+--2cbb61be7--2011-10-25--Maxwell Salzberg
+3	3	lib/postzord/receiver/private.rb
+5	5	spec/integration/attack_vectors_spec.rb
+
+--0512ade65--2011-10-24--danielgrippi
+2	2	app/views/aspects/index.html.haml
+5	2	public/stylesheets/sass/application.sass
+0	5	spec/models/person_spec.rb
+
+--19897df1e--2011-10-24--danielgrippi
+3	1	app/models/person.rb
+10	0	spec/models/person_spec.rb
+
+--e71fcea76--2011-10-24--danielgrippi
+2	3	app/models/person.rb
+3	3	spec/models/person_spec.rb
+
+--03d3e885b--2011-10-24--danielgrippi
+1	1	app/views/layouts/application.mobile.haml
+
+--a642a129a--2011-10-25--Gonzalo Rodriguez
+1	1	config/locales/diaspora/en.yml
+
+--28e08fb6a--2011-10-24--danielgrippi
+1	0	app/controllers/users_controller.rb
+11	6	app/views/layouts/application.html.haml
+19	24	app/views/users/logged_out.haml
+-	-	public/images/diaspora_mobile_screens.png
+4	0	public/stylesheets/sass/application.sass
+
+--5d54fc6c2--2011-10-24--danielgrippi
+0	8	app/views/shared/_right_sections.html.haml
+0	2	config/locales/diaspora/en.yml
+
+--02199b172--2011-10-24--danielgrippi
+0	1	app/views/users/getting_started.haml
+
+--0033237b4--2011-10-24--danielgrippi
+3	2	app/views/layouts/application.html.haml
+1	1	public/javascripts/widgets/flash-messages.js
+23	17	public/stylesheets/sass/application.sass
+
+--d5e303330--2011-10-24--Maxwell Salzberg
+1	1	app/controllers/users_controller.rb
+16	0	app/views/users/edit.html.haml
+2	0	config/locales/diaspora/en.yml
+
+--0874a632f--2011-10-24--danielgrippi
+1	1	app/views/aspects/index.html.haml
+7	0	public/stylesheets/sass/application.sass
+
+--90d9852e0--2011-10-24--danielgrippi
+1	1	app/views/aspects/index.html.haml
+3	3	config/locales/diaspora/en.yml
+
+--08bbce90a--2011-10-24--Maxwell Salzberg
+1	1	config/initializers/resque.rb
+
+--c447415d9--2011-10-24--Ilya Zhitomirskiy
+8	5	app/views/aspects/index.html.haml
+1	0	config/routes.rb
+
+--62e12f248--2011-10-24--Ilya Zhitomirskiy
+1	1	app/views/invitations/edit.html.haml
+1	1	app/views/registrations/new.html.haml
+1	1	config/locales/diaspora/en.yml
+
+--2a62867cc--2011-10-24--danielgrippi
+1	1	public/stylesheets/sass/lightbox.scss
+
+--aec8ca5c5--2011-10-24--danielgrippi
+1	1	app/helpers/people_helper.rb
+8	0	public/javascripts/view.js
+
+--f878b22c0--2011-10-24--danielgrippi
+163	0	public/stylesheets/interim-bootstrap.css
+
+--fec49cc77--2011-10-24--danielgrippi
+--e63e8299b--2011-10-24--danielgrippi
+1	22	app/helpers/getting_started_helper.rb
+1	1	app/models/person.rb
+5	1	app/views/aspects/index.html.haml
+3	3	app/views/contacts/index.html.haml
+1	1	app/views/shared/_contact_sidebar.html.haml
+1	0	app/views/shared/_publisher.html.haml
+3	2	app/views/users/getting_started.haml
+8	1	config/locales/diaspora/en.yml
+2	2	features/accepts_invitation.feature
+2	2	features/manages_aspects.feature
+2	2	features/signs_up.feature
+1	1	features/stops_following_users.feature
+8	8	lib/stream/base.rb
+3	5	lib/stream/multi.rb
+7	7	lib/stream/tag.rb
+2	3	public/stylesheets/sass/application.sass
+0	31	spec/helpers/getting_started_helper_spec.rb
+0	63	spec/lib/stream/aspect_spec.rb
+50	0	spec/lib/stream/multi_spec.rb
+1	2	spec/lib/stream/tag_spec.rb
+12	0	spec/models/person_spec.rb
+4	0	spec/shared_behaviors/stream.rb
+
+--59e495572--2011-10-24--danielgrippi
+0	1	app/helpers/interim_stream_hackiness_helper.rb
+1	1	app/views/aspects/_aspect_stream.haml
+8	18	app/views/aspects/index.html.haml
+2	3	app/views/shared/_publisher.html.haml
+5	4	app/views/users/getting_started.haml
+13	4	config/locales/diaspora/en.yml
+6	2	public/stylesheets/sass/application.sass
+3	3	public/stylesheets/sass/lightbox.scss
+1	1	public/stylesheets/sass/ui.sass
+
+--923a73fb3--2011-10-21--danielgrippi
+21	0	public/javascripts/publisher.js
+
+--1bc637d83--2011-10-21--danielgrippi
+1	1	app/controllers/tag_followings_controller.rb
+2	0	app/views/aspects/_aspect_stream.haml
+13	0	app/views/aspects/index.html.haml
+0	1	app/views/contacts/index.html.haml
+0	6	app/views/invitations/new.html.haml
+0	2	app/views/layouts/application.html.haml
+30	18	app/views/shared/_publisher.html.haml
+0	29	app/views/users/getting_started.haml
+5	2	config/assets.yml
+2	2	config/locales/diaspora/en.yml
+0	27	lib/stream/aspect.rb
+27	0	lib/stream/multi.rb
+2	0	public/javascripts/pages/contacts-index.js
+1	2	public/javascripts/pages/invitations-edit.js
+12	0	public/javascripts/pages/invitations-new.js
+1	2	public/javascripts/pages/multis-index.js
+26	3	public/javascripts/pages/users-getting-started.js
+77	0	public/javascripts/vendor/bootstrap/bootstrap-popover.js
+303	0	public/javascripts/vendor/bootstrap/bootstrap-twipsy.js
+1	9	public/javascripts/view.js
+1	1	public/javascripts/widgets/comment.js
+3	3	public/javascripts/widgets/stream-element.js
+16	0	public/stylesheets/sass/application.sass
+
+--547d7e4f8--2011-10-20--danielgrippi
+0	2	app/controllers/users_controller.rb
+6	2	app/views/layouts/application.html.haml
+69	77	app/views/users/getting_started.haml
+330	0	public/stylesheets/bootstrap.min.css
+15	92	public/stylesheets/sass/application.sass
+
+--e7584261c--2011-10-20--Ilya Zhitomirskiy
+1	1	app/controllers/tag_followings_controller.rb
+6	1	app/views/shared/_publisher.html.haml
+3	3	app/views/users/getting_started.haml
+1	1	lib/stream/aspect.rb
+7	1	public/stylesheets/sass/application.sass
+
+--431fa3fd0--2011-10-20--Ilya Zhitomirskiy
+9	0	app/controllers/status_messages_controller.rb
+18	0	app/helpers/interim_stream_hackiness_helper.rb
+24	7	app/views/shared/_publisher.html.haml
+5	0	config/locales/diaspora/en.yml
+6	1	lib/publisher.rb
+3	4	lib/stream/aspect.rb
+25	0	spec/controllers/status_messages_controller_spec.rb
+10	14	spec/lib/publisher_spec.rb
+
+--1ccf96519--2011-10-19--Ilya Zhitomirskiy
+10	2	app/helpers/interim_stream_hackiness_helper.rb
+7	0	app/views/shared/_publisher.html.haml
+2	2	lib/publisher.rb
+28	0	lib/stream/aspect.rb
+1	5	lib/stream/base.rb
+4	4	lib/stream/tag.rb
+2	2	spec/lib/publisher_spec.rb
+63	0	spec/lib/stream/aspect_spec.rb
+8	0	spec/lib/stream/tag_spec.rb
+
+--ee7494886--2011-10-19--Ilya Zhitomirskiy
+2	1	app/controllers/application_controller.rb
+1	1	app/controllers/tag_followings_controller.rb
+18	0	lib/publisher.rb
+5	0	lib/stream/base.rb
+41	0	spec/lib/publisher_spec.rb
+4	0	spec/shared_behaviors/stream.rb
+
+--c6a17cc00--2011-10-19--Ilya Zhitomirskiy
+6	20	features/accepts_invitation.feature
+8	17	features/signs_up.feature
+
+--050964b7e--2011-10-19--Ilya Zhitomirskiy
+9	4	app/views/users/getting_started.haml
+1	1	config/locales/diaspora/en.yml
+14	0	public/javascripts/pages/users-getting-started.js
+12	1	public/stylesheets/sass/application.sass
+
+--49b46f09c--2011-10-19--Ilya Zhitomirskiy
+2	4	app/views/users/getting_started.haml
+2	0	config/locales/diaspora/en.yml
+16	5	public/javascripts/pages/users-getting-started.js
+7	0	public/stylesheets/sass/application.sass
+
+--bfd2d440d--2011-10-18--Ilya Zhitomirskiy
+22	22	app/controllers/profiles_controller.rb
+10	4	app/views/users/getting_started.haml
+10	0	public/javascripts/pages/users-getting-started.js
+
+--80216cb02--2011-10-18--Ilya Zhitomirskiy
+19	4	app/controllers/profiles_controller.rb
+
+--c7838debc--2011-10-17--Ilya Zhitomirskiy
+12	0	app/controllers/tag_followings_controller.rb
+4	7	app/views/users/getting_started.haml
+1	0	config/routes.rb
+22	0	spec/controllers/tag_followings_controller_spec.rb
+
+--511bd3ab0--2011-10-17--Ilya Zhitomirskiy
+4	0	app/views/photos/_new_profile_photo.haml
+9	3	app/views/users/getting_started.haml
+11	0	public/stylesheets/sass/application.sass
+
+--42d4d4f40--2011-10-13--danielgrippi
+1	1	app/views/photos/_new_profile_photo.haml
+25	26	app/views/profiles/_edit_public.haml
+49	134	app/views/users/getting_started.haml
+5	37	config/locales/diaspora/en.yml
+6	92	public/stylesheets/sass/application.sass
+
+--e087284da--2011-10-24--Maxwell Salzberg
+1	1	lib/stream/base.rb
+5	0	spec/lib/stream/base_spec.rb
+
+--8a8f022f8--2011-10-24--Maxwell Salzberg
+1	1	lib/stream/multi.rb
+
+--2fcc78378--2011-10-24--Dennis Schubert
+40	0	app/views/registrations/new.mobile.haml
+
+--7a2ac9e35--2011-10-24--Maxwell Salzberg
+1	0	public/stylesheets/vendor/autoSuggest.css
+
+--4022ff516--2011-10-24--Maxwell Salzberg
+1	1	app/controllers/conversations_controller.rb
+1	1	app/views/conversations/new.haml
+1	0	public/stylesheets/vendor/autoSuggest.css
+
+--51778cb22--2011-10-24--Ilya Zhitomirskiy
+1	8	app/models/profile.rb
+8	1	spec/models/profile_spec.rb
+
+--083f78835--2011-10-24--Maxwell Salzberg
+1	1	lib/stream/multi.rb
+
+--153615e65--2011-10-15--Pistos
+6	0	app/controllers/sockets_controller.rb
+1	1	app/helpers/comments_helper.rb
+20	0	spec/controllers/posts_controller_spec.rb
+
+--511d51318--2011-10-15--Pistos
+20	17	spec/controllers/posts_controller_spec.rb
+
+--fae9aee42--2011-10-15--Pistos
+4	0	app/helpers/comments_helper.rb
+2	2	app/views/comments/_comments.html.haml
+
+--35a0c5634--2011-10-15--Pistos
+7	2	app/controllers/comments_controller.rb
+1	1	app/controllers/posts_controller.rb
+2	0	app/helpers/comments_helper.rb
+2	2	app/views/comments/_comments.html.haml
+
+--39dd39e9e--2011-10-15--Pistos
+3	4	app/helpers/comments_helper.rb

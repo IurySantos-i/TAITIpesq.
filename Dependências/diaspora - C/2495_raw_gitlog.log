@@ -1,0 +1,34 @@
+--50e7d2a25--2011-08-30--Daniel Grippi
+--624e7277e--2011-08-30--Dan Hansen
+1	1	features/comments.feature
+0	4	features/step_definitions/comment_steps.rb
+
+--7e20cece4--2011-08-30--Dan Hansen
+1	5	public/javascripts/widgets/embedder.js
+9	7	public/javascripts/widgets/likes.js
+5	0	spec/javascripts/widgets/likes-spec.js
+
+--f788de17f--2011-08-30--Dan Hansen
+1	1	app/views/likes/_likes_container.haml
+1	1	public/javascripts/content-updater.js
+
+--dc947e449--2011-08-30--Dan Hansen
+13	12	app/views/comments/_comments.haml
+1	7	app/views/comments/create.js.erb
+10	6	public/javascripts/content-updater.js
+1	2	public/javascripts/diaspora.js
+0	51	public/javascripts/stream.js
+1	0	public/javascripts/widgets/comment-form.js
+37	27	public/javascripts/widgets/comment-stream.js
+0	43	public/javascripts/widgets/comment-toggler.js
+1	3	public/javascripts/widgets/comment.js
+1	3	public/javascripts/widgets/notifications-badge.js
+16	11	public/javascripts/widgets/stream-element.js
+8	28	public/javascripts/widgets/timeago.js
+9	4	spec/javascripts/content-updater-spec.js
+0	1	spec/javascripts/helpers/SpecHelper.js
+57	0	spec/javascripts/widgets/comment-stream-spec.js
+0	32	spec/javascripts/widgets/comment-toggler-spec.js
+
+--640408b16--2011-08-30--vcuculo
+4	4	public/javascripts/widgets/search.js

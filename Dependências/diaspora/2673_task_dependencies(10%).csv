@@ -1,4 +1,0 @@
-entity,coupled,degree,average-revs
-lib/diaspora/user/connecting.rb,spec/models/user/connecting_spec.rb,92,7
-app/models/contact.rb,spec/models/contact_spec.rb,90,6
-spec/models/contact_spec.rb,spec/models/user/connecting_spec.rb,76,7

@@ -1,0 +1,36 @@
+--837a1ba56--2013-06-27--Jonne Haß
+--8e2633f8b--2013-06-18--Antoine D
+-	-	app/assets/images/icons/users.png
+2	0	app/assets/javascripts/inbox.js
+9	1	app/assets/stylesheets/application.css.sass
+1	1	app/views/conversations/_conversation.haml
+1	1	features/conversations.feature
+
+--a6dfdf45e--2013-06-27--Jonne Haß
+1	1	app/controllers/conversations_controller.rb
+
+--94207e844--2013-06-27--Jonne Haß
+0	3	spec/controllers/conversations_controller_spec.rb
+
+--e7954132a--2013-06-27--Jonne Haß
+1	0	Changelog.md
+1	1	script/env/ruby_env
+
+--8ea237d4b--2013-06-27--Jonne Haß
+--42bccb2bf--2013-06-27--Adrián Chaves Fernández (Gallaecio)
+8	3	config/locales/diaspora/gl.yml
+4	0	config/locales/javascript/javascript.gl.yml
+
+--13fa4af26--2013-06-18--Duke
+13	6	public/404.html
+
+--9c7237ca1--2013-06-22--Jonne Haß
+--8236e65f4--2013-06-21--Jonne Haß
+--f30cee3b6--2013-06-19--Jason Robinson
+1	0	Changelog.md
+6	3	app/helpers/markdownify_helper.rb
+10	0	spec/helpers/markdownify_helper_spec.rb
+
+--ffb150f22--2013-06-19--Steffen van Bergerem
+1	0	Changelog.md
+2	1	app/views/conversations/_conversation.haml

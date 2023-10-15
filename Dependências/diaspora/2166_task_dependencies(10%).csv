@@ -1,7 +1,0 @@
-entity,coupled,degree,average-revs
-public/javascripts/app/pages/post-viewer.js,public/stylesheets/sass/new-templates.scss,52,23
-public/javascripts/app/pages/post-viewer.js,public/javascripts/app/views/post_feedback_view.js,41,12
-app/views/posts/show.html.haml,public/stylesheets/sass/new-templates.scss,32,22
-public/javascripts/app/templates/post-viewer/interactions.handlebars,public/stylesheets/sass/new-templates.scss,30,17
-public/javascripts/app/templates/post-viewer/feedback.handlebars,public/stylesheets/sass/new-templates.scss,28,18
-config/assets.yml,public/stylesheets/sass/new-templates.scss,27,18

@@ -1,0 +1,15 @@
+entity,coupled,degree,average-revs
+app/views/layouts/application.mobile.haml,app/views/shared/_publisher.mobile.haml,70,9
+public/javascripts/mobile.js,public/stylesheets/sass/mobile.scss,68,16
+app/views/shared/_stream_element.mobile.haml,public/stylesheets/sass/mobile.scss,62,16
+app/views/layouts/application.mobile.haml,public/stylesheets/sass/mobile.scss,58,16
+app/views/comments/_new_comment.mobile.haml,public/javascripts/mobile.js,58,9
+app/views/layouts/application.mobile.haml,app/views/shared/_stream_element.mobile.haml,57,11
+app/views/shared/_publisher.mobile.haml,public/javascripts/mobile.js,55,9
+app/views/shared/_publisher.mobile.haml,app/views/shared/_stream_element.mobile.haml,55,9
+app/views/layouts/application.mobile.haml,public/javascripts/mobile.js,47,11
+app/views/shared/_stream_element.mobile.haml,public/javascripts/mobile.js,45,11
+app/views/comments/_new_comment.mobile.haml,public/stylesheets/sass/mobile.scss,44,14
+app/views/shared/_publisher.mobile.haml,public/stylesheets/sass/mobile.scss,42,14
+app/views/posts/show.mobile.haml,public/stylesheets/sass/mobile.scss,38,13
+app/views/reshares/_reshare.mobile.haml,public/stylesheets/sass/mobile.scss,37,14

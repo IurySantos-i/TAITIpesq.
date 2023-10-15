@@ -1,0 +1,23 @@
+--79bc1a780--2014-04-05--Jonne Haß
+--5c8d615b6--2014-04-05--Jonne Haß
+--555642074--2014-04-05--goobertron
+1	1	app/models/poll_participation.rb
+
+--2ae4d41db--2014-04-05--Hincu Petru
+10	0	app/assets/javascripts/app/views/poll_view.js
+2	2	app/assets/templates/poll_tpl.jst.hbs
+1	1	app/presenters/post_presenter.rb
+17	1	spec/javascripts/app/views/poll_view_spec.js
+8	0	spec/presenters/post_presenter_spec.rb
+
+--dff486f1e--2014-04-04--Florian Staudacher
+--02ed7144a--2014-04-04--Jonne Haß
+0	4	Gemfile
+0	2	Gemfile.lock
+
+--5a60cb72b--2014-04-04--Jonne Haß
+--f356ae721--2014-04-04--Hincu Petru
+16	3	app/assets/javascripts/app/views/poll_view.js
+20	3	app/assets/javascripts/app/views/publisher_view.js
+8	0	app/assets/stylesheets/new_styles/_poll.scss
+15	0	features/desktop/post_preview.feature

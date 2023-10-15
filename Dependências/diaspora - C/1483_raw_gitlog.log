@@ -1,0 +1,495 @@
+--9537c45d2--2014-05-24--Jonne Haß
+--cbd9c56a7--2014-05-24--Jonne Haß
+--0c5cc216c--2014-05-24--Jonne Haß
+2	2	app/controllers/registrations_controller.rb
+1	1	spec/models/person_spec.rb
+2	2	spec/models/user_spec.rb
+
+--ecb1b80e2--2014-05-24--Jonne Haß
+1	1	app/assets/javascripts/widgets/flash-messages.js
+16	3	features/desktop/connects_users.feature
+7	0	features/desktop/signs_up.feature
+
+--d36589e05--2014-05-24--Jonne Haß
+1	4	lib/diaspora/exporter.rb
+25	6	spec/lib/diaspora/exporter_spec.rb
+
+--a216f267a--2014-05-23--Jonne Haß
+--fa2de8c19--2014-05-22--Marien Fressinaud
+0	5	app/views/users/edit.html.haml
+0	5	app/views/users/edit.mobile.haml
+
+--693ded829--2014-05-20--Florian Staudacher
+1	0	spec/javascripts/app/views/bookmarklet_view_spec.js
+
+--46e3c5a87--2014-05-18--Florian Staudacher
+1	0	spec/javascripts/app/views/bookmarklet_view_spec.js
+
+--bdaa32e70--2014-05-17--Jonne Haß
+51	45	config/locales/devise/devise.br.yml
+4	0	config/locales/devise/devise.de_formal.yml
+1	1	config/locales/devise/devise.fi.yml
+1	1	config/locales/devise/devise.hu.yml
+5	1	config/locales/devise/devise.sk.yml
+4	4	config/locales/devise/devise.te.yml
+498	325	config/locales/diaspora/br.yml
+11	27	config/locales/diaspora/da.yml
+76	38	config/locales/diaspora/de.yml
+48	0	config/locales/diaspora/de_formal.yml
+22	24	config/locales/diaspora/es-AR.yml
+0	16	config/locales/diaspora/es-MX.yml
+23	25	config/locales/diaspora/es.yml
+20	35	config/locales/diaspora/fi.yml
+3	19	config/locales/diaspora/fr.yml
+8	16	config/locales/diaspora/he.yml
+45	30	config/locales/diaspora/hu.yml
+1	1	config/locales/diaspora/io.yml
+25	0	config/locales/diaspora/kk.yml
+1	3	config/locales/diaspora/kn.yml
+1	20	config/locales/diaspora/nl.yml
+10	26	config/locales/diaspora/pl.yml
+14	16	config/locales/diaspora/pt-BR.yml
+74	72	config/locales/diaspora/pt-PT.yml
+14	16	config/locales/diaspora/ru.yml
+12	2	config/locales/diaspora/sk.yml
+41	33	config/locales/diaspora/sv.yml
+206	118	config/locales/diaspora/te.yml
+2	2	config/locales/diaspora/tr.yml
+10	11	config/locales/diaspora/uk.yml
+0	4	config/locales/javascript/javascript.ar.yml
+0	4	config/locales/javascript/javascript.bg.yml
+105	45	config/locales/javascript/javascript.br.yml
+0	5	config/locales/javascript/javascript.bs.yml
+0	5	config/locales/javascript/javascript.cs.yml
+4	4	config/locales/javascript/javascript.cy.yml
+3	7	config/locales/javascript/javascript.da.yml
+27	9	config/locales/javascript/javascript.de.yml
+15	4	config/locales/javascript/javascript.de_formal.yml
+0	4	config/locales/javascript/javascript.el.yml
+2	6	config/locales/javascript/javascript.en_1337.yml
+7	7	config/locales/javascript/javascript.en_pirate.yml
+7	9	config/locales/javascript/javascript.en_shaw.yml
+3	7	config/locales/javascript/javascript.eo.yml
+13	9	config/locales/javascript/javascript.es-AR.yml
+0	4	config/locales/javascript/javascript.es-CL.yml
+0	8	config/locales/javascript/javascript.es-MX.yml
+11	7	config/locales/javascript/javascript.es.yml
+0	4	config/locales/javascript/javascript.et.yml
+0	4	config/locales/javascript/javascript.eu.yml
+3	7	config/locales/javascript/javascript.fi.yml
+3	7	config/locales/javascript/javascript.fr.yml
+3	7	config/locales/javascript/javascript.he.yml
+13	5	config/locales/javascript/javascript.hu.yml
+0	4	config/locales/javascript/javascript.hy.yml
+0	5	config/locales/javascript/javascript.ia.yml
+0	4	config/locales/javascript/javascript.id.yml
+0	5	config/locales/javascript/javascript.is.yml
+0	5	config/locales/javascript/javascript.it.yml
+0	5	config/locales/javascript/javascript.ja.yml
+0	4	config/locales/javascript/javascript.ka.yml
+0	5	config/locales/javascript/javascript.ko.yml
+0	4	config/locales/javascript/javascript.lt.yml
+0	5	config/locales/javascript/javascript.ml.yml
+0	4	config/locales/javascript/javascript.ms.yml
+7	12	config/locales/javascript/javascript.nb.yml
+3	7	config/locales/javascript/javascript.nl.yml
+0	4	config/locales/javascript/javascript.nn.yml
+3	7	config/locales/javascript/javascript.pl.yml
+11	7	config/locales/javascript/javascript.pt-BR.yml
+4	9	config/locales/javascript/javascript.pt-PT.yml
+8	13	config/locales/javascript/javascript.ro.yml
+15	7	config/locales/javascript/javascript.ru.yml
+8	4	config/locales/javascript/javascript.sk.yml
+0	4	config/locales/javascript/javascript.sl.yml
+0	4	config/locales/javascript/javascript.sr.yml
+14	7	config/locales/javascript/javascript.sv.yml
+10	16	config/locales/javascript/javascript.te.yml
+0	4	config/locales/javascript/javascript.tr.yml
+0	4	config/locales/javascript/javascript.uk.yml
+1	6	config/locales/javascript/javascript.vi.yml
+0	4	config/locales/javascript/javascript.zh-CN.yml
+0	5	config/locales/javascript/javascript.zh-TW.yml
+
+--9e2c914a1--2014-05-16--Jonne Haß
+--8170ef836--2014-05-16--Lukas Matt
+7	0	app/models/report.rb
+18	2	spec/models/report_spec.rb
+
+--6d6ebd297--2014-05-15--Lukas Matt
+3	0	app/assets/stylesheets/report.css.scss
+8	7	app/helpers/report_helper.rb
+1	1	app/views/report/index.html.haml
+1	0	config/locales/diaspora/en.yml
+
+--01381ddf2--2014-05-16--Jason Robinson
+--63c44d9f6--2014-05-15--Jonne Haß
+--3d9fceb47--2014-04-28--Lukas Matt
+2	1	app/models/report.rb
+2	1	db/migrate/20140121132816_add_post_type_to_post_report.rb
+5	2	db/migrate/20140422134627_change_user_id_type_to_integer.rb
+1	1	db/schema.rb
+
+--462a7116d--2014-04-28--Lukas Matt
+3	1	app/helpers/report_helper.rb
+
+--7ef802127--2014-04-28--Lukas Matt
+3	3	app/assets/stylesheets/report.css.scss
+7	2	app/views/report/index.html.haml
+2	1	config/locales/diaspora/en.yml
+
+--e4adb7e11--2014-04-23--Lukas Matt
+1	1	lib/account_deleter.rb
+
+--693986bba--2014-04-23--Lukas Matt
+7	0	app/assets/stylesheets/single-post-view.css.scss
+
+--cfc95b01f--2014-04-23--Lukas Matt
+0	9	db/migrate/20140422135040_drop_table_post_reports.rb
+1	1	db/schema.rb
+
+--6ff214150--2014-04-22--Lukas Matt
+4	5	app/assets/templates/comment_tpl.jst.hbs
+
+--23d0890bd--2014-04-22--Lukas Matt
+3	3	app/assets/stylesheets/stream_element.css.scss
+5	4	app/assets/templates/comment_tpl.jst.hbs
+
+--218845d5b--2014-04-22--Lukas Matt
+2	2	app/assets/javascripts/app/views.js
+1	1	app/controllers/report_controller.rb
+9	9	app/models/report.rb
+5	4	app/views/report/index.html.haml
+11	0	db/migrate/20140422134050_rename_post_columns_to_item.rb
+9	0	db/migrate/20140422134627_change_user_id_type_to_integer.rb
+9	0	db/migrate/20140422135040_drop_table_post_reports.rb
+5	16	db/schema.rb
+13	13	spec/controllers/report_controller_spec.rb
+7	7	spec/models/report_spec.rb
+
+--8ae89a443--2014-04-22--Lukas Matt
+23	18	spec/models/report_spec.rb
+
+--9d3af93c7--2014-04-22--Lukas Matt
+0	1	app/assets/stylesheets/entypo.css.scss
+1	4	app/assets/stylesheets/single-post-view.css.scss
+1	1	app/assets/templates/single-post-viewer/single-post-actions_tpl.jst.hbs
+
+--e667a785e--2014-04-14--Lukas Matt
+2	3	spec/models/report_spec.rb
+
+--f6eba7966--2014-04-01--Lukas Matt
+40	5	spec/models/report_spec.rb
+
+--6f65ef843--2014-04-01--Lukas Matt
+1	0	app/assets/javascripts/app/models/report.js
+22	25	app/assets/javascripts/app/views.js
+1	3	app/controllers/report_controller.rb
+
+--1a4ab274a--2014-03-31--Lukas Matt
+26	0	spec/mailers/report_spec.rb
+8	33	spec/models/report_spec.rb
+
+--435f65946--2014-03-24--Lukas Matt
+65	0	spec/models/report_spec.rb
+
+--8b8a232b1--2014-03-24--Lukas Matt
+4	0	app/controllers/report_controller.rb
+4	0	spec/controllers/report_controller_spec.rb
+
+--ed9cd8150--2014-03-24--Lukas Matt
+2	2	spec/controllers/report_controller_spec.rb
+
+--011db282b--2014-03-24--Lukas Matt
+2	4	app/mailers/report_mailer.rb
+
+--045ced051--2014-03-24--Lukas Matt
+2	6	app/controllers/report_controller.rb
+
+--512d96bda--2014-03-24--Lukas Matt
+2	1	app/controllers/report_controller.rb
+2	2	app/models/report.rb
+
+--6309e1a4e--2014-03-22--Lukas Matt
+2	4	app/models/report.rb
+
+--0fae1137f--2014-03-22--Lukas Matt
+1	1	app/mailers/report_mailer.rb
+
+--1a0c9f598--2014-03-22--Lukas Matt
+3	2	app/mailers/report_mailer.rb
+3	0	config/locales/diaspora/en.yml
+
+--6f21ccda0--2014-03-22--Lukas Matt
+5	4	app/helpers/report_helper.rb
+
+--26d0c81da--2014-03-21--Lukas Matt
+1	0	app/controllers/users_controller.rb
+5	2	app/mailers/report_mailer.rb
+2	1	app/models/user_preference.rb
+11	0	app/views/users/edit.html.haml
+13	2	app/views/users/edit.mobile.haml
+1	0	config/locales/diaspora/en.yml
+
+--719edcd1a--2014-03-21--Lukas Matt
+2	0	app/controllers/report_controller.rb
+
+--2e36f8d37--2014-03-21--Lukas Matt
+8	2	app/assets/javascripts/app/views.js
+1	1	app/assets/stylesheets/report.css.scss
+18	44	app/controllers/report_controller.rb
+3	5	app/mailers/report_mailer.rb
+47	2	app/models/report.rb
+2	0	app/models/user.rb
+4	4	app/views/report/index.html.haml
+
+--ed96ddac9--2014-02-25--Lukas Matt
+24	10	app/assets/javascripts/app/views.js
+1	1	app/assets/templates/comment_tpl.jst.hbs
+1	1	app/assets/templates/single-post-viewer/single-post-actions_tpl.jst.hbs
+1	1	app/assets/templates/stream-element_tpl.jst.hbs
+7	3	config/locales/javascript/javascript.en.yml
+
+--d23f4a66d--2014-02-24--Lukas Matt
+0	5	app/assets/javascripts/app/models/report.js
+14	0	app/assets/javascripts/app/views.js
+0	14	app/assets/javascripts/app/views/comment_view.js
+0	14	app/assets/javascripts/app/views/feedback_view.js
+0	15	app/assets/javascripts/app/views/post_view.js
+
+--1748d3b94--2014-01-21--Lukas Matt
+-	-	app/assets/images/icons/{postreport.png => report.png}
+0	3	app/assets/javascripts/app/models/post_report.js
+8	0	app/assets/javascripts/app/models/report.js
+16	1	app/assets/javascripts/app/views/comment_view.js
+16	1	app/assets/javascripts/app/views/feedback_view.js
+15	0	app/assets/javascripts/app/views/post_view.js
+1	16	app/assets/javascripts/app/views/stream_post_views.js
+3	3	app/assets/stylesheets/application.css.sass
+1	0	app/assets/stylesheets/entypo.css.scss
+3	1	app/assets/stylesheets/{post_report.css.scss => report.css.scss}
+6	0	app/assets/stylesheets/single-post-view.css.scss
+9	5	app/assets/templates/comment_tpl.jst.hbs
+4	0	app/assets/templates/single-post-viewer/single-post-actions_tpl.jst.hbs
+2	2	app/assets/templates/stream-element_tpl.jst.hbs
+0	61	app/controllers/post_report_controller.rb
+67	0	app/controllers/report_controller.rb
+13	0	app/helpers/report_helper.rb
+0	18	app/mailers/post_report_mailer.rb
+26	0	app/mailers/report_mailer.rb
+4	3	app/models/{post_report.rb => report.rb}
+1	1	app/views/admins/_admin_bar.haml
+0	21	app/views/post_report/index.html.haml
+0	2	app/views/post_report/post_report_email.markerb
+21	0	app/views/report/index.html.haml
+2	0	app/views/report/report_email.markerb
+0	12	app/workers/mail/post_report_worker.rb
+12	0	app/workers/mail/report_worker.rb
+21	6	config/locales/diaspora/en.yml
+3	3	config/locales/javascript/javascript.en.yml
+1	1	config/routes.rb
+5	0	db/migrate/20140121132816_add_post_type_to_post_report.rb
+8	0	db/migrate/20140214104217_rename_post_report_to_report.rb
+12	0	db/schema.rb
+0	79	spec/controllers/post_report_controller_spec.rb
+126	0	spec/controllers/report_controller_spec.rb
+
+--8a599e1c1--2014-05-14--Jonne Haß
+13	28	app/models/reshare.rb
+27	0	spec/models/reshare_spec.rb
+
+--ee6212c63--2014-05-08--Florian Staudacher
+--aec0c700b--2014-05-07--Oliver Azevedo Barnes
+1	0	Changelog.md
+1	0	config/initializers/load_libraries.rb
+
+--dcf275442--2014-05-06--Jonne Haß
+1	1	Gemfile
+29	29	Gemfile.lock
+
+--e699a682f--2014-04-09--Hincu Petru
+1	0	Changelog.md
+17	5	lib/diaspora/mentionable.rb
+12	3	spec/lib/diaspora/mentionable_spec.rb
+
+--95efbfa9c--2014-05-06--Florian Staudacher
+1	0	Changelog.md
+
+--62b5fea52--2014-05-01--Jason Robinson
+--9da3bc347--2014-04-25--Florian Staudacher
+17	4	app/assets/javascripts/app/views/publisher_view.js
+14	0	spec/javascripts/app/views/bookmarklet_view_spec.js
+27	0	spec/javascripts/app/views/publisher_view_spec.js
+
+--15537e17c--2014-04-22--Jason Robinson
+--7680165b1--2014-04-22--Florian Staudacher
+22	32	features/desktop/posts_from_main_page.feature
+43	13	features/step_definitions/aspects_steps.rb
+0	25	features/step_definitions/custom_web_steps.rb
+12	0	features/step_definitions/posts_steps.rb
+16	3	features/support/publishing_cuke_helpers.rb
+
+--19687c32a--2014-04-21--Florian Staudacher
+3	6	features/desktop/post_preview.feature
+1	1	features/step_definitions/mention_steps.rb
+5	1	features/step_definitions/posts_steps.rb
+1	1	features/step_definitions/stream_steps.rb
+5	1	features/support/publishing_cuke_helpers.rb
+
+--0d51bba95--2014-04-17--Florian Staudacher
+10	1	app/assets/javascripts/app/router.js
+44	0	app/assets/javascripts/app/views/bookmarklet_view.js
+35	8	app/assets/javascripts/app/views/publisher_view.js
+8	1	app/controllers/status_messages_controller.rb
+0	29	app/views/status_messages/bookmarklet.html.haml
+4	0	config/locales/javascript/javascript.en.yml
+4	20	spec/controllers/status_messages_controller_spec.rb
+48	0	spec/javascripts/app/views/bookmarklet_view_spec.js
+9	0	spec/javascripts/app/views/publisher_view_spec.js
+0	54	spec/javascripts/bookmarklet-spec.js
+
+--b1f59a9b5--2014-04-11--flaburgan
+0	1	app/assets/stylesheets/new_styles/_base.scss
+2	2	app/assets/stylesheets/new_styles/_typography.scss
+
+--4bf96ddcd--2014-04-17--Jason Robinson
+--232e4fa23--2014-03-21--Steffen van Bergerem
+1	0	Changelog.md
+25	21	app/assets/javascripts/widgets/notifications.js
+6	54	app/assets/stylesheets/application.css.sass
+0	2	app/assets/stylesheets/bootstrap-headerfix.sass
+46	23	app/assets/stylesheets/header.css.scss
+6	6	app/assets/templates/header_tpl.jst.hbs
+5	4	app/views/notifications/_notify_popup_item.haml
+
+--b64e41802--2014-04-16--Jason Robinson
+--441cc062f--2014-04-15--Jonne Haß
+--e1685c9a2--2014-02-23--Steffen van Bergerem
+1	0	Changelog.md
+0	7	app/assets/javascripts/widgets/notifications-badge.js
+
+--f6c0648a5--2014-04-15--Gabriel Lima
+1	0	Changelog.md
+5	0	spec/lib/email_inviter_spec.rb
+
+--00b6a39ad--2014-04-14--Gabriel Lima
+1	0	lib/email_inviter.rb
+
+--07ae7d786--2014-04-13--Jason Robinson
+--356096a7e--2014-04-13--Jason Robinson
+--a9b29a588--2014-04-13--Jonne Haß
+--a4886fa77--2013-09-14--flaburgan
+1	1	Changelog.md
+15	10	app/assets/stylesheets/single-post-view.css.scss
+16	16	app/assets/templates/single-post-viewer/single-post-interactions_tpl.jst.hbs
+
+--7d9248b7a--2014-04-12--Jason Robinson
+--ee3a9f9be--2014-04-12--Jason Robinson
+--86e71cd1b--2014-04-06--flaburgan
+0	4	app/assets/stylesheets/mobile/mobile.css.scss
+1	1	features/support/user_cuke_helpers.rb
+
+--438ebc839--2014-04-05--flaburgan
+6	3	app/assets/stylesheets/mobile/header.css.scss
+1	1	app/assets/stylesheets/mobile/mobile.css.scss
+
+--a9b942021--2014-04-03--flaburgan
+5	2	app/assets/stylesheets/mobile/header.css.scss
+0	1	app/views/layouts/application.mobile.haml
+
+--e4244f01f--2014-03-15--flaburgan
+2	2	app/assets/stylesheets/mobile/header.css.scss
+12	13	app/views/streams/main_stream.mobile.haml
+
+--c25ae02ff--2014-03-15--flaburgan
+0	13	app/assets/stylesheets/mobile/mobile.css.scss
+0	3	app/views/layouts/application.mobile.haml
+0	3	app/views/shared/_footer.mobile.haml
+
+--53b1f9eff--2014-03-15--flaburgan
+3	2	app/assets/stylesheets/mobile/header.css.scss
+
+--6947a1945--2014-04-11--Jason Robinson
+--66c511197--2014-04-08--Jonne Haß
+--2311b761e--2014-04-08--Hincu Petru
+4	2	app/controllers/status_messages_controller.rb
+5	0	spec/controllers/status_messages_controller_spec.rb
+
+--63abe9055--2014-04-06--goobertron
+1	0	Changelog.md
+1	0	app/views/profiles/_edit.haml
+1	1	app/views/profiles/edit.haml
+1	1	app/views/profiles/edit.mobile.haml
+33	43	app/views/users/edit.html.haml
+36	41	app/views/users/edit.mobile.haml
+18	18	config/locales/diaspora/en.yml
+6	6	features/desktop/closes_account.feature
+3	3	features/desktop/edits_profile.feature
+2	2	features/mobile/edits_profile.feature
+8	0	features/step_definitions/custom_web_steps.rb
+4	0	features/support/application_cuke_helpers.rb
+
+--57de031f6--2014-04-07--Hincu Petru
+47	2	app/assets/javascripts/app/views/publisher/poll_creator_view.js
+7	7	app/assets/javascripts/app/views/publisher_view.js
+12	0	app/assets/stylesheets/publisher_blueprint.css.scss
+6	0	app/assets/templates/poll_creator_tpl.jst.hbs
+1	0	app/models/poll.rb
+2	0	app/models/poll_answer.rb
+0	1	features/desktop/post_preview.feature
+15	6	features/desktop/post_with_a_poll.feature
+7	0	spec/javascripts/app/views/publisher_poll_creator_view_spec.js
+14	1	spec/models/poll_answer_spec.rb
+7	1	spec/models/poll_spec.rb
+
+--3fd938f7e--2014-03-30--Jason Robinson
+12	0	script/server
+
+--98057885a--2013-06-22--Jonne Haß
+6	0	Changelog.md
+3	0	Gemfile
+7	1	Gemfile.lock
+3	0	config/initializers/sidekiq.rb
+3	0	config/unicorn.rb
+1	1	lib/diaspora/guid.rb
+
+--8280556a4--2014-03-08--Jonne Haß
+1	1	Gemfile
+2	2	Gemfile.lock
+5	1	app/controllers/users_controller.rb
+0	62	app/helpers/markdownify_helper.rb
+6	14	app/helpers/notifier_helper.rb
+2	13	app/helpers/posts_helper.rb
+1	5	app/mailers/notification_mailers/also_commented.rb
+0	2	app/mailers/notification_mailers/base.rb
+1	5	app/mailers/notification_mailers/comment_on_post.rb
+2	3	app/mailers/notifier.rb
+6	2	app/models/comment.rb
+3	3	app/models/message.rb
+11	4	app/models/profile.rb
+4	0	app/models/reshare.rb
+4	7	app/models/service.rb
+9	5	app/models/services/facebook.rb
+3	6	app/models/services/tumblr.rb
+6	10	app/models/services/twitter.rb
+14	16	app/models/services/wordpress.rb
+4	13	app/models/status_message.rb
+2	3	app/presenters/o_embed_presenter.rb
+1	2	app/presenters/post_presenter.rb
+1	1	app/views/comments/_comment.mobile.haml
+1	1	app/views/messages/_message.haml
+10	10	app/views/people/_profile_sidebar.html.haml
+1	1	app/views/status_messages/_status_message.mobile.haml
+2	3	app/views/users/public.atom.builder
+0	3	config/initializers/load_libraries.rb
+1	0	lib/diaspora.rb
+2	4	lib/diaspora/markdownify/html.rb
+233	0	lib/diaspora/message_renderer.rb
+0	105	spec/helpers/markdownify_helper_spec.rb
+0	2	spec/helpers/notifier_helper_spec.rb
+5	24	spec/helpers/posts_helper_spec.rb
+175	0	spec/lib/diaspora/message_renderer_spec.rb
+4	7	spec/mailers/notifier_spec.rb
+6	6	spec/models/services/facebook_spec.rb
+11	10	spec/models/services/twitter_spec.rb
+0	12	spec/models/status_message_spec.rb
+6	21	spec/presenters/post_presenter_spec.rb

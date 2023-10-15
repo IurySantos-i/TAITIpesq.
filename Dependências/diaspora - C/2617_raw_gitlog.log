@@ -1,0 +1,18 @@
+--d68c8a3a0--2011-07-01--Raphael Sofaer
+--0d8f54844--2011-07-01--Jonne Hass
+--24e3617c6--2011-07-01--Ricardo
+1	1	public/default.html
+
+--1bbfa97e5--2011-06-30--Sarah Mei
+5	0	spec/models/photo_spec.rb
+
+--948a7c5d5--2011-06-30--Sarah Mei
+1	1	app/views/photos/_new_photo.haml
+3	1	features/posts.feature
+4	0	features/step_definitions/posts_steps.rb
+
+--b495e71c7--2011-06-30--Sarah Mei
+1	1	db/schema.rb
+
+--7b3711a78--2011-06-21--Andreas Henrich
+1	1	app/views/conversations/new.haml

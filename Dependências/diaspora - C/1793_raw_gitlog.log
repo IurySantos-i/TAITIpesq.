@@ -1,0 +1,16 @@
+--f788f3426--2013-02-21--Florian Staudacher
+--fe850e9e6--2013-02-21--Jonne Haß
+--e0d0d0f66--2013-02-21--movilla
+1	0	Changelog.md
+1	1	app/views/photos/_new_photo.haml
+11	2	features/posts_from_profile_page.feature
+
+--abaf7f9a2--2013-02-21--Jonne Haß
+1	1	Gemfile
+2	2	Gemfile.lock
+
+--35350d1ce--2013-01-31--Jonne Haß
+1	0	Changelog.md
+1	1	app/controllers/users_controller.rb
+1	0	app/views/users/public.atom.builder
+6	0	spec/controllers/users_controller_spec.rb
