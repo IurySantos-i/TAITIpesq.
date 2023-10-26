@@ -1,0 +1,31 @@
+--3ccd41ca--2015-12-16--TheNotary
+--14b317cb--2015-12-16--TheNotary
+--4bbba67e--2015-12-16--TheNotary
+2	2	app/models/user.rb
+2	2	features/step_definitions/user_steps.rb
+1	1	spec/spec_helper.rb
+
+--326b328e--2015-12-16--TheNotary
+1	1	app/controllers/tools_controller.rb
+1	1	features/support/env.rb
+23	4	spec/controllers/tools_controller_spec.rb
+
+--f252f7e0--2015-12-16--TheNotary
+21	12	features/step_definitions/user_steps.rb
+5	0	features/support/env.rb
+4	2	features/users/achieve_petition_goal.feature
+4	0	spec/controllers/tools_controller_spec.rb
+1	0	spec/factories/action_page.rb
+
+--94394320--2015-12-15--TheNotary
+0	1	app/controllers/tools_controller.rb
+34	0	spec/controllers/tools_controller_spec.rb
+5	0	spec/factories/action_page.rb
+4	1	spec/factories/petitions.rb
+
+--2ded8a9d--2015-12-15--TheNotary
+3	0	app/controllers/tools_controller.rb
+42	0	features/step_definitions/user_steps.rb
+10	2	features/users/achieve_petition_goal.feature
+10	0	spec/factories/action_page.rb
+6	0	spec/factories/petitions.rb

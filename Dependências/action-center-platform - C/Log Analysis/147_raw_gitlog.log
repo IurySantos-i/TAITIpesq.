@@ -1,0 +1,155 @@
+--076e3558--2016-10-25--Peter Woo
+--73d02fa9--2016-10-24--V Brown
+--fa010b74--2016-10-24--vivian
+15	15	app/controllers/registrations_controller.rb
+11	1	features/users/register.feature
+
+--d928aa3e--2016-10-24--Peter Woo
+0	2	README.md
+2	2	app/assets/javascripts/application/smarty_streets.js
+1	3	app/assets/javascripts/application/tools/tweet.js
+0	4	app/controllers/tools_controller.rb
+4	4	app/views/tools/_call.html.erb
+1	1	app/views/tools/_email.html.erb
+2	2	app/views/tools/_tweet.html.erb
+
+--b282860d--2016-10-24--vivian
+19	10	app/controllers/registrations_controller.rb
+2	2	app/helpers/devise_helper.rb
+0	4	app/models/user.rb
+5	0	features/step_definitions/navigation_steps.rb
+4	4	features/users/change_email.feature
+
+--ef1148bb--2016-10-24--vivian
+21	23	app/controllers/registrations_controller.rb
+8	0	app/models/user.rb
+2	0	features/users/register.feature
+
+--2e6240c2--2016-10-24--vivian
+1	1	app/controllers/registrations_controller.rb
+1	1	app/views/user_mailer/signup_attempt_with_existing_email.html.erb
+7	0	features/step_definitions/user_steps.rb
+13	1	features/users/change_email.feature
+
+--e1b246f0--2016-10-24--vivian
+21	11	app/controllers/registrations_controller.rb
+1	0	features/users/change_email.feature
+
+--00b3a758--2016-10-21--vivian
+9	0	app/controllers/registrations_controller.rb
+2	2	features/step_definitions/navigation_steps.rb
+4	2	features/step_definitions/user_steps.rb
+18	5	features/users/change_email.feature
+
+--0194c9c4--2016-10-21--vivian
+10	6	app/controllers/registrations_controller.rb
+2	5	app/helpers/devise_helper.rb
+7	0	app/models/user.rb
+4	0	features/step_definitions/user_steps.rb
+12	1	features/users/register.feature
+4	1	spec/factories/users.rb
+
+--f8add2b0--2016-10-21--vivian
+1	1	app/views/user_mailer/signup_attempt_with_existing_email.text.erb
+
+--ce12c3f7--2016-10-20--V Brown
+--1c28f602--2016-10-20--Peter Woo
+1	1	app/views/tools/_call.html.erb
+
+--d04ae29d--2016-10-20--Peter Woo
+2	2	app/views/tools/_call.html.erb
+
+--d9bc7787--2016-10-20--vivian
+4	2	app/controllers/registrations_controller.rb
+10	0	features/users/register.feature
+
+--e25f21fb--2016-10-20--vivian
+8	0	app/controllers/registrations_controller.rb
+7	0	app/mailers/user_mailer.rb
+8	0	app/views/user_mailer/signup_attempt_with_existing_email.html.erb
+8	0	app/views/user_mailer/signup_attempt_with_existing_email.text.erb
+6	0	features/step_definitions/user_steps.rb
+2	0	features/users/register.feature
+
+--10ca10d8--2016-10-19--vivian
+3	0	app/helpers/devise_helper.rb
+3	2	features/step_definitions/user_steps.rb
+18	0	features/users/register.feature
+
+--744301be--2016-10-19--V Brown
+--38f863f2--2016-10-18--Peter Woo
+2	0	db/migrate/20161018212449_create_congress_members.rb
+15	13	db/schema.rb
+
+--aea00b5f--2016-10-18--Peter Woo
+--12779739--2016-10-18--Peter Woo
+3	1	app/assets/javascripts/application/tools/call.js
+
+--cb711e18--2016-10-18--Peter Woo
+13	15	features/support/env.rb
+4	2	spec/lib/call_tool_spec.rb
+
+--a318da3d--2016-10-18--Peter Woo
+2	2	app/assets/javascripts/admin/email_tabulation.js
+1	1	app/controllers/congress_controller.rb
+2	2	app/controllers/tools_controller.rb
+32	0	app/models/congress_member.rb
+16	0	db/migrate/20161018212449_create_congress_members.rb
+14	1	db/schema.rb
+0	81	lib/congress/member.rb
+52	0	lib/tasks/congress.rake
+2	2	spec/controllers/congress_controller_spec.rb
+0	59	spec/lib/congress/member_spec.rb
+38	0	spec/models/congress_member_spec.rb
+
+--229fa5ad--2016-10-18--Peter Woo
+2	0	app/views/tools/_call.html.erb
+
+--8e0433a0--2016-10-18--Peter Woo
+1	1	app/assets/javascripts/application/tools/email.js.erb
+1	1	app/assets/javascripts/application/tools/tweet.js
+2	2	app/controllers/tools_controller.rb
+
+--697f5ff7--2016-10-13--Peter Woo
+5	3	features/step_definitions/user_steps.rb
+1	1	features/support/call_tool_mock.rb
+16	3	features/support/env.rb
+2	2	features/users/call_action.feature
+
+--a3461c41--2016-10-13--Peter Woo
+1	1	spec/controllers/congress_controller_spec.rb
+0	1	spec/controllers/tools_controller_spec.rb
+59	0	spec/lib/congress/member_spec.rb
+0	48	spec/lib/congress_spec.rb
+
+--d80e04c2--2016-10-13--Peter Woo
+3	1	lib/call_tool.rb
+
+--2039820a--2016-10-13--Peter Woo
+1	3	app/views/tools/_call.html.erb
+
+--2af9828b--2016-10-13--Peter Woo
+3	3	app/assets/javascripts/application/tools/call.js
+
+--11f13081--2016-10-13--Peter Woo
+1	1	app/assets/javascripts/application/tools/call.js
+
+--77a33d21--2016-10-12--Peter Woo
+0	10	app/controllers/admin/petitions_controller.rb
+0	16	app/controllers/tools_controller.rb
+0	1	config/routes.rb
+
+--5ec0b976--2016-10-12--Peter Woo
+0	1	Gemfile
+0	8	Gemfile.lock
+8	6	app/assets/javascripts/application/tools/email.js.erb
+18	27	app/assets/javascripts/application/tools/tweet.js
+1	9	app/controllers/action_page_controller.rb
+1	1	app/controllers/congress_controller.rb
+2	14	app/controllers/tools_controller.rb
+1	1	config/application.rb
+0	1	config/secrets.yml
+0	1	docker-compose.yml.example
+0	20	lib/congress.rb
+81	0	lib/congress/member.rb
+10	0	lib/smarty_streets.rb

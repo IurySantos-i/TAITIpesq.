@@ -1,0 +1,40 @@
+--f907350b--2016-07-26--squiggy
+--bcb1f40d--2016-07-20--vivian
+6	0	app/assets/javascripts/application/tools/petition.js
+57	18	app/assets/stylesheets/action_page.css.scss
+1	0	app/assets/stylesheets/application.css.scss
+10	3	app/assets/stylesheets/application/_base.css.scss
+15	0	app/assets/stylesheets/application/_mixins.css.scss
+1	5	app/views/action_page/show.html.erb
+1	1	app/views/affiliations/_affiliation_fields.html.erb
+36	0	app/views/tools/_affiliation_signatures.html.erb
+2	7	app/views/tools/_signatures.html.erb
+0	15	app/views/tools/_signatures_filter.html.erb
+1	0	config/locales/en.yml
+1	0	config/locales/es.yml
+4	2	features/action_page/local_petition.feature
+1	1	features/action_page/petition.feature
+7	0	features/step_definitions/action_page_steps.rb
+
+--cea8eacb--2016-07-20--vivian
+12	8	app/controllers/action_page_controller.rb
+2	2	app/views/tools/_signatures_filter.html.erb
+1	0	config/routes.rb
+
+--63d32c77--2016-07-19--vivian
+9	0	app/helpers/application_helper.rb
+1	7	app/models/action_page.rb
+
+--468523d9--2016-07-19--vivian
+1	1	app/views/action_page/show.html.erb
+
+--fdf266f2--2016-07-19--vivian
+1	0	app/controllers/action_page_controller.rb
+2	1	app/views/action_page/show.html.erb
+3	2	app/views/tools/_signatures.html.erb
+15	0	app/views/tools/_signatures_filter.html.erb
+0	1	config/locales/en.yml
+0	1	config/locales/es.yml
+
+--d0774d37--2016-07-20--squiggy
+--033046ed--2016-07-18--squiggy

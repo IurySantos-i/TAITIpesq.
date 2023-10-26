@@ -1,0 +1,45 @@
+--6ce2b569--2016-08-16--V Brown
+--e6338452--2016-08-16--vivian
+3	1	app/models/action_page.rb
+
+--e7672128--2016-08-16--V Brown
+--1157e765--2016-08-09--vivian
+6	4	app/controllers/action_page_controller.rb
+1	1	app/views/affiliations/_affiliation_fields.html.erb
+1	1	app/views/tools/_affiliation_signatures.html.erb
+
+--6d29924b--2016-08-09--vivian
+16	6	app/controllers/action_page_controller.rb
+
+--ca1b2be1--2016-08-09--vivian
+0	3	app/controllers/action_page_controller.rb
+
+--e5f6bbfa--2016-08-08--vivian
+8	0	app/assets/stylesheets/application/_base.css.scss
+1	1	app/controllers/admin/institutions_controller.rb
+3	1	app/views/admin/affiliation_types/new.html.erb
+19	13	app/views/admin/institutions/index.html.erb
+
+--52f5bbdc--2016-08-08--vivian
+26	38	app/views/admin/affiliation_types/index.html.erb
+7	3	app/views/admin/affiliation_types/new.html.erb
+38	50	app/views/admin/institutions/index.html.erb
+7	3	app/views/admin/institutions/new.html.erb
+
+--1a52bd31--2016-08-08--vivian
+0	5	spec/models/affiliation_spec.rb
+0	5	spec/models/affiliation_type_spec.rb
+0	5	spec/models/institution_spec.rb
+
+--0ab3c949--2016-08-08--vivian
+12	5	app/views/admin/action_pages/_panel_settings.html.erb
+9	2	features/admin_action_page/{add_institutions.feature => admin_affiliations.feature}
+
+--cb1e3d83--2016-08-08--vivian
+51	0	app/controllers/admin/affiliation_types_controller.rb
+2	0	app/helpers/admin/affiliation_types_helper.rb
+22	0	app/views/admin/affiliation_types/_form.html.erb
+44	0	app/views/admin/affiliation_types/index.html.erb
+5	0	app/views/admin/affiliation_types/new.html.erb
+1	0	config/routes.rb
+80	0	spec/controllers/admin/affiliation_types_controller_spec.rb
