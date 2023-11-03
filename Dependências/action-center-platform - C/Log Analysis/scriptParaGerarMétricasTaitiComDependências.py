@@ -37,7 +37,7 @@ degrees = ['dencies.csv','(10%).csv']
 path_of_the_directory = r"D:\Taiti Pesquisa\Dependências\otwarchive"
 
 df = pd.read_csv('https___github.com_otwcode_otwarchive.csv',engine="python", sep=';')
-
+tasks= pd.read_excel('formalized_tasks_action-center-platform.git.xlsx')
 
 
 testIwithDeps = []

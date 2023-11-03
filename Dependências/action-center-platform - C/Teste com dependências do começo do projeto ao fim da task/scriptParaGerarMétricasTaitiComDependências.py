@@ -34,7 +34,7 @@ repositorio = 'action-center-platform'
 
 degrees = ['dencies.csv','(10%).csv']
 
-path_of_the_directory = r"D:\Taiti Pesquisa\Dependências\action-center-platform - C\Teste com dependências do começo do projeto ao fim da task"
+path_of_the_directory = r"/home/iury/Taiti_Pesquisa/Dependências/action-center-platform - C/Teste com dependências do começo do projeto ao fim da task"
 
 df = pd.read_csv('https___github.com_EFForg_action-center-platform.csv',engine="python", sep=';')
 
@@ -167,7 +167,9 @@ for filename in sorted(os.listdir(path_of_the_directory), key = natural_keys):
 
         filteredChanged =  [s for s in Changed if (s.startswith('app') or s.startswith('lib')) and (s.endswith('.erb') or s.endswith('.rb') or s.endswith('.html') or s.endswith('.haml'))]
         mask = df1.coupled.str.contains(r"^(app|lib).*(\.erb|\.rb|\.html|\.haml)$")
+        print(df1)
         compare_ = df1[mask]
+        print(compare_)
         weaklogicaldependencetemp=df1['coupled'].tolist()
         stronglogicaldependencetemp=df1['entity'].tolist()
 

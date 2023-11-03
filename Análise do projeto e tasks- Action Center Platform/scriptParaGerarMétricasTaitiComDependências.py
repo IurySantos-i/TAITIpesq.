@@ -34,14 +34,18 @@ repositorio = 'action-center-platform'
 
 degrees = ['dencies.csv','(10%).csv']
 
-path_of_the_directory = r"D:\Taiti Pesquisa\Dependências\action-center-platform"
+path_of_the_directory = r"/home/iury/Taiti_Pesquisa/Repositórios_necessários/action-center-platform/Análise do projeto e tasks"
 
 df = pd.read_csv('https___github.com_EFForg_action-center-platform.csv',engine="python", sep=';')
 
 
-
+numberofchangedfiles = [] #para análise 1
+numberoftestifiles = [] #para análise 3
 testIwithDeps = []
+numberoftestiwithdeps = [] #para análise 5
 deps = []
+totalnumberofdeps = []
+numberofdeps = [] #para análise 4
 precision = []
 recall = []
 f2= []
@@ -49,6 +53,7 @@ precisiondeps = []
 recalldeps = []
 f2deps= []
 prodchangedfiles = []
+numberofprodchangedfiles= [] #para análise 2
 testIwithFilteredDeps = []
 filtereddeps = []
 changedprecision = []
@@ -57,6 +62,7 @@ changedf2= []
 changedprecisiondeps = []
 changedrecalldeps = []
 changedf2deps= []
+numberofdepsfortask = [] #para análise
 
 index=0
 
@@ -65,10 +71,11 @@ for filename in sorted(os.listdir(path_of_the_directory), key = natural_keys):
 
             Taiti= df.at[index,'TestI'][1:-1].split(",")
             Taiti = [x.strip(' ') for x in Taiti]
+            tempnumberoftaitifiles = len(Taiti)
 
             Changed= df.at[index,'Changed files'][1:-1].split(",")
             Changed = [x.strip(' ') for x in Changed]
-
+            tempnumberofchangedfiles = len(Changed)
 
             precisionTemp = len(intersection(Taiti,Changed))/len(Taiti)
             recallTemp = len(intersection(Taiti,Changed))/len(Changed)
@@ -77,6 +84,7 @@ for filename in sorted(os.listdir(path_of_the_directory), key = natural_keys):
             else: f2Temp = (5*precisionTemp*recallTemp)/ (4* precisionTemp + recallTemp)
 
             testIwithDeps.append(Taiti)
+            numberoftestiwithdeps.append(tempnumberoftaitifiles)
             deps.append("")
             precision.append(precisionTemp)
             recall.append(recallTemp)
@@ -96,6 +104,7 @@ for filename in sorted(os.listdir(path_of_the_directory), key = natural_keys):
 
 
             prodchangedfiles.append(filteredChanged)
+            numberofprodchangedfiles.append(len(filteredChanged))
             testIwithFilteredDeps.append(Taiti)
             filtereddeps.append('')
             changedprecision.append(filteredprecisionTemp)
@@ -104,7 +113,7 @@ for filename in sorted(os.listdir(path_of_the_directory), key = natural_keys):
             changedprecisiondeps.append(filteredprecisionTemp)
             changedrecalldeps.append(filteredrecallTemp)
             changedf2deps.append(filteredf2Temp)
-
+            numberofdepsfortask.append('0')
 
             index = index+1
             print(filename)
@@ -113,8 +122,8 @@ for filename in sorted(os.listdir(path_of_the_directory), key = natural_keys):
     elif filename.endswith(degrees[0]) and not filename.startswith("http"):
 
         df1 = pd.read_csv(filename, engine="python", sep=',')
-
-        weaklogicaldependence=df1['coupled'].tolist()
+        print(df1)
+        weaklogicaldependence = df1['coupled'].tolist()
 
         stronglogicaldependence=df1['entity'].tolist()
 
@@ -154,7 +163,10 @@ for filename in sorted(os.listdir(path_of_the_directory), key = natural_keys):
             f2depsTemp = 0
         else: f2depsTemp = (5*precisiondepsTemp*recalldepsTemp)/ (4* precisiondepsTemp + recalldepsTemp)
 
+        numberofchangedfiles.append(len(Changed))
+        numberoftestifiles.append(len(Taiti))
         testIwithDeps.append(testIwithDepstemp)
+        numberoftestiwithdeps.append(len(testIwithDepstemp)) 
         deps.append(depstemp)
         precision.append(precisionTemp)
         recall.append(recallTemp)
@@ -202,6 +214,7 @@ for filename in sorted(os.listdir(path_of_the_directory), key = natural_keys):
         else: filteredf2depsTemp = (5*filteredprecisiondepsTemp*filteredrecalldepsTemp)/ (4* filteredprecisiondepsTemp + filteredrecalldepsTemp)
 
         prodchangedfiles.append(filteredChanged)
+        numberofprodchangedfiles.append(len(filteredChanged))
         testIwithFilteredDeps.append(filteredtestIwithDepstemp)
         filtereddeps.append(filtereddepstemp)
         changedprecision.append(filteredprecisionTemp)
@@ -210,7 +223,7 @@ for filename in sorted(os.listdir(path_of_the_directory), key = natural_keys):
         changedprecisiondeps.append(filteredprecisiondepsTemp)
         changedrecalldeps.append(filteredrecalldepsTemp)
         changedf2deps.append(filteredf2depsTemp)
-
+        numberofdepsfortask.append(str(len(weaklogicaldependence)))
 
 
 
@@ -218,8 +231,10 @@ for filename in sorted(os.listdir(path_of_the_directory), key = natural_keys):
 
         print(filename)
         index = index+1
-
+df['NumberOfChangedFiles'] = numberofchangedfiles
+df['NumberOfTestIFiles'] = numberoftestifiles
 df['TestIWithDeps'] = testIwithDeps
+df['NumberOfTestIWithDeps'] = numberoftestiwithdeps
 df['IsolatedDeps'] = deps
 df['Precision'] = precision
 df['Recall'] = recall
@@ -228,6 +243,7 @@ df['PrecisionDeps'] = precisiondeps
 df['RecallDeps'] = recalldeps
 df['F2Deps'] = f2deps
 df['ProductionChangedFiles'] = prodchangedfiles
+df['NumberOfProd.ChangedFiles'] = numberofprodchangedfiles
 df['TestIwithFilteredDeps'] = testIwithFilteredDeps
 df['FilteredDeps'] = filtereddeps
 df['ChangedPrecision'] = changedprecision
@@ -236,15 +252,20 @@ df['Changedf2'] = changedf2
 df['ChangedPrecisionDeps'] = changedprecisiondeps
 df['ChangedRecallDeps'] = changedrecalldeps
 df['Changedf2Deps'] = changedf2deps
+df['NumberOfDepsForTask'] = numberofdepsfortask
+
+
+df.to_csv('TaitiWithdeps_' + repositorio + '(30%).csv', index=False)
 
 
 
-df.to_csv('TaitiWithdeps_' + repositorio + degrees[0], index=False)
-
-
-
+numberofchangedfiles = [] #para análise 1
+numberoftestifiles = [] #para análise 3
 testIwithDeps = []
+numberoftestiwithdeps = [] #para análise 5
 deps = []
+totalnumberofdeps = []
+numberofdeps = [] #para análise 4
 precision = []
 recall = []
 f2= []
@@ -252,6 +273,7 @@ precisiondeps = []
 recalldeps = []
 f2deps= []
 prodchangedfiles = []
+numberofprodchangedfiles= [] #para análise 2
 testIwithFilteredDeps = []
 filtereddeps = []
 changedprecision = []
@@ -260,6 +282,7 @@ changedf2= []
 changedprecisiondeps = []
 changedrecalldeps = []
 changedf2deps= []
+numberofdepsfortask = [] #para análise
 
 index=0
 
@@ -268,9 +291,11 @@ for filename in sorted(os.listdir(path_of_the_directory), key = natural_keys):
 
             Taiti= df.at[index,'TestI'][1:-1].split(",")
             Taiti = [x.strip(' ') for x in Taiti]
+            tempnumberoftaitifiles = len(Taiti)
 
             Changed= df.at[index,'Changed files'][1:-1].split(",")
             Changed = [x.strip(' ') for x in Changed]
+            tempnumberofchangedfiles = len(Changed)
 
 
             precisionTemp = len(intersection(Taiti,Changed))/len(Taiti)
@@ -280,6 +305,7 @@ for filename in sorted(os.listdir(path_of_the_directory), key = natural_keys):
             else: f2Temp = (5*precisionTemp*recallTemp)/ (4* precisionTemp + recallTemp)
 
             testIwithDeps.append(Taiti)
+            numberoftestiwithdeps.append(tempnumberoftaitifiles)
             deps.append("")
             precision.append(precisionTemp)
             recall.append(recallTemp)
@@ -299,6 +325,7 @@ for filename in sorted(os.listdir(path_of_the_directory), key = natural_keys):
 
 
             prodchangedfiles.append(filteredChanged)
+            numberofprodchangedfiles.append(len(filteredChanged))
             testIwithFilteredDeps.append(Taiti)
             filtereddeps.append('')
             changedprecision.append(filteredprecisionTemp)
@@ -307,6 +334,7 @@ for filename in sorted(os.listdir(path_of_the_directory), key = natural_keys):
             changedprecisiondeps.append(filteredprecisionTemp)
             changedrecalldeps.append(filteredrecallTemp)
             changedf2deps.append(filteredf2Temp)
+            numberofdepsfortask.append('0')
 
 
             index = index+1
@@ -316,7 +344,8 @@ for filename in sorted(os.listdir(path_of_the_directory), key = natural_keys):
     elif filename.endswith(degrees[1]) and not filename.startswith("http"):
 
         df1 = pd.read_csv(filename, engine="python", sep=',')
-
+        print(filename)
+        print(df1)
         weaklogicaldependence=df1['coupled'].tolist()
 
         stronglogicaldependence=df1['entity'].tolist()
@@ -357,8 +386,11 @@ for filename in sorted(os.listdir(path_of_the_directory), key = natural_keys):
             f2depsTemp = 0
         else: f2depsTemp = (5*precisiondepsTemp*recalldepsTemp)/ (4* precisiondepsTemp + recalldepsTemp)
 
+        numberofchangedfiles.append(len(Changed))
+        numberoftestifiles.append(len(Taiti))
         testIwithDeps.append(testIwithDepstemp)
-        deps.append(depstemp)
+        numberoftestiwithdeps.append(len(testIwithDepstemp)) 
+        deps.append(depstemp)      
         precision.append(precisionTemp)
         recall.append(recallTemp)
         precisiondeps.append(precisiondepsTemp)
@@ -370,7 +402,9 @@ for filename in sorted(os.listdir(path_of_the_directory), key = natural_keys):
 
         filteredChanged =  [s for s in Changed if (s.startswith('app') or s.startswith('lib')) and (s.endswith('.erb') or s.endswith('.rb') or s.endswith('.html') or s.endswith('.haml'))]
         mask = df1.coupled.str.contains(r"^(app|lib).*(\.erb|\.rb|\.html|\.haml)$")
+        
         compare_ = df1[mask]
+        
         weaklogicaldependencetemp=df1['coupled'].tolist()
         stronglogicaldependencetemp=df1['entity'].tolist()
 
@@ -405,6 +439,7 @@ for filename in sorted(os.listdir(path_of_the_directory), key = natural_keys):
         else: filteredf2depsTemp = (5*filteredprecisiondepsTemp*filteredrecalldepsTemp)/ (4* filteredprecisiondepsTemp + filteredrecalldepsTemp)
 
         prodchangedfiles.append(filteredChanged)
+        numberofprodchangedfiles.append(len(filteredChanged))
         testIwithFilteredDeps.append(filteredtestIwithDepstemp)
         filtereddeps.append(filtereddepstemp)
         changedprecision.append(filteredprecisionTemp)
@@ -413,6 +448,7 @@ for filename in sorted(os.listdir(path_of_the_directory), key = natural_keys):
         changedprecisiondeps.append(filteredprecisiondepsTemp)
         changedrecalldeps.append(filteredrecalldepsTemp)
         changedf2deps.append(filteredf2depsTemp)
+        numberofdepsfortask.append(str(len(weaklogicaldependence)))
 
 
 
@@ -422,8 +458,12 @@ for filename in sorted(os.listdir(path_of_the_directory), key = natural_keys):
         print(filename)
         index = index+1
 
+df['NumberOfChangedFiles'] = numberofchangedfiles
+df['NumberOfTestIFiles'] = numberoftestifiles
 df['TestIWithDeps'] = testIwithDeps
+df['NumberOfTestIWithDeps'] = numberoftestiwithdeps
 df['IsolatedDeps'] = deps
+
 df['Precision'] = precision
 df['Recall'] = recall
 df['F2'] = f2
@@ -431,6 +471,7 @@ df['PrecisionDeps'] = precisiondeps
 df['RecallDeps'] = recalldeps
 df['F2Deps'] = f2deps
 df['ProductionChangedFiles'] = prodchangedfiles
+df['NumberOfProd.ChangedFiles'] = numberofprodchangedfiles
 df['TestIwithFilteredDeps'] = testIwithFilteredDeps
 df['FilteredDeps'] = filtereddeps
 df['ChangedPrecision'] = changedprecision
@@ -439,10 +480,10 @@ df['Changedf2'] = changedf2
 df['ChangedPrecisionDeps'] = changedprecisiondeps
 df['ChangedRecallDeps'] = changedrecalldeps
 df['Changedf2Deps'] = changedf2deps
+df['NumberOfDepsForTask'] = numberofdepsfortask
 
 
-
-df.to_csv('TaitiWithdeps_' + repositorio + degrees[1], index=False)
+df.to_csv('TaitiWithdeps_' + repositorio + '( 10% ).csv', index=False)
 
 
 
