@@ -324,14 +324,14 @@ for element in inclusivedeps:
     numberofinclusivedeps.append(len(element))
 
 df['DurationOfTask(Days)'] = days
-df['NumberOfChangedFiles'] = numberofchangedfiles
-df['NumberOfTestIFiles'] = numberoftestifiles
+df['#ChangedFiles'] = numberofchangedfiles
+df['#TestIFiles'] = numberoftestifiles
 df['TestIWithDeps'] = testIwithDeps
-df['NumberOfTestIWithDeps'] = numberoftestiwithdeps
+df['#TestIWithDeps'] = numberoftestiwithdeps
 df['InclusiveDeps'] = inclusivedeps
 df['ExclusiveDeps'] = deps
-df['NumberOfInclusiveDeps'] = numberofinclusivedeps
-df['NumberOfExclusiveDeps'] = numberofexclusivedeps
+df['#InclusiveDeps'] = numberofinclusivedeps
+df['#ExclusiveDeps'] = numberofexclusivedeps
 df['Precision'] = precision
 df['Recall'] = recall
 df['F2'] = f2
@@ -339,16 +339,19 @@ df['PrecisionDeps'] = precisiondeps
 df['RecallDeps'] = recalldeps
 df['F2Deps'] = f2deps
 df['ProductionChangedFiles'] = prodchangedfiles
-df['NumberOfProd.ChangedFiles'] = numberofprodchangedfiles
+df['#Prod.ChangedFiles'] = numberofprodchangedfiles
 df['TestIwithFilteredDeps'] = testIwithFilteredDeps
 df['FilteredDeps'] = filtereddeps
-df['ChangedPrecision'] = changedprecision
-df['ChangedRecall'] = changedrecall
-df['Changedf2'] = changedf2
-df['ChangedPrecisionDeps'] = changedprecisiondeps
-df['ChangedRecallDeps'] = changedrecalldeps
-df['Changedf2Deps'] = changedf2deps
-df['NumberOfDepsForTask'] = numberofdepsfortask
+df['FilteredPrecision'] = changedprecision
+df['FilteredRecall'] = changedrecall
+df['Filteredf2'] = changedf2
+df['FilteredPrecisionDeps'] = changedprecisiondeps
+df['FilteredRecallDeps'] = changedrecalldeps
+df['Filteredf2Deps'] = changedf2deps
+df['#DepsForTask'] = numberofdepsfortask
+df['TotalFiles'] = totalfiles
+df['ProportionOfChange'] = percentofchange
+
 
 
 df.to_csv('TaitiWithdeps_' + repositorio + '(30%).csv', index=False)
@@ -599,14 +602,14 @@ for element in inclusivedeps:
     numberofinclusivedeps.append(len(element))
 
 df['DurationOfTask(Days)'] = days
-df['NumberOfChangedFiles'] = numberofchangedfiles
-df['NumberOfTestIFiles'] = numberoftestifiles
+df['#ChangedFiles'] = numberofchangedfiles
+df['#TestIFiles'] = numberoftestifiles
 df['TestIWithDeps'] = testIwithDeps
-df['NumberOfTestIWithDeps'] = numberoftestiwithdeps
+df['#TestIWithDeps'] = numberoftestiwithdeps
 df['InclusiveDeps'] = inclusivedeps
 df['ExclusiveDeps'] = deps
-df['NumberOfInclusiveDeps'] = numberofinclusivedeps
-df['NumberOfExclusiveDeps'] = numberofexclusivedeps
+df['#InclusiveDeps'] = numberofinclusivedeps
+df['#ExclusiveDeps'] = numberofexclusivedeps
 df['Precision'] = precision
 df['Recall'] = recall
 df['F2'] = f2
@@ -614,16 +617,16 @@ df['PrecisionDeps'] = precisiondeps
 df['RecallDeps'] = recalldeps
 df['F2Deps'] = f2deps
 df['ProductionChangedFiles'] = prodchangedfiles
-df['NumberOfProd.ChangedFiles'] = numberofprodchangedfiles
+df['#Prod.ChangedFiles'] = numberofprodchangedfiles
 df['TestIwithFilteredDeps'] = testIwithFilteredDeps
 df['FilteredDeps'] = filtereddeps
-df['ChangedPrecision'] = changedprecision
-df['ChangedRecall'] = changedrecall
-df['Changedf2'] = changedf2
-df['ChangedPrecisionDeps'] = changedprecisiondeps
-df['ChangedRecallDeps'] = changedrecalldeps
-df['Changedf2Deps'] = changedf2deps
-df['NumberOfDepsForTask'] = numberofdepsfortask
+df['FilteredPrecision'] = changedprecision
+df['FilteredRecall'] = changedrecall
+df['Filteredf2'] = changedf2
+df['FilteredPrecisionDeps'] = changedprecisiondeps
+df['FilteredRecallDeps'] = changedrecalldeps
+df['Filteredf2Deps'] = changedf2deps
+df['#DepsForTask'] = numberofdepsfortask
 df['TotalFiles'] = totalfiles
 df['ProportionOfChange'] = percentofchange
 
