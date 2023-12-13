@@ -10,4 +10,4 @@ def clone_repos(repo_list, folder_path):
         subprocess.run(['git', 'clone', repo_url])
 
 print(len(lista))
-clone_repos(lista,r'/home/iury/Taiti_Pesquisa/Repositórios_necessários')
+clone_repos(lista,r'/home/iury/Documents/Trabalho/Repositórios_necessários')
