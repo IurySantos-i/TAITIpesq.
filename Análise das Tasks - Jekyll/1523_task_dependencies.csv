@@ -1,0 +1,4 @@
+entity,coupled,degree,average-revs
+lib/jekyll/collection.rb,lib/jekyll/document.rb,69,12
+lib/jekyll/document.rb,lib/jekyll/site.rb,37,16
+lib/jekyll/collection.rb,lib/jekyll/site.rb,30,17
