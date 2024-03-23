@@ -1,4 +1,3 @@
-
 import pandas as pd
 from git import Repo
 
@@ -6,7 +5,7 @@ from git import Repo
 df = pd.read_excel('formalized_tasks_action-center-platform.git.xlsx')
 
 # set the path to the local git repository
-repo_path = r"D:\Taiti Pesquisa\Repositórios necessários\action-center-platform"
+repo_path = "/home/iury/Documents/Trabalho/Repositórios_necessários/action-center-platform/"
 
 # loop through each row and generate the git log file
 for index, row in df.iterrows():
@@ -16,7 +15,14 @@ for index, row in df.iterrows():
     task_id = row['TASK_ID']
 
     # generate the git log command
-    git_log_command = f'git log --pretty=format:"--%h--%ad--%aN" --date=short --numstat {most_recent_commit}..HEAD'
+    git_log_command = [
+        'git',
+        'log',
+        '--pretty=format:"--%h--%ad--%aN"',
+        '--date=short',
+        '--numstat',
+        f'{most_recent_commit}..HEAD'
+    ]
 
     # set the path to the destination file
     dest_path = f"{task_id}_raw_gitlog.log"
@@ -26,4 +32,3 @@ for index, row in df.iterrows():
         repo = Repo(repo_path)
         git_log = repo.git.execute(git_log_command)
         f.write(git_log)
-

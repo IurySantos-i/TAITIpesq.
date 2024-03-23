@@ -350,7 +350,7 @@ df['FilteredRecallDeps'] = changedrecalldeps
 df['Filteredf2Deps'] = changedf2deps
 df['#DepsForTask'] = numberofdepsfortask
 df['TotalFiles'] = totalfiles
-df['ProportionOfChange'] = percentofchange
+df['%Change'] = percentofchange
 
 
 
@@ -628,7 +628,7 @@ df['FilteredRecallDeps'] = changedrecalldeps
 df['Filteredf2Deps'] = changedf2deps
 df['#DepsForTask'] = numberofdepsfortask
 df['TotalFiles'] = totalfiles
-df['ProportionOfChange'] = percentofchange
+df['%Change'] = percentofchange
 
 
 df.to_csv('TaitiWithdeps_' + repositorio + '( 10% ).csv', index=False)
